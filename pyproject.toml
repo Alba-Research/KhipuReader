@@ -1,0 +1,66 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "khipu-reader"
+version = "0.1.0"
+description = "Open-source framework for reading Andean khipus — numerical (Locke) and textual (ALBA syllabary) channels."
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.9"
+authors = [
+    {name = "Julien Sivan", email = "julien.sivan@alba-project.org"},
+]
+keywords = ["khipu", "quipu", "inca", "quechua", "archaeology", "decipherment", "ALBA"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Text Processing :: Linguistic",
+]
+dependencies = [
+    "pandas>=1.5",
+]
+
+[project.optional-dependencies]
+xlsx = [
+    "openpyxl>=3.0",
+]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov",
+    "ruff",
+    "openpyxl>=3.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/alba-project/KhipuReader"
+Documentation = "https://github.com/alba-project/KhipuReader#readme"
+Repository = "https://github.com/alba-project/KhipuReader"
+Issues = "https://github.com/alba-project/KhipuReader/issues"
+Paper = "https://doi.org/10.5281/zenodo.XXXXXXX"
+
+[project.scripts]
+khipu-reader = "khipu_translator.cli:main"
+khipu = "khipu_translator.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+khipu_translator = ["data/*.txt", "data/*.json"]
+
+[tool.ruff]
+target-version = "py39"
+line-length = 100
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
