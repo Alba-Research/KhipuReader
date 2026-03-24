@@ -257,6 +257,26 @@ def cmd_info(args):
         print(f"Notes:      {khipu.notes[:200]}")
 
 
+def cmd_header(args):
+    """Show the 'identity card' of a khipu (first cluster analysis)."""
+    from khipu_translator.database import KhipuDB
+    from khipu_translator.translator import translate
+    from khipu_translator.header import analyze_header, format_header
+
+    db = KhipuDB(db_path=args.db) if args.db else KhipuDB()
+
+    try:
+        result = translate(args.khipu, db=db, lang=args.lang)
+    except KeyError as e:
+        print(f"Error: {e}", file=sys.stderr)
+        sys.exit(1)
+    finally:
+        db.close()
+
+    header = analyze_header(result, lang=args.lang)
+    print(format_header(header))
+
+
 def cmd_syllabary(args):
     """Print the ALBA syllabary."""
     from khipu_translator.syllabary import describe_syllabary
@@ -299,6 +319,13 @@ def main():
     p_cp.add_argument("khipu2", help="Second khipu ID")
     p_cp.add_argument("--db", help=db_help)
     p_cp.set_defaults(func=cmd_compare)
+
+    # header
+    p_hd = sub.add_parser("header", aliases=["h"], help="Show document identity card")
+    p_hd.add_argument("khipu", help="Khipu ID")
+    p_hd.add_argument("--db", help=db_help)
+    p_hd.add_argument("--lang", choices=["en", "fr", "es"], default="en")
+    p_hd.set_defaults(func=cmd_header)
 
     # unclaimed
     p_uc = sub.add_parser("unclaimed", help="List unanalyzed khipus")
