@@ -79,21 +79,41 @@ def extract_date(
     KhipuDate or None
         The extracted date, or None if no date pattern detected.
     """
-    # Get first 20 L1 cord values in order
+    # Get first 20 L1 cord RAW LOCKE values in order.
+    # CRITICAL: for dating, use the raw Locke value (sum of ALL knot_value_type)
+    # regardless of STRING/INT classification. A cord with 2 L-knots (turns=2+3)
+    # has Locke value 5 even though it's classified as STRING. For dates, we
+    # read the NUMBER, not the text.
     first_values = []
     first_types = []
     for cl in result.clusters:
         for c in cl.cords:
             if c.level == 1:
-                if c.cord_type == "INT" and c.locke_value is not None:
-                    first_values.append(int(c.locke_value))
-                    first_types.append("INT")
-                elif c.cord_type == "STRING":
-                    first_values.append(None)
-                    first_types.append("STRING")
-                elif c.cord_type == "EMPTY":
+                # Use locke_value if available (INT cords)
+                # For STRING cords, compute raw Locke from s_prefix + locke
+                # For EMPTY cords, value is 0
+                if c.cord_type == "EMPTY":
                     first_values.append(0)
                     first_types.append("EMPTY")
+                elif c.locke_value is not None:
+                    first_values.append(int(c.locke_value))
+                    first_types.append(c.cord_type)
+                elif c.cord_type == "STRING":
+                    # STRING cord: the Locke value is the S-prefix
+                    # BUT we also need the L-knot turn values summed
+                    # The translator stores s_prefix but not the L-knot sum
+                    # We need to compute it from knot_sequence
+                    raw_val = c.s_prefix  # S-knot contribution
+                    # Parse knot_sequence to get L-knot values
+                    # Format: "L3 L4" or "S10 L6 E" etc.
+                    if c.knot_sequence:
+                        for part in c.knot_sequence.split():
+                            if part.startswith("L") and part[1:].isdigit():
+                                raw_val += int(part[1:])
+                            elif part == "E":
+                                raw_val += 1  # figure-8 = 1 in Locke
+                    first_values.append(raw_val if raw_val > 0 else 0)
+                    first_types.append("STRING")
                 else:
                     first_values.append(0)
                     first_types.append("OTHER")
@@ -157,15 +177,14 @@ def _try_mode_a(
     if year_val is None:
         return None
 
-    # Step 2: find MONTH after year (skip STRING, max 3 positions forward)
+    # Step 2: find MONTH after year (max 3 positions forward)
+    # DO NOT skip STRING — their raw Locke value may be the month
     month_val = None
     month_pos = None
     for offset in range(1, 4):
         pos = year_pos + offset
         if pos >= len(values):
             break
-        if types[pos] == "STRING":
-            continue  # skip STRING cords
         v = values[pos]
         if v is not None and isinstance(v, int) and 1 <= v <= 12:
             month_val = v
