@@ -1,12 +1,14 @@
 # KhipuReader
 
-**Reading the lost library of the Inca Empire, together.**
+**An open-source tool for reading Andean khipus.**
 
-619 khipus survive in museums around the world. Each one is a knotted-cord document — a tax record, an astronomical journal, a legal proceeding, a census, a map. We can read the numbers (Locke 1923). We are starting to read the words (ALBA syllabary, Sivan 2026). But most of them have never been interpreted.
+619 khipus survive in museums around the world. Each one is a knotted-cord document from the Inca Empire — a tax record, an astronomical journal, a legal proceeding, a census, a map. We can read the numbers (Locke 1923). We are starting to read the words (ALBA syllabary, Sivan 2026).
 
-This project is building the **reconstructed library** — one khipu at a time, as a community.
+KhipuReader translates any khipu from the [Open Khipu Repository](https://github.com/khipulab/open-khipu-repository) — install it, pick a khipu, and read what's on it.
 
-## Progress
+For those who want to go further, the project also hosts a **community effort** to build the reconstructed library of the Inca Empire — one khipu at a time.
+
+## Community progress
 
 ```
 [=>                            ] 6/619 khipus analyzed (1.0%)
