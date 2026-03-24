@@ -245,6 +245,67 @@ HISTORICAL MATCH
             "Oracle protocol: elmundomagico.org/the-oracle-of-pachacamac",
         ],
     },
+    "UR1091": {
+        "summary": ("Murder case — the most violent khipu in the corpus. Contains the ONLY "
+                    "occurrence of 'mana' (negation) across all 619 khipus. The death of the "
+                    "mother (mama) is encoded as a 3-element periphrasis: tana(family support) "
+                    "+ mana(no more) + llapa(divine lightning of Illapa). The uncle (kaka x3) "
+                    "is the accused, armed with maka (weapon x3). 9 testimony votes of guilty. "
+                    "Compensation of 682 units paid to the father. The khipu opens with S0 S0 "
+                    "(explicit double-zero) — one of only 2 such cords in the entire corpus — "
+                    "signaling the victim is 'counted at zero' = dead."),
+        "confidence": "Medium (single occurrence but 4 converging signals: S0 S0 + tana mana + llapa + 4x compensation)",
+        "interpretation": """IDENTIFICATION
+  89 cords, 21 clusters, 14 STRING. Museum Fur Volkerkunde, Munich.
+  9-phase judicial dossier separated by empty cords.
+  Contains the ONLY occurrence of "mana" (negation) in 619 khipus.
+
+THE DEATH SIGNAL: 3 ELEMENTS
+  1. S0 S0 (cord 2): explicit double-zero = the victim is counted at zero = DEAD.
+     Only 2 such cords exist in the entire OKR (54,000 cords). 0.004% frequency.
+  2. "tana mana" (cords 6-7): "the family support is no more" = verbal euphemism.
+     The word wañuy (to die) cannot be written in ALBA (ñ is not encodable).
+     The scribe uses a periphrasis instead.
+  3. "llapa" with S-prefix=20 (cord 12): divine lightning of Illapa.
+     Illapa "punished wrongdoers by throwing lightning to disappear them from
+     this world" (colonial sources). llapa = divine judgment / death sentence.
+
+9-PHASE READING
+  Phase 1: [0, 0] + [50, 50, 30, 20]
+    → S0 S0 = victim dead. Then: victim's assets (total=150).
+  Phase 2: tana(support) mana(no more) maka(weapon) mama(mother) maka(weapon) chiy(?) llapa=20(divine lightning)
+    → "The support is no more. Weapon against the mother. Divine judgment."
+    → Then: 110, 4, 4, 3, 4 = fine amounts.
+  Phase 2b: maka(weapon) kaka(uncle x3) kaki(?)
+    → The accused: the uncle, who had the weapon.
+  Phases 3-5: 9x figure-eight (value=1 each)
+    → 9 testimony votes: GUILTY.
+  Phase 6: [13, 21, 6, 5, 12] + mama(mother)
+    → Compensation amounts due for the dead mother.
+  Phases 7-8: [4,3,3,2,3,3] [5,3,3,2,3,5] [5,2,2,1,1,3]
+    → Payment schedule details (symmetric registers).
+  Phase 9: papi=10(father?) + [9,10,9,7,6,11,17,6,4,5,7] + 116(total)
+    → Closure. Father receives compensation. Final total = 116.
+
+COMPARATIVE EVIDENCE
+  UR110 and UR112 have same violence+kinship pattern (maka+kaka+mama)
+  but WITHOUT tana/mana/llapa/S0 → assault cases, not murder.
+  Their compensation totals (169, 188) are 4x LOWER than UR1091 (682).
+  The death markers are what distinguish murder from assault.
+
+LINGUISTIC DISCOVERY
+  The Quechua word wañuy (to die) is unwritable in ALBA because the
+  phoneme ñ (palatal nasal) has no knot encoding. This forces the scribe
+  to use a periphrasis: "tana mana" = "the support is no more".
+  This structural limitation of the syllabary explains why "death" never
+  appears as a single word in any of the 619 khipus.""",
+        "references": [
+            "Sivan 2026, ALBA Project",
+            "Illapa thunder god: mythlok.com/illapa",
+            "Illapa punishment: peruvianshades.com/en/blog/god-of-thunder-lightning-and-rain-illapa",
+            "Compare UR110, UR112 (assault without death markers)",
+        ],
+    },
 }
 
 

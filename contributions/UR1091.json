@@ -1,0 +1,15 @@
+{
+  "khipu": "UR1091",
+  "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
+  "date": "2026-03-24",
+  "status": "proposed",
+  "confidence": "medium",
+  "summary": "Murder case — the most violent khipu in the corpus. Death encoded as 3-element periphrasis: tana(support) + mana(no more) + llapa(divine lightning). Opens with S0 S0 (explicit double-zero = dead). Uncle (kaka x3) killed the mother (mama) with a weapon (maka x3). 9 guilty votes. Compensation 682 to the father.",
+  "interpretation": "See knowledge.py for full 9-phase reading.",
+  "column_names": {},
+  "references": [
+    "Sivan 2026, ALBA Project",
+    "Illapa thunder god (colonial sources)"
+  ],
+  "reconstructed_xlsx": null
+}
