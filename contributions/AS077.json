@@ -1,0 +1,14 @@
+{
+  "khipu": "AS077",
+  "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
+  "date": "2026-03-24",
+  "status": "proposed",
+  "confidence": "medium",
+  "summary": "Zone inventory — 5 entries in a regular 4-column format (flag | place1 | place2 | measurement). All words start with qa-: qaqa(rock), qama(dwelling), qaki, qaka = 4 named geographic zones. Followed by 4 clusters of pure numbers (recap). A mini-cadastre of 4 neighborhoods.",
+  "interpretation": "See knowledge.py for full research notes.",
+  "column_names": {},
+  "references": [
+    "Sivan 2026, ALBA Project"
+  ],
+  "reconstructed_xlsx": null
+}

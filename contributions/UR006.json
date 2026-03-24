@@ -1,0 +1,14 @@
+{
+  "khipu": "UR006",
+  "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
+  "date": "2026-03-24",
+  "status": "confirmed",
+  "confidence": "high",
+  "summary": "Astronomical observation journal (~1500 CE, Leymebamba). 24 months x 9 columns tracking Moon, Mars, Pleiades and dark constellations. Confirmed by 5 independent proofs: Mars ephemerides (r=0.62), Pleiades invisibility matching Blas Valera, eclipse at month 9, local climate in P9, and cross-site validation with UR1136.",
+  "interpretation": "See knowledge.py for full research notes.",
+  "column_names": {},
+  "references": [
+    "Sivan 2026, ALBA Project"
+  ],
+  "reconstructed_xlsx": "UR006_observatory_journal.xlsx"
+}

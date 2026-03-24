@@ -1,0 +1,14 @@
+{
+  "khipu": "AS076",
+  "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
+  "date": "2026-03-24",
+  "status": "reviewed",
+  "confidence": "medium",
+  "summary": "Naming ceremony (rutuchikuy = first hair cutting). 16 cords, 62% text. Vocabulary entirely about identity: chiki/chikiki/chikikiqa (self/your-identity/regarding-your-identity), plus tata (father), mama (mother), taki (ritual song), qaki (frost = season or child name). Same format as AS014 (British Museum).",
+  "interpretation": "See knowledge.py for full research notes.",
+  "column_names": {},
+  "references": [
+    "Sivan 2026, ALBA Project"
+  ],
+  "reconstructed_xlsx": null
+}

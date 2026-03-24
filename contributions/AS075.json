@@ -1,0 +1,14 @@
+{
+  "khipu": "AS075",
+  "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
+  "date": "2026-03-24",
+  "status": "proposed",
+  "confidence": "medium",
+  "summary": "Pilgrimage register (Pachacamac oracle). 186 cords. 4 words in the header match the 4 documented stages of the Pachacamac pilgrimage: waqaki(ritual weeping), taki(ceremonial song), chaki(walking on foot through 3 enclosures), piqa(ascent to the summit/Temple of the Sun). Small monthly counts (1-15) = pilgrimage events tracked over ~3 years.",
+  "interpretation": "See knowledge.py for full research notes.",
+  "column_names": {},
+  "references": [
+    "Sivan 2026, ALBA Project"
+  ],
+  "reconstructed_xlsx": null
+}

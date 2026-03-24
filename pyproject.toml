@@ -42,10 +42,10 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/alba-project/KhipuReader"
-Documentation = "https://github.com/alba-project/KhipuReader#readme"
-Repository = "https://github.com/alba-project/KhipuReader"
-Issues = "https://github.com/alba-project/KhipuReader/issues"
+Homepage = "https://github.com/julienTeam/KhipuReader"
+Documentation = "https://github.com/julienTeam/KhipuReader#readme"
+Repository = "https://github.com/julienTeam/KhipuReader"
+Issues = "https://github.com/julienTeam/KhipuReader/issues"
 Paper = "https://doi.org/10.5281/zenodo.XXXXXXX"
 
 [project.scripts]

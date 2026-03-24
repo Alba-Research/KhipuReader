@@ -1,0 +1,14 @@
+{
+  "khipu": "HP020",
+  "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
+  "date": "2026-03-24",
+  "status": "reviewed",
+  "confidence": "medium-high",
+  "summary": "Cadastral survey or location instruction (Pachacamac). 29 cords, paired with HP019 (22 cords). Contains qaqa(rock) x4, chiqa(benchmark), taqataqa(boundary), plus a unique triangulation (7-7 symmetric) pointing to a sacred rock (qaqaqa on the only GG cord). 6 anomalies distinguish it from a standard cadastre.",
+  "interpretation": "See knowledge.py for full research notes.",
+  "column_names": {},
+  "references": [
+    "Sivan 2026, ALBA Project"
+  ],
+  "reconstructed_xlsx": null
+}

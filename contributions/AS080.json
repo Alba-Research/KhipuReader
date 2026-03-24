@@ -1,0 +1,14 @@
+{
+  "khipu": "AS080",
+  "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
+  "date": "2026-03-24",
+  "status": "reviewed",
+  "confidence": "high",
+  "summary": "Cadastral survey — a 6-step surveyor route with distances and landmarks. All 4 STRING words are cadastral (100% hit rate): paqa(east), chiqa(benchmark), taqa(boundary), kaqa(wall). Large numbers (170, 70, 50) suggest long distances. Same format as HP020.",
+  "interpretation": "See knowledge.py for full research notes.",
+  "column_names": {},
+  "references": [
+    "Sivan 2026, ALBA Project"
+  ],
+  "reconstructed_xlsx": null
+}
