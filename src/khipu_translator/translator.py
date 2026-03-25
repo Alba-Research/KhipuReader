@@ -1054,6 +1054,25 @@ def _knots_to_word(knot_group: list[dict]) -> Optional[str]:
     return "".join(syllables) if syllables else None
 
 
+_AFFIX_LABELS = {"GEN", "ACC", "TOP", "INF", "POSS", "OBL", "REFL",
+                  "DIR", "PASS", "RECIP", "CAUS", "LIM", "INTER",
+                  "1OBJ", "DIM"}
+
+
+def _strip_affixes(word: str) -> str:
+    """Strip grammatical prefix/suffix labels from a word to get the bare root.
+
+    Handles multiple affixes: 'tama-1OBJ-DIM' → 'tama',
+    'GEN-chayyy' → 'chayyy', 'ACC-papa-GEN' → 'papa'.
+    """
+    if "-" not in word:
+        return word
+    parts = word.split("-")
+    # Keep only parts that are NOT affix labels
+    core = [p for p in parts if p not in _AFFIX_LABELS]
+    return "".join(core) if core else word
+
+
 def _read_alba_word(terminal_knots: pd.DataFrame) -> tuple[Optional[str], bool]:
     """
     Decode a STRING cord's terminal knots into proposed Quechua word(s).
@@ -1242,15 +1261,17 @@ def translate(
                     glosses_en = []
                     glosses_fr = []
                     for sw in split_words:
-                        sw_ok = (sw in DICTIONARY
-                                 or normalize_onset(sw) in DICTIONARY)
-                        if not sw_ok:
-                            sw_morph = analyze_morphology(sw, lang=lang)
-                            if not sw_morph.is_decomposable:
+                        # Strip affix labels for dictionary lookup
+                        bare = _strip_affixes(sw)
+                        bare_ok = (bare in DICTIONARY
+                                   or normalize_onset(bare) in DICTIONARY)
+                        if not bare_ok:
+                            bare_morph = analyze_morphology(bare, lang=lang)
+                            if not bare_morph.is_decomposable:
                                 all_confirmed = False
-                        vocabulary[sw] += 1
-                        # Get gloss for display
-                        sw_morph = analyze_morphology(sw, lang=lang)
+                        vocabulary[bare] += 1
+                        # Get gloss for display (use bare root)
+                        sw_morph = analyze_morphology(bare, lang=lang)
                         glosses_en.append(sw_morph.root_gloss_en or sw)
                         glosses_fr.append(sw_morph.root_gloss_fr or sw)
 
@@ -1261,11 +1282,12 @@ def translate(
                     alba_compound = " + ".join(split_words)
                 else:
                     # Single word (no split or 2-knot cord)
+                    bare = _strip_affixes(alba_word)
                     alba_confirmed = (
-                        alba_word in DICTIONARY
-                        or normalize_onset(alba_word) in DICTIONARY
+                        bare in DICTIONARY
+                        or normalize_onset(bare) in DICTIONARY
                     )
-                    morph = analyze_morphology(alba_word, lang=lang)
+                    morph = analyze_morphology(bare, lang=lang)
                     alba_gloss_en = morph.root_gloss_en or None
                     alba_gloss_fr = morph.root_gloss_fr or None
 
@@ -1283,7 +1305,7 @@ def translate(
 
                 # Count in vocabulary (multi-word already counted above)
                 if " " not in alba_word:
-                    vocabulary[alba_word] += 1
+                    vocabulary[_strip_affixes(alba_word)] += 1
 
             # Numerical prefix (S-knots on STRING cords)
             if len(simple) > 0:

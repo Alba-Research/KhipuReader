@@ -148,6 +148,16 @@ GLOSSARY_ES: dict[str, str] = {
     "piku":   "cumbre",
     "makana": "maza de guerra (macana)",
     "llaki":  "tristeza / pena",
+
+    # v4 — confirmados en análisis UR055
+    "way":    "camino / vía",
+    "chata":  "golpear [AY]",
+    "sisi":   "hormiga",
+    "sika":   "subir / trepar",
+    "sipi":   "matar / estrangular",
+    "tipi":   "arrancar / descortezar",
+    "tiy":    "sentarse",
+    "wama":   "halcón",
 }
 
 

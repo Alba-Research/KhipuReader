@@ -37,6 +37,11 @@ QUECHUA_SUFFIXES: dict[str, tuple[str, str, str]] = {
     "ti":  ("CAUS",  "faire",        "causative"),
     "lla": ("LIM",   "seulement",    "only/limitative"),
     "pi":  ("INTER", "qui?",         "who?/interrogative"),
+    # Isolated onset forms after positional split (3rd reading of L7/L8):
+    # L7: onset=wa, coda=y, isolated=wa (-wa 1st person object "me")
+    # L8: onset=cha, coda=na, isolated=cha (-cha diminutive/affective)
+    "wa":  ("1OBJ",  "me/a moi",    "me/to me"),
+    "cha": ("DIM",   "petit",        "small/diminutive"),
 }
 
 
@@ -179,6 +184,16 @@ GLOSSARY: dict[str, tuple[str, str, str]] = {
     "piku":   ("sommet",            "summit",           "geography"),
     "makana": ("massue de guerre",  "war club",         "weapon"),
     "llaki":  ("tristesse",         "sadness",          "emotion"),
+
+    # v4 — words confirmed from UR055 oracle analysis
+    "way":    ("chemin/voie",       "path/way",         "geography"),
+    "chata":  ("frapper [AY]",     "to hit [AY]",      "action"),
+    "sisi":   ("fourmi",            "ant",              "nature"),
+    "sika":   ("monter/grimper",    "to climb",         "action"),
+    "sipi":   ("tuer/etrangler",    "to kill/strangle", "action"),
+    "tipi":   ("arracher",          "to tear out",      "action"),
+    "tiy":    ("s'asseoir",         "to sit",           "action"),
+    "wama":   ("faucon",            "falcon",           "nature"),
 }
 
 
