@@ -285,6 +285,16 @@ def detect_document_type(
             # Suppress astro — mama+kaki in a violent context is NOT astronomy
             scores["astronomical_journal"] *= 0.3
 
+    # Oracle/governance text: wapa (intendant) + pi (who?) + chay (this) + papa (father)
+    # These are NOT astronomical — suppress astro when governance vocabulary dominates
+    governance_words = {"wapa", "pi", "chay", "papa", "pata", "chapa", "tapa"}
+    governance_hits = len(words & governance_words)
+    governance_total = sum(vocabulary.get(w, 0) for w in words & governance_words)
+    if governance_hits >= 4 or governance_total >= 20:
+        scores["ritual_oracle"] *= 2.0
+        scores["ritual_oracle"] = max(scores["ritual_oracle"], 2.5)
+        scores["astronomical_journal"] *= 0.2  # strong suppression
+
     # Labor: maki + companions
     if "maki" in words:
         labor_companions = {"kiki", "kaki", "tama", "paki", "kata"}
