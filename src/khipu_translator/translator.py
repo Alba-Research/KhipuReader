@@ -960,42 +960,128 @@ class TranslationResult:
 # --- Main translate function -------------------------------------------------
 
 
-def _read_alba_word(terminal_knots: pd.DataFrame) -> tuple[Optional[str], bool]:
+def _split_knots_by_position(terminal_knots: pd.DataFrame) -> list[list[dict]]:
     """
-    Decode a STRING cord's terminal knots into a proposed Quechua word.
+    Split a cord's terminal knots into word groups using knot_value_type
+    positional resets (Locke Word Splitting).
 
-    Uses onset polyphony (v3): the first knot may read differently.
+    When knot_value_type INCREASES from one knot to the next, the scribe
+    has moved back UP the cord = start of a new word.
 
-    Returns
-    -------
-    (word, is_l1_null) : tuple
-        word is None if unreadable. is_l1_null flags NULL turns in OKR.
+    Only applies to cords with 3+ terminal knots. Cords with 2 knots
+    = always 1 word.
+
+    Returns list of knot groups, each group = one word.
+    """
+    knots = []
+    for _, knot in terminal_knots.iterrows():
+        tc = str(knot.get("TYPE_CODE", "")).strip()
+        turns = knot.get("NUM_TURNS")
+        kvt = knot.get("knot_value_type", 0) or 0
+        knots.append({"tc": tc, "turns": turns, "kvt": int(kvt)})
+
+    # Only split cords with 3+ knots
+    if len(knots) < 3:
+        return [knots]
+
+    # Check if kvt data is usable (not all zeros or all same value)
+    kvt_vals = [k["kvt"] for k in knots]
+    if len(set(kvt_vals)) <= 1:
+        return [knots]  # no positional info → treat as single word
+
+    # Split on kvt increases
+    words = []
+    current_word = [knots[0]]
+    prev_kvt = knots[0]["kvt"]
+
+    for knot in knots[1:]:
+        kvt = knot["kvt"]
+        if kvt > prev_kvt and current_word:
+            words.append(current_word)
+            current_word = [knot]
+        else:
+            current_word.append(knot)
+        prev_kvt = kvt
+
+    if current_word:
+        words.append(current_word)
+
+    return words
+
+
+def _knots_to_word(knot_group: list[dict]) -> Optional[str]:
+    """
+    Convert a group of knots into a word using syllabary v3.
+
+    Onset polyphony applies to the FIRST knot of this word group,
+    coda applies to the LAST knot.
     """
     syllables = []
-    has_null_turns = False
+    n = len(knot_group)
 
-    for i, (_, knot) in enumerate(terminal_knots.iterrows()):
-        tc = str(knot.get("TYPE_CODE", "")).strip()
+    for i, knot in enumerate(knot_group):
+        tc = knot["tc"]
+        turns = knot["turns"]
         is_first = (i == 0)
 
         if tc == "E":
             syllables.append(FIGURE_EIGHT_SYLLABLE)
         elif tc == "L":
-            turns = knot.get("NUM_TURNS")
             if pd.isna(turns) or turns is None:
-                has_null_turns = True
-                return None, True
+                return None
             turns = int(turns)
             if is_first:
                 syl = TURNS_TO_ONSET.get(turns)
             else:
                 syl = TURNS_TO_SYLLABLE.get(turns)
             if syl is None:
-                return None, False  # unknown turn count (e.g. L1)
+                return None
             syllables.append(syl)
 
-    word = "".join(syllables) if syllables else None
-    return word, has_null_turns
+    return "".join(syllables) if syllables else None
+
+
+def _read_alba_word(terminal_knots: pd.DataFrame) -> tuple[Optional[str], bool]:
+    """
+    Decode a STRING cord's terminal knots into proposed Quechua word(s).
+
+    Uses Locke Word Splitting: knot_value_type positional resets split
+    a single cord into multiple words. Then onset polyphony (v3) is
+    applied per WORD, not per cord.
+
+    Returns
+    -------
+    (word, is_l1_null) : tuple
+        word = single string (words joined with ' ') or None.
+        is_l1_null flags NULL turns in OKR.
+    """
+    # Check for NULL turns first
+    for _, knot in terminal_knots.iterrows():
+        tc = str(knot.get("TYPE_CODE", "")).strip()
+        if tc == "L":
+            turns = knot.get("NUM_TURNS")
+            if pd.isna(turns) or turns is None:
+                return None, True
+
+    # Split by positional resets
+    word_groups = _split_knots_by_position(terminal_knots)
+
+    # Convert each group to a word
+    words = []
+    for group in word_groups:
+        w = _knots_to_word(group)
+        if w:
+            words.append(w)
+
+    if not words:
+        return None, False
+
+    # If only one word, return it directly
+    if len(words) == 1:
+        return words[0], False
+
+    # Multiple words: join with space
+    return " ".join(words), False
 
 
 def translate(
@@ -1102,34 +1188,64 @@ def translate(
                 locke_conf = lv.confidence
 
         elif ctype == "STRING":
-            # Textual channel
+            # Textual channel — with Locke Word Splitting
             alba_word, is_l1_null = _read_alba_word(terminal)
             if is_l1_null:
                 l1_null_count += 1
 
             if alba_word:
                 from khipu_translator.dictionary import normalize_onset
-                alba_confirmed = (
-                    alba_word in DICTIONARY
-                    or normalize_onset(alba_word) in DICTIONARY
-                )
-                morph = analyze_morphology(alba_word, lang=lang)
-                alba_gloss_en = morph.root_gloss_en or None
-                alba_gloss_fr = morph.root_gloss_fr or None
 
-                if morph.compound_parts:
-                    alba_compound = " + ".join(
-                        f"{p[0]}({p[2]})" for p in morph.compound_parts
-                    )
-                    alba_confidence = "medium"
-                elif alba_confirmed:
-                    alba_confidence = "high"
-                elif morph.is_decomposable:
-                    alba_confidence = "medium"
+                # Multi-word: split on spaces and check each word
+                split_words = alba_word.split()
+                if len(split_words) > 1:
+                    # Multiple words from positional splitting
+                    all_confirmed = True
+                    glosses_en = []
+                    glosses_fr = []
+                    for sw in split_words:
+                        sw_ok = (sw in DICTIONARY
+                                 or normalize_onset(sw) in DICTIONARY)
+                        if not sw_ok:
+                            sw_morph = analyze_morphology(sw, lang=lang)
+                            if not sw_morph.is_decomposable:
+                                all_confirmed = False
+                        vocabulary[sw] += 1
+                        # Get gloss for display
+                        sw_morph = analyze_morphology(sw, lang=lang)
+                        glosses_en.append(sw_morph.root_gloss_en or sw)
+                        glosses_fr.append(sw_morph.root_gloss_fr or sw)
+
+                    alba_confirmed = all_confirmed
+                    alba_gloss_en = " + ".join(glosses_en)
+                    alba_gloss_fr = " + ".join(glosses_fr)
+                    alba_confidence = "high" if all_confirmed else "medium"
+                    alba_compound = " + ".join(split_words)
                 else:
-                    alba_confidence = "low"
+                    # Single word (no split or 2-knot cord)
+                    alba_confirmed = (
+                        alba_word in DICTIONARY
+                        or normalize_onset(alba_word) in DICTIONARY
+                    )
+                    morph = analyze_morphology(alba_word, lang=lang)
+                    alba_gloss_en = morph.root_gloss_en or None
+                    alba_gloss_fr = morph.root_gloss_fr or None
 
-                vocabulary[alba_word] += 1
+                    if morph.compound_parts:
+                        alba_compound = " + ".join(
+                            f"{p[0]}({p[2]})" for p in morph.compound_parts
+                        )
+                        alba_confidence = "medium"
+                    elif alba_confirmed:
+                        alba_confidence = "high"
+                    elif morph.is_decomposable:
+                        alba_confidence = "medium"
+                    else:
+                        alba_confidence = "low"
+
+                # Count in vocabulary (multi-word already counted above)
+                if " " not in alba_word:
+                    vocabulary[alba_word] += 1
 
             # Numerical prefix (S-knots on STRING cords)
             if len(simple) > 0:
