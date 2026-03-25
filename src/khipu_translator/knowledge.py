@@ -19,49 +19,79 @@ from __future__ import annotations
 KNOWLEDGE_DB: dict[str, dict] = {
 
     "UR006": {
-        "summary": ("Astronomical observation journal (~1500 CE, Leymebamba). "
-                    "24 months x 9 columns tracking Moon, Mars, Pleiades and dark "
-                    "constellations. Supported by 5 independent lines of evidence: Mars ephemerides "
-                    "(r=0.62), Pleiades invisibility matching Blas Valera, eclipse at "
-                    "month 9, local climate in P9, and cross-site validation with UR1136."),
-        "confidence": "High (5 convergent proofs)",
+        "summary": ("Astronomical observation journal, dated June 1473 CE (Leymebamba). "
+                    "24 months x 9 columns tracking Moon (mama), Mars (kama/maki), "
+                    "Pleiades (kaki), Scorpio (chaki), and dark constellations (qaqa). "
+                    "10 celestial labels identified. Multi-object dating (5 objects "
+                    "simultaneously) yields p=0.0002, survives Bonferroni correction. "
+                    "Cross-validated: P8=13 matches 12-day Pleiades invisibility, "
+                    "Mars opposition = highest monthly total, local climate in P9. "
+                    "Third site confirmed: AS070 (Mollepampa) shares 6/7 labels."),
+        "confidence": "High (multi-object dating p=0.0002, 5 cross-validations, 3 independent sites)",
         "interpretation": """IDENTIFICATION
-  Monthly astronomical observation journal kept at Leymebamba for ~5 years (~1500 CE).
+  Monthly astronomical observation journal kept at Leymebamba.
   874 cords = largest translated khipu in the corpus.
   9-column standardized format, 24 monthly observations.
+  Date: June 1473 CE (multi-object astronomical dating, p=0.0002).
+
+DATING
+  Multi-object method: Mars (35%), Jupiter (20%), Saturn (15%),
+  Scorpio/Antares (15%), Pleiades (15%) correlated simultaneously
+  with UR006's 24 monthly section totals.
+  Best fit: June 1473 (r_combined=0.703). Permutation test: p=0.0002.
+  Bonferroni correction (0.05/86 = 0.0006): SURVIVES (p < threshold).
+  Historical context: Tupac Inca conquered Leymebamba ~1470-1475.
+  The catalog documents June 1473 to May 1475 = consolidation period.
+  Cross-validation: UR220 (Ica) = 1473/02 by header dating = same year,
+  different site, different method.
 
 FORMAT
   Alternating structure: large data clusters (daily detail) separated by
   summary cords with 9 L2 subsidiaries (monthly totals).
   Column names written in months 3-5 at odd positions (1,3,5,7,9),
   then never repeated — headers written once like a lab notebook.
-  Month 5 is a TOTAL row (P8=521 = sum of all other Moon values ±1).
+  Month 5 is a TOTAL row (P8=521 = sum of all other Moon values +/-1).
 
 THE 9 COLUMNS
   P1 = Observation count (small integers 1-7)
   P2 = Binary flag: observation performed yes/no
   P3 = Position/duration — Pleiades tracking from month 5
   P4 = Secondary count
-  P5 = Mars (months 1-4), then heliacal rising/setting (months 5+)
+  P5 = Mars events (months 1-4), then heliacal rising/setting (months 5+)
   P6 = Additional count/flag
   P7 = Dark constellations (Milky Way) — correlated with P8 (r=0.90)
   P8 = Moon (Mama Killa) — never changes assignment
   P9 = Clear nights available (mode=20 = 67% = Leymebamba climate)
 
-5 CONVERGENT PROOFS
-  1. PLEIADES: P8=61 days matches Blas Valera's Pachaquipu (63d at Cusco, -2d for latitude)
-  2. ECLIPSE: Month 9 highest values, matching Feb 9 1533 total lunar eclipse
-  3. MARS: r=0.62, p=0.001 with JPL DE431t ephemerides (only planet that correlates)
-  4. CLIMATE: P9 mode=20 = 67% clear nights = Leymebamba cloud forest
-  5. CROSS-SITE: UR1136 (Nazca) same 9-column format, 800 km apart = imperial protocol
+CELESTIAL LABELS (10 identified, glossary v3)
+  HIGH:   mama=Moon, kama=Mars(events), qaqa=dark constell., kaki=Pleiades,
+          chaki=Scorpio (Chaki T'aklla = foot-plough, Runasimi dictionary)
+  MEDIUM: maki=Mars(observations), paka=heliacal setting, maqa=eclipse
+  LOW:    taki=Saturn?, chapa=guardian star?, mapa=?
+
+5 SECTION-LEVEL CROSS-VALIDATIONS (June 1473)
+  1. Section 1 (Jun 73): P8=13 vs 12-day Pleiades invisibility (diff 1 day)
+  2. Section 12 (May 74): Pleiades invisible (elong=-2 deg)
+  3. Section 9 (Feb 74): Mars at opposition (+161 deg) = highest total (83)
+  4. Sections 17-24: Mars near Sun (16-31 deg) = lowest totals (11-39)
+  5. Section 11 (Apr 74): Pleiades heliacal rise (+27 deg), P9=3 (special)
+
+OBSERVATORY NETWORK
+  3 confirmed sites with shared 9-column format:
+  - UR006 (Leymebamba, 1473): 10 labels, 24 months
+  - UR1145 (Pachacamac, 1481-1533): 7 labels, 52-year catalog
+  - AS070 (Mollepampa): 5 labels, 6-level hierarchy
 
 WHAT DOES NOT WORK
-  Cumulative alignments (total=1772d = 3×Venus) fail permutation test (p=0.22).
-  Mars dating uncorrected for multiple comparisons.""",
+  Single-planet cumulative alignments (total=1772d = 3x Venus) fail
+  permutation test (p=0.22). The multi-object method supersedes this.""",
         "references": [
             "Sivan 2026, ALBA Project",
+            "Sivan 2026, Dating the Inca Archive",
             "Blas Valera, Pachaquipu (1618)",
             "JPL DE431t ephemerides",
+            "Runasimi astronomical dictionary (Lucre, Cusco)",
+            "Thompson 2024, Ethnohistory (AS069/AS070 pivot pair)",
         ],
         "reconstructed_xlsx": "UR006_observatory_journal.xlsx",
     },
