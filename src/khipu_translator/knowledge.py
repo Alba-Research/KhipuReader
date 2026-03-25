@@ -275,6 +275,75 @@ HISTORICAL MATCH
             "Oracle protocol: elmundomagico.org/the-oracle-of-pachacamac",
         ],
     },
+    "UR055": {
+        "summary": ("Oracle verdict — the longest text in the corpus. 180 cords, 96% STRING, "
+                    "all in LK (black = governance text). Symmetric structure 89+pivot+89. "
+                    "A land dispute: the father (papa) hid something about his terrain (pata). "
+                    "The intendant (wapa, ~30 occurrences) renders the verdict at a huaca "
+                    "(sacred site). The pivot (cords 87-94) contains: silence, 'this' (chayy), "
+                    "'intendant-father', 3 empty HB cords (color change = solemn silence), "
+                    "then [10] = the sentence. 90.9% total coverage after Locke Word Splitting."),
+        "confidence": "Medium (90.9% coverage, coherent narrative, but many short fragments remain ambiguous)",
+        "interpretation": """IDENTIFICATION
+  180 cords, 172 STRING (96%), 1 cluster, all LK (black = text/governance).
+  Museo Oro, Fundacion Miguel Mujica Gallo, Lima.
+  The longest continuous text in the entire khipu corpus.
+  Symmetric structure: 89 + pivot (6 cords) + 89.
+
+LOCKE WORD SPLITTING
+  Before splitting: 149 unique 'words', 17% dictionary hits.
+  After splitting: 90 unique words, 72% dictionary hits, 90.9% total coverage.
+  Long 'words' (7-13 syllables) were actually multiple words encoded on
+  one cord, separated by knot_value_type positional resets.
+
+THE STORY: LAND DISPUTE BEFORE THE ORACLE
+  Part 1 (cords 1-86): The case is presented.
+    - Opening: ritual formula (pama) for the fathers (papapa) at the huaca (waka)
+    - The terrain (pata) of the father (papa) is disputed
+    - A guardian (chapa) is involved
+    - Constant interrogatives: pi (who?), pita (who-ACC), pinay (who-OBL)
+    - The intendant (wapa) presides — appears ~30 times
+    - The father has HIDDEN something (papapaka = father+hidden, x3)
+    - Year (wata) references = temporal dimension of the dispute
+
+  Pivot (cords 87-94): THE VERDICT
+    87: wa + siy (and also)
+    88: (empty)
+    89: chayy = THIS (emphatic)
+    90: wapapapa = intendant + father
+    91-93: empty x3, color HB (ONLY non-LK cords = solemn silence)
+    94: [10] = THE SENTENCE (the only number in the body)
+
+  Part 2 (cords 95-180): The resolution.
+    95-101: father+hidden, father+terrain, year+huaca, this+hidden
+    158: tapa = PROTECTION (granted)
+    159: ma + kama = the authority DECIDES
+    178: paka + tata = hidden + father (the father's secret)
+    179: waka + watata = huaca + year-ACC (the sacred year)
+    180: wapa = INTENDANT (final word = the authority closes)
+
+KEY VOCABULARY
+  wapa (intendant/economist): ~30x — the presiding authority
+  papa (father): ~15x — the accused
+  pata (terrain/plot): ~10x — the disputed property
+  chapa (guardian): ~10x — the guardian of the terrain
+  wata (year): ~8x — temporal references
+  pi/pita/pinay (who?): ~8x — interrogatives (it's a trial)
+  paka (hidden/secret): ~5x — what the father concealed
+  waka (huaca/sacred): ~3x — the sacred site of judgment
+
+COMPARISON WITH UR1091
+  UR055 = the full ORATION of an oracle verdict (180 cords, text)
+  UR1091 = the administrative FORM of a murder case (89 cords, data)
+  Both are judicial, both have an intendant, both have a sentence.
+  Different formats for the same function: Inca justice.""",
+        "references": [
+            "Sivan 2026, ALBA Project",
+            "Locke Word Splitting: knot_value_type positional resets",
+            "Compare UR1091 (judicial dossier, murder case)",
+        ],
+    },
+
     "AS069": {
         "summary": ("Astronomical observation catalog, dated April 1453 CE (Lluta Valley, "
                     "Arica, Chile). The world's largest khipu (1,831 cords). 6/10 ALBA "

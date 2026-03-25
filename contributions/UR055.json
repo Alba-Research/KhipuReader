@@ -1,0 +1,14 @@
+{
+  "khipu": "UR055",
+  "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
+  "date": "2026-03-25",
+  "status": "proposed",
+  "confidence": "medium",
+  "summary": "Oracle verdict — longest text in corpus (180 cords, 96% STRING). Land dispute: father hid something about his terrain. Intendant renders verdict at huaca. Symmetric 89+pivot+89. Sentence = 10. 90.9% coverage after Locke Word Splitting.",
+  "interpretation": "See knowledge.py for full reading.",
+  "column_names": {},
+  "references": [
+    "Sivan 2026 ALBA"
+  ],
+  "reconstructed_xlsx": null
+}
