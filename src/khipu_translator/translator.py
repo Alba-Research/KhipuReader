@@ -242,14 +242,21 @@ def detect_document_type(
 
     # --- Vocabulary-based boosts ---
 
-    # Astronomical: need CORE astro words (strict: kama, mama, paka, maqa)
-    # kaki is shared with agriculture so it's NOT core astro
-    core_astro = {"kama", "mama", "paka", "maqa"}
+    # Astronomical: CORE = HIGH confidence labels that indicate astronomy
+    # chaki (Scorpio) is astro-specific — only appears in astro khipus
+    # kaki is shared with agriculture so it's NOT core (but boosts when combined)
+    core_astro = {"kama", "mama", "paka", "maqa", "chaki"}
     core_astro_hits = len(words & core_astro)
     has_kaki = "kaki" in words
+    has_qaqa = "qaqa" in words
+    # Strong boost: 2+ core words, or 1 core + kaki
     if core_astro_hits >= 2 or (core_astro_hits >= 1 and has_kaki and string_pct < 25):
         scores["astronomical_journal"] *= 2.5
         scores["astronomical_journal"] = max(scores["astronomical_journal"], 2.0)
+    # Moderate boost: chaki + kaki + qaqa (all HIGH but shared) without core events
+    elif core_astro_hits >= 1 and has_kaki and has_qaqa:
+        scores["astronomical_journal"] *= 2.0
+        scores["astronomical_journal"] = max(scores["astronomical_journal"], 1.5)
 
     # Agro-pastoral: kaqa/wama/chaqa are agro-specific (not shared with astro)
     agro_specific = {"kaqa", "wama", "chaqa", "siqa"}
@@ -292,9 +299,12 @@ def detect_document_type(
     # Event register: very sparse (>50% empty cells)
     if sparsity > 50:
         scores["event_register"] = 2.0
-        # Penalize types that expect dense data
-        for t in ("astronomical_journal", "agro_pastoral", "cadastral_survey"):
+        # Penalize types that expect dense data — UNLESS astro-specific words present
+        has_astro_exclusive = "chaki" in words  # chaki only appears in astro khipus
+        for t in ("agro_pastoral", "cadastral_survey"):
             scores[t] *= 0.3
+        if not has_astro_exclusive and core_astro_hits < 2:
+            scores["astronomical_journal"] *= 0.3
 
     # Regular table: high regularity + low sparsity + multiple colors
     if cluster_regularity > 80 and sparsity < 15:
