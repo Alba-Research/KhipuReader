@@ -1093,8 +1093,33 @@ def _read_alba_word(terminal_knots: pd.DataFrame) -> tuple[Optional[str], bool]:
     if len(words) == 1:
         return words[0], False
 
-    # Multiple words: join with space
-    return " ".join(words), False
+    # Post-processing: attach isolated suffixes to adjacent root words.
+    # Quechua suffixes (pa=GEN, ta=ACC, ka=PASS, etc.) that appear as
+    # isolated fragments after splitting should be attached to the
+    # nearest root word with a hyphen: "papa-GEN" not "papa pa".
+    from khipu_translator.dictionary import QUECHUA_SUFFIXES
+    suffix_set = set(QUECHUA_SUFFIXES.keys())
+
+    attached = []
+    i = 0
+    while i < len(words):
+        w = words[i]
+        if w in suffix_set:
+            label = QUECHUA_SUFFIXES[w][0]
+            if attached:
+                # Suffix after a root → attach to previous word
+                attached[-1] = f"{attached[-1]}-{label}"
+            else:
+                # Suffix at start → attach to next word as prefix
+                if i + 1 < len(words):
+                    words[i + 1] = f"{label}-{words[i + 1]}"
+                else:
+                    attached.append(f"-{label}")
+        else:
+            attached.append(w)
+        i += 1
+
+    return " ".join(attached), False
 
 
 def translate(
