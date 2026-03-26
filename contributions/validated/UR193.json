@@ -14,5 +14,6 @@
     "Compare HP020 (Pachacamac cadastral survey, same provenance)",
     "Compare UR055 (single oracle consultation text — the poem vs the ledger)"
   ],
-  "reconstructed_xlsx": null
+  "reconstructed_xlsx": null,
+  "document_type_override": "oracle_consultation"
 }

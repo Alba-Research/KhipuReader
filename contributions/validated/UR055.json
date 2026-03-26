@@ -15,5 +15,6 @@
     "Compare UR1091 (judicial dossier, murder case)",
     "Glossary v4: way, chata, sisi, sika, sipi, tipi, tiy, wama"
   ],
-  "reconstructed_xlsx": null
+  "reconstructed_xlsx": null,
+  "document_type_override": "succession_oracle"
 }

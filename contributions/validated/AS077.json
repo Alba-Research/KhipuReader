@@ -9,5 +9,6 @@
   "references": [
     "Sivan 2026, ALBA Project"
   ],
-  "reconstructed_xlsx": null
+  "reconstructed_xlsx": null,
+  "document_type_override": "zone_inventory"
 }

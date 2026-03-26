@@ -13,5 +13,6 @@
     "Boundary marking (taka/mojón) in Andean cadastral practice: Murra 1980, Economic Organization of the Inca State",
     "Compare UR055 (succession oracle, same closing signature)"
   ],
-  "reconstructed_xlsx": null
+  "reconstructed_xlsx": null,
+  "document_type_override": "lineage_land_registry"
 }

@@ -13,5 +13,6 @@
     "Compare UR050 (white twin — abstract rights register)",
     "Compare UR055 (black oracle — same paka tata / tata paka phrase)"
   ],
-  "reconstructed_xlsx": null
+  "reconstructed_xlsx": null,
+  "document_type_override": "physical_assets_register"
 }

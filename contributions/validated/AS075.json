@@ -11,5 +11,6 @@
     "Pachacamac pilgrimage: the-past.com/feature/pachacamac-pilgrimages",
     "Oracle protocol: elmundomagico.org/the-oracle-of-pachacamac"
   ],
-  "reconstructed_xlsx": null
+  "reconstructed_xlsx": null,
+  "document_type_override": "pilgrimage_register"
 }

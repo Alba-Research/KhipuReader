@@ -15,5 +15,6 @@
     "Compare UR1091 (murder case — death periphrasis vs direct naming)",
     "Color system: BG=parties, GG=sentence, VR=blood, W=data"
   ],
-  "reconstructed_xlsx": null
+  "reconstructed_xlsx": null,
+  "document_type_override": "judicial_proceeding"
 }
