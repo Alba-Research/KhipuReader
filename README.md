@@ -2,7 +2,7 @@
 
 # KhipuReader
 
-**An open-source tool for reading Andean khipus.**
+**An open-source tool for reading Andean khipus using the ALBA syllabary (Sivan, 2026).**
 
 619 khipus survive in museums around the world. Each one is a knotted-cord document from the Inca Empire — a tax record, an astronomical journal, a legal proceeding, a census, a map. We can read the numbers (Locke 1923). We are starting to read the words (ALBA syllabary, Sivan 2026).
 
@@ -13,17 +13,25 @@ For those who want to go further, the project also hosts a **community effort** 
 ## Community progress
 
 ```
-[=>                            ] 6/619 khipus analyzed (1.0%)
+[==>                           ] 14/619 khipus analyzed (2.3%)
 ```
 
 | Khipu | Type | Summary |
 |-------|------|---------|
-| UR006 | Astronomical journal | 24 months x 9 columns, Moon/Mars/Pleiades, ~1500 CE |
+| AS069 | Astronomical catalog | Observation catalog, dated April 1453 CE, Lluta Valley |
+| AS075 | Pilgrimage register | Pachacamac oracle ceremonies, 186 cords |
 | AS076 | Naming ceremony | Identity declaration (rutuchikuy), Paris |
+| AS077 | Zone inventory | 4 geographic zones, regular 4-column format, Paris |
+| AS080 | Cadastral survey | 6-step surveyor's route with landmarks, Paris |
 | HP020 | Cadastral survey | Location instruction, Pachacamac |
-| AS080 | Cadastral survey | 6-step route with landmarks, Paris |
-| AS077 | Zone inventory | 4 geographic zones, Paris |
-| AS075 | Pilgrimage register | Pachacamac oracle ceremonies, Paris |
+| UR006 | Astronomical journal | 24 months x 9 columns, dated June 1473 CE, Leymebamba |
+| UR050 | Lineage land registry | Cadastral record on 164 all-white cords |
+| UR051 | Labor corvée | Corvée register with chiastic poetic structure, 98 cords |
+| UR054 | Physical assets register | Blue twin of UR050 (white land registry), 115 cords |
+| UR055 | Succession oracle | Administrator consults oracle, 180 cords, dated Feb 1519 CE |
+| UR176 | Judicial proceeding | Murder of Chuquitanta — mother slaughtered, the falcon condemned |
+| UR193 | Oracle consultation | Consultation register from Pachacamac, 41 sessions |
+| UR1091 | Judicial proceeding | Murder case — death periphrasis (tana mana...llapa) |
 
 Run `khipu progress` to generate the full progress report, or see [PROGRESS.md](PROGRESS.md).
 
@@ -186,9 +194,18 @@ KhipuReader/
 
 ---
 
+## Data source
+
+This tool reads khipus from the **Open Khipu Repository** (OKR):
+
+> Urton, G. & Brezine, C. (2009–2024). *Open Khipu Repository*.
+> Harvard University. DOI: [10.5281/zenodo.5037551](https://doi.org/10.5281/zenodo.5037551)
+
+The OKR database (619 khipus, ~50 MB) is downloaded automatically on first use.
+
 ## Related projects
 
-- [Open Khipu Repository](https://github.com/khipulab/open-khipu-repository) — The OKR database (619 khipus)
+- [Open Khipu Repository](https://github.com/khipulab/open-khipu-repository) — The OKR database
 - [ALBA Project](https://alba-project.org) — The research project behind the syllabary
 
 ## License

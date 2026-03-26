@@ -171,9 +171,18 @@ Consulta [CONTRIBUTING.md](CONTRIBUTING.md) para la guía completa.
 
 ---
 
+## Fuente de datos
+
+Esta herramienta lee khipus del **Open Khipu Repository** (OKR):
+
+> Urton, G. & Brezine, C. (2009–2024). *Open Khipu Repository*.
+> Harvard University. DOI: [10.5281/zenodo.5037551](https://doi.org/10.5281/zenodo.5037551)
+
+La base de datos OKR (619 khipus, ~50 MB) se descarga automáticamente en el primer uso.
+
 ## Proyectos relacionados
 
-- [Open Khipu Repository](https://github.com/khipulab/open-khipu-repository) — La base de datos OKR (619 khipus)
+- [Open Khipu Repository](https://github.com/khipulab/open-khipu-repository) — La base de datos OKR
 - [ALBA Project](https://alba-project.org) — El proyecto de investigación detrás del silabario
 
 ## Licencia
