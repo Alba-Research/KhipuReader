@@ -8,3 +8,4 @@ build/
 output/
 .eggs/
 *.egg
+claude_resume.md
