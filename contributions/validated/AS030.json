@@ -1,0 +1,17 @@
+{
+  "khipu": "AS030",
+  "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
+  "date": "2026-04-01",
+  "status": "proposed",
+  "confidence": "high",
+  "summary": "Juridical case abstract from La Puntilla (Paracas/Pisco coast) — the smallest complete juridical khipu in the corpus. 28 cords, 15 STRING (54% = most text-dense), 100% hit rate. Every element of the standard juridical signature in compressed form: taka (strike), kaka (uncle), tata (father), maqa (aggravated assault), pi x2 (interrogatives), pama (legal formula). C1=47 → Mode A date 1485 CE (MEDIUM). Tree header: year + damages (paki=break, maki=labor). Complete narrative arc in 28 cords: year → location → interrogation → parties → verdict. Peabody Museum, Harvard. Also known as UR043.",
+  "interpretation": "IDENTIFICATION\n  28 cords. 15 STRING (54%, 100% hits), 11 INT, 2 EMPTY.\n  Architecture: 1-PAIRE, depth L2. 5 clusters. 3 colors: W(16), MB(9), AB(3).\n  Provenance: La Puntilla, between Paracas and Pisco. Museum: Peabody, Harvard.\n  Dual ID: AS030 = UR043.\n  Date: C1=47 → 1438+47 = 1485 CE (Mode A, MEDIUM — non-round, valid range, no clear month).\n\nCOMPLETE JURIDICAL VOCABULARY IN 28 CORDS\n  pi x2 (who?), taka (strike), kaka (uncle), tata (father), maqa (strike hard), pama (formula), qaqa (rock), paki (break), maki (labor), chama (food/motive).\n  14 unique words in 15 STRING = almost no repetition. A COMPRESSED text.\n\nSTRUCTURE\n  C1(INT=47) → L2: paki(break), maki(labor) = year + dispute context\n  C5: qaqa (location) → L2: INT=30\n  C11: GEN-pi (of whom?) — 1st interrogative\n  C15: taka (THE CHARGE, on MB = category color)\n  C16: PASS-pi (who was struck?) — 2nd interrogative\n  C20-C23: kaka (uncle), 1OBJ-cha (me), chama (motive), tata (father)\n  C26: maqa (aggravated assault)\n  C27: pama (FORMULA = case closed)\n\nNARRATIVE — THE TWENTY-EIGHT CORDS\n  Forty-seven. That is the first number — cord 1, value 47. In the dating system, 1438 plus 47 is 1485, on the coast between Paracas and Pisco where the desert meets the sea.\n  Below that cord, two subsidiaries name the dispute: *paki* — to break — and *maki* — work. Something was broken in a labor context. At a rock (*qaqa*, cord 5).\n  Then the judge speaks. *GEN-pi* (cord 11) — 'of whom?' And again: *PASS-pi* (cord 16) — 'who was struck?' Two interrogatives. Between them, on medium-brown thread: *taka* (cord 15). To strike. The charge.\n  The parties, compressed into a single breath: the uncle (*kaka*, cord 20), the victim (*1OBJ-cha*, 'me, small'), the motive (*chama*, food), the plaintiff (*tata*, the father).\n  Two cords from the end: *maqa* — to strike hard. The aggravated charge. And the last word: *pama* — the formula. Twenty-eight cords, fifteen words, one complete trial.",
+  "references": [
+    "Sivan 2026, ALBA Project — Compact juridical analysis, Mode A C1=47",
+    "Peabody Museum, Harvard University",
+    "La Puntilla — Paracas/Pisco coastal zone, Chincha Kingdom",
+    "Cross-corpus: UR039 (juridical, 100%), UR144 (Pisco kuraka report)"
+  ],
+  "reconstructed_xlsx": null,
+  "document_type_override": "judicial_proceeding"
+}

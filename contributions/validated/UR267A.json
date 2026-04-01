@@ -1,0 +1,15 @@
+{
+  "khipu": "UR267A",
+  "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
+  "date": "2026-04-01",
+  "status": "proposed",
+  "confidence": "low",
+  "summary": "First half of a three-document set from Incahuasi Sector C: UR267A (88 cords) + UR267B (131 cords) + UR256 (176 cords). Only 2 STRING (qaqa x2). W-dominant (58%), 29 clusters. 12 L-1 (14% data loss). Three registers of increasing size from the same production area.",
+  "interpretation": "IDENTIFICATION\n  88 cords. 2 STRING (qaqa x2, 100%), 62 INT, 12 EMPTY (14%), 12 L-1 (14%).\n  Architecture: 1-PAIRE, depth L2. 29 clusters.\n  Colors: W(51 = 58%), AB(34), ?(3) — 3 colors.\n  Provenance: Incahuasi — Sector C.\n  Paired with UR267B (which is paired with UR256).\n\nTHE SECTOR C TRIO\n  UR267A: 88 cords, W=58%, 29 clusters (intake/initial count?)\n  UR267B: 131 cords, W=55%, 26 clusters (distribution?)\n  UR256: 176 cords, AB=81%, 24 clusters (summary)\n  Three registers of increasing size from the same production area.",
+  "references": [
+    "Urton & Chu 2013-2016 — Incahuasi Sector C",
+    "Cross-corpus: UR267B (companion), UR256 (matched pair)"
+  ],
+  "reconstructed_xlsx": null,
+  "document_type_override": "commodity_accounting"
+}
