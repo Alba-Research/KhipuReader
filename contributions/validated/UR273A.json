@@ -1,0 +1,17 @@
+{
+  "khipu": "UR273A",
+  "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
+  "date": "2026-04-01",
+  "status": "proposed",
+  "confidence": "low",
+  "summary": "Extremely sparse event register from Incahuasi — 74% empty, the most sparse khipu in the Incahuasi archive. 87 cords, 1 STRING (qaqa), 14 INT, 64 EMPTY. Architecture 1-PAIRE, depth L2, 34 clusters. Colors: NB(42), W(31), KB(6), ?(5), MB(3). L-1: 8 (9%). OKR notes: 'Cord 1 and its subsidiaries is the same for both khipus UR273 A and B' = two khipus sharing cord 1, a paired/split document. A pre-formatted register almost entirely unfilled — prepared for events that were never (or rarely) recorded.",
+  "interpretation": "IDENTIFICATION\n  87 cords. 1 STRING (qaqa), 14 INT, 64 EMPTY (74%).\n  Architecture: 1-PAIRE, depth L2. 34 clusters.\n  Colors: NB(42), W(31), KB(6), ?(5), MB(3) — 5 colors.\n  L-1: 8 (9%).\n  Provenance: Incahuasi. Museum/Project: Proyecto Incahuasi.\n  OKR: 'Cord 1 and its subsidiaries is the same for both khipus UR273 A and B' = shared first cord.\n\nVOCABULARY\n  qaqa x1 (rock/mountain) — the universal geographic label. The ONLY word.\n\nSTRUCTURE\n  34 clusters in 87 cords = extremely fragmented. 74% EMPTY = the register was prepared with positions (cords) but almost none were filled. 14 INT values scattered among 64 blanks. A pre-formatted form.\n\nPAIRED DOCUMENT\n  UR273A shares cord 1 with UR273B. Two khipus born from the same knot, split into A and B. The shared first cord physically links them — they were read together, as two halves of a single administrative act.\n\nINTERPRETATION\n  An event register prepared for events that were never (or rarely) recorded. The 34 cluster divisions suggest 34 expected categories or time periods. The single word *qaqa* (rock) labels the register's geographic context. The extreme sparsity (74% empty) means either: (1) the events never occurred, (2) the scribe was reassigned, or (3) the register was prepared in advance and the recording period was interrupted.\n\nNARRATIVE\n  Seventy-four percent empty. Eighty-seven cords, sixty-four of them blank — a register prepared for events that never came, or a form waiting to be filled by a scribe who never returned. One word: *qaqa*, the universal label for rock, for mountain, for place. And a shared first cord with its twin UR273B — two khipus born from the same knot, split into A and B, one left almost entirely blank. At Incahuasi, the Inca fortress in the Canete valley, this is the most silent document in the archive. Thirty-four clusters, thirty-four prepared categories, and almost nothing to say.",
+  "references": [
+    "Sivan 2026, ALBA Project — Sparse event register analysis, Incahuasi provenance",
+    "Proyecto Incahuasi — Incahuasi archaeological project, Canete valley",
+    "OKR: 'Cord 1 and its subsidiaries is the same for both khipus UR273 A and B' — paired document",
+    "Cross-corpus: UR273B (twin document, shared cord 1)"
+  ],
+  "reconstructed_xlsx": null,
+  "document_type_override": "event_register"
+}

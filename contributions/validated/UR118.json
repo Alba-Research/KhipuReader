@@ -1,0 +1,17 @@
+{
+  "khipu": "UR118",
+  "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
+  "date": "2026-04-01",
+  "status": "proposed",
+  "confidence": "medium",
+  "summary": "Cadastral survey register from Paracas — a rare pre-Inca provenance khipu. 321 cords, 10 STRING (3%, 100% hits), 271 INT, 40 EMPTY. Architecture 1-PAIRE, depth L3, 46 clusters. 5 colors: KB(95), AB(81), W(65), MB(35), HB(14). Vocabulary includes qaqa x2 (rock), ka x2, wapa x1 (administrator), paqa x1 (east), chiqa x1 (truth), taqa x1 (boundary), waqa x1 (huaca!), llata x1, llalla x1 (to deceive — also in UR1095 Pachacamac). Cadastral signature: qaqa+taqa+paqa+chiqa. OKR notes partial damage: 'Pendants in group T1 (1-6) are broken off.' The llalla (to deceive) shared with UR1095 suggests a common scribal tradition between Paracas and Pachacamac.",
+  "interpretation": "IDENTIFICATION\n  321 cords, depth L3. 10 STRING (3%, 100% hits), 271 INT, 40 EMPTY.\n  Architecture: 1-PAIRE, 46 clusters.\n  Colors: KB(95), AB(81), W(65), MB(35), HB(14) — 5 colors.\n  Provenance: PARACAS — rare pre-Inca textile culture.\n  Museum: Museum for World Culture, Goteborg (Sweden).\n  OKR: 'Pendants in group T1 (1-6) are broken off' = partial damage.\n\nVOCABULARY\n  qaqa x2 (rock/mountain) — geographic marker\n  ka x2 — possessive suffix or abbreviated form\n  wapa x1 (administrator) — governance\n  paqa x1 (east/dawn) — orientation\n  chiqa x1 (truth) — verification\n  taqa x1 (boundary) — geographic\n  waqa x1 (huaca!) — sacred place marker\n  llata x1 — textile/wrap\n  llalla x1 (to deceive) — rare, also in UR1095 Pachacamac\n\nCLASSIFICATION\n  Cadastral signature: qaqa (rock) + taqa (boundary) + paqa (east) + chiqa (truth) = geographic survey with verification. Additional: waqa (huaca) marks a sacred site within the surveyed territory. wapa (administrator) confirms institutional context.\n\nCROSS-CORPUS\n  llalla (to deceive) appears in both UR118 (Paracas) and UR1095 (Pachacamac) — possibly same scribal tradition or administrative network. Both are cadastral registers with deception vocabulary.\n\nNARRATIVE\n  Sparse text — ten words of string in three hundred and twenty-one cords. A register that speaks mostly in numbers. But the ten words it chooses are precise: rocks, boundaries, the east, truth, an administrator, and a huaca. A cadastral survey of the Paracas peninsula, where the Inca administered one of Peru's most ancient cultural zones — the land of the weavers whose textiles survived two thousand years in desert tombs. Among the standard geographic vocabulary, two words stand apart. *Waqa* — the huaca, a sacred place marked within the territory. And *llalla* — to deceive. The same word appears in UR1095, the Pachacamac cadastral survey, four hundred kilometers to the north. Two registers, two sites, one rare word. Perhaps the same scribal school. Perhaps the same administrative concern: that someone, somewhere in the surveyed land, was not telling the truth.",
+  "references": [
+    "Sivan 2026, ALBA Project — Cadastral survey analysis, Paracas provenance",
+    "Museum for World Culture, Goteborg (Sweden)",
+    "Cross-corpus: UR1095 (Pachacamac cadastral, llalla shared), UR037 (cadastral census, Museo Amano)",
+    "OKR: 'Pendants in group T1 (1-6) are broken off' — partial damage"
+  ],
+  "reconstructed_xlsx": null,
+  "document_type_override": "cadastral_survey"
+}

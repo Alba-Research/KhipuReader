@@ -1,0 +1,17 @@
+{
+  "khipu": "AS207B",
+  "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
+  "date": "2026-04-01",
+  "status": "proposed",
+  "confidence": "medium",
+  "summary": "Mini census interrogation form — the compact companion to AS207A's full census grid. 28 cords, 9 STRING (32%, 100% hits), 14 INT, 5 EMPTY. Architecture 1-PAIRE, depth L2, single cluster. 3 colors: W(16), YB(9), KB(3). Vocabulary: pi x4 (who!), cha x3 (na suffix → obligation?), pa x1, wa x1. pi x4 = four interrogatives vs AS207A's pi x9 + piqa x9 = eighteen. Same museum (Museum of Science, Buffalo NY), same Ascher catalog. Published Ascher & Ascher 1987 alongside AS207A. If AS207A is the full census form (18 interrogatives), AS207B is the summary or cover sheet (4 questions).",
+  "interpretation": "IDENTIFICATION\n  28 cords. 9 STRING (32%, 100% hits), 14 INT, 5 EMPTY.\n  Architecture: 1-PAIRE, depth L2. 1 cluster.\n  Colors: W(16), YB(9), KB(3) — 3 colors.\n  Provenance: Unknown. Museum: Museum of Science, Buffalo, New York.\n  Published: Ascher & Ascher 1987 alongside AS207A.\n\nVOCABULARY\n  pi x4 (who?) — FOUR interrogatives\n  cha x3 (na suffix → obligation?) — grammatical\n  pa x1 — suffix or abbreviated form\n  wa x1 — 1st person object 'me'\n\nCOMPANION DOCUMENT\n  AS207B is the companion of AS207A (the census interrogation with 3x3 pi grid). Same museum, same Ascher catalog. AS207A has 253 cords with 18 interrogatives (pi x9 + piqa x9). AS207B has 28 cords with 4 interrogatives (pi x4). The ratio is ~9:1 in cord count, 4.5:1 in interrogative count. AS207B = the summary or cover sheet — four questions where AS207A asked eighteen.\n\nSTRUCTURE\n  Single cluster, 28 cords. The 9 STRING cords are interspersed with INT and EMPTY cords. pi appears 4 times across the document = the core interrogative function. cha x3 may encode administrative obligation (cha → na onset correction = 'obligation/duty').\n\nNARRATIVE\n  Who? Four times, on a khipu half the size of its companion. AS207B is the cover sheet — four questions where AS207A asked eighteen. Same museum, same catalog, same census: the Buffalo pair. Twenty-eight cords against two hundred and fifty-three. One cluster against forty-three. Three colors against seven. Everything is scaled down, compressed, essential. The full form asks *pi* nine times in a three-by-three color grid, then *piqa* nine more times as answers. The cover sheet asks *pi* four times and moves on. A census summary — the document you hand to the administrator who does not need every detail, only the four essential questions.",
+  "references": [
+    "Ascher, M. & Ascher, R. (1987). Mathematics of the Incas: Code of the Quipu",
+    "Sivan 2026, ALBA Project — Census interrogation companion analysis",
+    "Museum of Science, Buffalo, New York",
+    "Cross-corpus: AS207A (full census interrogation, pi x9 + piqa x9)"
+  ],
+  "reconstructed_xlsx": null,
+  "document_type_override": "census_interrogation"
+}
