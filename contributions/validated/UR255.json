@@ -1,0 +1,14 @@
+{
+  "khipu": "UR255",
+  "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
+  "date": "2026-04-01",
+  "status": "proposed",
+  "confidence": "low",
+  "summary": "Single-commodity register from Incahuasi — AB=94% (most monochrome Incahuasi khipu). 90 cords, 28 clusters, only 2 STRING (qaqa x2). 1-PAIRE depth L3. 11 L-1 (12% data loss).",
+  "interpretation": "IDENTIFICATION\n  90 cords. 2 STRING (qaqa x2, 100%), 53 INT, 24 EMPTY (27%), 11 L-1 (12%).\n  Architecture: 1-PAIRE, depth L3. 28 clusters. Colors: AB(85=94%), MB(3), W(2).\n  Provenance: Incahuasi. Museum: Proyecto Incahuasi.\n  AB=94% = most monochrome of all Incahuasi khipus.\n\nNARRATIVE\n  Eighty-five of ninety cords, the same color. AB at 94% — the most concentrated single-color khipu at Incahuasi. Twenty-eight clusters averaging three cords each. Two rocks named, and nothing more. A single commodity, counted twenty-eight times.",
+  "references": [
+    "Urton & Chu 2013-2016 — Incahuasi excavation"
+  ],
+  "reconstructed_xlsx": null,
+  "document_type_override": "commodity_accounting"
+}

@@ -1,0 +1,14 @@
+{
+  "khipu": "JC012",
+  "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
+  "date": "2026-04-01",
+  "status": "proposed",
+  "confidence": "medium",
+  "summary": "Toponym register from Incahuasi — the most lexically concentrated khipu in the corpus. 30 cords, 12 STRING ALL qaqa (rock), 100% hits. A compact index of 12 named rock landmarks in 3 clusters. Possibly a surveyor's pocket reference listing boundary rocks for a specific zone.",
+  "interpretation": "IDENTIFICATION\n  30 cords. 12 STRING (40%, 100% hits, ALL qaqa), 9 INT, 8 EMPTY, 1 L-1.\n  Architecture: 0-SEUL, depth L1. 3 clusters. Colors: AB(20), MB(8), MG(2).\n  Provenance: Incahuasi. Museum: Proyecto Incahuasi.\n\nVOCABULARY\n  qaqa x12. ONE word, TWELVE times. Most lexically concentrated khipu in the corpus.\n\nNARRATIVE\n  Rock. Twelve times, and nothing else. Each *qaqa* names a stone landmark at Incahuasi. Three clusters divide the twelve into groups — boundaries of three zones, or waypoints of three routes. Nine numbers annotate the rocks. Thirty cords, one word, twelve rocks. A surveyor's pocket reference.",
+  "references": [
+    "Urton & Chu 2013-2016 — Incahuasi excavation"
+  ],
+  "reconstructed_xlsx": null,
+  "document_type_override": "cadastral_survey"
+}
