@@ -1,0 +1,17 @@
+{
+  "khipu": "UR058A",
+  "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
+  "date": "2026-04-01",
+  "status": "proposed",
+  "confidence": "medium-high",
+  "summary": "Cadastral survey from Playa Miller #6 (Arica, Chile) — the largest cadastral khipu from southern Chile. 275 cords, 2+-ARBRE depth L4, 5 colors (KB-dominant 35%). Full cadastral vocabulary: qaqa (rock x5), maqa (boundary marker x4), chiqaqa (verification-rock x2), chiqa (truth x1), kaqa (wall-AY x1), taqa (boundary x1), paqa (east x1). Most STRING on L2-L4 (words annotate numbers). Closing section concentrates all terms on L1 KB. Same region as AS069/AS070 (Arica astronomical, 1453). MASMA museum. 17 STRING, 82% coverage.",
+  "interpretation": "IDENTIFICATION\n  275 cords. 17 STRING (6%, 82% hits), 201 INT, 57 EMPTY (21%).\n  Architecture: 2+-ARBRE, depth L4. 9 clusters.\n  5 colors: KB(96 = 35%), AB(57), MG(36), PR(25), W(17).\n  Provenance: Playa Miller #6, Arica, Chile — same region as AS069/AS070.\n  Museum: MASMA, Arica.\n  OKR: Cords 1-2 tied together, lengths uncertain. Cord 2 has red thread run-through.\n\nFULL CADASTRAL VOCABULARY (6/6)\n  qaqa (rock x5, L3-L4) — landmarks\n  maqa (boundary x4, L1+L3) — where boundaries were struck\n  chiqaqa (truth-rock x2, L1+L3) — verified landmarks\n  chiqa (truth x1, L2) — survey benchmark\n  kaqa (wall-AY x1, L1) — terrace/natural boundary\n  taqa (boundary x1, L1) — administrative limit\n  paqa (dawn/east x1, L1) — orientation\n  kaka (uncle x1, L3) — lineage holder (this plot belongs to an uncle)\n\nTREE STRUCTURE\n  14 of 17 STRING on L2-L4 (not L1). Numbers are primary, words annotate. Same pattern as UR003.\n  Closing block (cords 226-257, L1 KB): kaqa, maqa, taqa, paqa, TOP-maqa, chiqaqa = geographic SUMMARY.\n\nNARRATIVE — THE ARICA LAND SURVEY\n  Rock. Five rocks, scattered through the tree, each a landmark in the Arica desert. Not on the main cords — on subsidiaries, two and three levels deep. The scribe counted first, then named: *qaqa* at L3, *qaqa* at L4, annotations hanging from a data tree four levels deep.\n  The khipu comes from Playa Miller #6, a cemetery on the Chilean coast near Arica — the same coast where the observatory (AS069/AS070) tracked the Pleiades for thirty years. The observatory watched the sky; this khipu measured the land beneath it.\n  Four times the scribe writes *maqa* — the boundary struck into the earth. At cord 212, *chiqa* — truth, the surveyor's validation. The closing section gathers every term onto dark-brown cords: *kaqa* (wall), *maqa* (boundary), *taqa* (limit), *paqa* (east). The final word: *chiqaqa* — truth-rock, the verified landmark.\n  One cord carries *kaka* (cord 189, L3) — the uncle. A lineage holder, named three levels deep. This plot belongs to a family.",
+  "references": [
+    "Sivan 2026, ALBA Project — Cadastral survey, Arica district",
+    "MASMA, Arica, Chile — Playa Miller #6",
+    "Cross-corpus: AS069/AS070 (Arica astronomical, 1453), UR1095 (Pachacamac cadastral)",
+    "Arica Aymara linguistic zone — kaqa (wall)"
+  ],
+  "reconstructed_xlsx": null,
+  "document_type_override": "cadastral_survey"
+}

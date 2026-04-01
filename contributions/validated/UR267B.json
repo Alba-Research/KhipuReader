@@ -1,0 +1,16 @@
+{
+  "khipu": "UR267B",
+  "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
+  "date": "2026-04-01",
+  "status": "proposed",
+  "confidence": "medium",
+  "summary": "Companion register to UR256 from Incahuasi Sector C — a paired accounting document. 131 cords, W-dominant (55%, contrasting with UR256's AB-dominant 81%), 26 clusters, only 2 STRING (qaqa x2). 1-PAIRE with L4 depth. 17 L-1 (13% data loss). The two registers track complementary data dimensions: UR256 = production, UR267B = distribution/storage.",
+  "interpretation": "IDENTIFICATION\n  131 cords. 2 STRING (qaqa x2, 100%), 87 INT, 25 EMPTY (19%), 17 L-1 (13%).\n  Architecture: 1-PAIRE, depth L4. 26 clusters.\n  4 colors: W(72 = 55%), AB(39), MB(18), LG(2).\n  Provenance: Incahuasi — Sector C (production/storage).\n  Companion: UR256 ('UR267-B Match' in UR256 OKR notes).\n\nTHE SECTOR C PAIR\n  UR256: 176 cords, AB=81%, 24 sections (production register)\n  UR267B: 131 cords, W=55%, 26 sections (distribution register)\n  Complementary color schemes suggest complementary data views.\n\nNARRATIVE\n  Two registers, stored together in a pile in Sector C of Incahuasi. One counts in light brown (UR256, AB=81%), the other in white (UR267B, W=55%). The same commodity, tracked from two angles — production and distribution, or intake and outflow. Both carry the same universal label: *qaqa*, rock, twice each. Both descend four levels deep. Both were found in the 'Big pile' of Sector C, where the garrison's goods were weighed and recorded before being sent to the armies.",
+  "references": [
+    "Sivan 2026, ALBA Project — Sector C paired register analysis",
+    "Urton & Chu 2013-2016 — Incahuasi excavation",
+    "UR256 OKR: 'UR267-B Match'"
+  ],
+  "reconstructed_xlsx": null,
+  "document_type_override": "commodity_accounting"
+}
