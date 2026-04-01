@@ -1,0 +1,16 @@
+{
+  "khipu": "UR277",
+  "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
+  "date": "2026-03-27",
+  "status": "proposed",
+  "confidence": "medium",
+  "summary": "Short-term inventory or stock management register from Incahuasi (UE 17), tracking two categories (AB and NB colors) over ~15 years. 247 cords, 6 colors, 19 clusters. Small quantities (median ~20/entry). AB/NB color alternation within sections = two-phase accounting format. GY (27 cords) = all zero = unfilled pre-formatted positions. Section 8 contains anomalous high values (1167, 281, 272) = cumulative totals. Grand total 5,533 = 15.1 years. Only qaqa x7 (100% hits). Same area as UR278 (astronomical) and UR270 (agricultural).",
+  "interpretation": "IDENTIFICATION\n  247 cords (L1: 150, L2: 89, L3: 7, L4: 1). Architecture: 0-SEUL, 19 clusters.\n  6 colors: W(97), AB(54), MB(28), GY(27), NB(24), KB(17).\n  Excavation: Sector A, Subsector 1, UA 4, Unidad 20N, UE 17.\n  Same area as UR278 (UE 16, astronomical) and UR270 (UE 13, agricultural).\n  7 STRING (100% hits — all qaqa), 136 INT, 73 EMPTY (30%), 31 L-1 (13%).\n\nAB/NB TWO-PHASE FORMAT\n  Sections 5 and 6 show clearest pattern: AB cords first (category A), then NB cords (category B). Same count, similar values = two parallel categories tracked together.\n  GY (27 cords) = ALL ZERO — unfilled pre-formatted register.\n\nVALUES BY COLOR\n  W: mean 21.3, median 20 — standard accounting\n  AB: mean 92.6 (skewed by totals), median 20 — category A\n  NB: mean 16.6, median 18 — category B (very uniform)\n  MB: single entry val=80 — header/marker\n\nSECTION 8 — CUMULATIVE TOTALS\n  Values 1167, 281, 272 = 10-50x larger than normal = SUMS of preceding sections.\n\nGRAND TOTALS\n  Total: 5,533. 5,533/365.25 = 15.1 years.\n  Non-zero L1: 124/150 (83%).\n\nTHE THREE KHIPUS OF SECTOR A\n  UR277 (UE 17): Inventory, 15 years, small values (median 20)\n  UR278 (UE 16): Astronomical, 162 years, large values (median 230)\n  UR270 (UE 13): Agricultural, 25 years, medium values (median 100)\n  Three different document types from same storage area: astronomical (long-term), agricultural (medium-term), inventory (short-term).",
+  "references": [
+    "Sivan 2026, ALBA Project — Short-term inventory analysis, AB/NB two-phase format",
+    "Urton, G. & Chu, A. (2015). Accounting in the King's Storehouse: The Inkawasi Khipu Archive",
+    "Cross-corpus: UR278 (astronomical, UE 16), UR270 (peanut accounting, UE 13)"
+  ],
+  "reconstructed_xlsx": null,
+  "document_type_override": "inventory_register"
+}

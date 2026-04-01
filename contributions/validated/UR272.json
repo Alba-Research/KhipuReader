@@ -1,0 +1,16 @@
+{
+  "khipu": "UR272",
+  "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
+  "date": "2026-03-27",
+  "status": "proposed",
+  "confidence": "low",
+  "summary": "Small-scale paired register from Incahuasi (UE 22, separate from peanut area UE 13-18). 362 cords, 9 colors, perfectly paired (L2/L1=1.02). However, 53% of cords are L-1 (UNREADABLE — NULL turn data) and 41% are empty, making this essentially ILLEGIBLE for ALBA purposes. 0 readable STRING. Total value 1,353 = smallest of the five Sector A khipus (0.2% of UR268's 556,242). Structure and color analysis only — no text, no narrative possible.",
+  "interpretation": "IDENTIFICATION\n  362 cords (L1: 173, L2: 176, L3: 13). Architecture: 1-PAIRE (L2/L1 = 1.02 — perfectly paired).\n  9 colors: W(195), AB(65), MB(40), GG(19), NB(16), YB(14), KB(11), PG(1).\n  26 clusters. Excavation: Sector A, Subsector 1, UA 4, Unidad 20N, UE 22.\n  Different UE from peanut area (UE 13-18 = UR270/278/277/268).\n  0 readable STRING, 191 INT, 148 EMPTY (41%), 191 L-1 (53% UNREADABLE).\n\nDATA QUALITY WARNING\n  The most DATA-DAMAGED khipu analyzed:\n    191/362 cords (53%) have NULL turn data (L-1)\n    148/362 cords (41%) are empty\n    Only ~33 cords (~9%) have both non-zero values AND readable knot types\n    0 STRING — all potential text cords are L-1\n  Interpretation based on STRUCTURE and COLOR only.\n\nSTRUCTURE\n  L2/L1 = 1.02 (perfectly paired). Total L1+L2 = 1,353.\n  MB cords carry largest values (mean=20.5). YB all non-zero (10/10) = active category.\n  Small values throughout: mean ~6, max 54.\n\nTHE FIVE KHIPUS OF SECTOR A\n  UE 13: UR270 (total 9,209) — peanut warehouse\n  UE 16: UR278 (total 59,166) — astronomical observatory\n  UE 17: UR277 (total 5,533) — short-term inventory\n  UE 18: UR268 (total 556,242) — peanut district summary\n  UE 22: UR272 (total 1,353) — small-scale paired register (SMALLEST)\n  UR272 at UE 22 = different storage purpose from the peanut area.\n\nWHAT COULD BE DONE\n  Physical re-examination with modern techniques could reveal up to 23 STRING words from L-1 cords. Fiber analysis, dye analysis, and radiocarbon dating would add context.",
+  "references": [
+    "Sivan 2026, ALBA Project — Structural analysis, data damage assessment",
+    "Urton, G. & Chu, A. (2015). Accounting in the King's Storehouse: The Inkawasi Khipu Archive",
+    "Cross-corpus: UR270, UR277, UR278, UR268 — the four other Sector A khipus"
+  ],
+  "reconstructed_xlsx": null,
+  "document_type_override": "paired_register"
+}

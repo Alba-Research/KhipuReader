@@ -1,0 +1,17 @@
+{
+  "khipu": "UR268",
+  "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
+  "date": "2026-03-27",
+  "status": "proposed",
+  "confidence": "medium-high",
+  "summary": "District-level peanut production summary register from Incahuasi ('Khipu Mani'). 169 cords, 9 colors, 33 clusters. Grand total 556,242 = ~60x larger than companion UR270 ('Quipu del Mani', total 9,209), indicating HIGHER ADMINISTRATIVE LEVEL. Constant 208 appears on 19 cords (15% of L1, all identical S100+S100+L8, 79% on NB color) = reference marker (tribute unit/sack size). Only 3 STRING (all qaqa, 100% hits). Red tassel + needlework bundle = important official document. Same excavation area as UR278 (astronomical), UR270 (peanut warehouse), UR277 (inventory).",
+  "interpretation": "IDENTIFICATION\n  169 cords (L1: 131, L2: 36, L3: 1, L4: 1). Architecture: 0-SEUL, 33 clusters.\n  9 colors: W(77), NB(34), AB(24), MB(24), GG(4), ?(3), LB(1), BS(1), KB(1).\n  Nickname: 'Khipu Mani' — second peanut khipu (UR270 is 'Quipu del Mani').\n  Excavation: Sector A, Subsector 1, UA 4, Unidad 20N, UE 18.\n  Same area as UR278 (UE16), UR270 (UE13), UR277 (UE17).\n  Special: needlework bundle + red tassel at beginning = important document.\n  3 STRING (100% hits — all qaqa), 108 INT, 34 EMPTY (20%), 24 L-1 (14%).\n\nTHE 208 CONSTANT — KEY DISCOVERY\n  19 cords with value EXACTLY 208, all with identical knot structure: S?(kvt=100) + S?(kvt=100) + L?(kvt=8).\n  79% on NB (near-black) color. Present in 19/33 sections (58%).\n  Spacing: every 4-8 cords in sections 2-8.\n  208 = REFERENCE CONSTANT embedded in the register.\n  Possible: standard tribute unit, sack/container size, section marker, or proportional divisor.\n\nVOCABULARY\n  Only qaqa (rock/mountain) x3, with S-prefix values 8140, 13160, 1140 — LABELS on extremely large numbers, not geographic descriptions.\n\nSTRUCTURE — 33 PRODUCTION ZONES\n  Declining trend: Section 1 sum=26,648, Section 33 sum=7,475 (~3.5x decrease).\n  Grand total: 556,242. Non-zero L1: 112/131 (85%). Mean per cord: 4,966.\n\nTHE FOUR KHIPUS OF SECTOR A (INCAHUASI)\n  UE 13: UR270 'Quipu del Mani' — Peanut WAREHOUSE ledger (25 years, total 9,209)\n  UE 16: UR278 — Astronomical OBSERVATORY (162 years, 26x9 matrix)\n  UE 17: UR277 — Short-term INVENTORY (15 years, AB/NB bicolor)\n  UE 18: UR268 'Khipu Mani' — Peanut DISTRICT SUMMARY (total 556,242, 208 constant)\n\nUR268 vs UR270 — SCALE COMPARISON\n  UR268 total 556,242 vs UR270 total 9,209 = 60x ratio.\n  UR268 typical values 8,000-13,000 vs UR270 typical 100-240.\n  UR268 has 208 constant (x19) vs UR270 has none.\n  UR268 has red tassel (official) vs UR270 has none.\n  UR268 = district SUMMARY that aggregates UR270-type warehouse data.\n  If 33 sections represent 33 warehouses, average ~17,000/section is consistent with multiple UR270-size ledgers.",
+  "references": [
+    "Sivan 2026, ALBA Project — District-level peanut production analysis, 208 constant discovery",
+    "Urton & Chu 2013 — Incahuasi excavation, Sector A khipus found with peanuts",
+    "Cross-corpus: UR270 (peanut warehouse, 9,209), UR278 (astronomical, 162yr), UR277 (inventory)",
+    "Incahuasi — Inca military/administrative base, southern coast conquest (~1470s)"
+  ],
+  "reconstructed_xlsx": null,
+  "document_type_override": "commodity_accounting"
+}

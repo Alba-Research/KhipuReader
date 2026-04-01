@@ -14,5 +14,6 @@
     "Runasimi astronomical dictionary (Lucre, Cusco)",
     "Thompson 2024, Ethnohistory (AS069/AS070 pivot pair)"
   ],
-  "reconstructed_xlsx": "UR006_observatory_journal.xlsx"
+  "reconstructed_xlsx": "UR006_observatory_journal.xlsx",
+  "document_type_override": "astronomical_journal"
 }

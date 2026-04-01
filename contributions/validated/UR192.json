@@ -1,0 +1,17 @@
+{
+  "khipu": "UR192",
+  "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
+  "date": "2026-03-29",
+  "status": "proposed",
+  "confidence": "medium",
+  "summary": "Administrative accounting register from an Inca tambo (waystation) at Huaca Perez / Tambo Inca in the Chillon Valley near Lima. 70 cords, 8 colors, 0 STRING (purely numerical — ALBA syllabary does not apply). 54% empty = pre-formatted register never fully completed. Cluster 1 contains an ascending sequence (10->70) with R²=0.981 log-linear fit (growth factor 1.25/entry). Maximum value 70 appears 3 times = cap or standard unit. Two physical markers (M1, M2) divide the khipu. Part of the Huaca Perez trio: UR190 (417 cords), UR191 (28 cords), UR192 (70 cords). Musee Quai Branly, Paris.",
+  "interpretation": "IDENTIFICATION\n  70 cords (L1: 59, L2: 11). Architecture: 0-SEUL.\n  8 colors: AB(44), W(12), MB(6), KB(2), GG(2), ?(2), BY(1), BG(1).\n  7 clusters (3 main data + 2 singletons + 2 separators).\n  Provenance: Huaca Perez, Lima (a.k.a. Hacienda Infantas, Tambo Inca) — Chillon valley.\n  Museum: Musee Quai Branly, Paris (cat. 71.1887.9.15). Incomplete.\n  Collection trio: UR190 (417 cords), UR191 (28 cords), UR192 (70 cords) — all same site, acquired 1887.\n  0 STRING (purely numerical), 38 INT, 32 EMPTY (54%).\n  OKR: 'M1 and M2 are composed of threads wrapped around primary cord; very frayed.' Physical markers.\n\nHYPOTHESIS\n  UR192 is a small administrative accounting register from an Inca tambo recording counts for ~11-14 entities of increasing size — possibly tribute groups, livestock herds, or storage units.\n\nCLUSTER 1 — ASCENDING SEQUENCE (14 L1 cords, sum=448)\n  Values: 10, 0, 12, 12, 16, 19, 25, 37, 43, 53, 70, 36, 45, 70.\n  C1-C11 follows log-linear curve: R²=0.981, growth factor 1.252 per step.\n  This regularity is NOT random — deliberately structured ranking.\n  C12-C14 break pattern (36, 45, 70) = different category or summary entries.\n\nCLUSTER 2 — SINGLETON (val=70, MB)\n  Single cord at maximum value = TOTAL, reference, or divider.\n\nCLUSTER 3 — SPARSE (9 cords, sum=11, 5 empty bicolor cords)\n  Pre-formatted positions never filled.\n\nCLUSTER 5 — SECOND ASCENDING SEQUENCE (18 cords, sum=53)\n  Values: 5, 7, 8, 9, 11, 13, then 12 empties = interrupted register.\n\nCLUSTER 7 — THIRD BLOCK (15 cords, sum=120, 11 empties)\n  Values: 12, 17, 51, 40, then empty.\n\nKEY OBSERVATIONS\n  54% empty = pre-formatted register interrupted mid-completion.\n  Two ascending sequences: Cluster 1 (10->70) and Cluster 5 (5->13).\n  Different scales: Cluster 1 peaks at 70, Cluster 5 at 13 = different categories or administrative levels.\n  Maximum value 70 appears 3 times = cap or standard unit.\n  Note: With 0 STRING cords, the ALBA syllabary cannot contribute to interpretation. All analysis is structural and numerical.",
+  "references": [
+    "Sivan 2026, ALBA Project — Ascending sequence analysis, R²=0.981 log-linear fit",
+    "Musee Quai Branly, Paris — catalogue 71.1887.9.15",
+    "Huaca Perez / Tambo Inca — Chillon Valley, Lima",
+    "Collection trio: UR190, UR191, UR192 — all same site and museum"
+  ],
+  "reconstructed_xlsx": null,
+  "document_type_override": "administrative_accounting"
+}

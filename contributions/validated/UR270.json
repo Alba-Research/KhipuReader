@@ -1,0 +1,17 @@
+{
+  "khipu": "UR270",
+  "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
+  "date": "2026-03-27",
+  "status": "proposed",
+  "confidence": "high",
+  "summary": "Agricultural accounting register ('Quipu del Mani' = Peanut Khipu) from Incahuasi, found WITH actual peanuts. 381 cords, 7 colors, paired format (L2/L1=1.23). Reclassified from ASTRONOMIQUE to COMPTABILITE AGRICOLE: negative inter-column correlations (P2-P5: r=-0.636) = competing commodities (incompatible with astronomical). 25 clusters (7 with exactly 9 cords), 4 physical markers dividing into 5 zones. Grand total 9,209 = ~25 years. Only qaqa x7 (100% hits). Same excavation unit as UR278 (astronomical, 162yr).",
+  "interpretation": "IDENTIFICATION\n  381 cords (L1: 162, L2: 200, L3: 19). Architecture: 1-PAIRE — paired register.\n  7 colors: W(179), NB(124), KB(34), MB(19), AB(17), ?(5), YB(3).\n  Nickname: 'Quipu del Mani' = Peanut Khipu.\n  Excavation: Sector A, Subsector 1, UA 4, Unidad 20N, UE 13.\n  Same unit as UR278. Found WITH actual peanuts — archaeological context confirms commodity tracking.\n  4 physical markers divide into 5 zones. 25 clusters (7 with exactly 9 cords).\n  7 STRING (100% hits — all qaqa), 244 INT, 84 EMPTY, 46 L-1 (12%).\n\nRECLASSIFICATION: AGRICULTURAL, NOT ASTRONOMICAL\n  Negative inter-column correlations prove this:\n    P2-P5: r=-0.636 (NEGATIVE) vs UR278 P2-P5: r=+0.533 (positive)\n    P5-P6: r=-0.600 (NEGATIVE) vs UR278 P5-P6: r=+0.860 (positive)\n  Negative correlations = competing commodities (more peanuts = less beans). INCOMPATIBLE with astronomical (where all columns track shared visibility).\n\nVOCABULARY\n  Only qaqa (rock/mountain) x7, always with S-prefix 30 or 60 = section labels/category markers.\n  Pure DATA register — 1 word type in entire khipu.\n\n5 ZONES (PHYSICAL MARKERS)\n  Zone 1 (cords 1-16): Mean value 135, opening accounting period.\n  Zone 2 (cords 17-44): Mean 144, second period.\n  Zone 3 (cords 45-74): Mean 179 (HIGHEST), peak production.\n  Zone 4 (cords 75-94): Mean 110 (LOWEST), declining period.\n  Zone 5 (cords 95-162): Mean 145, extended final period (largest zone).\n\nUR270 vs UR278 — CRITICAL COMPARISON\n  Both from SAME excavation unit but different functions:\n    UR270: L2/L1=1.23 (paired), 7/25 clusters 9-cord (28%), total 9,209 (25yr), MIXED correlations\n    UR278: L2/L1=0.05 (flat), 26/37 clusters 9-cord (70%), total 59,166 (162yr), ALL positive correlations\n  Decisive test = CORRELATION SIGN: negative correlations in UR270 prove it's agricultural, not astronomical.\n\nHISTORICAL CONTEXT\n  Incahuasi: military/administrative base for Inca conquest of Peru's southern coast (~1470s). Storehouses held food for troops. Alejandro Chu discovered 29 khipus in storehouses beginning 2013, several with specific agricultural products.\n  Demonstrates single storehouse could hold BOTH astronomical and accounting records side by side.",
+  "references": [
+    "Sivan 2026, ALBA Project — Agricultural reclassification, negative correlation analysis",
+    "Urton & Chu 2013 — Incahuasi excavation, khipu found WITH peanuts",
+    "Cross-corpus: UR278 (astronomical, positive correlations), UR268 (district summary, 60x scale)",
+    "Incahuasi — Inca military base, Canete Valley, southern coast"
+  ],
+  "reconstructed_xlsx": null,
+  "document_type_override": "commodity_accounting"
+}

@@ -10,5 +10,6 @@
     "Sivan 2026, ALBA Project",
     "Compare HP020 (Pachacamac cadastre)"
   ],
-  "reconstructed_xlsx": null
+  "reconstructed_xlsx": null,
+  "document_type_override": "cadastral_survey"
 }

@@ -1,0 +1,16 @@
+{
+  "khipu": "UR189",
+  "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
+  "date": "2026-03-29",
+  "status": "proposed",
+  "confidence": "medium-high",
+  "summary": "Cadastral register — a land survey documenting terrain parcels with boundary markers, dated 23 November 1487 CE. 88 cords, 6 colors, heavily L2-treed (L2/L1=0.80). Only 5 STRING (100% hits): maqa (boundary marker) x3, pata (terrace/plot) x1, pika (who-PASS = 'who was assigned?') x1. Two massive anchor cords (C2=226, C27=209) carry heavy L2 trees with breakdowns. All L1 STRING on MB (category color) = text labels serve as category markers within a numerical register. Musee Quai Branly, Paris.",
+  "interpretation": "IDENTIFICATION\n  88 cords (L1: 49, L2: 39). Architecture: 0-SEUL with heavy L2 trees (L2/L1 = 0.80).\n  6 colors: AB(39), W(21), MB(19), BG(7), KB(1), GG(1).\n  6 clusters. Incomplete.\n  Provenance: Unknown. Museum: Musee Quai Branly, Paris (cat. 71.1878.3.61).\n  Date: 23 November 1487 CE (C1=12 flag, C3=49->1487, C5=11->month 11, C6=23->day 23). HIGH confidence, validated independently.\n  5 STRING (100% hits), 78 INT, 5 EMPTY (10%).\n\nHYPOTHESIS\n  Ur189 is a cadastral register documenting terrain parcels (pata) with boundary markers (maqa) and responsibility queries (pika = 'who was assigned?'). Dominated by numbers with only 5 STRING labels. Two massive anchor entries function as primary measurements.\n\nKEY VOCABULARY\n  maqa (boundary marker x3, crosses 3 colors MB->AB->AB:W) — KEY ACTOR in the register\n  pata (terrace/plot x1, MB) — closing word = the register IS about land\n  pika (who-PASS x1, MB L2 on C27) — 'who was [assigned/affected]?' = responsibility query\n\nCOLOR-AS-ROLE\n  AB (39 cords, 44%): GEOGRAPHIC/SUBJECT — terrain data, measurements.\n  W (21 cords, 24%): PRIMARY DATA — carries largest values (226, 209).\n  MB (19 cords, 22%): CATEGORY — ALL 3 L1 STRING words on MB.\n  BG (7 cords, 8%): IDENTITY — owner/responsible party markers.\n  Pure cadastral scheme: geography(AB) + measurements(W) + labels(MB) + owners(BG).\n\nSTRUCTURE — TWO ANCHOR CORDS\n  C2 (W, val=226, 5 L2 children): L2 sum=73 (32% of parent). The primary parcel.\n  C27 (W, val=209, 3 L2 children including pika): The second major parcel with responsibility query.\n  Together: 226+209 = 435 = 41% of grand total. Dominant entries — total populations, areas, or tribute.\n  BG (identity) cords at three key positions: within main measurement (C5), near interrogative (C30), and closing (C48) = the PEOPLE associated with the parcels.\n\nDATING\n  23 November 1487 CE. C1=12 (flag), C3=49 (year offset 1438+49=1487), C5=11 (month), C6=23 (day).\n  Validated by independent ALBA session. Within the 1458-1536 range.",
+  "references": [
+    "Sivan 2026, ALBA Project — Cadastral register analysis, dating 23 November 1487 CE",
+    "Musee Quai Branly, Paris — catalogue 71.1878.3.61",
+    "Cross-corpus: UR1095 (Pachacamac cadastral), UR1087 (administrative cadastre)"
+  ],
+  "reconstructed_xlsx": null,
+  "document_type_override": "cadastral_survey"
+}

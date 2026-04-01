@@ -11,5 +11,6 @@
     "HP019 companion document",
     "UR1095 (Pachacamac full cadastre) for vocabulary comparison"
   ],
-  "reconstructed_xlsx": null
+  "reconstructed_xlsx": null,
+  "document_type_override": "cadastral_survey"
 }
