@@ -1,0 +1,17 @@
+{
+  "khipu": "HP051",
+  "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
+  "date": "2026-04-01",
+  "status": "proposed",
+  "confidence": "low",
+  "summary": "Purely numerical administrative register from an unknown provenance, held at Lima's Museo Nacional de Arqueologia. 32 cords, 0 STRING, 19 INT, 5 EMPTY, 8 L-1 (25% unreadable). Architecture 0-SEUL, depth L1, 10 clusters, 4 colors (W dominant at 24). Date: 1505/03/06 CE Mode A. Total value: 299. No text — ALBA syllabary cannot contribute. The khipu ID is 'HP051 A' in OKR.",
+  "interpretation": "IDENTIFICATION\n  32 cords, depth L1 — flat structure, no subsidiaries.\n  Architecture: 0-SEUL, 10 clusters.\n  Colors: W(24), MB(6), AB(1), R0(1) — 4 colors, white dominant (75%).\n  0 STRING, 19 INT, 5 EMPTY, 8 L-1 (25% unreadable).\n  Total value: 299.\n  Date: 1505/03/06 CE Mode A (translator detected).\n  Provenance: Unknown.\n  Museum: Museo Nacional de Arqueologia, Lima.\n  OKR ID: HP051 A.\n\nCOLOR-AS-ROLE\n  W (white, 24 cords = 75%): The dominant accounting color — neutral, numerical.\n  MB (medium brown, 6 cords): Secondary category — possibly a different commodity or tax type.\n  AB (light brown, 1 cord): Single entry in a third category.\n  R0 (red-orange, 1 cord): Single entry in a fourth category — possibly a flag or special annotation.\n\nSTRUCTURE\n  10 clusters of 2-5 cords each. No subsidiaries (L1 only). The 5 EMPTY cords likely function as cluster separators.\n  8 L-1 cords (25%) are unreadable — physical degradation or knot ambiguity.\n  No STRING cords whatsoever — this is a pure counting register.\n\nDATE\n  Mode A detection: C1 encodes year (1505 - 1438 = 67), C2 = month (3 = March), C3 = day (6).\n  6 March 1505 CE — six years after the Spanish first sighted Peru's coast, twenty-eight years before Pizarro entered Cajamarca.\n\nTOTAL VALUE\n  Sum of all INT values: 299 units. The commodity is unidentifiable without provenance or context.\n\nNARRATIVE\n  Two hundred and ninety-nine units, counted on thirty-two cords in the year 1505 — six years after the Spanish first sighted Peru's coast, twenty-eight years before Pizarro entered Cajamarca. A purely numerical register, ten clusters, one-quarter unreadable, stored at Lima's national museum with no provenance to guide interpretation. The white cords dominate: twenty-four of thirty-two, the accountant's neutral thread. Six medium-brown cords mark a secondary category; a single light-brown cord and a single red-orange cord stand apart, perhaps flagging exceptions or totals. Whatever was counted here — tribute, stores, livestock, labor days — the number 299 was important enough to knot and archive, but not important enough to survive with its story attached.",
+  "references": [
+    "Sivan 2026, ALBA Project — KhipuReader translation and dating analysis",
+    "Dating paper: Sivan 2026, 'Dating the Inca Archive' — HP051 Mode A date 1505/03/06 CE",
+    "Museo Nacional de Arqueologia, Antropologia e Historia del Peru, Lima",
+    "OKR: HP051 A — 32 cords, 10 clusters, 4 colors"
+  ],
+  "reconstructed_xlsx": null,
+  "document_type_override": "administrative_accounting"
+}
