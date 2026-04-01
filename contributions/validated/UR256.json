@@ -1,0 +1,17 @@
+{
+  "khipu": "UR256",
+  "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
+  "date": "2026-04-01",
+  "status": "proposed",
+  "confidence": "medium",
+  "summary": "Commodity production register from Incahuasi Sector C — the first analyzed khipu from this production/storage area (distinct from Sector A administration). 176 cords, AB-dominant (81% = highest single-color concentration at Incahuasi), 3 colors, 24 sections, 1-PAIRE with L4 depth. Only 3 STRING (all qaqa = section labels, 100% hits). Found in 'Big pile', matched to companion UR267-B. 18 L-1 cords (10% data loss).",
+  "interpretation": "IDENTIFICATION\n  176 cords. 3 STRING (2%, all qaqa, 100% hits), 124 INT, 31 EMPTY (18%), 18 L-1 (10%).\n  Architecture: 1-PAIRE, depth L4. 24 clusters.\n  3 colors: AB(143 = 81%), MB(32), KB(1).\n  Provenance: Incahuasi — Sector C, Subsector 5, Unidad 19K, UE 2.\n  Museum: Proyecto Incahuasi. OKR: 'Big pile', 'UR 267-B Match'.\n\nSECTOR C vs SECTOR A\n  First khipu from Sector C (production/storage). Sector A = administration (UR270/278/268/277/272).\n  'Big pile' = mass storage of khipus. UR267-B = companion document.\n\nAB DOMINANCE (81%)\n  Highest single-color concentration among Incahuasi khipus. Suggests SINGLE-COMMODITY register.\n  3-color system: AB = primary data, MB = section markers/subtotals, KB = single special cord.\n\n24 SECTIONS\n  24 clusters averaging 7.3 cords each. Possibly 2 years monthly tracking, or 24 production zones.\n  1-PAIRE + L4 depth = hierarchical: total -> subcategory -> detail -> fine detail.\n\nNARRATIVE\n  Rock. Three times, and nothing more. That is all the text this khipu carries — the word *qaqa*, repeated three times across 176 cords of numbers. In the Incahuasi archive, *qaqa* is the universal label: it marks sections in UR270, UR268, UR277, UR278.\n  This khipu was found in a pile — the OKR notes call it 'Big pile' — in Sector C of Incahuasi, far from the administrative buildings of Sector A. Sector C was production and storage. Matched to a companion called UR267-B.\n  143 of 176 cords are light brown (AB) — 81%. Twenty-four sections, each a cluster of AB numbers with an MB marker at the boundary. The architecture descends four levels. This is a warehouse ledger, detailed enough to track individual batches.\n  What commodity? The khipu does not say. But the location, the structure, and the companion match suggest one register among many in a storehouse where goods were counted, recorded, and tied in colored thread.",
+  "references": [
+    "Sivan 2026, ALBA Project — Incahuasi Sector C analysis",
+    "Urton & Chu 2013-2016 — Incahuasi excavation",
+    "Cross-corpus: UR270 (peanut, Sector A), UR268 (district summary), UR277 (inventory)",
+    "OKR: 'Big pile', 'UR267-B Match', Sector C Subsector 5 UE 2"
+  ],
+  "reconstructed_xlsx": null,
+  "document_type_override": "commodity_accounting"
+}
