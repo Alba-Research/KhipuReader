@@ -1,0 +1,12 @@
+{
+  "khipu": "UR262",
+  "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
+  "date": "2026-04-01",
+  "status": "proposed",
+  "confidence": "low",
+  "summary": "Largest Incahuasi khipu by cord count — 490 cords, 2+-ARBRE depth L5, 9 clusters. Only 1 STRING (qaqa). NB(232)/AB(181) dominant. 115 EMPTY (23%). 10 L-1. A major commodity or production register.",
+  "interpretation": "IDENTIFICATION\n  490 cords (largest at Incahuasi). 1 STRING (qaqa), 364 INT, 115 EMPTY (23%), 10 L-1.\n  Architecture: 2+-ARBRE, depth L5. 9 clusters. Colors: NB(232), AB(181), KB(28), MB(27), GG(8).\n  Provenance: Incahuasi.\n\nNARRATIVE\n  Four hundred and ninety cords — the largest khipu excavated at Incahuasi, deeper than any other at five levels of hierarchy. Nine clusters divide the register. One word: *qaqa*, the universal label. The rest is numbers, organized in a tree of dark and light thread, counting something at a scale that required the largest register the garrison kept.",
+  "references": ["Urton & Chu 2013-2016 — Incahuasi"],
+  "reconstructed_xlsx": null,
+  "document_type_override": "commodity_accounting"
+}

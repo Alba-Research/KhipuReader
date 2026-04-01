@@ -1,0 +1,12 @@
+{
+  "khipu": "UR266",
+  "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
+  "date": "2026-04-01",
+  "status": "proposed",
+  "confidence": "low",
+  "summary": "Numerical register from Incahuasi with unusual YB-dominant color (54 cords = 31%). 174 cords, 0 STRING, total 83,449. 36 clusters. 1-PAIRE depth L3. HB(24)/MB(24)/W(30)/AB(11) complement. 11 L-1.",
+  "interpretation": "IDENTIFICATION\n  174 cords. 0 STRING, 109 INT, 54 EMPTY (31%), 11 L-1.\n  Architecture: 1-PAIRE, L3. 36 clusters. Colors: YB(54), W(30), HB(24), MB(24), AB(11).\n  Provenance: Incahuasi. Total: 83,449.\n  YB-dominant is unique among Incahuasi khipus — a special commodity or seasonal category.\n\nNARRATIVE\n  Yellow-brown. That is the dominant color — YB, fifty-four cords, a color seen nowhere else at Incahuasi as the primary thread. Eighty-three thousand units counted across thirty-six short clusters. No words, no labels, only numbers and the unusual color that sets this register apart from every other in the archive.",
+  "references": ["Urton & Chu 2013-2016 — Incahuasi"],
+  "reconstructed_xlsx": null,
+  "document_type_override": "commodity_accounting"
+}

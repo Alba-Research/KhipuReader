@@ -1,0 +1,12 @@
+{
+  "khipu": "UR275",
+  "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
+  "date": "2026-04-01",
+  "status": "proposed",
+  "confidence": "low",
+  "summary": "Numerical register from Incahuasi. 125 cords, 0 STRING, total 82,951. W(46)/NB(45)/AB(21) = dual-color data. 26 clusters. 13 L-1. Red thread run-through on C24.",
+  "interpretation": "IDENTIFICATION\n  125 cords. 0 STRING, 101 INT, 11 EMPTY, 13 L-1.\n  Architecture: 1-PAIRE, L2. Colors: W(46), NB(45), AB(21), KB(7), GG(3).\n  Provenance: Incahuasi. Total: 82,951. OKR: C24 'red thread run through'.\n\nNARRATIVE\n  Eighty-two thousand nine hundred and fifty-one units of something, counted on 125 cords in two near-equal colors: white and near-black, forty-six and forty-five cords each. No words. The red thread run through cord 24 marks a specific entry — a validated measurement or a flagged exception, a single spot of color in a monochrome accounting register.",
+  "references": ["Urton & Chu 2013-2016 — Incahuasi"],
+  "reconstructed_xlsx": null,
+  "document_type_override": "commodity_accounting"
+}

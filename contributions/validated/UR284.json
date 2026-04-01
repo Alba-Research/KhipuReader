@@ -1,0 +1,15 @@
+{
+  "khipu": "UR284",
+  "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
+  "date": "2026-04-01",
+  "status": "proposed",
+  "confidence": "low",
+  "summary": "Small heavily damaged register from Armatambo (Huaca San Pedro, Lima). 22 cords, 0 STRING, 13 L-1 (59% unreadable!). Total 197. W(13)/BG(4)/MB(4). 6 clusters. Essentially illegible — the most data-damaged khipu per percentage in the corpus.",
+  "interpretation": "IDENTIFICATION\n  22 cords. 0 STRING, 8 INT, 1 EMPTY, 13 L-1 (59% unreadable).\n  Architecture: 0-SEUL, L1. 6 clusters. Colors: W(13), BG(4), MB(4), AB(1).\n  Provenance: Armatambo, Huaca San Pedro (Lima coast). Museum: Museo Nac., Pueblo Libre.\n  Total: 197. 59% L-1 = most damaged per percentage in corpus.\n\nNARRATIVE\n  Thirteen of twenty-two cords are unreadable — NULL turns in the database, knots that disintegrated or were never recorded. What remains: eight numbers totaling 197, and a provenance that places this fragment at Armatambo, the great Ychma administrative center on the coast south of Lima. A ghost of a document, more absence than presence.",
+  "references": [
+    "Armatambo/Huaca San Pedro — Ychma administrative center, Lima coast",
+    "Museo Nacional, Pueblo Libre"
+  ],
+  "reconstructed_xlsx": null,
+  "document_type_override": "administrative_accounting"
+}
