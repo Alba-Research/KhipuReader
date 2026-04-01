@@ -1,0 +1,17 @@
+{
+  "khipu": "UR280",
+  "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
+  "date": "2026-04-01",
+  "status": "proposed",
+  "confidence": "low",
+  "summary": "Administrative register from the Incahuasi Kallanka (great hall) — purely numerical (0 STRING), 250 cords, 2+-ARBRE architecture with L5 depth (one of deepest in corpus), 6 clusters, total 6,311. Last khipu excavated at the site. Found near opposite wall from 'Khipu Urton' (UR263) in the same Kallanka. Compound document: fragmentary khipu tied on at 67.5 cm. AB-dominant (42%).",
+  "interpretation": "IDENTIFICATION\n  250 cords. 0 STRING (purely numerical), 130 INT, 100 EMPTY (40%), 20 L-1 (8%).\n  Architecture: 2+-ARBRE, depth L5 (one of deepest in corpus).\n  6 clusters. Colors: AB(104), W(76), NB(49), MB(12), GG(8) — 5 colors.\n  Total value: 6,311.\n  Provenance: Incahuasi — Sector A, Subsector 1, UA 2, UE 10.\n  Location: Kallanka (great hall) nearest the palacio.\n  OKR: 'Last khipu excavated. Found in Kallanka same as Khipu Urton (UR263) but near opposite wall.'\n  Compound: '2.0 cm knot with additional empty primary cord' + '67.5 cm other fragmentary khipu tied on'.\n\nTHE KALLANKA PAIR\n  UR263 'Khipu Urton' — found near one wall of the Kallanka\n  UR280 (THIS) — found near the opposite wall, last excavated\n  Two khipus at opposite ends of the great hall = complementary administrative records.\n\nNARRATIVE\n  This is the last khipu excavated at Incahuasi — found in the Kallanka, the great hall nearest the palacio, at the opposite wall from the celebrated 'Khipu Urton' that Gary Urton himself discovered. Two hundred and fifty cords, not one of them carrying a word. A tree five levels deep, six large clusters, six thousand three hundred and eleven units of something that was counted and organized in the hall where the Inca governor held assemblies and distributed orders.\n  A second khipu — fragmentary, broken — was tied onto the primary cord at 67.5 centimeters. Two documents physically joined, the way a colonial notary might staple an attachment to a legal filing. The main register and its annex, knotted together, deposited against the wall of the great hall, and left there when the empire fell.",
+  "references": [
+    "Sivan 2026, ALBA Project — Incahuasi Kallanka analysis",
+    "Urton & Chu 2013-2016 — Incahuasi excavation, final khipu from Kallanka",
+    "UR263 'Khipu Urton' — companion from same building",
+    "Hyslop 1990, Inca Settlement Planning — Kallanka architecture"
+  ],
+  "reconstructed_xlsx": null,
+  "document_type_override": "administrative_accounting"
+}

@@ -1,0 +1,16 @@
+{
+  "khipu": "UR269",
+  "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
+  "date": "2026-04-01",
+  "status": "proposed",
+  "confidence": "medium",
+  "summary": "Third peanut khipu from Incahuasi ('Quipu del Mani', UE 11) — a production register with 330 cords organized into 107 clusters (most fragmented in corpus). Only 2 STRING (both qaqa). Colors NB(106)/W(81)/AB(64)/MB(52). Same excavation area as UR270 (UE 13) and UR268 (UE 18). Intermediate level between UR270 (warehouse, 9,209) and UR268 (district, 556,242). The three-tier peanut accounting system.",
+  "interpretation": "IDENTIFICATION\n  330 cords. 2 STRING (qaqa x2, 100%), 198 INT, 111 EMPTY (34%), 19 L-1 (6%).\n  Architecture: 1-PAIRE, depth L3. 107 clusters (most fragmented khipu analyzed).\n  Colors: NB(106), W(81), AB(64), MB(52), ?(16) — 5 colors.\n  Provenance: Incahuasi — Sector A, Subsector 1, UA 4, Unidad 20N, UE 11.\n  Nickname: 'Quipu del Mani' — THIRD peanut khipu from this area.\n\nTHE PEANUT ARCHIVE\n  UE 11: UR269 (THIS) — 330 cords, 107 clusters (day-by-day or batch-by-batch ledger)\n  UE 13: UR270 'Quipu del Mani' — 381 cords, 25 clusters (warehouse summary)\n  UE 18: UR268 'Khipu Mani' — 169 cords, 33 clusters (district summary, total 556,242)\n  Three-tier accounting: UR269 (detail) -> UR270 (warehouse) -> UR268 (district).\n\nNARRATIVE\n  Rock. Twice, and nothing more — the word qaqa, the universal label of the Incahuasi archive, twice across 330 cords of numbers. But this khipu tells its story through structure, not words. One hundred and seven clusters — the most fragmented khipu from the site — each cluster averaging just three cords. This is not a summary but a daily ledger, a record of peanut batches counted one by one, piled up over weeks and months in the storehouses of Sector A.\n  It is the third 'Quipu del Mani' from the same excavation area. Three tiers of the same commodity: the batch count (UR269), the warehouse total (UR270), and the district summary (UR268). Three khipus, three levels of administration, all stored within meters of each other in Unidad 20N.",
+  "references": [
+    "Sivan 2026, ALBA Project — Three-tier peanut accounting system",
+    "Urton & Chu 2013-2016 — Incahuasi Sector A peanut archive",
+    "Cross-corpus: UR270 (warehouse), UR268 (district summary)"
+  ],
+  "reconstructed_xlsx": null,
+  "document_type_override": "commodity_accounting"
+}
