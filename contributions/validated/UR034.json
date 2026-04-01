@@ -1,0 +1,17 @@
+{
+  "khipu": "UR034",
+  "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
+  "date": "2026-04-01",
+  "status": "proposed",
+  "confidence": "medium",
+  "summary": "Mixed astronomical-cadastral register — 3 astro labels (kaki=Pleiades x2, maki=Mars x1, maqa=eclipse x4) + 3 cadastral labels (kaqa=wall x2, chiqa=truth x2, taqa implicit). 188 cords, 38 clusters, 1-PAIRE depth L4, 100% hit rate. First word chiqa (truth) = thesis is VERIFICATION. Interrogative pitaka (who-ACC-PASS, cord 107, GG) = formal inquiry. Most STRING on L2-L4 = words annotate numbers. Possibly an observation station survey (where + what to observe). Museo de la Nacion, Lima. 16 STRING.",
+  "interpretation": "IDENTIFICATION\n  188 cords. 16 STRING (9%, 100% hits), 159 INT, 13 EMPTY (7%).\n  Architecture: 1-PAIRE, depth L4. 38 clusters.\n  Colors: AB(77), W(52), MB(15), RL(15), LA(10) — 5 colors.\n  Provenance: Unknown. Museum: Museo de la Nacion, Lima.\n\nHYBRID VOCABULARY\n  Astronomical: kaki (Pleiades x2), maki (Mars obs x1), maqa (eclipse x4)\n  Cadastral: kaqa (wall-AY x2), chiqa (truth x2)\n  Interrogative: pitaka (who-ACC-PASS x1, GG color) = formal inquiry\n  3 astro + 3 cadastral = mixed document.\n\nFIRST WORD = chiqa (truth, C1, AB) — verification as thesis.\nINTERROGATIVE = pitaka (C107, GG) — 'who was assigned/responsible?'\nCLOSING = TOP-pa sv=50 (C188, W) — topic marker with value.\n\nDUAL-LEVEL TEXT\n  L1 (7 STRING): chiqa, pitaka, kaki, chi-DIR, maqa(sv=10), maqa, TOP-pa(sv=50) — PRIMARY labels.\n  L2-L4 (9 STRING): kaki, kaqa, chi-GEN, maki, kaqa, maqa x2, chiqa, chi-DIR — ANNOTATIONS.\n  Numbers primary, words explain = reference register format.\n\nNARRATIVE — THE OBSERVATORY AND THE WALL\n  Truth. That is the first word — *chiqa*, cord 1. The document opens as a certification. What follows is a register of numbers with scattered celestial and geographic labels. The Pleiades appear twice — once buried in the tree at L2, once prominently at L1. Mars appears once, also buried. The eclipse marker *maqa* appears four times, the most frequent label.\n  At cord 107, on a gray cord of justice: *pitaka* — who was responsible? Who was assigned to this station? The formal interrogative, in passive-accusative.\n  The walls (*kaqa*, Aymara) and the verification marks (*chiqa*) frame a document that is neither pure astronomy nor pure cadastre but something between — a register of what was observed and where, who tracked the Pleiades and who measured the walls.\n  The museum says 'provenance unknown.' The vocabulary says: somewhere an observer watched the Pleiades rise above an Aymara wall and recorded both on the same khipu.",
+  "references": [
+    "Sivan 2026, ALBA Project — Mixed astro-cadastral analysis",
+    "Museo de la Nacion, Lima",
+    "Cross-corpus: UR1145 (Pachacamac astronomy), UR058A (Arica cadastral)",
+    "Ceque system: huacas assigned to astronomical duties (Zuidema 1964)"
+  ],
+  "reconstructed_xlsx": null,
+  "document_type_override": "astronomical_journal"
+}

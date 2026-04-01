@@ -1,0 +1,16 @@
+{
+  "khipu": "UR016",
+  "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
+  "date": "2026-04-01",
+  "status": "proposed",
+  "confidence": "high",
+  "summary": "Large-scale cadastral survey from Leymebamba — 442 cords (3rd largest analyzed), AB=74% (highest single-color cadastral), 7 clusters = 7 administrative sectors. Full 6/6 cadastral vocabulary: kaqa (wall-AY x4), chiqa (truth x3), qaqa (rock x2), maqaqa (strike-rock x2), paqa (east x2), taqa (boundary x1), maqa (x1). Same site as UR006 (astronomical, 1473) and UR003 (agricultural calendar). Unusual RL (red-lilac, 53 cords) and BL (blue, 17 cords) colors. Centro Mallqui. 16 STRING, 88% coverage.",
+  "interpretation": "IDENTIFICATION\n  442 cords. 16 STRING (4%, 88% hits), 312 INT, 114 EMPTY (26%).\n  Architecture: 1-PAIRE, depth L3. 7 clusters.\n  Colors: AB(327 = 74%), RL(53), KB(18), BL(17), W(16) — 5 colors.\n  Provenance: Leymebamba. Museum: Centro Mallqui.\n\nFULL CADASTRAL SIGNATURE (6/6)\n  kaqa (wall-AY x4), chiqa (truth x3), qaqa (rock x2), maqaqa (strike-rock x2), paqa (east x2), taqa (boundary x1), maqa (x1).\n  kaqa x4 = most Aymara terms of any Leymebamba khipu.\n\nTHE LEYMEBAMBA ARCHIVE\n  UR006 (astronomical journal, 874 cords, 1473) — the sky\n  UR003 (agricultural calendar, 769 cords) — the seasons\n  UR016 (cadastral survey, 442 cords) — the land\n  Three complementary documents from the same site.\n\nNARRATIVE — THE LAND OF LEYMEBAMBA\n  Wall. Four times the Aymara word *kaqa* — more than any Leymebamba khipu. In the cloud forests of Chachapoyas, where the pre-Inca Chachapoya people built cliff tombs and stone citadels, the word for 'wall' comes from the Aymara language of the coast. The Inca brought their administrative vocabulary when they conquered the region around 1470.\n  This khipu is the map of that conquest. Four hundred and forty-two cords, organized into seven clusters — seven sectors of the Leymebamba district. The surveyor walked the terrain: rocks (*qaqa*), walls (*kaqa*), boundary markers (*maqaqa* = strike-rock), the east (*paqa*), the administrative limits (*taqa*). At each section: *chiqa* — truth.\n  Three hundred and twenty-seven cords are light brown — 74%, the highest single-color concentration of any cadastral khipu. The remaining colors mark special categories: red-lilac on 53 cords, blue on 17. In a landscape where rivers cut through steep valleys, the blue cords may trace the water.\n  At the same site, two other khipus complete the archive: UR006 (the stars), UR003 (the farming). UR016 adds the ground. The sky, the seasons, the land — three khipus, one district.",
+  "references": [
+    "Sivan 2026, ALBA Project — Leymebamba cadastral survey",
+    "Centro Mallqui, Leymebamba, Amazonas",
+    "Cross-corpus: UR006 (astronomical, 1473), UR003 (agricultural calendar)"
+  ],
+  "reconstructed_xlsx": null,
+  "document_type_override": "cadastral_survey"
+}

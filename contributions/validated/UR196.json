@@ -1,0 +1,17 @@
+{
+  "khipu": "UR196",
+  "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
+  "date": "2026-04-01",
+  "status": "proposed",
+  "confidence": "high",
+  "summary": "Cadastral verification register from Pachacamac — chiqa (truth/verification) x6 = 35% of text, highest verification density per STRING cord in corpus. 132 cords, 46% EMPTY (pre-formatted), 5 colors (includes LC=ritual). OKR reveals colored threads WOVEN INTO E-knots = physical validation seals. All 17 STRING cluster in cords 60-116 (text added AFTER numerical data). Verification cascade: each terrain feature immediately followed by chiqa. Ethnologisches Museum, Berlin. 17 STRING, 88% coverage.",
+  "interpretation": "IDENTIFICATION\n  132 cords. 17 STRING (13%, 88% hits), 54 INT, 61 EMPTY (46%).\n  Architecture: 1-PAIRE, depth L2. 8 clusters.\n  Colors: AB(57), MB(29), W(15), LC(10), KB(9) — 5 colors.\n  Provenance: Pachacamac. Museum: Ethnologisches Museum, Berlin.\n  OKR: Cords 42,46,48-50: 'Bound into the E knot is a thin [white/black/brown] thread' = VALIDATION SEALS.\n\nVOCABULARY\n  chiqa (truth x6, 35% of text!) — VERIFICATION dominant\n  maqa (boundary x3), paki (break/construct x2), tata (father x1), taqa (boundary x1), kaqa (wall-AY x1, sv=10)\n  chiqaqa (truth-rock x1), pakiki (break-POSS x1)\n\nVERIFICATION CASCADE (cords 79-116)\n  taqa (boundary) -> paki (construct) -> chiqa (TRUTH) -> kaqa (wall) -> chiqa -> paki -> maqa (marker) -> chiqaqa (truth-rock) -> chiqa -> chiqa -> maqa -> chiqa -> chiqa -> pakiki -> maqa\n  Pattern: terrain feature -> TRUTH -> terrain -> TRUTH. Each feature immediately certified.\n\nPACHACAMAC ARCHIVE ROLE\n  UR1095 = describes terrain. UR1087 = tracks who manages. UR196 = CERTIFIES it. The verification layer.\n\nNARRATIVE — THE SURVEYOR'S SEAL\n  Truth. That is the word this khipu insists upon — *chiqa*, six times in seventeen cords, a third of everything the scribe wrote. The document begins in silence: fifty-nine cords of numbers and blanks, a pre-formatted register. Then, at cord 60, the first word: *tata* — father. A lineage holder.\n  What follows is a verification walkthrough. The boundary (*taqa*). The construction (*paki*). Then: *chiqa* — truth. The wall (*kaqa*, with prefix 10). Again: *chiqa*. The boundary marker (*maqa*). The truth-rock (*chiqaqa*). Truth again. Truth again. Every feature named, every feature certified.\n  And in the knots themselves, the investigators found thin colored threads — white, black, brown — woven into the figure-eight knots. A notary's seal embedded in cotton. The material and the textual say the same thing: this record is TRUE.\n  The last word is *maqa* — the boundary marker. The survey ends where the terrain ends. At Pachacamac, where the oracle spoke, even a land survey carried the weight of sacred truth.",
+  "references": [
+    "Sivan 2026, ALBA Project — Cadastral verification, thread-in-knot validation",
+    "Ethnologisches Museum, Berlin — Pachacamac collection",
+    "OKR: colored threads bound into E-knots (validation seals)",
+    "Cross-corpus: UR1095, UR1087, UR203, UR1145 (Pachacamac archive)"
+  ],
+  "reconstructed_xlsx": null,
+  "document_type_override": "cadastral_survey"
+}
