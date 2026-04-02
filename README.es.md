@@ -13,7 +13,7 @@ Para quienes quieran ir más allá, el proyecto también alberga un **esfuerzo c
 ## Progreso comunitario
 
 ```
-[=>                            ] 6/619 khipus analizados (1.0%)
+[======>                        ] 70/619 khipus analizados (11.3%)
 ```
 
 | Khipu | Tipo | Resumen |
@@ -165,7 +165,7 @@ Consulta [CONTRIBUTING.md](CONTRIBUTING.md) para la guía completa.
   author={Sivan, Julien},
   journal={ALBA Project Preprint},
   year={2026},
-  doi={10.5281/zenodo.XXXXXXX}
+  doi={10.5281/zenodo.19184002}
 }
 ```
 

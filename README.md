@@ -13,7 +13,7 @@ For those who want to go further, the project also hosts a **community effort** 
 ## Community progress
 
 ```
-[==>                           ] 14/619 khipus analyzed (2.3%)
+[======>                        ] 70/619 khipus analyzed (11.3%)
 ```
 
 | Khipu | Type | Summary |
@@ -188,7 +188,7 @@ KhipuReader/
   author={Sivan, Julien},
   journal={ALBA Project Preprint},
   year={2026},
-  doi={10.5281/zenodo.XXXXXXX}
+  doi={10.5281/zenodo.19184002}
 }
 ```
 
