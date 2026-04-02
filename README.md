@@ -76,7 +76,7 @@ khipu submit UR039          # generates contributions/UR039.json
 ### See what's left to do
 
 ```bash
-khipu unclaimed             # 613 khipus waiting to be read
+khipu unclaimed             # 549 khipus waiting to be read
 ```
 
 ---

@@ -18,12 +18,20 @@ Para quienes quieran ir más allá, el proyecto también alberga un **esfuerzo c
 
 | Khipu | Tipo | Resumen |
 |-------|------|---------|
-| UR006 | Diario astronómico | 24 meses x 9 columnas, Luna/Marte/Pléyades, ~1500 d.C. |
-| AS076 | Ceremonia de nombramiento | Declaración de identidad (rutuchikuy), París |
-| HP020 | Registro catastral | Instrucción de localización, Pachacamac |
-| AS080 | Registro catastral | Ruta de 6 pasos con hitos, París |
-| AS077 | Inventario de zonas | 4 zonas geográficas, París |
+| AS069 | Catálogo astronómico | Catálogo de observaciones, abril 1453, Valle de Lluta |
 | AS075 | Registro de peregrinaje | Ceremonias del oráculo de Pachacamac, París |
+| AS076 | Ceremonia de nombramiento | Declaración de identidad (rutuchikuy), París |
+| AS077 | Inventario de zonas | 4 zonas geográficas, formato 4 columnas, París |
+| AS080 | Registro catastral | Ruta de 6 pasos con hitos, París |
+| HP020 | Registro catastral | Instrucción de localización, Pachacamac |
+| UR006 | Diario astronómico | 24 meses x 9 columnas, junio 1473, Leymebamba |
+| UR050 | Registro de tierras | Registro catastral en 164 cuerdas blancas |
+| UR051 | Corvea laboral | Registro con estructura poética quiástica, 98 cuerdas |
+| UR054 | Registro de bienes | Gemelo azul de UR050 (registro blanco), 115 cuerdas |
+| UR055 | Oráculo de sucesión | Administrador consulta oráculo, 180 cuerdas, feb 1519 |
+| UR176 | Procedimiento judicial | Asesinato de Chuquitanta — madre sacrificada, el halcón condenado |
+| UR193 | Consulta oracular | Registro de consultas de Pachacamac, 41 sesiones |
+| UR1091 | Procedimiento judicial | Caso de asesinato — perífrasis de muerte (tana mana...llapa) |
 
 Ejecuta `khipu progress` para el informe completo, o consulta [PROGRESS.md](PROGRESS.md).
 
@@ -68,7 +76,7 @@ khipu submit UR039          # genera contributions/UR039.json
 ### Ver lo que falta por hacer
 
 ```bash
-khipu unclaimed             # 613 khipus esperando ser leídos
+khipu unclaimed             # 549 khipus esperando ser leídos
 ```
 
 ---
