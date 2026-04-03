@@ -9,3 +9,8 @@ output/
 .eggs/
 *.egg
 claude_resume.md
+claude_resume.md
+.claude/
+CLAUDE.md
+translations/
+de421.bsp

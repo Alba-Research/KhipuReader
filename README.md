@@ -170,11 +170,39 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full guide.
 KhipuReader/
 ├── src/khipu_translator/    # Core translation engine
 ├── contributions/           # One JSON per analyzed khipu (community-built)
+├── scripts/                 # Validation and reproducibility scripts
 ├── library/                 # Reconstructed Excel files
 ├── tests/                   # Unit tests
 ├── PROGRESS.md              # Auto-generated progress report
 ├── CONTRIBUTING.md          # How to contribute
 └── README.md
+```
+
+---
+
+## Reproducibility
+
+All validation scripts referenced in the paper (Sivan 2026, JAS) are in `scripts/`:
+
+| Script | Paper section | What it does |
+|--------|:---:|---|
+| `brute_force_derivation.py` | 2.4 | Exhaustive search of 46,512 CV mappings on UR039 |
+| `negative_controls.py` | 2.8 | Aymara control, pseudo-dictionary, length-preserving shuffle |
+| `replication_ur112.py` | 3.2 | Independent replication: all 154,440 mappings on UR112 |
+| `export_translations.py` | Suppl. | Cord-by-cord CSV export for all 70 analyzed khipus |
+
+```bash
+# Run the brute-force derivation
+python scripts/brute_force_derivation.py
+
+# Run all three negative controls
+python scripts/negative_controls.py
+
+# Run the independent replication (generates Fig. 3)
+python scripts/replication_ur112.py
+
+# Export cord-by-cord translations
+python scripts/export_translations.py
 ```
 
 ---

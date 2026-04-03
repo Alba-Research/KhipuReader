@@ -31,11 +31,18 @@ PROPOSED_DIR = CONTRIBUTIONS_BASE / "proposed"
 
 
 def _find_json(khipu_id: str) -> Optional[Path]:
-    """Find the JSON file for a khipu, checking validated/ first then proposed/."""
-    for d in (VALIDATED_DIR, PROPOSED_DIR):
-        path = d / f"{khipu_id}.json"
-        if path.exists():
-            return path
+    """Find the JSON file for a khipu, checking validated/ first then proposed/.
+
+    For composite IDs like 'LL01/UR176', also tries each part individually.
+    """
+    ids_to_try = [khipu_id]
+    if "/" in khipu_id:
+        ids_to_try.extend(khipu_id.split("/"))
+    for kid in ids_to_try:
+        for d in (VALIDATED_DIR, PROPOSED_DIR):
+            path = d / f"{kid}.json"
+            if path.exists():
+                return path
     return None
 
 
