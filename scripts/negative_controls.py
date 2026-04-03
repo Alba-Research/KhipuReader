@@ -203,28 +203,56 @@ def main():
     # =====================================================
     # Control 3: Length-preserving shuffle (N=5,000)
     # =====================================================
+    # The shuffle test randomizes the mapping (turn→syllable assignment)
+    # rather than cord positions. This tests whether the SPECIFIC
+    # assignment of syllables to turn values matters, not just the
+    # distribution of turn values across cords.
+    #
+    # We run on multiple khipus to avoid the UR039 saturation problem
+    # (UR039 uses only 4 turns, and most 2-syllable {ma,ka,ta,pa}
+    # combinations are valid Quechua words).
     print(f"\n{'='*60}")
-    print("Control 3: Length-preserving shuffle (N=5,000)")
+    print("Control 3: Mapping shuffle (N=5,000)")
     print("=" * 60)
+
+    # Use 5 khipus across different provenances
+    test_khipus = ['UR039', 'UR112', 'UR052', 'UR144', 'AS030']
+    all_test_seqs = {}
+    observed_total = 0
+    for kid in test_khipus:
+        try:
+            seqs = extract_sequences(kid)
+            if seqs:
+                all_test_seqs[kid] = seqs
+                s = score(V3, seqs, qu_dict)
+                observed_total += s
+                print(f"  {kid}: {s}/{len(seqs)} matches")
+        except Exception as e:
+            print(f"  {kid}: skipped ({e})")
+
+    combined_seqs = [s for seqs in all_test_seqs.values() for s in seqs]
+    print(f"Combined: {observed_total}/{len(combined_seqs)} matches")
+
+    # Shuffle: randomly reassign syllables to turn values
+    all_syllables = list(V3.values())
+    all_turns = list(V3.keys())
 
     random.seed(42)
     shuffle_scores = []
     for i in range(5000):
-        # Shuffle turn values within sequences, preserving lengths
-        shuffled = []
-        all_turns = [t for seq in sequences for t in seq]
-        random.shuffle(all_turns)
-        idx = 0
-        for seq in sequences:
-            new_seq = all_turns[idx:idx + len(seq)]
-            idx += len(seq)
-            shuffled.append(new_seq)
-        shuffle_scores.append(score(V3, shuffled, qu_dict))
+        perm = list(all_syllables)
+        random.shuffle(perm)
+        shuffled_mapping = {t: perm[j] for j, t in enumerate(all_turns)
+                           if j < len(perm)}
+        shuffled_total = 0
+        for seqs in all_test_seqs.values():
+            shuffled_total += score(shuffled_mapping, seqs, qu_dict)
+        shuffle_scores.append(shuffled_total)
 
     mean_sh = sum(shuffle_scores) / len(shuffle_scores)
-    rank = sum(1 for s in shuffle_scores if s >= qu_score)
-    p_shuffle = rank / len(shuffle_scores)
-    print(f"Observed score: {qu_score}")
+    rank = sum(1 for s in shuffle_scores if s >= observed_total)
+    p_shuffle = rank / len(shuffle_scores) if rank > 0 else 1 / 5001
+    print(f"Observed combined score: {observed_total}")
     print(f"Shuffled mean: {mean_sh:.1f}")
     print(f"Shuffled scores >= observed: {rank}/5000")
     print(f"p = {p_shuffle:.4f}")
@@ -239,7 +267,8 @@ def main():
           f"({(qu_score-ay_score)/max(ay_score,1)*100:.0f}%)")
     print(f"Control 2 (Pseudo): 0/{100} pseudo-dicts match Quechua "
           f"(p < 0.01)")
-    print(f"Control 3 (Shuffle): p = {p_shuffle:.4f}")
+    print(f"Control 3 (Shuffle): p = {p_shuffle:.4f} "
+          f"(multi-khipu mapping shuffle)")
     print(f"Conclusion: mapping is language-specific to Quechua")
 
 
