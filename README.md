@@ -170,7 +170,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full guide.
 KhipuReader/
 ├── src/khipu_translator/    # Core translation engine
 ├── contributions/           # One JSON per analyzed khipu (community-built)
-├── scripts/                 # Validation and reproducibility scripts
+├── reproducibility/         # Validation and reproducibility scripts
 ├── library/                 # Reconstructed Excel files
 ├── tests/                   # Unit tests
 ├── PROGRESS.md              # Auto-generated progress report
@@ -182,7 +182,7 @@ KhipuReader/
 
 ## Reproducibility
 
-All validation scripts referenced in the preprint (Sivan 2026) are in `scripts/`:
+All validation scripts referenced in the preprint (Sivan 2026) are in `reproducibility/`:
 
 | Script | Paper section | What it does |
 |--------|:---:|---|
@@ -193,16 +193,16 @@ All validation scripts referenced in the preprint (Sivan 2026) are in `scripts/`
 
 ```bash
 # Run the brute-force derivation
-python scripts/brute_force_derivation.py
+python reproducibility/brute_force_derivation.py
 
 # Run all three negative controls
-python scripts/negative_controls.py
+python reproducibility/negative_controls.py
 
 # Run the independent replication (generates Fig. 3)
-python scripts/replication_ur112.py
+python reproducibility/replication_ur112.py
 
 # Export cord-by-cord translations
-python scripts/export_translations.py
+python reproducibility/export_translations.py
 ```
 
 ---
