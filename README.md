@@ -182,7 +182,7 @@ KhipuReader/
 
 ## Reproducibility
 
-All validation scripts referenced in the paper (Sivan 2026, JAS) are in `scripts/`:
+All validation scripts referenced in the preprint (Sivan 2026) are in `scripts/`:
 
 | Script | Paper section | What it does |
 |--------|:---:|---|
