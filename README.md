@@ -2,7 +2,7 @@
 
 # KhipuReader
 
-**An open-source tool for reading Andean khipus using the ALBA syllabary (Sivan, 2026).**
+**An open-source tool for reading Andean khipus — translation engine, validated corpus, and reproducibility scripts for the ALBA syllabary (Sivan, 2026).**
 
 619 khipus survive in museums around the world. Each one is a knotted-cord document from the Inca Empire — a tax record, an astronomical journal, a legal proceeding, a census, a map. We can read the numbers (Locke 1923). We are starting to read the words (ALBA syllabary, Sivan 2026).
 
