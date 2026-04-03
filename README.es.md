@@ -2,7 +2,7 @@
 
 # KhipuReader
 
-**Una herramienta de código abierto para leer khipus andinos.**
+**Una herramienta de código abierto para leer khipus andinos — motor de traducción, corpus validado y scripts de reproducibilidad para el silabario ALBA (Sivan, 2026).**
 
 619 khipus sobreviven en museos de todo el mundo. Cada uno es un documento de cuerdas anudadas del Imperio Inca — un registro tributario, un diario astronómico, un acta judicial, un censo, un mapa. Podemos leer los números (Locke 1923). Estamos comenzando a leer las palabras (silabario ALBA, Sivan 2026).
 
