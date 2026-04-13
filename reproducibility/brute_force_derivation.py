@@ -177,31 +177,68 @@ def score(syls, structs, dic):
 
 
 def search(dic, label):
+    """Exhaustive enumeration over P(pool, n_syms) mappings.
+
+    Returns:
+        results:      list of mappings with >= 3 matched types, sorted by
+                      (types desc, hits desc).
+        all_top_type: count of mappings that tie the best 'types' score
+                      across the FULL P(pool, n_syms) space (used for exact
+                      rank-based p, independent of the >= 3 filter).
+        all_top_hits: same, for 'hits' ties among top-types mappings.
+    """
     results = []
+    top_type = 0
     for perm in permutations(syllable_pool, n_syms):
         h, t = score(perm, word_structures, dic)
+        if t > top_type:
+            top_type = t
         if t >= 3:
             results.append({'mapping': perm, 'hits': h, 'types': t,
                             'cov': h / total_cords})
     results.sort(key=lambda r: (-r['types'], -r['hits']))
+    all_top_type = sum(1 for r in results if r['types'] == top_type)
+    # Among mappings at top_type, count those also tying the best hits.
+    top_hits = max((r['hits'] for r in results if r['types'] == top_type),
+                   default=0)
+    all_top_hits = sum(1 for r in results
+                       if r['types'] == top_type and r['hits'] == top_hits)
     print(f"\n  {label}: {len(results)} mappings with >=3 types")
-    return results
+    return results, all_top_type, all_top_hits, top_type, top_hits
 
 
-best_q = search(quechua_dict, "D1 Quechua")
+def report_rank_p(label, n_top_type, n_top_hits, top_type, top_hits):
+    """Print the exact rank-based p-value derived from exhaustive enumeration.
+
+    No Monte Carlo: the number of ties at the winning score IS the exact
+    count of permutations attaining at-least-as-good a result under the
+    uniform-random null. Rank-based p = ties / n_perms.
+    """
+    p_type = n_top_type / n_perms
+    p_hits = n_top_hits / n_perms
+    print(f"    Rank-based p (types >= {top_type}): "
+          f"{n_top_type}/{n_perms:,} = {p_type:.2e}")
+    print(f"    Rank-based p (types=={top_type} AND hits>={top_hits}): "
+          f"{n_top_hits}/{n_perms:,} = {p_hits:.2e}")
+
+
+best_q, nq_type, nq_hits, top_tq, top_hq = search(quechua_dict, "D1 Quechua")
 for i, m in enumerate(best_q[:10]):
     mp = ', '.join(f"{active_letters[j]}={m['mapping'][j]}" for j in range(n_syms))
     print(f"    {i+1:2d}  {mp:40s}  types={m['types']}  hits={m['hits']}  cov={m['cov']:.1%}")
+report_rank_p("D1 Quechua", nq_type, nq_hits, top_tq, top_hq)
 
-best_a = search(aymara_roots, "D2 Aymara")
+best_a, na_type, na_hits, top_ta, top_ha = search(aymara_roots, "D2 Aymara")
 for i, m in enumerate(best_a[:5]):
     mp = ', '.join(f"{active_letters[j]}={m['mapping'][j]}" for j in range(n_syms))
     print(f"    {i+1:2d}  {mp:40s}  types={m['types']}  hits={m['hits']}  cov={m['cov']:.1%}")
+report_rank_p("D2 Aymara", na_type, na_hits, top_ta, top_ha)
 
-best_c = search(combined_dict, "D5 Combined Q+A")
+best_c, nc_type, nc_hits, top_tc, top_hc = search(combined_dict, "D5 Combined Q+A")
 for i, m in enumerate(best_c[:5]):
     mp = ', '.join(f"{active_letters[j]}={m['mapping'][j]}" for j in range(n_syms))
     print(f"    {i+1:2d}  {mp:40s}  types={m['types']}  hits={m['hits']}  cov={m['cov']:.1%}")
+report_rank_p("D5 Combined", nc_type, nc_hits, top_tc, top_hc)
 
 # -----------------------------------------------------------------------------
 # 4. BEST MAPPING — FULL TRANSLATION
