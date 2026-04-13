@@ -2,33 +2,61 @@
 """
 Corpus-wide lexical coverage of the frozen v3 syllabary.
 
-Reproduces the coverage rates cited in paper Section 3.3 (Lexical
-Coverage) and the abstract:
+Reproduces the coverage rates cited in paper Section 3.2 / 3.3
+(Lexical Coverage).
 
-    "corpus-wide average of X% (exact-or-prefix) and Y% (exact only)
-     against the Kaikki dictionary, rising to Z% and W% respectively
-     against the extended Kaikki+AULEX dictionary"
+Khipu selection (how 70 -> 63)
+------------------------------
+The paper reports coverage across the 70 validated khipus returned by
+`khipu_translator.knowledge.list_known_khipus()`. Of those:
 
-Method
-------
-1. For every validated khipu (as listed by khipu_translator.knowledge),
-   translate each STRING cord under the frozen v3 syllabary using the
-   packaged translator (identical to the Khipu Reader CLI output).
-2. A cord is "parsable" if all its turn values map to a v3 syllable
-   (no unknown symbols).
-3. For each parsable cord, classify its translation under two match
-   regimes against two dictionaries:
-     - "exact"  : the translation is literally in the dictionary.
-     - "prefix" : the translation has length >= 4 and is a prefix of
-                  at least one dictionary entry (captures agglutinative
-                  forms whose suffixes are not listed independently).
-4. Report corpus-wide and per-khipu rates.
+  - 1 khipu carries no STRING cord at all (UR192) and is therefore
+    irrelevant to lexical coverage.
+  - 6 khipus carry STRING cords but every one of them contains at least
+    one turn value outside the v3 syllabary (L13, L15, L16, L20 or L23).
+    Such cords are flagged "unparsable" by the translator and can neither
+    hit nor miss the dictionary.
+  - The remaining 63 khipus contribute at least one parsable STRING cord
+    and form the denominator of the per-khipu rate distribution.
+
+The script prints the 70 / 1 / 6 / 63 breakdown explicitly at runtime.
+
+Matching rule (exactly what this script does)
+---------------------------------------------
+1. Translate every STRING cord of every validated khipu with the frozen
+   v3 syllabary via the packaged translator (identical to the Khipu
+   Reader CLI output). The translator returns `alba_reading`, a string
+   where morphological boundaries are marked by spaces or hyphens, and
+   gloss tags (GEN, ACC, DIM, ...) are spelled out in UPPERCASE.
+2. Tokenize `alba_reading` on whitespace and hyphens; drop UPPERCASE
+   gloss tags. Each surviving alphabetic token is a candidate lexical
+   form (a root or root+suffix combination).
+3. Expand each dictionary by adding single-CV-suffix forms for every
+   root of length <= 4 (the 13 standard Quechua CV suffixes: -ta, -pa,
+   -y, -qa, -ki, -na, -ku, -ma, -ka, -si, -ti, -lla, -pi). This captures
+   common agglutinative forms whose surface expression is not listed
+   independently.
+4. Build a prefix set over the expanded dictionary: every 3-or-more
+   character prefix of every entry. This captures longer agglutinative
+   chains (root + 2+ suffixes) whose exact surface form is not
+   enumerated.
+5. A STRING cord counts as a hit if ANY of its tokens is either an
+   exact match of an expanded-dictionary entry, or a >= 3-character
+   prefix of one. Cords are counted at most once.
+
+This is a morpheme-level rule, not a concatenation-level rule. It is
+chosen to reflect Quechua's agglutinative morphology: the translator
+already segments cords into morphemes, and requiring a concatenated
+whole-cord match would artificially penalize cords carrying multiple
+suffixes (the dominant case in the corpus).
 
 Dictionaries
 ------------
 - Kaikki-derived (2,074 entries)       : data/quechua_kaikki_2074.txt
 - Kaikki + AULEX   (14,991 entries)    : src/khipu_translator/data/
                                          quechua_strict_clean.txt
+Both are expanded with the 13 CV suffixes and opened for >=3 char
+prefix matching as described above.
 
 Usage
 -----
@@ -151,7 +179,7 @@ def main() -> None:
           f"({len(aulex_pref):>6,} prefix positions)")
 
     khipus = list_known_khipus()
-    print(f"Validated khipus: {len(khipus)}")
+    print(f"Validated khipus (list_known_khipus): {len(khipus)}")
 
     # Per-khipu and corpus-wide tallies.
     totals = {
@@ -161,15 +189,23 @@ def main() -> None:
     }
     per_khipu_rates: list[dict] = []
 
+    no_string: list[str] = []       # khipus with 0 STRING cords
+    no_parsable: list[str] = []     # STRING cords present but none parsable
+    skipped: list[tuple[str, str]] = []  # translation exception
+
     for kid in sorted(khipus):
         try:
             readings = khipu_cords_with_readings(kid)
         except Exception as e:
-            print(f"  {kid}: skipped ({e})")
+            skipped.append((kid, f"{type(e).__name__}: {e}"))
             continue
         n_string = len(readings)
+        if n_string == 0:
+            no_string.append(kid)
+            continue
         parsable = [w for w in readings if w is not None]
         if not parsable:
+            no_parsable.append(kid)
             continue
 
         ke = ka = ae = aa = 0
@@ -201,6 +237,21 @@ def main() -> None:
             'kaikki_any_pct': 100.0 * ka / len(parsable),
             'aulex_any_pct':  100.0 * aa / len(parsable),
         })
+
+    print(f"\n{'-' * 70}")
+    print("Khipu selection breakdown (why 70 -> 63)")
+    print("-" * 70)
+    print(f"  Validated khipus:                            {len(khipus)}")
+    print(f"  - with no STRING cord (excluded):            {len(no_string)}"
+          f"{'  -> ' + ', '.join(no_string) if no_string else ''}")
+    print(f"  - with STRING cords, none parsable (excl.):  {len(no_parsable)}"
+          f"{'  -> ' + ', '.join(no_parsable) if no_parsable else ''}")
+    if skipped:
+        print(f"  - translation error (excluded):              {len(skipped)}")
+        for kid, msg in skipped:
+            print(f"      {kid}: {msg}")
+    print(f"  = Khipus contributing to coverage rates:     "
+          f"{len(per_khipu_rates)}")
 
     print(f"\n{'-' * 70}")
     print("Corpus-wide totals")
