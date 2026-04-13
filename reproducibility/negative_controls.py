@@ -103,7 +103,11 @@ def build_pseudo_dictionary(reference_dict, seed=None):
 
     cv_consonants = 'kmtpwcsnlqy'
     cv_vowels = 'aiu'
-    lengths = [len(w) for w in reference_dict if len(w) >= 4]
+    # Sort to make the length list deterministic: `reference_dict` is a set,
+    # so its iteration order depends on PYTHONHASHSEED and changes between
+    # Python invocations. Without this sort, even a fixed random seed
+    # produces different pseudo-dictionaries from run to run.
+    lengths = sorted(len(w) for w in reference_dict if len(w) >= 4)
 
     pseudo = set()
     while len(pseudo) < len(reference_dict):
