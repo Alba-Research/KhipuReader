@@ -13,25 +13,23 @@ The ALBA glossary version (replication_ur112.py) uses a curated 112-root
 lexicon expanded with suffixes and 4-char prefixes — a permissive lookup
 designed to reward morphologically plausible forms. The Kaikki version
 below uses the Kaikki Quechua extract (2,074 entries, frozen 2026-03-20,
-see build_kaikki_dictionary.py) with light morphological expansion
-(root + single CV suffix for roots <= 4 chars) and strict exact-match
-scoring. This matches the methodology used in the original derivation
-script (alba_replication_final.py) and yields the "raw dictionary hits"
-number cited in the paper.
+see build_kaikki_dictionary.py) with **strict exact matching and no
+morphological expansion**: a cord reading counts only if its whole-cord
+concatenated syllable sequence appears verbatim in the 2,074-entry
+lexicon. This matches the "raw dictionary hits" phrasing in paper
+Section 3.3 / Figure 3 and provides a deliberately conservative
+counterpart to the permissive ALBA glossary test.
 
 Method
 ------
-1. Load data/quechua_kaikki_2074.txt.
-2. Extend with the 13 most common Quechua CV suffixes
-   (ta, pa, y, qa, ki, na, ku, ma, ka, si, ti, lla, pi) applied to roots
-   of length <= 4 — this captures agglutinative forms not independently
-   listed in Kaikki.
-3. Extract UR112 STRING sequences via the KhipuReader translator.
-4. Score the frozen v3 syllabary as an exact-match count against the
-   extended Kaikki lookup.
-5. Enumerate all P(13, 5) = 154,440 ordered syllable assignments over the
-   5 active turn values on UR112, score each, and rank v3 against them.
-6. Report the number of mappings strictly higher (the paper's central
+1. Load data/quechua_kaikki_2074.txt as-is (2,074 exact entries).
+2. Extract UR112 STRING sequences via the KhipuReader translator.
+3. Score the frozen v3 syllabary as the number of cords whose full
+   syllable concatenation is present verbatim in the Kaikki lookup.
+4. Enumerate all P(13, 5) = 154,440 ordered syllable assignments over the
+   5 active turn values on UR112, score each under the same strict rule,
+   and rank v3 against them.
+5. Report the number of mappings strictly higher (the paper's central
    Kaikki-based statistic), the rank-based p-value, and the score
    distribution.
 
