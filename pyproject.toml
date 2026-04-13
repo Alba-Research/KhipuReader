@@ -42,11 +42,11 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/julienTeam/KhipuReader"
-Documentation = "https://github.com/julienTeam/KhipuReader#readme"
-Repository = "https://github.com/julienTeam/KhipuReader"
-Issues = "https://github.com/julienTeam/KhipuReader/issues"
-Paper = "https://doi.org/10.5281/zenodo.XXXXXXX"
+Homepage = "https://github.com/Alba-Research/KhipuReader"
+Documentation = "https://github.com/Alba-Research/KhipuReader#readme"
+Repository = "https://github.com/Alba-Research/KhipuReader"
+Issues = "https://github.com/Alba-Research/KhipuReader/issues"
+Paper = "https://doi.org/10.5281/zenodo.19184002"
 
 [project.scripts]
 khipu-reader = "khipu_translator.cli:main"

@@ -1,6 +1,6 @@
-*[Leer en español](README.es.md)*
-
 # KhipuReader
+
+*[Leer en español en GitHub](https://github.com/Alba-Research/KhipuReader/blob/master/README.es.md)*
 
 **An open-source tool for reading Andean khipus — translation engine, validated corpus, and reproducibility scripts for the ALBA syllabary (Sivan, 2026).**
 
