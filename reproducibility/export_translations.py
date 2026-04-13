@@ -14,8 +14,8 @@ Usage:
     python scripts/export_translations.py
 
 Output:
-    translations/cord_by_cord.csv
-    translations/summary.csv
+    reproducibility/cord_by_cord.csv
+    reproducibility/summary.csv
 """
 
 import sys
@@ -30,8 +30,9 @@ from khipu_translator.knowledge import list_known_khipus
 
 
 def main():
-    outdir = os.path.join(os.path.dirname(__file__), '..', 'translations')
-    os.makedirs(outdir, exist_ok=True)
+    # Write next to the other reproducibility artefacts so reviewers see
+    # the CSV without needing to look in a separate, git-ignored folder.
+    outdir = os.path.dirname(os.path.abspath(__file__))
 
     known = list_known_khipus()
     print(f"Exporting {len(known)} validated khipus...")
