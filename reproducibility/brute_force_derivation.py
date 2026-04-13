@@ -1,190 +1,220 @@
 #!/usr/bin/env python3
 """
-Brute-force syllabary derivation on UR039 (Wari/Huari, Ayacucho).
+ALBA — First Brute Force (UR039 / Huari)
 
-Tests all P(12,4) × 3 vowels = 46,512 possible CV syllable assignments
-to the four active long-knot turn values (L3, L4, L5, L6) on UR039.
-Scores each mapping against the Kaikki Quechua dictionary (exact + prefix).
+This is the very first brute-force decipherment experiment that produced
+the v2 syllabary. Extracted and condensed from alba_khipu_fat_session9.py
+(sections 1-3, D1/D2/D5) so it can be re-run standalone.
 
-The optimal mapping (L3=ma, L4=ka, L5=ta, L6=pa) is identified automatically.
-A permutation test (N=5,000) establishes statistical significance.
+Method
+------
+1. Extract STRING cords from UR039 (Huari, pre-Inca) as sequences of
+   L-knot letters (e.g. L3s, L4s, L5s, L6s).
+2. Build a small curated Quechua dictionary (2-syllable roots + 3-syllable
+   root+suffix forms) and an Aymara reference dictionary.
+3. Exhaustively score every ordered assignment of 4 syllables drawn from
+   a 28-syllable pool to the 4 most frequent letters in UR039.
+4. Rank mappings by number of distinct word types matched, then by total
+   token frequency.
 
-References:
-    Sivan, J. (2026). Evidence for a Syllabic Mapping in Andean Khipu
-    Long-Knot Turn Counts. DOI: 10.5281/zenodo.19184002
+Inputs
+------
+- open-khipu-repository/data/khipu.db  (Open Khipu Repository SQLite DB)
 
-Usage:
-    python scripts/brute_force_derivation.py
-
-Requirements:
-    pip install -e .  (KhipuReader must be installed)
-    The OKR database is downloaded automatically on first use.
+Outputs
+-------
+- Prints to stdout:
+    - UR039 STRING corpus summary
+    - Top-10 Quechua mappings
+    - Top-5 Aymara mappings
+    - Top-5 Combined mappings
+    - Full word-by-word translation of the best mapping
 """
 
-import sys
 import os
-import random
-import itertools
+import sys
+import sqlite3
+from itertools import permutations
 from collections import Counter
 
-# Add parent to path
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'src'))
+import pandas as pd
 
-from khipu_translator.translator import translate
+if sys.platform == 'win32':
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 
+DB_PATH = os.path.join(os.path.dirname(__file__), '..', '..',
+                      'open-khipu-repository', 'data', 'khipu.db')
+UR039_KID = 1000374
 
-def load_kaikki_dictionary():
-    """Load the Kaikki Quechua dictionary (~2,060 entries)."""
-    paths = [
-        os.path.join(os.path.dirname(__file__), '..', '..',
-                     'alba_khipu_output', 'quechua_real_dict.txt'),
-        os.path.join(os.path.dirname(__file__), '..', 'src',
-                     'khipu_translator', 'data', 'quechua_strict_clean.txt'),
-    ]
-    for p in paths:
-        if os.path.exists(p):
-            with open(p, encoding='utf-8') as f:
-                words = {line.strip().lower() for line in f if len(line.strip()) >= 2}
-            return words
-    raise FileNotFoundError("Kaikki dictionary not found. Expected quechua_real_dict.txt")
+# -----------------------------------------------------------------------------
+# 1. EXTRACT UR039 STRING CORPUS
+# -----------------------------------------------------------------------------
+print("=" * 70)
+print("ALBA — First Brute Force (UR039)")
+print("=" * 70)
+print("\n[1] Extracting UR039 corpus...")
 
+conn = sqlite3.connect(DB_PATH)
+cord_all = pd.read_sql('SELECT * FROM cord', conn)
+knot_all = pd.read_sql('SELECT * FROM knot', conn)
+conn.close()
 
-def build_lookup(dictionary):
-    """Build exact + prefix lookup set (Section 2.4 matching rule)."""
-    lookup = set(dictionary)
-    for w in dictionary:
-        for i in range(4, len(w)):
-            lookup.add(w[:i])
-    return lookup
+ur039_cords = cord_all[cord_all['KHIPU_ID'] == UR039_KID].sort_values('CORD_ORDINAL')
+ur039_knots = knot_all[knot_all['CORD_ID'].isin(ur039_cords['CORD_ID'])]
 
+string_entries = []
+for _, cord in ur039_cords.iterrows():
+    ck = ur039_knots[ur039_knots['CORD_ID'] == cord['CORD_ID']]
+    ck = ck.sort_values(['CLUSTER_ORDINAL', 'KNOT_ORDINAL'])
+    l_knots = ck[ck['TYPE_CODE'] == 'L']
+    if len(l_knots) >= 2:
+        letters = []
+        for _, k in l_knots.iterrows():
+            turns = int(k['NUM_TURNS']) if not pd.isna(k['NUM_TURNS']) and k['NUM_TURNS'] > 0 else 0
+            d = str(k['DIRECTION']).strip().lower()[:1] if k['DIRECTION'] else '?'
+            letters.append(f"L{turns}{d}")
+        string_entries.append({'word': '.'.join(letters), 'letters': letters})
 
-def extract_string_sequences(khipu_id):
-    """Extract raw turn-count sequences from STRING cords."""
-    r = translate(khipu_id)
-    sequences = []
-    for c in r.cords:
-        if c.cord_type == 'STRING' and c.knot_sequence:
-            turns = []
-            for k in c.knot_sequence.split():
-                if k.startswith('L'):
-                    try:
-                        turns.append(int(k[1:]))
-                    except ValueError:
-                        pass
-                elif k == 'E' or k.startswith('E'):
-                    turns.append(-1)
-            if len(turns) >= 2:
-                sequences.append(turns)
-    return sequences
+words = [e['word'] for e in string_entries]
+word_freq = Counter(words)
+unique_words = sorted(word_freq.keys(), key=lambda w: -word_freq[w])
 
+all_letters = [l for e in string_entries for l in e['letters']]
+letter_freq = Counter(all_letters)
+active_letters = sorted(letter_freq.keys(), key=lambda l: -letter_freq[l])[:4]
 
-def score_mapping(mapping, sequences, lookup):
-    """Score a mapping by counting dictionary matches (exact + prefix)."""
-    hits = 0
-    for seq in sequences:
-        word = ''
-        valid = True
-        for t in seq:
-            if t in mapping:
-                word += mapping[t]
-            else:
-                valid = False
-                break
-        if valid and len(word) >= 4 and word in lookup:
-            hits += 1
-    return hits
+print(f"  STRING cords: {len(string_entries)}")
+print(f"  Unique words: {len(unique_words)}")
+print(f"  Active letters (top 4): {active_letters}")
+for l in active_letters:
+    print(f"    {l:6s}: {letter_freq[l]:4d}")
 
+# -----------------------------------------------------------------------------
+# 2. DICTIONARIES
+# -----------------------------------------------------------------------------
+print("\n[2] Building dictionaries...")
 
-def main():
-    print("=" * 60)
-    print("ALBA Brute-Force Syllabary Derivation")
-    print("Calibration khipu: UR039 (Wari/Huari, Ayacucho)")
-    print("=" * 60)
+quechua_roots_2syl = {
+    'mama','papa','tata','kaka','wawa','paya','yaya','nana','tura','pana',
+    'yaku','mayu','rumi','sara','kuka','muyu','puyu','turu','nina','pata','waru',
+    'maki','simi','siki','wira','puma','kuru','runa','mita','suyu','tawa','kipu',
+    'waka','kuya','wasi','tampu','yana','puka','yura','kusi',
+    'kama','taki','taka','kata','paka','tiya','yapa','riku','rima','tuku','tupu',
+    'miku','puri','saya','raki','paki','kuti','tupa','muna','wata','kaya','maka',
+    'tapa','qara','qura','siku','muru','suti','suwa','yuri','yupa','ruqa','sura',
+    'waya','napa','laya','tumi','tika','sipa',
+    'mana','kuna','masi','sami','mapa','kiru','puku','rupa','katu','tama','raya',
+    'riti','wiku','nuna','kuku','pupu','pipi','sasa','nini',
+}
 
-    # Load dictionary
-    dictionary = load_kaikki_dictionary()
-    lookup = build_lookup(dictionary)
-    print(f"Dictionary: {len(dictionary)} entries")
-    print(f"Lookup (exact + prefix): {len(lookup)} entries")
+quechua_cv_suffixes = [
+    'pa','ta','pi','qa','ri','na','ku','mu','ya','si',
+    'chi','cha','mi','pu','ra','ka','ma',
+]
 
-    # Extract UR039 STRING sequences
-    sequences = extract_string_sequences('UR039')
-    print(f"UR039 STRING sequences: {len(sequences)}")
+quechua_3syl = set()
+for root in quechua_roots_2syl:
+    if len(root) == 4:
+        for suf in quechua_cv_suffixes:
+            quechua_3syl.add(root + suf)
 
-    # Identify active turn values
-    active_turns = sorted(set(t for seq in sequences for t in seq))
-    print(f"Active turn values: {active_turns}")
+quechua_3syl_roots = {
+    'kuraka','yupana','kamana','tikana','papaya','wanaku','puriri','kutiri',
+    'rimana','takiri','tukuri','tapara','kamari','wakana','tamari','rapaki',
+    'tupana','pakana','munana','tiyapa',
+}
+quechua_3syl |= quechua_3syl_roots
+quechua_dict = quechua_roots_2syl | quechua_3syl
 
-    # Define search space
-    consonants = ['k', 'm', 't', 'p', 'n', 's', 'ch', 'w', 'll', 'y', 'q', 'h']
-    vowels = ['a', 'i', 'u']
+aymara_roots = {
+    'mama','tata','wawa','uma','uta','uru','naya','juma','yati','sata','wali',
+    'kuna','paya','mara','jaya','wari','tama','japa','niya','wila','jupa','laka',
+    'naka','jaqi','qullu','suma','tuku','sara','pata','masi','maya','qama',
+    'yapa','maka','tapa','saya','runa','kama','taki','tupu','muyu','kuti','puyu',
+    'waka','paka','mana','papa','suyu','kata','yaku','maki','puma','kuka',
+}
 
-    # Generate all CV syllables
-    all_syllables = []
-    for c in consonants:
-        for v in vowels:
-            all_syllables.append(c + v)
-    print(f"CV syllables: {len(all_syllables)}")
+combined_dict = quechua_dict | aymara_roots
+print(f"  Quechua: {len(quechua_dict)} | Aymara: {len(aymara_roots)} | Combined: {len(combined_dict)}")
 
-    # Exhaustive search: all ordered assignments of syllables to active turns
-    n_active = len(active_turns)
-    total_mappings = 1
-    for i in range(n_active):
-        total_mappings *= (len(all_syllables) - i)
-    print(f"Search space: P({len(all_syllables)},{n_active}) = {total_mappings}")
+# -----------------------------------------------------------------------------
+# 3. BRUTE FORCE
+# -----------------------------------------------------------------------------
+print("\n[3] Brute force search...")
 
-    # Test all mappings
-    print(f"\nTesting all {total_mappings} mappings...")
-    best_score = 0
-    best_mapping = None
-    all_scores = []
-    count = 0
+syllable_pool = [
+    'ka','ki','ku','ma','mi','mu','na','ni','pa','pi','pu','ta','ti','tu',
+    'wa','ya','yu','ra','ri','ru','sa','si','su','la','cha','lla','qa','ha',
+]
+n_syms = len(active_letters)  # 4
+n_perms = 1
+for i in range(n_syms):
+    n_perms *= (len(syllable_pool) - i)
+print(f"  Pool: {len(syllable_pool)} syllables | P({len(syllable_pool)},{n_syms}) = {n_perms:,}")
 
-    for perm in itertools.permutations(all_syllables, n_active):
-        mapping = {t: perm[j] for j, t in enumerate(active_turns)}
-        s = score_mapping(mapping, sequences, lookup)
-        all_scores.append(s)
-        if s > best_score:
-            best_score = s
-            best_mapping = dict(mapping)
-        count += 1
-        if count % 10000 == 0:
-            print(f"  {count}/{total_mappings}... best so far: {best_score}")
-
-    print(f"\nSearch complete. {count} mappings tested.")
-    print(f"Best score: {best_score}/{len(sequences)}")
-    print(f"Best mapping: {best_mapping}")
-
-    # Top 10 mappings
-    from collections import defaultdict
-    score_counts = Counter(all_scores)
-    print(f"\nScore distribution (top 10):")
-    for s, c in sorted(score_counts.items(), reverse=True)[:10]:
-        print(f"  Score {s}: {c} mappings ({c/count*100:.3f}%)")
-
-    # Permutation test
-    print(f"\nPermutation test (N=5,000 random shuffles)...")
-    random.seed(42)
-    perm_scores = []
-    for i in range(5000):
-        perm = random.sample(all_syllables, n_active)
-        mapping = {t: perm[j] for j, t in enumerate(active_turns)}
-        perm_scores.append(score_mapping(mapping, sequences, lookup))
-
-    rank = sum(1 for s in perm_scores if s >= best_score)
-    p_value = rank / len(perm_scores)
-    print(f"  Best score: {best_score}")
-    print(f"  Permutation scores >= best: {rank}/{len(perm_scores)}")
-    print(f"  p-value: {p_value:.4f}")
-
-    print(f"\n{'=' * 60}")
-    print(f"RESULT: Optimal mapping L3={best_mapping.get(3)}, "
-          f"L4={best_mapping.get(4)}, L5={best_mapping.get(5)}, "
-          f"L6={best_mapping.get(6)}")
-    print(f"Score: {best_score}/{len(sequences)} dictionary matches")
-    print(f"Permutation test: p = {p_value:.4f}")
-    print(f"{'=' * 60}")
+letter_to_idx = {l: i for i, l in enumerate(active_letters)}
+word_structures = []
+for w in unique_words:
+    idx = tuple(letter_to_idx.get(l, -1) for l in w.split('.'))
+    word_structures.append((idx, word_freq[w], w))
+total_cords = len(string_entries)
 
 
-if __name__ == '__main__':
-    main()
+def score(syls, structs, dic):
+    hits = types = 0
+    for idx, freq, _ in structs:
+        if -1 in idx:
+            continue
+        trans = ''.join(syls[i] for i in idx)
+        if trans in dic:
+            hits += freq
+            types += 1
+    return hits, types
+
+
+def search(dic, label):
+    results = []
+    for perm in permutations(syllable_pool, n_syms):
+        h, t = score(perm, word_structures, dic)
+        if t >= 3:
+            results.append({'mapping': perm, 'hits': h, 'types': t,
+                            'cov': h / total_cords})
+    results.sort(key=lambda r: (-r['types'], -r['hits']))
+    print(f"\n  {label}: {len(results)} mappings with >=3 types")
+    return results
+
+
+best_q = search(quechua_dict, "D1 Quechua")
+for i, m in enumerate(best_q[:10]):
+    mp = ', '.join(f"{active_letters[j]}={m['mapping'][j]}" for j in range(n_syms))
+    print(f"    {i+1:2d}  {mp:40s}  types={m['types']}  hits={m['hits']}  cov={m['cov']:.1%}")
+
+best_a = search(aymara_roots, "D2 Aymara")
+for i, m in enumerate(best_a[:5]):
+    mp = ', '.join(f"{active_letters[j]}={m['mapping'][j]}" for j in range(n_syms))
+    print(f"    {i+1:2d}  {mp:40s}  types={m['types']}  hits={m['hits']}  cov={m['cov']:.1%}")
+
+best_c = search(combined_dict, "D5 Combined Q+A")
+for i, m in enumerate(best_c[:5]):
+    mp = ', '.join(f"{active_letters[j]}={m['mapping'][j]}" for j in range(n_syms))
+    print(f"    {i+1:2d}  {mp:40s}  types={m['types']}  hits={m['hits']}  cov={m['cov']:.1%}")
+
+# -----------------------------------------------------------------------------
+# 4. BEST MAPPING — FULL TRANSLATION
+# -----------------------------------------------------------------------------
+if best_c:
+    best = best_c[0]
+    best_map = {active_letters[i]: best['mapping'][i] for i in range(n_syms)}
+    print("\n" + "=" * 70)
+    print(f"[4] BEST MAPPING: {best_map}")
+    print(f"    Types: {best['types']}/{len(unique_words)}  "
+          f"Coverage: {best['cov']:.1%} ({best['hits']}/{total_cords})")
+    print("=" * 70)
+    print(f"\n  {'Word':25s} {'Translation':15s} {'Freq':>4s}  {'Dict?'}")
+    print(f"  {'-'*25} {'-'*15} {'-'*4}  {'-'*5}")
+    for w in unique_words:
+        trans = ''.join(best_map.get(l, '??') for l in w.split('.'))
+        flag = 'YES' if trans in combined_dict else '.'
+        print(f"  {w:25s} {trans:15s} {word_freq[w]:4d}  {flag}")
+
+print("\nDone.")

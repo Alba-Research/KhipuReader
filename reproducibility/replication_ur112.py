@@ -212,10 +212,15 @@ def main():
         ax.tick_params(labelsize=12)
         plt.tight_layout()
 
-        outpath = os.path.join(os.path.dirname(__file__), '..',
-                               'fig3_ur112_replication.png')
-        plt.savefig(outpath, dpi=300, bbox_inches='tight')
-        print(f"\nFigure saved: {outpath}")
+        outdir = os.path.join(os.path.dirname(__file__), '..', '..',
+                              'alba_khipu_output')
+        outpath_png = os.path.join(outdir, 'fig3_ur112_replication.png')
+        outpath_tif = os.path.join(outdir, 'Fig3_UR112_replication.tif')
+        plt.savefig(outpath_png, dpi=300, bbox_inches='tight')
+        plt.savefig(outpath_tif, dpi=300, bbox_inches='tight',
+                    pil_kwargs={'compression': 'tiff_lzw'})
+        print(f"\nFigure saved: {outpath_png}")
+        print(f"Figure saved: {outpath_tif}  (300 dpi, LZW)")
     except ImportError:
         print("\nmatplotlib not available; skipping figure generation")
 
