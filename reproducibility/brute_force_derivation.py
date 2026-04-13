@@ -33,17 +33,19 @@ Outputs
 
 import os
 import sys
-import sqlite3
 from itertools import permutations
 from collections import Counter
 
 import pandas as pd
 
+# Make the installed khipu_translator package importable when the script
+# is run directly from a source checkout (python reproducibility/brute_force_derivation.py).
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'src'))
+from khipu_translator.database import KhipuDB
+
 if sys.platform == 'win32':
     sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 
-DB_PATH = os.path.join(os.path.dirname(__file__), '..', '..',
-                      'open-khipu-repository', 'data', 'khipu.db')
 UR039_KID = 1000374
 
 # -----------------------------------------------------------------------------
@@ -54,10 +56,12 @@ print("ALBA — First Brute Force (UR039)")
 print("=" * 70)
 print("\n[1] Extracting UR039 corpus...")
 
-conn = sqlite3.connect(DB_PATH)
-cord_all = pd.read_sql('SELECT * FROM cord', conn)
-knot_all = pd.read_sql('SELECT * FROM knot', conn)
-conn.close()
+# KhipuDB auto-clones the Open Khipu Repository into ~/.khipu-translator/
+# on first use (requires git + internet). Subsequent runs are offline.
+db = KhipuDB()
+cord_all = pd.read_sql('SELECT * FROM cord', db.connection)
+knot_all = pd.read_sql('SELECT * FROM knot', db.connection)
+db.close()
 
 ur039_cords = cord_all[cord_all['KHIPU_ID'] == UR039_KID].sort_values('CORD_ORDINAL')
 ur039_knots = knot_all[knot_all['CORD_ID'].isin(ur039_cords['CORD_ID'])]
