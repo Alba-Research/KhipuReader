@@ -212,15 +212,25 @@ def main():
         ax.tick_params(labelsize=12)
         plt.tight_layout()
 
-        outdir = os.path.join(os.path.dirname(__file__), '..', '..',
-                              'alba_khipu_output')
+        outdir = os.path.dirname(os.path.abspath(__file__))
         outpath_png = os.path.join(outdir, 'fig3_ur112_replication.png')
         outpath_tif = os.path.join(outdir, 'Fig3_UR112_replication.tif')
         plt.savefig(outpath_png, dpi=300, bbox_inches='tight')
-        plt.savefig(outpath_tif, dpi=300, bbox_inches='tight',
-                    pil_kwargs={'compression': 'tiff_lzw'})
         print(f"\nFigure saved: {outpath_png}")
-        print(f"Figure saved: {outpath_tif}  (300 dpi, LZW)")
+
+        # LZW compression requires a Pillow build with the tiff_lzw codec
+        # (usually present on Linux/macOS, sometimes missing on Windows).
+        # Fall back to uncompressed TIFF if LZW is unavailable.
+        try:
+            plt.savefig(outpath_tif, dpi=300, bbox_inches='tight',
+                        pil_kwargs={'compression': 'tiff_lzw'})
+            print(f"Figure saved: {outpath_tif}  (300 dpi, LZW)")
+        except Exception as tiff_err:
+            try:
+                plt.savefig(outpath_tif, dpi=300, bbox_inches='tight')
+                print(f"Figure saved: {outpath_tif}  (300 dpi, uncompressed)")
+            except Exception as e:
+                print(f"TIFF export skipped ({type(e).__name__}: {e})")
     except ImportError:
         print("\nmatplotlib not available; skipping figure generation")
 
