@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "khipu-reader"
-version = "0.1.0"
-description = "Open-source framework for reading Andean khipus — numerical (Locke) and textual (ALBA syllabary) channels."
+version = "0.3.0"
+description = "Open-source framework for reading Andean khipus — numerical (Locke), textual (ALBA syllabary), merged OKR x KFG corpus, and Ascher erasure-code layer."
 readme = "README.md"
 license = {text = "MIT"}
 requires-python = ">=3.9"
@@ -28,6 +28,8 @@ classifiers = [
 ]
 dependencies = [
     "pandas>=1.5",
+    "requests>=2.28",
+    "beautifulsoup4>=4.11",
 ]
 
 [project.optional-dependencies]
