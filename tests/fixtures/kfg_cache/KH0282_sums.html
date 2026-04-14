@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="quarto-1.0.38" name="generator"/>
+  <meta content="width=device-width, initial-scale=1.0, user-scalable=yes" name="viewport"/>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6">
+  </script>
+  <script async="" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+  <script>
+   MathJax = {
+    tex: {
+      inlineMath: [
+        ['$', '$'],
+        ['\\(', '\\)']
+      ]
+    }
+  };
+  </script>
+  <script src="https://www.khipufieldguide.com/js/sorttable.js">
+  </script>
+  <title>
+   KH0282/UR052 - Pendant Pendant Sums - pendant_pendant_sum
+  </title>
+  <style>
+   code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  
+    .section_title {
+        font-family:  'et-book', 'Gill Sans', 'Tahoma', 'Verdana', 'Lucida Grande', 'Helvetica', 'Arial', sans-serif;
+        font-size: 16pt;
+        font-style:bold;
+        text-align:left;
+        margin-top:20px;
+        margin-bottom:10px;
+        padding-left:40px;
+        border-top:1px solid black;
+        border-right:1px solid black;
+        border-left:1px solid black;
+        border-bottom:4px solid black;
+        font-variant:small-caps;
+        background-color: #FFFFE0;
+        }
+
+    .info_block {
+        border-top:1px solid #999999;
+        #border-right:1px solid black;
+        #border-left:1px solid black;
+        border-bottom:4px solid black;
+    }
+        
+    #khipu_notes {
+        font-family: 'et-book', 'Tahoma', 'Verdana', 'Lucida Grande', 'Helvetica', 'Arial',  'et-book', 'Gill Sans',  sans-serif;
+        font-size: 11pt;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+    .td_asch, .th_asch {
+        text-align:left;
+        padding-left:10px;
+        padding-top:5px;
+        padding-bottom:5px;
+        padding-right:5px;
+    border: 1px solid black;
+    }
+
+    .table_asch {
+        margin-left:30px;
+        margin-top:5px;
+        margin-bottom:5px;
+        width: 950px;
+        border-collapse: collapse;
+        border: 1px solid black;
+    }
+
+    .khipu {
+        width:____DRAWING_WIDTH____px;
+        height:____DRAWING_HEIGHT____px;
+    }
+    .tall_gigantic_image_column {
+        float: left;
+        display: block; 
+        width: ____DRAWING_WIDTH____px;
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+    }
+    .tall_gigantic_image_row {
+        float: left;
+        display: block; 
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+    }
+    .tall_gigantic_image_column::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    .wide_gigantic_image_column {
+        float: left;
+        padding: 0px;
+    }
+    .wide_gigantic_image_row {
+        float: left;
+        width: ____DRAWING_WIDTH____px;
+        height:____DRAWING_HEIGHT____px; 
+    }
+    .wide_gigantic_image_row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+
+  .sum_title {
+    font-family:  'et-book', 'Gill Sans', 'Tahoma', 'Verdana', 'Lucida Grande', 'Helvetica', 'Arial', sans-serif;
+		font-size: 16pt;
+		}
+
+  .sum_section {
+      background: #fffff8;
+      font-family:  'et-book', 'Gill Sans', 'Tahoma', 'Verdana', 'Lucida Grande', 'Helvetica', 'Arial', sans-serif;
+      font-size: 16pt;
+      text-align:left;
+      line-height:30pt;
+      margin-left:40px;
+      font-variant:normal;
+      }
+  
+  .sum_table {
+    width: 1500px;
+		background-color: #fffff8;
+		background: #fffff8;
+		font-family:  'et-book', 'Gill Sans', 'Tahoma', 'Verdana', 'Lucida Grande', 'Helvetica', 'Arial', sans-serif;
+		font-size: 12pt;
+    margin-left:0px;
+		}
+
+  .th_sum_counter {
+		margin-left:30px;
+		background-color: #fffff8;
+		background: #fffff8;
+		font-family:  'et-book', 'Gill Sans', 'Tahoma', 'Verdana', 'Lucida Grande', 'Helvetica', 'Arial', sans-serif;
+		font-size: 12pt;
+		text-align:center;
+    width:30px;
+		max-width:30px;
+		}
+
+	.th_background_image {
+		background-color: #fffff8;
+		background: #fffff8;
+		font-family:  'et-book', 'Gill Sans', 'Tahoma', 'Verdana', 'Lucida Grande', 'Helvetica', 'Arial', sans-serif;
+		font-size: 12pt;
+		width:55px;
+    max-width: 55px; 
+		}
+
+	.th_sum_image {
+		font-family:  'et-book', 'Gill Sans', 'Tahoma', 'Verdana', 'Lucida Grande', 'Helvetica', 'Arial', sans-serif;
+		font-size: 12pt;
+    width:10px;
+    max-width:900px;
+		}
+
+  .th_sum_value {
+		font-family:  'et-book', 'Gill Sans', 'Tahoma', 'Verdana', 'Lucida Grande', 'Helvetica', 'Arial', sans-serif;
+		font-size: 12pt;
+		text-align:center;
+		width:60px; 
+    max-width:60px;
+		}
+
+	.th_num_summands {
+		font-family:  'et-book', 'Gill Sans', 'Tahoma', 'Verdana', 'Lucida Grande', 'Helvetica', 'Arial', sans-serif;
+		font-size: 12pt;
+		text-align:center;
+    width:80px;
+		max-width:80px;
+		}
+
+	.th_sum_position {
+		background-color: #fffff8;
+		background: #fffff8;
+		font-family:  'et-book', 'Gill Sans', 'Tahoma', 'Verdana', 'Lucida Grande', 'Helvetica', 'Arial', sans-serif;
+		font-size: 12pt;
+		text-align:center;
+		width:40px;
+		}
+
+	.th_sum_string {
+		background-color: #fffff8;
+		background: #fffff8;
+		font-family:  'et-book', 'Gill Sans', 'Tahoma', 'Verdana', 'Lucida Grande', 'Helvetica', 'Arial', sans-serif;
+		font-size: 12pt;
+		text-align:left;
+		margin-left:10px;
+		width:450px;
+		}
+  
+    .th_sum_counter {
+		margin-left:30px;
+		background-color: #fffff8;
+		background: #fffff8;
+		font-family:  'et-book', 'Gill Sans', 'Tahoma', 'Verdana', 'Lucida Grande', 'Helvetica', 'Arial', sans-serif;
+		font-size: 12pt;
+		text-align:center;
+    width:30px;
+		max-width:30px;
+		}
+
+	.th_background_image {
+		background-color: #fffff8;
+		background: #fffff8;
+		font-family:  'et-book', 'Gill Sans', 'Tahoma', 'Verdana', 'Lucida Grande', 'Helvetica', 'Arial', sans-serif;
+		font-size: 12pt;
+		width:55px;
+    max-width: 55px; 
+		}
+
+	.th_sum_image {
+		font-family:  'et-book', 'Gill Sans', 'Tahoma', 'Verdana', 'Lucida Grande', 'Helvetica', 'Arial', sans-serif;
+		font-size: 12pt;
+    width:10px;
+    max-width:900px;
+		}
+
+  .th_sum_value {
+		font-family:  'et-book', 'Gill Sans', 'Tahoma', 'Verdana', 'Lucida Grande', 'Helvetica', 'Arial', sans-serif;
+		font-size: 12pt;
+		text-align:center;
+		width:60px; 
+    max-width:60px;
+		}
+
+	.th_num_summands {
+		font-family:  'et-book', 'Gill Sans', 'Tahoma', 'Verdana', 'Lucida Grande', 'Helvetica', 'Arial', sans-serif;
+		font-size: 12pt;
+		text-align:center;
+    width:80px;
+		max-width:80px;
+		}
+
+	.th_sum_position {
+		background-color: #fffff8;
+		background: #fffff8;
+		font-family:  'et-book', 'Gill Sans', 'Tahoma', 'Verdana', 'Lucida Grande', 'Helvetica', 'Arial', sans-serif;
+		font-size: 12pt;
+		text-align:center;
+		width:40px;
+		}
+
+	.th_schema_column {
+		font-family:  'et-book', 'Gill Sans', 'Tahoma', 'Verdana', 'Lucida Grande', 'Helvetica', 'Arial', sans-serif;
+		font-size: 12pt;
+		text-align:center;
+		}
+
+  .td_sum_counter {
+		font-family:  'et-book', 'Gill Sans', 'Tahoma', 'Verdana', 'Lucida Grande', 'Helvetica', 'Arial', sans-serif;
+		font-size: 12pt;
+		text-align:center;
+		}
+
+	.td_sum_value {
+		font-family:  'et-book', 'Gill Sans', 'Tahoma', 'Verdana', 'Lucida Grande', 'Helvetica', 'Arial', sans-serif;
+		font-size: 12pt;
+		text-align:center;
+		}
+
+	.td_background_image {
+		background-color: #fffff8;
+		background: #fffff8;
+		font-family:  'et-book', 'Gill Sans', 'Tahoma', 'Verdana', 'Lucida Grande', 'Helvetica', 'Arial', sans-serif;
+		font-size: 12pt;
+		}
+
+	.td_sum_image {
+		width:10px;
+    max-width:900px;
+		}
+
+	.td_num_summands {
+		font-family:  'et-book', 'Gill Sans', 'Tahoma', 'Verdana', 'Lucida Grande', 'Helvetica', 'Arial', sans-serif;
+		font-size: 12pt;
+		text-align:center;
+		}
+
+	.td_sum_position {
+		background-color: #fffff8;
+		background: #fffff8;
+		font-family:  'et-book', 'Gill Sans', 'Tahoma', 'Verdana', 'Lucida Grande', 'Helvetica', 'Arial', sans-serif;
+		font-size: 12pt;
+		text-align:center;
+		}
+
+	.td_sum_cord_value {
+		background-color: #fffff8;
+		background: #fffff8;
+		font-family:  'et-book', 'Gill Sans', 'Tahoma', 'Verdana', 'Lucida Grande', 'Helvetica', 'Arial', sans-serif;
+		font-size: 12pt;
+		text-align:center;
+		padding-right:10px;
+		}
+
+	.td_sum_string {
+		font-family:  'et-book', 'Gill Sans', 'Tahoma', 'Verdana', 'Lucida Grande', 'Helvetica', 'Arial', sans-serif;
+		font-size: 12pt;
+		text-align:left;
+		width:450px;
+		}
+  </style>
+  <script src="https://www.khipufieldguide.com/site_libs/quarto-nav/quarto-nav.js">
+  </script>
+  <script src="https://www.khipufieldguide.com/site_libs/quarto-nav/headroom.min.js">
+  </script>
+  <script src="https://www.khipufieldguide.com/site_libs/clipboard/clipboard.min.js">
+  </script>
+  <script src="https://www.khipufieldguide.com/site_libs/quarto-search/autocomplete.umd.js">
+  </script>
+  <script src="https://www.khipufieldguide.com/site_libs/quarto-search/fuse.min.js">
+  </script>
+  <script src="https://www.khipufieldguide.com/site_libs/quarto-search/quarto-search.js">
+  </script>
+  <meta content="../../" name="quarto:offset"/>
+  <script src="https://www.khipufieldguide.com/site_libs/quarto-html/quarto.js">
+  </script>
+  <script src="https://www.khipufieldguide.com/site_libs/quarto-html/popper.min.js">
+  </script>
+  <script src="https://www.khipufieldguide.com/site_libs/quarto-html/tippy.umd.min.js">
+  </script>
+  <script src="https://www.khipufieldguide.com/site_libs/quarto-html/anchor.min.js">
+  </script>
+  <link href="https://www.khipufieldguide.com/site_libs/quarto-html/tippy.css" rel="stylesheet"/>
+  <link href="https://www.khipufieldguide.com/site_libs/quarto-html/quarto-syntax-highlighting.css" id="quarto-text-highlighting-styles" rel="stylesheet"/>
+  <script src="https://www.khipufieldguide.com/site_libs/bootstrap/bootstrap.min.js">
+  </script>
+  <link href="https://www.khipufieldguide.com/site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet"/>
+  <link data-mode="light" href="https://www.khipufieldguide.com/site_libs/bootstrap/bootstrap.min.css" id="quarto-bootstrap" rel="stylesheet"/>
+  <script id="quarto-search-options" type="application/json">
+   {
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}
+  </script>
+  <link href="https://www.khipufieldguide.com/styles.css" rel="stylesheet"/>
+ </head>
+ <body class="nav-sidebar docked fullcontent">
+  <div id="quarto-search-results">
+  </div>
+  <header class="headroom fixed-top" id="quarto-header">
+   <nav aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" class="quarto-secondary-nav" data-bs-target="#quarto-sidebar" data-bs-toggle="collapse" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+     <h1 class="quarto-secondary-nav-title">
+      <strong>
+       KH0282/UR052 - Pendant Pendant Sums
+      </strong>
+     </h1>
+     <button aria-label="Show secondary navigation" class="quarto-btn-toggle btn" type="button">
+      <i class="bi bi-chevron-right">
+      </i>
+     </button>
+    </div>
+   </nav>
+  </header>
+  <!-- content -->
+  <div class="quarto-container page-columns page-rows-contents page-layout-article" id="quarto-content">
+   <!-- sidebar -->
+   <nav class="sidebar collapse sidebar-navigation docked overflow-auto" id="quarto-sidebar">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+     <a class="sidebar-logo-link" href="../../">
+      <img alt="" class="sidebar-logo py-0 d-lg-inline d-none" src="https://www.khipufieldguide.com/images/khipu_field_guide_logo.jpg" width="96"/>
+     </a>
+    </div>
+    <div class="sidebar-menu-container">
+     <ul class="list-unstyled mt-1">
+      <li class="sidebar-item sidebar-item-section">
+       <div class="sidebar-item-container">
+        <a aria-expanded="true" class="sidebar-item-text sidebar-link text-start" data-bs-target="#quarto-sidebar-section-1" data-bs-toggle="collapse">
+         <strong>
+          Home
+         </strong>
+        </a>
+        <a aria-expanded="true" class="sidebar-item-toggle text-start" data-bs-target="#quarto-sidebar-section-1" data-bs-toggle="collapse">
+         <i class="bi bi-chevron-right ms-2">
+         </i>
+        </a>
+       </div>
+       <ul class="collapse list-unstyled sidebar-section depth1 show" id="quarto-sidebar-section-1">
+        <li class="sidebar-item">
+         <div class="sidebar-item-container">
+          <a class="sidebar-item-text sidebar-link" href="https://www.khipufieldguide.com/index.html">
+           Table of Contents
+          </a>
+         </div>
+        </li>
+       </ul>
+      </li>
+      <li class="sidebar-item sidebar-item-section">
+       <div class="sidebar-item-container">
+        <a aria-expanded="true" class="sidebar-item-text sidebar-link text-start" data-bs-target="#quarto-sidebar-section-1" data-bs-toggle="collapse">
+         <strong>
+          Sketchbook Search
+         </strong>
+        </a>
+        <a aria-expanded="true" class="sidebar-item-toggle text-start" data-bs-target="#quarto-sidebar-section-1" data-bs-toggle="collapse">
+         <i class="bi bi-chevron-right ms-2">
+         </i>
+        </a>
+       </div>
+       <ul class="collapse list-unstyled sidebar-section depth1 show" id="quarto-sidebar-section-1">
+        <li class="sidebar-item">
+         <div class="sidebar-item-container">
+          <a class="sidebar-item-text sidebar-link" href="https://www.khipufieldguide.com/sketchbook/index.html">
+           🔎︎ Search Khipu by Name
+          </a>
+         </div>
+        </li>
+        <li class="sidebar-item">
+         <div class="sidebar-item-container">
+          <a class="sidebar-item-text sidebar-link" href="https://www.khipufieldguide.com/sketchbook/index_imagequilt_by_name.html">
+           🔎︎ Search Khipu by Image
+          </a>
+         </div>
+        </li>
+       </ul>
+      </li>
+      <li class="sidebar-item sidebar-item-section">
+       <div class="sidebar-item-container">
+        <a aria-expanded="true" class="sidebar-item-text sidebar-link text-start" data-bs-target="#quarto-sidebar-section-2" data-bs-toggle="collapse">
+         <strong>
+          Introduction
+         </strong>
+        </a>
+        <a aria-expanded="true" class="sidebar-item-toggle text-start" data-bs-target="#quarto-sidebar-section-2" data-bs-toggle="collapse">
+         <i class="bi bi-chevron-right ms-2">
+         </i>
+        </a>
+       </div>
+       <ul class="collapse list-unstyled sidebar-section depth1 show" id="quarto-sidebar-section-2">
+        <li class="sidebar-item">
+         <div class="sidebar-item-container">
+          <a class="sidebar-item-text sidebar-link" href="https://www.khipufieldguide.com/guidebook/Introduction.html">
+           Introduction
+          </a>
+         </div>
+        </li>
+        <li class="sidebar-item">
+         <div class="sidebar-item-container">
+          <a class="sidebar-item-text sidebar-link" href="https://www.khipufieldguide.com/guidebook/KhipuDecipherment.html">
+           Khipu Decipherment
+          </a>
+         </div>
+        </li>
+        <li class="sidebar-item">
+         <div class="sidebar-item-container">
+          <a class="sidebar-item-text sidebar-link" href="https://www.khipufieldguide.com/guidebook/KhipuSigns.html">
+           Khipu Signs &amp; Schematics
+          </a>
+         </div>
+        </li>
+       </ul>
+      </li>
+      <li class="sidebar-item sidebar-item-section">
+       <div class="sidebar-item-container">
+        <a aria-expanded="true" class="sidebar-item-text sidebar-link text-start" data-bs-target="#quarto-sidebar-section-3" data-bs-toggle="collapse">
+         <strong>
+          NoteBook
+         </strong>
+        </a>
+        <a aria-expanded="true" class="sidebar-item-toggle text-start" data-bs-target="#quarto-sidebar-section-3" data-bs-toggle="collapse">
+         <i class="bi bi-chevron-right ms-2">
+         </i>
+        </a>
+       </div>
+       <ul class="collapse list-unstyled sidebar-section depth1 show" id="quarto-sidebar-section-3">
+        <li class="sidebar-item">
+         <div class="sidebar-item-container">
+          <a class="sidebar-item-text sidebar-link" href="https://www.khipufieldguide.com/notebook/fieldmarks/browser/index.html">
+           🔎︎ Fieldmark Browser
+          </a>
+         </div>
+        </li>
+        <li class="sidebar-item">
+         <div class="sidebar-item-container">
+          <a class="sidebar-item-text sidebar-link" href="https://www.khipufieldguide.com/notebook/fieldmarks/index.html">
+           🔎︎ Ascher Sum Browser
+          </a>
+         </div>
+        </li>
+        <li class="sidebar-item">
+         <div class="sidebar-item-container">
+          <a class="sidebar-item-text sidebar-link" href="https://www.khipufieldguide.com/notebook/analyses/khipu_fieldmarks.html">
+           Khipu Fieldmarks
+          </a>
+         </div>
+        </li>
+        <li class="sidebar-item">
+         <div class="sidebar-item-container">
+          <a class="sidebar-item-text sidebar-link" href="https://www.khipufieldguide.com/notebook/analyses/statistical_overview.html">
+           Statistical Fieldmarks
+          </a>
+         </div>
+        </li>
+        <li class="sidebar-item">
+         <div class="sidebar-item-container">
+          <a class="sidebar-item-text sidebar-link" href="https://www.khipufieldguide.com/notebook/analyses/ascher_sums_overview.html">
+           Relational Fieldmarks
+          </a>
+         </div>
+        </li>
+        <li class="sidebar-item">
+         <div class="sidebar-item-container">
+          <a class="sidebar-item-text sidebar-link" href="https://www.khipufieldguide.com/notebook/analyses/analytical_overview.html">
+           Analytical Fieldmarks
+          </a>
+         </div>
+        </li>
+        <li class="sidebar-item">
+         <div class="sidebar-item-container">
+          <a class="sidebar-item-text sidebar-link" href="https://www.khipufieldguide.com/notebook/analyses/conclusions.html">
+           Current Conclusions
+          </a>
+         </div>
+        </li>
+        <li class="sidebar-item">
+         <div class="sidebar-item-container">
+          <a class="sidebar-item-text sidebar-link" href="https://www.khipufieldguide.com/notebook/appendix/index.html">
+           Appendices
+          </a>
+         </div>
+        </li>
+       </ul>
+      </li>
+      <li class="sidebar-item sidebar-item-section">
+       <div class="sidebar-item-container">
+        <a aria-expanded="true" class="sidebar-item-text sidebar-link text-start" data-bs-target="#quarto-sidebar-section-4" data-bs-toggle="collapse">
+         <strong>
+          TextosBook
+         </strong>
+        </a>
+        <a aria-expanded="true" class="sidebar-item-toggle text-start" data-bs-target="#quarto-sidebar-section-4" data-bs-toggle="collapse">
+         <i class="bi bi-chevron-right ms-2">
+         </i>
+        </a>
+       </div>
+       <ul class="collapse list-unstyled sidebar-section depth1 show" id="quarto-sidebar-section-4">
+        <li class="sidebar-item">
+         <div class="sidebar-item-container">
+          <a class="sidebar-item-text sidebar-link" href="https://www.khipufieldguide.com/textosbook/index.html">
+           Paper Khipu
+          </a>
+         </div>
+        </li>
+       </ul>
+      </li>
+      <li class="sidebar-item sidebar-item-section">
+       <div class="sidebar-item-container">
+        <a aria-expanded="true" class="sidebar-item-text sidebar-link text-start" data-bs-target="#quarto-sidebar-section-5" data-bs-toggle="collapse">
+         <strong>
+          Databook
+         </strong>
+        </a>
+        <a aria-expanded="true" class="sidebar-item-toggle text-start" data-bs-target="#quarto-sidebar-section-5" data-bs-toggle="collapse">
+         <i class="bi bi-chevron-right ms-2">
+         </i>
+        </a>
+       </div>
+       <ul class="collapse list-unstyled sidebar-section depth1 show" id="quarto-sidebar-section-5">
+        <li class="sidebar-item">
+         <div class="sidebar-item-container">
+          <a class="sidebar-item-text sidebar-link" href="https://www.khipufieldguide.com/databook/DatabaseBuild.html">
+           The KFG Database
+          </a>
+         </div>
+        </li>
+        <li class="sidebar-item">
+         <div class="sidebar-item-container">
+          <a class="sidebar-item-text sidebar-link" href="https://www.khipufieldguide.com/databook/KFGExcelSpecification.html">
+           KFG Excel Specification
+          </a>
+         </div>
+        </li>
+        <li class="sidebar-item">
+         <div class="sidebar-item-container">
+          <a class="sidebar-item-text sidebar-link" href="https://www.khipufieldguide.com/databook/ReadingKhipu.html">
+           Reading a Khipu
+          </a>
+         </div>
+        </li>
+        <li class="sidebar-item">
+         <div class="sidebar-item-container">
+          <a class="sidebar-item-text sidebar-link" href="https://www.khipufieldguide.com/databook/KhipuRendering.html">
+           Rendering Khipu
+          </a>
+         </div>
+        </li>
+        <li class="sidebar-item">
+         <div class="sidebar-item-container">
+          <a class="sidebar-item-text sidebar-link" href="https://www.khipufieldguide.com/databook/MethodsTools.html">
+           Methods &amp; Tools
+          </a>
+         </div>
+        </li>
+       </ul>
+      </li>
+      <li class="sidebar-item sidebar-item-section">
+       <div class="sidebar-item-container">
+        <a aria-expanded="true" class="sidebar-item-text sidebar-link text-start" data-bs-target="#quarto-sidebar-section-7" data-bs-toggle="collapse">
+         <strong>
+          Learn More
+         </strong>
+        </a>
+        <a aria-expanded="true" class="sidebar-item-toggle text-start" data-bs-target="#quarto-sidebar-section-7" data-bs-toggle="collapse">
+         <i class="bi bi-chevron-right ms-2">
+         </i>
+        </a>
+       </div>
+       <ul class="collapse list-unstyled sidebar-section depth1 show" id="quarto-sidebar-section-6">
+        <li class="sidebar-item">
+          <div class="sidebar-item-container">
+           <a class="sidebar-item-text sidebar-link" href="https://khipufieldguide.ghost.io/">
+            The KhipuFieldGuide Blog
+           </a>
+          </div>
+         </li>
+         <li class="sidebar-item">
+         <div class="sidebar-item-container">
+          <a class="sidebar-item-text sidebar-link" href="https://www.khipufieldguide.com/guidebook/Bibliography.html">
+           Bibliography
+          </a>
+         </div>
+        </li>
+       </ul>
+      </li>
+      <li class="sidebar-item sidebar-item-section">
+       <div class="sidebar-item-container">
+        <a aria-expanded="true" class="sidebar-item-text sidebar-link text-start" data-bs-target="#quarto-sidebar-section-6" data-bs-toggle="collapse">
+         <strong>
+          About the KFG
+         </strong>
+        </a>
+        <a aria-expanded="true" class="sidebar-item-toggle text-start" data-bs-target="#quarto-sidebar-section-6" data-bs-toggle="collapse">
+         <i class="bi bi-chevron-right ms-2">
+         </i>
+        </a>
+       </div>
+       <ul class="collapse list-unstyled sidebar-section depth1 show" id="quarto-sidebar-section-5">
+        <li class="sidebar-item">
+         <div class="sidebar-item-container">
+          <a class="sidebar-item-text sidebar-link" href="https://www.khipufieldguide.com/guidebook/About.html#the-khipu-field-guide-team">
+           The FieldGuide Team
+          </a>
+         </div>
+        </li>
+        <li class="sidebar-item">
+         <div class="sidebar-item-container">
+          <a class="sidebar-item-text sidebar-link" href="https://www.khipufieldguide.com/guidebook/KFG_History.html">
+           Project Phases
+          </a>
+         </div>
+        </li>
+       </ul>
+      </li>
+     </ul>
+    </div>
+   </nav>
+   <!-- margin-sidebar -->
+   <!-- main -->
+   <main class="content page-columns page-full" id="quarto-document-content">
+    <header class="quarto-title-block default" id="title-block-header">
+     <div class="quarto-title">
+      <h1 class="title d-none d-lg-block">
+       <strong>
+        KH0282/UR052 - Pendant Pendant Sums
+       </strong>
+      </h1>
+     </div>
+     <div class="quarto-title-meta">
+     </div>
+    </header>
+    <link href="https://www.khipufieldguide.com/css/tufte_fonts.css" rel="stylesheet" type="text/css"/>
+    <div style="display: flex; flex-direction: column;">
+     <div id="DRAWINGS_HEADER" style="margin-left:40px;padding-top:10px;">
+                                    <div class="sum_title"><br/><span style="font-size:16pt;"><b>Drawings:</b></span><br/></div>
+                                </div><div style="margin-left:40px;padding-top:10px;">
+                            <div class="sum_section">
+            <table style="margin-left:0px;width:1000px;">
+                <tr><th style=""width:500px;font-size:.9em;">Overview</th>
+                    <th style="width:500px;font-size:.9em;">Detail View</th></tr>
+                <tr><td style="padding-left:20px;font-size:.8em;" align="left"><a target="__blank" href="../../index.html">All Khipus' Ascher Sum Fieldmarks</a></td><td style="padding-left:20px;font-size:.8em;" align="left"><a href="#RIGHT_HANDED_XRAY">Right-Handed XRay</a></td></tr>
+                <tr><td style="padding-left:20px;font-size:.8em;" align="left"><a target="__blank" href="../index.html">All Pendant Pendant Sum Relationships</a></td><td style="padding-left:20px;font-size:.8em;" align="left"><a href="#LEFT_HANDED_XRAY">Left-Handed XRay</a></td></tr>
+                <tr><td style="padding-left:20px;font-size:.8em;" align="left"><a target="__blank" href="https://www.khipufieldguide.com/catalog/KH0282.html">This Khipu's Fieldmark Catalog</a></td><td style="padding-left:20px;font-size:.8em;" align="left"><a href="#RIGHT_HANDED_DETAIL">Right-Handed Sum Detail</ a></td></tr>
+                <tr><td style="padding-left:20px;font-size:.8em;" align="left"><a target="__blank" href="https://www.khipufieldguide.com/sketchbook/khipus/KH0282/html/KH0282_sketch.html">This Khipu's Drawing</a></td><td style="padding-left:20px;font-size:.8em;" align="left"><a href="#LEFT_HANDED_DETAIL">Left-Handed Sum Detail</a></td></tr>
+        </table></div>
+                            </div>
+  
+  
+  <div id="RIGHT_HANDED_XRAY" style="margin-left:40px;padding-top:10px;">
+                                    <div class="sum_title"><br/><b>Right Handed Sums:</b>&nbsp;&nbsp;&nbsp;&nbsp; <i># Sums</i> = 12,&nbsp;&nbsp;<i>Max # Summands</i> = 5,&nbsp;&nbsp;&nbsp;<i>(Min, Mean, Max) Sum Values</i> = (11, 21, 29)<br/><i><small>Click on Image to View Larger</small></i><br/></div>
+                                </div><div style="margin-left:40px;padding-top:10px;">
+                            <div class="sum_section"><a target="__blank" href="../xrays/sketches/KH0282_R.jpg"><img width="1024" height="223" src="../xrays/postcards/KH0282_R.jpg"/></a></div>
+                            </div>
+  <div id="LEFT_HANDED_XRAY" style="margin-left:40px;padding-top:10px;">
+                                    <div class="sum_title"><br/><b>Left Handed Sums:</b>&nbsp;&nbsp;&nbsp;&nbsp; <i># Sums</i> = 15,&nbsp;&nbsp;<i>Max # Summands</i> = 4,&nbsp;&nbsp;&nbsp;<i>(Min, Mean, Max) Sum Values</i> = (12, 23, 33)<br/><i><small>Click on Image to View Larger</small></i><br/></div>
+                                </div><div style="margin-left:40px;padding-top:10px;">
+                            <div class="sum_section"><a target="__blank" href="../xrays/sketches/KH0282_L.jpg"><img width="1024" height="223" src="../xrays/postcards/KH0282_L.jpg"/></a></div>
+                            </div>
+  
+  
+  <div id="RIGHT_HANDED_DETAIL" style="margin-left:40px;padding-top:10px;">
+                                    <div class="sum_title"><br/><span style="font-size:16pt;"><b>Right Handed Sum Detail:</b></span><span style="font-size:12pt;"> - <i>Click on column name to sort</i></span><br/></div>
+                                </div><div style="margin-left:40px;padding-top:10px;">
+                            <div class="sum_section"><table class="sum_table sortable">
+                            <tr style="font-size:14pt;">
+                                <th class="th_sum_counter">#</th>
+                                <th class="th_background_image">Color</th>
+                                <th class="th_sum_image">Sum Schema</th>
+                                <th class="th_sum_position">Sum Cord</th>
+                                <th class="th_sum_value">Sum Cord Value</th>
+                                <th class="th_num_summands"># Summands</th>
+                                <th class="th_sum_string">Summands</th>
+                            </tr><tr><td class="td_sum_counter">  1</td><td style="background-color:#3C2ECC;"></td><td style="max-width:610px;"><div class="khipu_relationship_snapshot"><img width="610;" height="131" src="../schemas/KH0282_R_p7.jpg"/></div></td><td><b>g2p3</b> : <span style="font-size:14pt;"><b>29</b></span><sub><small>LK</small></sub></td><td class="td_sum_value">29</td><td class="td_num_summands">3</td><td class="td_sum_string">g10p3: <span style="font-size:14pt;"><b>14</b></span><sub><small>W</small></sub> + g11p1: <span style="font-size:14pt;"><b>7</b></span><sub><small>AB</small></sub> + g11p2: <span style="font-size:14pt;"><b>8</b></span><sub><small>AB</small></sub></td></tr>
+<tr><td class="td_sum_counter">  2</td><td style="background-color:#DD7208;"></td><td style="max-width:610px;"><div class="khipu_relationship_snapshot"><img width="610;" height="131" src="../schemas/KH0282_R_p11.jpg"/></div></td><td><b>g3p3</b> : <span style="font-size:14pt;"><b>26</b></span><sub><small>LK</small></sub></td><td class="td_sum_value">26</td><td class="td_num_summands">3</td><td class="td_sum_string">g11p3: <span style="font-size:14pt;"><b>9</b></span><sub><small>AB</small></sub> + g11p4: <span style="font-size:14pt;"><b>13</b></span><sub><small>AB</small></sub> + g12p1: <span style="font-size:14pt;"><b>4</b></span><sub><small>AB</small></sub></td></tr>
+<tr><td class="td_sum_counter">  3</td><td style="background-color:#7B72FD;"></td><td style="max-width:610px;"><div class="khipu_relationship_snapshot"><img width="610;" height="131" src="../schemas/KH0282_R_p19.jpg"/></div></td><td><b>g5p3</b> : <span style="font-size:14pt;"><b>28</b></span><sub><small>LK</small></sub></td><td class="td_sum_value">28</td><td class="td_num_summands">5</td><td class="td_sum_string">g13p4: <span style="font-size:14pt;"><b>7</b></span><sub><small>AB</small></sub> + g14p1: <span style="font-size:14pt;"><b>6</b></span><sub><small>AB</small></sub> + g14p2: <span style="font-size:14pt;"><b>4</b></span><sub><small>AB</small></sub> + g14p3: <span style="font-size:14pt;"><b>8</b></span><sub><small>AB</small></sub> + g14p4: <span style="font-size:14pt;"><b>3</b></span><sub><small>AB</small></sub></td></tr>
+<tr><td class="td_sum_counter">  4</td><td style="background-color:#7B72FD;"></td><td style="max-width:610px;"><div class="khipu_relationship_snapshot"><img width="610;" height="131" src="../schemas/KH0282_R_p20.jpg"/></div></td><td><b>g5p4</b> : <span style="font-size:14pt;"><b>21</b></span><sub><small>LK</small></sub></td><td class="td_sum_value">21</td><td class="td_num_summands">2</td><td class="td_sum_string">g10p3: <span style="font-size:14pt;"><b>14</b></span><sub><small>W</small></sub> + g11p1: <span style="font-size:14pt;"><b>7</b></span><sub><small>AB</small></sub></td></tr>
+<tr><td class="td_sum_counter">  5</td><td style="background-color:#4DDF56;"></td><td style="max-width:610px;"><div class="khipu_relationship_snapshot"><img width="610;" height="131" src="../schemas/KH0282_R_p24.jpg"/></div></td><td><b>g6p4</b> : <span style="font-size:14pt;"><b>18</b></span><sub><small>LK</small></sub></td><td class="td_sum_value">18</td><td class="td_num_summands">3</td><td class="td_sum_string">g13p3: <span style="font-size:14pt;"><b>5</b></span><sub><small>AB</small></sub> + g13p4: <span style="font-size:14pt;"><b>7</b></span><sub><small>AB</small></sub> + g14p1: <span style="font-size:14pt;"><b>6</b></span><sub><small>AB</small></sub></td></tr>
+<tr><td class="td_sum_counter">  6</td><td style="background-color:#226BE8;"></td><td style="max-width:610px;"><div class="khipu_relationship_snapshot"><img width="610;" height="131" src="../schemas/KH0282_R_p25.jpg"/></div></td><td><b>g7p1</b> : <span style="font-size:14pt;"><b>25</b></span><sub><small>LK</small></sub></td><td class="td_sum_value">25</td><td class="td_num_summands">3</td><td class="td_sum_string">g13p1: <span style="font-size:14pt;"><b>12</b></span><sub><small>AB</small></sub> + g13p2: <span style="font-size:14pt;"><b>8</b></span><sub><small>AB</small></sub> + g13p3: <span style="font-size:14pt;"><b>5</b></span><sub><small>AB</small></sub></td></tr>
+<tr><td class="td_sum_counter">  7</td><td style="background-color:#226BE8;"></td><td style="max-width:610px;"><div class="khipu_relationship_snapshot"><img width="610;" height="131" src="../schemas/KH0282_R_p28.jpg"/></div></td><td><b>g7p4</b> : <span style="font-size:14pt;"><b>20</b></span><sub><small>LK</small></sub></td><td class="td_sum_value">20</td><td class="td_num_summands">3</td><td class="td_sum_string">g12p2: <span style="font-size:14pt;"><b>9</b></span><sub><small>AB</small></sub> + g12p3: <span style="font-size:14pt;"><b>0</b></span><sub><small>AB</small></sub> + g12p4: <span style="font-size:14pt;"><b>11</b></span><sub><small>AB</small></sub></td></tr>
+<tr><td class="td_sum_counter">  8</td><td style="background-color:#5824A4;"></td><td style="max-width:610px;"><div class="khipu_relationship_snapshot"><img width="610;" height="131" src="../schemas/KH0282_R_p32.jpg"/></div></td><td><b>g8p4</b> : <span style="font-size:14pt;"><b>24</b></span><sub><small>LK</small></sub></td><td class="td_sum_value">24</td><td class="td_num_summands">3</td><td class="td_sum_string">g11p1: <span style="font-size:14pt;"><b>7</b></span><sub><small>AB</small></sub> + g11p2: <span style="font-size:14pt;"><b>8</b></span><sub><small>AB</small></sub> + g11p3: <span style="font-size:14pt;"><b>9</b></span><sub><small>AB</small></sub></td></tr>
+<tr><td class="td_sum_counter">  9</td><td style="background-color:#BB5A00;"></td><td style="max-width:610px;"><div class="khipu_relationship_snapshot"><img width="610;" height="131" src="../schemas/KH0282_R_p36.jpg"/></div></td><td><b>g10p1</b> : <span style="font-size:14pt;"><b>22</b></span><sub><small>W</small></sub></td><td class="td_sum_value">22</td><td class="td_num_summands">2</td><td class="td_sum_string">g11p3: <span style="font-size:14pt;"><b>9</b></span><sub><small>AB</small></sub> + g11p4: <span style="font-size:14pt;"><b>13</b></span><sub><small>AB</small></sub></td></tr>
+<tr><td class="td_sum_counter"> 10</td><td style="background-color:#BB5A00;"></td><td style="max-width:610px;"><div class="khipu_relationship_snapshot"><img width="610;" height="131" src="../schemas/KH0282_R_p37.jpg"/></div></td><td><b>g10p2</b> : <span style="font-size:14pt;"><b>17</b></span><sub><small>W</small></sub></td><td class="td_sum_value">17</td><td class="td_num_summands">2</td><td class="td_sum_string">g11p2: <span style="font-size:14pt;"><b>8</b></span><sub><small>AB</small></sub> + g11p3: <span style="font-size:14pt;"><b>9</b></span><sub><small>AB</small></sub></td></tr>
+<tr><td class="td_sum_counter"> 11</td><td style="background-color:#297C58;"></td><td style="max-width:610px;"><div class="khipu_relationship_snapshot"><img width="610;" height="131" src="../schemas/KH0282_R_p42.jpg"/></div></td><td><b>g11p4</b> : <span style="font-size:14pt;"><b>13</b></span><sub><small>AB</small></sub></td><td class="td_sum_value">13</td><td class="td_num_summands">2</td><td class="td_sum_string">g12p1: <span style="font-size:14pt;"><b>4</b></span><sub><small>AB</small></sub> + g12p2: <span style="font-size:14pt;"><b>9</b></span><sub><small>AB</small></sub></td></tr>
+<tr><td class="td_sum_counter"> 12</td><td style="background-color:#92EB38;"></td><td style="max-width:610px;"><div class="khipu_relationship_snapshot"><img width="610;" height="131" src="../schemas/KH0282_R_p46.jpg"/></div></td><td><b>g12p4</b> : <span style="font-size:14pt;"><b>11</b></span><sub><small>AB</small></sub></td><td class="td_sum_value">11</td><td class="td_num_summands">2</td><td class="td_sum_string">g14p3: <span style="font-size:14pt;"><b>8</b></span><sub><small>AB</small></sub> + g14p4: <span style="font-size:14pt;"><b>3</b></span><sub><small>AB</small></sub></td></tr>
+</table></div>
+                            </div>
+  <div id="LEFT_HANDED_DETAIL" style="margin-left:40px;padding-top:10px;">
+                                    <div class="sum_title"><br/><span style="font-size:16pt;"><b>Left Handed Sum Detail:</b></span><span style="font-size:12pt;"> - <i>Click on column name to sort</i></span><br/></div>
+                                </div><div style="margin-left:40px;padding-top:10px;">
+                            <div class="sum_section"><table class="sum_table sortable">
+                            <tr style="font-size:14pt;">
+                                <th class="th_sum_counter">#</th>
+                                <th class="th_background_image">Color</th>
+                                <th class="th_sum_image">Sum Schema</th>
+                                <th class="th_sum_position">Sum Cord</th>
+                                <th class="th_sum_value">Sum Cord Value</th>
+                                <th class="th_num_summands"># Summands</th>
+                                <th class="th_sum_string">Summands</th>
+                            </tr><tr><td class="td_sum_counter">  1</td><td style="background-color:#CA187F;"></td><td style="max-width:610px;"><div class="khipu_relationship_snapshot"><img width="610;" height="131" src="../schemas/KH0282_L_p61.jpg"/></div></td><td><b>g16p3</b> : <span style="font-size:14pt;"><b>26</b></span><sub><small>LK</small></sub></td><td class="td_sum_value">26</td><td class="td_num_summands">4</td><td class="td_sum_string">g13p2: <span style="font-size:14pt;"><b>8</b></span><sub><small>AB</small></sub> + g13p3: <span style="font-size:14pt;"><b>5</b></span><sub><small>AB</small></sub> + g13p4: <span style="font-size:14pt;"><b>7</b></span><sub><small>AB</small></sub> + g14p1: <span style="font-size:14pt;"><b>6</b></span><sub><small>AB</small></sub></td></tr>
+<tr><td class="td_sum_counter">  2</td><td style="background-color:#CA187F;"></td><td style="max-width:610px;"><div class="khipu_relationship_snapshot"><img width="610;" height="131" src="../schemas/KH0282_L_p62.jpg"/></div></td><td><b>g16p4</b> : <span style="font-size:14pt;"><b>22</b></span><sub><small>LK</small></sub></td><td class="td_sum_value">22</td><td class="td_num_summands">4</td><td class="td_sum_string">g14p2: <span style="font-size:14pt;"><b>4</b></span><sub><small>AB</small></sub> + g14p3: <span style="font-size:14pt;"><b>8</b></span><sub><small>AB</small></sub> + g14p4: <span style="font-size:14pt;"><b>3</b></span><sub><small>AB</small></sub> + g15p1: <span style="font-size:14pt;"><b>7</b></span><sub><small>AB</small></sub></td></tr>
+<tr><td class="td_sum_counter">  3</td><td style="background-color:#7B72FD;"></td><td style="max-width:610px;"><div class="khipu_relationship_snapshot"><img width="610;" height="131" src="../schemas/KH0282_L_p63.jpg"/></div></td><td><b>g17p1</b> : <span style="font-size:14pt;"><b>25</b></span><sub><small>LK</small></sub></td><td class="td_sum_value">25</td><td class="td_num_summands">4</td><td class="td_sum_string">g13p4: <span style="font-size:14pt;"><b>7</b></span><sub><small>AB</small></sub> + g14p1: <span style="font-size:14pt;"><b>6</b></span><sub><small>AB</small></sub> + g14p2: <span style="font-size:14pt;"><b>4</b></span><sub><small>AB</small></sub> + g14p3: <span style="font-size:14pt;"><b>8</b></span><sub><small>AB</small></sub></td></tr>
+<tr><td class="td_sum_counter">  4</td><td style="background-color:#7B72FD;"></td><td style="max-width:610px;"><div class="khipu_relationship_snapshot"><img width="610;" height="131" src="../schemas/KH0282_L_p64.jpg"/></div></td><td><b>g17p2</b> : <span style="font-size:14pt;"><b>23</b></span><sub><small>LK</small></sub></td><td class="td_sum_value">23</td><td class="td_num_summands">2</td><td class="td_sum_string">g15p2: <span style="font-size:14pt;"><b>14</b></span><sub><small>AB</small></sub> + g15p3: <span style="font-size:14pt;"><b>9</b></span><sub><small>AB</small></sub></td></tr>
+<tr><td class="td_sum_counter">  5</td><td style="background-color:#4DDF56;"></td><td style="max-width:610px;"><div class="khipu_relationship_snapshot"><img width="610;" height="131" src="../schemas/KH0282_L_p67.jpg"/></div></td><td><b>g18p1</b> : <span style="font-size:14pt;"><b>15</b></span><sub><small>LK</small></sub></td><td class="td_sum_value">15</td><td class="td_num_summands">3</td><td class="td_sum_string">g14p2: <span style="font-size:14pt;"><b>4</b></span><sub><small>AB</small></sub> + g14p3: <span style="font-size:14pt;"><b>8</b></span><sub><small>AB</small></sub> + g14p4: <span style="font-size:14pt;"><b>3</b></span><sub><small>AB</small></sub></td></tr>
+<tr><td class="td_sum_counter">  6</td><td style="background-color:#4DDF56;"></td><td style="max-width:610px;"><div class="khipu_relationship_snapshot"><img width="610;" height="131" src="../schemas/KH0282_L_p69.jpg"/></div></td><td><b>g18p3</b> : <span style="font-size:14pt;"><b>33</b></span><sub><small>LK</small></sub></td><td class="td_sum_value">33</td><td class="td_num_summands">4</td><td class="td_sum_string">g14p4: <span style="font-size:14pt;"><b>3</b></span><sub><small>AB</small></sub> + g15p1: <span style="font-size:14pt;"><b>7</b></span><sub><small>AB</small></sub> + g15p2: <span style="font-size:14pt;"><b>14</b></span><sub><small>AB</small></sub> + g15p3: <span style="font-size:14pt;"><b>9</b></span><sub><small>AB</small></sub></td></tr>
+<tr><td class="td_sum_counter">  7</td><td style="background-color:#4DDF56;"></td><td style="max-width:610px;"><div class="khipu_relationship_snapshot"><img width="610;" height="131" src="../schemas/KH0282_L_p70.jpg"/></div></td><td><b>g18p4</b> : <span style="font-size:14pt;"><b>21</b></span><sub><small>LK</small></sub></td><td class="td_sum_value">21</td><td class="td_num_summands">2</td><td class="td_sum_string">g15p1: <span style="font-size:14pt;"><b>7</b></span><sub><small>AB</small></sub> + g15p2: <span style="font-size:14pt;"><b>14</b></span><sub><small>AB</small></sub></td></tr>
+<tr><td class="td_sum_counter">  8</td><td style="background-color:#226BE8;"></td><td style="max-width:610px;"><div class="khipu_relationship_snapshot"><img width="610;" height="131" src="../schemas/KH0282_L_p72.jpg"/></div></td><td><b>g19p2</b> : <span style="font-size:14pt;"><b>18</b></span><sub><small>LK</small></sub></td><td class="td_sum_value">18</td><td class="td_num_summands">2</td><td class="td_sum_string">g15p3: <span style="font-size:14pt;"><b>9</b></span><sub><small>AB</small></sub> + g15p4: <span style="font-size:14pt;"><b>9</b></span><sub><small>AB</small></sub></td></tr>
+<tr><td class="td_sum_counter">  9</td><td style="background-color:#D6B200;"></td><td style="max-width:610px;"><div class="khipu_relationship_snapshot"><img width="610;" height="131" src="../schemas/KH0282_L_p79.jpg"/></div></td><td><b>g21p1</b> : <span style="font-size:14pt;"><b>32</b></span><sub><small>LK</small></sub></td><td class="td_sum_value">32</td><td class="td_num_summands">2</td><td class="td_sum_string">g19p4: <span style="font-size:14pt;"><b>16</b></span><sub><small>LK</small></sub> + g20p1: <span style="font-size:14pt;"><b>16</b></span><sub><small>LK</small></sub></td></tr>
+<tr><td class="td_sum_counter"> 10</td><td style="background-color:#D6B200;"></td><td style="max-width:610px;"><div class="khipu_relationship_snapshot"><img width="610;" height="131" src="../schemas/KH0282_L_p81.jpg"/></div></td><td><b>g21p3</b> : <span style="font-size:14pt;"><b>28</b></span><sub><small>LK</small></sub></td><td class="td_sum_value">28</td><td class="td_num_summands">3</td><td class="td_sum_string">g15p4: <span style="font-size:14pt;"><b>9</b></span><sub><small>AB</small></sub> + g16p1: <span style="font-size:14pt;"><b>0</b></span><sub><small>LK</small></sub> + g16p2: <span style="font-size:14pt;"><b>19</b></span><sub><small>LK</small></sub></td></tr>
+<tr><td class="td_sum_counter"> 11</td><td style="background-color:#BB5A00;"></td><td style="max-width:610px;"><div class="khipu_relationship_snapshot"><img width="610;" height="131" src="../schemas/KH0282_L_p86.jpg"/></div></td><td><b>g22p4</b> : <span style="font-size:14pt;"><b>12</b></span><sub><small>LK</small></sub></td><td class="td_sum_value">12</td><td class="td_num_summands">2</td><td class="td_sum_string">g14p2: <span style="font-size:14pt;"><b>4</b></span><sub><small>AB</small></sub> + g14p3: <span style="font-size:14pt;"><b>8</b></span><sub><small>AB</small></sub></td></tr>
+<tr><td class="td_sum_counter"> 12</td><td style="background-color:#297C58;"></td><td style="max-width:610px;"><div class="khipu_relationship_snapshot"><img width="610;" height="131" src="../schemas/KH0282_L_p87.jpg"/></div></td><td><b>g23p1</b> : <span style="font-size:14pt;"><b>17</b></span><sub><small>LK</small></sub></td><td class="td_sum_value">17</td><td class="td_num_summands">3</td><td class="td_sum_string">g13p4: <span style="font-size:14pt;"><b>7</b></span><sub><small>AB</small></sub> + g14p1: <span style="font-size:14pt;"><b>6</b></span><sub><small>AB</small></sub> + g14p2: <span style="font-size:14pt;"><b>4</b></span><sub><small>AB</small></sub></td></tr>
+<tr><td class="td_sum_counter"> 13</td><td style="background-color:#92EB38;"></td><td style="max-width:610px;"><div class="khipu_relationship_snapshot"><img width="610;" height="131" src="../schemas/KH0282_L_p91.jpg"/></div></td><td><b>g24p1</b> : <span style="font-size:14pt;"><b>24</b></span><sub><small>LK</small></sub></td><td class="td_sum_value">24</td><td class="td_num_summands">3</td><td class="td_sum_string">g14p4: <span style="font-size:14pt;"><b>3</b></span><sub><small>AB</small></sub> + g15p1: <span style="font-size:14pt;"><b>7</b></span><sub><small>AB</small></sub> + g15p2: <span style="font-size:14pt;"><b>14</b></span><sub><small>AB</small></sub></td></tr>
+<tr><td class="td_sum_counter"> 14</td><td style="background-color:#92EB38;"></td><td style="max-width:610px;"><div class="khipu_relationship_snapshot"><img width="610;" height="131" src="../schemas/KH0282_L_p93.jpg"/></div></td><td><b>g24p3</b> : <span style="font-size:14pt;"><b>29</b></span><sub><small>LK</small></sub></td><td class="td_sum_value">29</td><td class="td_num_summands">2</td><td class="td_sum_string">g22p4: <span style="font-size:14pt;"><b>12</b></span><sub><small>LK</small></sub> + g23p1: <span style="font-size:14pt;"><b>17</b></span><sub><small>LK</small></sub></td></tr>
+<tr><td class="td_sum_counter"> 15</td><td style="background-color:#27B5BB;"></td><td style="max-width:610px;"><div class="khipu_relationship_snapshot"><img width="610;" height="131" src="../schemas/KH0282_L_p97.jpg"/></div></td><td><b>g25p3</b> : <span style="font-size:14pt;"><b>27</b></span><sub><small>LK</small></sub></td><td class="td_sum_value">27</td><td class="td_num_summands">2</td><td class="td_sum_string">g22p3: <span style="font-size:14pt;"><b>15</b></span><sub><small>LK</small></sub> + g22p4: <span style="font-size:14pt;"><b>12</b></span><sub><small>LK</small></sub></td></tr>
+</table></div>
+                            </div>
+  <div id="FIELD_GUIDE_NOTES" style="margin-left:40px;padding-top:10px;">
+                                    <div class="sum_title"><br/><span style="font-size:16pt;"><b>Khipu Notes:</b><br/></div>
+                                </div><div style="margin-left:40px;padding-top:10px;">
+                            <div class="sum_section"><div style="line-height:20pt;font-size:14pt;"><div style="line-height:20pt;font-size:14pt;">Most canuto groups are created by doubling cords over the primary cord and wrapping the bundle with colored camelid thread(called here canuto). Therefore at the primary cord there appear to be two pendant cords going around the primary cord. It is not possible to distinguish which pendants at B belong to which cords at A.<br/>2. The groups at A are connected with three cords wrapped around primary cord; they are not doubled, so three plied cords show ar primary cord and there are only 3 cords coming out of canuto.<br/>3. Fiber types:<br/>4. Canuto ribs: end of the cord is doubled back on itself and wrapped with colored thread<br/>** There are two diagrams in the notes<br/>
+This is a canuto khipu, with all of its cords tied in bundles to the primary cord.<br/>
+This khipu has been reconstructed using information from Jon Clindaniel's DASH thesis notes at Harvard. Cord cluster information is missing and has been defaulted to one cord per cluster.</div></div></div>
+                            </div>
+    </div>
+   </main>
+   <!-- /main -->
+   <script id="quarto-html-after-body" type="application/javascript">
+    window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config);
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+   </script>
+  </div>
+  <!-- /content -->
+ </body>
+</html>

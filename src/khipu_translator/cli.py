@@ -29,14 +29,32 @@ def cmd_translate(args):
 
     db = KhipuDB(db_path=args.db) if args.db else KhipuDB()
 
+    # Optionally load the merged OKR × KFG corpus for L? gap-filling.
+    merged_corpus = None
+    if getattr(args, "from_merged", False):
+        from khipu_translator.corpus import MergedCorpus, DEFAULT_SQLITE
+        if not DEFAULT_SQLITE.exists():
+            print("[!] --from-merged requires the merged corpus. "
+                  "Run: python3 scripts/merge_okr_kfg.py", file=sys.stderr)
+            db.close()
+            sys.exit(2)
+        merged_corpus = MergedCorpus()
+
     try:
-        result = translate(args.khipu, db=db, lang=args.lang)
+        result = translate(args.khipu, db=db, lang=args.lang,
+                           merged_corpus=merged_corpus)
     except KeyError as e:
         print(f"Error: {e}", file=sys.stderr)
         print("Use 'khipu list' to see available khipus.", file=sys.stderr)
         sys.exit(1)
     finally:
         db.close()
+        if merged_corpus is not None:
+            merged_corpus.close()
+
+    # Opt-in Ascher layer (v2): enrich with KFG pendant-pendant constraints.
+    if getattr(args, "ascher", False):
+        _apply_ascher_layer(result, args.khipu)
 
     if args.json:
         level = args.level or 3
@@ -54,6 +72,110 @@ def cmd_translate(args):
 
     if not args.quiet:
         print(result.summary(lang=args.lang))
+        if getattr(args, "ascher", False):
+            print(_format_ascher_report(result))
+
+
+def _okr_to_kh_id(okr_id: str) -> str:
+    """Resolve an OKR khipu identifier (e.g. 'UR052') to the KFG KH ID
+    ('KH0282'). Returns '' if not found.
+
+    Uses the merged-corpus alias index if available (covers all 703 KFG
+    khipus, not just those with sum pages). Falls back to scanning the
+    sums-index if the merged corpus has not been built.
+    """
+    # Preferred path: the merged corpus already indexes every alias of
+    # every khipu (OKR + KFG + synthesised), built from data/merged/*.json.
+    try:
+        from khipu_translator.corpus import MergedCorpus, DEFAULT_SQLITE
+        if DEFAULT_SQLITE.exists():
+            c = MergedCorpus()
+            try:
+                kh = c.resolve_kh_id(okr_id)
+                if kh and kh.startswith("KH"):
+                    return kh
+            finally:
+                c.close()
+    except Exception:
+        pass
+
+    # Fallback: scan the pendant-pendant-sum index (only khipus with sums,
+    # ~385 out of 703). Kept for environments where the merged corpus
+    # hasn't been built.
+    from khipu_translator.ascher import KFGClient, parse_kh_index, parse_khipu_xlsx
+    client = KFGClient()
+    try:
+        kh_list = parse_kh_index(client.fetch_index())
+    except Exception:
+        return ""
+    for kh in kh_list:
+        if kh in ("CM009",) or not kh.startswith("KH"):
+            continue
+        try:
+            xlsx = client.fetch_xlsx(kh)
+        except Exception:
+            continue
+        try:
+            kd = parse_khipu_xlsx(xlsx, kh)
+        except Exception:
+            continue
+        # Exact token match to avoid substring false-positives
+        # (e.g. "UR269" must not match "UR2690").
+        aliases = [a.strip() for a in (kd.alias or "").replace("/", ",").split(",")]
+        if okr_id in aliases:
+            return kh
+    return ""
+
+
+def _apply_ascher_layer(result, okr_id: str) -> None:
+    """Locate the KFG twin, build the AscherGraph, run 2+3A+3B+3C."""
+    from khipu_translator.ascher import (
+        AscherGraph, KFGClient,
+        apply_ascher_constraints, apply_reclassification, apply_constraint_propagation,
+    )
+    kh_id = _okr_to_kh_id(okr_id)
+    if not kh_id:
+        print(f"[ascher] no KFG twin found for {okr_id} — skipping layer",
+              file=sys.stderr)
+        return
+    try:
+        graph = AscherGraph.from_kfg(kh_id, client=KFGClient())
+    except Exception as e:
+        print(f"[ascher] failed to build graph for {kh_id}: {e}", file=sys.stderr)
+        return
+    apply_ascher_constraints(result, graph)
+    apply_reclassification(result, graph)
+    apply_constraint_propagation(result, graph)
+    # Stash the KH id so the report can display it.
+    result.stats["ascher_kh_id"] = kh_id
+    # Pre-compute headline numbers for the report.
+    headers = [c for c in result.cords if c.ascher
+               and c.ascher.role in ("HEADER", "BOTH")]
+    verified = sum(1 for c in headers if c.ascher.verified is True)
+    result.stats["ascher_n_header"] = len(headers)
+    result.stats["ascher_n_verified"] = verified
+    result.stats["ascher_max_depth"] = graph.max_cascade_depth()
+    result.stats["ascher_n_sums"] = len(graph.relations)
+
+
+def _format_ascher_report(result) -> str:
+    """Short textual report appended to ``khipu translate --ascher``."""
+    s = result.stats
+    kh_id = s.get("ascher_kh_id")
+    if not kh_id:
+        return ""
+    lines = [
+        "",
+        "=== Ascher Integrity ===",
+        f"KFG twin:            {kh_id}",
+        f"Pendant-pendant sums: {s.get('ascher_n_sums', 0)}",
+        f"Sum-cords verified:  {s.get('ascher_n_verified', 0)} / "
+        f"{s.get('ascher_n_header', 0)}",
+        f"Max cascade depth:   {s.get('ascher_max_depth', 0)}  (Merkle tree)",
+        f"Reclassified (3A):   {s.get('ascher_reclassified', 0)} INT→STRING in STRING context",
+        f"Propagated (3C):     {s.get('ascher_propagated', 0)} unique-unknown constraints solved",
+    ]
+    return "\n".join(lines)
 
 
 def cmd_suggest(args):
@@ -367,6 +489,17 @@ def main():
     p_tr.add_argument("--xml", metavar="FILE")
     p_tr.add_argument("--xlsx", metavar="FILE")
     p_tr.add_argument("--quiet", "-q", action="store_true")
+    p_tr.add_argument(
+        "--ascher", action="store_true",
+        help="Enrich with KFG Ascher pendant-pendant constraints "
+             "(roles, checksum verification, Merkle cascade depth)"
+    )
+    p_tr.add_argument(
+        "--from-merged", action="store_true",
+        help="Fill unreadable L? cords with KFG turn counts from the "
+             "merged OKR × KFG corpus (data/merged/). Requires merge_okr_kfg.py"
+             " to have been run."
+    )
     p_tr.set_defaults(func=cmd_translate)
 
     # suggest

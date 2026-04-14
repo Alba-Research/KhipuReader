@@ -6,6 +6,7 @@ build/
 .pytest_cache/
 *.xlsx
 output/
+data/kfg_cache/
 .eggs/
 *.egg
 claude_resume.md
@@ -14,3 +15,9 @@ claude_resume.md
 CLAUDE.md
 translations/
 de421.bsp
+
+# v3 session additions
+*.bsp
+data/merged/
+reproducibility/*.tif
+reproducibility/*.png

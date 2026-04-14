@@ -13,7 +13,7 @@ from __future__ import annotations
 
 from collections import Counter, defaultdict
 from dataclasses import dataclass, field
-from typing import Optional
+from typing import Any, Optional
 
 import pandas as pd
 
@@ -93,6 +93,10 @@ class CordTranslation:
     parent_cord_id: Optional[int] = None
     children: list[CordTranslation] = field(default_factory=list)
 
+    # Ascher layer (v2, opt-in) — None unless apply_ascher_constraints() was run.
+    # Typed as Optional[Any] here to avoid a circular import with ascher.py.
+    ascher: Optional[Any] = None
+
     def to_dict(self) -> dict:
         """Convert to a flat dictionary for export."""
         d = {
@@ -118,6 +122,9 @@ class CordTranslation:
         }
         if self.children:
             d["children"] = [c.to_dict() for c in self.children]
+        # Emit ascher block only if populated — preserves v1 output byte-for-byte.
+        if self.ascher is not None:
+            d["ascher"] = self.ascher.to_dict()
         return d
 
 
@@ -1145,6 +1152,7 @@ def translate(
     khipu_name: str,
     db: Optional[KhipuDB] = None,
     lang: str = "en",
+    merged_corpus=None,
 ) -> TranslationResult:
     """
     Translate a khipu from the OKR database.
@@ -1157,6 +1165,12 @@ def translate(
         Database connection. If None, creates one (auto-downloads OKR).
     lang : str
         Language for glosses: 'en' (English) or 'fr' (French).
+    merged_corpus : MergedCorpus, optional
+        If provided, unreadable L-turns in OKR (``L?``) are patched with
+        the KFG-resolved turn counts from the merged corpus before the
+        syllabary is applied. Readings on previously-unreadable cords
+        become available without any change to the v1 logic. If None
+        (default), the v1 OKR-only pipeline runs unchanged.
 
     Returns
     -------
@@ -1184,6 +1198,26 @@ def translate(
         if close_db:
             db.close()
 
+    # --- Optional merged-corpus patch table ---------------------------------
+    # Maps {cord_global_ordinal: [kfg_turn_1, kfg_turn_2, ...]} in L-knot order.
+    # Only level-1 pendants are patched (KFG addresses subsidiaries inconsistently).
+    _merged_patches: dict[int, list[int]] = {}
+    if merged_corpus is not None:
+        try:
+            _key = khipu.investigator_num
+            _kh_id = merged_corpus.resolve_kh_id(_key)
+            if _kh_id is not None:
+                _rec = merged_corpus.load(_kh_id)
+                for _c in _rec.get("cords", []):
+                    _cn = _c.get("cord_num")
+                    if not isinstance(_cn, int):
+                        continue
+                    _turns = (_c.get("kfg") or {}).get("long_turns")
+                    if _turns:
+                        _merged_patches[_cn] = list(_turns)
+        except Exception:
+            _merged_patches = {}
+
     # --- Process each cord ---------------------------------------------------
 
     cord_translations: dict[int, CordTranslation] = {}
@@ -1196,6 +1230,29 @@ def translate(
         cord_knots = knots_df[knots_df["CORD_ID"] == cid].sort_values(
             ["CLUSTER_ORDINAL", "KNOT_ORDINAL"]
         )
+
+        # --- Merged-corpus patch: fill NULL NUM_TURNS with KFG values,
+        # matched by L-knot order. Only applied to level-1 cords.
+        if _merged_patches:
+            _cord_level = int(cord_row.get("CORD_LEVEL", 1))
+            _cord_ord = int(cord_row["CORD_ORDINAL"]) if pd.notna(
+                cord_row.get("CORD_ORDINAL")) else 0
+            if _cord_level == 1 and _cord_ord in _merged_patches:
+                _kfg_turns = list(_merged_patches[_cord_ord])
+                _l_iter = iter(_kfg_turns)
+                # Work on a local copy to avoid mutating the DB-derived df.
+                cord_knots = cord_knots.copy()
+                for _idx, _kn in cord_knots.iterrows():
+                    if str(_kn.get("TYPE_CODE", "")).strip() == "L":
+                        _turns_val = _kn.get("NUM_TURNS")
+                        try:
+                            _next = next(_l_iter)
+                        except StopIteration:
+                            break
+                        if pd.isna(_turns_val) or _turns_val is None:
+                            cord_knots.at[_idx, "NUM_TURNS"] = _next
+                        # If OKR already has a value, keep it (we never
+                        # overwrite live data — patching only fills gaps).
 
         # Classify cord
         terminal = cord_knots[cord_knots["TYPE_CODE"].isin(["L", "E"])]
