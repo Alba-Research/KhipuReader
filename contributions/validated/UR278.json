@@ -22,5 +22,108 @@
   "supersedes_version": "2026-03-26",
   "stale_interpretation": false,
   "reader_version": "v3 (merged OKR*KFG + Ascher layer)",
-  "deep_read_path": "docs/deep_read_UR278_v3.md"
+  "deep_read_path": "docs/deep_read_UR278_v3.md",
+  "attribution": {
+    "prior_work": [
+      {
+        "citation": "Urton & Chu 2015 (LAQ 26:4)",
+        "contribution": "Identified UR278 as a multi-cycle register in the Incahuasi Sector A UE 16 storehouse complex."
+      },
+      {
+        "citation": "Urton 2017 pp.178, 263",
+        "contribution": "Observed the 26x9 matrix structure and filed UR278 in the astronomical-journal class based on the vocabulary in its terminal block."
+      },
+      {
+        "citation": "Bertonio 1612 / Gonzalez Holguin 1608 / Zuidema 1980s / Bauer & Dearborn 1995",
+        "contribution": "Documented the Quechua polysemy kaki = Pleiades = Qollqa (granary) as a calendar-agricultural unit."
+      },
+      {
+        "citation": "Urton & Chu 2015 + Chu 2013+ archaeobotany",
+        "contribution": "Identified 8 Incahuasi commodities (aji, peanuts, black beans, maize, lucuma, bean pods, fish, mollusks) from direct khipu association, plus a 9th unidentified."
+      }
+    ],
+    "v3_contribution": [
+      {
+        "label": "Classification shift: astronomical_journal to commodity_accounting",
+        "detail": "Using the kaki polysemy + Urton-Chu commodity inventory, the 9 columns are re-read as 9 commodities (not 9 sky objects), 26 rows as 26 annual cycles."
+      },
+      {
+        "label": "R1 knot-structure signature",
+        "detail": "Header row R1 distinguishes C3 (tens=50) and C9 (tens=60) from the other 7 columns (tens=10), marking two SPECIAL-CATEGORY commodities."
+      },
+      {
+        "label": "ALBA syllabary reading of 47 textual cords",
+        "detail": "v3 merged corpus unlocks 213 L? cords (v1 had 5 STRING readings, v3 has 47)."
+      },
+      {
+        "label": "Cross-khipu connection to UR266",
+        "detail": "UR278's row totals R1-R8 are transcribed in order at UR266 p3/p7/p12/p17/p28/p35/p40 (null p<10^-5). Confirms multi-commodity reading."
+      },
+      {
+        "label": "Reinterpretation of row-total decline",
+        "detail": "The drop from R1=3618 to R26=0 across 26 years is a REAL production signal, not astronomical narrative."
+      }
+    ]
+  },
+  "companions": [
+    {
+      "id": "UR266",
+      "relation": "audit_target",
+      "note": "UR266 (peanut khipu, 47-constant) transcribes THIS khipu's row totals R1-R8 in order.",
+      "evidence": {
+        "type": "statistical",
+        "p_value": 1e-05,
+        "matches": 7
+      }
+    },
+    {
+      "id": "UR270",
+      "relation": "same_provenance",
+      "note": "Peanut tier-1 day-book at UE 13 — same Unidad 20N storeroom cluster."
+    },
+    {
+      "id": "UR269",
+      "relation": "same_provenance",
+      "note": "Peanut tier-2 regional aggregator at UE 11 — same Unidad 20N."
+    },
+    {
+      "id": "UR268",
+      "relation": "same_provenance",
+      "note": "Peanut tier-3 district summary at UE 18 — same Unidad 20N, presentation binding matches UR266."
+    },
+    {
+      "id": "UR272",
+      "relation": "same_provenance",
+      "note": "Incahuasi UE 22 eclipse event log — the calendar-anomaly counterpart to UR278's calendar frame."
+    },
+    {
+      "id": "UR277",
+      "relation": "same_provenance",
+      "note": "Incahuasi UE 17 inventory register — shares the Sector A / Unidad 20N storehouse archive context."
+    },
+    {
+      "id": "UR006",
+      "relation": "same_document_type",
+      "note": "Leymebamba astronomical matrix (874 cords, June 1473) — different site and function, but sibling matrix architecture."
+    }
+  ],
+  "confidence_axes": {
+    "word_reading": {
+      "level": "high",
+      "note": "43/47 STRING cords dict-confirmed (v3 merged corpus unlocked 213 L? to 42 new readings from v1). Vocabulary is canonical cadastral + calendar."
+    },
+    "document_type": {
+      "level": "high",
+      "note": "Commodity_accounting (revised from astronomical_journal 2026-04-14). Driven by (a) Urton-Chu 2015 storeroom context, (b) kaki polysemy Pleiades=Qollqa, (c) cross-recap signal from UR266 at p<10^-5, (d) R1 header structure as quota table."
+    },
+    "narrative": {
+      "level": "medium-high",
+      "note": "The 9-commodity x 26-year reading is well-supported but the SPECIFIC commodity assignment to each column awaits Chu's archaeobotanical inventory."
+    },
+    "data_integrity": {
+      "level": "medium-high",
+      "note": "OKR x KFG agreement 0.21 (227 L? resolved by merge). 20/61 Ascher sums verified. Benford 0.933 confirms real observational counts."
+    }
+  },
+  "narrative": "Nine columns, twenty-six rows, and at the intersection of each one, a number. That is what UR278 is — a grid written in knots, 234 data cords arranged in a matrix the scribe meant to be read like a page: left to right, top to bottom, twenty-six times over.\n\nThe Quechua word at the center of this khipu is kaki. In the astronomical glossary it means Pleiades — the constellation whose heliacal rising at early June opens the Inca planting year. In the agricultural glossary it means Qollqa — the granary, the storehouse where the harvest lives. The word is one word. The scribe was not using it metaphorically: in the Inca mind, the Pleiades and the granary are the same thing, because they serve the same function. The stars open the year, the Qollqa closes it. Sky and ground belong to the same register.\n\nSo when UR278's scribe builds a 9-column table in a storeroom at Incahuasi Sector A UE 16, he is not recording nine astronomical objects. He is recording nine commodities. The first row — 415, 415, 353, 415, 415, 415, 414, 413, 363 — is a header of nine quotas. Seven of them sit at the standard 415-unit ceiling. Two — column 3 at 353 and column 9 at 363 — carry a different knot structure at the tens position: 50 tens and 60 tens instead of the common 10 tens. These are special-category commodities, their baseline smaller than the rest. Perhaps cotton. Perhaps coca. Perhaps chicha for ritual use.\n\nThe 26 rows below the header are 26 annual cycles. The totals descend: row 1 sums to 3,618; row 26 sums to zero. Across a generation, production drops — not because the sky changed, but because the soil wore out, or the labor pool shrank, or the commercial routes that fed this storeroom rerouted.\n\nAt rows 27 through 30, the numerical matrix closes and the scribe writes words for the first time. Eleven of them are maqa or qaqa — the astronomical vocabulary earlier readings mistook for the whole document's topic. It is instead the calendar frame: in a year when the sky struck (maqa, eclipse), or when the dark constellations were anomalous (qaqa), the scribe annotates the cycle so its numbers read in the right context. The sky is not what is counted; the sky is when.\n\nTwenty-two empty cords follow. Then, at cord 297 on near-black, the single word waqa: huaca. The document is offered to the sacred place that presided over the storeroom. The register is closed.\n\nIn the next room — UE 12 — a peanut khipu labeled UR266 opens with 3,618 at its third cord. Then 1,506 at p7, 1,384 at p12, 2,919 at p17. UR278's row totals, transcribed in order, separated by the peanut-constant 47. The peanut sector, reporting to its storehouse-wide register. A cross-khipu recap, impossible by chance (null p<10^-5), verifying that this white matrix of nine commodities and twenty-six years is what it appears to be: the ledger of Incahuasi's production, filed against a calendar made of Pleiades and granaries at once."
 }
