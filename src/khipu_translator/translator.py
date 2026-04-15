@@ -230,10 +230,13 @@ def detect_document_type(
       - regular_table:         >80% regular, low sparsity, no clear vocab signal
       - numerical_record:      mostly INT, few STRING, no vocab match
 
-    Returns (document_type, score).
+    Returns (document_type, score, scores_dict, suppressions_dict).
+    - scores_dict: all candidates and their final scores (for API exposure).
+    - suppressions_dict: {doc_type: rule_name} when a rule suppressed a candidate.
     """
     words = set(vocabulary.keys())
     scores: dict[str, float] = {}
+    suppressions: dict[str, str] = {}
 
     for doc_type, profile_words in DOCUMENT_PROFILES.items():
         overlap = words & profile_words
@@ -291,6 +294,7 @@ def detect_document_type(
             scores["judicial_proceeding"] = max(scores["judicial_proceeding"], 2.5)
             # Suppress astro — mama+kaki in a violent context is NOT astronomy
             scores["astronomical_journal"] *= 0.3
+            suppressions["astronomical_journal"] = "violence_kinship_suppresses_astro"
 
     # Oracle/governance text: wapa (intendant) + pi (who?) + chay (this) + papa (father)
     # These are NOT astronomical — suppress astro when governance vocabulary dominates
@@ -301,6 +305,7 @@ def detect_document_type(
         scores["ritual_oracle"] *= 2.0
         scores["ritual_oracle"] = max(scores["ritual_oracle"], 2.5)
         scores["astronomical_journal"] *= 0.2  # strong suppression
+        suppressions["astronomical_journal"] = "governance_vocabulary_suppresses_astro"
 
     # Labor: maki + companions
     if "maki" in words:
@@ -328,8 +333,10 @@ def detect_document_type(
         )
         for t in ("agro_pastoral", "cadastral_survey"):
             scores[t] *= 0.3
+            suppressions[t] = "high_sparsity_favors_event_register"
         if not has_astro_exclusive:
             scores["astronomical_journal"] *= 0.3
+            suppressions["astronomical_journal"] = "high_sparsity_without_astro_exclusive_markers"
 
     # Regular table: high regularity + low sparsity + multiple colors
     if cluster_regularity > 80 and sparsity < 15:
@@ -337,6 +344,7 @@ def detect_document_type(
             scores["regular_table"] = max(scores["regular_table"], 1.5)
         # Penalize event register
         scores["event_register"] *= 0.3
+        suppressions["event_register"] = "regular_table_suppresses_event_register"
 
     # Numerical record: very few STRING cords, no clear vocab
     if string_pct < 3 and total_cords > 50:
@@ -350,7 +358,9 @@ def detect_document_type(
     best_score = scores.get(best_type, 0)
 
     threshold = 0.5 if total_cords < 50 else 1.0
-    return (best_type, best_score) if best_score >= threshold else ("unknown", 0)
+    if best_score >= threshold:
+        return best_type, best_score, scores, suppressions
+    return "unknown", 0, scores, suppressions
 
 
 # --- Architecture detection --------------------------------------------------
@@ -408,6 +418,13 @@ class TranslationResult:
     architecture: str
     vocabulary: Counter
     stats: dict
+
+    # v0.4.0 additions (additive, default empty dicts for backward compat)
+    classification_scores: dict = field(default_factory=dict)
+    """Full scores dict from detect_document_type — {doc_type: score}."""
+
+    classification_suppressions: dict = field(default_factory=dict)
+    """Rules that suppressed a candidate — {doc_type: rule_name}."""
 
     # --- Level 1: Cord-level output ------------------------------------------
 
@@ -1481,7 +1498,7 @@ def translate(
     _n_colors = len([c for c, n in color_distribution.items()
                      if n > 5 and c.strip() != "?"])
 
-    doc_type, doc_score = detect_document_type(
+    doc_type, doc_score, _cls_scores, _cls_suppressions = detect_document_type(
         vocabulary,
         color_counts=dict(color_distribution),
         total_cords=len(all_cords),
@@ -1501,6 +1518,8 @@ def translate(
         architecture=architecture,
         vocabulary=vocabulary,
         stats=stats,
+        classification_scores=_cls_scores,
+        classification_suppressions=_cls_suppressions,
     )
 
     # Post-processing: if a date is detected, remove date-zone words
