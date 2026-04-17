@@ -1,18 +1,139 @@
 {
   "khipu": "AS014",
   "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
-  "date": "2026-03-27",
+  "date": "2026-04-15",
   "status": "proposed",
+
+  "document_type_override": "nomination_ceremony",
+  "reader_version": "v3 (merged OKR*KFG + Ascher layer)",
   "confidence": "medium",
-  "summary": "Nomination or investiture ceremony record from the British Museum (provenance unknown). 75 cords in paired register format (1-PAIRE), 3 colors (W/RM/BG). Dominant chi- onset pattern (12 words) creates a vocabulary of personal names or ceremonial titles built on chiqa (truth). Vocabulary matches warachikuy (coming-of-age) ceremony: taki (chant), pama (formula), tata/mamata (father/mother), makiy (hand/craft), mata (grove). BG (beige) cords at perfect 12-cord intervals mark 3 candidates. Physical loop tied in one cord — unusual construction. OKR confirms TEXT khipu ('no observable numerical pattern'). 43 STRING, 60% coverage.",
-  "interpretation": "IDENTIFICATION\n  75 cords (L1: 42, L2: 29, L3: 4). Architecture: 1-PAIRE — paired register (L1 + L2).\n  3 colors: W(59), RM(8 = red/maroon), BG(8 = beige). 1 cluster (single continuous block).\n  Provenance: Unknown. Museum: British Museum.\n  Special construction: physical LOOP (1cm diameter) tied in one cord.\n  43 STRING (60% hits — 26/43 confirmed), 32 INT, 0 EMPTY.\n  OKR notes: 'The placement of knot groupings follows no observable pattern. Therefore, we assign no numerical values to the knots.' = TEXT KHIPU confirmed.\n  OKR notes: 'A loop of diameter 1 cm was tied in the cord... the first 2 knot clusters (8L, 1s) were above the loop, the cluster of 20s was on the loop, and the last 1s was beyond the loop.' = three-part reading.\n\nFIRST WORD / LAST WORD\n  First word (cord 1, W): chipama -> kipa+ma = 'after-DIR' = 'afterward' — a temporal opening.\n  Last word (cord 42, RM): tapi -> on RED/RITUAL color. The ceremony CLOSES on a ritual act.\n  The document moves from preparation (W/data) to sacred culmination (RM/ritual).\n\nCOLOR-AS-ROLE\n  W (white, 34 cords): THE TEXT — descriptions, qualifications. 16 vocab + 15 names (chi- compounds).\n  RM (red, 5 cords): THE CEREMONY — ritual moments: taki(chant), tata(father), mata(grove), kaypa(of this), tapi.\n  BG (beige, 4 cords): THE NAMES — candidate identity: chima, kataki, wati + mata.\n  BG at PERFECT 12-cord intervals (C11, C23, C35) — spacing [12, 12]. Three candidates, each preceded by exactly 12 cords of description. DELIBERATE regularity structures the ceremony into three equal acts.\n\nHYPOTHESIS\n  AS014 is a nomination or investiture ceremony record listing the names and qualifications of individuals being formally recognized. The dominant chi- onset pattern (12 words starting with chi = 'truth/verification' in v3 polyphony) creates a vocabulary of personal names or ceremonial titles built on the root chiqa (truth): chipama ('true formula'), chinama ('true remedy'), chipaka ('truly hidden'), chikay ('truly being'). These are NAMES or TITLES assigned during a nomination ritual, not standard dictionary words.\n\nKEY VOCABULARY\n  Confirmed words: mata (grove x3), taki (chant x2), tiki (all/each x2), tata (father x1), mamata (mother-ACC x1), pama (formula x1), makiy (hand-INF/my hand x1), kaypa (of this x1), pata (land x1), way (path x1), kaki (corn-AY x1), pataki (shallow-AY x1).\n  Probable PERSONAL NAMES (chi- compounds): chipama ('True Formula'), chinama ('True Remedy'), chima (x2), chikima, chamaki ('Working hand'), chipaka ('Hidden Truth'), chikay ('To be true'), sikiki, makikiki ('Self-made'), wakita, kapapa ('To the father'), kataki ('To the chant'), wati.\n\nNAME IDENTIFICATION — SYLLABLE COUNT\n  Cross-corpus analysis of 1,769 L1 STRING cords:\n    2-syllable words: 12.2% unknown = vocabulary (88% glossed)\n    3-syllable words: 87.1% unknown = proper names or compounds\n    4+ syllable words: 100% unknown = always names\n  Rule: 2-syllable = vocabulary, 3+ syllable = proper names. Linguistically expected: Quechua roots are 2-syllable CV+CV; names are compound forms.\n  In AS014: 12 unglossed L1 words are mostly 3-syllable (8/12 = 67%), vocabulary words are mostly 2-syllable (7/11 = 64%).\n\nSTRUCTURE\n  Single cluster, 42 L1 cords, paired with L2 subsidiaries (29 L2 + 4 L3). No section breaks.\n  Paired format: L1 = name/title (STRING), L2 = associated information (STRING or INT).\n\nHISTORICAL CONTEXT\n  Vocabulary matches warachikuy (coming-of-age ceremony) more closely than rutuchikuy (first haircut):\n    taki (chant) = ritual music\n    pama (formula) = official words spoken\n    mata (grove) = sacred site (ceremonies took place in specific groves/plazas)\n    tata + mamata = father and mother of the candidate\n    makiy (my hand) + makikiki (one's own craft) = demonstration of skill\n    way (path) = life path of the new adult\n    Multiple chi- names = candidates being invested with 'truth names'\n  The physical loop could represent a binding — literally tying the nominee to their new identity. watay = to tie/bind. The loop divides knots into three sections (above/on/beyond) — possibly past/present/future, or the three worlds (hanan/kay/ukhu).\n\nCROSS-CORPUS\n  AS014 vs UR055 (succession oracle): UR055 is oracle CONSULTATION (180 cords, -wa suffix = 'me'), AS014 is nomination RECORD (75 cords, chi- names = candidates). Different ritual contexts.\n  AS014 is #2 for chi- concentration (12 words), alongside AS090/N2, after UR037 (16).\n\nKEY PASSAGES\n  1. Cord 4 [RM]: taki(30) + wakita(60) — opening ritual chant with large numerical value. RM color = sacred.\n  2. Cord 6 [W]: chiki(100) + mata(40) — highest S-value (100) attached to 'truth' word.\n  3. Cord 10 [RM]: tata(50) + chikay(20) — father CONFIRMS (chikay) the nominee.\n  4. Cord 26 [W]: mamata — mother in the accusative = mother as object of dedication.\n  5. Cord 15 [W]: makikiki — 'one's own hand / self-made' = declaration of craft mastery.\n\nNARRATIVE\n  Three candidates stand before the ceremony. The khipu records each one in turn, at perfect twelve-cord intervals on beige thread — the color of identity. Between them, white cords carry descriptions: skills, lineage, qualifications. Red cords mark the sacred moments: the chant, the father's confirmation, the sacred grove where the ceremony takes place.\n  The chi- names — chipama, chinama, chipaka, chikay — are truth-names, compound words built on chiqa (truth). These are not birth names but investiture names, the titles given when a young person is recognized as an adult, a worker, a member of the community. The mother is dedicated (mamata, accusative), the father confirms (tata + chikay), and the candidate proves their skill with their own hand (makikiki, 'self-made').\n  A physical loop — one centimeter of cotton thread bent into a circle — divides one cord into three sections: before, during, after. The binding of identity to name to community. The ceremony ends on red thread, with a word we cannot quite read. But the structure is clear: three acts, three candidates, three truths.",
-  "references": [
-    "Sivan 2026, ALBA Project — Nomination ceremony analysis, chi- onset pattern, syllable count rule",
-    "Warachikuy ceremony: Inca coming-of-age initiation — Rostworowski 1999, Historia del Tahuantinsuyu",
-    "OKR documentation — physical loop construction, non-numerical knot placement",
-    "Cross-corpus: UR055 (succession oracle), UR039 (juridical), UR110 (juridical dossier)",
-    "Quechua compound naming: Cerrón-Palomino 2003, Lingüística quechua"
+
+  "summary": "Nomination or investiture ceremony record from the British Museum (provenance unknown). 75 cords in paired register format (1-PAIRE), 3 colors (W/RM/BG). Dominant chi- onset pattern (12 words) creates a vocabulary of PERSONAL NAMES or ceremonial TITLES built on chiqa (truth): chipama ('True Formula'), chinama ('True Remedy'), chipaka ('Hidden Truth'), chikay ('To be true'). These are INVESTITURE NAMES given during a ritual. Vocabulary matches warachikuy (coming-of-age) ceremony: taki (chant), pama (formula), tata/mamata (father/mother), makiy (hand/craft), mata (sacred grove). BG (beige) cords at PERFECT 12-cord intervals (p11, p23, p35) mark THREE CANDIDATES, each preceded by exactly 12 cords of description. Physical LOOP tied in one cord -- divides knots into three sections (past/present/future). OKR confirms TEXT khipu ('no observable numerical pattern'). 43 STRING, 60 percent coverage.",
+
+  "interpretation": "IDENTIFICATION (v3, 2026-04-15)\n  75 cords (L1: 42, L2: 29, L3: 4). Architecture: 1-PAIRE -- paired register (L1 + L2).\n  3 colors: W(59), RM(8 = red/maroon), BG(8 = beige). 1 cluster (single continuous block).\n  Provenance: Unknown. Museum: British Museum.\n  Special construction: physical LOOP (1 cm diameter) tied in one cord.\n  43 STRING (60% hits -- 26/43 confirmed), 32 INT, 0 EMPTY.\n  OKR notes: 'The placement of knot groupings follows no observable pattern. Therefore, we assign no numerical values to the knots.' = TEXT KHIPU confirmed.\n  OKR notes: 'A loop of diameter 1 cm was tied in the cord... the first 2 knot clusters (8L, 1s) were above the loop, the cluster of 20s was on the loop, and the last 1s was beyond the loop.' = THREE-PART knot reading around the physical loop.\n\nDATA QUALITY (v3)\n  60 percent dict hits (26/43). The 40 percent residual is dominated by chi- onset compound words (likely proper names per the syllable-count rule: 3+ syllable = names).\n\nASCHER LAYER\n  Not applicable. OKR explicitly confirms TEXT status: 'no observable numerical pattern' in knot groupings. The 22 syllabic ALBA knots do not resolve to decimal-positional accounting.\n\nFIRST WORD / LAST WORD\n  First word (cord 1, W): chipama -> kipa+ma = 'after-DIR' = 'afterward' -- a TEMPORAL OPENING.\n  Last word (cord 42, RM): tapi -> on RED/RITUAL color. The ceremony CLOSES on a ritual act.\n  The document moves from preparation (W/data) to SACRED CULMINATION (RM/ritual).\n\nCOLOR-AS-ROLE\n  W (white, 34 cords): THE TEXT -- descriptions, qualifications. 16 vocab + 15 chi- name compounds.\n  RM (red, 5 cords): THE CEREMONY -- ritual moments: taki (chant), tata (father), mata (grove), kaypa (of this), tapi.\n  BG (beige, 4 cords): THE NAMES -- candidate identity: chima, kataki, wati + mata.\n  BG at PERFECT 12-cord intervals (C11, C23, C35) -- spacing [12, 12]. THREE CANDIDATES, each preceded by exactly 12 cords of description. DELIBERATE regularity structures the ceremony into three equal acts.\n\nHYPOTHESIS\n  AS014 is a NOMINATION OR INVESTITURE CEREMONY RECORD listing the names and qualifications of individuals being formally recognized. The dominant chi- onset pattern (12 words starting with chi = 'truth/verification' in v3 polyphony) creates a vocabulary of PERSONAL NAMES OR CEREMONIAL TITLES built on the root chiqa (truth): chipama ('True Formula'), chinama ('True Remedy'), chipaka ('Hidden Truth'), chikay ('To be true'). These are NAMES or TITLES assigned during a nomination ritual, not standard dictionary words.\n\nKEY VOCABULARY\n  Confirmed words: mata (grove x3), taki (chant x2), tiki (all/each x2), tata (father x1), mamata (mother-ACC x1), pama (formula x1), makiy (hand-INF / my hand x1), kaypa (of this x1), pata (land x1), way (path x1), kaki (corn-AY x1), pataki (shallow-AY x1).\n  Probable PERSONAL NAMES (chi- compounds): chipama ('True Formula'), chinama ('True Remedy'), chima (x2), chikima, chamaki ('Working hand'), chipaka ('Hidden Truth'), chikay ('To be true'), sikiki, makikiki ('Self-made'), wakita, kapapa ('To the father'), kataki ('To the chant'), wati.\n\nNAME IDENTIFICATION -- SYLLABLE COUNT\n  Cross-corpus analysis of 1,769 L1 STRING cords:\n    2-syllable words: 12.2% unknown = vocabulary (88 percent glossed).\n    3-syllable words: 87.1% unknown = proper names or compounds.\n    4+ syllable words: 100% unknown = ALWAYS names.\n  Rule: 2-syllable = vocabulary, 3+ syllable = proper names. Linguistically expected: Quechua roots are 2-syllable CV+CV; names are compound forms.\n  In AS014: 12 unglossed L1 words are mostly 3-syllable (8/12 = 67%), vocabulary words are mostly 2-syllable (7/11 = 64%).\n\nSTRUCTURE\n  Single cluster, 42 L1 cords, paired with L2 subsidiaries (29 L2 + 4 L3). No section breaks.\n  Paired format: L1 = name/title (STRING), L2 = associated information (STRING or INT).\n\nHISTORICAL CONTEXT\n  Vocabulary matches WARACHIKUY (coming-of-age ceremony) more closely than rutuchikuy (first haircut):\n    taki (chant) = ritual music\n    pama (formula) = official words spoken\n    mata (grove) = sacred site (ceremonies took place in specific groves / plazas)\n    tata + mamata = father and mother of the candidate\n    makiy (my hand) + makikiki (one's own craft) = demonstration of skill\n    way (path) = life path of the new adult\n    Multiple chi- names = candidates being invested with 'truth names'\n  The physical LOOP could represent a binding -- literally tying the nominee to their new identity. watay = to tie/bind. The loop divides knots into three sections (above/on/beyond) -- possibly PAST/PRESENT/FUTURE, or the THREE WORLDS (hanan / kay / ukhu).\n\nCROSS-CORPUS\n  AS014 vs UR055 (succession oracle): UR055 is oracle CONSULTATION (180 cords, -wa suffix = 'me'), AS014 is nomination RECORD (75 cords, chi- names = candidates). Different ritual contexts.\n  AS014 is #2 for chi- concentration (12 words), alongside AS090/N2, after UR037 (16).\n\nKEY PASSAGES\n  1. Cord 4 [RM]: taki(30) + wakita(60) -- opening ritual chant with large numerical value. RM color = sacred.\n  2. Cord 6 [W]: chiki(100) + mata(40) -- highest S-value (100) attached to 'truth' word.\n  3. Cord 10 [RM]: tata(50) + chikay(20) -- FATHER CONFIRMS (chikay) the nominee.\n  4. Cord 26 [W]: mamata -- mother in the accusative = mother as object of dedication.\n  5. Cord 15 [W]: makikiki -- 'one's own hand / self-made' = declaration of craft mastery.\n\nWHAT IS VERIFIABLE\n  Physical loop construction: British Museum inspection.\n  'No observable numerical pattern' in knot groupings: reproducible from OKR.\n  BG at perfect 12-cord intervals (p11, p23, p35): reproducible.\n  Warachikuy vocabulary match: Rostworowski 1999 + ethnographic accounts.\n  chi- name hypothesis: cross-corpus chi-onset compound frequency test.\n\nSTALE v1 CLAIMS SUPERSEDED\n  None explicit.\n\nPRESERVED v1 OBSERVATIONS\n  - 75 cords, 3 colors, paired 1-PAIRE format.\n  - BG at 12-cord intervals marks 3 candidates.\n  - Physical loop unique feature.\n  - TEXT khipu per OKR ('no observable numerical pattern').",
+
+  "narrative": "Three candidates stand before the ceremony. The khipu records each one in turn, at perfect twelve-cord intervals on beige thread -- the color of identity. Between them, white cords carry descriptions: skills, lineage, qualifications. Red cords mark the sacred moments: the chant, the father's confirmation, the sacred grove where the ceremony takes place.\n\nThe chi- names -- chipama, chinama, chipaka, chikay -- are truth-names, compound words built on chiqa (truth). These are not birth names but INVESTITURE NAMES, the titles given when a young person is recognized as an adult, a worker, a member of the community. The mother is dedicated (mamata, accusative), the father confirms (tata + chikay), and the candidate proves their skill with their own hand (makikiki, 'self-made').\n\nA physical loop -- one centimeter of cotton thread bent into a circle -- divides one cord into three sections: before, during, after. The binding of identity to name to community. In Quechua, watay means 'to tie' -- and the loop here may be the physical enactment of the investiture: the candidate is TIED to their new identity, literally, knotted into the record that will outlive the ceremony.\n\nThe ceremony opens on white with a temporal word: chipama -- kipa+ma, 'afterward' or 'after-DIR'. The document begins with what comes after, because this is a document about BECOMING: after childhood, after preparation, after the tests -- the investiture. At cord four, on red, taki with a value of thirty and wakita with a value of sixty: the opening chant with the highest numerical values in the document. The ritual music and the offering. At cord six, chiki with value one hundred and mata with value forty -- the sacred grove where the ceremony takes place, paired with the 'truth' word (chiki). The candidates are sworn to truth in the grove.\n\nAt cord ten on red: tata with value fifty, chikay with value twenty. The father confirms. Chikay is the verbal form of chiqa -- 'to be true'. The father bears witness that the candidate is worthy of the truth-name about to be bestowed.\n\nAt cord eleven on beige, the first candidate's name: chima. One of a dozen chi-compound names that will punctuate the document at regular intervals.\n\nAt cord fifteen: makikiki. 'Self-made' or 'one's own hand'. The candidate has demonstrated their craft. Makiy is the hand, the labor, the skill; makikiki is the self-possessed form -- 'my own skilled hand'. The declaration of mastery.\n\nAt cord twenty-three on beige, the second candidate: kataki -- 'To the chant'. At cord thirty-five on beige, the third candidate: wati. Three candidates, three twelve-cord intervals, three investitures.\n\nAt cord twenty-six: mamata. The mother in the accusative -- the mother AS OBJECT of dedication. The candidate is DEDICATED to the mother, or the mother is named as the object of the ceremony's ritual honour.\n\nThe document closes at cord forty-two on red: tapi. A word we cannot fully gloss. But the red color at the end mirrors the red at cord four -- the ceremony begins and ends in the sacred register. The white cords between carry the descriptions; the red cords frame the ritual; the beige cords name the candidates; and the small cotton loop, one centimetre across, binds the whole thing together.",
+
+  "attribution": {
+    "prior_work": [
+      {"claim": "Warachikuy was the Inca coming-of-age ceremony for young men, involving ritual chants (taki), formulaic pronouncements (pama), sacred groves (mata), and craft demonstrations.",
+       "citation": "Rostworowski, M. (1999). Historia del Tahuantinsuyu; Cobo, B. (1653). Historia del Nuevo Mundo."},
+      {"claim": "Inca investiture rituals included the ASSIGNMENT OF CEREMONIAL NAMES -- candidates received new titles during their formal recognition as adults or office-holders.",
+       "citation": "Cieza de Leon (1553); Betanzos (1551). Suma y Narracion."},
+      {"claim": "AS014's knot groupings show 'no observable numerical pattern' per OKR field analysis -- confirming TEXT status, not accounting.",
+       "citation": "Open Khipu Repository cord-note for AS014 (British Museum catalogue)."},
+      {"claim": "The syllable-count name-detection rule: 2-syllable words are standard Quechua CV+CV roots (12 percent unknown), 3-syllable words are PROPER NAMES at 87 percent frequency, 4+ syllable words are 100 percent proper names.",
+       "citation": "Sivan, J. (2026). The Khipu as a Layered Information System (syllable-count rule, corpus-validated on 1,769 L1 STRING cords)."}
+    ],
+    "v3_contribution": [
+      {"claim": "AS014 IDENTIFIED AS NOMINATION / INVESTITURE CEREMONY RECORD. Basis: (a) warachikuy vocabulary match (taki + pama + mata + tata + mamata + makiy + makikiki + way), (b) 12 chi-onset compound words as TRUTH-NAMES (chipama, chinama, chipaka, chikay, chima, etc.), (c) 3 BG candidate cords at perfect 12-cord intervals, (d) physical loop as binding enactment.",
+       "evidence": {"kind": "structural", "matches": 8, "test": "warachikuy-vocabulary signature count"}},
+      {"claim": "THREE CANDIDATES at perfect 12-cord intervals on BG (beige, identity-color): p11 (chima), p23 (kataki), p35 (wati). Spacing [12, 12] deliberate -- structures the ceremony into three equal acts.",
+       "evidence": {"kind": "structural", "matches": 3, "test": "BG cord positions + regular 12-cord spacing"}},
+      {"claim": "CHI- ONSET PATTERN: 12 words start with chi- (truth / chiqa base). These are TRUTH-NAMES: investiture titles built on the root meaning 'truth / verification'. Parallel scribal convention: AS014 is the nomination-ceremony variant of this chi-compound naming tradition (AS090/N2, UR037 also exhibit high chi-density).",
+       "evidence": {"kind": "statistical", "matches": 12, "test": "chi-onset word count out of 43 STRING cords"}},
+      {"claim": "PHYSICAL LOOP (1 cm diameter) divides knots into THREE SECTIONS (above / on / beyond). Proposed interpretation: PAST / PRESENT / FUTURE, or the THREE WORLDS of Inca cosmology (hanan / kay / ukhu). watay = 'to tie' in Quechua -- the candidate is physically tied to their new identity.",
+       "evidence": {"kind": "physical"}},
+      {"claim": "OPENING-CLOSING FRAME: first word chipama (temporal 'afterward', W) at p1 -> last word tapi (ritual, RM) at p42. The document moves from TEMPORAL PREPARATION to SACRED CULMINATION, from white (description) to red (ritual).",
+       "evidence": {"kind": "structural"}},
+      {"claim": "Syllable-count rule applied: in AS014's 12 chi-compound words, 8/12 (67 percent) are 3-syllable. Per the corpus-validated rule, 3-syllable unglossed words are proper names at 87 percent frequency. The chi-compounds are therefore PROPER NAMES with high confidence.",
+       "evidence": {"kind": "statistical", "matches": 12, "test": "Syllable count of chi-onset unglossed words"}}
+    ]
+  },
+
+  "companions": [
+    {"id": "UR055", "relation": "same_document_type",
+     "note": "Succession oracle consultation (180 cords, -wa suffix). UR055 and AS014 are RITUAL-CONSULTATION class documents: UR055 is oracle CONSULTATION (asking a question), AS014 is nomination RECORD (naming the candidates). Complementary stages of the same ritual-office life-cycle."},
+    {"id": "UR052", "relation": "cross_khipu_signal",
+     "note": "Juridical oracle with 5-phase structure. Shares the RM (red/maroon) ritual-color channel convention with AS014. Both documents use red cords specifically for ritual/sacred moments (chant, huaca, verdict)."},
+    {"id": "AS090", "relation": "same_document_type",
+     "note": "Paired legal-status register in the chi-density cluster. Shares the chi- onset name convention with AS014."},
+    {"id": "UR037", "relation": "cross_khipu_signal",
+     "note": "Census register with 16 chi-onset compounds (highest in analysed corpus). AS014 (12 chi-compounds) and UR037 (16) both use chi-compounds as identity markers -- AS014 for investiture names, UR037 for census entries."},
+    {"id": "UR050", "relation": "cross_khipu_signal",
+     "note": "Soldi white cadastral register closing on wapa-1OBJ / 1OBJ-chapa. AS014 also uses a paired opening-closing frame (chipama / tapi) in a different ritual register -- the CONVENTION of scribal opening-closing matches across document classes."}
   ],
-  "reconstructed_xlsx": null,
-  "document_type_override": "nomination_ceremony"
+
+  "confidence_axes": {
+    "word_reading": {
+      "level": "medium",
+      "note": "26/43 dict-confirmed (60 percent). The 40 percent residual is dominated by chi-onset compound words which are HYPOTHESIZED as proper names (8/12 are 3-syllable, matching the 87-percent name rule). Individual name glosses (chipama = 'True Formula', chinama = 'True Remedy', etc.) are morphologically transparent but each is a single tentative reading."
+    },
+    "document_type": {
+      "level": "medium",
+      "note": "Nomination_ceremony classification rests on 4 converging signals: warachikuy vocabulary signature, 3 BG candidates at perfect 12-cord intervals, chi- name density (12/43 = 28 percent of STRING), and physical loop as binding enactment. No other Inca khipu has been proposed for this genre in the published literature, so the class sample-size is 1; the reading is consistent internally but externally novel."
+    },
+    "narrative": {
+      "level": "medium",
+      "note": "Internally coherent (white description -> red ritual moments at p4, p10, p42 -> beige candidates at p11, p23, p35 in perfect 12-cord spacing -> physical loop binds identity to name). Externally anchored by warachikuy ethnographic literature (Rostworowski, Cobo). The chi-compounds as proper names match the syllable-count rule but are individually interpretive."
+    },
+    "data_integrity": {
+      "level": "medium-high",
+      "note": "60 percent dict hits + 40 percent proper names (expected for a naming-focused document). No Ascher lattice (OKR confirms text status). Physical loop construction preserved and documented. British Museum provenance intact but site provenance unknown."
+    }
+  },
+
+  "sections": [
+    {"id": "I", "title": "Temporal Opening (W)", "cords": "1-3",
+     "reading": "chipama at p1 -- 'afterward' (kipa+ma). The document opens with a temporal marker: this is what comes AFTER the preparation. The ceremony is about to begin.",
+     "key_cords": [
+       {"pos": 1, "gloss": "W chipama", "note": "FIRST WORD -- 'afterward' / temporal opening of the investiture"}
+     ]},
+    {"id": "II", "title": "Opening Chant + Offering (RM)", "cords": "4-10",
+     "reading": "Sacred red-color cords. p4 carries taki(30) + wakita(60) -- the opening ritual chant with the highest numerical values in the document. p6 on W: chiki(100) + mata(40) -- truth paired with the sacred grove. p10 on RM: tata(50) + chikay(20) -- the FATHER CONFIRMS (chikay = 'to be true'). The candidate is sworn before the ceremony begins.",
+     "key_cords": [
+       {"pos": 4,  "gloss": "RM taki(30)+wakita(60)", "note": "opening ritual chant with large offering value"},
+       {"pos": 6,  "gloss": "W chiki(100)+mata(40)", "note": "TRUTH in the SACRED GROVE -- highest S-value in the document"},
+       {"pos": 10, "gloss": "RM tata(50)+chikay(20)", "note": "FATHER CONFIRMS -- chikay ('to be true') = witness of worthiness"}
+     ]},
+    {"id": "III", "title": "First Candidate: Chima (BG)", "cords": "11",
+     "reading": "First beige cord: chima. Candidate 1 named. The identity-color introduces the first investiture.",
+     "key_cords": [
+       {"pos": 11, "gloss": "BG chima", "note": "FIRST CANDIDATE -- chi-compound truth-name on identity color"}
+     ]},
+    {"id": "IV", "title": "Candidate 1 Description (W + RM)", "cords": "12-22",
+     "reading": "11 cords describing candidate 1's qualifications. makikiki at p15 on W -- 'one's own hand / self-made' = declaration of craft mastery. Additional chi-compound names attached as L2 subsidiaries likely record lineage / sponsors.",
+     "key_cords": [
+       {"pos": 15, "gloss": "W makikiki", "note": "SELF-MADE -- candidate demonstrates their craft"}
+     ]},
+    {"id": "V", "title": "Second Candidate: Kataki (BG)", "cords": "23",
+     "reading": "Second beige cord at EXACTLY 12 cords after p11: kataki -- 'To the chant'. The second candidate, named with a compound built on the ritual music-word taki. Spacing [11->23 = 12 cords].",
+     "key_cords": [
+       {"pos": 23, "gloss": "BG kataki", "note": "SECOND CANDIDATE at 12-cord interval -- name built on taki (ritual chant)"}
+     ]},
+    {"id": "VI", "title": "Candidate 2 Description + Mother Dedication (W)", "cords": "24-34",
+     "reading": "11 cords of candidate 2 description. At p26, mamata on white -- mother in the ACCUSATIVE, mother AS OBJECT OF DEDICATION. The candidate is dedicated to the mother, or the mother is the object of ritual honour.",
+     "key_cords": [
+       {"pos": 26, "gloss": "W mamata", "note": "MOTHER-ACCUSATIVE -- mother as object of dedication in the investiture"}
+     ]},
+    {"id": "VII", "title": "Third Candidate: Wati (BG)", "cords": "35",
+     "reading": "Third beige cord at EXACTLY 12 cords after p23: wati. Third candidate named. The three-cord spacing [11-23-35] confirms the deliberate regularity: three equal acts, three candidates, three truth-names.",
+     "key_cords": [
+       {"pos": 35, "gloss": "BG wati", "note": "THIRD CANDIDATE at 12-cord interval -- ceremony's ternary structure complete"}
+     ]},
+    {"id": "VIII", "title": "Candidate 3 Description + Closing", "cords": "36-41",
+     "reading": "6 cords of candidate 3 description, then the closing approach.",
+     "key_cords": []},
+    {"id": "IX", "title": "Sacred Culmination (RM)", "cords": "42",
+     "reading": "LAST WORD on red: tapi. A word whose full gloss remains unresolved -- but the red color mirrors the opening RM cords at p4 and p10. The ceremony closes in the sacred register. From the temporal opening (chipama on W) to the ritual culmination (tapi on RM): the structure is W framing RM at both ends, enclosing white description, beige candidate-naming, and red sacred moments.",
+     "key_cords": [
+       {"pos": 42, "gloss": "RM tapi", "note": "LAST WORD on sacred RM color -- ritual culmination closes the ceremony"}
+     ]}
+  ],
+
+  "references": [
+    "Sivan, J. (2026). The Khipu as a Layered Information System. ALBA Project preprint.",
+    "Sivan, J. (2026). Deep reads UR055, UR052, AS090, UR037 v3/v4 -- ritual + identity corpus.",
+    "Rostworowski, Maria (1999). Historia del Tahuantinsuyu. Instituto de Estudios Peruanos.",
+    "Cobo, Bernabe (1653). Historia del Nuevo Mundo.",
+    "Cieza de Leon, Pedro (1553). Cronica del Peru.",
+    "Betanzos, Juan de (1551). Suma y Narracion de los Incas.",
+    "Guaman Poma de Ayala (1615). Nueva Coronica y Buen Gobierno.",
+    "Cerron-Palomino, R. (2003). Linguistica quechua (compound-name formation rules).",
+    "Khipu Field Guide catalog: AS014 / British Museum.",
+    "British Museum catalogue records for AS014 (physical-loop construction attested).",
+    "Open Khipu Repository: AS014 record, British Museum."
+  ],
+
+  "reconstructed_xlsx": null
 }

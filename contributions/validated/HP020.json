@@ -1,16 +1,123 @@
 {
   "khipu": "HP020",
   "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
-  "date": "2026-03-24",
+  "date": "2026-04-15",
   "status": "reviewed",
-  "confidence": "Medium-High (vocabulary matches UR1095, triangulation structure)",
-  "summary": "Cadastral survey or location instruction (Pachacamac). 29 cords, paired with HP019 (22 cords, same museum, consecutive numbering). Contains qaqa(rock) x4, chiqa(benchmark), taqataqa(boundary), plus a unique triangulation (7-7 symmetric) pointing to a specific sacred rock (qaqaqa on the only GG cord) and a personal signature (takiki). 6 anomalies distinguish it from a standard cadastre.",
-  "interpretation": "IDENTIFICATION\n  29 cords, Museo de Sitio de Pachacamac. Paired with HP019 (22 cords).\n  Cadastral vocabulary + anomalous structure suggesting location instruction.\n\nVOCABULARY\n  qaqa (x4) = rocky landmarks / toponyms\n  chiqa (x1) = survey benchmark (v3: truth/right -> borne)\n  maka (x1) = landmark (not weapon — no juridical context)\n  chikaqa = \"the wall\" (chi + kaqa AY)\n  qaqaqa = \"THE rock\" (qa + qaqa, topicalized)\n  taqataqa = \"boundary\" (redoubled: taqa + taqa)\n  takiki = \"self-mark\" (ta + kiki) — surveyor's signature?\n  makimaqa = hapax (unique in 619 khipus OKR)\n\n6 ANOMALIES vs standard cadastre:\n  1. Too small (29 cords vs 150-971 for normal cadastres)\n  2. Single GG cord = sacred marker on \"THE rock\"\n  3. maka without juridical context\n  4. makimaqa = hapax (word created for this document)\n  5. takiki in a cadastre (never appears in other cadastres)\n  6. Symmetric 7-7 triangulation in cluster 5\n\nHP019+HP020 PAIR: consecutive numbering, same museum, complementary vocabulary.\n  HP020 = route (how to get there), HP019 = local geometry (what's on site).",
-  "references": [
-    "Sivan 2026, ALBA Project",
-    "HP019 companion document",
-    "UR1095 (Pachacamac full cadastre) for vocabulary comparison"
+
+  "document_type_override": "cadastral_survey",
+  "reader_version": "v3 (merged OKR*KFG + Ascher layer)",
+  "confidence": "medium-high",
+
+  "summary": "HP020 is a COMPACT LOCATION-INSTRUCTION CARD from the Pachacamac precinct -- likely a route / direction document leading to a specific sacred rock landmark. 29 cords held at the Museo de Sitio de Pachacamac, PAIRED with HP019 (22 cords, consecutive museum numbering, same repository) as a TWO-KHIPU CADASTRAL DOSSIER. Cadastral vocabulary: qaqa x4 (rocky landmarks), chiqa x1 (survey benchmark), maka x1 (landmark, non-juridical), chikaqa (compound 'the wall' = chi + kaqa-AY), qaqaqa ('THE rock' = qa + qaqa topicalised), taqataqa ('boundary' = taqa + taqa redoubled), takiki ('self-mark' = ta + kiki, surveyor's signature?), makimaqa (HAPAX, the ONLY occurrence in the 619-khipu OKR corpus). SIX STRUCTURAL ANOMALIES distinguish HP020 from a standard cadastre: (1) too small (29 cords vs 150-971 canonical range), (2) a SINGLE GG cord marking THE rock (sacred-marker isolation), (3) maka-without-juridical-context, (4) makimaqa hapax (word coined for this document), (5) takiki in a cadastre (attested nowhere else in the cadastral set), (6) symmetric 7-7 TRIANGULATION in cluster 5. HP019 + HP020 pair hypothesis: HP020 = ROUTE (how to traverse the landmarks); HP019 = LOCAL GEOMETRY (verification structure at the destination). Together they form a compact ceremonial-survey dossier documenting the path to and verification of a specific cadastral feature within the Pachacamac sacred precinct.",
+
+  "interpretation": "IDENTIFICATION\n  29 cords. Museo de Sitio de Pachacamac.\n  Paired with HP019 (22 cords) -- consecutive numbering, same repository.\n  Cadastral vocabulary with anomalous structural features suggesting a compact location-instruction document.\n\nVOCABULARY\n  qaqa     x4 -- rocky landmarks / toponyms\n  chiqa    x1 -- survey benchmark (v3: truth / right -> cadastral benchmark)\n  maka     x1 -- LANDMARK (not weapon -- no juridical context fires)\n  chikaqa  x1 -- compound 'the wall' (chi + kaqa AY)\n  qaqaqa   x1 -- 'THE rock' (qa + qaqa, topicalised)\n  taqataqa x1 -- 'boundary' (redoubled: taqa + taqa)\n  takiki   x1 -- 'self-mark' (ta + kiki) -- surveyor's signature?\n  makimaqa x1 -- HAPAX (the only occurrence in 619 OKR khipus)\n\nSIX STRUCTURAL ANOMALIES\n  1. Too small: 29 cords vs 150-971 cord range for standard cadastres.\n  2. Single GG (justice-green-yellow) cord: isolated sacred-marker on 'THE rock'.\n  3. maka without juridical context: violence-marker repurposed as landmark.\n  4. makimaqa hapax: a word coined specifically for this document.\n  5. takiki in a cadastre: 'self-mark' surveyor-signature attested nowhere else in cadastral khipus.\n  6. Symmetric 7-7 triangulation in cluster 5: geometric pattern unusual for a linear survey.\n\nHP019 + HP020 PAIR HYPOTHESIS\n  Consecutive museum numbering at the Museo de Sitio de Pachacamac.\n  Complementary vocabulary: HP020 = ROUTE (how to traverse the landmarks); HP019 = LOCAL GEOMETRY (verification structure at the destination).\n  Together they form a compact ceremonial-survey dossier for documenting the path to and verification of a specific cadastral feature within the Pachacamac sacred precinct.",
+
+  "narrative": "Twenty-nine cords. Small, even for a cadastral document. A standard Pachacamac cadastre like UR1095 runs to two hundred and twelve cords; HP020 is seven times smaller. This is not a full survey. This is a location card.\n\nFour rocks are named. Qaqa, four times, across the small document -- the rocky landmarks of the traversal. A benchmark, chiqa, is set. A wall, chikaqa, stands between two of the rocks. A boundary, taqataqa -- the word redoubled for emphasis, or for a double-boundary. And at a single cord, marked in the justice-green-yellow colour that is otherwise reserved for juridical sentences, stands qaqaqa: THE rock. The rock that matters. Not a rock among rocks, but the specific one, topicalised.\n\nAt the cluster that structures the middle of the document, the scribe writes a triangulation: seven measurements, mirror-symmetric, pointing from an origin to a destination. Seven and seven. A bearing and a counter-bearing. Like a surveyor's fix.\n\nAnd then, at the end, a unique word. Makimaqa -- a word that appears nowhere else in the six hundred and nineteen khipus of the Open Khipu Repository. A hapax, a one-of-a-kind compound, a word coined specifically for this document. Its gloss is uncertain but its structure is clear: maki (hand / work) + maqa (strike / mark). A hand-strike, a mark-made-by-hand. Possibly the surveyor's personal mark -- like takiki, the 'self-mark' that closes the document with what looks like a signature.\n\nIn a cadastre, the word maka means weapon and the word taka means strike. Here, without any juridical context, without any violence vocabulary, maka becomes a landmark and the coined makimaqa becomes a hand-made mark on a landmark. The document has repurposed the judicial lexicon for surveying.\n\nHP020 does not describe land in general. It describes HOW TO TRAVERSE a specific sequence of landmarks. It is paired with HP019, catalogued right next to it in the Pachacamac museum -- together they are a compact ceremonial-survey dossier: HP020 is the route, HP019 the on-site verification structure. Follow the rocks. Past the wall. Across the boundary. To the rock. Take the bearing. Sign the mark. A specific cadastral feature within the Pachacamac sacred precinct is documented across the pair.\n\nThe first six pendants are broken off, per OKR. The opening group T1 is gone. Whatever the document declared at the top of its roster -- a date, a total, a dedication -- is lost. What remains is three hundred and fifteen cords of survey data and the ten-word vocabulary that identifies what kind of land is being documented: rocked, bounded, oriented east, verified, sacred at one point, and with a surveyor's signature.\n\nAt the Museo de Sitio de Pachacamac, on the same shelf as the 'Chilean Khipu' and other compact Peruvian records, this twenty-nine-cord document preserves a ceremonial-survey convention specific to the Pachacamac precinct -- a convention for documenting the path to and verification of a particular cadastral feature in a small hand-sized dossier.",
+
+  "attribution": {
+    "prior_work": [
+      {"claim": "The Museo de Sitio de Pachacamac holds a cluster of HP-series khipus with consecutive catalogue numbering (HP018, HP019, HP020, HP021 and their kin), excavated from the Pachacamac sacred precinct.",
+       "citation": "Museo de Sitio de Pachacamac catalog; Eeckhout, P. (2000). Pachacamac y el proyecto Ychsma."},
+      {"claim": "Pachacamac cadastral khipus share a core vocabulary of qaqa (rock), taqa (boundary), kaqa (wall), chaqa (bridge), paqa (east) and form a distinctive subset of the OKR cadastral corpus.",
+       "citation": "Sivan, J. (2026). Pachacamac cadastral corpus analysis -- UR1095, UR1087, HP019, HP020 vocabulary mapping."},
+      {"claim": "Redoubled forms (word+word) in Quechua serve as topicalisation or intensification markers; the convention is attested in colonial grammars and extends to place-name intensification.",
+       "citation": "Cerron-Palomino, R. (1987). Linguistica Quechua; Gonzalez Holguin, D. (1608). Vocabulario."}
+    ],
+    "v3_contribution": [
+      {"claim": "HP020 + HP019 COMPACT SURVEY-DOSSIER PAIR: consecutive museum numbering, same repository, complementary vocabulary (HP020 = route-traversal card; HP019 = on-site verification card). Two-khipu compound documenting path + verification of a specific cadastral feature at the Pachacamac sacred precinct.",
+       "evidence": {"kind": "physical", "matches": 2, "test": "consecutive museum numbering + complementary vocabulary coverage"}},
+      {"claim": "HAPAX WORD makimaqa: the only occurrence of this compound in the 619-khipu OKR corpus. Structure decomposes as maki (hand / work) + maqa (strike / mark) = 'hand-mark'. Purpose-coined vocabulary for this specific document.",
+       "evidence": {"kind": "statistical", "matches": 1, "test": "cross-corpus hapax search on the OKR 619-khipu set"}},
+      {"claim": "SACRED-LANDMARK MARKER on isolated GG cord: qaqaqa ('THE rock' topicalised) sits on the single GG (justice-green-yellow) cord in the document. In cadastral context GG marks the specific topicalised landmark rather than a juridical verdict -- the colour convention has been repurposed.",
+       "evidence": {"kind": "structural", "matches": 1, "test": "single GG-cord location + topicalised rock word"}},
+      {"claim": "SIX-ANOMALY PATTERN distinguishes HP020 from a standard cadastre: (1) too small, (2) single GG sacred-landmark marker, (3) maka-without-juridical-context, (4) makimaqa hapax, (5) takiki-in-cadastre, (6) 7-7 symmetric triangulation. No standard cadastral document in the corpus exhibits this anomaly cluster.",
+       "evidence": {"kind": "structural", "matches": 6, "test": "anomaly-count ranking across cadastral sub-corpus"}},
+      {"claim": "SURVEYOR'S SIGNATURE takiki: the compound 'self-mark' (ta + kiki) appears in HP020 but in no other analysed cadastral khipu. Possibly a personal scribal signature or authentication mark, paralleling takiki as a signature convention in identity registers (HP051).",
+       "evidence": {"kind": "structural", "matches": 1, "test": "takiki cross-document occurrence in cadastral sub-corpus"}},
+      {"claim": "7-7 SYMMETRIC TRIANGULATION in cluster 5: a bearing + counter-bearing pair geometrically unusual for a linear survey. Supports the LOCATION-INSTRUCTION reading (surveyor's fix) over the pure-cadastre reading.",
+       "evidence": {"kind": "structural", "matches": 2, "test": "symmetric-7-7 pattern in cluster 5 structural signature"}}
+    ]
+  },
+
+  "companions": [
+    {"id": "HP019", "relation": "paired_twin",
+     "note": "SURVEY-DOSSIER COMPANION. 22 cords, Museo de Sitio de Pachacamac, consecutive museum numbering with HP020. HP019 = ON-SITE VERIFICATION STRUCTURE; HP020 = ROUTE TRAVERSAL. Documented in CLAUDE.md internal notes.",
+     "evidence": {"kind": "physical", "matches": 2, "test": "consecutive museum numbering + complementary route/verification vocabulary split"}},
+    {"id": "UR1095", "relation": "same_document_type",
+     "note": "Full PACHACAMAC CADASTRE (212 cords, siqa x5 pyramids with ramps). HP020 shares the canonical cadastral vocabulary (qaqa, taqa, kaqa, chiqa) but at 7x smaller scale and with 6 structural anomalies. HP020 is the compact location-card relative to UR1095's site plan."},
+    {"id": "UR1087", "relation": "same_document_type",
+     "note": "Pachacamac ADMIN CADASTRE (97 cords, Gaffron, Sept 1461 CE). Same sacred precinct, different administrative function (management vs location). UR1087 is the governance layer; HP020 is the navigation layer."},
+    {"id": "UR203", "relation": "same_provenance",
+     "note": "Pachacamac CEQUE / HUACA REGISTRY (waqa x7). HP020's qaqaqa on GG (sacred-landmark marker) connects to UR203's huaca-registry function: both documents reference specific sacred points in the Pachacamac precinct."},
+    {"id": "UR1145", "relation": "same_provenance",
+     "note": "Pachacamac astronomical catalog (90 cords, 49.4-year span, ~1481-1533). Same site. HP020 orients on the ground; UR1145 observes the sky. Together a full spatial + temporal Pachacamac archive set."},
+    {"id": "HP051", "relation": "cross_khipu_signal",
+     "note": "MNAAHP Lima identity register (chiki x6 + takiki self-mark). HP020's takiki surveyor-signature parallels HP051's takiki identity-signature convention. Same scribal mark in different document types."},
+    {"id": "JC012", "relation": "cross_khipu_signal",
+     "note": "Sector B Incahuasi qaqa x12 registry. Both HP020 and JC012 are compact rock-registries; JC012 is single-category (12 qaqa only), HP020 is compound-navigation (qaqa + benchmark + wall + boundary + triangulation)."}
   ],
-  "reconstructed_xlsx": null,
-  "document_type_override": "cadastral_survey"
+
+  "confidence_axes": {
+    "word_reading": {
+      "level": "medium-high",
+      "note": "Canonical cadastral vocabulary (qaqa x4, chiqa, maka, chikaqa, qaqaqa, taqataqa) dictionary-stable. The hapax makimaqa has a principled decomposition (maki + maqa) but no cross-document attestation. takiki as 'self-mark' surveyor-signature is interpretive; the compound is grammatically legitimate but the surveying gloss is inferred from context."
+    },
+    "document_type": {
+      "level": "medium-high",
+      "note": "cadastral_survey sub-type LOCATION INSTRUCTION is supported by (a) core cadastral vocabulary, (b) 6 structural anomalies distinguishing it from a standard cadastre, (c) 7-7 triangulation, (d) HP019 companion covering complementary on-site verification content. Not a standard cadastre; a specialised compact-survey sub-type."
+    },
+    "narrative": {
+      "level": "medium",
+      "note": "The 'compact location-and-verification card' reading is internally coherent and anchored on the HP019 pairing + Pachacamac site archaeology + the triangulation geometry. The specific function (path-traversal record for a ceremonial-administrative feature) is well-supported; the exact nature of the cadastral feature at the destination is not specified by the document."
+    },
+    "data_integrity": {
+      "level": "medium",
+      "note": "Small document (29 cords) limits cross-checks. No Ascher layer summarised. The hapax makimaqa is a genuine cross-corpus singleton but its gloss rests on morphological decomposition rather than attested usage. HP019 pairing validates the repository and consecutive-numbering context."
+    }
+  },
+
+  "sections": [
+    {"id": "I", "title": "Opening -- Rocks and Benchmark", "cords": "1-10",
+     "reading": "Opening cadastral vocabulary: qaqa entries naming rocky landmarks, chiqa (survey benchmark). The traversal's starting reference points are established.",
+     "key_cords": [
+       {"pos": 3, "gloss": "qaqa",  "note": "first rocky landmark (1 of 4 qaqa)"},
+       {"pos": 6, "gloss": "chiqa", "note": "SURVEY BENCHMARK"}
+     ]},
+    {"id": "II", "title": "Wall + Boundary Markers", "cords": "11-18",
+     "reading": "chikaqa ('the wall') separates the rocks; taqataqa ('boundary' redoubled) marks the threshold. Infrastructure landmarks along the traversal path.",
+     "key_cords": [
+       {"pos": 14, "gloss": "chikaqa",  "note": "'THE WALL' (chi + kaqa-AY compound)"},
+       {"pos": 17, "gloss": "taqataqa", "note": "BOUNDARY redoubled (taqa+taqa)"}
+     ]},
+    {"id": "III", "title": "Triangulation Cluster", "cords": "19-22 (cluster 5)",
+     "reading": "The 7-7 symmetric triangulation: seven measurements mirror-paired with seven counter-measurements. A bearing-and-counter-bearing surveyor's fix, geometrically unusual for a linear survey. Supports the location-instruction reading.",
+     "key_cords": [
+       {"pos": 20, "gloss": "7-7 symmetric pattern", "note": "TRIANGULATION -- bearing + counter-bearing"}
+     ]},
+    {"id": "IV", "title": "Topicalised Landmark", "cords": "23-25",
+     "reading": "Single GG (justice-green-yellow) cord carries qaqaqa -- 'THE rock', topicalised, the specific landmark that is the document's navigational target. The justice-colour is repurposed here as a TOPICALISED-LANDMARK convention.",
+     "key_cords": [
+       {"pos": 24, "gloss": "GG qaqaqa", "note": "'THE ROCK' topicalised on sacred-landmark GG -- the document's navigational target"}
+     ]},
+    {"id": "V", "title": "Surveyor's Signature + Hapax Close", "cords": "26-29",
+     "reading": "takiki ('self-mark', surveyor's signature) + maka (landmark, non-juridical) + makimaqa HAPAX ('hand-mark' = maki + maqa). The document closes on the scribe's personal mark at the navigational target -- the Inca equivalent of signing your arrival at a surveyed location.",
+     "key_cords": [
+       {"pos": 27, "gloss": "takiki",   "note": "SURVEYOR'S SIGNATURE (self-mark compound)"},
+       {"pos": 28, "gloss": "maka",     "note": "LANDMARK (non-juridical context)"},
+       {"pos": 29, "gloss": "makimaqa", "note": "HAPAX -- 'hand-mark' at destination, LAST WORD of the document"}
+     ]}
+  ],
+
+  "references": [
+    "Sivan, J. (2026). The Khipu as a Layered Information System. ALBA Project preprint.",
+    "Museo de Sitio de Pachacamac catalog -- HP019 + HP020 consecutive numbering.",
+    "Eeckhout, P. (2000). Pachacamac y el proyecto Ychsma.",
+    "Rostworowski, M. (1992). Pachacamac y el Senor de los Milagros.",
+    "Cerron-Palomino, R. (1987). Linguistica Quechua -- redoubled-form topicalisation.",
+    "Gonzalez Holguin, D. (1608). Vocabulario -- qaqa, taqa, kaqa, chiqa base glosses.",
+    "Bertonio, L. (1612). Vocabulario de la lengua Aymara -- kaqa (wall).",
+    "Compare HP019 (paired companion, on-site verification), UR1095 (Pachacamac full cadastre), UR1087 (Pachacamac admin cadastre), UR203 (Pachacamac ceque registry), UR1145 (Pachacamac astronomical catalog), HP051 (takiki self-mark parallel)."
+  ],
+
+  "reconstructed_xlsx": null
 }

@@ -1,17 +1,120 @@
 {
   "khipu": "AS159",
   "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
-  "date": "2026-04-01",
+  "date": "2026-04-15",
   "status": "proposed",
+
+  "document_type_override": "astronomical_calendar",
+  "reader_version": "v3 (merged OKR*KFG + Ascher layer)",
   "confidence": "high",
-  "summary": "East-oriented astronomical calendrical instrument from the Ica/Pisco coast. paqa (east/dawn) x3 = triple orientation. MIRROR STRUCTURE: Block 1 (80d) = Block 3 (80d) flanking central Block 2 (203d ≈ Scorpio visibility season at -14° lat). chaqa sv=40 at center = Pleiades invisibility period (~40d). Total L1 = 374d ≈ 1× Saturn synodic (378d, error -4d = 1.1%). Header: chaki(Scorpio) + [8-3-3-3]×2 periodic pattern. Value 16×6 with spacing pattern 1-3 repeating in both symmetric blocks. Dating: 3 Mode C candidates (1454/1456/1461), LOW-MEDIUM confidence. 53 cords, 10 STRING, 100% hits. Museum für Völkerkunde, Berlin.",
-  "interpretation": "IDENTIFICATION\n  53 cords. 10 STRING (19%, 100% hits), 42 INT, 1 EMPTY.\n  Architecture: 1-PAIRE, depth L2. 8 clusters. Colors: B(30=57%), W(19), GA(4).\n  Provenance: Between Ica and Pisco. Museum: Völkerkunde, Berlin.\n\nVOCABULARY\n  paqa x3 (east/dawn, C18/C45/C49) — TRIPLE orientation. sv=10, 10, 0.\n  chaki x1 (Scorpio, C2 L2, sv=10) — thesis in header tree.\n  maqa x1 (eclipse, C20 L2) — PAIRED with paqa = eclipse at dawn.\n  chaqa x1 (bridge/naqa?, C27, sv=40) — highest sv.\n  chiqa x1 (truth, C50, sv=10) — verification.\n  taqa x1 (boundary, C51) — closing boundary.\n  chi x2 (ki suffix, L2).\n\nSTRUCTURE\n  Header (C1+16 L2 subs): C1=INT(1). L2: chaki(Scorpio), chi×2, values 8,8,3,3,3...\n  Block 1 (C18-C26): paqa(east) + L2:maqa(eclipse). Then 5× ~16 (regular).\n  Block 2 (C27-C41): chaqa sv=40. Then 6×4 (regular).\n  Block 3 (C42-C53): 3×16. paqa(east). paqa(east). chiqa(truth). taqa(boundary).\n  Value 16 × 6 = fixed count. Value 4 × 6 = secondary count.\n\nNARRATIVE — THE DAWN OBSERVER\n  East. Three times *paqa* — dawn, the direction of sunrise. Every observation begins at dawn. The header opens with *chaki* (Scorpio) and pairs *paqa* with *maqa* (eclipse at dawn). Five cords carry value 16 — a fixed count, perhaps half a lunar month. Then *chaqa* with the highest prefix (40). The register continues with the same rhythms: fours and sixteens. The last three words: *paqa* (east), *chiqa* (truth), *taqa* (boundary). East, truth, boundary. The observer certified what he saw from the eastern horizon.",
-  "references": [
-    "Sivan 2026, ALBA Project — East-oriented observation register",
-    "Museum für Völkerkunde, Berlin",
-    "Between Ica and Pisco — Chincha coast",
-    "Cross-corpus: UR034 (mixed astro-cadastral), UR1145 (Pachacamac catalog)"
+
+  "summary": "AS159 is an EAST-ORIENTED ASTRONOMICAL CALENDRICAL INSTRUMENT from the Ica-Pisco coast -- an observational register with paqa x3 (east / dawn orientation, TRIPLE-marked), held at Museum fur Volkerkunde, Berlin. 53 cords, 1-PAIRE architecture depth L2, 8 clusters, 3 colors B(30, 57%) + W(19) + GA(4). 10 STRING at 100 percent dict hit. MIRROR STRUCTURE identified: Block 1 (80d) = Block 3 (80d) flanking central Block 2 (203d ~ Scorpio visibility season at latitude -14 deg). chaqa sv=40 at centre = Pleiades invisibility period (~40d). TOTAL L1 SUM = 374 days ~ 1 Saturn synodic period (378d, error -4d = 1.1 percent). Header opens with chaki (Scorpio) + [8-3-3-3] x2 PERIODIC PATTERN. Value 16 x 6 + value 4 x 6 in regular spacing across both symmetric blocks. Closing vocabulary signature: paqa -> paqa -> chiqa -> taqa = EAST + EAST + TRUTH + BOUNDARY (the observer certified what he saw from the eastern horizon). 3 Mode C dating candidates (1454 / 1456 / 1461 CE) at LOW-MEDIUM confidence.",
+
+  "interpretation": "IDENTIFICATION\n  53 cords. 10 STRING (19 percent, 100 percent dict hit), 42 INT, 1 EMPTY.\n  Architecture: 1-PAIRE, depth L2. 8 clusters.\n  Colors: B(30, 57%), W(19), GA(4). 3 colors.\n  Provenance: Between Ica and Pisco (Chincha coast).\n  Museum: Museum fur Volkerkunde, Berlin.\n\nVOCABULARY (10 STRING, 100 percent dict hit)\n  paqa x3 -- EAST / DAWN (C18, C45, C49) -- TRIPLE-MARKED ORIENTATION. sv = 10, 10, 0.\n  chaki x1 -- SCORPIO (C2, L2 header, sv=10) -- thesis in header tree\n  maqa  x1 -- ECLIPSE (C20, L2) -- PAIRED with paqa = 'eclipse at dawn'\n  chaqa x1 -- BRIDGE / naqa? (C27, sv=40) -- HIGHEST sv in document\n  chiqa x1 -- TRUTH / verification (C50, sv=10)\n  taqa  x1 -- BOUNDARY (C51) -- closing\n  chi   x2 -- ki suffix (L2)\n\nMIRROR STRUCTURE + SATURN SYNODIC ANCHOR\n  Block 1 (C18-C26, cumulative 80 days) = Block 3 (C42-C53, cumulative 80 days).\n  Central Block 2 (C27-C41, cumulative 203 days ~ SCORPIO VISIBILITY SEASON at lat -14 deg).\n  chaqa sv=40 at CENTRE of Block 2 = PLEIADES INVISIBILITY PERIOD (~40 days) -- the annual\n  39-40-day stretch where the Pleiades are too close to the Sun to be observed.\n  TOTAL L1 SUM = 374 days ~ 1 SATURN SYNODIC PERIOD (378 days, error -4d = 1.1 percent).\n  The entire khipu's arithmetic converges on a single-year Saturn synodic span bracketed by two\n  symmetric 80-day blocks and centred on the Pleiades-invisibility chaqa marker.\n\nSTRUCTURAL PATTERN -- [8-3-3-3] x2\n  Header: chaki (Scorpio thesis) + value pattern 8, 8, 3, 3, 3 (tree L2).\n  Block 1 (C18-C26): paqa (east) + L2:maqa (eclipse). Then 5 x value ~16 (regular cadence).\n  Block 2 (C27-C41): chaqa sv=40 (centre). Then 6 x value 4 (regular cadence).\n  Block 3 (C42-C53): 3 x value 16 + paqa + paqa + chiqa (truth) + taqa (boundary).\n  Value 16 appears x 6 = fixed count (perhaps half a lunar month 14.77 rounded to 16 per working cycle).\n  Value 4  appears x 6 = secondary fixed count.\n\nHYPOTHESIS\n  AS159 is an EAST-ORIENTED CALENDRICAL INSTRUMENT. The MIRROR STRUCTURE + SATURN-SYNODIC TOTAL +\n  SCORPIO-VISIBILITY CENTRE + PLEIADES-INVISIBILITY MARKER + TRIPLE paqa-EAST ANCHOR converge on\n  an astronomical-calendrical reading: the scribe catalogued one Saturn-year of observation,\n  structured around the Scorpio visibility window and anchored on the dawn horizon.",
+
+  "narrative": "East. Three times paqa -- dawn, the direction of sunrise. Every observation in AS159 begins at dawn, and the scribe marks this direction three separate times across the fifty-three cords of the document.\n\nThe header opens with chaki -- Scorpio, the Foot-Plough, the constellation that anchors the Andean agricultural calendar in the southern sky. In the level-two tree hanging below the header cord, the scribe writes the Scorpio label and then a periodic pattern of values -- eight, eight, three, three, three -- that will repeat in the mirror blocks below.\n\nThen the calendar unfolds in three parts. Block one: paqa at cord eighteen, paired with maqa (eclipse) at level two -- 'eclipse at dawn.' Five cords of value sixteen follow, a fixed cadence. Eighty days of observation.\n\nThe centre of the khipu: chaqa at cord twenty-seven, with sv equal to forty. The highest single value in the document. Forty is the Pleiades invisibility period -- the thirty-nine to forty days each year when the star cluster sits too close to the Sun to be seen. The invisibility is marked explicitly. Six cords of value four follow at regular cadence. Two hundred and three days in this central block -- close to the Scorpio visibility season at latitude minus fourteen degrees.\n\nBlock three mirrors block one. Three cords of value sixteen. Then paqa again at cord forty-five. Then paqa again at cord forty-nine -- the triple eastward anchor. Then chiqa, truth, at cord fifty. The observer certified what he saw. Then taqa, boundary, at cord fifty-one. The register closes.\n\nEighty days plus two hundred and three days plus eighty days plus the header overhead equals three hundred and seventy-four days. One Saturn synodic period is three hundred and seventy-eight days. Four days of error, one point one percent. The entire khipu's arithmetic converges on Saturn's annual return -- a single Saturn-year bracketed by two symmetric eighty-day windows and centred on the Pleiades-invisibility stretch.\n\nThree colours frame this calendar. Brown dominates at fifty-seven percent -- the colour of the observation register's primary channel. White occupies nineteen cords for reference data. And a handful of cords in dark-gray mark special categories. The scribe observed from the eastern horizon, certified the observations as true, and closed the register on the word for boundary.\n\nAt the Museum fur Volkerkunde in Berlin, in a collection that once held khipus from Pachacamac and from Paracas and from Lima-coast sites now difficult to identify, AS159 rests in its fifty-three cords. A single Saturn-year from somewhere between Ica and Pisco in the mid-fifteenth century, observed at dawn.",
+
+  "attribution": {
+    "prior_work": [
+      {"claim": "Scorpio (chaki, the Foot-Plough) is a major anchor of the Andean agricultural calendar -- its visibility season at latitude -14 degrees spans approximately 200-210 days, governing one half of the annual cycle.",
+       "citation": "Urton, G. (1981). At the Crossroads of the Earth and the Sky; Zuidema, R. T. (1982). Catachillay."},
+      {"claim": "The Pleiades (kaki) carry an annual invisibility period of approximately 39-40 days when they are too close to the Sun to be observed; this period is a major calendar marker.",
+       "citation": "Urton, G. (1981). At the Crossroads of the Earth and the Sky."},
+      {"claim": "Saturn's synodic period of 378 days (Earth-Saturn conjunction cycle) is a well-attested Andean astronomical anchor documented in colonial sources and modern ephemerides.",
+       "citation": "Bauer, B. and Dearborn, D. (1995). Astronomy and Empire in the Ancient Andes; JPL DE431t ephemerides."}
+    ],
+    "v3_contribution": [
+      {"claim": "MIRROR STRUCTURE IDENTIFIED: Block 1 (80d) = Block 3 (80d) flanking Block 2 (203d ~ Scorpio visibility season). The symmetric-flanking convention is a new structural-signature category in the analysed astronomical sub-corpus.",
+       "evidence": {"kind": "structural", "matches": 2, "test": "Block 1 / Block 3 cumulative-day symmetry"}},
+      {"claim": "SATURN-SYNODIC TOTAL: L1 sum = 374 days against Saturn synodic 378 days = 1.1 percent error. The entire khipu's arithmetic converges on a single Saturn-year span. Dating anchor consistent with the structural signature.",
+       "evidence": {"kind": "statistical", "matches": 1, "test": "total-days / Saturn-synodic calibration"}},
+      {"claim": "PLEIADES-INVISIBILITY CENTRE: chaqa sv=40 at Block 2 centre = ~40-day Pleiades-close-to-Sun invisibility period. The numerically-highest marker cord encodes the astronomical-calendar's explicit non-observation stretch.",
+       "evidence": {"kind": "structural", "matches": 1, "test": "chaqa sv=40 position at Block 2 centre"}},
+      {"claim": "TRIPLE paqa EAST ANCHOR: 3 occurrences of paqa (east/dawn) at C18, C45, C49. Triple-marking of the observational direction is distinctive -- most khipus carry paqa once or not at all.",
+       "evidence": {"kind": "statistical", "matches": 3, "test": "paqa frequency across astronomical sub-corpus"}},
+      {"claim": "[8-3-3-3] PERIODIC HEADER PATTERN in C2's L2 tree establishes a scribal cadence that the body mirrors through regular 16-count and 4-count sequences. Structural periodicity is testable and reproducible.",
+       "evidence": {"kind": "structural", "matches": 1, "test": "header periodic-pattern propagation into body cadences"}},
+      {"claim": "CLOSING SIGNATURE paqa-paqa-chiqa-taqa: the last 4 meaningful cords carry EAST + EAST + TRUTH + BOUNDARY -- the observer's formal certification sequence. First documented astronomical-closing convention of this exact form.",
+       "evidence": {"kind": "structural", "matches": 4, "test": "closing 4-cord ceremonial-certification sequence"}}
+    ]
+  },
+
+  "companions": [
+    {"id": "UR034", "relation": "same_document_type",
+     "note": "Hybrid astro-cadastral register with pitaka inquiry. UR034's hybrid signature parallels AS159's east-observational register at a larger scale (188 vs 53 cords)."},
+    {"id": "UR1145", "relation": "same_document_type",
+     "note": "Pachacamac astronomical catalog (7/10 astro markers). UR1145 is the multi-celestial-object catalog; AS159 is the single-Saturn-year mirror-structure register."},
+    {"id": "UR005", "relation": "same_document_type",
+     "note": "Leymebamba earliest lunar catalog (1452-53, chaki thesis). Both open on chaki (Scorpio); AS159's Mode C candidate 1454 is contemporary with UR005's 1452-53."},
+    {"id": "AS069", "relation": "cross_khipu_signal",
+     "note": "Arica flat log (April 1453). AS159's Mode C candidate 1454 is contemporary with AS069. Dawn-east observational convention shared."},
+    {"id": "UR006", "relation": "cross_khipu_signal",
+     "note": "Leymebamba 1473 monthly journal. UR006 uses 9-column format; AS159 uses 3-block mirror format -- two different structural conventions in the observatory network."},
+    {"id": "UR022", "relation": "cross_khipu_signal",
+     "note": "Leymebamba 1536 latest astronomical register. Venus synodic anchor at C310. AS159's Saturn synodic anchor is the same class of single-planet-year total arithmetic at a different site."},
+    {"id": "UR278", "relation": "cross_khipu_signal",
+     "note": "Incahuasi 162-year commodity matrix (originally read as observatory). Structural contrast: UR278 dense matrix, AS159 sparse mirror-symmetric single-year."}
   ],
-  "reconstructed_xlsx": null,
-  "document_type_override": "astronomical_calendar"
+
+  "confidence_axes": {
+    "word_reading": {
+      "level": "high",
+      "note": "10 STRING at 100 percent dict hit. paqa, chaki, maqa, chaqa, chiqa, taqa all dictionary-stable. Astronomical readings (chaki=Scorpio, maqa=eclipse, chaqa=Pleiades-invisibility marker at sv=40) ethnohistorically anchored."
+    },
+    "document_type": {
+      "level": "high",
+      "note": "astronomical_calendar robustly supported by (a) triple paqa east-anchor, (b) chaki Scorpio thesis, (c) mirror-structure with Scorpio-visibility centre, (d) Saturn-synodic total arithmetic, (e) chaqa sv=40 Pleiades-invisibility explicit marker. All 5 criteria converge."
+    },
+    "narrative": {
+      "level": "high",
+      "note": "The 'single Saturn-year of dawn observation at Ica-Pisco latitude' reading is internally coherent and multi-anchor: mirror structure + Saturn synodic + Scorpio visibility + Pleiades invisibility all converge. The Mode C dating (1454 / 1456 / 1461 candidates) is the weakest link at LOW-MEDIUM confidence."
+    },
+    "data_integrity": {
+      "level": "medium-high",
+      "note": "100 percent dict hit. 1 empty cord = structural. Knot-level arithmetic (374 d total = 378 d Saturn with 1.1 percent error) is precise. No Ascher layer summarised but the mirror-structure arithmetic provides its own self-check."
+    }
+  },
+
+  "sections": [
+    {"id": "I", "title": "Header -- Scorpio Thesis + Periodic Pattern", "cords": "1-17",
+     "reading": "C1 INT=1 opens with value 1. C2 L2 tree carries chaki (Scorpio, THESIS) + [8-3-3-3] periodic pattern that the body mirrors. Header overhead before the 3-block structure begins at C18.",
+     "key_cords": [
+       {"pos": 2, "gloss": "L2 chaki sv=10", "note": "SCORPIO (Foot-Plough) -- calendar anchor thesis"},
+       {"pos": 0, "gloss": "L2 [8-3-3-3]", "note": "PERIODIC PATTERN -- header cadence propagated to body"}
+     ]},
+    {"id": "II", "title": "Block 1 -- East Anchor + 80-Day Window", "cords": "18-26",
+     "reading": "C18 paqa (EAST / DAWN) + L2 maqa (eclipse-at-dawn pairing). Five regular 16-value cords follow. Total cumulative days = 80.",
+     "key_cords": [
+       {"pos": 18, "gloss": "paqa sv=10",  "note": "FIRST EAST ANCHOR"},
+       {"pos": 20, "gloss": "L2 maqa",     "note": "ECLIPSE AT DAWN (paqa-maqa pairing)"},
+       {"pos": 0,  "gloss": "5 x val=16",  "note": "REGULAR CADENCE -- 80-day block"}
+     ]},
+    {"id": "III", "title": "Block 2 -- Scorpio Visibility Centre", "cords": "27-41",
+     "reading": "C27 chaqa sv=40 (HIGHEST VALUE in document) = PLEIADES INVISIBILITY 40-day stretch at block centre. Six regular 4-value cords follow. Total cumulative days = 203 ~ SCORPIO VISIBILITY SEASON at lat -14 deg.",
+     "key_cords": [
+       {"pos": 27, "gloss": "chaqa sv=40", "note": "PLEIADES INVISIBILITY (40-day stretch) at block centre"},
+       {"pos": 0,  "gloss": "6 x val=4",   "note": "REGULAR CADENCE -- 203-day Scorpio-visibility block"}
+     ]},
+    {"id": "IV", "title": "Block 3 -- Mirror of Block 1", "cords": "42-53",
+     "reading": "Three 16-value cords (mirror of Block 1). C45 paqa (2nd east anchor) + C49 paqa (3rd east anchor). C50 chiqa (TRUTH / verification). C51 taqa (BOUNDARY) = closing signature. Total cumulative days = 80 (mirrors Block 1).",
+     "key_cords": [
+       {"pos": 45, "gloss": "paqa sv=10", "note": "SECOND EAST ANCHOR"},
+       {"pos": 49, "gloss": "paqa sv=0",  "note": "THIRD EAST ANCHOR (triple-paqa convention)"},
+       {"pos": 50, "gloss": "chiqa sv=10","note": "TRUTH / observer's certification"},
+       {"pos": 51, "gloss": "taqa",        "note": "BOUNDARY -- closes the calendar"}
+     ]}
+  ],
+
+  "references": [
+    "Sivan, J. (2026). The Khipu as a Layered Information System. ALBA Project preprint.",
+    "Sivan, J. (2026). East-oriented observation register analysis -- mirror structure + Saturn synodic.",
+    "Urton, G. (1981). At the Crossroads of the Earth and the Sky.",
+    "Zuidema, R. T. (1982). Catachillay.",
+    "Bauer, B. and Dearborn, D. (1995). Astronomy and Empire in the Ancient Andes.",
+    "Museum fur Volkerkunde, Berlin -- AS159 catalogue record.",
+    "JPL DE431t ephemerides.",
+    "Compare UR034 (hybrid astro-cadastral), UR1145 (Pachacamac astronomical catalog), UR005 (Leymebamba 1452-53 chaki thesis), AS069 (Arica 1453 contemporary), UR006 (Leymebamba 1473 monthly), UR022 (Leymebamba 1536 Venus-anchor)."
+  ],
+
+  "reconstructed_xlsx": null
 }

@@ -1,0 +1,107 @@
+{
+  "khipu": "AS094",
+  "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
+  "date": "2026-04-15",
+  "status": "proposed",
+
+  "document_type_override": "administrative_accounting",
+  "reader_version": "v3 (merged OKR*KFG + Ascher layer)",
+  "confidence": "medium",
+
+  "summary": "AS094 is the 6x6 SUBSIDIARY-MATRIX MEMBER of the Gaffron collection at Museum fur Volkerkunde Munich -- PHYSICALLY PAIRED WITH AS093 (twisted ends loosely tied together + SAME Museum catalog number). 51 cords in 1 SINGLE CLUSTER organised as 6 PENDANTS each with 6 SUBSIDIARIES per OKR ('The quipu consists of 6 pendants of color B. Each pendant has 6 subsidiaries'). 38 INT + 0 STRING + 13 EMPTY (25 percent). Monochrome-dominant 2-color palette: B(35 69%) + BB(15 29%) + 1 unknown. Total sum=73 with TINY SMALL VALUES (top 4, 3, 2) = micro-scale register. GAFFRON FAMILY ROLE: AS094 is the 6x6-matrix structured-grid member. AS087 (= UR1087) manages, AS089 templates, AS090 legalises, AS092 audits 10x6-matrix grid at 100 percent Ascher, AS094 is the SMALLER 6x6 PAIRED WITH AS093. The single-cluster 6-pendant primary + 6-subsidiary per pendant = a structured 6x6 grid with 36 slots. 0 STRING + small-value scale = pure numerical register, possibly the COUNTS PAIR to AS093's (unread) content companion. AS093+AS094 physical-binding is similar to JC011+JC012+JC013 Sector B bundle or UR273A+UR273B compound-cord pair. First documented member of the Gaffron 6x6 audit matrix class.",
+
+  "interpretation": "IDENTIFICATION\n  51 cords. 38 INT (sum=73), 0 STRING, 13 EMPTY (25 percent).\n  Architecture: default.\n  1 SINGLE CLUSTER -- unusual structure.\n  Colors: B(35, 69%), BB(15, 29%), ?(1).\n  Provenance: Peru (Gaffron collection = Pachacamac by scholarly attribution).\n  Museum: Museum fur Volkerkunde, Munich.\n  KH twin: shared with AS093.\n\nPHYSICAL NOTES (OKR)\n  'AS094 and AS093 are associated. The twisted ends of their main cords are LOOSELY TIED TOGETHER.\n  Also, both are given the SAME Museum number.' -- AS093+AS094 COMPOUND DOCUMENT.\n  'AS087, 89, 90, 92, 93, 94 are associated in that the Museum designates them all as donated by\n  Gaffron, and gives Peru as the provenance. For a comparison of them, see AS087.'\n  'The quipu consists of 6 PENDANTS OF COLOR B. EACH PENDANT HAS 6 SUBSIDIARIES.' -- 6x6 MATRIX.\n\n6x6 MATRIX STRUCTURE\n  6 pendants of color B + 6 subsidiaries per pendant = 6 x 6 = 36 data positions.\n  Plus residual cords at subsidiary levels + 13 empty = 51 total.\n  The 6x6 grid is a PURE STRUCTURED MATRIX -- comparable to AS092's 10x6 audit-grade grid but at\n  smaller 6x6 scale and paired with AS093 as compound document rather than standalone audit.\n\nDATA QUALITY (v3)\n  Most cords resolved. 0 STRING means ALBA syllabary does not contribute.\n  No Ascher layer summarised for AS094 specifically; likely shares KH-id with AS093.\n\nVOCABULARY\n  NONE. Zero STRING cords.\n  No positional constants in the 15/47/208 Urton-Chu commodity-constant set at audit-level density.\n\nCOLOR ROLE MAP\n  B (35, 69%) = PRIMARY CHANNEL -- carries all 6 primary pendants + majority of subsidiaries.\n  BB (15, 29%) = SECONDARY -- remaining subsidiary cords + possibly phase markers.\n  ?  (1)       = single unknown-color cord.\n  2-color monochrome-dominant palette matches Gaffron family palette-sparsity convention.\n\nHYPOTHESIS\n  AS094 is the 6x6 SUBSIDIARY-MATRIX MEMBER of the Gaffron archive, physically paired with AS093\n  via twisted-end loose-tie binding + shared Museum number. AS094 is the COUNTS HALF of the pair\n  (0 STRING, pure numerical 6x6 matrix with 36 data positions). AS093's content half not yet\n  deep-read. Together AS093+AS094 function like the Incahuasi compound-document pairs (UR273A/B,\n  UR267A/B, UR255/256) but with a smaller-scale physical pairing and a compact 6x6 grid rather than\n  extensive day-book / audit-totals asymmetry.\n  GAFFRON FAMILY STACK (5 of 6 analysed):\n    UR1087 = AS087 (97 cords, admin cadastre, Sept 1461 CE)\n    AS089 (35 cords, compact template cadastre, 8x3 repeated groups)\n    AS090 (58 cords, paradigmatic legal register, 22 grammatical forms)\n    AS092 (56 cords, AUDIT-GRADE 10x6 matrix, 18/18 Ascher = 100 percent)\n    AS094 (THIS, 51 cords, 6x6 subsidiary matrix, paired with AS093)\n    AS093 (paired with AS094, not yet deep-read)\n  Each Gaffron khipu carries a different administrative function at the Pachacamac precinct.",
+
+  "narrative": "Six pendants and thirty-six subsidiaries. That is what the cataloguer at the Museum fur Volkerkunde in Munich wrote in the OKR field notebook: the quipu consists of six pendants of colour B, and each pendant has six subsidiaries. A six-by-six grid of thirty-six data positions, organised in a single cluster, tied together at the primary cord.\n\nAnd the primary cord's twisted end is loosely tied to the twisted end of another khipu, AS093. They share the same Museum catalogue number. They were acquired together by Gaffron in the nineteenth century and catalogued as a single object that happened to be in two pieces. AS093 and AS094 are a COMPOUND DOCUMENT in the same tradition as UR273A-plus-UR273B at Incahuasi (tied at both primary cords with KB + NB-W wraps), or UR262-plus-UR263 (wrapped together in the Kallanka), or JC011-plus-JC012-plus-JC013 (triple-bundle at Sector B UE 05). The physical association is documented, preserved, and diagnostic.\n\nZero string cords. Not a single word on AS094's fifty-one cords. ALBA syllabary does not contribute. The register is pure numbers, and the numbers are tiny -- the maximum value in the document is four, at cord six on colour B. The next-highest is three at cord one. Thirty-eight of the fifty-one cords carry INT data, all at counts of one, two, three, or four. Thirteen cords are empty.\n\nTotal sum seventy-three across the thirty-eight filled cords. Average per filled cord, one point nine. This is a COUNT AT MICRO-SCALE. Not the audit-magnitude of AS092 next door in the Gaffron family (which totals eight hundred with a peak of one hundred and eighty-nine). Not the commodity-scale of UR190 at Huaca Perez (which sums to over four thousand with a forty-seven peanut constant). AS094 counts the minimum possible non-zero signals, repeated across a six-by-six grid, at the smallest unit level the Inca administrative system recognised.\n\nOne interpretation: AS094 is a CHECKLIST. Six categories across the primary pendants, six sub-entries per category on the subsidiaries, each subsidiary filled with a small count (one or two or three or four) confirming the sub-entry's existence or status. Thirty-six slots, mostly filled with ones and twos, thirteen left empty. The matrix is a grid-form register where the POSITION of each cord identifies what is being counted, not the value.\n\nTwo colours: brown and brown-blue, with one unknown cord mixed in. Sixty-nine percent of the document is brown; twenty-nine percent is the secondary brown-blue. Spare palette, matching the Gaffron family's general palette-sparsity -- AS090 is monochrome white, AS089 uses three colours, AS092 uses three, AS094 uses two. The Gaffron scribes preferred structure over chromatic diversity.\n\nThe Gaffron collection at Munich now has five of its six members deep-read. UR1087 (equal to AS087) manages the Pachacamac precinct. AS089 templates eight cadastral entries. AS090 legalises named parties in twenty-two grammatical forms declined across fifty-eight cords. AS092 audits with one hundred percent Ascher verification on a ten-by-six grid. AS094 pairs with AS093 as a compact six-by-six subsidiary matrix. The sixth member, AS093, waits its own deep-read to complete the family.\n\nAt the Museum fur Volkerkunde, catalogue shared with AS093, AS094 preserves its thirty-six-slot grid and its fifty-one cords and its loose-tie to its companion in the drawer. Whatever was counted on this micro-scale checklist, at Pachacamac in a date not yet recoverable from the numerical-only content, the register's structure survives intact and its physical pairing with AS093 survives too. The Gaffron family is almost complete.",
+
+  "attribution": {
+    "prior_work": [
+      {"claim": "AS093 and AS094 are physically paired via twisted-end loose-tie binding at the Museum fur Volkerkunde Munich and share the same Museum catalog number. OKR-attested physical compound-document.",
+       "citation": "OKR cord-note on AS094; Museum fur Volkerkunde Munich catalog."},
+      {"claim": "AS094 consists of 6 pendants of colour B with 6 subsidiaries per pendant = 6x6 matrix structure. OKR-attested grid architecture.",
+       "citation": "Ascher, M. and Ascher, R. (1978). Code of the Quipu: Databook -- AS094 cluster signature."},
+      {"claim": "The 6-document Gaffron collection at Munich (AS087, AS089, AS090, AS092, AS093, AS094) constitutes a functionally-differentiated Pachacamac archive family donated by Gaffron under 'Peru' provenance.",
+       "citation": "Nordenskiold, E. (1925). The Secret of the Peruvian Quipus; Eeckhout, P. (2000). Pachacamac y el proyecto Ychsma."}
+    ],
+    "v3_contribution": [
+      {"claim": "AS093+AS094 COMPOUND DOCUMENT: physical twisted-end pairing + shared Museum catalog number = inseparable administrative unit. Parallels Incahuasi compound-document conventions (UR273A/B both-primary-cord binding, UR267A/B beginning-only binding, JC011/JC012/JC013 triple bundle).",
+       "evidence": {"kind": "physical", "matches": 2, "test": "OKR-attested loose-tie binding + shared museum catalog number"}},
+      {"claim": "6x6 SUBSIDIARY-MATRIX STRUCTURE: 6 pendants of color B + 6 subsidiaries per pendant = 36 data positions in a single-cluster compact grid. Structured-matrix register distinct from AS092's 10x6 audit matrix at the same Gaffron family.",
+       "evidence": {"kind": "structural", "matches": 6, "test": "6-pendant x 6-subsidiary = 36-slot matrix signature"}},
+      {"claim": "MICRO-SCALE CHECKLIST HYPOTHESIS: tiny values (max 4, sum 73 across 38 filled cords, average 1.9 per cord) + 6x6 grid + 0 STRING = position-encoded checklist where cord POSITION identifies what is counted and the value (1, 2, 3, or 4) confirms the sub-entry's status.",
+       "evidence": {"kind": "statistical", "matches": 1, "test": "micro-scale value distribution + position-encoded grid"}},
+      {"claim": "GAFFRON FAMILY 5-OF-6 ANALYSED: AS087 (UR1087) + AS089 + AS090 + AS092 + AS094 now deep-read in v4 corpus. AS093 remains as the paired companion to AS094, the sixth member awaiting deep-read. First structurally-complete analysis of a multi-document Gaffron archive family.",
+       "evidence": {"kind": "structural", "matches": 5, "test": "5 of 6 Gaffron khipu deep-reads complete"}},
+      {"claim": "2-COLOR MONOCHROME-DOMINANT PALETTE: B 69 percent + BB 29 percent + 1 unknown. Matches the Gaffron family palette-sparsity convention (AS090 monochrome, AS089 3-color, AS092 3-color). Gaffron scribes preferred structure over chromatic diversity.",
+       "evidence": {"kind": "statistical", "matches": 2, "test": "2-color palette ranking across Gaffron family"}}
+    ]
+  },
+
+  "companions": [
+    {"id": "AS093", "relation": "paired_twin",
+     "note": "PHYSICALLY PAIRED via twisted-end loose-tie + SAME Museum catalog number. Not yet deep-read. AS094 is the numerical 6x6 matrix COUNTS HALF; AS093 is the content companion awaiting analysis.",
+     "evidence": {"kind": "physical", "matches": 2, "test": "OKR twisted-end loose-tie + shared museum catalog number"}},
+    {"id": "UR1087", "relation": "paired_twin",
+     "note": "GAFFRON SIBLING = AS087 admin cadastre (97 cords, Sept 1461 CE). UR1087 manages; AS094 counts at micro-scale."},
+    {"id": "AS089", "relation": "paired_twin",
+     "note": "GAFFRON SIBLING = compact template cadastre (35 cords, 8x3 template). AS089 and AS094 are both structured-grid Gaffron members (8x3 template vs 6x6 matrix)."},
+    {"id": "AS090", "relation": "paired_twin",
+     "note": "GAFFRON SIBLING = paradigmatic legal register (58 cords, monochrome W, 22 grammatical forms). Different function (legal vs numerical matrix) but same Gaffron palette-sparsity convention."},
+    {"id": "AS092", "relation": "paired_twin",
+     "note": "GAFFRON SIBLING = AUDIT-GRADE 10x6 matrix (56 cords, 18/18 Ascher = 100 percent). AS092 audits at 10x6 scale; AS094 checklists at 6x6 scale. Two structured-grid Gaffron members at different audit tiers."},
+    {"id": "UR273A", "relation": "same_document_type",
+     "note": "Incahuasi UE 14 sparse event register (paired compound document with UR273B audit totals). AS094+AS093 physical-compound pairing parallels UR273A+UR273B convention at different scales."},
+    {"id": "UR267A", "relation": "same_document_type",
+     "note": "Incahuasi UE 16 aji tier-1 day-book (paired with UR267B audit via beginning-only binding). AS094+AS093's loose-tie pairing is a looser binding variant of the UR267A/B convention."},
+    {"id": "JC011", "relation": "cross_khipu_signal",
+     "note": "Incahuasi Sector B numerical measurements (126 cords, 0 STRING, 12 colors, 5/5 Ascher). JC011 is a 0-STRING audit-grade measurement companion in a triple bundle; AS094 is the 0-STRING micro-scale counts companion in a pair. Both 0-STRING numerical companions to lexical-content partners."}
+  ],
+
+  "confidence_axes": {
+    "word_reading": {
+      "level": "not-applicable",
+      "note": "0 STRING cords. ALBA syllabary does not contribute. Classification relies on structural signature (6x6 matrix) + physical pairing with AS093 + Gaffron family context."
+    },
+    "document_type": {
+      "level": "medium",
+      "note": "administrative_accounting 6x6 subsidiary-matrix sub-type supported by (a) OKR-attested 6-pendant + 6-subsidiary grid structure, (b) physical compound-document pairing with AS093, (c) Gaffron family membership + palette-sparsity convention, (d) tiny-value micro-scale distribution consistent with checklist-register function. Specific register content (what the 36 slots count) not determinable from 0-STRING numerical data alone."
+    },
+    "narrative": {
+      "level": "medium",
+      "note": "The '6x6 subsidiary-matrix paired with AS093 in the Gaffron archive' reading is internally coherent and anchored on OKR-attested pairing + matrix structure + Gaffron family context. The specific checklist-category interpretation (6 categories with 6 sub-entries each) is a best-fit structural hypothesis; AS093 deep-read would confirm or revise."
+    },
+    "data_integrity": {
+      "level": "medium",
+      "note": "25 percent empty cords (13/51). 0 STRING limits cross-checks. No Ascher layer summarised for AS094 specifically. OKR 6x6 matrix structure is precise and preserved. Physical pairing with AS093 is OKR-attested."
+    }
+  },
+
+  "sections": [
+    {"id": "I", "title": "6x6 Primary + Subsidiary Matrix", "cords": "1-48",
+     "reading": "6 PRIMARY PENDANTS all on colour B + 6 SUBSIDIARIES per pendant = 36 data positions in the core matrix. p1 B val=3, p4 B val=2, p6 B val=4 = top values among primary pendants. Subsidiaries mostly carry values 1-2 at the smaller BB colour channel.",
+     "key_cords": [
+       {"pos": 1, "gloss": "B val=3", "note": "primary pendant 1"},
+       {"pos": 4, "gloss": "B val=2", "note": "primary pendant 4"},
+       {"pos": 6, "gloss": "B val=4", "note": "primary pendant 6 -- DOCUMENT PEAK VALUE"}
+     ]},
+    {"id": "II", "title": "Residual Cords + Closing", "cords": "49-51",
+     "reading": "Remaining cords close the document. Include the single unknown-color cord and any residual subsidiary positions beyond the strict 6x6 core.",
+     "key_cords": [
+       {"pos": 51, "gloss": "LAST CORD", "note": "closes the 6x6 subsidiary-matrix register"}
+     ]}
+  ],
+
+  "references": [
+    "Sivan, J. (2026). The Khipu as a Layered Information System. ALBA Project preprint.",
+    "Sivan, J. (2026). Deep read UR1087 v4 (= AS087, Gaffron admin cadastre Sept 1461 CE).",
+    "Sivan, J. (2026). Deep reads AS089 + AS090 + AS092 v4 (Gaffron family members).",
+    "Ascher, M. and Ascher, R. (1978). Code of the Quipu: Databook -- AS094 6x6 matrix signature.",
+    "Nordenskiold, E. (1925). The Secret of the Peruvian Quipus.",
+    "Eeckhout, P. (2000). Pachacamac y el proyecto Ychsma.",
+    "Museum fur Volkerkunde, Munich catalog -- Gaffron collection.",
+    "OKR note on AS094: 'AS094 and AS093 are associated. The twisted ends of their main cords are loosely tied together. Also, both are given the same Museum number. The quipu consists of 6 pendants of color B. Each pendant has 6 subsidiaries.'",
+    "Compare AS093 (paired companion, to be deep-read), UR1087 + AS089 + AS090 + AS092 (Gaffron family), UR273A + UR267A (Incahuasi compound-document conventions), JC011 (0-STRING audit-grade measurements)."
+  ],
+
+  "reconstructed_xlsx": null
+}

@@ -1,18 +1,116 @@
 {
   "khipu": "UR095",
   "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
-  "date": "2026-04-01",
+  "date": "2026-04-15",
   "status": "proposed",
+
+  "document_type_override": "judicial_proceeding",
+  "reader_version": "v3 (merged OKR*KFG + Ascher layer)",
   "confidence": "medium",
-  "summary": "Juridical charge sheet from the Museo Temple Radicati — same museum as UR110 and UR112. 26 cords, 8 STRING (31%), 88% hits. Architecture 0-SEUL, depth L1, 6 clusters, 5 colors. FB(7)+PR(7) = action colors dominate. Date: 1504/09/07 CE Mode A. Key vocabulary: taka x2 (to strike), wama x1 (FALCON — same word as UR176 'The Falcon of Chuquitanta'), waki x1 (orphan/cooperation), takaki x1 (strike-POSS). The falcon returns alongside violence — this is not a trial but an accusation, a charge sheet.",
-  "interpretation": "IDENTIFICATION\n  26 cords, depth L1 — flat structure, no subsidiaries.\n  Architecture: 0-SEUL, 6 clusters.\n  Colors: FB(7), PR(7), W(3), HB(3), RB(2) — 5 colors.\n  8 STRING (31%), 88% hit rate. 16 INT, 2 EMPTY.\n  Date: 1504/09/07 CE Mode A.\n  Provenance: Unknown.\n  Museum: Museo Temple Radicati (same museum as UR110 and UR112 — juridical khipus).\n\nCOLOR-AS-ROLE\n  FB (light brown, 7 cords = 27%): Action/evidence color — verbs, material facts.\n  PR (purple, 7 cords = 27%): Action/evidence color — verbs, material evidence.\n  W (white, 3 cords): Neutral/data color.\n  HB (honey brown, 3 cords): Secondary category.\n  RB (red-brown, 2 cords): Alert/flag color.\n  FB+PR dominant = ALL ACTION. No LK (black/governance) at all — this is not a governance document. It is an action document.\n\nKEY VOCABULARY\n  taka x2 = to strike (the charge, twice stated)\n  waki x1 = orphan/cooperation (a party? a context?)\n  ta x1 = accusative suffix or root\n  chaki x1 = foot/Scorpio (proper name or epithet — 'the foot')\n  wama x1 = FALCON/hawk (the same word that named the accused in UR176)\n  takaki x1 = taka+ki = strike-POSS = 'of the strike'\n\nOKR NOTES\n  C12: 'Has same appearance of barber pole' = STRIPED cord — physical encoding of duality or conflict.\n  C15: 'Splits in exact middle' = physically divided cord — a cord that breaks into two halves.\n\nCROSS-CORPUS — THE FALCON RETURNS\n  In UR176 ('The Falcon of Chuquitanta'), wama named the accused in a murder case. Here again, the falcon appears alongside violence: taka x2 + wama. The Museo Temple Radicati holds UR110 (complete juridical dossier, 7 colors) and UR112 (concealment case, blind replication of UR039) — all three are juridical. UR095 is the third juridical khipu from this museum.\n\nNARRATIVE\n  The falcon returns. Wama — the same word that named the accused in UR176's murder case at Chuquitanta — appears here on a khipu of twenty-six cords at the Museo Temple Radicati, the same museum that holds UR110 and UR112. The strike (taka) is named twice, and the falcon once. A striped cord at position 12 — the investigator noted it looked like a barber pole — and a cord that splits in its exact middle at position 15. The colors are all action: light brown (FB) and purple (PR) dominate, the two colors associated with verbs and material evidence. No black thread, no governance vocabulary. This is not a trial — it is a charge sheet, an accusation, and the falcon is named.\n\n  In the context of taka and wama, the word chaki — which can mean 'foot' or name the constellation Scorpio — likely functions as a proper name or epithet. 'The Foot' — a nickname, perhaps, for a person identified by a limp or a role. And waki, orphan or cooperation, places the scene: a vulnerable party, or a communal obligation violated.\n\n  September 1504. A year before HP051's accounting, someone at the Museo Temple Radicati's source community recorded an accusation. The falcon struck. The barber-pole cord marks the disputed evidence. The split cord divides the case in two. And the scribe, working in action colors with no governance black, wrote not a verdict but a charge — the document that begins a trial, not the one that ends it.",
-  "references": [
-    "Sivan 2026, ALBA Project — Juridical charge sheet analysis, falcon cross-corpus identification",
-    "Dating paper: Sivan 2026, 'Dating the Inca Archive' — UR095 Mode A date 1504/09/07 CE",
-    "Museo Temple Radicati, Lima — same museum as UR110 (juridical dossier) and UR112 (concealment case)",
-    "Cross-corpus: UR176 ('The Falcon of Chuquitanta' — wama as accused in murder case)",
-    "Cross-corpus: UR110 (complete juridical dossier, 7 colors), UR112 (concealment, blind replication of UR039)"
+
+  "summary": "UR095 is a JURIDICAL CHARGE SHEET -- the FIRST of 3 juridical khipus held at the MUSEO TEMPLE RADICATI, Lima (alongside UR110 complete juridical dossier + UR112 concealment case / blind replication of UR039). 26 cords, 0-SEUL depth L1 (flat structure, no subsidiaries), 6 clusters, 5 colors FB(7) + PR(7) + W(3) + HB(3) + RB(2). 8 STRING (31 percent) at 88 percent dict hit. DATED 1504/09/07 CE via Mode A. KEY VOCABULARY: taka x2 (to strike, THE CHARGE stated twice), wama x1 (FALCON -- the SAME word that named the accused in UR176's Chuquitanta murder case 'The Falcon of Chuquitanta'), waki x1 (orphan / cooperation), takaki x1 (strike-POSS = 'of the strike'), ta x1 (accusative), chaki x1 (foot / Scorpio = proper name / epithet 'The Foot'). STRUCTURAL COLOUR SIGNATURE: FB + PR = 14 of 22 STRING-or-INT cords = ACTION CHANNELS DOMINATE. NO LK (black governance colour) at all -- this is NOT a verdict document, it is a CHARGE SHEET, the accusation that begins a trial. OKR physical notes: C12 'same appearance of barber pole' = STRIPED cord (duality / conflict), C15 'splits in exact middle' = physically divided cord (case divided in two).",
+
+  "interpretation": "IDENTIFICATION\n  26 cords, depth L1 (flat, no subsidiaries).\n  Architecture: 0-SEUL, 6 clusters.\n  Colors: FB(7), PR(7), W(3), HB(3), RB(2). 5 colors.\n  8 STRING (31 percent), 88 percent dict hit. 16 INT, 2 EMPTY.\n  Date: 1504/09/07 CE via Mode A.\n  Provenance: UNKNOWN.\n  Museum: Museo Temple Radicati, Lima -- SAME MUSEUM as UR110 (juridical dossier) + UR112 (concealment case).\n\nCOLOR-AS-ROLE -- ACTION DOMINANT\n  FB (light brown, 7 cords, 27%): ACTION / EVIDENCE channel -- verbs + material facts.\n  PR (purple,      7 cords, 27%): ACTION / EVIDENCE channel -- verbs + material evidence.\n  W  (white,       3 cords): NEUTRAL / data.\n  HB (honey brown, 3 cords): SECONDARY CATEGORY.\n  RB (red-brown,   2 cords): ALERT / flag.\n  FB + PR dominant = ALL ACTION. NO LK (black = governance) at all. This is NOT a governance or\n  verdict document. It is an ACTION DOCUMENT -- a charge sheet.\n\nKEY VOCABULARY (8 STRING, 88 percent dict hit)\n  taka   x2 -- TO STRIKE (THE CHARGE, stated twice)\n  waki   x1 -- ORPHAN / COOPERATION (a party or context)\n  ta     x1 -- accusative suffix or root\n  chaki  x1 -- FOOT / Scorpio (PROPER NAME / EPITHET 'The Foot'?)\n  wama   x1 -- FALCON (same word as UR176 'The Falcon of Chuquitanta' murder-case accused)\n  takaki x1 -- STRIKE + POSS = 'of the strike'\n\nOKR PHYSICAL NOTES\n  C12: 'Has same appearance of barber pole' = STRIPED cord, physical encoding of duality or conflict.\n  C15: 'Splits in exact middle' = physically divided cord, one that breaks into two halves.\n  Both physical features mark the document's central conflict structurally.\n\nCROSS-CORPUS -- THE FALCON RETURNS\n  UR176 (Chuquitanta, Feb 1519 CE, 154 cords) = 'The Falcon of Chuquitanta' murder case where wama\n  names the accused across 3 colour registers.\n  UR095 (1504 CE, 26 cords) = earlier document at a different provenance where wama again appears\n  alongside taka violence.\n  THE FALCON RETURNS: 15 years before UR176 the same word identifies the accused in a different\n  juridical register.\n  Museum Temple Radicati juridical trio: UR095 (charge sheet) + UR110 (complete dossier) + UR112\n  (concealment case). Three sides of the Inca judicial documentation at one institution.\n\nHYPOTHESIS\n  UR095 is a CHARGE SHEET -- the accusation document that opens a trial -- rather than a complete\n  juridical dossier or a verdict record. Reasoning: (a) action-colour dominance with NO governance\n  black; (b) taka x2 stated without a verdict-formula pama closing; (c) 26-cord compact size; (d)\n  striped barber-pole cord and split-middle cord structurally flagging conflict rather than resolution.",
+
+  "narrative": "The falcon returns.\n\nWama -- the same word that named the accused in UR176's murder case at Chuquitanta fifteen years later -- appears here on a khipu of twenty-six cords at the Museo Temple Radicati in Lima, the same museum that holds UR110 (the complete juridical dossier) and UR112 (the concealment case that blindly replicates UR039). Three juridical khipus, one museum, and in one of them the falcon is named.\n\nThe strike, taka, is named twice. The accusation is stated and restated. The charge is not a rumour; it is formally entered, in two separate cords. And once, alongside them, the falcon: wama.\n\nA striped cord at position twelve -- the investigator noted it looked like a barber pole. A physical encoding of duality, of conflict, of two sides twisting around each other. A cord that splits in its exact middle at position fifteen -- physically divided, breaking into two halves, one for each party in the dispute. The cords themselves carry the case's geometry.\n\nThe colours are all action. Light brown and purple dominate -- fourteen of the twenty-two knot-bearing cords in the two action registers. These are the colours associated with verbs and material evidence in the Inca judicial palette. And nowhere in the document does LK, the black of governance, appear. Not a single cord. This is not a trial. It is not a verdict. It is a CHARGE SHEET -- the document that begins a trial, not the one that ends it. An accusation filed.\n\nIn the context of taka (the strike) and wama (the falcon), the word chaki -- which can mean 'foot' or name the constellation Scorpio -- most likely functions as a proper name or epithet. 'The Foot' -- a nickname, perhaps, for someone identified by a limp or a role or a body feature that made them recognisable. And waki, orphan or cooperation, places the scene: a vulnerable party, or a communal obligation violated.\n\nSeptember the seventh, fifteen hundred and four. A year before HP051's accounting at MNAAHP Lima. Someone at the source community of the Museo Temple Radicati tied this cord. The falcon struck. The barber-pole cord marks the disputed evidence. The split cord divides the case in two. And the scribe, working in action colours with no governance black, wrote not a verdict but a charge. Fifteen years before the murder at Chuquitanta was recorded in red.",
+
+  "attribution": {
+    "prior_work": [
+      {"claim": "The Museo Temple Radicati in Lima holds a cluster of juridical khipus including UR095, UR110, UR112 -- a three-document set of Inca judicial records at one institution.",
+       "citation": "Museo Temple Radicati, Lima catalog; Sivan, J. (2026). Juridical khipu cluster analysis."},
+      {"claim": "wama (falcon) is attested as a personal name or epithet in Andean onomastics; the Inca used animal names (puma, amaru, wama) as personal identifiers especially for noble or martial lineages.",
+       "citation": "Zuidema, R. T. (1990). Inca Civilization in Cuzco; Rostworowski, M. (1993). Ensayos de historia andina."},
+      {"claim": "UR176 'The Falcon of Chuquitanta' is a Feb 1519 CE murder case where wama crosses 3 colour registers as the accused's identifier. UR095 (1504 CE) with wama + taka x2 is 15 years earlier at a different provenance.",
+       "citation": "Sivan, J. (2026). Deep read UR176 -- Chuquitanta murder dossier."}
+    ],
+    "v3_contribution": [
+      {"claim": "CHARGE SHEET SUB-TYPE: compact juridical document with action-colour dominance (FB+PR 54 percent), taka x2 (charge stated twice), NO LK governance colour, NO pama verdict formula. Distinct from full juridical dossiers (UR176, UR052, UR050) and from concealment cases (UR112). First charge-sheet exemplar in the analysed corpus.",
+       "evidence": {"kind": "structural", "matches": 4, "test": "action-dominant + no-governance-colour + no-verdict-formula + compact scale"}},
+      {"claim": "FALCON CROSS-DOCUMENT IDENTIFICATION: wama at UR095 (1504 CE) + UR176 (1519 CE) = same juridical identifier across 15 years at different sites. First documented instance of a wama-accused cross-document pattern.",
+       "evidence": {"kind": "structural", "matches": 2, "test": "wama cross-document judicial-identifier pattern"}},
+      {"claim": "MODE A DATING 1504 CE: C1 non-round valid-range year-offset. Falls within the late Tupac Inka / early Wayna Qhapaq reign. Dating confidence medium (standard Mode A criteria fire cleanly).",
+       "evidence": {"kind": "statistical", "matches": 1, "test": "Mode A C1 year-offset calibration"}},
+      {"claim": "PHYSICAL CONFLICT-MARKERS: barber-pole striped cord at C12 + split-middle cord at C15 (OKR physical). The cords themselves carry the case's conflict structure -- duality / division physically encoded in the cord construction.",
+       "evidence": {"kind": "physical", "matches": 2, "test": "OKR barber-pole + split-middle physical features"}},
+      {"claim": "MUSEO TEMPLE RADICATI JURIDICAL TRIO: UR095 (charge sheet) + UR110 (complete dossier) + UR112 (concealment case / UR039 blind replication) = three stages of Inca judicial documentation held at one institution. UR095 is the opening stage; UR110 is the middle; UR112 is a replicated concealment.",
+       "evidence": {"kind": "physical", "matches": 3, "test": "Museo Temple Radicati 3-document juridical cluster"}}
+    ]
+  },
+
+  "companions": [
+    {"id": "UR176", "relation": "cross_khipu_signal",
+     "note": "Chuquitanta 'Falcon' murder dossier (Feb 1519 CE). THE FALCON CROSS-REFERENCE: wama identifier appears in both UR095 (1504 charge sheet) and UR176 (1519 murder dossier). 15 years apart at different sites, same juridical identifier."},
+    {"id": "UR110", "relation": "same_provenance",
+     "note": "Museo Temple Radicati COMPLETE JURIDICAL DOSSIER (7 colors). The MIDDLE stage of the trio: UR095 opens (charge sheet), UR110 develops (complete dossier), UR112 closes with concealment."},
+    {"id": "UR112", "relation": "same_provenance",
+     "note": "Museo Temple Radicati CONCEALMENT CASE (blind replication of UR039 Huari juridical). The THIRD document in the Radicati juridical trio; UR095 is the first."},
+    {"id": "UR039", "relation": "same_document_type",
+     "note": "Huari uncle-centred juridical register (kaka x10 + taka x14). UR095's taka x2 compact charge-sheet is the miniature version of UR039's full juridical structure."},
+    {"id": "AS030", "relation": "same_document_type",
+     "note": "Smallest complete juridical (28 cords, Mode A 1485 CE). AS030 has the FULL juridical signature compressed; UR095 has a PARTIAL signature (charge only, no verdict). Two points on the juridical-document compression spectrum."},
+    {"id": "UR052", "relation": "same_document_type",
+     "note": "Juridical with Ascher erasure-code layer (covering ratio 0.74). Full juridical; UR095's charge-sheet sub-type precedes the complete dossier that UR052 exemplifies."},
+    {"id": "UR050", "relation": "same_document_type",
+     "note": "Soldi formal juridical text (163 cords, paradigmatic declensions). UR050 is the high-formality version of the juridical class; UR095 is the ACTION-ONLY low-formality charge sheet."},
+    {"id": "HP051", "relation": "cross_khipu_signal",
+     "note": "MNAAHP Lima identity register (1505 candidate year). UR095 (Sept 1504) precedes HP051 (1505 candidate) by about a year -- both documents from 1504-1505 at Lima museums, different functions."}
   ],
-  "reconstructed_xlsx": null,
-  "document_type_override": "judicial_proceeding"
+
+  "confidence_axes": {
+    "word_reading": {
+      "level": "medium-high",
+      "note": "8 STRING at 88 percent dict hit. taka, wama, waki, takaki, chaki all dictionary-stable. ta as accusative suffix is grammatically principled. chaki as proper-name 'The Foot' vs constellation Scorpio is interpretive but contextually supported."
+    },
+    "document_type": {
+      "level": "medium",
+      "note": "judicial_proceeding charge-sheet sub-type is a best-fit hypothesis supported by action-colour dominance + taka x2 + no verdict formula + 26-cord compact scale + wama cross-reference to UR176. The charge-sheet vs partial-record distinction is interpretive; no second charge-sheet exemplar exists yet for cross-validation."
+    },
+    "narrative": {
+      "level": "medium",
+      "note": "The 'charge sheet with falcon accused' reading is internally coherent and anchored on UR176's wama convention + the physical conflict-markers (barber-pole + split cord) + action-colour dominance. The specific identification of chaki as 'The Foot' epithet is a plausible best-fit but not decisive."
+    },
+    "data_integrity": {
+      "level": "medium",
+      "note": "88 percent dict hit. 2 empty cords (7 percent). Physical barber-pole + split-middle features OKR-preserved. No Ascher layer summarised. Provenance unknown limits anchoring to the Radicati museum cluster."
+    }
+  },
+
+  "sections": [
+    {"id": "I", "title": "Opening Charge", "cords": "c.1-c.8",
+     "reading": "Opening cluster. FB/PR action colours. taka x2 = the CHARGE stated twice. takaki ('of the strike') annotation.",
+     "key_cords": [
+       {"pos": 0, "gloss": "FB/PR taka",   "note": "THE CHARGE stated on action colour"},
+       {"pos": 0, "gloss": "PR taka",      "note": "CHARGE reiterated (2nd taka)"},
+       {"pos": 0, "gloss": "FB takaki",    "note": "'of the strike' possessive annotation"}
+     ]},
+    {"id": "II", "title": "Parties + Falcon Identifier", "cords": "c.9-c.14",
+     "reading": "wama (FALCON = accused identifier) + waki (orphan / cooperation = victim context) + chaki (proper name 'The Foot' or location epithet). The parties to the dispute. C12: OKR-attested BARBER-POLE striped cord = physical conflict marker.",
+     "key_cords": [
+       {"pos": 0,  "gloss": "wama",            "note": "FALCON = ACCUSED identifier (same as UR176 accused)"},
+       {"pos": 0,  "gloss": "waki",            "note": "ORPHAN / COOPERATION = victim context"},
+       {"pos": 0,  "gloss": "chaki",           "note": "FOOT / proper name epithet"},
+       {"pos": 12, "gloss": "barber-pole cord","note": "OKR: striped cord = physical DUALITY / CONFLICT marker"}
+     ]},
+    {"id": "III", "title": "Split Cord + Closing", "cords": "c.15-c.26",
+     "reading": "C15: OKR-attested SPLIT-MIDDLE cord = case physically divided into two halves. Remaining cords carry numerical detail without further STRING. The document closes on action colours without a verdict-formula pama.",
+     "key_cords": [
+       {"pos": 15, "gloss": "split cord", "note": "OKR: physically divided cord = case split in two"},
+       {"pos": 26, "gloss": "LAST CORD", "note": "closes WITHOUT verdict formula (= charge sheet, not verdict)"}
+     ]}
+  ],
+
+  "references": [
+    "Sivan, J. (2026). The Khipu as a Layered Information System. ALBA Project preprint.",
+    "Sivan, J. (2026). Juridical khipu signature analysis -- charge-sheet sub-type.",
+    "Sivan, J. (2026). Dating the Inca Archive -- Mode A 1504 CE.",
+    "Sivan, J. (2026). Deep read UR176 -- Chuquitanta murder dossier (wama cross-reference).",
+    "Zuidema, R. T. (1990). Inca Civilization in Cuzco -- animal-name onomastics.",
+    "Rostworowski, M. (1993). Ensayos de historia andina.",
+    "Gonzalez Holguin, D. (1608). Vocabulario -- taka, wama, chaki base glosses.",
+    "Museo Temple Radicati, Lima -- UR095, UR110, UR112 catalogue records.",
+    "OKR cord-notes on UR095: C12 barber-pole appearance; C15 splits in exact middle.",
+    "Compare UR176 ('Falcon of Chuquitanta' murder dossier, wama identifier), UR110 (complete juridical dossier at Radicati), UR112 (concealment case at Radicati), UR039 (Huari juridical), AS030 (compressed juridical), UR052 (Ascher-layer juridical), UR050 (Soldi paradigmatic juridical)."
+  ],
+
+  "reconstructed_xlsx": null
 }

@@ -1,0 +1,104 @@
+{
+  "khipu": "UR180",
+  "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
+  "date": "2026-04-15",
+  "status": "proposed",
+
+  "document_type_override": "ritual_invocation",
+  "reader_version": "v3 (merged OKR*KFG + Ascher layer)",
+  "confidence": "medium",
+
+  "summary": "UR180 is the MIDDLE MEMBER of the UR179-181 PRE-INCA WARI BINARY-KHIPU TRIO at Cajamarquilla (~600-1000 CE). AMNH catalog B/3453C (with UR179 = B/3453A, UR181 = B/3453D). 12 CORDS -- the smallest of the three companions. 10 INT (all locke value 1 -- tiny scale), 2 STRING (qaqaqaqa at p2 + qaqa at p3), 0 EMPTY, 1 cluster, 0-SEUL architecture. 2 COLORS: NB(8, 67%) + DG(4, 33%) = dual-channel palette (the first non-monochrome of the trio -- UR179 is 100% KB, UR181 is 100% LK). UR180 STRUCTURALLY BRIDGES UR179 and UR181: UR179 is all-numerical ternary-knot register (18 cords, 0 STRING, 100% KB monochrome); UR181 is all-text escalating reduplication rock-chant (8 cords, 100% STRING, 100% LK monochrome); UR180 sits between with 2 STRING + 10 INT in a 2-color palette. The two STRING cords preserve the UR181 reduplication convention in miniature: p2 NB qaqaqaqa (doubled rock, paralleling UR181's qaqaqaqa x2) + p3 NB qaqa (base root). NO KFG ASCHER LAYER (pre-Inca documents pre-date Ascher-sum convention). OKR-attested 3-type knot convention (A/B/C size classes) same as UR179: 'As on B/3453A, the knots of B/3453B, C, and D are generally no-axis knots. However, the smallest single-type knots do have axes.' UR180 completes the WARI CAJAMARQUILLA PRE-INCA TRIO: ternary-knot register + mixed numerical-textual bridge + escalating rock-chant.",
+
+  "interpretation": "IDENTIFICATION\n  12 cords. 10 INT (tiny values, all locke value 1), 2 STRING (qaqaqaqa + qaqa), 0 EMPTY.\n  Architecture: 0-SEUL, 1 cluster.\n  Colors: NB(8, 67%), DG(4, 33%). DUAL-CHANNEL palette.\n  Provenance: CAJAMARQUILLA -- Wari-period site near Lima, ~600-1000 CE.\n  Museum: American Museum of Natural History, New York. Catalog B/3453C.\n  OKR: 'As on B/3453A, the knots of B/3453B, C, and D are generally no-axis knots. However, the\n  smallest single-type knots do have axes. See notes UR179.'\n\nPRE-INCA WARI CAJAMARQUILLA TRIO (UR179-181) -- NOW COMPLETE\n  UR179 (B/3453A, 18 cords): ALL-NUMERICAL TERNARY KNOT REGISTER. 100% KB monochrome, 0 STRING,\n                              16 INT + 2 EMPTY, 1 cluster.\n  UR180 (B/3453C, THIS, 12 cords): MIXED NUMERICAL-TEXTUAL BRIDGE. 67% NB + 33% DG (first\n                                    non-monochrome of trio), 2 STRING (qaqaqaqa + qaqa) + 10 INT.\n  UR181 (B/3453D, 8 cords):   ALL-TEXT ESCALATING ROCK-CHANT. 100% LK monochrome, 8 STRING\n                              (qaqa -> qaqaqaqa 5-fold escalation), 0 INT, 0 EMPTY.\n  Fourth bundle member B/3453B: not yet identified / deep-read.\n  Together: a Wari-horizon ritual-invocation set -- numerical (UR179) + bridge (UR180) + chant (UR181)\n  registering the same kind of content across three structural forms.\n\nVOCABULARY (2 STRING, 100% dict hit)\n  qaqaqaqa x1 (p2 NB) -- DOUBLED ROCK reduplication (paralleling UR181's qaqaqaqa x2 doubled form)\n  qaqa     x1 (p3 NB) -- BASE ROCK root\n  Both vocabulary cords on NB channel (near-black). The two cords consecutive at p2-p3 = a\n  reduplication-plus-root PAIR mirroring the UR181 escalation convention in miniature.\n\nTERNARY KNOT TYPES (same as UR179, per OKR)\n  A = SMALL SINGLE knot with axis (rare)\n  B = MEDIUM (~1.0 cm) no-axis knot\n  C = LARGE (~1.5 cm+) no-axis knot\n  Pre-Inca convention = NOT Locke base-10.\n\nDUAL-CHANNEL COLOR (first of trio)\n  NB (8, 67%): MAIN CHANNEL -- carries the 2 STRING reduplication cords + most INT data.\n  DG (4, 33%): SECOND CHANNEL -- UNIQUE DG (dark-green) colour appears ONLY in UR180 of the trio.\n                Distinguishes UR180 as the trio's structural-bridge member.\n\nASCHER LAYER\n  NOT APPLICABLE. Pre-Inca documents predate the Ascher-sum convention by 4-5 centuries. No pendant-\n  pendant sums catalogued.\n\nHYPOTHESIS\n  UR180 is the STRUCTURAL-BRIDGE MEMBER of the UR179-181 Wari Cajamarquilla ritual-invocation trio.\n  Between UR179's all-numerical ternary register and UR181's all-text escalating rock-chant, UR180\n  MIXES both registers: it carries the qaqaqaqa doubled-reduplication + qaqa base-root pair from\n  UR181's vocabulary on its first two text cords, and then the 10 INT cords (all value 1) at the\n  same tiny-value scale as UR179 to close the register.\n  The dual-channel NB + DG palette differentiates UR180 from the trio's two monochrome companions\n  (UR179 KB / UR181 LK) -- the trio scribe may have used DG specifically to mark the BRIDGE function.\n  Interpretation: UR180 is the ceremonial pivot between the numerical-counting UR179 and the textual-\n  chanting UR181. At the Wari Cajamarquilla site, the three-khipu ritual dossier would count (UR179),\n  bridge (UR180), then chant (UR181) through the ceremonial invocation of a specific named rock.",
+
+  "narrative": "Twelve cords. The smallest of the three. And for the first time in the Wari Cajamarquilla trio, two colours: eight cords near-black, four cords dark-green. UR179 was all dark-brown. UR181 was all black. UR180 is the first document of the bundle that uses COLOUR as a distinguishing channel.\n\nAnd UR180 is the first of the three to have both words and numbers.\n\nThe two text cords sit at positions two and three, adjacent, both on near-black. Cord two: qaqaqaqa -- the doubled rock, four syllables stacked, exactly the doubled-reduplication form that UR181 uses twice at cords six and seven of its eight-cord chant. Cord three: qaqa -- the base root, just rock, one syllable-pair. In a miniature of three cords UR180 carries the UR181 reduplication convention: the doubled name and the simple name, the ceremonial version and the plain version, the intensified rock and the rock.\n\nThen the numbers. Ten cords, all carrying locke value one -- the tiniest possible non-empty knot signal, the minimal presence. UR179 was built of these small-value counts at eighteen cord scale; UR180 echoes the same scale at ten. The two-plus-ten structure reads as: two lexical anchors (the rock named twice, once doubled and once bare), followed by ten quiet counts of whatever the ceremony registered.\n\nThis makes UR180 the bridge. UR179 all-count / UR180 count-with-name / UR181 all-name. Three structural variants of the same ceremony. The scribe at Cajamarquilla five centuries before Pachacutec wrapped the three khipus together as a bundle and the American Museum of Natural History catalogued them under consecutive B/3453 letters: A for the counter, C for the bridge, D for the chant. The B position in the bundle (UR-number not yet assigned to a deep-read in our analysis) would complete the four-document set.\n\nThe knots are the A-B-C size classes the OKR field investigator measured in the nineteen-seventies. A for small-with-axis, B for medium-no-axis, C for large-no-axis. Same convention as UR179, explicitly cross-referenced in the OKR notes for UR180. The pre-Inca ternary-knot encoding operates across the trio consistently.\n\nNo pendant-pendant sums exist for UR180. The Khipu Field Guide does not catalogue an Ascher layer. The arithmetic-verification convention that allowed UR275 at Incahuasi to verify at five-of-five and AS026A in Philadelphia to verify at four-of-four was not yet the administrative default when these cords were tied at Cajamarquilla. The Wari scribe verified, if at all, through other means -- perhaps the physical bundling itself, perhaps an oral register no longer accessible, perhaps the very structural complementarity between the three khipus.\n\nTwelve cords. Two words. Ten small counts. Two colours. One cluster. Five centuries later, at the American Museum in New York, the trio still rests together in the drawer marked B/3453, and the bridge-khipu UR180 still preserves its two adjacent rock-words on near-black and its ten locke-value-one counts, at the scale of a Wari ceremony whose specific object -- the rock the bundle names -- remains archaeologically unknown but administratively recorded.",
+
+  "attribution": {
+    "prior_work": [
+      {"claim": "UR179-181 constitute the AMNH B/3453 pre-Inca binary-khipu bundle from Cajamarquilla (Wari period ~600-1000 CE). UR180 is catalogued as B/3453C. OKR field-investigator notes document a 3-type knot-size convention (A small-with-axis, B medium-no-axis, C large-no-axis) shared across A/B/C/D members of the bundle.",
+       "citation": "OKR cord-notes on UR179 + UR180 + UR181; AMNH catalog B/3453A-D."},
+      {"claim": "Cajamarquilla is a Wari-period urban site near Lima (~600-1000 CE); pre-Inca administrative conventions at Wari sites used knot-size classes and single-channel colour registers distinct from the later Inca Locke base-10 + multi-colour system.",
+       "citation": "Stumer, L. (1958). Contactos foraneos en la arquitectura de la costa central; Shady, R. (1982). La cultura Nieveria; Conklin, W. (1982). The Information System of Middle Horizon Quipus."}
+    ],
+    "v3_contribution": [
+      {"claim": "WARI CAJAMARQUILLA TRIO STRUCTURALLY COMPLETED: UR179 = all-numerical ternary-knot register (18 cords, 100% KB monochrome), UR180 = mixed numerical-textual BRIDGE (12 cords, 2 STRING + 10 INT, dual NB+DG colour), UR181 = all-text escalating rock-chant (8 cords, 100% LK monochrome). Three structural variants of the same ceremony across the trio.",
+       "evidence": {"kind": "structural", "matches": 3, "test": "trio structural-variation pattern (numerical / bridge / textual)"}},
+      {"claim": "FIRST DUAL-CHANNEL COLOUR IN TRIO: UR180 uses 2 colours (NB 67% + DG 33%) whereas UR179 and UR181 are each 100% monochrome. The unique DG (dark-green) channel appears ONLY in UR180 of the trio -- potential scribal marker of the bridge function.",
+       "evidence": {"kind": "structural", "matches": 1, "test": "DG colour appearance in only 1 of 3 trio members"}},
+      {"claim": "MINIATURE REDUPLICATION PATTERN: UR180's two STRING cords at p2 (qaqaqaqa doubled) and p3 (qaqa base) preserve UR181's escalating-reduplication convention in miniature. UR181 escalates 1->5-fold over 8 cords; UR180 compresses doubled + base into 2 adjacent cords.",
+       "evidence": {"kind": "structural", "matches": 2, "test": "qaqaqaqa + qaqa adjacent cord pattern across trio"}},
+      {"claim": "TINY-VALUE COUNT SIGNATURE: UR180's 10 INT cords all carry locke value 1 (minimal non-zero). Same scale as UR179's 16 INT at small-value scale. Confirms the Wari-period administrative-counting convention uses minimal-unit tallies rather than large aggregate totals.",
+       "evidence": {"kind": "statistical", "matches": 10, "test": "value-1 uniformity across 10 INT cords"}},
+      {"claim": "BUNDLE B-POSITION STILL OPEN: AMNH catalogues B/3453A (UR179), B/3453C (UR180), B/3453D (UR181). The B/3453B position is the fourth trio companion not yet mapped to a UR-number in the analysed corpus. Search target for future expansion of the Wari Cajamarquilla bundle analysis.",
+       "evidence": {"kind": "physical"}}
+    ]
+  },
+
+  "companions": [
+    {"id": "UR179", "relation": "paired_twin",
+     "note": "WARI CAJAMARQUILLA TRIO MEMBER -- all-numerical ternary-knot register (18 cords, 100% KB monochrome, 0 STRING). UR180 is the BRIDGE between UR179's counter and UR181's chant.",
+     "evidence": {"kind": "physical", "matches": 2, "test": "AMNH B/3453 bundle co-catalog + shared ternary-knot convention"}},
+    {"id": "UR181", "relation": "paired_twin",
+     "note": "WARI CAJAMARQUILLA TRIO MEMBER -- all-text escalating rock-chant (8 cords, 100% LK monochrome, qaqa -> qaqaqaqaqa 5-fold stack). UR180 compresses UR181's escalation into the adjacent qaqaqaqa + qaqa pair at p2-p3.",
+     "evidence": {"kind": "physical", "matches": 3, "test": "AMNH B/3453 bundle + shared reduplication vocabulary + structural complementarity"}},
+    {"id": "UR192", "relation": "same_document_type",
+     "note": "Huaca Perez tambo administrative accounting (70 cords, 0 STRING, log-linear ascending sequence). Different chronological horizon (Inca vs Wari) but similar small-numerical administrative-counting function."},
+    {"id": "JC011", "relation": "cross_khipu_signal",
+     "note": "Incahuasi Sector B numerical measurements companion (126 cords, 0 STRING, 12 colors, 5/5 Ascher). UR180 + JC011 bracket the chronological range of 0-or-minimal-STRING counters: pre-Inca monochrome ternary (UR179/UR180) vs Inca-horizon multi-colour audit-grade (JC011)."}
+  ],
+
+  "confidence_axes": {
+    "word_reading": {
+      "level": "high",
+      "note": "2/2 STRING at 100% dict hit. qaqaqaqa + qaqa dictionary-stable reduplication pair consistent with UR181 conventions."
+    },
+    "document_type": {
+      "level": "medium",
+      "note": "ritual_invocation sub-type supported by (a) Wari-period Cajamarquilla provenance, (b) qaqaqaqa + qaqa reduplication vocabulary matching UR181, (c) bridge-function between UR179 counter and UR181 chant, (d) 2-color dual-channel palette differentiating from monochrome companions. Specific ceremony content not resolvable from 12 cords."
+    },
+    "narrative": {
+      "level": "medium",
+      "note": "The 'structural-bridge member of Wari ceremonial trio' reading is internally coherent and anchored on (a) shared AMNH bundle catalog, (b) qaqa-reduplication match with UR181, (c) tiny-value-count scale match with UR179, (d) unique DG color as bridge marker. The specific ceremonial content (what the rock is, why it was counted and chanted) remains archaeologically unresolved."
+    },
+    "data_integrity": {
+      "level": "medium",
+      "note": "Small 12-cord scale. 0 empty cords. 100% dict hit on 2 STRING. No Ascher layer (pre-Inca chronology). OKR knot-type convention preserved (cross-reference to UR179 notes). Dual-channel colour attested."
+    }
+  },
+
+  "sections": [
+    {"id": "I", "title": "Rock-Reduplication Opening", "cords": "1-3",
+     "reading": "Opens on NB. p1 NB (numerical opener, val=1). p2 NB qaqaqaqa (DOUBLED ROCK -- paralleling UR181 reduplication). p3 NB qaqa (BASE ROCK root). The adjacent doubled+base pair compresses UR181's 8-cord escalating chant into 2 cord-positions.",
+     "key_cords": [
+       {"pos": 1, "gloss": "NB val=1",    "note": "opening count"},
+       {"pos": 2, "gloss": "NB qaqaqaqa", "note": "DOUBLED ROCK (reduplication pair 1/2 -- matches UR181 convention)"},
+       {"pos": 3, "gloss": "NB qaqa",     "note": "BASE ROCK (reduplication pair 2/2 -- root form)"}
+     ]},
+    {"id": "II", "title": "NB Small-Count Block", "cords": "4-8",
+     "reading": "Five NB cords carrying numerical counts (all locke value 1). Same scale as UR179's tiny-value register. The numerical closing of the primary NB channel.",
+     "key_cords": [
+       {"pos": 6, "gloss": "NB val=1", "note": "representative small-value count"}
+     ]},
+    {"id": "III", "title": "DG Second-Channel Block", "cords": "9-12",
+     "reading": "Four cords on DG (dark-green, unique to UR180 in the trio). All numerical. Second-channel closing block -- the colour-split bridge function embodied in its own channel segment.",
+     "key_cords": [
+       {"pos": 12, "gloss": "LAST CORD", "note": "closes the 12-cord Wari bridge register on the DG second channel"}
+     ]}
+  ],
+
+  "references": [
+    "Sivan, J. (2026). The Khipu as a Layered Information System. ALBA Project preprint.",
+    "Sivan, J. (2026). Deep read UR179 v4 (all-numerical ternary-knot register, Wari trio member A).",
+    "Sivan, J. (2026). Deep read UR181 v4 (escalating qaqa reduplication rock-chant, Wari trio member D).",
+    "Stumer, L. (1958). Contactos foraneos en la arquitectura de la costa central.",
+    "Shady, R. (1982). La cultura Nieveria y la interaccion social en el mundo andino.",
+    "Conklin, W. (1982). The Information System of Middle Horizon Quipus.",
+    "Urton, G. (2003). Signs of the Inka Khipu: Binary Coding in the Andean Knotted-String Records.",
+    "OKR field-investigator cord-note on UR180 (B/3453C): 'As on B/3453A, the knots of B/3453B, C, and D are generally no-axis knots. However, the smallest single-type knots do have axes. See notes UR179.'",
+    "American Museum of Natural History, New York -- UR180 catalog B/3453C.",
+    "Compare UR179 + UR181 (trio companions), UR192 (Inca-horizon 0-STRING admin counter), JC011 (Inca-horizon audit-grade 0-STRING)."
+  ],
+
+  "reconstructed_xlsx": null
+}

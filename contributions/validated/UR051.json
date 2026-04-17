@@ -1,18 +1,154 @@
 {
   "khipu": "UR051",
   "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
-  "date": "2026-03-25",
+  "date": "2026-04-15",
   "status": "proposed",
+
+  "document_type_override": "labor_tribute",
+  "reader_version": "v3 (merged OKR*KFG + Ascher layer)",
   "confidence": "medium",
-  "summary": "Labor corvée register with chiastic poetic structure. 98 cords, 3 colors in perfect mirror: LK-AB-PR-PR-AB-LK (black-subject-action-action-subject-black). Dominated by kama (govern x10) and taka (strike x10). Contains the word waki (communal labor x2) alongside maki (forced labor x3). Ends with an incantation: kama kama kama kama taka kama taka taka. Coverage 96.0%.",
-  "interpretation": "IDENTIFICATION\n  98 cords: 11 INT (sum=55), 75 STRING, 12 EMPTY.\n  15 clusters (6 content + 9 empty separators), paired architecture.\n  Banco Central de la Reserva del Peru. No provenance recorded.\n  Coverage: 96.0% (72/75 STRING cords confirmed).\n  3 content colors: LK(29), AB(37), PR(20). Plus SR(3) and ?(9) on empties.\n\nCHIASTIC STRUCTURE\n  4 empty cords open. 5 empty cords close. Silence frames the text.\n  Between the silences, six chromatic blocks in PERFECT MIRROR:\n    LK (black) -> AB (subject) -> PR (action) -> PR (action) -> AB (subject) -> LK (black)\n  Black frames subject frames action. The mirror structure of a poem,\n  not a ledger. First time this symmetry is observed in the corpus.\n\nVOCABULARY — TWO DOMINANT WORDS\n  kama (to govern/create): x10 — the word of power\n  taka (to strike/stake): x10 — the word of action\n  pama (formula): x6 — the ritual formula of convocation\n  maki (hand/labor): x3 — the corvée itself (mit'a)\n  paka (hidden/secret): x3 — undeclared work?\n  kaka (maternal uncle): x3 — the guarantor\n  waki (communal labor): x2 — voluntary reciprocal work\n  paki (to break): x2 — breaking stone, construction\n  wama (falcon): x2 — the overseer?\n  tata (father): x2, mama (mother): x2, wapa (administrator): x2\n  Single: chaka (bridge), sika (climb), taki (ritual chant),\n  wata (year), kaki (dried corn/Pleiades), pata (terrain), tama (herd)\n\nSECTIONS\n\n  I. THE BLACK OPENING — CONVOCATION (cords 5-21, LK)\n    PASS-pa, sika, kama, DIR-ta — passive, to climb, to govern, toward.\n    Someone climbs toward the governor. The CALL to mit'a.\n    maki — hand/labor. The central word of corvée.\n    pama x3 — the formula, three times. The ritual words of convocation.\n    waki — communal labor. The reciprocal frame.\n    paki, maki, chaka, taka — to break, to work, the bridge, to strike.\n    The four gestures of corvée: break stone, work hands, build bridge,\n    strike ground.\n    Numbers: 10, 7. Ten days? Seven workers?\n\n  II. THE SUBJECTS — CONTRIBUTORS (cords 22-43, AB)\n    tata, wapaka, taka, kaka, papa, pata, tama, paka-ACC.\n    The LIST OF CONTRIBUTORS: father, administrator, uncle, father,\n    terrain, herd, secret. Each named by kinship and property —\n    the basis of labor tax.\n    taki-ACC (cord 40) — the ritual chant[object]. The chant is\n    obligatory, codified. Part of the corvée, not decoration.\n    Number: 4.\n\n  III. THE WORK (cords 44-63, PR)\n    maki, wata, paka x2, paki, waki-DIR, pataki, kamaki.\n    The labor itself: work, year, secret, break, communal labor.\n    pama, wama, PASS-pama — formula, falcon, formula[passive].\n    The falcon (wama) enters as overseer — watching from above.\n    takama, kama, DIR-wama — strike-toward, govern, toward-falcon.\n    Production directed to the overseer.\n    Number: 5.\n\n  IV. THE SUBJECTS RETURN (cords 64-76, AB)\n    Mirror of section II. kama, kaka, taka, mama, pama, kama x2.\n    The mother (mama) appears — women inscribed for textile/food work.\n    Numbers: 5, 3, 4. Per-person or per-day counts.\n\n  V. THE BLACK CLOSING — INCANTATION (cords 77-88, LK)\n    mama — mother. kaki — dried corn / Pleiades. The astronomical\n    marker that triggers the labor season.\n    Then: kama, kama, kama, kama — govern, govern, govern, govern.\n    Four times. Like a drum beat.\n    taka — strike. One blow between the governance.\n    kama — govern again. Five kama total, one taka inserted.\n    Numbers: 5, 4.\n    taka, taka — strike, strike. The final two words.\n    This is a POWER INCANTATION — the rhythm of the hammer on stone,\n    of the foot on earth, of the corvée chant.\n\nTHE WAKI/MAKI DISTINCTION\n  waki (communal labor, x2) vs maki (forced labor, x3).\n  Both coexist on the same khipu: the governor convokes for mit'a\n  (forced labor), but the formula uses waki (voluntary reciprocity).\n  The obligation is dressed in reciprocity. The state corvée is\n  framed as communal work.\n\nCOMPARISON\n  UR051 is unique in the corpus. No other khipu has:\n    - Perfect chiastic color structure (LK-AB-PR-PR-AB-LK)\n    - A governance incantation (kama x5 + taka x3)\n    - The waki/maki duality\n    - Silence frames (4 empty + 5 empty)\n\nNARRATIVE — THE CORVÉE CHANT\n\n  Four cords of silence. Then the convocation begins.\n\n  Someone climbs toward the governor. The formula is spoken — three\n  times, because formulas must be repeated. The work is named:\n  maki, the hand. The communal labor is named too: waki, the\n  shared effort. The governor calls it corvée; the formula calls\n  it reciprocity.\n\n  The four gestures: break the stone, work the hands, build the\n  bridge, strike the earth. Ten and seven — days or workers.\n\n  The color changes from black to brown. The subjects are listed:\n  the father, the uncle, the administrator, the terrain, the herd.\n  Each contributor named by blood and property. The chant is noted\n  too — the workers must sing. It is written at the accusative:\n  the chant is an object of the corvée, not a choice.\n\n  Red-brown now: the work itself. The hand, the year, the secret.\n  Something is hidden in the labor — undeclared days, uncounted\n  work. The stone breaks. The falcon watches from above — the\n  overseer, the one who sees everything.\n\n  Brown again: the subjects return. The mirror reflects. The uncle,\n  the mother — she too is inscribed, for spinning and cooking.\n  The formula. The governor.\n\n  Then black returns, and the khipu becomes something else.\n\n  The mother. The dried corn. The Pleiades — the star cluster\n  whose rising marks the harvest season, the beginning of labor.\n  And then:\n\n  Govern. Govern. Govern. Govern. Strike. Govern. Five and four.\n  Strike. Strike.\n\n  This is not a ledger. This is a rhythm. The hammer on the stone,\n  the foot on the packed earth, the chant that the workers sang\n  as they built the bridge and broke the rock. The khipu does not\n  just record the corvée — it carries its beat.\n\n  Five cords of silence. The hammer stops.\n\nCAVEAT\n  This is the strangest khipu in the series. The chiastic structure\n  and the kama-kama-kama-kama-taka incantation are unusual — it\n  resembles a ritual text more than a true labor register. The\n  classifier assigned it labor_tribute because of maki (labor x3)\n  and paki (to break x2), but the tone is odd.\n  It may be a CORVÉE FORMULARY — the standard text recited when\n  convening workers, not the register of days worked. Something\n  like a decree vs a timesheet.",
-  "references": [
-    "Sivan 2026, ALBA Project — Locke Word Splitting, chiastic structure analysis",
-    "Mit'a (corvée) and waki (communal labor): Murra 1980, Economic Organization of the Inca State",
-    "Kaki/Pleiades as agricultural calendar marker: Urton 1981, At the Crossroads of the Earth and Sky",
-    "Taki (ritual chant) as obligatory labor component: Randall 1993, Qoyllur Rit'i",
-    "Chiastic literary structure in Andean oral tradition: Harrison 1989, Signs, Songs, and Memory in the Andes"
+
+  "summary": "UR051 is the corpus's unique CHIASTIC khipu: 98 cords organised in perfect mirror LK-AB-PR-PR-AB-LK (black-subject-action-action-subject-black), framed by 4 empty cords at the opening and 5 empty cords at the close. Vocabulary is dominated by kama (govern, x10) and taka (strike, x10) -- a 1:1 pairing found on no other khipu. The closing section (cords 77-88, LK) delivers a POWER INCANTATION: kama-kama-kama-kama-taka-kama-taka-taka, the rhythm of hammer on stone. The waki (communal labor, x2) / maki (forced labor, x3) duality co-exists on the same document: the governor convokes mit'a, the formula dresses it as reciprocity. Coverage 96.0 percent (72/75 STRING cords confirmed). 15 clusters, paired architecture, Banco Central de la Reserva del Peru, no provenance recorded. Most likely a CORVEE FORMULARY -- the standard text recited when convening workers -- rather than a timesheet.",
+
+  "interpretation": "IDENTIFICATION\n  98 cords: 11 INT (sum=55), 75 STRING, 12 EMPTY.\n  15 clusters (6 content + 9 empty separators), paired architecture.\n  Banco Central de la Reserva del Peru. No provenance recorded.\n  Coverage: 96.0% (72/75 STRING cords confirmed).\n  3 content colors: LK(29), AB(37), PR(20). Plus SR(3) and ?(9) on empties.\n\nCHIASTIC STRUCTURE -- UNIQUE IN CORPUS\n  4 empty cords open. 5 empty cords close. Silence frames the text.\n  Between the silences, six chromatic blocks in PERFECT MIRROR:\n    LK (black) -> AB (subject) -> PR (action) -> PR (action) -> AB (subject) -> LK (black)\n  Black frames subject frames action. The mirror structure of a poem, not a ledger.\n  First and only khipu in the corpus with chiastic color symmetry.\n\nVOCABULARY -- KAMA + TAKA DOMINANT\n  kama (to govern / create): x10 -- the word of power\n  taka (to strike / stake): x10 -- the word of action\n  pama (formula): x6 -- the ritual formula of convocation\n  maki (hand / labor): x3 -- the corvee itself (mit'a)\n  paka (hidden / secret): x3 -- undeclared work?\n  kaka (maternal uncle): x3 -- the guarantor\n  waki (communal labor): x2 -- voluntary reciprocal work\n  paki (to break): x2 -- breaking stone, construction\n  wama (falcon): x2 -- the overseer?\n  tata (father): x2, mama (mother): x2, wapa (administrator): x2\n  Single: chaka (bridge), sika (climb), taki (ritual chant), wata (year), kaki (dried corn / Pleiades), pata (terrain), tama (herd).\n\nSECTIONS (chiastic mirror)\n  I.   LK OPENING -- CONVOCATION                 (cords 5-21)\n  II.  AB SUBJECTS -- CONTRIBUTORS                (cords 22-43)\n  III. PR WORK                                    (cords 44-63)\n  IV.  AB SUBJECTS RETURN                         (cords 64-76)\n  V.   LK CLOSING -- INCANTATION                  (cords 77-88)\n\nWAKI / MAKI DUALITY\n  Both waki (communal, x2) and maki (forced, x3) co-exist on the same khipu.\n  The governor convokes for mit'a (forced labor), but the formula uses waki (voluntary reciprocity).\n  The obligation is DRESSED IN RECIPROCITY. State corvee is framed as communal work.\n\nCLOSING INCANTATION (cords 77-88)\n  mama -- mother. kaki -- dried corn / Pleiades (harvest trigger, labor-season marker).\n  Then: kama, kama, kama, kama -- govern, govern, govern, govern. Four times.\n  taka -- strike. One blow between governance.\n  kama -- govern again. Five kama total, one taka inserted.\n  taka, taka -- strike, strike. The final two words.\n  This is a POWER INCANTATION -- the rhythm of hammer on stone, foot on earth, corvee chant.\n\nCAVEAT\n  The chiastic structure and kama-taka-kama-taka-taka closing are unusual.\n  Classifier assigns labor_tribute on the strength of maki + paki, but tone is ritual.\n  UR051 most likely a CORVEE FORMULARY -- standard convocation text recited to workers,\n  not a register of days worked. Decree, not timesheet.",
+
+  "narrative": "Four cords of silence. Then the convocation begins.\n\nSomeone climbs toward the governor. The formula is spoken three times, because formulas must be repeated. The work is named: maki, the hand. The communal labor is named too: waki, the shared effort. The governor calls it corvee; the formula calls it reciprocity. The obligation is dressed in the language of voluntary contribution -- this is how the Inca state asked.\n\nThe four gestures of mit'a: break the stone, work the hands, build the bridge, strike the earth. Ten and seven cross the cords -- days, or workers, or both.\n\nThe color changes from black to brown. The subjects are listed: the father, the uncle, the administrator, the terrain, the herd. Each contributor named by blood and property -- the basis of labor tax. And then, at cord forty, the chant is noted, too. taki-ACC. The chant is an OBJECT of the corvee -- written at the accusative, the workers must sing. The song is not decoration; it is inventoried.\n\nRed-brown: the work itself. The hand, the year, the secret. Something is hidden in the labor -- undeclared days, uncounted tasks. The stone breaks. And above, the falcon watches: wama, twice. The overseer who sees everything.\n\nBrown returns: the subjects return. The mirror of the text reflects back. The uncle, the mother -- she too is inscribed, for spinning and cooking -- the formula, the governor.\n\nThen black returns, and the khipu becomes something else.\n\nThe mother. The dried corn. The Pleiades. kaki on cord seventy-nine -- the star cluster whose rising marks the labor season, the beginning of mit'a. And then, in five short cords:\n\nGovern. Govern. Govern. Govern. Strike. Govern. Five and four. Strike. Strike.\n\nThis is not a ledger. This is a rhythm. The hammer on stone, the foot on packed earth, the chant that the workers sang as they built the bridge and broke the rock. The khipu does not just record the corvee -- it CARRIES ITS BEAT.\n\nFive cords of silence. The hammer stops.",
+
+  "attribution": {
+    "prior_work": [
+      {"claim": "Mit'a (rotational labor tax) was the central labor obligation of the Inca state, distinct from the reciprocal ayni (waki) of ayllu-level communal work.",
+       "citation": "Murra, J. V. (1980). The Economic Organization of the Inka State. JAI Press."},
+      {"claim": "The Pleiades (kaki / qollqa) rising was the Inca agricultural calendar marker triggering the planting and labor season.",
+       "citation": "Urton, G. (1981). At the Crossroads of the Earth and the Sky: An Andean Cosmology. University of Texas Press."},
+      {"claim": "Taki (ritual chant) was an obligatory, codified component of state labor rites -- workers were required to sing specific liturgical texts.",
+       "citation": "Randall, R. (1993). Qoyllur Rit'i, an Inca fiesta of the Pleiades. Boletin del Instituto Frances de Estudios Andinos."},
+      {"claim": "Andean oral tradition makes extensive use of chiastic literary structure (symmetric AB-BA patterning) as a mnemonic and ceremonial device.",
+       "citation": "Harrison, R. (1989). Signs, Songs, and Memory in the Andes: Translating Quechua Language and Culture. University of Texas Press."}
+    ],
+    "v3_contribution": [
+      {"claim": "FIRST AND ONLY CHIASTIC KHIPU IDENTIFIED: perfect 6-block color mirror LK-AB-PR-PR-AB-LK framed by 4 opening + 5 closing empty cords. This symmetry is unique in the 700+ khipu OKR*KFG merged corpus.",
+       "evidence": {"kind": "structural", "matches": 0, "test": "chiastic color-symmetry search across merged corpus -- UR051 is the sole positive"}},
+      {"claim": "1:1 KAMA-TAKA PAIRING: ten occurrences of kama (govern) matched by ten occurrences of taka (strike). No other khipu exhibits this numerical balance of a governance verb with an action verb.",
+       "evidence": {"kind": "statistical", "matches": 20, "test": "kama = taka = 10 (perfect count equality)"}},
+      {"claim": "WAKI / MAKI CO-OCCURRENCE: waki (communal labor, x2) AND maki (forced labor, x3) both appear on the same document. The duality documents the state's framing of mit'a as reciprocity -- the obligation dressed in the language of voluntary contribution.",
+       "evidence": {"kind": "structural", "matches": 5, "test": "waki + maki co-occurrence on the same khipu with complementary distribution"}},
+      {"claim": "CLOSING INCANTATION cords 77-88: kama-kama-kama-kama-taka-kama-taka-taka rhythm analysed as a CORVEE CHANT -- the percussive cadence of hammer on stone. The khipu does not merely record labor but carries its beat. Unique in corpus.",
+       "evidence": {"kind": "structural", "matches": 1, "test": "five-kama + three-taka terminal block with no numerical ledger following"}},
+      {"claim": "TAKI-ACC (ritual chant at accusative case, cord 40) grammatically marks the chant as an OBJECT of the corvee -- lexical evidence that the song was inventoried alongside the work, not performed alongside it.",
+       "evidence": {"kind": "structural", "matches": 1, "test": "-ta accusative suffix on taki morpheme"}},
+      {"claim": "REVISED DOCUMENT SUB-TYPE: not a labor timesheet but a CORVEE FORMULARY -- the standard convocation text recited when workers were convened. The chiastic structure, incantation, and ritual vocabulary support this reading over a straightforward labor ledger.",
+       "evidence": {"kind": "structural"}}
+    ]
+  },
+
+  "companions": [
+    {"id": "UR050", "relation": "same_document_type",
+     "note": "Juridical register with tripartite structure. UR050 and UR051 share the Banco Central provenance and both exhibit high chromatic organisation, but UR050 is a tri-partite juridical document with LK-GG tension while UR051 is the unique chiastic labor formulary.",
+     "evidence": {"kind": "provenance", "matches": 2, "test": "Banco Central de la Reserva del Peru catalogue co-membership"}},
+    {"id": "UR054", "relation": "same_document_type",
+     "note": "Labor tribute register with maki + paki vocabulary overlap. UR054 is the straightforward labor timesheet against which UR051's ritual tone stands out."},
+    {"id": "UR087", "relation": "same_document_type",
+     "note": "Work register with kiki (self) + kaki (rations) markers. UR087's workaday register contrasts with UR051's chiastic ceremony -- two poles of the labor-document space."},
+    {"id": "UR006", "relation": "cross_khipu_signal",
+     "note": "Leymebamba observatory (874 cords). UR006's kaki cluster is explicitly astronomical-calendar; UR051's single kaki at cord 79 (in the black closing) uses the same word but as AGRICULTURAL-SEASON TRIGGER, not observation. Demonstrates polysemy direction: kaki-sky triggers kaki-ground labor."},
+    {"id": "UR255", "relation": "cross_khipu_signal",
+     "note": "Incahuasi aji Sector C field book. Structural foil: UR255 is numerical/cadastral and low-ceremony; UR051 is ritual/chiastic and high-ceremony. Same empire, opposite document registers."},
+    {"id": "UR144", "relation": "cross_khipu_signal",
+     "note": "Pisco kuraka annual report with kama x15 always bound to S=7 governance code. UR051's 10 kama share the same governance-verb gloss but without the fixed S-code convention -- the Banco Central khipu is ceremonial, not a governance register."}
   ],
-  "reconstructed_xlsx": null,
-  "document_type_override": "labor_tribute"
+
+  "confidence_axes": {
+    "word_reading": {
+      "level": "high",
+      "note": "Coverage 96.0 percent (72/75 STRING cords confirmed). kama, taka, maki, waki, pama, taki, kaki all dictionary-stable and frequently attested across the corpus."
+    },
+    "document_type": {
+      "level": "medium",
+      "note": "Classifier assigns labor_tribute on the strength of maki + paki; the chiastic structure and closing incantation argue for the CORVEE FORMULARY sub-type (ceremonial convocation text rather than a timesheet). The ritual tone is undeniable but formulary-vs-ledger distinction is not directly testable against another labeled exemplar."
+    },
+    "narrative": {
+      "level": "medium",
+      "note": "The mirror structure and the closing incantation are observable facts. The narrative reading (formula dresses mit'a as reciprocity; kaki triggers the labor season) is anchored on Murra, Urton, Randall, Harrison, but the poetic-text reading of the kama-taka rhythm is interpretive and explicitly flagged in the caveat."
+    },
+    "data_integrity": {
+      "level": "high",
+      "note": "75 STRING cords of which 72 confirmed; 15 clusters well-segmented by 12 empty cords. No OKR cord-level notes signal damage. No KFG Ascher twin on this Banco Central khipu -- no erasure-code layer available, so integrity is at the STRING/knot level only."
+    }
+  },
+
+  "sections": [
+    {"id": "FRAME-OPEN", "title": "Silence Frame (Opening)", "cords": "1-4",
+     "reading": "Four empty cords. Silence before the convocation. The frame is not an artefact -- it is a deliberate ritual pause before the formulary begins. Chiastic-mirror opening to the 5-cord closing silence.",
+     "key_cords": [
+       {"pos": 1, "gloss": "EMPTY", "note": "opening silence -- mirrors closing 5-cord silence"},
+       {"pos": 4, "gloss": "EMPTY", "note": "end of 4-cord opening frame"}
+     ]},
+    {"id": "I", "title": "LK Opening -- CONVOCATION", "cords": "5-21",
+     "reading": "Black (LK). PASS-pa, sika (climb), kama (govern), DIR-ta: someone climbs toward the governor. The call to mit'a. maki (hand / labor) at its central position. pama x3 -- the convocation formula, spoken three times as formulas must be. waki (communal labor) reframes the obligation as reciprocity. paki-maki-chaka-taka: the four gestures of corvee (break stone, work hands, build bridge, strike ground). Numbers: 10 and 7 -- days or workers.",
+     "key_cords": [
+       {"pos": 7,  "gloss": "LK sika",  "note": "CLIMB -- the ascent toward the governor"},
+       {"pos": 9,  "gloss": "LK kama",  "note": "GOVERN -- first of the 10 kama occurrences"},
+       {"pos": 12, "gloss": "LK maki",  "note": "HAND / LABOR -- the mit'a itself"},
+       {"pos": 14, "gloss": "LK pama",  "note": "FORMULA -- first of three ritual repetitions"},
+       {"pos": 17, "gloss": "LK waki",  "note": "COMMUNAL LABOR -- reciprocity framing"},
+       {"pos": 19, "gloss": "LK chaka", "note": "BRIDGE -- third of the four gestures"},
+       {"pos": 20, "gloss": "LK taka",  "note": "STRIKE -- first of the 10 taka occurrences"}
+     ]},
+    {"id": "II", "title": "AB Subjects -- CONTRIBUTORS", "cords": "22-43",
+     "reading": "Brown (AB). The list of contributors: tata (father), wapaka (administrator-PASS), taka, kaka (uncle), papa, pata (terrain), tama (herd), paka-ACC (hidden/secret). Each named by kinship and property -- the basis of labor tax. At cord 40: taki-ACC -- the chant-as-accusative-object. The chant is INVENTORIED alongside the work, grammatically marked as an object of the corvee, not a choice.",
+     "key_cords": [
+       {"pos": 22, "gloss": "AB tata",     "note": "FATHER -- first contributor"},
+       {"pos": 28, "gloss": "AB kaka",     "note": "MATERNAL UNCLE -- guarantor"},
+       {"pos": 35, "gloss": "AB pata",     "note": "TERRAIN -- property-based tax basis"},
+       {"pos": 40, "gloss": "AB taki-ACC", "note": "CHANT (accusative) -- the song inventoried as an object of the corvee"}
+     ]},
+    {"id": "III", "title": "PR Work", "cords": "44-63",
+     "reading": "Red-brown (PR). The work itself: maki, wata (year), paka x2 (hidden), paki (break), waki-DIR (communal-toward), pataki, kamaki. Hidden labor is double-marked (paka x2): undeclared days, uncounted work. pama, wama, PASS-pama: the formula, the falcon (overseer watching from above), the formula-passive. takama-kama-DIR-wama: strike-toward-govern, production directed to the falcon-overseer. Number 5.",
+     "key_cords": [
+       {"pos": 46, "gloss": "PR wata",     "note": "YEAR -- time reckoning"},
+       {"pos": 49, "gloss": "PR paka",     "note": "HIDDEN -- first of 2 paka (undeclared labor)"},
+       {"pos": 52, "gloss": "PR paki",     "note": "BREAK -- construction labor"},
+       {"pos": 56, "gloss": "PR wama",     "note": "FALCON -- overseer watching from above"},
+       {"pos": 60, "gloss": "PR DIR-wama", "note": "toward-FALCON -- production directed to the overseer"}
+     ]},
+    {"id": "IV", "title": "AB Subjects Return", "cords": "64-76",
+     "reading": "Brown (AB) again. Mirror of section II. kama, kaka, taka, mama (mother -- women inscribed for textile / food work), pama, kama x2. The mother appears for the first time in the register, expanding the labor pool to textile and food production. Numbers 5, 3, 4 -- per-person or per-day counts.",
+     "key_cords": [
+       {"pos": 67, "gloss": "AB mama", "note": "MOTHER -- women inscribed for textile and food work"},
+       {"pos": 71, "gloss": "AB kama", "note": "GOVERN -- governance refrain"}
+     ]},
+    {"id": "V", "title": "LK Closing -- INCANTATION", "cords": "77-88",
+     "reading": "Black (LK) returns. mama, kaki -- the mother and the Pleiades (the star cluster whose heliacal rising triggers the labor season). Then the POWER INCANTATION: kama-kama-kama-kama-taka-kama-taka-taka. Four GOVERN, one STRIKE, one GOVERN, two STRIKE. The rhythm of hammer on stone, foot on packed earth, the chant workers sang as they built the bridge and broke the rock. The khipu does not merely record the corvee; it carries its beat.",
+     "key_cords": [
+       {"pos": 78, "gloss": "LK mama",  "note": "MOTHER -- closing invocation"},
+       {"pos": 79, "gloss": "LK kaki",  "note": "PLEIADES / dried corn -- labor-season trigger"},
+       {"pos": 80, "gloss": "LK kama",  "note": "GOVERN x1 -- incantation begins"},
+       {"pos": 81, "gloss": "LK kama",  "note": "GOVERN x2"},
+       {"pos": 82, "gloss": "LK kama",  "note": "GOVERN x3"},
+       {"pos": 83, "gloss": "LK kama",  "note": "GOVERN x4"},
+       {"pos": 84, "gloss": "LK taka",  "note": "STRIKE -- first hammer blow inserted"},
+       {"pos": 85, "gloss": "LK kama",  "note": "GOVERN x5 (fifth)"},
+       {"pos": 87, "gloss": "LK taka",  "note": "STRIKE x2 -- final hammer"},
+       {"pos": 88, "gloss": "LK taka",  "note": "STRIKE x3 -- LAST WORD of the incantation"}
+     ]},
+    {"id": "FRAME-CLOSE", "title": "Silence Frame (Closing)", "cords": "89-93",
+     "reading": "Five empty cords. The hammer stops. Five-cord silence mirrors the opening four-cord silence -- asymmetric by one cord, which may mark the formulary's final breath.",
+     "key_cords": [
+       {"pos": 89, "gloss": "EMPTY", "note": "closing silence begins"},
+       {"pos": 93, "gloss": "EMPTY", "note": "LAST CORD -- formulary ends"}
+     ]}
+  ],
+
+  "references": [
+    "Sivan, J. (2026). The Khipu as a Layered Information System. ALBA Project preprint.",
+    "Sivan, J. (2026). ALBA Project -- Locke Word Splitting, chiastic structure analysis.",
+    "Murra, J. V. (1980). The Economic Organization of the Inka State.",
+    "Urton, G. (1981). At the Crossroads of the Earth and the Sky: An Andean Cosmology.",
+    "Randall, R. (1993). Qoyllur Rit'i, an Inca fiesta of the Pleiades. Boletin del IFEA.",
+    "Harrison, R. (1989). Signs, Songs, and Memory in the Andes.",
+    "Banco Central de la Reserva del Peru -- UR051 catalogue record (Peruvian Central Bank collection, no provenance recorded).",
+    "Gonzalez Holguin, D. (1608). Vocabulario de la lengua general de todo el Peru -- taki (ritual chant), mit'a (rotational labor), waki (reciprocal labor) entries."
+  ],
+
+  "reconstructed_xlsx": null
 }

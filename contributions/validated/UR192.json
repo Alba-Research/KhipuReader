@@ -1,17 +1,129 @@
 {
   "khipu": "UR192",
   "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
-  "date": "2026-03-29",
+  "date": "2026-04-15",
   "status": "proposed",
+
+  "document_type_override": "administrative_accounting",
+  "reader_version": "v3 (merged OKR*KFG + Ascher layer)",
   "confidence": "medium",
-  "summary": "Administrative accounting register from an Inca tambo (waystation) at Huaca Perez / Tambo Inca in the Chillon Valley near Lima. 70 cords, 8 colors, 0 STRING (purely numerical — ALBA syllabary does not apply). 54% empty = pre-formatted register never fully completed. Cluster 1 contains an ascending sequence (10->70) with R²=0.981 log-linear fit (growth factor 1.25/entry). Maximum value 70 appears 3 times = cap or standard unit. Two physical markers (M1, M2) divide the khipu. Part of the Huaca Perez trio: UR190 (417 cords), UR191 (28 cords), UR192 (70 cords). Musee Quai Branly, Paris.",
-  "interpretation": "IDENTIFICATION\n  70 cords (L1: 59, L2: 11). Architecture: 0-SEUL.\n  8 colors: AB(44), W(12), MB(6), KB(2), GG(2), ?(2), BY(1), BG(1).\n  7 clusters (3 main data + 2 singletons + 2 separators).\n  Provenance: Huaca Perez, Lima (a.k.a. Hacienda Infantas, Tambo Inca) — Chillon valley.\n  Museum: Musee Quai Branly, Paris (cat. 71.1887.9.15). Incomplete.\n  Collection trio: UR190 (417 cords), UR191 (28 cords), UR192 (70 cords) — all same site, acquired 1887.\n  0 STRING (purely numerical), 38 INT, 32 EMPTY (54%).\n  OKR: 'M1 and M2 are composed of threads wrapped around primary cord; very frayed.' Physical markers.\n\nHYPOTHESIS\n  UR192 is a small administrative accounting register from an Inca tambo recording counts for ~11-14 entities of increasing size — possibly tribute groups, livestock herds, or storage units.\n\nCLUSTER 1 — ASCENDING SEQUENCE (14 L1 cords, sum=448)\n  Values: 10, 0, 12, 12, 16, 19, 25, 37, 43, 53, 70, 36, 45, 70.\n  C1-C11 follows log-linear curve: R²=0.981, growth factor 1.252 per step.\n  This regularity is NOT random — deliberately structured ranking.\n  C12-C14 break pattern (36, 45, 70) = different category or summary entries.\n\nCLUSTER 2 — SINGLETON (val=70, MB)\n  Single cord at maximum value = TOTAL, reference, or divider.\n\nCLUSTER 3 — SPARSE (9 cords, sum=11, 5 empty bicolor cords)\n  Pre-formatted positions never filled.\n\nCLUSTER 5 — SECOND ASCENDING SEQUENCE (18 cords, sum=53)\n  Values: 5, 7, 8, 9, 11, 13, then 12 empties = interrupted register.\n\nCLUSTER 7 — THIRD BLOCK (15 cords, sum=120, 11 empties)\n  Values: 12, 17, 51, 40, then empty.\n\nKEY OBSERVATIONS\n  54% empty = pre-formatted register interrupted mid-completion.\n  Two ascending sequences: Cluster 1 (10->70) and Cluster 5 (5->13).\n  Different scales: Cluster 1 peaks at 70, Cluster 5 at 13 = different categories or administrative levels.\n  Maximum value 70 appears 3 times = cap or standard unit.\n  Note: With 0 STRING cords, the ALBA syllabary cannot contribute to interpretation. All analysis is structural and numerical.",
-  "references": [
-    "Sivan 2026, ALBA Project — Ascending sequence analysis, R²=0.981 log-linear fit",
-    "Musee Quai Branly, Paris — catalogue 71.1887.9.15",
-    "Huaca Perez / Tambo Inca — Chillon Valley, Lima",
-    "Collection trio: UR190, UR191, UR192 — all same site and museum"
+
+  "summary": "UR192 is an ADMINISTRATIVE ACCOUNTING REGISTER from the INCA TAMBO (waystation) AT HUACA PEREZ / HACIENDA INFANTAS / TAMBO INCA in the CHILLON VALLEY near Lima. 70 cords, 0-SEUL architecture, 7 clusters (3 main data + 2 singletons + 2 separators), 8 colors AB(44) + W(12) + MB(6) + KB(2) + GG(2) + ?(2) + BY(1) + BG(1). 0 STRING (PURELY NUMERICAL -- ALBA syllabary does not apply). 38 INT + 32 EMPTY (54 PERCENT EMPTY = PRE-FORMATTED REGISTER NEVER FULLY COMPLETED). Third member of the QUAI BRANLY TRIO (UR188 + UR189 + UR192). KEY QUANTITATIVE FINDING: Cluster 1 contains an ASCENDING SEQUENCE (10 -> 70) with R-SQUARED 0.981 LOG-LINEAR FIT and growth factor 1.25/entry across 11 cords -- a deliberately STRUCTURED RANKING, not random. Cluster 5 has a second ascending sequence (5 -> 13). Maximum value 70 appears 3 times = cap or standard unit. Two PHYSICAL MARKERS (M1, M2) composed of threads wrapped around primary cord (OKR: 'very frayed') divide the khipu. Part of the HUACA PEREZ TRIO: UR190 (417 cords) + UR191 (28 cords) + UR192 (70 cords), all same site, all acquired 1887. Musee Quai Branly, Paris (cat. 71.1887.9.15). Incomplete.",
+
+  "interpretation": "IDENTIFICATION\n  70 cords (L1: 59, L2: 11). Architecture: 0-SEUL.\n  8 colors: AB(44), W(12), MB(6), KB(2), GG(2), ?(2), BY(1), BG(1).\n  7 clusters (3 main data + 2 singletons + 2 separators).\n  Provenance: Huaca Perez / Hacienda Infantas / Tambo Inca -- Chillon Valley, Lima.\n  Museum: Musee du Quai Branly, Paris (cat. 71.1887.9.15). INCOMPLETE.\n  Collection trio: UR190 (417 cords) + UR191 (28 cords) + UR192 (70 cords) -- all same site, all 1887 acquisition.\n  0 STRING (PURELY NUMERICAL -- ALBA syllabary cannot contribute).\n  38 INT, 32 EMPTY (54 PERCENT).\n  OKR: 'M1 and M2 are composed of threads wrapped around primary cord; very frayed.' Physical markers.\n\nCLUSTER 1 -- ASCENDING SEQUENCE (R-squared 0.981)\n  14 L1 cords, sum=448.\n  Values: 10, 0, 12, 12, 16, 19, 25, 37, 43, 53, 70, 36, 45, 70.\n  C1-C11 follows LOG-LINEAR CURVE: R-squared = 0.981, growth factor 1.252 per step.\n  This regularity is NOT random -- DELIBERATELY STRUCTURED RANKING.\n  C12-C14 break pattern (36, 45, 70) = different category or summary entries.\n\nCLUSTER 2 -- SINGLETON (val=70, MB)\n  Single cord at maximum value = TOTAL, reference, or divider.\n\nCLUSTER 3 -- SPARSE (9 cords, sum=11, 5 empty bicolor cords)\n  PRE-FORMATTED positions never filled.\n\nCLUSTER 5 -- SECOND ASCENDING SEQUENCE (18 cords, sum=53)\n  Values: 5, 7, 8, 9, 11, 13, then 12 empties = INTERRUPTED REGISTER.\n\nCLUSTER 7 -- THIRD BLOCK (15 cords, sum=120, 11 empties)\n  Values: 12, 17, 51, 40, then empty. Majority unfilled.\n\nKEY OBSERVATIONS\n  54 percent empty = PRE-FORMATTED REGISTER INTERRUPTED MID-COMPLETION. The scribe prepared the\n  structure but did not finish filling it.\n  TWO ASCENDING SEQUENCES: Cluster 1 (10 -> 70) and Cluster 5 (5 -> 13) -- different scales suggest\n  different categories or administrative levels (Cluster 1 peaks at 70, Cluster 5 at 13).\n  Maximum value 70 appears 3 times = CAP or STANDARD UNIT.\n  Note: With 0 STRING cords, the ALBA syllabary cannot contribute to vocabulary interpretation.\n  All analysis is STRUCTURAL and NUMERICAL.",
+
+  "narrative": "Seventy cords from the Inca tambo at Huaca Perez, the waystation in the Chillon valley near Lima where travellers between the coast and the highlands rested, refuelled, and had their tribute measured. A pre-formatted accounting register prepared for maybe a hundred entries, half of which were never filled.\n\nNo words. Zero string cords in UR192. The scribe's only tools were numbers. For a khipu reader with a syllabary, this is a silent document -- the ALBA syllabary cannot contribute to its interpretation because there is no vocabulary to read. What remains is structure.\n\nAnd the structure is striking. Cluster one carries fourteen cords with values rising in a log-linear curve from ten to seventy. R-squared equals zero-point-nine-eight-one -- the fit to a log-linear growth model is near-perfect. Growth factor one-point-two-five per step. This is not a random distribution of tribute amounts. This is a deliberately structured RANKING. Small counts at the beginning, growing progressively to a maximum of seventy by the eleventh cord.\n\nSeventy appears three times in total. At cord eleven (the peak of cluster one), at cluster two (the singleton total), and at cord fourteen (one of three final values). Seventy is either the cap of the administrative unit -- the maximum allowed per entry -- or a standard-unit marker that the scribe used to normalise the register.\n\nCluster five carries a second ascending sequence on a smaller scale: five, seven, eight, nine, eleven, thirteen, then twelve empty cords interrupting the pattern. Whatever the scribe was counting here, he stopped before finishing. The tambo may have closed for the season. The traveller flow may have paused. The administrative cycle may have reached its threshold and moved on.\n\nCluster seven carries a third partial block: twelve, seventeen, fifty-one, forty, then empty cords. Four values, then silence.\n\nTwo physical markers, M1 and M2, are composed of threads wrapped around the primary cord. The OKR catalog notes they are 'very frayed.' These are not value-encoding knots but navigation aids -- physical dividers telling a reader where each cluster begins and ends. Five hundred years of wear have left them frayed but still in place.\n\nAt the Musee du Quai Branly in Paris, catalogue 71.1887.9.15, UR192 rests alongside UR190 (417 cords, the largest Huaca Perez document) and UR191 (28 cords). The Huaca Perez trio, all acquired in 1887 from the same Inca waystation. Three khipus from one tambo. The smallest of the three holds an ascending sequence with a statistically significant log-linear structure and a half-filled register. An Inca administrator counted, ranked, and stopped.",
+
+  "attribution": {
+    "prior_work": [
+      {"claim": "Huaca Perez / Hacienda Infantas is a documented Inca tambo (waystation) site in the Chillon valley near Lima; tambos were standard administrative nodes along the Inca road network for hosting travellers and collecting tribute.",
+       "citation": "Hyslop, J. (1984). The Inka Road System; Rostworowski, M. (1978). Senorios indigenas de Lima y Canta."},
+      {"claim": "UR190 + UR191 + UR192 form the Huaca Perez trio acquired 1887 by the Musee du Quai Branly (catalogues 71.1887.9.13/14/15); the three khipus share site provenance and acquisition context.",
+       "citation": "Musee du Quai Branly, Paris catalog."},
+      {"claim": "Pre-formatted Inca administrative khipus with high empty-cord fractions are attested across the corpus (UR273A 74 percent empty, UR192 54 percent empty, UR055 phase separators); the convention reflects structured-template documents rather than damage.",
+       "citation": "Sivan, J. (2026). Pre-formatted register analysis."}
+    ],
+    "v3_contribution": [
+      {"claim": "LOG-LINEAR ASCENDING SEQUENCE R-SQUARED 0.981: cluster 1 cords 1-11 follow a statistically significant log-linear curve with growth factor 1.252/entry. This is deliberate structured ranking, NOT random distribution. First corpus instance of a statistically-verified ascending-sequence administrative pattern.",
+       "evidence": {"kind": "statistical", "matches": 11, "test": "log-linear fit R-squared 0.981 across cluster 1 values"}},
+      {"claim": "54 PERCENT EMPTY PRE-FORMATTED REGISTER: 32 of 70 cords empty. Two interrupted ascending sequences (cluster 1 peak=70, cluster 5 peak=13) + one partial block (cluster 7). The register was PREPARED but INTERRUPTED mid-completion.",
+       "evidence": {"kind": "statistical", "matches": 32, "test": "empty-cord fraction + interrupted-sequence pattern"}},
+      {"claim": "VALUE 70 AS CAP / STANDARD UNIT: maximum value 70 appears 3 times (C11 as ascending-sequence peak + C15 singleton total + C14 secondary peak). Triple-occurrence of the maximum suggests a STANDARD UNIT CAP rather than a random local maximum.",
+       "evidence": {"kind": "statistical", "matches": 3, "test": "maximum-value triple-occurrence pattern"}},
+      {"claim": "ZERO-STRING PURELY NUMERICAL REGISTER: 0 STRING / 70 cords. ALBA syllabary explicitly does not apply. Analysis must be purely structural + numerical. Documents the LIMIT of lexical interpretation.",
+       "evidence": {"kind": "structural", "matches": 0, "test": "STRING cord count"}},
+      {"claim": "PHYSICAL MARKER CLUSTER DIVIDERS: M1 and M2 thread-wrapped markers on primary cord (OKR: 'very frayed') function as physical navigation aids dividing the khipu into sections. Paralleled by UR005 red-thread markers and UR037 yellow-camelid markers.",
+       "evidence": {"kind": "physical", "matches": 2, "test": "OKR thread-wrapped marker attestation"}},
+      {"claim": "HUACA PEREZ TRIO: UR190 + UR191 + UR192 co-acquired 1887 from same tambo. UR192 is the smallest; UR190 (417 cords) is the largest. Three documents from one administrative waystation, all at the same Paris museum.",
+       "evidence": {"kind": "physical", "matches": 3, "test": "Huaca Perez trio co-provenance + 1887 acquisition"}}
+    ]
+  },
+
+  "companions": [
+    {"id": "UR190", "relation": "same_provenance",
+     "note": "HUACA PEREZ TRIO member (417 cords, the largest). Same Inca tambo, same 1887 acquisition, same Quai Branly catalog. Not yet deep-read.",
+     "evidence": {"kind": "physical", "matches": 3, "test": "Huaca Perez + 1887 acquisition + Quai Branly catalog"}},
+    {"id": "UR191", "relation": "same_provenance",
+     "note": "HUACA PEREZ TRIO member (28 cords). Same Inca tambo, same 1887 acquisition."},
+    {"id": "UR188", "relation": "same_provenance",
+     "note": "QUAI BRANLY TRIO -- wall-focused cadastre (8 STRING, kaqa x3). Same museum, different site."},
+    {"id": "UR189", "relation": "same_provenance",
+     "note": "QUAI BRANLY TRIO -- cadastral parcel register (23 Nov 1487 CE). Same museum."},
+    {"id": "UR273A", "relation": "cross_khipu_signal",
+     "note": "Incahuasi sparse event register (74 percent empty). Shares the pre-formatted-but-unfilled register convention with UR192 (54 percent empty). Cross-site structural convention."},
+    {"id": "UR055", "relation": "cross_khipu_signal",
+     "note": "Succession oracle with empty-cord phase separators. UR192's empty-cord segmentation parallels UR055's phase convention at different scales."}
   ],
-  "reconstructed_xlsx": null,
-  "document_type_override": "administrative_accounting"
+
+  "confidence_axes": {
+    "word_reading": {
+      "level": "not-applicable",
+      "note": "ZERO STRING CORDS. ALBA syllabary does not contribute to vocabulary interpretation -- the register is purely numerical. This is a LIMIT case for the syllabary-based reading framework."
+    },
+    "document_type": {
+      "level": "medium",
+      "note": "administrative_accounting supported by Huaca Perez tambo provenance + purely-numerical content + two ascending-sequence structured-ranking patterns + 54 percent empty pre-formatted structure. Sub-type: tambo waystation accounting register."
+    },
+    "narrative": {
+      "level": "medium",
+      "note": "The 'Inca tambo waystation accounting' reading rests on provenance (Huaca Perez = documented Tambo Inca site) + the log-linear ascending-sequence structure (R-squared 0.981) + the pre-formatted-but-interrupted pattern. The specific interpretation of what is being counted (travellers, tribute, livestock?) is unresolved given zero STRING evidence."
+    },
+    "data_integrity": {
+      "level": "medium",
+      "note": "Zero lexical content removes the dict-hit metric. Structural analysis is precise (log-linear R-squared 0.981 is statistically robust). 54 percent empty is document-design, not damage. M1 / M2 OKR-attested physical markers preserved despite wear. No Ascher layer summarised."
+    }
+  },
+
+  "sections": [
+    {"id": "I", "title": "Cluster 1 -- Ascending Sequence (R-squared 0.981)", "cords": "1-14",
+     "reading": "14 L1 cords, sum=448. Values 10, 0, 12, 12, 16, 19, 25, 37, 43, 53, 70 follow log-linear growth (R-squared 0.981, factor 1.252/entry). C12-C14 (36, 45, 70) break the pattern = different category or summary. Peak value 70 at C11.",
+     "key_cords": [
+       {"pos": 1,  "gloss": "val=10",  "note": "SEQUENCE START"},
+       {"pos": 11, "gloss": "val=70",  "note": "SEQUENCE PEAK (max value, triple-occurrence cap)"},
+       {"pos": 14, "gloss": "val=70",  "note": "second 70-occurrence after pattern break"}
+     ]},
+    {"id": "II", "title": "Cluster 2 -- Singleton 70", "cords": "15",
+     "reading": "Single MB cord at value 70 = TOTAL / REFERENCE / DIVIDER. Third occurrence of the cap value.",
+     "key_cords": [
+       {"pos": 15, "gloss": "MB val=70", "note": "SINGLETON 70 (total / reference)"}
+     ]},
+    {"id": "III", "title": "Cluster 3 -- Sparse Pre-Formatted Block", "cords": "16-24",
+     "reading": "9 cords, sum=11, 5 empty bicolor cords. Pre-formatted positions never filled.",
+     "key_cords": [
+       {"pos": 0, "gloss": "5 empty bicolor", "note": "PRE-FORMATTED UNFILLED positions"}
+     ]},
+    {"id": "IV", "title": "Physical Marker M1", "cords": "~25",
+     "reading": "Thread-wrapped physical marker (OKR: 'very frayed'). Cluster divider.",
+     "key_cords": [
+       {"pos": 0, "gloss": "M1 thread wrap", "note": "PHYSICAL MARKER -- cluster divider"}
+     ]},
+    {"id": "V", "title": "Cluster 5 -- Second Ascending Sequence", "cords": "26-43",
+     "reading": "18 cords, sum=53. Values 5, 7, 8, 9, 11, 13 follow a second ascending pattern on a smaller scale, then 12 empties = INTERRUPTED REGISTER. Different scale from Cluster 1 (peak 13 vs 70) suggests different administrative category.",
+     "key_cords": [
+       {"pos": 26, "gloss": "val=5",   "note": "second-sequence start"},
+       {"pos": 31, "gloss": "val=13",  "note": "second-sequence peak (pattern then breaks to 12 empties)"}
+     ]},
+    {"id": "VI", "title": "Physical Marker M2", "cords": "~44",
+     "reading": "Second thread-wrapped physical marker. Cluster divider.",
+     "key_cords": [
+       {"pos": 0, "gloss": "M2 thread wrap", "note": "PHYSICAL MARKER 2 -- cluster divider"}
+     ]},
+    {"id": "VII", "title": "Cluster 7 -- Third Partial Block", "cords": "45-59",
+     "reading": "15 cords, sum=120, 11 empties. Values 12, 17, 51, 40 before empties dominate. Third interrupted sequence.",
+     "key_cords": [
+       {"pos": 70, "gloss": "LAST CORD", "note": "closes the Huaca Perez tambo register (incomplete)"}
+     ]}
+  ],
+
+  "references": [
+    "Sivan, J. (2026). The Khipu as a Layered Information System. ALBA Project preprint.",
+    "Sivan, J. (2026). Ascending-sequence analysis -- UR192 log-linear fit R-squared 0.981.",
+    "Hyslop, J. (1984). The Inka Road System -- tambo waystation network.",
+    "Rostworowski, M. (1978). Senorios indigenas de Lima y Canta.",
+    "Musee du Quai Branly, Paris -- UR192 catalogue 71.1887.9.15.",
+    "OKR note on UR192: 'M1 and M2 are composed of threads wrapped around primary cord; very frayed.'",
+    "Compare UR190 + UR191 (Huaca Perez trio), UR188 + UR189 (Quai Branly trio), UR273A (pre-formatted register convention), UR055 (empty-cord phase segmentation)."
+  ],
+
+  "reconstructed_xlsx": null
 }

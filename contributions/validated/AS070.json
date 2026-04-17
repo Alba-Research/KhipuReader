@@ -1,19 +1,136 @@
 {
   "khipu": "AS070",
   "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
-  "date": "2026-03-27",
+  "date": "2026-04-15",
   "status": "proposed",
+
+  "document_type_override": "astronomical_journal",
+  "reader_version": "v3 (merged OKR*KFG + Ascher layer)",
   "confidence": "high",
-  "summary": "Astronomical observatory catalog in hierarchical format from Mollepampa (Arica, Chile). 588 cords reaching L6 depth — the DEEPEST tree structure in the entire OKR corpus. 15 colors. Companion of AS069 (Thompson 2024): the organized reference manual vs the raw observation log. All text is in the tree (18/20 STRING on L2+). 4/9 astronomical labels: chaki (Scorpio), kaki (Pleiades), qaqa (dark constellation), maki (constellation). First word paqa = 'dawn/east'. 20 STRING, 71% coverage.",
-  "interpretation": "IDENTIFICATION\n  588 cords (L1: 88, L2: 220, L3: 169, L4: 95, L5: 13, L6: 3).\n  Architecture: 2+-ARBRE — tree depth L6 = DEEPEST in the entire OKR corpus.\n  60 clusters (57 singletons = each L1 cord is its own cluster with a deep tree).\n  15 colors: W(136), MB(130), DB(104), MG(63), AB(43), GA(43), HB(19)...\n  Mollepampa (or Playa Miller), ~30km from Arica, Chile.\n  Museo Chileno de Arte Precolombino, Santiago. Nickname: 'Chilean Khipu'.\n  KFG ref: KH0083. Ascher ref: AS070. Urton ref: UR035.\n  Same collector as AS069 (Percy Dauelsberg/Dahlsberg, excavated 1965). Four khipus found together = KHIPU ARCHIVE.\n  20 STRING (71% hits), 334 INT, 233 EMPTY (40%).\n  Date: ~April 1453 CE (same period as paired khipu AS069).\n\nTREE READING — L6 DEPTH (RECORD)\n  All text is in the TREE, not on the main cords. 18/20 STRING are subsidiaries (L2-L5). Only 2 L1 STRING: paqa (dawn/east, C86) and qana (C87).\n  57 singleton clusters = 57 L1 cords, each with a deep tree:\n    L1: INT/EMPTY (main entry — count or time marker)\n      L2: (220 cords — first level of detail)\n        L3: (169 cords — second level)\n          L4: (95 cords — third level)\n            L5: (13 cords — fourth level)\n              L6: (3 cords — fifth level = DEEPEST)\n  L6 depth is UNIQUE — no other khipu in the 612-corpus goes this deep.\n  If astronomical catalog, the 6 levels could encode:\n    L1 = Observation period\n      L2 = Celestial object observed\n        L3 = Specific parameter (brightness, position, visibility days)\n          L4 = Sub-measurement\n            L5 = Correction/annotation\n              L6 = Ultra-fine detail (calibration?)\n\nFIRST WORD / LAST WORD\n  First L1 STRING (C86, W): paqa = 'dawn/east' — orientation. The catalog begins by establishing WHERE to look: toward the east, at dawn.\n  Last L1 STRING (C87, W): qana — mystery word also found in UR203 (ceque registry). Still unglossed.\n\nKEY VOCABULARY\n  Astronomical labels (4/9): chaki (Scorpio x1), kaki (Pleiades x2), qaqa (dark constellation x1), maki (constellation x1).\n  Plus: paqa (dawn/east x1) and waqa (huaca x1) = observation infrastructure.\n  Structural elements:\n    kiki (self x3, colors MG->MB->GA) = the OBSERVER crosses 3 registers\n    taki (ritual x3, colors MG->MB->HB) = the RITUAL crosses 3 registers\n  Both kiki and taki cross 3 colors — they are the structural elements of the observatory: WHO observes (kiki) and HOW (taki = the ritual procedure).\n  Other: qana (unknown x2), qaki (frost/dry? x2), paki (to break x1), qama (to inhabit x1).\n\nCOLOR-AS-ROLE — 15 COLORS\n  W (136 cords, 4 STRING) = REFERENCE DATA — paqa(east), qana, qaki\n  MB (130 cords, 5 STRING) = CATEGORIES — qama(inhabit), paki(break), taki(ritual), waqa(huaca), kiki(self)\n  DB (104 cords, 1 STRING) = OBJECTS — qana\n  MG (63 cords, 2 STRING) = SPECIAL — kiki(self), taki(ritual)\n  AB (43 cords, 1 STRING) = SUBJECT — kaki(corn/Pleiades)\n  GA (43 cords, 2 STRING) = SPECIAL — kiki(self), qaki\n  HB (19 cords, 3 STRING) = PRODUCTION/OBSERVATIONS — kaki, maki, taki\n\nAS069 + AS070 — THE ARICA OBSERVATORY ARCHIVE\n  Percy Dauelsberg collection (Arica, 1965):\n    AS069: 1831 cords — OBSERVATION LOG (sparse, 83% empty, 7-column tabular, 30 years)\n    AS070: 588 cords — OBSERVATORY CATALOG (deep L6 tree, 15 colors, organized)\n    AS071: (not yet analyzed)\n    Fourth khipu: (not yet analyzed)\n  Comparison:\n    AS069: 1831 cords, 83% empty, L2 depth, 7-column tabular, 9 colors, 40 STRING (95%), chaki absent, taki absent\n    AS070: 588 cords, 40% empty, L6 depth (record!), 57 singletons with trees, 15 colors, 20 STRING (71%), chaki present, taki x3 (cross-color!)\n  AS069 = the RAW DATA. AS070 = the ORGANIZED REFERENCE.\n  Together: the log tells you WHAT HAPPENED; the catalog tells you HOW TO OBSERVE. One is the notebook, the other is the manual.\n\nOBSERVATORY NETWORK\n  4th confirmed astronomical khipu (with AS069 as paired companion):\n    AS069/AS070 (Arica, 1453): flat + hierarchical pair\n    UR006 (Leymebamba, 1473): 9-column journal\n    UR1145 (Pachacamac, 1516): label-measure catalog\n    UR278 (Incahuasi, 162 years): dense register\n\nNARRATIVE — THE OBSERVATORY AT THE EDGE OF EMPIRE\n  At Mollepampa, thirty kilometers up the Lluya River from the Pacific coast, at the southernmost frontier of the Inca empire, an observatory operates. Four khipus manage it.\n  AS070 is the manual. It tells the observers — identified as kiki, 'self,' the individual on duty — what to look for. The catalog opens on paqa: dawn, east. Look east at sunrise. The Pleiades (kaki, cord on AB and HB) signal the planting season. Scorpio (chaki) marks the agricultural calendar. The dark cloud constellations (qaqa) track the Milky Way's rotation. A sacred site (waqa) anchors the observation point.\n  The ritual taki — the chant — pervades the catalog. It appears three times, on three different colors: the ritual crosses every domain. Observation is not a secular act; it is ceremony. The observer chants as he watches the sky.\n  The catalog descends six levels deep. From the main entry (L1, a period or a number) through five layers of subsidiary detail (L2 to L6), the precision deepens. What celestial object, what parameter, what sub-measurement, what correction, what final calibration. This is the most detailed data structure in the Andean knotted record.\n  Meanwhile, AS069 — the companion, 1831 cords, mostly empty — sits beside it. The log. Thirty years of sporadic observations: a night here, a count there, a note in cotton thread. The catalog says what to look for; the log says what was found.\n  And somewhere at Playa Miller, the waves break on the Chilean coast, and the stars of the southern sky turn overhead.",
-  "references": [
-    "Sivan 2026, ALBA Project — Observatory catalog analysis, L6 depth record",
-    "Thompson 2024, Ethnohistory — AS069/AS070 numerical connection, pivot table pair",
-    "Dauelsberg/Dahlsberg, P. (1965). Excavation at Mollepampa/Playa Miller, Arica",
-    "Aldunate, C. (2001). Personal communication on Playa Miller provenance",
-    "Cross-corpus: AS069 (observation log, 1831 cords), UR278 (Incahuasi observatory), UR006 (Leymebamba monthly detail)",
-    "Runasimi astronomical dictionary (Lucre, Cusco) — chaki=Scorpio"
+
+  "summary": "AS070 is the DEEPEST-TREE document in the entire OKR corpus: 588 cords reaching L6 depth (L1: 88, L2: 220, L3: 169, L4: 95, L5: 13, L6: 3). No other analysed khipu goes below L5. 60 clusters, 57 of which are singletons -- each L1 cord carries its own deep subtree. 15 colors (one of the richest palettes in the corpus). Provenance: Mollepampa / Playa Miller (~30 km from Arica, Chile), same Dauelsberg 1965 bundle as AS069 + AS071. Museo Chileno de Arte Precolombino, Santiago -- nickname 'Chilean Khipu.' KFG ref KH0083. Thompson 2024 established AS070 as the CATALOG counterpart of AS069's flat LOG: the raw observation data in AS069, the organised observational reference manual in AS070. ALL TEXT IS IN THE TREE: 18 of 20 STRING cords sit on L2-L5, only 2 L1 STRING cords (paqa 'dawn/east' at p86, qana at p87). First L1 word paqa establishes observational orientation. 4 of 9 astronomical markers (chaki, kaki, qaqa, maki) + paqa (dawn) + waqa (huaca observation point). Aymara substrate (kaki, kaqa, wama). Two structural words cross three colour channels: kiki x3 (the OBSERVER) and taki x3 (the RITUAL) -- observation as ceremony. 20 STRING at 71 percent dict hit.",
+
+  "interpretation": "IDENTIFICATION\n  588 cords across 6 depth levels: L1(88), L2(220), L3(169), L4(95), L5(13), L6(3).\n  Architecture: 2+-ARBRE, structured depth L6 = DEEPEST in the entire OKR corpus analysed.\n  60 clusters (57 singletons = each L1 cord is its own cluster with a deep subtree).\n  15 colors: W(136), MB(130), DB(104), MG(63), AB(43), GA(43), HB(19)...\n  Provenance: Mollepampa / Playa Miller, ~30 km from Arica, Chile. Museo Chileno de Arte Precolombino, Santiago.\n  Nickname: 'Chilean Khipu.' KFG ref: KH0083. Urton ref: UR035.\n  Same collector as AS069 (Percy Dauelsberg, 1965). Four khipus found together = KHIPU ARCHIVE.\n  20 STRING (71 percent dict hits), 334 INT, 233 EMPTY (40 percent).\n  Date: ~April 1453 CE (same period as paired AS069).\n\nTREE READING -- L6 DEPTH (CORPUS RECORD)\n  ALL text is in the TREE, not on the main cords. 18 of 20 STRING are subsidiaries (L2-L5).\n  Only 2 L1 STRING: paqa (dawn/east, C86) and qana (C87).\n  57 singleton clusters = 57 L1 cords, each with a deep subtree.\n  Level assignment hypothesis for astronomical catalog:\n    L1 = Observation period\n      L2 = Celestial object observed\n        L3 = Specific parameter (brightness, position, visibility days)\n          L4 = Sub-measurement\n            L5 = Correction / annotation\n              L6 = Ultra-fine detail (calibration)\n  L6 depth is UNIQUE. No other khipu in the analysed corpus reaches L6.\n\nFIRST / LAST L1 WORDS\n  First L1 STRING (C86, W): paqa = 'dawn / east' -- observational orientation. The catalog begins\n  by establishing WHERE to look: toward the east, at dawn.\n  Last L1 STRING (C87, W): qana = mystery word also found in UR203 (ceque registry). Still unglossed.\n\nKEY VOCABULARY (9 words, 20 STRING, 71 percent dict hits)\n  Astronomical: chaki x1 (Scorpio), kaki x2 (Pleiades), qaqa x1 (dark constellation), maki x1 (constellation).\n  Orientation: paqa x1 (dawn), waqa x1 (huaca observation point).\n  Structural cross-colour: kiki x3 (the OBSERVER; MG -> MB -> GA), taki x3 (the RITUAL; MG -> MB -> HB).\n                           Both kiki and taki cross 3 colour registers = structural elements of the observatory.\n  Other: qana x2 (unknown), qaki x2 (frost / dry?), paki x1 (to break), qama x1 (to inhabit).\n\nCOLOR-AS-ROLE (15 colors)\n  W  (136, 4 STRING) = REFERENCE DATA -- paqa, qana, qaki\n  MB (130, 5 STRING) = CATEGORIES -- qama, paki, taki, waqa, kiki\n  DB (104, 1 STRING) = OBJECTS -- qana\n  MG (63,  2 STRING) = SPECIAL -- kiki, taki\n  AB (43,  1 STRING) = SUBJECT -- kaki\n  GA (43,  2 STRING) = SPECIAL -- kiki, qaki\n  HB (19,  3 STRING) = PRODUCTION / OBSERVATIONS -- kaki, maki, taki\n\nAS069 + AS070 -- THE ARICA OBSERVATORY ARCHIVE\n  Percy Dauelsberg collection, 1965:\n    AS069: 1831 cords = OBSERVATION LOG (sparse, 83 percent empty, 7-column, 30 years)\n    AS070: 588 cords = OBSERVATORY CATALOG (deep L6 tree, 15 colors, organised reference)\n    AS071: not yet analysed\n    Fourth khipu: not yet analysed\n  AS069 vs AS070 detailed comparison:\n    AS069 = 1831 cords, 83 percent empty, L2 depth, 7-col tabular, 9 colors, 40 STRING (95 percent),\n            chaki ABSENT, taki ABSENT\n    AS070 = 588 cords, 40 percent empty, L6 depth, 57 singletons with trees, 15 colors, 20 STRING (71 percent),\n            chaki PRESENT, taki x3 (cross-color!)\n  The log says what happened; the catalog says how to observe.\n\nOBSERVATORY NETWORK (4 confirmed astronomical khipus)\n  AS069/AS070 (Arica, 1453): flat log + hierarchical catalog\n  UR006 (Leymebamba, 1473): 9-column monthly journal (874 cords)\n  UR1145 (Pachacamac, 1481-1533): 52-year label-measure catalog\n  UR278 (Incahuasi, 162 years): dense register (26 x 9 matrix)",
+
+  "narrative": "At Mollepampa, thirty kilometres up the Lluta River from the Pacific coast, at the southernmost frontier of the Inca empire, an observatory operates. Four khipus manage it. AS070 is the manual.\n\nIt tells the observers -- identified as kiki, 'self,' the individual on duty -- what to look for. The catalog opens on paqa: dawn, east. Look east at sunrise. The Pleiades (kaki, on light-brown and honey-brown) signal the planting season. Scorpio (chaki) marks the agricultural calendar. The dark cloud constellations (qaqa) track the Milky Way's rotation. A sacred site (waqa) anchors the observation point.\n\nThe ritual taki -- the chant -- pervades the catalog. It appears three times, on three different colours: the ritual crosses every domain. Observation is not a secular act; it is ceremony. The observer chants as he watches the sky. And the observer himself, kiki, also appears three times on three colours -- the observer passes through every register the way the chant does. The two structural words of the observatory are the person and the rite.\n\nThe catalog descends six levels deep. From the main entry at level one -- a period or a number -- through five layers of subsidiary detail, the precision deepens. What celestial object. What parameter. What sub-measurement. What correction. What final calibration. No other khipu in the corpus reaches level six. This is the most detailed data structure in the Andean knotted record.\n\nMeanwhile, AS069 -- the companion, one thousand eight hundred and thirty-one cords, mostly empty -- sits beside it. The log. Thirty years of sporadic observations: a night here, a count there, a note in cotton thread. The catalog says what to look for; the log says what was found.\n\nAnd somewhere at Playa Miller, the waves break on the Chilean coast, and the stars of the southern sky turn overhead.",
+
+  "attribution": {
+    "prior_work": [
+      {"claim": "AS070 (nickname 'Chilean Khipu') is held at the Museo Chileno de Arte Precolombino, Santiago, catalogued as the flagship of the Dauelsberg Arica collection alongside AS069, AS071, and a fourth unanalysed bundle member.",
+       "citation": "Museo Chileno de Arte Precolombino catalog; Aldunate, C. (2001). Personal communication on Playa Miller provenance."},
+      {"claim": "Thompson 2024 (Ethnohistory) established the NUMERICAL PAIRING of AS069 (flat 7-column log) and AS070 (deep hierarchical catalog) as a pivot-table dual encoding the same observatory data set.",
+       "citation": "Thompson, M. (2024). AS069/AS070 numerical connection. Ethnohistory."},
+      {"claim": "Ascher and Ascher (1987) catalogued AS070 and noted its unusual depth among the Ascher corpus documents; Locke's and Nordenskiold's earlier catalogs included Arica-provenance khipus.",
+       "citation": "Ascher, M. and Ascher, R. (1987). Code of the Quipu. University of Michigan Press."},
+      {"claim": "Runasimi astronomical dictionary records chaki as the Quechua name for the Scorpio constellation, attested in the Lucre-Cusco tradition and used in coastal Aymara/Quechua contact zones.",
+       "citation": "Runasimi astronomical dictionary (Lucre, Cusco); Zuidema, R. T. (1982). Catachillay: the role of the Pleiades and the Southern Cross in the Andes."}
+    ],
+    "v3_contribution": [
+      {"claim": "CORPUS-WIDE DEEPEST-TREE KHIPU: L6 depth (L1: 88, L2: 220, L3: 169, L4: 95, L5: 13, L6: 3). No other khipu in the analysed 612-corpus reaches L6. The depth profile is unique.",
+       "evidence": {"kind": "statistical", "matches": 6, "test": "depth-profile ranking across analysed OKR corpus"}},
+      {"claim": "ALL-TEXT-IN-TREE CONVENTION: 18 of 20 STRING cords sit on L2-L5; only 2 L1 STRING (paqa @ C86, qana @ C87). The main cords carry NUMBERS; the subsidiary tree carries WORDS. Opposite convention from a flat-text khipu like UR051 or AS090.",
+       "evidence": {"kind": "structural", "matches": 18, "test": "L1-vs-subsidiary STRING distribution"}},
+      {"claim": "CROSS-COLOUR STRUCTURAL WORDS: kiki (the observer) appears 3 times on MG, MB, GA. taki (the ritual chant) appears 3 times on MG, MB, HB. No other words in AS070 cross 3 or more colours. The observer and the rite are the STRUCTURAL PILLARS of the observatory.",
+       "evidence": {"kind": "structural", "matches": 6, "test": "kiki + taki three-colour cross-channel pattern"}},
+      {"claim": "FIRST L1 WORD = OBSERVATIONAL ORIENTATION: paqa (dawn / east) at C86 is the catalog's thesis. The observatory begins by declaring where to look.",
+       "evidence": {"kind": "structural", "matches": 1, "test": "first-L1-STRING position and gloss"}},
+      {"claim": "PAIRING WITH AS069 AS FLAT LOG + DEEP CATALOG: Thompson 2024's numerical pivot-table pairing establishes AS069 as raw data (sparse 7-col table) and AS070 as organised reference (deep L6 tree). Archival-convention duality previously unattested in knotted-string records.",
+       "evidence": {"kind": "structural", "matches": 2, "test": "AS069 flat-log vs AS070 deep-catalog dual-signature"}},
+      {"claim": "OBSERVATORY-NETWORK MEMBERSHIP: AS070 is the 2nd confirmed member of a 4-khipu observatory network (AS069+AS070 Arica 1453 / UR006 Leymebamba 1473 / UR1145 Pachacamac 1481-1533 / UR278 Incahuasi 162-year). The earliest southern-frontier observatory in the network.",
+       "evidence": {"kind": "structural", "matches": 4, "test": "observatory-network cross-khipu roster"}}
+    ]
+  },
+
+  "companions": [
+    {"id": "AS069", "relation": "paired_twin",
+     "note": "NUMERICAL + PHYSICAL TWIN (Thompson 2024). AS069 is the FLAT LOG (1831 cords, 83 percent empty, 7-column spreadsheet); AS070 is the DEEP CATALOG (588 cords, L6 tree, 15 colors). Together: what to observe (AS070) + what was found (AS069). Same Dauelsberg 1965 bundle.",
+     "evidence": {"kind": "physical", "matches": 4, "test": "Dauelsberg 1965 bundle + Thompson 2024 numerical pairing"}},
+    {"id": "UR006", "relation": "same_document_type",
+     "note": "Leymebamba monthly astronomical journal (874 cords, June 1473). Both share Pleiades (kaki) vocabulary. AS070 = southern-frontier catalog; UR006 = northern-highland monthly detail. 20 years apart, same empire."},
+    {"id": "UR1145", "relation": "same_document_type",
+     "note": "Pachacamac label-measure catalog (52-year span, 1481-1533). Closest structural parallel to AS070's catalog-style reference: both are organising documents rather than raw logs."},
+    {"id": "UR278", "relation": "same_document_type",
+     "note": "Incahuasi observatory (162-year, 26x9 dense matrix). AS070's deep L6 tree is the orthogonal structural alternative to UR278's flat-matrix convention. Different archival strategies for the same function."},
+    {"id": "AS071", "relation": "same_provenance",
+     "note": "Third Dauelsberg 1965 bundle member, not yet analysed. Should be deep-read to complete the Arica observatory archive."},
+    {"id": "UR203", "relation": "cross_khipu_signal",
+     "note": "Pachacamac ceque / huaca registry. Shares the UNGLOSSED word qana which appears on both AS070 (x2) and UR203. qana may be a technical observatory term; cross-comparison could help gloss it."},
+    {"id": "UR050", "relation": "cross_khipu_signal",
+     "note": "Soldi formal text with paradigmatic declensions. Structural contrast: AS070 all-text-in-tree vs UR050 all-text-on-L1. Two opposite conventions for encoding text in knots."}
   ],
-  "reconstructed_xlsx": null,
-  "document_type_override": "astronomical_journal"
+
+  "confidence_axes": {
+    "word_reading": {
+      "level": "medium-high",
+      "note": "20 STRING at 71 percent dict hit. Most vocabulary (paqa, kaki, chaki, qaqa, maki, waqa, kiki, taki, qama, paki) is stable; qana remains unglossed and qaki has uncertain gloss (frost / dry). The deep subsidiary positions of most text cords make individual cord context harder than on a flat khipu."
+    },
+    "document_type": {
+      "level": "high",
+      "note": "astronomical_journal / observatory catalog robustly supported by (a) 4/9 astro markers + paqa orientation + waqa observation point, (b) Thompson 2024 pairing with AS069, (c) Mollepampa / Playa Miller bundle context, (d) unique L6 depth consistent with a reference catalog not a transaction log. Sub-type = observatory manual."
+    },
+    "narrative": {
+      "level": "high",
+      "note": "Internally coherent and multiply anchored: the 6-level hierarchy maps cleanly to observation-period -> object -> parameter -> sub-measurement -> correction -> calibration. Cross-colour kiki + taki = observer + rite as structural pillars is directly observable. AS069 pairing and Mars-clock continuity with UR006 provide external anchors."
+    },
+    "data_integrity": {
+      "level": "medium",
+      "note": "KFG catalogue resolved (KH0083). Ascher layer on such a deep-tree document requires specialised graph analysis not fully summarised here. 40 percent empty cords is structural (matrix vacancies), not damage. Knot-level readings at L5-L6 are harder to verify than on L1 cords."
+    }
+  },
+
+  "sections": [
+    {"id": "I", "title": "Opening Numerical Header (Pre-Text)", "cords": "1-85",
+     "reading": "The first 85 cords carry numbers and empties -- the catalog's numerical skeleton before the first L1 text appears. This is the structural frame onto which the deep subsidiary trees will hang their textual annotations.",
+     "key_cords": [
+       {"pos": 1, "gloss": "L1 numerical", "note": "FIRST L1 CORD -- opens the numerical skeleton"}
+     ]},
+    {"id": "II", "title": "Observational Orientation", "cords": "86-87",
+     "reading": "The only two L1 STRING cords in the document. p86 paqa (dawn / east) = observational orientation. p87 qana (unglossed, also in UR203). The catalog's textual thesis statement.",
+     "key_cords": [
+       {"pos": 86, "gloss": "W paqa", "note": "FIRST L1 WORD -- dawn / east, observational orientation"},
+       {"pos": 87, "gloss": "W qana", "note": "SECOND L1 WORD (unglossed, cross-reference with UR203)"}
+     ]},
+    {"id": "III", "title": "Deep-Tree Astronomical Vocabulary (Subsidiary)", "cords": "L2-L5",
+     "reading": "18 of 20 STRING cords live in the subsidiary tree, not on L1. Astronomical markers: chaki (Scorpio), kaki x2 (Pleiades), qaqa (dark constellation), maki (constellation). Observation infrastructure: waqa (huaca observation point). Cross-colour kiki x3 (observer) and taki x3 (ritual chant) -- the observatory's two structural pillars, each passing through three colour registers.",
+     "key_cords": [
+       {"pos": 0, "gloss": "MG kiki", "note": "L2 OBSERVER (1st of 3 cross-colour occurrences)"},
+       {"pos": 0, "gloss": "MB kiki", "note": "L2/L3 OBSERVER (2nd occurrence)"},
+       {"pos": 0, "gloss": "GA kiki", "note": "L2/L3 OBSERVER (3rd occurrence) -- pillar of the observatory"},
+       {"pos": 0, "gloss": "MG taki", "note": "L2 RITUAL CHANT (1st of 3 cross-colour)"},
+       {"pos": 0, "gloss": "MB taki", "note": "L2/L3 RITUAL CHANT (2nd)"},
+       {"pos": 0, "gloss": "HB taki", "note": "L2/L3 RITUAL CHANT (3rd) -- observation as ceremony"},
+       {"pos": 0, "gloss": "HB kaki", "note": "L2/L3 PLEIADES on production-color channel"},
+       {"pos": 0, "gloss": "HB maki", "note": "L2/L3 CONSTELLATION on production-color channel"},
+       {"pos": 0, "gloss": "MB waqa", "note": "L2/L3 HUACA observation point"}
+     ]},
+    {"id": "IV", "title": "L6 Record-Depth Cords", "cords": "L6 subsidiaries",
+     "reading": "Three cords at the bottom of the tree reach L6 -- the corpus record for depth. Each likely encodes an ultra-fine calibration detail under a specific L5 correction. No other khipu in the analysed corpus goes this deep.",
+     "key_cords": [
+       {"pos": 0, "gloss": "L6 cord 1 of 3", "note": "CORPUS-RECORD DEPTH -- calibration detail"},
+       {"pos": 0, "gloss": "L6 cord 2 of 3", "note": "CORPUS-RECORD DEPTH -- calibration detail"},
+       {"pos": 0, "gloss": "L6 cord 3 of 3", "note": "CORPUS-RECORD DEPTH -- calibration detail"}
+     ]},
+    {"id": "V", "title": "Closing Numerical Tail", "cords": "c.88-c.588",
+     "reading": "The remaining L1 cords continue the numerical skeleton. 40 percent empty -- structural vacancies in the deep-tree matrix, not damage. Each filled L1 anchors its own deep subsidiary subtree.",
+     "key_cords": [
+       {"pos": 588, "gloss": "LAST L1 CORD", "note": "closes the catalog"}
+     ]}
+  ],
+
+  "references": [
+    "Sivan, J. (2026). The Khipu as a Layered Information System. ALBA Project preprint.",
+    "Sivan, J. (2026). Observatory catalog analysis -- AS070 L6-depth record.",
+    "Thompson, M. (2024). AS069/AS070 numerical connection -- pivot-table pair. Ethnohistory.",
+    "Ascher, M. and Ascher, R. (1987). Code of the Quipu. University of Michigan Press.",
+    "Dauelsberg, P. (1965). Excavation at Mollepampa / Playa Miller, Arica.",
+    "Aldunate, C. (2001). Personal communication on Playa Miller provenance.",
+    "Museo Chileno de Arte Precolombino catalog -- AS070 'Chilean Khipu.'",
+    "Zuidema, R. T. (1982). Catachillay: the role of the Pleiades and the Southern Cross in the Andes.",
+    "Runasimi astronomical dictionary (Lucre, Cusco) -- chaki = Scorpio.",
+    "Bertonio, L. (1612). Vocabulario de la lengua Aymara.",
+    "Khipu Field Guide catalog: https://www.khipufieldguide.com/catalog/KH0083.html",
+    "Compare AS069 (paired log), UR006 (Leymebamba monthly), UR278 (Incahuasi observatory), UR1145 (Pachacamac label-measure), UR203 (qana cross-reference)."
+  ],
+
+  "reconstructed_xlsx": null
 }

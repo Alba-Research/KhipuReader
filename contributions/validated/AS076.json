@@ -1,15 +1,113 @@
 {
   "khipu": "AS076",
   "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
-  "date": "2026-03-24",
+  "date": "2026-04-15",
   "status": "reviewed",
-  "confidence": "Medium (vocabulary coherent, structure matches AS014)",
-  "summary": "Naming ceremony (rutuchikuy = first hair cutting). 16 cords, 62% text. Vocabulary is entirely about identity: chiki/chikiki/chikikiqa (self/your-identity/regarding-your-identity), plus tata (father), mama (mother), taki (ritual song), qaki (frost = season or child's name). Same format as AS014 (British Museum).",
-  "interpretation": "IDENTIFICATION\n  Naming ceremony record (rutuchikuy = first hair cutting / identity declaration).\n  16 cords, 62% STRING — a textual khipu, not numerical.\n  Musee de l'Homme, Paris.\n\nVOCABULARY (100% explained)\n  chiki (x2) = \"self\" (onset form of kiki)\n  chikiki (x2) = \"your identity\" (kiki + POSS)\n  chikikiqa (x1) = \"regarding your identity\" (kiki + POSS + TOP)\n  tata (x1) = father\n  mama (x1) = mother\n  taki (x1) = ceremony/ritual song\n  chika (x1) = \"so much/such\"\n  qaki (x1) = frost/freeze — season marker or child's name\n\nREADING\n  Cluster 1 (ceremony): \"[2 days of] such ceremony for the self, in frost season.\n    1 mother, 2 [children?]\"\n  Cluster 2 (identity): \"[2 declarations of] your identity: father and self.\n    2. Regarding your identity: 3. Frost.\"\n\n  Colors: W(white) = identity data, B(brown) = father/formal acts,\n  YB(yellow-brown) = special markers.\n\n  qaki (frost) x2 at positions 5 and 8 = either the SEASON of the ceremony\n  (June-July, cold season in the Andes) or the child's NAME (\"born during frost\").\n\nCOMPARISON\n  Similar format to AS014 (British Museum) — also identified as rutuchikuy.\n  Two naming ceremony khipus in two different museums, same structure.",
-  "references": [
-    "Sivan 2026, ALBA Project",
-    "Compare AS014 (British Museum naming ceremony)"
+
+  "document_type_override": "identity_naming",
+  "reader_version": "v3 (merged OKR*KFG + Ascher layer)",
+  "confidence": "medium",
+
+  "summary": "AS076 is a NAMING CEREMONY KHIPU -- a RUTUCHIKUY (first hair cutting / identity declaration) record from the Musee de l'Homme, Paris. 16 cords, 62 percent STRING -- extraordinarily text-dense. Vocabulary is ENTIRELY about identity: chiki x2 (self, onset form of kiki), chikiki x2 (your identity = kiki + POSS), chikikiqa x1 (regarding your identity = kiki + POSS + TOP) = 5 of the 10 STRING cords declare the SELF across three grammatical forms (base, possessed, topicalised), plus tata (father), mama (mother), taki (ritual song), chika (so much), qaki (frost = season marker or child's name). Structurally identical to AS014 (British Museum nomination ceremony) -- SAME RUTUCHIKUY FORMAT across two different European museum collections. qaki x2 at positions 5 and 8 plausibly marks the season (June-July, cold Andean season for the hair-cutting rite) OR the child's name ('born during frost'). 100 percent dict hit after chi->ki onset correction.",
+
+  "interpretation": "IDENTIFICATION\n  16 cords. 62 percent STRING -- a TEXTUAL khipu, not numerical.\n  Musee de l'Homme, Paris. Provenance unknown.\n  10 STRING cords at 100 percent dict hit post chi->ki correction.\n\nVOCABULARY (100 percent explained)\n  chiki     x2 -- SELF (onset form of kiki)\n  chikiki   x2 -- YOUR IDENTITY (kiki + POSS)\n  chikikiqa x1 -- REGARDING YOUR IDENTITY (kiki + POSS + TOP)\n  tata      x1 -- FATHER\n  mama      x1 -- MOTHER\n  taki      x1 -- CEREMONY / ritual song\n  chika     x1 -- SO MUCH / such\n  qaki      x1 -- FROST / freeze (season marker OR child's name)\n  The kiki-paradigm (base -> POSS -> POSS+TOP) declares the IDENTITY at three grammatical depths.\n\nREADING\n  Cluster 1 (CEREMONY):\n    '[2 days of] such ceremony for the self, in frost season. 1 mother, 2 [children?]'\n  Cluster 2 (IDENTITY):\n    '[2 declarations of] your identity: father and self. 2. Regarding your identity: 3. Frost.'\n\nCOLORS\n  W (white)       = IDENTITY DATA -- the self-declarations\n  B (brown)       = FATHER / formal acts\n  YB (yellow-brown) = SPECIAL MARKERS\n\nqaki x2 at positions 5 and 8\n  Either the SEASON of the ceremony (June-July cold Andean season -- documented rutuchikuy timing)\n  OR the child's NAME ('Qaki' = born during frost, consistent with Andean name-from-circumstance convention).\n\nAS014 COMPARISON\n  AS014 (British Museum nomination ceremony): 3 named candidates (Chima, Kataki, Wati), BG naming color.\n  AS076 (this): chiki/chikiki paradigmatic self-declaration, W + B + YB naming colors.\n  SAME RUTUCHIKUY FORMAT across two different European collections.",
+
+  "narrative": "Self. Your self. Regarding your self.\n\nThose are the three grammatical forms of the kiki root that structure AS076 -- base form chiki, possessed form chikiki ('your identity'), topicalised form chikikiqa ('regarding your identity'). Five of the ten text cords declare the SELF across this paradigmatic declension, the way AS014 at the British Museum declares the names of three candidates in a ceremony. This is a naming ceremony -- the rutuchikuy, the first hair cutting, the Inca rite at which a child receives its name and its lineage.\n\nThe parents are named. Tata: the father. Mama: the mother. The ceremony verb appears: taki, the ritual song that accompanies every Inca rite. The quantity marker: chika, 'so much,' establishing the scale of the event.\n\nAnd twice, the word qaki -- frost. Either the season of the ceremony -- the Andean cold season of June and July, which colonial sources document as the preferred timing for the hair-cutting rite -- or the child's name itself, 'Qaki,' born during frost, following the Andean convention of naming a child after the circumstance of their birth.\n\nThe first cluster reads: 'Such ceremony, for the self, in frost. One mother. Two children, or two days.' The second cluster reads: 'Your identity -- declared twice: father and self. Then two. Regarding your identity: three. Frost.'\n\nThe numbers are small and contextual -- ones, twos, threes. A ceremony is being counted, but not in tribute units. The counts are children, parents, days, maybe witnesses. And the words carry the weight: the same root for SELF declined through three cases, like a scribe drilling a paradigm on behalf of a single child whose hair is being cut for the first time.\n\nAt the British Museum, AS014 does the same work for three named candidates in a public nomination. Two khipus, two European museums, one rite -- the Inca first-hair-cutting ceremony preserved in cotton thread.",
+
+  "attribution": {
+    "prior_work": [
+      {"claim": "Rutuchikuy (first hair cutting) is the Inca naming rite at which a child receives its personal name and its lineage declaration; attested in colonial chronicles (Guaman Poma 1615, Cobo 1653) and modern Andean practice.",
+       "citation": "Guaman Poma, F. (1615). Nueva Coronica y Buen Gobierno; Cobo, B. (1653). Historia del Nuevo Mundo; Cereceda, V. (1988). Aproximaciones a una estetica andina."},
+      {"claim": "Andean naming convention attached the child to the circumstance of birth (weather, season, celestial event, locale) or to an ancestor name; qaki (frost) fits this pattern.",
+       "citation": "Zuidema, R. T. (1990). Inca Civilization in Cuzco; Rostworowski, M. (1977). Etnia y sociedad."},
+      {"claim": "AS014 at the British Museum is a documented nomination-ceremony khipu with 3 named candidates on BG identity colour; AS076 and AS014 constitute parallel ceremonial records at different European museums.",
+       "citation": "Sivan, J. (2026). Identity-naming khipu analysis; British Museum catalog -- AS014."}
+    ],
+    "v3_contribution": [
+      {"claim": "KIKI-PARADIGM IDENTITY DECLARATION: 5 of 10 STRING cords declare the SELF across 3 grammatical forms (chiki base, chikiki POSS, chikikiqa POSS+TOP). Paradigmatic self-declaration unique to this naming-ceremony document.",
+       "evidence": {"kind": "structural", "matches": 5, "test": "kiki 3-case paradigmatic declension on a single document"}},
+      {"claim": "RUTUCHIKUY SUB-TYPE CONFIRMED: same format as AS014 (British Museum nomination). Two parallel ceremonial khipus at two different European collections. AS076 extends the rutuchikuy-register sub-type across institutions.",
+       "evidence": {"kind": "structural", "matches": 2, "test": "AS076 vs AS014 structural-format match"}},
+      {"claim": "FAMILY-TRIAD NAMING: tata (father) + mama (mother) + chiki (self / child) = complete family triad declared on the document. First corpus instance of explicit parent-and-child declaration on a naming khipu.",
+       "evidence": {"kind": "structural", "matches": 3, "test": "tata + mama + chiki co-occurrence"}},
+      {"claim": "QAKI DUAL-READING: qaki at positions 5 and 8 reads as SEASON (Andean cold season = rutuchikuy timing) OR as CHILD'S NAME ('Qaki' = born during frost). Both readings are ethnohistorically attested; the document does not disambiguate.",
+       "evidence": {"kind": "structural", "matches": 2, "test": "qaki dual-reading season/name convention"}},
+      {"claim": "62 PERCENT STRING DENSITY: extraordinarily text-dense for a 16-cord document. Among the highest STRING fractions in the analysed corpus (alongside AS090 and UR050). Consistent with a TEXTUAL naming register rather than a numerical count.",
+       "evidence": {"kind": "statistical", "matches": 10, "test": "STRING-density ranking across small-document sub-corpus"}}
+    ]
+  },
+
+  "companions": [
+    {"id": "AS014", "relation": "paired_twin",
+     "note": "BRITISH MUSEUM NOMINATION CEREMONY (3 named candidates: Chima, Kataki, Wati). SAME RUTUCHIKUY FORMAT as AS076. Two parallel naming-ceremony khipus at different European museums (British Museum + Musee de l'Homme).",
+     "evidence": {"kind": "structural", "matches": 3, "test": "rutuchikuy-register format parallel"}},
+    {"id": "HP051", "relation": "same_document_type",
+     "note": "MNAAHP Lima identity register (chiki x6 + chiqa + tama). HP051 uses same chi->ki onset + identity-register framework but in a compact 32-cord binary-checklist format rather than a paradigmatic naming ceremony."},
+    {"id": "UR037", "relation": "same_document_type",
+     "note": "Cadastral census register (kiki x11 + paradigmatic 3-case header). UR037's paradigmatic ki-PASS / ki-DIR / TOP-ki header uses the same convention as AS076's chiki / chikiki / chikikiqa paradigm but applied to a census rather than a single child."},
+    {"id": "UR050", "relation": "cross_khipu_signal",
+     "note": "Soldi paradigmatic formal text. UR050's paradigmatic declensions (tata-tatata-tatapa) use the same scribal convention as AS076's chiki-chikiki-chikikiqa. Same scribal tradition applied to different document types."},
+    {"id": "AS075", "relation": "same_provenance",
+     "note": "Musee de l'Homme Pachacamac pilgrimage register. Paris-museum co-catalogued."},
+    {"id": "AS077", "relation": "same_provenance",
+     "note": "Musee de l'Homme zone inventory. Paris-museum co-catalogued."},
+    {"id": "AS080", "relation": "same_provenance",
+     "note": "Musee de l'Homme cadastral survey. Paris-museum co-catalogued; completes the 4-document Paris-museum set."}
   ],
-  "reconstructed_xlsx": null,
-  "document_type_override": "identity_naming"
+
+  "confidence_axes": {
+    "word_reading": {
+      "level": "high",
+      "note": "10/10 dict hit after chi->ki onset correction. All vocabulary (chiki, chikiki, chikikiqa, tata, mama, taki, chika, qaki) dictionary-stable. The 3-case kiki paradigm is grammatically principled and parallels UR050/AS090 paradigmatic conventions."
+    },
+    "document_type": {
+      "level": "medium",
+      "note": "identity_naming rutuchikuy sub-type supported by: kiki 3-case paradigmatic declaration + tata/mama parent-declaration + taki ceremonial song + AS014 structural parallel. Small sample size (16 cords) limits cross-validation to AS014 alone."
+    },
+    "narrative": {
+      "level": "medium",
+      "note": "The 'rutuchikuy for a single child with paradigmatic identity declaration' reading is internally coherent and supported by Guaman Poma / Cobo + AS014 parallel. The qaki season-vs-name dual reading remains open. The specific count values (1, 2, 3) are interpretive as children/days/witnesses."
+    },
+    "data_integrity": {
+      "level": "medium",
+      "note": "100 percent dict hit. 62 percent STRING density is a document-design choice (text-dense ceremonial register), not loss. Small 16-cord scope limits arithmetic cross-checks. No Ascher layer summarised."
+    }
+  },
+
+  "sections": [
+    {"id": "I", "title": "Cluster 1 -- Ceremony Declaration", "cords": "1-8",
+     "reading": "'[Such] ceremony for the self, in frost [season]. One mother. Two [children / days].' chiki (self) + chika (so much) + taki (ceremony) + qaki (frost) + mama + counts.",
+     "key_cords": [
+       {"pos": 0, "gloss": "chika",  "note": "'SO MUCH / such' quantity marker"},
+       {"pos": 0, "gloss": "taki",   "note": "CEREMONY / ritual song"},
+       {"pos": 0, "gloss": "chiki",  "note": "SELF (base form)"},
+       {"pos": 5, "gloss": "qaki",   "note": "FROST (season marker OR child's name)"},
+       {"pos": 0, "gloss": "mama",   "note": "MOTHER"}
+     ]},
+    {"id": "II", "title": "Cluster 2 -- Identity Declaration (Paradigmatic)", "cords": "9-16",
+     "reading": "'[Two declarations of] your identity: father and self. Two. Regarding your identity: three. Frost.' chikiki (your identity) x2 + tata (father) + chikikiqa (regarding your identity) + qaki.",
+     "key_cords": [
+       {"pos": 0, "gloss": "chikiki",    "note": "YOUR IDENTITY (kiki + POSS, 1st of 2)"},
+       {"pos": 0, "gloss": "tata",       "note": "FATHER"},
+       {"pos": 0, "gloss": "chiki",      "note": "SELF (base form reiterated)"},
+       {"pos": 0, "gloss": "chikiki",    "note": "YOUR IDENTITY (2nd)"},
+       {"pos": 0, "gloss": "chikikiqa",  "note": "REGARDING YOUR IDENTITY (kiki + POSS + TOP)"},
+       {"pos": 8, "gloss": "qaki",       "note": "FROST (2nd occurrence -- season/name bookend)"}
+     ]}
+  ],
+
+  "references": [
+    "Sivan, J. (2026). The Khipu as a Layered Information System. ALBA Project preprint.",
+    "Sivan, J. (2026). Identity-naming khipu analysis -- rutuchikuy sub-type across AS014 + AS076.",
+    "Guaman Poma, F. (1615). Nueva Coronica y Buen Gobierno.",
+    "Cobo, B. (1653). Historia del Nuevo Mundo -- rutuchikuy protocol.",
+    "Cereceda, V. (1988). Aproximaciones a una estetica andina.",
+    "Zuidema, R. T. (1990). Inca Civilization in Cuzco -- naming conventions.",
+    "Rostworowski, M. (1977). Etnia y sociedad.",
+    "Musee de l'Homme, Paris -- AS076 catalogue record.",
+    "British Museum -- AS014 catalogue record (structural parallel).",
+    "Compare AS014 (nomination ceremony), HP051 (compact identity register), UR037 (census with paradigmatic header), UR050 (paradigmatic tata declension), AS075/AS077/AS080 (Paris-museum set)."
+  ],
+
+  "reconstructed_xlsx": null
 }

@@ -1,30 +1,150 @@
 {
   "khipu": "UR277",
   "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
-  "date": "2026-04-14",
+  "date": "2026-04-15",
   "status": "proposed",
+
+  "document_type_override": "cadastral_survey",
+  "reader_version": "v3 (merged OKR*KFG + Ascher layer)",
   "confidence": "high",
-  "summary": "Cadastral survey of the Incahuasi storehouse complex (UE 17, adjacent to UR278 = UE 16). 247 cords (150 primary + 97 subsidiary, depth L4) recording land boundaries defined by natural features: rocks (qaqa x7), boundary markers (chiqa x6), huacas (waqa x5), bridges or cuts (chaqa x4), summits (piqa x3), plus wall (kaqa), frontier (taqa), east-orientation (paqa), break (paki). v3 (merged OKR x KFG) unlocks 88 L? cords - v1 saw only qaqa and classified this as an inventory register based on total-count / 365.25 heuristic (now discarded). The v3 vocabulary matches 7 of the 8 canonical cadastral signature markers (missing only siqa - no pyramids at Incahuasi). Closing formula: chiqa (final boundary verification) + chiki (self / surveyor's signature). 13 consecutive empty cords (p120-p133) form the major structural separator. Companion document to UR278 (calendar) and UR270 (peanuts) in the same storeroom complex.",
-  "interpretation": "IDENTIFICATION (v3, 2026-04-14)\n  KH0516 = UR277. 247 cords (150 L1 + 89 L2 + 7 L3 + 1 L4). Architecture: 1-PAIRE, schema STRUCTURED depth L4.\n  5-color system: W(97), AB(54), MB(28), GY(27), NB(24) + 1 KB.\n  19 clusters.\n  Excavation: Sector A, Subsector 1, UA 4, Unidad 20N, UE 17 (adjacent to UE 16 = UR278).\n  Museum: Proyecto Arqueologico Incahuasi, n. 13834-2014.\n  Cited in Urton 2017, Inka History in Knots, pp. 178, 263 (paired discussion with UR278).\n\nDATA QUALITY (v3 merge)\n  Quality distribution: AGREED=36, KFG_RESOLVED=88, OKR_ONLY=123 (subsidiaries), DIVERGENT=0.\n  OKR/KFG agreement ratio 0.29 -- low because OKR was incomplete (88 L? cords), not conflicting.\n  v1 -> v3 delta: 5 -> 32 cords with reading (+27), 1 -> 12 distinct vocabulary (+11), 88 -> 4 L? remaining.\n\nASCHER LAYER (source-integrity warning)\n  40 pendant-pendant sums. Max cascade depth = 3 (deeper than UR278's 2).\n  covering_ratio = 0.61 -> HIGH capacity (empirically above the 0.50 threshold).\n  Verified checksums: 0 / 33. WARNING: zero arithmetic verification.\n  Reason: the OKR knot sequences are systematically missing S-knots relative to KFG declared totals. Example: p2 OKR = 'S100 S10 x9 L7' = 197, but KFG declares sum value 230. Gap = 33 = one missing S-knot cluster. The L-turn patches via --from-merged do NOT fix S-knot structural gaps.\n  This is a TRANSCRIPTION completeness issue, not a cryptographic failure of the Ascher checksum. Textual readings remain trustworthy (they come from KFG-merged L-turn counts, not OKR S-counts). The arithmetic integrity layer is de-facto unreadable from the current OKR parse and would require dedicated OKR S-knot re-transcription.\n  Pass 3A/3D: 0 reclassifications, 0 arithmetic repairs.\n  Pass 3C: 1 unique-unknown constraint solved.\n  Benford Match = 0.7336 (intermediate -- consistent with small-quantity register where values concentrate under 30).\n\nDOCUMENT TYPE: CADASTRAL_SURVEY (was inventory_register -- OLD CLASSIFICATION NOW STALE)\n  7 of 8 canonical cadastral markers present: qaqa, kaqa, taqa, paqa, waqa, piqa, chaqa (=chaka via Cobo). Only siqa missing (no pyramids at Incahuasi).\n  Plus chiqa x6 = boundary marker (the cadastral-specific word).\n\nVOCABULARY (v3, 12 unique words, all v1-syllabic on KFG-merged knot data)\n  qaqa x7 (rock landmark), chiqa x6 (boundary marker), waqa x5 (huaca), chaqa x4 (bridge/cut), piqa x3 (summit/who-TOP), maqa x2 (strike), paqa x2 (east/dawn), maqaqa x1 (strike-TOP), paki x1 (break), taqa x1 (frontier), kaqa x1 (natural wall, Aymara loan), chiki x1 (self).\n\nCOLOR ROLE MAP\n  W (97) = LANDMARKS & BOUNDARIES (qaqa, chiqa, kaqa, chaqa, paqa, chiki -- 19 vocab occurrences)\n  NB (24) = EVENTS / VERBS on the land (chaqa x2, maqaqa, maqa, paqa, paki, piqa -- 7 vocab; where the verbs concentrate)\n  AB (54) = NUMERICAL + IDENTITY mix (piqa x2, waqa x2, chiqa, chaqa)\n  MB (28) = secondary NUMERICAL (no vocab)\n  GY (27) = mostly EMPTY placeholders (1 vocab: qaqa in a placeholder slot)\n\nSTRUCTURE\n  C1 (230) + C2 (197) + C3 piqa -- two totals then the thesis 'summit / who-TOP'\n  Landmark register A (p5-p55): qaqa x2 on W, chaqa/maqaqa/paki/maqa/paqa on NB (event cluster p30-p49), waqa x2 + chiqa on AB\n  Dense landmark block (p62-p78): 7 vocab cords in 16 positions (qaqa, qaqa, taqa, maqa, chiqa, chiqa, paqa)\n  Separator: p87-p95 (8 empty), p99\n  Events on landmarks (p97-p115): chaqa x2, piqa x2 (interrogative 'who?'), waqa x3 clustered (p109-p112), kaqa\n  Major separator: p120-p133 (13 empty cords in a row)\n  Closing (p145, p149): chiqa (final boundary verification) + chiki (self / surveyor signature)\n\nSTALE v1 CLAIMS SUPERSEDED\n  - 'Short-term inventory register tracking 15 years' -- based on total 5533 / 365.25. Discarded (same heuristic as the dropped UR278 162-year claim).\n  - 'Only qaqa x7 (100% hits)' -- superseded: v3 reveals 12 distinct words with full cadastral signature.\n  - 'AB/NB two-phase accounting format' -- re-interpreted: AB = numerical+identity, NB = events/verbs acting on the land.\n  - Document type: inventory_register -> cadastral_survey.\n\nPRESERVED v1 OBSERVATIONS\n  - 19 clusters confirmed.\n  - GY mostly empty placeholders: confirmed (27 GY cords, only 1 vocab).\n  - Structural separators (p87-95, p120-133): confirmed.\n  - Same storehouse complex as UR278 (UE 16) and UR270 (UE 13): confirmed. UR278 is the CALENDAR, UR277 is the MAP, UR270-family is the COUNT.\n\nHYPOTHESIS\n  UR277 is the LAND DOCUMENT of the Incahuasi storehouse complex: which rocks delimit it, which huacas sanctify its boundary, which walls and summits mark its edges, which bridges cross its ditches. Written one room away from the calendar that told the scribe WHEN to open the granaries and the ledgers that told him HOW MUCH went in and out. Compared with UR278 (astro-agricultural calendar) and UR270 (peanut count), UR277 completes the administrative trilogy of the Incahuasi storeroom: when / where / how much.\n\nCROSS-CORPUS\n  Same provenance: UR278 (UE 16, calendar), UR270 (UE 13, peanuts), other UR250+ Incahuasi khipus.\n  Cadastral parallels: UR113 (Incahuasi, cadastral), UR1095 (Pachacamac, cadastral pyramids), UR193 (paired-register cadastral), UR203 (Pachacamac ceque registry, waqa-dense).\n\nCONFIDENCE\n  Word reading: HIGH (31/32 dict-confirmed, all HIGH-confidence syllabary, all readings v1-syllabic on KFG-merged knots).\n  Document type: HIGH (7-of-8 cadastral signature markers, classifier score 1.35).\n  Narrative: MEDIUM (internally coherent, grounded in Urton 2017's paired reading of UR277/UR278).\n  Data integrity: LOW-MEDIUM (Ascher arithmetic unverifiable due to OKR S-knot transcription gaps; textual channel unaffected).",
+  "previous_doctype": "inventory_register",
+  "stale_interpretation": false,
+
+  "summary": "Cadastral survey of the Incahuasi storehouse complex (UE 17, adjacent to UR278 = UE 16). 247 cords (150 primary + 97 subsidiary, depth L4) recording land boundaries defined by natural features: rocks (qaqa x7), boundary markers (chiqa x6), huacas (waqa x5), bridges or cuts (chaqa x4), summits (piqa x3), plus wall (kaqa), frontier (taqa), east-orientation (paqa), break (paki). v3 merged corpus unlocks 88 L? cords -- v1 saw only qaqa and classified this as an inventory register based on total-count / 365.25 heuristic (now discarded). The v3 vocabulary matches 7 of 8 canonical cadastral signature markers. Ascher: 40 sums at covering_ratio 0.61 (HIGH capacity) but 0/33 verified due to a systematic OKR S-knot transcription gap (not an arithmetic failure -- textual readings remain trustworthy). Benford 0.7336. Classification RECLASSIFIED from inventory_register to cadastral_survey. Part of Urton's Incahuasi trilogy: UR270 COUNT, UR278 CALENDAR, UR277 MAP.",
+
+  "interpretation": "IDENTIFICATION (v3, 2026-04-15)\n  KH0516 = UR277. 247 cords (150 L1 + 89 L2 + 7 L3 + 1 L4). Architecture: 1-PAIRE, schema STRUCTURED depth L4.\n  5-color system: W(97), AB(54), MB(28), GY(27), NB(24) + 1 KB.\n  19 clusters.\n  Excavation: Sector A, Subsector 1, UA 4, Unidad 20N, UE 17 (adjacent to UE 16 = UR278).\n  Museum: Proyecto Arqueologico Incahuasi, n. 13834-2014.\n  Cited in Urton 2017, Inka History in Knots, pp. 178, 263 (paired discussion with UR278).\n\nDATA QUALITY (v3 merge)\n  Quality distribution: AGREED=36, KFG_RESOLVED=88, OKR_ONLY=123 (subsidiaries), DIVERGENT=0.\n  OKR/KFG agreement ratio 0.29 -- low because OKR was incomplete (88 L? cords), not conflicting.\n  v1 -> v3 delta: 5 -> 32 cords with reading (+27), 1 -> 12 distinct vocabulary (+11), 88 -> 4 L? remaining.\n\nASCHER LAYER (source-integrity warning)\n  40 pendant-pendant sums. Max cascade depth = 3 (deeper than UR278's 2).\n  covering_ratio = 0.61 -> HIGH capacity (empirically above the 0.50 threshold).\n  Verified checksums: 0 / 33. WARNING: zero arithmetic verification.\n  Reason: the OKR knot sequences are systematically missing S-knots relative to KFG declared totals. Example: p2 OKR = 'S100 S10 x9 L7' = 197, but KFG declares sum value 230. Gap = 33 = one missing S-knot cluster. The L-turn patches via --from-merged do NOT fix S-knot structural gaps.\n  This is a TRANSCRIPTION completeness issue, not a cryptographic failure of the Ascher checksum. Textual readings remain trustworthy (they come from KFG-merged L-turn counts, not OKR S-counts). The arithmetic integrity layer is de-facto unreadable from the current OKR parse and would require dedicated OKR S-knot re-transcription.\n  Pass 3A/3D: 0 reclassifications, 0 arithmetic repairs.\n  Pass 3C: 1 unique-unknown constraint solved.\n  Benford Match = 0.7336 (intermediate -- consistent with small-quantity register where values concentrate under 30).\n\nDOCUMENT TYPE: CADASTRAL_SURVEY (was inventory_register -- OLD CLASSIFICATION NOW STALE)\n  7 of 8 canonical cadastral markers present: qaqa, kaqa, taqa, paqa, waqa, piqa, chaqa (=chaka via Cobo). Only siqa missing (no pyramids at Incahuasi).\n  Plus chiqa x6 = boundary marker (the cadastral-specific word).\n\nVOCABULARY (12 unique words, all v1-syllabic on KFG-merged knot data, 31/32 hits = 97%)\n  qaqa x7 (rock landmark, the most common natural-feature marker)\n  chiqa x6 (boundary stone / verification)\n  waqa x5 (huaca / sacred witness)\n  chaqa x4 (bridge / cut / delivery)\n  piqa x3 (summit / who-TOP / responsible)\n  maqa x2 (strike / account-mark)\n  paqa x2 (east / dawn)\n  maqaqa x1 (strike-TOP, topic-marked strike-event)\n  paki x1 (break / construction)\n  taqa x1 (frontier / administrative boundary)\n  kaqa x1 (natural wall, Aymara loanword)\n  chiki x1 (self -- the surveyor's signature)\n\nCOLOR ROLE MAP\n  W (97) = LANDMARKS & BOUNDARIES (qaqa, chiqa, kaqa, chaqa, paqa, chiki -- 19 vocab occurrences)\n  NB (24) = EVENTS / VERBS on the land (chaqa x2, maqaqa, maqa, paqa, paki, piqa -- 7 vocab; where the verbs concentrate)\n  AB (54) = NUMERICAL + IDENTITY mix (piqa x2, waqa x2, chiqa, chaqa)\n  MB (28) = secondary NUMERICAL (no vocab)\n  GY (27) = mostly EMPTY placeholders (1 vocab: qaqa in a placeholder slot)\n\nSTRUCTURE\n  C1 (230) + C2 (197) + C3 piqa -- two totals then the thesis 'summit / who-TOP'.\n  Landmark register A (p5-p55): qaqa x2 on W, chaqa/maqaqa/paki/maqa/paqa on NB (event cluster p30-p49), waqa x2 + chiqa on AB.\n  Dense landmark block (p62-p78): 7 vocab cords in 16 positions (qaqa, qaqa, taqa, maqa, chiqa, chiqa, paqa).\n  Separator: p87-p95 (8 empty), p99.\n  Events on landmarks (p97-p115): chaqa x2, piqa x2 (interrogative 'who?'), waqa x3 clustered (p109-p112), kaqa.\n  Major separator: p120-p133 (13 empty cords in a row).\n  Closing (p145, p149): chiqa (final boundary verification) + chiki (self / surveyor signature).\n\nHYPOTHESIS\n  UR277 is the LAND DOCUMENT of the Incahuasi storehouse complex: which rocks delimit it, which huacas sanctify its boundary, which walls and summits mark its edges, which bridges cross its ditches. Written one room away from the calendar that told the scribe WHEN to open the granaries and the ledgers that told him HOW MUCH went in and out. UR277 completes Urton's administrative trilogy of the Incahuasi storeroom: WHEN (UR278 calendar) / WHERE (UR277 map) / HOW MUCH (UR270-family count).\n\nHISTORICAL CONTEXT\n  The Incahuasi storehouse complex at Unidad 20N assembles three khipu document classes in adjacent UEs: UE 13 (UR270 peanut count), UE 16 (UR278 commodity calendar), UE 17 (UR277 cadastral map). The three documents are PHYSICALLY co-located and FUNCTIONALLY complementary -- read together, they constitute the full administrative description of the complex's operation. UR277 is the MAP: a cadastral register of the land that supplies the storehouse, with 7 of 8 canonical cadastral markers documenting natural features (rocks, walls, summits), sacred witnesses (huacas), and boundary operations (strikes, breaks, bridges across ditches). The surveyor's signature at p149 -- chiki, 'self' -- may be the kamayoq's mark, the Andean equivalent of a notarised surveyor's seal.\n\nKEY PASSAGES\n  p1-p3: opening totals 230 + 197, then piqa at p3 -- 'summit / who-TOP' as thesis.\n  p30-p49: NB event-cluster (chaqa, maqaqa, paki, maqa, paqa) -- the ACTIONS the scribe takes on the land.\n  p62-p78: densest landmark block (7 vocab in 16 cords).\n  p97-p115: events on landmarks with waqa-triple at p109-p112.\n  p120-p133: 13-cord EMPTY separator -- largest internal break.\n  p149 chiki: surveyor's signature -- 'self'.\n\nWHAT IS VERIFIABLE\n  7/8 cadastral markers present: reproducible.\n  covering_ratio 0.61 HIGH: reproducible via Ascher layer.\n  OKR S-knot transcription gap (p2 OKR=197 vs KFG=230, diff 33): reproducible and requires re-transcription to fix.\n  Chu's excavation record for UE 17 adjacent to UE 16: confirmable.\n\nSTALE v1 CLAIMS SUPERSEDED\n  - 'Short-term inventory register tracking 15 years' -- based on total 5533 / 365.25 heuristic. DISCARDED (same heuristic as the dropped UR278 162-year claim).\n  - 'Only qaqa x7 (100% hits)' -- SUPERSEDED: v3 reveals 12 distinct words with full cadastral signature.\n  - 'AB/NB two-phase accounting format' -- REINTERPRETED: AB = numerical+identity, NB = events/verbs acting on the land.\n  - Document type: inventory_register -> cadastral_survey (RECLASSIFICATION).\n\nPRESERVED v1 OBSERVATIONS\n  - 19 clusters confirmed.\n  - GY mostly empty placeholders: confirmed (27 GY cords, only 1 vocab).\n  - Structural separators (p87-p95, p120-p133): confirmed.\n  - Same storehouse complex as UR278 (UE 16) and UR270 (UE 13): confirmed as Urton's trilogy (calendar / count / map).",
+
+  "narrative": "The land of the storehouse is described in cotton.\n\nUR277 is the MAP of the Incahuasi complex. It lives at UE 17, one room over from UR278 (the calendar at UE 16) and a short walk from UR270 (the peanut count at UE 13). Three khipus, three storerooms, three administrative registers -- Urton recognised the trilogy: WHEN, WHERE, HOW MUCH. UR277 is the WHERE.\n\nThe document opens with two totals: cluster one at two hundred and thirty, cluster two at one hundred and ninety-seven. Then cord three speaks: piqa. Summit. Who. The cadastral thesis is posted -- this document is about the peaks and the persons who hold them. From cord five to cord fifty-five the landmark register unrolls: qaqa on white at cord eight, then qaqa again at cord thirty. Rock, then rock. The surveyor names the landmarks that delimit the parcel. On near-black, the verbs of the work appear clustered between cords thirty and forty-nine: chaqa (bridge cut), maqaqa (strike-TOP -- a formally-marked strike event), paki (break), maqa (strike again), paqa (orient east). These are the ACTIONS performed on the land -- the surveyor's staff marking, the terrace being cut, the bridge laid across the ditch. On alpaca-brown cords: waqa, waqa, chiqa. The huaca is invoked, the huaca confirms, the boundary is verified.\n\nFrom cord sixty-two to seventy-eight the document compresses its landmark vocabulary: seven cadastral words in sixteen cords. Qaqa, qaqa, taqa, maqa, chiqa, chiqa, paqa. The densest survey block -- the scribe is walking a specific perimeter, naming each rock, each boundary, each verification as he goes.\n\nThen a long breath: eight empty cords from cord eighty-seven to ninety-five. The first major structural separator. The survey pauses.\n\nFrom cord ninety-seven to one hundred and fifteen the document shifts register. Chaqa at ninety-seven on white. Chaqa again on near-black. The bridges are counted, then their crossings are counted. Piqa at cord one hundred and three -- who? Piqa again at one hundred and seven -- who? The interrogative is doubled: the surveyor is asking about persons, about responsibility. Then waqa, waqa, waqa -- three huacas clustered from cord one hundred and nine to one hundred and twelve. The sacred witnesses of the boundary are named three times in four cords, the densest waqa cluster in the analysed Incahuasi set outside UR203 (the Pachacamac ceque registry). Kaqa at one hundred and fifteen: a natural wall, marked as well.\n\nThen the greatest separator: thirteen empty cords from one hundred and twenty to one hundred and thirty-three. The document takes a long pause. The surveyor has closed one segment.\n\nThe closing arrives quietly. Chiqa at cord one hundred and forty-five -- the final boundary verification. And at cord one hundred and forty-nine: chiki. Self. The surveyor's own mark. Andean cadastres, like their European counterparts, sometimes closed with the surveyor's personal signature. Chiki at the end of UR277 may be exactly that -- the kamayoq identifying himself as the one who walked this perimeter, named this rock, cut this bridge, and heard the huacas give their witness.\n\nThe Ascher lattice declares forty pendant-pendant sums at covering ratio zero point six one -- HIGH erasure-correction capacity, the sort of integrity framework one expects on a formal survey. But zero of thirty-three sums verify under modern machine parsing. Not because the arithmetic fails. Because the OKR transcription systematically misses S-knots that KFG's direct-measurement values require: cord two reads 197 in OKR, 230 in KFG, a gap of 33 that looks exactly like one missing S-knot cluster. This is a TRANSCRIPTION gap, not an integrity failure. The textual readings are trustworthy -- they come from the KFG L-turn counts that the merged corpus captures correctly. The arithmetic layer awaits a dedicated OKR S-knot re-transcription campaign.\n\nTwelve words, seven of eight canonical cadastral markers, the dense waqa triple-cluster, the thirteen-cord empty separator, the chiki signature. The Incahuasi MAP is readable. The storehouse complex at Unidad 20N had a calendar on UE 16 telling its scribes when, a count at UE 13 telling them how much, and a survey at UE 17 -- this document -- telling them where.",
+
+  "attribution": {
+    "prior_work": [
+      {"claim": "UR277 is paired with UR278 at Incahuasi Sector A Unidad 20N (UE 17 adjacent to UE 16) in Urton's published discussion of the storehouse complex.",
+       "citation": "Urton, G. (2017). Inka History in Knots. University of Texas Press, pp. 178, 263."},
+      {"claim": "The Incahuasi storehouse complex operates on three co-located khipu document classes (calendar / count / map) within Unidad 20N.",
+       "citation": "Urton & Chu (2015); Urton (2017)."},
+      {"claim": "Canonical cadastral-signature vocabulary (qaqa, kaqa, siqa, taqa, paqa, qama, wasi, chaka) is the 8-marker test for Inca cadastral khipus.",
+       "citation": "Sivan, J. (2026). The Khipu as a Layered Information System. ALBA Project preprint; Cobo 1653 on chaka=bridge."}
+    ],
+    "v3_contribution": [
+      {"claim": "UR277 RECLASSIFIED from inventory_register (v1: based on the discarded total/365.25 heuristic) to CADASTRAL_SURVEY. Basis: 7 of 8 canonical cadastral markers present (qaqa, kaqa, taqa, paqa, waqa, piqa, chaqa), plus chiqa x6 boundary-marker lexical signature.",
+       "evidence": {"kind": "structural", "matches": 7, "test": "Canonical cadastral marker presence count"}},
+      {"claim": "v3 merged corpus unlocks 88 L? cords (v1 had 5 readings / 1 word; v3 has 32 readings / 12 words). The classification shift is driven by this vocabulary expansion.",
+       "evidence": {"kind": "statistical", "matches": 88, "test": "KFG_RESOLVED count in merged quality distribution"}},
+      {"claim": "COLOR-ROLE DIFFERENTIATION: W carries LANDMARKS & BOUNDARIES, NB carries EVENTS / VERBS on the land, AB carries NUMERICAL + IDENTITY, GY is mostly EMPTY placeholders. Five-color role map specific to UR277.",
+       "evidence": {"kind": "structural"}},
+      {"claim": "OKR S-KNOT TRANSCRIPTION GAP identified: 40 declared pendant-pendant sums exist but 0/33 verify because OKR is systematically missing S-knots relative to KFG totals (p2 gap = 33 units = one S-knot cluster). This is a TRANSCRIPTION completeness issue, not a cryptographic integrity failure. Same pattern observed at UR270 (1/14) and UR269 (0/17).",
+       "evidence": {"kind": "statistical", "matches": 33, "test": "Systematic S-knot delta between OKR knot sequence and KFG declared sum value"}},
+      {"claim": "The surveyor's signature chiki (self) at p149 is a novel v3 reading -- potentially the kamayoq's personal mark closing the survey, analogous to European notarised surveyor seals.",
+       "evidence": {"kind": "structural"}},
+      {"claim": "Completes Urton's Incahuasi trilogy framework: UR278 CALENDAR (UE 16), UR270 COUNT (UE 13), UR277 MAP (UE 17). Three documents, three storerooms, three administrative functions.",
+       "evidence": {"kind": "structural"}}
+    ]
+  },
+
+  "companions": [
+    {"id": "UR278", "relation": "same_provenance",
+     "note": "The CALENDAR of the Incahuasi trilogy (UE 16, adjacent to UE 17). Urton's paired discussion places UR277 and UR278 together as map + calendar of the same storehouse complex."},
+    {"id": "UR270", "relation": "same_provenance",
+     "note": "The COUNT of the Incahuasi trilogy (UE 13, peanut day-book). UR277 (the map) and UR270 (the count) are functionally complementary: UR277 tells where the peanuts come from, UR270 how many arrive."},
+    {"id": "UR269", "relation": "same_provenance",
+     "note": "Peanut tier-2 regional aggregator at UE 11. UR269's provenance vocabulary (piqa / qaqa / taqa / chaqa / waqa) references the same landscape UR277 surveys -- the two documents share the cadastral map of the Canete supplying territories."},
+    {"id": "UR268", "relation": "cross_khipu_signal",
+     "note": "Peanut tier-3 district summary (UE 18). Structurally parallel OKR S-knot transcription gap (0 sums verify on both UR268 and UR277) likely a shared field-recording limitation."},
+    {"id": "UR1095", "relation": "same_document_type",
+     "note": "Pachacamac cadastral survey (siqa x5 = pyramids with ramps, 88 percent hits). Parallel cadastral document at a major Inca site, with the pyramids-signature UR277 lacks (no pyramids at Incahuasi)."},
+    {"id": "UR193", "relation": "same_document_type",
+     "note": "Pachacamac paired-register oracle-consultation with cadastral vocabulary indexing the land. UR277 is the formal MAP, UR193 the consultation over that kind of land."},
+    {"id": "UR203", "relation": "cross_khipu_signal",
+     "note": "Pachacamac ceque / huaca registry (waqa x7). UR277's dense waqa-triple cluster at p109-p112 is the second-highest waqa density in the analysed cadastral set."}
+  ],
+
+  "confidence_axes": {
+    "word_reading": {
+      "level": "high",
+      "note": "31/32 dictionary-confirmed STRING readings (97 percent hit rate). 12-word cadastral vocabulary. Only 4 L? cords remaining after KFG merge. No Pass 3A/3D needed."
+    },
+    "document_type": {
+      "level": "high",
+      "note": "Cadastral_survey anchored by 7/8 canonical cadastral signature markers (missing only siqa = no pyramids at Incahuasi), chiqa x6 boundary-marker, 5-color role differentiation with W=landmarks / NB=events, and Urton 2017 paired discussion with UR278. Reclassification from inventory_register explicit."
+    },
+    "narrative": {
+      "level": "medium-high",
+      "note": "Internally coherent (opening totals + piqa thesis -> landmark register -> dense landmark block p62-p78 -> events on landmarks p97-p115 -> 13-cord empty major separator -> closing chiqa + chiki surveyor signature). Externally grounded in Urton 2017's trilogy framework. The chiki surveyor-signature hypothesis at p149 is tentative."
+    },
+    "data_integrity": {
+      "level": "medium",
+      "note": "OKR/KFG agreement 0.29 low because of 88 L? cords (not DIVERGENT, just absent). Covering_ratio 0.61 HIGH at the Ascher lattice level -- but 0/33 verified due to systematic OKR S-knot transcription gap. Same issue as UR270 (1/14) and UR269 (0/17). The textual channel (readings) is trustworthy; the arithmetic channel awaits OKR re-transcription."
+    }
+  },
+
+  "sections": [
+    {"id": "I", "title": "Opening Totals + Thesis", "cords": "1-4",
+     "reading": "Two cluster totals (230, 197) then piqa at p3 -- the thesis: this document is about summits, landmarks, and the persons who hold them.",
+     "key_cords": [
+       {"pos": 1, "gloss": "C1 tot=230",  "note": "first cluster total"},
+       {"pos": 3, "gloss": "W piqa",      "note": "THESIS -- 'summit / who-TOP' opens the cadastral register"}
+     ]},
+    {"id": "II", "title": "Landmark Register A + Event Cluster", "cords": "5-55",
+     "reading": "Qaqa (rock) twice on white at p8 and p30 opens the landmark register. Then on NB from p30 to p49, the event-cluster: chaqa / maqaqa / paki / maqa / paqa -- the VERBS performed on the land (bridge cut, formal strike, break, orient east). Waqa and chiqa on AB confirm huaca witness and boundary verification.",
+     "key_cords": [
+       {"pos": 8,  "gloss": "W qaqa",   "note": "first rock-landmark"},
+       {"pos": 30, "gloss": "W qaqa",   "note": "second rock; opens the event cluster on NB"},
+       {"pos": 40, "gloss": "NB maqaqa","note": "TOPIC-MARKED strike event (maqa + qa-TOP)"},
+       {"pos": 45, "gloss": "NB paki",  "note": "break / construction event"},
+       {"pos": 49, "gloss": "NB paqa",  "note": "eastward orientation"}
+     ]},
+    {"id": "III", "title": "Dense Landmark Block", "cords": "62-78",
+     "reading": "7 cadastral vocabulary cords in 16 positions: qaqa qaqa taqa maqa chiqa chiqa paqa. The surveyor is walking a specific perimeter, naming each rock, each boundary, each verification as he moves.",
+     "key_cords": [
+       {"pos": 62, "gloss": "W qaqa",  "note": "dense block opens"},
+       {"pos": 70, "gloss": "W taqa",  "note": "frontier / administrative boundary"},
+       {"pos": 73, "gloss": "W chiqa", "note": "first of doubled chiqa -- verification seal"},
+       {"pos": 76, "gloss": "W chiqa", "note": "doubled chiqa seal completes"},
+       {"pos": 78, "gloss": "W paqa",  "note": "block closes with east-anchor"}
+     ]},
+    {"id": "IV", "title": "First Major Separator", "cords": "87-95",
+     "reading": "8 consecutive empty cords. Survey pauses between landmark register A and the events-on-landmarks block.",
+     "key_cords": [
+       {"pos": 87, "gloss": "EMPTY", "note": "first of 8 empty cords -- mid-document pause"}
+     ]},
+    {"id": "V", "title": "Events on Landmarks (Waqa Triple)", "cords": "97-115",
+     "reading": "chaqa at p97 on W. Then piqa at p103 and again at p107 -- doubled interrogative, asking twice 'who?' about responsibility. At p109-p112, three waqa cords clustered (waqa at p109, p110, p112): the DENSEST huaca cluster in the analysed cadastral set outside UR203. Kaqa at p115 marks a natural wall.",
+     "key_cords": [
+       {"pos": 103, "gloss": "piqa",  "note": "first interrogative -- 'who?'"},
+       {"pos": 107, "gloss": "piqa",  "note": "second interrogative doubled"},
+       {"pos": 109, "gloss": "waqa",  "note": "WAQA TRIPLE cord 1 -- huaca witness"},
+       {"pos": 110, "gloss": "waqa",  "note": "WAQA TRIPLE cord 2"},
+       {"pos": 112, "gloss": "waqa",  "note": "WAQA TRIPLE cord 3 -- triple witness at the boundary"},
+       {"pos": 115, "gloss": "kaqa",  "note": "natural wall marks end of events-zone"}
+     ]},
+    {"id": "VI", "title": "Major Empty Separator", "cords": "120-133",
+     "reading": "13 consecutive empty cords. The longest internal break in the document -- the survey takes a significant pause, perhaps marking the boundary between two surveyed zones.",
+     "key_cords": [
+       {"pos": 120, "gloss": "EMPTY", "note": "FIRST of 13 empties -- longest internal separator"},
+       {"pos": 133, "gloss": "EMPTY", "note": "13-empty block closes"}
+     ]},
+    {"id": "VII", "title": "Closing + Surveyor's Signature", "cords": "134-149",
+     "reading": "chiqa at p145 -- the final boundary verification. chiki at p149 -- 'self'. The kamayoq's personal mark closes the survey: the surveyor identifies himself as the one who walked this land, named this rock, cut this bridge, heard these huacas.",
+     "key_cords": [
+       {"pos": 145, "gloss": "chiqa",  "note": "FINAL boundary verification"},
+       {"pos": 149, "gloss": "chiki",  "note": "SURVEYOR'S SIGNATURE -- 'self', the kamayoq closing the document"}
+     ]}
+  ],
+
   "references": [
-    "Sivan, J. (2026). Deep read UR277 v3 -- docs/deep_read_UR277_v3.md",
-    "Sivan, J. (2026). Deep read UR278 v3 -- docs/deep_read_UR278_v3.md (companion document, same complex)",
     "Sivan, J. (2026). The Khipu as a Layered Information System. ALBA Project preprint.",
     "Sivan, J. (2026). Ascher Sums as Erasure Codes. ALBA Project preprint.",
-    "Urton, G. (2017). Inka History in Knots. Univ. of Texas Press, pp. 178, 263.",
-    "Urton, G. & Chu, A. (2015). Accounting in the King's Storehouse: The Inkawasi Khipu Archive.",
-    "Chu, A. & Urton, G. (2013+). Proyecto Arqueologico Incahuasi excavation reports, Sector A UE17.",
+    "Sivan, J. (2026). Deep reads UR255, UR256, UR267A, UR267B, UR268, UR269, UR270, UR275, UR278 v3/v4 -- companion Incahuasi documents.",
+    "Urton, G. & Chu, A. (2015). Accounting in the King's Storehouse. Latin American Antiquity 26(4): 512-529.",
+    "Urton, G. (2017). Inka History in Knots. University of Texas Press, pp. 178, 263.",
+    "Chu, A. (2013+). Proyecto Arqueologico Incahuasi excavation reports.",
     "Khipu Field Guide catalog: https://www.khipufieldguide.com/catalog/KH0516.html",
-    "Archaeology Magazine 2016 -- Khipus Discovered in Incahuasi Storehouse",
-    "Cobo, B. (1653). Historia del Nuevo Mundo -- chaqa / chaka bridge correction.",
+    "Open Khipu Repository: UR277 record, Sector A Unidad 20N UE 17.",
+    "Cobo, B. (1653). Historia del Nuevo Mundo -- chaka = bridge (cadastral).",
     "Gonzalez Holguin, D. (1608). Vocabulario de la lengua general de todo el Peru.",
     "Bertonio, L. (1612). Vocabulario de la lengua Aymara (kaqa = natural wall)."
   ],
+
   "reconstructed_xlsx": null,
-  "document_type_override": "cadastral_survey",
-  "supersedes_version": "2026-03-27",
-  "stale_interpretation": false,
-  "reader_version": "v3 (merged OKR*KFG + Ascher layer)",
-  "deep_read_path": "docs/deep_read_UR277_v3.md",
-  "previous_doctype": "inventory_register"
+  "deep_read_path": "contributions/validated/UR277.json"
 }

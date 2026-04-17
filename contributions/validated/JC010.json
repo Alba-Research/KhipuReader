@@ -1,0 +1,87 @@
+{
+  "khipu": "JC010",
+  "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
+  "date": "2026-04-15",
+  "status": "proposed",
+
+  "document_type_override": "event_register",
+  "reader_version": "v3 (merged OKR*KFG + Ascher layer)",
+  "confidence": "medium-high",
+
+  "summary": "JC010 is a LARGE SPARSE INCAHUASI CADASTRAL REGISTER -- 374 CORDS (ties AS050 as 2nd-largest document after UR262's 490 and AS069's 1831). Chu JC-series. 1-PAIRE architecture, 18 CLUSTERS, 5 COLORS MB(193 52%) + AB(120 32%) + NB(39) + W(11) + GL(7). 189 INT + 1 STRING (qaqa at single position = ROCK LANDMARK anchor) + 182 EMPTY (49 PERCENT -- large-scale sparse template-register). ASCHER AUDIT-GRADE: 20/21 VERIFIED = 95 PERCENT AUDIT at CASCADE DEPTH 4. Structural twin of AS050 (370 cords, 57 percent empty, 42/48 Ascher at cascade depth 6, 1 STRING taqa): SAME COLOSSAL-SPARSE-AUDIT CLASS but at Incahuasi rather than unknown AS050 provenance. Possibly paired with JC009 (95 cords, 18/18 Ascher audit-grade, 4-marker cadastral-audit signature): compact audit (JC009) + large sparse audited register (JC010) = COMPOUND-DOCUMENT HYPOTHESIS. Single qaqa STRING anchor is structurally equivalent to AS050's single taqa = MASSIVE NUMERICAL SCAFFOLDING ANCHORED BY ONE CADASTRAL CONCEPT. Late-Inca Incahuasi administrative stratum.",
+
+  "interpretation": "IDENTIFICATION\n  374 cords. 189 INT, 1 STRING (qaqa), 182 EMPTY (49 percent).\n  Architecture: 1-PAIRE.\n  18 CLUSTERS.\n  Colors: MB(193, 52%), AB(120, 32%), NB(39, 10%), W(11, 3%), GL(7, 2%). 5 colors.\n  Provenance: Incahuasi (Chu JC-series).\n  Museum: Proyecto Incahuasi.\n\nSTRUCTURAL TWIN OF AS050\n  AS050: 370 cords, 57 percent empty, 1 STRING taqa, 42/48 Ascher at cascade depth 6.\n  JC010: 374 cords, 49 percent empty, 1 STRING qaqa, 20/21 Ascher at cascade depth 4.\n  The two documents differ in 4 cords, 8 percent empty-fraction, cascade depth, and STRING\n  vocabulary choice (boundary vs rock) but share the COLOSSAL-SPARSE-AUDIT template profile.\n  AS050 provenance is unknown; JC010 is explicitly Incahuasi.\n\nASCHER LAYER -- AUDIT-GRADE 95 PERCENT\n  21 pendant-pendant sums declared.\n  Verified: 20/21 = 95 percent integrity at CASCADE DEPTH 4.\n  Slightly below AS050's 42/48=88 percent at depth 6 (AS050 has more sums at deeper depth).\n  Above the 80-percent audit-grade threshold. JC010 is AUDIT-GRADE.\n  Cascade depth 4 = medium-deep Merkle tree.\n\nVOCABULARY (1 STRING, 100% dict hit)\n  qaqa x1 -- ROCK / LANDMARK (cadastral anchor).\n  Single STRING marker on 374 cords = 0.27 percent STRING density, matching AS050's single-taqa\n  lexical minimalism. The register anchors to ONE specific cadastral concept with massive\n  numerical scaffolding.\n\nCOLOR ROLE MAP\n  MB (193, 52%) = PRIMARY CHANNEL -- medium-brown dominates.\n  AB (120, 32%) = SECONDARY -- alpaca-brown substantial.\n  NB (39), W (11), GL (7) = tertiary + specialty channels.\n  MB + AB together = 84 percent of cord count. Near-binary MB/AB register with minor specialty.\n  Distinct from AS050's B/BD-dominant palette.\n\nHYPOTHESIS\n  JC010 is a LARGE SPARSE CADASTRAL-AUDIT REGISTER at Incahuasi, structurally paralleling AS050\n  at different provenance. Single qaqa STRING anchors the register to a rock landmark; 189 INT\n  cords carry the numerical content; 182 empty cords represent pre-formatted template slots\n  awaiting entries across an extended time-span or multi-category framework.\n  Audit-grade 95-percent Ascher verification at cascade depth 4 places JC010 in the audit-grade\n  class alongside AS092 (100% at depth 5), AS050 (88% at depth 6), UR275 (100%), AS026A (100%),\n  JC011 (100%), HP018 (100%), JC001 (100%), JC009 (100%).\n  POTENTIAL COMPOUND-DOCUMENT PAIR WITH JC009: JC009 (95 cords, 100-percent Ascher, 4-marker balanced\n  cadastral-audit signature at cascade depth 4) + JC010 (THIS, 374 cords, 95-percent Ascher at cascade\n  depth 4, single qaqa anchor). Matching cascade depth + co-provenance + complementary scale +\n  complementary vocabulary-density profiles (compact + dense vs large + sparse) fit the compound-\n  document convention (UR273A+UR273B, AS026A+AS026B, AS093+AS094 at different scales).",
+
+  "narrative": "Three hundred and seventy-four cords at Incahuasi. One word on one cord: qaqa. The rock. Everything else is numbers and empties.\n\nJC010 matches AS050 almost cord-for-cord as a STRUCTURAL TYPE. AS050 has three hundred and seventy cords, fifty-seven percent empty, one STRING (taqa = boundary), forty-two-of-forty-eight Ascher verified at cascade depth six. JC010 has three hundred and seventy-four cords, forty-nine percent empty, one STRING (qaqa = rock), twenty-of-twenty-one Ascher verified at cascade depth four. Same class. Different provenance -- AS050 is provenance-unknown; JC010 is explicitly Incahuasi. Different anchor vocabulary -- one marks the BOUNDARY, the other marks the LANDMARK. But both are COLOSSAL SPARSE AUDIT REGISTERS anchored by a single cadastral word.\n\nFive colours structure JC010. Medium-brown dominates at fifty-two percent. Alpaca-brown at thirty-two. Together they cover eighty-four percent of the cord count -- near-binary primary + secondary encoding with thirteen percent distributed across three specialty colours (near-black, white, light-green). The scribe chose a spare palette for a register of mostly numbers.\n\nEighteen clusters averaging twenty-one cords each. One hundred and eighty-nine cords filled with knots; one hundred and eighty-two empty. The split is nearly even -- slightly more filled than empty, but the forty-nine-percent empty fraction places JC010 firmly in the pre-formatted template class rather than the fully-used register class. Like AS050, like UR273A (seventy-four percent empty), like UR192 (fifty-four percent), JC010 prepared more slots than it ultimately filled.\n\nAnd twenty-one pendant-pendant sums were declared across this 374-cord framework. Twenty verified. Ninety-five percent integrity. Cascade depth four. This is audit-grade by the 80-percent threshold, with a medium-deep Merkle tree cross-verifying the few actually-filled positions against their hierarchical totals.\n\nThe hypothesis that JC010 might be PAIRED with JC009 as a compound-document structural cousin rests on several converging signals. Both are Chu JC-series Incahuasi documents. Both hit cascade depth four Ascher. JC009 is ninety-five cords with hundred-percent Ascher verification and a balanced four-marker cadastral-audit vocabulary. JC010 is three hundred and seventy-four cords with ninety-five-percent Ascher verification and a single cadastral anchor. The scale differential (4x) and the complementary vocabulary-density profiles (compact-dense vs large-sparse) match the compound-document conventions observed elsewhere: UR273A + UR273B (compact event-log + large audit-totals, both at UE 14), AS026A + AS026B (compact lineage audit + lineage roll call), AS093 + AS094 (identity-content + numerical-matrix).\n\nIf JC009 + JC010 are a compound pair, JC009 provides the COMPACT AUDIT with dense vocabulary anchors, and JC010 provides the LARGE SPARSE AUDITED REGISTER that JC009 summarises. Cross-referenced through their matching Ascher cascade depth and complementary scale. Testable by physical-association lookup in Chu's field-notebook if the two documents were found together.\n\nWithout specific OKR notes attested for JC010 or JC009 about physical binding, the pairing stays structural hypothesis. But JC010's position within the Chu JC-catalog -- adjacent numerical numbering to JC009 -- and the structural complementarity make it plausible.\n\nAt the Proyecto Incahuasi curation, JC010 rests with the other Chu JC-series documents: JC001 (compact 5-color audit), JC006 (dated 10 Pacha Pucuy 1536 CE cadastral), JC009 (balanced cadastral-audit, this document's potential companion), JC011+JC012+JC013 (Sector B triple bundle measurements + toponyms + verification), JC014 (Sector B UE 03 6x10 matrix). Ten JC-series documents deep-read in v4 now, from the opening JC001 to JC014. The Chu excavation series preserves the Incahuasi administrative archive across multiple structural conventions, several UE strata, and the last decades of the Inca empire.",
+
+  "attribution": {
+    "prior_work": [
+      {"claim": "Chu 2013+ Proyecto Arqueologico Incahuasi produced the JC-prefix khipu series spanning multiple UE strata and administrative functions. JC010 is among the larger JC-series documents.",
+       "citation": "Chu, A. (2013+). Proyecto Arqueologico Incahuasi excavation reports."},
+      {"claim": "AS050 (provenance unknown) has 370 cords, 57 percent empty, 1 STRING taqa, 42/48 Ascher at cascade depth 6 -- the corpus-record cascade depth. JC010 shares the colossal-sparse-audit structural profile at different provenance.",
+       "citation": "Sivan, J. (2026). Deep read AS050 v3/v4 (corpus-record cascade-depth-6 audit register)."},
+      {"claim": "Compound-document pairs (UR273A/B, AS026A/B, AS093/AS094) exhibit complementary vocabulary-density + matching Ascher cascade depth across co-provenance companions. JC009+JC010 may be an additional Incahuasi compound pair.",
+       "citation": "Sivan, J. (2026). Ascher Sums as Erasure Codes; corpus-wide compound-document convention analysis."}
+    ],
+    "v3_contribution": [
+      {"claim": "STRUCTURAL TWIN OF AS050 AT INCAHUASI: JC010 matches AS050's colossal-sparse-audit profile (370+ cords, ~50% empty, 1 STRING cadastral anchor, audit-grade Ascher). AS050 provenance unknown; JC010 explicitly Incahuasi = likely AS050 is also Incahuasi-adjacent by analogy.",
+       "evidence": {"kind": "structural", "matches": 4, "test": "4-feature structural signature match between JC010 and AS050"}},
+      {"claim": "AUDIT-GRADE 95 PERCENT at CASCADE DEPTH 4: 20/21 verified. JC010 is the 9th documented audit-grade corpus member (UR275, AS026A, AS092, AS050, JC011, JC001, HP018, JC009, JC010).",
+       "evidence": {"kind": "statistical", "matches": 20, "test": "20-of-21 Ascher verification at cascade depth 4"}},
+      {"claim": "POTENTIAL COMPOUND-DOCUMENT PAIR WITH JC009: JC009 (95 cords, 100-percent Ascher, balanced 4-marker cadastral-audit at cascade depth 4) + JC010 (this, 374 cords, 95-percent Ascher, single qaqa anchor at cascade depth 4). Matching cascade depth + co-provenance + complementary scale = compound-pair hypothesis.",
+       "evidence": {"kind": "structural", "matches": 3, "test": "Chu JC-series co-provenance + cascade-depth-4 matching + complementary-scale signature"}},
+      {"claim": "LEXICAL-MINIMALIST SCAFFOLDING: 1 STRING / 374 cords = 0.27 percent STRING density, matching AS050's 1 STRING / 370 cords = 0.27 percent. Extreme minimalism at scale = massive numerical scaffolding anchored by one cadastral concept.",
+       "evidence": {"kind": "statistical", "matches": 2, "test": "STRING-density minimum match with AS050"}},
+      {"claim": "NEAR-BINARY MB+AB PRIMARY (84 percent): MB 52 percent + AB 32 percent dominate the palette. Binary primary-secondary encoding with 16 percent distributed across 3 specialty colours. Similar near-binary convention to AS200 (AB+W 99 percent), but at 6x scale.",
+       "evidence": {"kind": "statistical", "matches": 2, "test": "near-binary primary-colour dominance"}}
+    ]
+  },
+
+  "companions": [
+    {"id": "JC009", "relation": "paired_twin",
+     "note": "POTENTIAL COMPOUND PAIR: JC009 (compact audit, 95 cords, 18/18 Ascher = 100 percent, balanced 4-marker cadastral-audit signature, cascade depth 4) + JC010 (this, large sparse register, 374 cords, 20/21 Ascher = 95 percent, single qaqa anchor, cascade depth 4). Matching cascade depth + co-provenance + complementary scales. Testable by physical-association lookup.",
+     "evidence": {"kind": "structural", "matches": 3, "test": "co-provenance + cascade-depth-4 matching + complementary compact-audit-vs-large-sparse scales"}},
+    {"id": "AS050", "relation": "same_document_type",
+     "note": "STRUCTURAL TWIN: AS050 (370 cords, 57 percent empty, 1 STRING taqa, 42/48 Ascher at cascade depth 6 = corpus record). JC010 matches the colossal-sparse-audit profile with shifted parameters (374 cords, 49 percent empty, 1 STRING qaqa, 20/21 Ascher at cascade depth 4). AS050 provenance unknown; JC010 explicitly Incahuasi. Likely same-class documents from adjacent Inca contexts."},
+    {"id": "UR273B", "relation": "same_document_type",
+     "note": "Incahuasi UE 14 audit totals (124 cords, 73 percent empty). Different structural scale but same compound-document-audit-half class as JC010 may occupy if paired with JC009."},
+    {"id": "JC001", "relation": "same_provenance",
+     "note": "Chu first catalogue audit (36 cords, 6/6 Ascher audit-grade, 5-color balanced). Same JC-series."},
+    {"id": "JC011", "relation": "same_provenance",
+     "note": "Chu Sector B measurements (126 cords, 12 colors, 5/5 Ascher audit-grade). Same JC-series, different UE (05 vs JC010's unspecified)."},
+    {"id": "JC006", "relation": "same_provenance",
+     "note": "Chu dated 1536 CE cadastral (13 cords, Mode A [98,10,10], qaqa + taqa + waqa). Same JC-series and same Incahuasi provenance."},
+    {"id": "UR275", "relation": "same_document_type",
+     "note": "Incahuasi UE 19 peanut audit (5/5 Ascher = 100 percent, 47-constant). Audit-grade peer at smaller scale and commodity-specific."},
+    {"id": "UR262", "relation": "cross_khipu_signal",
+     "note": "Kallanka wrapped master register (490 cords, 0/12 Ascher broken, 3 STRING). Large-scale Incahuasi admin register peer but with opposite Ascher integrity (broken vs 95 percent)."}
+  ],
+
+  "confidence_axes": {
+    "word_reading": {"level": "high", "note": "1/1 STRING at 100 percent dict hit (qaqa). Single lexical anchor unambiguous."},
+    "document_type": {"level": "medium-high", "note": "event_register / large-sparse-audit sub-type supported by (a) AS050 structural twin match, (b) 95-percent audit-grade Ascher at cascade depth 4, (c) Incahuasi Chu provenance, (d) single qaqa cadastral anchor, (e) pre-formatted 49-percent-empty template structure, (f) potential compound pair with JC009. Specific content category not determinable from 1-STRING data alone."},
+    "narrative": {"level": "medium-high", "note": "The 'large sparse cadastral audit register at Incahuasi matching AS050's structural profile' reading is internally coherent and multi-anchored on structural + arithmetic + provenance evidence. JC009 compound-pair hypothesis is structural."},
+    "data_integrity": {"level": "high", "note": "95 percent Ascher verified at cascade depth 4 = audit-grade. 49 percent empty structural not damage. Chu provenance precise. Co-provenance with JC009 enables cross-validation."}
+  },
+
+  "sections": [
+    {"id": "I", "title": "Large Sparse Audit-Grade Cadastral Register", "cords": "1-374",
+     "reading": "374 cords organised into 18 clusters (avg 21 per cluster). 189 INT + 1 STRING qaqa + 182 EMPTY (49 percent). 5-color near-binary palette (MB 52 + AB 32 + NB 10 + W 3 + GL 2 percent). 21 pendant-pendant sums with 20 verified (95 percent audit-grade) at cascade depth 4. Single qaqa STRING anchors the register to a rock landmark; massive numerical scaffolding across 189 filled positions + 182 prepared template slots.",
+     "key_cords": [
+       {"pos": 0, "gloss": "qaqa", "note": "SOLE STRING -- rock landmark cadastral anchor"},
+       {"pos": 374, "gloss": "LAST CORD", "note": "closes the 374-cord large sparse audit register"}
+     ]}
+  ],
+
+  "references": [
+    "Sivan, J. (2026). The Khipu as a Layered Information System. ALBA Project preprint.",
+    "Sivan, J. (2026). Ascher Sums as Erasure Codes. ALBA Project preprint.",
+    "Sivan, J. (2026). Deep read AS050 v3/v4 (structural twin, corpus-record cascade depth 6).",
+    "Sivan, J. (2026). Deep read JC009 v3/v4 (potential compact compound-pair companion).",
+    "Chu, A. (2013+). Proyecto Arqueologico Incahuasi excavation reports.",
+    "Urton, G. and Chu, A. (2015). Accounting in the King's Storehouse. LAQ 26(4).",
+    "Compare AS050 (structural twin), JC009 (potential compound pair), UR275 + AS092 + AS026A + HP018 + JC001 + JC011 + JC013 + JC006 + JC014 (Chu + audit-grade corpus peers)."
+  ],
+
+  "reconstructed_xlsx": null
+}

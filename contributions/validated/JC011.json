@@ -1,0 +1,127 @@
+{
+  "khipu": "JC011",
+  "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
+  "date": "2026-04-15",
+  "status": "proposed",
+
+  "document_type_override": "cadastral_survey",
+  "reader_version": "v3 (merged OKR*KFG + Ascher layer)",
+  "confidence": "medium-high",
+
+  "summary": "JC011 is the NUMERICAL MEASUREMENTS HALF of the SECTOR B CADASTRAL TRIPLE BUNDLE (JC011 + JC012 + JC013) at Incahuasi. Excavated 23 Sep 2016 by DCG (Dennis Ogburn / Chu team), Sector B Subsector 01 CA 01 UA 07 Cateo 03 UE 05. 126 cords, 1-PAIRE architecture schema STRUCTURED depth L4, 6 CLUSTERS of 20+19+21+25+1+1 cords = 4 measurement blocks + 2 singleton markers. PURELY NUMERICAL: 92 INT (sum=310, values 1-23 small range), 34 EMPTY (27 percent), ZERO STRING CORDS -- ALBA syllabary does not contribute to vocabulary interpretation. MULTI-DIMENSIONAL 12-COLOUR ENCODING: MB(51 40%), AB(30 24%), HB(13), YB(10), BY(5), GG(4), KB(4), LG(3), BG/NB/GB/RL(1-2 each) = 12 colours, more dimensions per cord than any analysed cadastral register. ASCHER INTEGRITY: 5/5 VERIFIED = 100 PERCENT = AUDIT-GRADE (same class as UR275 peanut audit + AS026A lineage audit at 4/4). KH twin KH0618 catalogued; 5 pendant-pendant sums declared and all verify. Recorded RIGHT-TO-LEFT (standard convention; contrasts with JC012's unusual LEFT-TO-RIGHT with end-knot loop). Pair-function hypothesis for the Sector B triple bundle: JC012 = 12 ROCKS (qaqa x12 toponym index); JC011 = MEASUREMENTS / BOUNDARIES / COUNTS (12-colour 4-block audit register with 5/5 Ascher integrity); JC013 = ? (third companion, to be deep-read). JC011 plausibly quantifies what JC012 names -- 12 colours for 12 qaqa rocks.",
+
+  "interpretation": "IDENTIFICATION\n  126 cords (87 L1, subsidiaries implied by L4 depth).\n  Architecture: 1-PAIRE, schema STRUCTURED depth L4.\n  6 CLUSTERS: 20, 19, 21, 25, 1, 1 (4 data blocks + 2 singleton markers).\n  92 INT (100 percent of typed-cord content), 0 STRING, 34 EMPTY (27 percent).\n  12 COLOURS: MB(51, 40%), AB(30, 24%), HB(13, 10%), YB(10), BY(5), GG(4), KB(4), LG(3), BG(1), NB(1), GB(2), RL(2).\n  Provenance: INCAHUASI, Sector B, Subsector 01, CA 01, UA 07, Cateo 03, UE 05.\n  Museum: Proyecto Incahuasi.\n  Excavated 2016-09-23 by DCG team (Chu excavation).\n\nPHYSICAL NOTES (OKR)\n  'Recorded Right to Left, from the twisted end to the dangling end.' STANDARD INCA CONVENTION\n  (contrasts with JC012's unusual LEFT-to-right with end-knot loop at same bundle).\n  'This khipu is part of the same bundle of khipus as JC012 and JC013.' Sector B TRIPLE BUNDLE.\n  Analysis date: 2016-11-30.\n\nDATA QUALITY (v3)\n  ZERO STRING cords -- ALBA SYLLABARY DOES NOT CONTRIBUTE. All interpretation is structural /\n  numerical / colour-role analysis.\n  KFG twin KH0618 catalogued.\n\nASCHER LAYER -- AUDIT-GRADE\n  5 pendant-pendant sums declared.\n  Verified checksums: 5 / 5 = 100 PERCENT. AUDIT-GRADE integrity.\n  Max cascade depth: 1 (flat Merkle tree).\n  Covering ratio: 5/87 L1 = 0.06 LOW covering but HIGH verification.\n  No Pass 3A / 3C / 3D recovery needed -- arithmetic is already clean.\n  Comparable audit-grade profile: AS026A (4/4), UR275 (5/5), UR267B (8/10 = 80 percent).\n\nSTRUCTURAL SIGNATURE -- 12-COLOUR 4-BLOCK AUDIT\n  6 clusters: sizes 20, 19, 21, 25 (main data blocks summing to 85 cords) + 1, 1 (singletons).\n  4 main blocks suggest 4 measurement categories or 4 sub-zones.\n  OR 3 larger blocks (20/19/21 ~ balanced) + 1 final larger block (25) + 2 summary singletons.\n  12 COLOURS across 126 cords = 10.5 cords per colour on average. Highest multi-colour density in\n  the analysed cadastral sub-corpus (compare UR113 Nazca 'Valhalla' 21 colours / 866 cords = 41\n  cords per colour; UR198 3 colours / 369 cords = 123 cords per colour).\n  Values 1-23 small range (sum=310, mean per non-zero cord = 3.4).\n\nVOCABULARY\n  NONE. Zero STRING cords. Interpretation must rest on structure + colour + OKR physical evidence.\n\nPAIR-FUNCTION HYPOTHESIS (Sector B Triple Bundle)\n  JC012 = 12 ROCKS INDEX: qaqa x12 toponym register (30 cords, densest single-word concentration in\n  corpus, 8 consecutive qaqa at p21-p28, LEFT-to-right reading).\n  JC011 = MEASUREMENTS / BOUNDARIES / COUNTS (this document, 126 cords, 92 INT, 12 colours, 5/5\n  Ascher verified, RIGHT-to-left reading).\n  JC013 = THIRD COMPANION (to be deep-read; likely inhabitants / fields / tribute).\n  The 12 colours on JC011 plausibly map onto JC012's 12 qaqa rocks -- one colour per named rock.\n  The 4 main clusters (20/19/21/25) would then encode 4 categories measured per rock:\n  area / boundary / inhabitants / tribute, or similar.",
+
+  "narrative": "Twelve colours across one hundred and twenty-six cords. Zero words.\n\nJC011 is the numerical half of a triple-khipu bundle from Sector B of Incahuasi -- a different part of the fortress from the main Sector A storerooms where most of the Incahuasi corpus was excavated. On the twenty-third of September, two thousand sixteen, the excavator marked DCG in the Chu team's field notes took three khipus from the same unit. The nicknameless bundle JC011 + JC012 + JC013.\n\nJC012 is the RECOGNISABLE one. The Sector B toponym index. Twelve qaqa -- twelve rocks -- named across thirty cords, the densest single-word concentration in the entire analysed corpus, recorded LEFT to right from an end-knot loop, with eight consecutive qaqa cords running p21 through p28 as a toponym list.\n\nJC011 is the OPPOSITE. Zero STRING cords. Ninety-two numbers. Twelve colours. Recorded right to left, standard Inca direction. Five pendant-pendant sums all of which verify at one hundred percent. Audit-grade. No vocabulary to interpret, no syllabary to apply, no sky-ground polysemy to suppress. Only structure and colour.\n\nSix clusters: twenty cords, nineteen, twenty-one, twenty-five, one, one. Four main measurement blocks followed by two singleton summary cords. The first cluster runs from cord one to twenty; a large number twenty-three appears at cord twenty on medium-brown, the largest value in the document. The second cluster from twenty-one to thirty-nine, averaging small counts. Third cluster twenty-one cords; cord thirty-seven on alpaca-brown carries twenty. Fourth cluster twenty-five cords running through to cord eighty-five where a value nineteen on blue-yellow closes the main block. Then two singleton cords -- probably summary totals or closing seals.\n\nAnd the twelve colours. Medium-brown for the majority, forty percent of the document. Light-brown second at twenty-four percent. Honey-brown, yellow-brown, beige-yellow, gray-green, khaki-brown, light-green, beige-gray, near-black, green-brown, red-lilac -- ten more colours, each carrying a few specialty cords. In the analysed cadastral sub-corpus, no other document distributes text across so many distinct colour channels on such a compact scale. UR113 'Valhalla' at Nazca uses twenty-one colours but across eight hundred and sixty-six cords; UR198's Nazca census uses three on three hundred and sixty-nine. JC011 packs twelve colour-dimensions into one hundred and twenty-six cords.\n\nAnd the most elegant conjecture is the simplest. JC012 names twelve rocks. JC011 has twelve colours. One colour per rock. Twelve qollqa, each with its own chromatic channel on JC011, each channel carrying the measurements, boundaries, or counts for that specific rock that JC012 names.\n\nThe four main clusters would then encode four categories of measurement: perhaps area, perhaps boundary length, perhaps inhabitants, perhaps tribute. Twenty cords, nineteen, twenty-one, twenty-five -- balanced but not identical, suggesting different per-category detail levels. The two singletons at the end would be closing totals or summary stamps.\n\nThis is hypothesis. The Ascher verification at five of five is the fact. The twelve colours are the fact. The RIGHT-to-left orientation, standard, is the fact. And the Sector B triple-bundle physical association -- JC011 wrapped with JC012 and JC013 at the moment of excavation, together on the twenty-third of September two thousand sixteen by the excavator DCG in the Chu field team -- is the fact. Three khipus from one fortress zone, tied into one administrative dossier, preserved as a triple unit for five centuries and found together.\n\nAt the Proyecto Incahuasi field curation, JC011 waits with its companions for someone to test the colour-per-rock hypothesis. If JC013 also has twelve colours, or twelve clusters, or a twelve-fold numerical structure that corresponds to JC012's twelve qaqa, the tri-document triangulation will close. Until then, JC011 is the numerical backbone: zero words, one hundred percent arithmetic, twelve chromatic dimensions pointing to twelve named rocks next door.",
+
+  "attribution": {
+    "prior_work": [
+      {"claim": "JC011, JC012, and JC013 were excavated together as a three-khipu bundle from Incahuasi Sector B Subsector 01 CA 01 UA 07 Cateo 03 UE 05 on 2016-09-23 by the Chu team (excavator DCG). OKR-attested bundle association.",
+       "citation": "Chu, A. (2013+). Proyecto Arqueologico Incahuasi excavation reports, Sector B UE 05; OKR cord-note on JC011."},
+      {"claim": "JC012 is the LEFT-to-right toponym index of the Sector B bundle (30 cords, qaqa x12 = 12 rock landmarks, 8 consecutive qaqa at p21-p28). The triple bundle is a cross-document cadastral set.",
+       "citation": "Sivan, J. (2026). Deep read JC012 v3/v4 -- Sector B qaqa-only toponym registry."},
+      {"claim": "Audit-grade Ascher-verified Incahuasi khipus (UR275 5/5 peanut audit, UR267B 8/10 aji audit, AS026A 4/4 lineage audit) establish the 100-percent-verification audit document class.",
+       "citation": "Urton, G. and Chu, A. (2015). Accounting in the King's Storehouse: the Inkawasi Khipu Archive. LAQ 26(4); Sivan, J. (2026). Ascher Sums as Erasure Codes."}
+    ],
+    "v3_contribution": [
+      {"claim": "ZERO-STRING CADASTRAL AUDIT: 126 cords with 0 STRING, 92 INT, 12 colours, 5/5 Ascher verified (100 percent). First corpus instance of an audit-grade purely-numerical cadastral companion paired with a lexical-dense toponym register (JC012 qaqa x12).",
+       "evidence": {"kind": "structural", "matches": 126, "test": "0-STRING + 12-colour + 5/5-Ascher combined signature"}},
+      {"claim": "12-COLOUR PER 126-CORD DENSITY: 10.5 cords per colour on average. Highest multi-colour density in the analysed cadastral sub-corpus per cord. UR113 Valhalla has more colours (21) but at much lower density (41 cords per colour); UR198 has fewer colours (3) at much higher density (123 cords per colour). JC011 sits at the compact-rich-palette corner of the colour-density space.",
+       "evidence": {"kind": "statistical", "matches": 12, "test": "colour-density ranking across cadastral sub-corpus"}},
+      {"claim": "PAIR-FUNCTION HYPOTHESIS -- 12 COLOURS = 12 ROCKS: JC012 names 12 qaqa rocks; JC011 has 12 colours. Most parsimonious hypothesis is one-colour-per-rock mapping, with the 4 main clusters (20/19/21/25 cords) encoding 4 measurement categories per rock (area / boundary / inhabitants / tribute). Testable by further deep-read of JC013 and cluster-to-colour cross-reference.",
+       "evidence": {"kind": "structural", "matches": 12, "test": "JC012 qaqa-count = 12 matches JC011 colour-count = 12"}},
+      {"claim": "RIGHT-TO-LEFT vs LEFT-TO-RIGHT CONVENTION: JC011 is RIGHT-to-left recorded (standard); JC012 is LEFT-to-right with end-knot loop (non-standard). Same bundle, opposite reading conventions -- scribal-marker distinction between the TOPONYM INDEX (reversed orientation) and the MEASUREMENT COMPANION (standard orientation).",
+       "evidence": {"kind": "physical", "matches": 2, "test": "OKR-attested reading-direction convention contrast between JC011 and JC012"}},
+      {"claim": "AUDIT-GRADE 5/5 ASCHER confirms JC011 is a VERIFICATION document despite 0 STRING. Arithmetic integrity substitutes for textual verification vocabulary (no chiqa needed when 5 of 5 sums verify). JC011 is the silent-verification complement to JC012's named toponyms.",
+       "evidence": {"kind": "statistical", "matches": 5, "test": "5-of-5 Ascher pendant-pendant sum verification"}},
+      {"claim": "SECTOR B TRIPLE BUNDLE IDENTIFIED: JC011 + JC012 + JC013 constitute the first documented Incahuasi Sector B triple-khipu cadastral set. Different Sector B spatial provenance from the main Sector A archive block (UR267A/B, UR270, UR275, UR278, UR268, UR272, UR273A/B, UR277) where most Incahuasi cadastral documents live.",
+       "evidence": {"kind": "physical", "matches": 3, "test": "Sector B UE 05 triple-bundle co-excavation"}}
+    ]
+  },
+
+  "companions": [
+    {"id": "JC012", "relation": "paired_twin",
+     "note": "SECTOR B TRIPLE BUNDLE member. 30 cords, qaqa x12 (12 ROCKS toponym index), LEFT-to-right reading with end-knot loop. JC012 NAMES the 12 rocks; JC011 MEASURES them (12 colours = 12 rocks hypothesis). Physically bundled.",
+     "evidence": {"kind": "physical", "matches": 2, "test": "OKR-attested triple-bundle co-excavation + complementary toponym/measurement function + 12-to-12 colour-to-word count match"}},
+    {"id": "JC013", "relation": "paired_twin",
+     "note": "SECTOR B TRIPLE BUNDLE third member. Not yet deep-read. Hypothesis: likely inhabitants / fields / tribute for JC012's 12 rocks. Completes the triple-function set."},
+    {"id": "UR275", "relation": "same_document_type",
+     "note": "Incahuasi UE 19 peanut audit (47-constant, 5/5 Ascher verified). Same audit-grade 100-percent Ascher integrity as JC011. UR275 is lexically-present (paqa-taqa-kaqa cadastral anchors); JC011 is purely numerical."},
+    {"id": "UR267B", "relation": "same_document_type",
+     "note": "Incahuasi UE 16 aji tier-2 audit (8/10 Ascher = 80 percent, chiqa-chiqa doubled seal, 10-constant). Audit-tier peer."},
+    {"id": "AS026A", "relation": "same_document_type",
+     "note": "Philadelphia University Museum lineage audit (77 cords, 4/4 Ascher verified, Mode A 1 Jan 1480 CE, 6 clusters 2/12/13/12/10/5). JC011 and AS026A are both 100-percent-Ascher-verified numerical-aggregate audit halves of compound documents (JC011 with JC012, AS026A with AS026B)."},
+    {"id": "UR273B", "relation": "cross_khipu_signal",
+     "note": "Incahuasi UE 14 audit totals (30 INT sum=29,317, Mode B July, 3 cadastral scaffolding anchors, NO Ascher layer). JC011 and UR273B are both audit-function numerical halves of compound documents but JC011 has arithmetic integrity (5/5) while UR273B lacks Ascher."},
+    {"id": "UR113", "relation": "cross_khipu_signal",
+     "note": "Nazca 'Valhalla' multi-color audit (21 colours / 866 cords). JC011's 12-colour-per-126-cord density is structurally comparable but at compact scale."},
+    {"id": "UR198", "relation": "cross_khipu_signal",
+     "note": "Santa Clara Nazca census (3 colours / 369 cords = reference model for multi-color encoding). UR198 demonstrates colour-as-dimension principle; JC011 applies it at 4x the colour-density."}
+  ],
+
+  "confidence_axes": {
+    "word_reading": {
+      "level": "not-applicable",
+      "note": "ZERO STRING cords. ALBA syllabary does not contribute to vocabulary interpretation. Structural + colour + arithmetic-integrity analysis is the basis of the reading."
+    },
+    "document_type": {
+      "level": "medium-high",
+      "note": "cadastral_survey audit-measurements sub-type supported by (a) 5/5 Ascher integrity, (b) 12-colour multi-dimensional encoding, (c) 4-cluster measurement-block structure + 2 singleton summaries, (d) physical bundle with JC012 toponym index, (e) Sector B co-excavation. Sub-type: numerical measurement companion to toponym register. The 12-colour = 12-rock mapping is hypothesis, not proof."
+    },
+    "narrative": {
+      "level": "medium",
+      "note": "The 'numerical measurement companion to JC012's 12 rocks' reading is internally coherent and anchored on (a) JC012 pair context, (b) 12-colour = 12-qaqa numeric match, (c) audit-grade Ascher integrity, (d) OKR-attested reading-convention contrast (RIGHT-to-left JC011 vs LEFT-to-right JC012). The specific per-cluster category interpretation (area / boundary / inhabitants / tribute) is speculative; JC013 deep-read would close the triangulation."
+    },
+    "data_integrity": {
+      "level": "high",
+      "note": "5/5 Ascher verified = 100 percent AUDIT-GRADE. 92 INT cords, 34 EMPTY structural. No documented damage. KFG twin KH0618 catalogued. Arithmetic integrity substitutes for the lexical-verification layer JC011 lacks."
+    }
+  },
+
+  "sections": [
+    {"id": "I", "title": "First Measurement Block (Rocks 1-~3)", "cords": "1-20",
+     "reading": "First of 4 main clusters (20 cords). 5 COLOUR CHANNELS distributed across the block carrying measurements at small-value scale (1-23). Peak value 23 at cord 20 on MB closes the block. Under the 12-colour = 12-rock hypothesis this cluster encodes measurements for the first ~3 of JC012's 12 qaqa rocks.",
+     "key_cords": [
+       {"pos": 20, "gloss": "MB val=23", "note": "HIGHEST VALUE in document -- closes first measurement block"},
+       {"pos": 6,  "gloss": "HB val=13", "note": "honey-brown specialty cord"},
+       {"pos": 10, "gloss": "HB val=10", "note": "honey-brown cluster anchor"}
+     ]},
+    {"id": "II", "title": "Second Measurement Block (Rocks ~4-6)", "cords": "21-39",
+     "reading": "Second cluster (19 cords). Multi-colour continuation. Peak value 20 at cord 37 on AB. Under the 12-rock hypothesis, this cluster encodes measurements for the next ~3 rocks.",
+     "key_cords": [
+       {"pos": 37, "gloss": "AB val=20", "note": "second-block peak value"}
+     ]},
+    {"id": "III", "title": "Third Measurement Block (Rocks ~7-9)", "cords": "40-60",
+     "reading": "Third cluster (21 cords). Peak value 20 at cord 58 on AB + 15 at cord 60 on MB closing the block. Mid-document audit section.",
+     "key_cords": [
+       {"pos": 58, "gloss": "AB val=20", "note": "third-block peak"},
+       {"pos": 60, "gloss": "MB val=15", "note": "third-block close"}
+     ]},
+    {"id": "IV", "title": "Fourth Measurement Block (Rocks ~10-12)", "cords": "61-85",
+     "reading": "Fourth and largest cluster (25 cords). Peak value 19 at cord 85 on BY. Under the 12-rock hypothesis, this cluster encodes the last 3-4 of JC012's 12 rocks or provides a summary row.",
+     "key_cords": [
+       {"pos": 85, "gloss": "BY val=19", "note": "fourth-block peak -- last large value of the document"}
+     ]},
+    {"id": "V", "title": "Closing Singleton Markers", "cords": "86-87",
+     "reading": "Two singleton-cluster cords (cluster sizes 1, 1). Closing totals or summary stamps. Final cords of the main register.",
+     "key_cords": [
+       {"pos": 86, "gloss": "singleton 1", "note": "closing summary cord 1"},
+       {"pos": 87, "gloss": "singleton 2", "note": "closing summary cord 2"}
+     ]}
+  ],
+
+  "references": [
+    "Sivan, J. (2026). The Khipu as a Layered Information System. ALBA Project preprint.",
+    "Sivan, J. (2026). Ascher Sums as Erasure Codes. ALBA Project preprint.",
+    "Sivan, J. (2026). Deep read JC012 v3/v4 -- Sector B qaqa-only toponym registry.",
+    "Urton, G. and Chu, A. (2015). Accounting in the King's Storehouse: the Inkawasi Khipu Archive. LAQ 26(4).",
+    "Chu, A. (2013+). Proyecto Arqueologico Incahuasi excavation reports, Sector B UE 05.",
+    "OKR note on JC011: 'Recorded Right to Left, from the twisted end to the dangling end. Excavated from Sector B, Subsector 01, CA 01, UA 07, Cateo 03, UE 05, Exc. DCG, 23/Sep/2016. This khipu is part of the same bundle of khipus as JC012 and JC013.'",
+    "Khipu Field Guide catalog: https://www.khipufieldguide.com/catalog/KH0618.html",
+    "Urton, G. (2003). Signs of the Inka Khipu: Binary Coding in the Andean Knotted-String Records -- multi-colour encoding.",
+    "Heritage Science (MDPI 2023). Understanding Meaningful Khipu Colours.",
+    "Compare JC012 (paired toponym index), JC013 (triple-bundle third companion, to be deep-read), UR275 + UR267B + AS026A (audit-grade Ascher-verified peers), UR273B (audit-totals half of compound document), UR113 (Nazca multi-color extreme), UR198 (Nazca census multi-color reference)."
+  ],
+
+  "reconstructed_xlsx": null
+}

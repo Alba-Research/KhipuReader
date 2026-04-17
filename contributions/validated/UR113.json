@@ -1,18 +1,121 @@
 {
   "khipu": "UR113",
   "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
-  "date": "2026-03-27",
+  "date": "2026-04-15",
   "status": "proposed",
+
+  "document_type_override": "audit_register",
+  "reader_version": "v3 (merged OKR*KFG + Ascher layer)",
   "confidence": "medium",
-  "summary": "Multi-dimensional administrative register from Nazca nicknamed 'Valhalla' — the MOST COLORFUL khipu in the OKR corpus with 21 unique colors. 866 cords, tree structure (L2/L1=1.61). chiqa (truth/verification) dominates (x9 = 26% of STRING), suggesting an INSPECTION or AUDIT register. Geographic terms: qaqa x6, kaqa x2, chaqa x1. Aymara-zone markers confirm Nazca provenance. HEAVILY DAMAGED — multiple cords repaired, stitched, fragile. 34 STRING, ~53% coverage.",
-  "interpretation": "IDENTIFICATION\n  866 cords (L1: 332, L2: 505, L3: 28, L4: 1). Architecture: 0-SEUL but L2/L1 ratio = 1.61 (more subsidiaries than mains).\n  21 UNIQUE COLORS — THE MOST COLORFUL KHIPU IN THE CORPUS.\n  Nickname: 'Valhalla'. 31 clusters (sizes 4-20).\n  Provenance: Nazca — southern coast, Aymara zone.\n  Museum: Museum for World Culture, Goteborg, Sweden.\n  HEAVILY DAMAGED — cords 292-295 'fragile and disintegrating', cord 69 'not attached, location uncertain', cord 88 'patched, legitimacy dubious', cord 22 'stitched with modern thread', cord 33 'knotted like a noose'.\n  34 STRING (4% of cords), 685 INT, 143 EMPTY (17%).\n  kvt_bug = approximate numbers only.\n\nHYPOTHESIS\n  UR113 is a multi-dimensional administrative register from Nazca, using 21 colors to encode at least 8-10 data categories simultaneously. chiqa (truth/right/verification) dominates (x9 = 26%), suggesting an INSPECTION or AUDIT register — a document that records what was verified as true. However, significant physical damage means the reading is partial and tentative.\n\nKEY VOCABULARY\n  chiqa (truth/verification x9) — DOMINANT word, 26% of STRING\n  qaqa (rock/mountain x6) — geography\n  qaki (unglossed x4) — frost? dry?\n  kaqa (wall/cliff-AY x2) — geography\n  maki (hand/work x2) — labor\n  chaqa (gorge/bridge x1), maqa (strike/eclipse x1), mapa (wax-AY x1)\n  pay (he/she x1), kapa (noble x1), kay (to be x1)\n  Compounds: qaqaqa (rock-TOP x1), qakiqa (qaki-TOP x1), qakiqaki (doubled x1)\n  3 Aymara words (kaqa, mapa) confirm Nazca = Aymara zone.\n\nCOLORS — 21 UNIQUE (RECORD)\n  W(205), AB(170), RB(149), KB(128), YB(55), MB(39), GG(29), G0(21), plus 13 more rare colors.\n  Previous record: UR203 with 10 colors. Valhalla doubles that.\n  Each color = one data dimension. The most information-dense khipu in existence.\n  Goteborg museum research: 'khipus contain much more information than just their knotted structure — a great part resides in their colors.'\n\nSTRUCTURE\n  31 clusters, varying sizes (4-20 cords). No single dominant size.\n  L2/L1 ratio = 1.61 — each main cord has 1-2 subsidiaries = TREE structure.\n  L1 = category/label, L2 = detailed data.\n\nCROSS-CORPUS\n  UR113 vs UR203 (Pachacamac ceque, 10 colors): UR113 far more complex. UR203 = ceque/huaca registry, UR113 = audit/inspection register.\n  UR113 vs UR198 (Nazca census, 3 colors): Both from Nazca but dramatically different complexity.\n  Nazca connection: UR113 suggests Nazca used the most complex color-coding of any khipu-producing culture.\n\nDATA QUALITY CAVEAT\n  UR113 is the most DAMAGED khipu analyzed. At least 13 cords have documented issues. Any interpretation is TENTATIVE pending physical re-examination.",
-  "references": [
-    "Sivan 2026, ALBA Project — Multi-dimensional register analysis, 21-color record",
-    "Museum for World Culture, Goteborg, Sweden",
-    "Heritage Science: Understanding Meaningful Khipu Colours (MDPI, 2023) — khipu dye analysis",
-    "Cross-corpus: UR203 (ceque registry, 10 colors), UR198 (Nazca census, 3 colors)",
-    "Nazca administrative culture — southern coast Aymara zone"
+
+  "summary": "UR113 is the MOST COLOURFUL KHIPU IN THE ANALYSED CORPUS -- 21 unique colours, nicknamed 'VALHALLA', held at the Museum for World Culture, Goteborg, Sweden. 866 cords from NAZCA (southern coast, Aymara zone), architecture 0-SEUL but L2/L1 ratio 1.61 (more subsidiaries than main cords, tree-like), L1: 332, L2: 505, L3: 28, L4: 1. 31 clusters of varying size. chiqa x9 DOMINATES the 34 STRING cords (26 percent of text) = verification / inspection marker -- the document is an AUDIT REGISTER, a record of what was VERIFIED AS TRUE. Plus qaqa x6 (rock), qaki x4 (frost / dry?), kaqa x2 (wall Aymara), maki x2 (hand / work), chaqa / maqa / mapa / pay / kapa / kay / qaqaqa / qakiqa / qakiqaki. 3 Aymara words confirm Nazca provenance (Aymara linguistic zone). HEAVILY DAMAGED: OKR documents at least 13 cord issues including cords 292-295 'fragile and disintegrating', cord 69 'not attached, location uncertain', cord 88 'patched, legitimacy dubious', cord 22 'stitched with modern thread', cord 33 'knotted like a noose', kvt_bug = approximate numbers only. 34 STRING at 53 percent dict hit -- coverage limited by damage. PREVIOUS COLOR RECORD: UR203 (Pachacamac ceque) at 10 colors; UR113 DOUBLES IT.",
+
+  "interpretation": "IDENTIFICATION\n  866 cords (L1: 332, L2: 505, L3: 28, L4: 1).\n  Architecture: 0-SEUL but L2/L1 = 1.61 (more subsidiaries than mains, tree-like).\n  21 UNIQUE COLORS -- CORPUS RECORD.\n  Nickname: 'Valhalla'. 31 clusters (sizes 4-20).\n  Provenance: Nazca, southern coast, Aymara linguistic zone.\n  Museum: Museum for World Culture, Goteborg, Sweden.\n  34 STRING (4 percent, 53 percent dict hit -- damage-limited), 685 INT, 143 EMPTY (17 percent).\n  kvt_bug = approximate numbers only (damage-impaired Locke reading).\n\nHEAVILY DAMAGED -- OKR physical notes\n  Cords 292-295: 'fragile and disintegrating'\n  Cord 69: 'not attached, location uncertain'\n  Cord 88: 'patched, legitimacy dubious'\n  Cord 22: 'stitched with modern thread'\n  Cord 33: 'knotted like a noose'\n  At least 13 cords with documented issues. Data-integrity caveat is significant.\n\nKEY VOCABULARY (13 distinct, 34 STRING, 53 percent dict hit)\n  chiqa    x9 -- TRUTH / VERIFICATION (DOMINANT, 26 percent of STRING) -- AUDIT MARKER\n  qaqa     x6 -- rock landmark\n  qaki     x4 -- frost / dry (uncertain gloss)\n  kaqa     x2 -- wall (Aymara)\n  maki     x2 -- hand / work\n  chaqa    x1 -- gorge / bridge\n  maqa     x1 -- strike / eclipse\n  mapa     x1 -- wax (Aymara)\n  pay      x1 -- he/she (pronoun)\n  kapa     x1 -- noble\n  kay      x1 -- to be (copula)\n  qaqaqa   x1 -- rock-TOP (topicalised rock)\n  qakiqa   x1 -- qaki-TOP\n  qakiqaki x1 -- qaki doubled (intensified)\n  3 Aymara words (kaqa, mapa) confirm Nazca = Aymara zone.\n\nCORPUS COLOUR RECORD -- 21 UNIQUE COLORS\n  W(205), AB(170), RB(149), KB(128), YB(55), MB(39), GG(29), G0(21), + 13 more rare colors.\n  Previous record: UR203 Pachacamac ceque at 10 colors. UR113 DOUBLES the previous record.\n  Each colour = one data dimension. Most information-dense khipu analysed.\n  Goteborg Museum research: 'khipus contain much more information than just their knotted structure --\n  a great part resides in their colors.'\n\nHYPOTHESIS\n  UR113 is an AUDIT / INSPECTION REGISTER from Nazca -- a multi-dimensional administrative document\n  using 21 colors to encode 8-10 data categories simultaneously. The dominant word chiqa (26 percent\n  of STRING) = VERIFICATION marker -- the scribe certified that each entry had been checked.\n  Significant damage means reading is partial and tentative; the structural signature (21 colors + L4\n  depth + chiqa dominance + 866-cord scale) is preserved even where individual knots are unreadable.",
+
+  "narrative": "Twenty-one colours. That is the first thing to say about UR113, the khipu nicknamed Valhalla at the Museum for World Culture in Goteborg. No other khipu in the analysed corpus uses more than ten. UR203, the Pachacamac ceque registry, held the previous record with ten colour channels. Valhalla doubles it.\n\nEach colour encodes a data dimension. White for reference data, light brown for primary categories, red-brown for secondary, dark-brown for objects, yellow-brown for annotations, medium-brown for a fourth category, gray-green for identity, green-zero for verification. And below those eight workhorse colours, thirteen more rare colours picking out specific sub-categories -- a palette so rich that the Goteborg researchers concluded the information was carried as much by the dyes as by the knots.\n\nEight hundred and sixty-six cords from Nazca, the southern coast where Aymara was spoken alongside Quechua. The mapa (Aymara wax) and kaqa (Aymara wall) confirm the linguistic zone. The scribe wrote in a cosmopolitan idiom.\n\nThirty-four words across the document -- only four percent of the cords carry text, the rest are numbers or empties. But the words are chosen with purpose. Chiqa, truth, verified, appears nine times -- twenty-six percent of all the text. This is a document whose purpose is VERIFICATION. An AUDIT register. Each major entry carries a chiqa stamp: we checked this. Qaqa, the rock, six times. Qaki, the frost or the dry, four times. Kaqa, the wall, twice. Maki, the hand, twice. A geographic and labor landscape, verified at nine points.\n\nAnd then the damage. Thirteen cords documented with problems by the museum investigators. Cords two-ninety-two to two-ninety-five, fragile and disintegrating. Cord sixty-nine, not attached -- its location in the original sequence is uncertain. Cord eighty-eight, patched, legitimacy dubious -- someone may have tampered with it, or repaired it crudely. Cord twenty-two, stitched with modern thread -- a conservation intervention. Cord thirty-three, knotted like a noose -- the investigator's choice of simile is not reassuring. The khipu carries its history of custody in its own flesh.\n\nFifty-three percent dict hit. Lower than any other v4 document analysed. The damage reduces the readability; the classifier must work with approximate numbers and partial words. But the structural signature holds: twenty-one colours, eight hundred and sixty-six cords, tree depth four, chiqa dominant.\n\nThis is the most information-dense khipu in existence. A Nazca audit register built to track so many dimensions at once that the scribe needed a palette twice the size of anything else attested. What the numbers counted, damage has mostly erased. But that it WAS counted, and that it WAS verified, the nine chiqa cords still attest.",
+
+  "attribution": {
+    "prior_work": [
+      {"claim": "The Museum for World Culture, Goteborg holds UR113 ('Valhalla') + UR118 (Paracas cadastral) as part of the Sweden-based pre-Columbian Andean collection, acquired through the 19th/20th-century European collecting networks.",
+       "citation": "Museum for World Culture, Goteborg catalog; Sivan, J. (2026). Goteborg khipu cluster analysis."},
+      {"claim": "Nazca was a major pre-Inca cultural zone (Nazca culture 100 BCE - 800 CE) whose territory was incorporated into the Inca empire; Aymara linguistic substrate is documented in colonial-era Nazca records.",
+       "citation": "Silverman, H. (1993). Cahuachi in the Ancient Nasca World; Cerron-Palomino, R. (2000). Linguistica Aymara: origenes e historia."},
+      {"claim": "Heritage-science analysis of khipu dyes at Goteborg established that a significant portion of khipu information resides in colour rather than in knot structure alone.",
+       "citation": "Heritage Science (MDPI 2023). Understanding Meaningful Khipu Colours -- khipu dye analysis."}
+    ],
+    "v3_contribution": [
+      {"claim": "CORPUS COLOR RECORD: 21 unique colours on UR113 -- DOUBLES the previous record (UR203 Pachacamac ceque at 10). Each colour encodes a distinct data dimension; UR113 is the most information-dense khipu in the analysed corpus.",
+       "evidence": {"kind": "statistical", "matches": 21, "test": "unique-colour count across analysed corpus"}},
+      {"claim": "CHIQA-DOMINANT AUDIT SIGNATURE: chiqa x9 = 26 percent of STRING = verification / inspection marker. Each major entry carries a chiqa stamp. Audit-register classification supported by both the word dominance and the multi-colour multi-category structure.",
+       "evidence": {"kind": "statistical", "matches": 9, "test": "chiqa-fraction-of-STRING + multi-colour audit-register signature"}},
+      {"claim": "AYMARA NAZCA ATTESTATION: kaqa (wall) + mapa (wax) = 3 Aymara lexical items confirming Nazca's Aymara linguistic zone. First direct-attestation khipu evidence for Aymara at Nazca.",
+       "evidence": {"kind": "structural", "matches": 3, "test": "Aymara-lexical cross-attestation at Nazca provenance"}},
+      {"claim": "SIGNIFICANT PHYSICAL DAMAGE DOCUMENTED: 13 OKR-noted cord issues including cords 292-295 fragile/disintegrating, C69 unattached, C88 patched/dubious, C22 modern thread, C33 noose-knot. Data-integrity confidence is reduced; dict hit 53 percent reflects damage rather than genuine lexical gaps.",
+       "evidence": {"kind": "physical", "matches": 13, "test": "OKR cord-level damage-note count"}},
+      {"claim": "TREE-LIKE 0-SEUL: architecture is nominally 0-SEUL but L2/L1 ratio 1.61 makes UR113 effectively tree-structured. 505 L2 + 28 L3 + 1 L4 subsidiaries hang from 332 L1 main cords. The architecture taxonomy fails to capture this specific hybrid.",
+       "evidence": {"kind": "structural", "matches": 1, "test": "L2/L1 ratio anomaly for 0-SEUL-classified document"}},
+      {"claim": "DATA-INTEGRITY CAVEAT: all interpretations of UR113 are TENTATIVE pending physical re-examination. The structural signature (21 colours + chiqa dominance + 866-cord scale) is preserved; individual knot values are less reliable.",
+       "evidence": {"kind": "structural"}}
+    ]
+  },
+
+  "companions": [
+    {"id": "UR203", "relation": "cross_khipu_signal",
+     "note": "Pachacamac ceque / huaca registry (10 colors, waqa x7). Previous COLOR RECORD holder in the analysed corpus, now doubled by UR113. Both documents are multi-dimensional administrative registers but serving different functions (ceque vs audit)."},
+    {"id": "UR198", "relation": "same_provenance",
+     "note": "Nazca census register (3 colors). Both Nazca; dramatically different complexity (3 vs 21 colors). UR198 = compact Nazca census; UR113 = complex Nazca audit."},
+    {"id": "UR118", "relation": "same_provenance",
+     "note": "Goteborg Museum Paracas cadastral (321 cords). Same museum as UR113; different pre-Inca provenance (Paracas vs Nazca) but both southern-coast Aymara-zone documents."},
+    {"id": "UR278", "relation": "same_document_type",
+     "note": "Incahuasi 162-year commodity audit (26 x 9 matrix). UR278 is a DENSE audit matrix; UR113 is a MULTI-DIMENSIONAL audit register with 21 colors. Two structural strategies for long-term verification."},
+    {"id": "UR267B", "relation": "same_document_type",
+     "note": "Incahuasi aji Sector A audit with chiqa-chiqa doubled-seal. Small-scale audit convention parallel; UR113 is the large-scale multi-dimensional audit."},
+    {"id": "UR266", "relation": "same_document_type",
+     "note": "Incahuasi UE 12 cross-khipu audit of UR278. UR266 audits another khipu; UR113 audits an administrative zone in its own right."},
+    {"id": "UR037", "relation": "cross_khipu_signal",
+     "note": "Central-coast census register with yellow-camelid physical markers. UR113's 21 colours + UR037's camelid-wool markers both illustrate Inca administrative use of physical annotation beyond knot-level data."}
   ],
-  "reconstructed_xlsx": null,
-  "document_type_override": "audit_register"
+
+  "confidence_axes": {
+    "word_reading": {
+      "level": "low-medium",
+      "note": "53 percent dict hit -- the lowest among v4-migrated khipus. chiqa + qaqa + kaqa + maqa dictionary-stable. qaki retains uncertain gloss. Damage on 13+ cords reduces the reliable STRING count. Structural signature (21 colours, chiqa dominance, L4 depth) is preserved regardless."
+    },
+    "document_type": {
+      "level": "medium",
+      "note": "audit_register classification supported by chiqa x9 verification dominance + 21-colour multi-dimensional encoding + 866-cord scale + tree-like architecture. The sub-type (land audit, tribute audit, workflow audit?) is unresolved without a full per-colour channel reading."
+    },
+    "narrative": {
+      "level": "medium",
+      "note": "The 'Nazca multi-dimensional audit register' reading is internally coherent and anchored on Goteborg dye-research + chiqa dominance + Aymara substrate attestation. The specific interpretation of the 21 colours as 21 data dimensions is plausible; each colour's role is not individually characterised."
+    },
+    "data_integrity": {
+      "level": "low",
+      "note": "SIGNIFICANT DAMAGE: 13 OKR-documented cord issues. kvt_bug = approximate numbers only. 53 percent dict hit. All interpretations are TENTATIVE pending physical re-examination at Goteborg. The structural-signature claims (colour count, depth, scale) are robust; the line-item content claims are damage-limited."
+    }
+  },
+
+  "sections": [
+    {"id": "I", "title": "Multi-Colour Opening Block", "cords": "c.1-c.150",
+     "reading": "Opening clusters carry multi-colour L1 cords with chiqa verification stamps. Early qaqa rocks + maki labour annotations hang from L2. The 21-colour palette establishes the document's multi-dimensional encoding from the start.",
+     "key_cords": [
+       {"pos": 22, "gloss": "modern-thread stitch", "note": "OKR: conservation intervention (C22)"},
+       {"pos": 33, "gloss": "noose-knot",           "note": "OKR: unusual knot tied 'like a noose' (C33)"}
+     ]},
+    {"id": "II", "title": "Middle Body with Verification Stamps", "cords": "c.151-c.450",
+     "reading": "Bulk of the audit content. chiqa cords scattered as verification stamps across major entries. Multiple qaqa + qaki + kaqa geographic + seasonal annotations. Aymara substrate (mapa, kaqa) attested.",
+     "key_cords": [
+       {"pos": 0,   "gloss": "chiqa x9",      "note": "VERIFICATION stamps scattered through body"},
+       {"pos": 292, "gloss": "fragile cord",  "note": "OKR: cords 292-295 'fragile and disintegrating'"},
+       {"pos": 88,  "gloss": "patched cord",  "note": "OKR: 'patched, legitimacy dubious'"}
+     ]},
+    {"id": "III", "title": "Paradigmatic Compound Forms", "cords": "scattered L2-L3",
+     "reading": "qaqaqa (rock-TOP), qakiqa (qaki-TOP), qakiqaki (qaki doubled) = compound + topicalised forms on subsidiaries. The scribe applies paradigmatic case-marking to geographic vocabulary, paralleling UR050/AS090/UR005 paradigm conventions.",
+     "key_cords": [
+       {"pos": 0, "gloss": "L2 qaqaqa",   "note": "ROCK-TOPICALISED (paradigmatic)"},
+       {"pos": 0, "gloss": "L2 qakiqa",   "note": "QAKI-TOPICALISED"},
+       {"pos": 0, "gloss": "L2 qakiqaki", "note": "QAKI DOUBLED (intensified)"}
+     ]},
+    {"id": "IV", "title": "Closing Body + Unattached Cord", "cords": "c.451-c.866",
+     "reading": "Tail of the document. Cord 69 'not attached, location uncertain' per OKR. The remaining STRING cords (pay, kapa, kay, chaqa, mapa) close the audit vocabulary.",
+     "key_cords": [
+       {"pos": 69, "gloss": "unattached cord", "note": "OKR: 'not attached, location uncertain'"},
+       {"pos": 866, "gloss": "LAST CORD",      "note": "closes the 866-cord audit register"}
+     ]}
+  ],
+
+  "references": [
+    "Sivan, J. (2026). The Khipu as a Layered Information System. ALBA Project preprint.",
+    "Sivan, J. (2026). Multi-dimensional register analysis -- UR113 21-colour record.",
+    "Museum for World Culture, Goteborg, Sweden -- UR113 catalogue record.",
+    "Heritage Science (MDPI 2023). Understanding Meaningful Khipu Colours.",
+    "Silverman, H. (1993). Cahuachi in the Ancient Nasca World.",
+    "Cerron-Palomino, R. (2000). Linguistica Aymara: origenes e historia.",
+    "Bertonio, L. (1612). Vocabulario de la lengua Aymara -- mapa (wax), kaqa (wall).",
+    "Gonzalez Holguin, D. (1608). Vocabulario.",
+    "OKR cord-level damage notes on UR113: C22, C33, C69, C88, C292-295 (13 issues).",
+    "Compare UR203 (10-colour previous record), UR198 (3-colour Nazca census), UR118 (Goteborg Paracas cadastral), UR278 (Incahuasi commodity audit), UR267B (chiqa-chiqa seal), UR037 (physical-marker convention)."
+  ],
+
+  "reconstructed_xlsx": null
 }

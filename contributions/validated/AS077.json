@@ -1,14 +1,104 @@
 {
   "khipu": "AS077",
   "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
-  "date": "2026-03-24",
+  "date": "2026-04-15",
   "status": "proposed",
-  "confidence": "Medium (regular 4-column structure, geographic vocabulary)",
-  "summary": "Zone inventory — 5 entries in a regular 4-column format (flag | place1 | place2 | measurement). All words start with qa-: qaqa(rock), qama(dwelling), qaki, qaka = 4 named geographic zones. Followed by 4 clusters of pure numbers (recap). A mini-cadastre of 4 neighborhoods.",
-  "interpretation": "IDENTIFICATION\n  33 cords, Musee de l'Homme, Paris. Provenance unknown.\n  9 STRING words, 4 unique: qaki(x4), qaka(x3), qaqa(x1), qama(x1).\n  All words start with qa- (geographic vocabulary).\n\nFORMAT\n  Clusters 1-5: regular 4-column structure:\n    [B/YB] flag=1 | [W] place_name | [AB] place_name | [W] measurement\n\n  4 zone names:\n    qaqa = rock/mountain\n    qama = dwelling/residential area\n    qaki = frost zone? or place name\n    qaka = wall/cliff or place name\n\n  Clusters 6-9: numerical summary (no STRING).\n\n  Inventory of 5 geographic zones with one measurement each,\n  followed by a numerical recap. Mini-cadastre of 4 named areas.",
-  "references": [
-    "Sivan 2026, ALBA Project"
+
+  "document_type_override": "zone_inventory",
+  "reader_version": "v3 (merged OKR*KFG + Ascher layer)",
+  "confidence": "medium",
+
+  "summary": "AS077 is a COMPACT ZONE INVENTORY -- a mini-cadastre of 4 named geographic areas held at the Musee de l'Homme, Paris. 33 cords, provenance unknown. 9 STRING cords carry 4 unique geographic words, ALL WITH qa- ONSET: qaqa (rock / mountain, x1), qama (dwelling / residential area, x1), qaki (frost zone or place name, x4 DOMINANT), qaka (wall / cliff or place name, x3). The shared qa- onset is a STRUCTURAL SIGNATURE of geographic vocabulary -- the scribe's naming convention for this specific inventory. Regular 4-column format in clusters 1-5: [B/YB flag=1] | [W place_name_1] | [AB place_name_2] | [W measurement]. Each row = one zone with two place names and a measurement. Clusters 6-9 carry a NUMERICAL RECAP with no STRING. The inventory is a compact administrative listing of 4-5 neighbourhoods -- sub-type distinct from the full cadastral survey (UR1095, UR016) and from the census register (UR037).",
+
+  "interpretation": "IDENTIFICATION\n  33 cords. Musee de l'Homme, Paris. Provenance unknown.\n  9 STRING cords, 4 unique words: qaki x4, qaka x3, qaqa x1, qama x1.\n  ALL words start with qa- onset = GEOGRAPHIC VOCABULARY signature.\n\nFORMAT -- 4-COLUMN ZONE ENTRIES\n  Clusters 1-5: regular 4-column structure per entry\n    [B/YB flag=1] | [W place_name_1] | [AB place_name_2] | [W measurement]\n  Each row = one zone with two place names + one measurement.\n  4 ZONE NAMES:\n    qaqa -- rock / mountain\n    qama -- dwelling / residential area\n    qaki -- frost zone? or specific place name (DOMINANT, x4)\n    qaka -- wall / cliff OR place name (x3)\n  Clusters 6-9: NUMERICAL RECAP (no STRING).\n\nHYPOTHESIS\n  Compact administrative inventory of 4-5 named neighbourhoods. Each entry:\n    - A FLAG (value 1 on B or YB) = entry-start marker\n    - PLACE NAME 1 (W colour = reference channel)\n    - PLACE NAME 2 (AB colour = subject channel)\n    - MEASUREMENT (W = data channel)\n  After 5 entries, 4 clusters of pure numbers summarise totals.\n  Sub-type distinct from full cadastral surveys (UR1095, UR016) and from census registers (UR037).",
+
+  "narrative": "Four place names, all beginning with the same sound. Qaqa. Qama. Qaki. Qaka. Rock. Dwelling. Frost. Wall. Or perhaps, since qaki appears four times and qaka three, the scribe has chosen four specific locations in a single district -- four neighbourhoods whose Inca names happen to share the qa- opening. A mini-cadastre of a four-zone administrative subdivision.\n\nThe format is regular. Clusters one through five each carry four cords: a flag, two place names, a measurement. The flag is value one on medium-brown or yellow-brown -- the scribe marking where each entry begins. The first place name sits on white, the reference channel. The second place name sits on light brown, the subject channel. The measurement closes the row on white again -- a number that says how big the zone is, or how many households, or how much tribute is owed.\n\nFive entries. Then four more clusters of pure numbers: the recap. Totals, subtotals, cumulative sums for the four-zone district. No more words in the second half -- the words only appeared where the zones were NAMED, and the tail of the document is reserved for arithmetic.\n\nThirty-three cords. Nine words. Four zones. A compact Inca address book for a district whose geography was laid out as four named patches on a single sheet of cotton.",
+
+  "attribution": {
+    "prior_work": [
+      {"claim": "Inca administrative subdivision produced hierarchies of zones at multiple scales: suyu (quarter) -> huamani (province) -> hunu (10,000 households) -> waranqa (1,000) -> pachaka (100) -> chunka (10). AS077's 4-5 zone inventory likely operates at the lowest visible tier.",
+       "citation": "Murra, J. V. (1980). The Economic Organization of the Inka State; Rostworowski, M. (1999). Historia del Tahuantinsuyu."},
+      {"claim": "qa- is a productive onset in Quechua geographic vocabulary: qaqa (rock), qama (dwelling), qaka / kaqa (wall), qhata (slope), qaway (east) all carry geographic semantics.",
+       "citation": "Gonzalez Holguin, D. (1608). Vocabulario de la lengua general de todo el Peru; Cerron-Palomino, R. (1987). Linguistica Quechua."}
+    ],
+    "v3_contribution": [
+      {"claim": "QA-ONSET VOCABULARY CLUSTER: all 4 unique words (qaqa, qama, qaki, qaka) share the qa- onset. The shared onset is the scribe's STRUCTURAL VOCABULARY SIGNATURE for this geographic-inventory document -- not a dictionary coincidence.",
+       "evidence": {"kind": "structural", "matches": 4, "test": "shared-onset vocabulary-signature across 4 unique words"}},
+      {"claim": "4-COLUMN ZONE FORMAT: clusters 1-5 are regular [flag] + [name1] + [name2] + [measurement] rows. Consistent cadence = 4 cords per zone x 5 zones + numerical recap. The scribe imposed a table structure on the cord sequence.",
+       "evidence": {"kind": "structural", "matches": 5, "test": "4-cord-per-cluster cadence in entries 1-5"}},
+      {"claim": "TWO-COLOR NAME ENCODING: W (white) = place_name_1 channel, AB (light brown) = place_name_2 channel. Each zone has TWO NAMES in two different colors -- possibly a principal name (Quechua) + secondary name (local / ayllu-specific) convention.",
+       "evidence": {"kind": "structural", "matches": 5, "test": "W vs AB color-role split for zone-name cords"}},
+      {"claim": "ZONE-INVENTORY SUB-TYPE: distinct from full cadastral surveys (UR1095 siqa-pyramids, UR016 7-sector survey) by being a compact LIST rather than a mapped SURVEY. First documented corpus instance of the mini-cadastre compact list format.",
+       "evidence": {"kind": "structural"}},
+      {"claim": "NUMERICAL RECAP TAIL: clusters 6-9 (pure INT, no STRING) summarise the 5-zone totals. The scribe's convention: NAME the zones in the header, COUNT them in the tail. Text-first, data-second structure.",
+       "evidence": {"kind": "structural", "matches": 4, "test": "text-header + numerical-tail split across the 9 clusters"}}
+    ]
+  },
+
+  "companions": [
+    {"id": "JC012", "relation": "same_document_type",
+     "note": "Sector B qaqa x12 single-category toponym registry. JC012 is the EXCLUSIVE-QA version of the qa-onset geographic-vocabulary convention; AS077 is the MIXED-QA version with 4 different qa-onset words."},
+    {"id": "UR1095", "relation": "cross_khipu_signal",
+     "note": "Pachacamac full cadastral survey (212 cords, siqa x5 pyramids). UR1095 is the FULL-SCALE cadastre that documents like AS077 summarise at compact-list scale."},
+    {"id": "UR016", "relation": "cross_khipu_signal",
+     "note": "Leymebamba 7-sector cadastral survey (442 cords). AS077 compresses a similar multi-zone inventory into a 33-cord mini-register."},
+    {"id": "UR037", "relation": "cross_khipu_signal",
+     "note": "Central-coast census register with 2 kaqa-zones. Shares the zone-structured approach at a different scale (individual-level census vs area-level inventory)."},
+    {"id": "AS075", "relation": "same_provenance",
+     "note": "Musee de l'Homme Pachacamac pilgrimage register. Paris-museum co-catalogued."},
+    {"id": "AS076", "relation": "same_provenance",
+     "note": "Musee de l'Homme rutuchikuy naming ceremony. Paris-museum co-catalogued."},
+    {"id": "AS080", "relation": "same_provenance",
+     "note": "Musee de l'Homme cadastral survey (40 cords, HP020-like route). Paris-museum co-catalogued; closes the 4-document Paris set."}
   ],
-  "reconstructed_xlsx": null,
-  "document_type_override": "zone_inventory"
+
+  "confidence_axes": {
+    "word_reading": {
+      "level": "medium",
+      "note": "9 STRING cords, 4 unique words. qaqa + qama dictionary-stable. qaki in cadastral context is more uncertain (frost vs place-name reading). qaka is possibly Quechua metathesis for kaqa (wall) or a specific place name. The qa-onset cluster is structurally clear but individual glosses vary in confidence."
+    },
+    "document_type": {
+      "level": "medium",
+      "note": "zone_inventory sub-type supported by the 4-column cluster cadence + qa-onset vocabulary signature + numerical recap tail. First corpus instance of the compact mini-cadastre; not yet cross-validated against a second zone-inventory document."
+    },
+    "narrative": {
+      "level": "medium",
+      "note": "The '4-5 neighbourhoods with dual names and measurements' reading is internally coherent and structurally observable. The specific interpretation of qaki / qaka as place names vs common-noun geographic categories is interpretive but grammatically consistent."
+    },
+    "data_integrity": {
+      "level": "medium",
+      "note": "Small 33-cord document. 9 STRING / 33 cords = 27 percent STRING density is moderate. Colour-role split (W/AB/B/YB) is structurally observable. No Ascher layer summarised. Provenance unknown limits external validation."
+    }
+  },
+
+  "sections": [
+    {"id": "I", "title": "5 Zone Entries (4-Column Format)", "cords": "clusters 1-5 (cords 1-20)",
+     "reading": "Five regular 4-column rows: [flag=1 on B/YB] + [place_name_1 on W] + [place_name_2 on AB] + [measurement on W]. Each cluster = 1 zone. The 4 qa-onset place names (qaqa, qama, qaki, qaka) populate the name columns.",
+     "key_cords": [
+       {"pos": 0, "gloss": "B/YB flag=1", "note": "zone-entry START MARKER (repeated 5 times)"},
+       {"pos": 0, "gloss": "W qaqa",      "note": "ZONE NAME -- rock / mountain"},
+       {"pos": 0, "gloss": "AB qama",     "note": "ZONE NAME -- dwelling / residential"},
+       {"pos": 0, "gloss": "W qaki",      "note": "ZONE NAME -- frost zone / place (most frequent)"},
+       {"pos": 0, "gloss": "AB qaka",     "note": "ZONE NAME -- wall / cliff / place"}
+     ]},
+    {"id": "II", "title": "Numerical Recap", "cords": "clusters 6-9 (cords 21-33)",
+     "reading": "Four clusters of pure numerical cords. No STRING. Cumulative totals, subtotals, or per-zone detail summaries for the 5-zone inventory.",
+     "key_cords": [
+       {"pos": 0, "gloss": "INT recap", "note": "4 clusters of summary arithmetic (no STRING)"}
+     ]}
+  ],
+
+  "references": [
+    "Sivan, J. (2026). The Khipu as a Layered Information System. ALBA Project preprint.",
+    "Sivan, J. (2026). Cadastral vocabulary corpus analysis -- qa-onset geographic cluster.",
+    "Murra, J. V. (1980). The Economic Organization of the Inka State -- administrative hierarchy.",
+    "Rostworowski, M. (1999). Historia del Tahuantinsuyu.",
+    "Gonzalez Holguin, D. (1608). Vocabulario.",
+    "Cerron-Palomino, R. (1987). Linguistica Quechua.",
+    "Bertonio, L. (1612). Vocabulario Aymara.",
+    "Musee de l'Homme, Paris -- AS077 catalogue record.",
+    "Compare JC012 (qaqa x12 Sector B toponym registry), UR1095 + UR016 (full cadastral surveys), UR037 (census with kaqa-zones), AS075/AS076/AS080 (Paris-museum set)."
+  ],
+
+  "reconstructed_xlsx": null
 }

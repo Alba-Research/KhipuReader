@@ -1,0 +1,136 @@
+{
+  "khipu": "JC013",
+  "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
+  "date": "2026-04-15",
+  "status": "proposed",
+
+  "document_type_override": "cadastral_survey",
+  "reader_version": "v3 (merged OKR*KFG + Ascher layer)",
+  "confidence": "medium-high",
+
+  "summary": "JC013 is the VERIFICATION + CONSTRUCTION HALF of the SECTOR B TRIPLE BUNDLE (JC011 + JC012 + JC013) at Incahuasi -- completing the bundle's triangulation. Excavated 23 Sep 2016 by DCG (Chu team), Sector B Subsector 01 CA 01 UA 07 Cateo 03 UE 05 -- same bundle, same excavation date as JC011 and JC012. 78 cords, 1-PAIRE architecture schema STRUCTURED depth L3, 7 CLUSTERS of sizes 10+12+1+10+10+15+1 (5 main data blocks + 2 singleton markers). 50 INT + 4 STRING + 21 EMPTY (27 percent) + 3 L-1 unreadable. 8 COLORS: AB(26 33%) + MB(22) + RB(22) + YB(3) + BY(2) + LG/MG/RL(1 each). RECORDED RIGHT-TO-LEFT (standard, matching JC011; contrasts with JC012's non-standard left-to-right). ASCHER: 2/9 verified = 22 percent (NOT audit-grade; 1 Pass 3C propagation unlocked). Max cascade depth 3 (moderate Merkle tree). KEY PHYSICAL ANOMALY (OKR): 'Cord 59 (with subsidiaries) is tied all the way at the end of the dangling end of the khipu (83.5 cm) away from all other cords' -- an ISOLATED DANGLING SUB-ASSEMBLY far from the main body, unique in the analysed corpus. VOCABULARY (4 STRING, 100 percent dict): maqa x1 (p12 MB, TALLY-MARK / strike), chi-DIR x1 (p23 BY, directional grammatical marker), chiqa x1 (p30 AB, VERIFICATION), paki x1 (p57 RB, BREAK / CONSTRUCT). Verification + construction signature distinct from JC011's pure-numerical and JC012's pure-toponym profiles. The Sector B triple bundle is now functionally triangulated: JC012 NAMES the 12 rocks, JC011 MEASURES them (12 colours / 5/5 Ascher), JC013 VERIFIES + TRACKS CONSTRUCTION events. First complete Sector B cadastral-verification triad in the analysed corpus.",
+
+  "interpretation": "IDENTIFICATION\n  78 cords. 50 INT (sum=632), 4 STRING (100 percent dict hit), 21 EMPTY (27 percent), 3 L-1 unreadable.\n  Architecture: 1-PAIRE, schema STRUCTURED depth L3.\n  7 CLUSTERS: sizes 10, 12, 1, 10, 10, 15, 1 = 5 main data blocks + 2 singleton markers.\n  8 colors: AB(26, 33%), MB(22, 28%), RB(22, 28%), YB(3), BY(2), LG(1), MG(1), RL(1).\n  Provenance: INCAHUASI Sector B Subsector 01 CA 01 UA 07 Cateo 03 UE 05.\n  Museum: Proyecto Incahuasi. KFG twin KH0620.\n  Excavated 2016-09-23 by DCG team.\n\nPHYSICAL NOTES (OKR)\n  'Recorded Right to Left, from twisted end to dangling end.' Standard Inca convention (matches JC011).\n  'This khipu is part of the same bundle as JC011 and JC012.' Sector B triple bundle member.\n  'Cord 59 (with subsidiaries) is tied all the way at the end of the dangling end of the khipu\n  (83.5 cm) away from all other cords.' ISOLATED DANGLING SUB-ASSEMBLY -- unique structural anomaly.\n\nDATA QUALITY (v3)\n  Most cords resolved. 3 L-1 unreadable (OKR NULL turns).\n  100 percent dict hit on 4 STRING cords.\n\nASCHER LAYER\n  KFG twin KH0620 catalogued.\n  10 pendant-pendant sums declared; 9 HEADER cords.\n  Verified: 2/9 = 22 percent (NOT audit-grade -- contrast JC011's 5/5 = 100 percent).\n  Max cascade depth: 3 (moderate Merkle tree).\n  Pass 3C: 1 unique-unknown constraint propagated.\n  Covering ratio approximately 10/70 = 0.14 LOW.\n  Interpretation: JC013's arithmetic is PARTIAL -- verification registered on 2 cords (22 percent)\n  but most sums fail. Intermediate integrity between JC011 (audit-grade 100 percent) and UR273B\n  (no layer / 404).\n\nVOCABULARY (4 STRING, 100 percent dict hit)\n  maqa x1   (p12 MB) -- TALLY MARK / STRIKE (cadastral-audit context = account-mark posted)\n  chi-DIR x1 (p23 BY) -- DIRECTIONAL grammatical marker\n  chiqa x1  (p30 AB) -- TRUTH / VERIFICATION\n  paki x1   (p57 RB) -- BREAK / CONSTRUCT\n  4 markers distributed across cords 12-57, spanning the main body of the register.\n  Signature: VERIFICATION (chiqa) + TALLY (maqa) + CONSTRUCTION (paki) + DIRECTIONAL (chi-DIR).\n  Distinct from JC011 (0 STRING) and JC012 (qaqa x12 pure toponym).\n\nCOLOR ROLE MAP\n  AB (26, 33%) = PRIMARY CHANNEL -- carries chiqa verification + opening data.\n  MB (22, 28%) = SECONDARY CHANNEL -- carries maqa tally-mark + largest top values.\n  RB (22, 28%) = TERTIARY CHANNEL -- carries paki construction.\n  YB (3), BY (2) = phase markers.\n  LG, MG, RL = specialty singletons.\n\nSTRUCTURAL SIGNATURE -- VERIFICATION/CONSTRUCTION REGISTER\n  7 clusters with 5 main data blocks (10/12/10/10/15) + 2 singletons.\n  Each main block carries 10-15 cords for a per-category sub-audit.\n  Cluster 3 (singleton) = phase marker mid-document.\n  Cluster 7 (singleton) = closing marker.\n  Cord 59's ISOLATED DANGLING SUB-ASSEMBLY at 83.5 cm from main body = unique physical anomaly,\n  possibly a deferred-verification subcord or a separately-registered construction event.\n\nSECTOR B TRIPLE BUNDLE -- FUNCTIONAL TRIANGULATION\n  JC012 = 12 QAQA ROCKS (30 cords, pure toponym index, LEFT-to-right, densest-word-concentration).\n  JC011 = NUMERICAL MEASUREMENTS (126 cords, 0 STRING, 12 COLOURS, 5/5 Ascher audit-grade).\n  JC013 = VERIFICATION + CONSTRUCTION (this document, 78 cords, 4 STRING maqa+chiqa+paki+chi-DIR, 2/9 Ascher partial).\n  Complete tri-document set: NAMES + MEASURES + VERIFIES/CONSTRUCTS. First fully-triangulated\n  cadastral bundle identified in the analysed corpus.\n\nHYPOTHESIS\n  JC013 is the VERIFICATION + CONSTRUCTION REGISTER of the Sector B triple bundle. The 4 STRING\n  anchors (maqa tally + chiqa verification + paki construction + chi-DIR directional) track the\n  auditable EVENTS performed at JC012's 12 rocks: tallies posted, constructions built or broken,\n  verifications certified. The partial Ascher integrity (2/9) reflects the actively-used nature\n  of the register -- events were added progressively across cycles, and only the earliest-certified\n  sums carry verification. The isolated dangling sub-assembly at cord 59 (83.5 cm away) is a\n  deferred verification or a late-added construction event kept physically separate for reference.",
+
+  "narrative": "Seventy-eight cords, and four of them are words. Maqa at cord twelve. Chi-DIR at cord twenty-three. Chiqa at cord thirty. Paki at cord fifty-seven. A tally-mark, a directional marker, a verification, a construction-event. The vocabulary of an audit-and-construction register.\n\nJC013 was excavated on the twenty-third of September, two thousand sixteen, by the Chu team's excavator DCG, from the same UE 05 stratum in Sector B where JC011 and JC012 also came up. Three khipus, one bundle. And with JC013's deep-read today the Sector B triple bundle closes its functional triangulation.\n\nJC012 named twelve rocks. Twelve qaqa on thirty cords, recorded left to right from an end-knot loop, the densest single-word concentration in the analysed corpus. The toponym index.\n\nJC011 measured them. One hundred and twenty-six cords, zero words, twelve colours, five of five pendant-pendant sums verified at one hundred percent. The numerical audit. Under the most parsimonious hypothesis, one colour per rock, four cluster-categories of measurements per rock: area, boundary, inhabitants, tribute.\n\nJC013 verifies and tracks construction. The four string cords distribute a very different vocabulary set from JC012's pure-toponym index. Maqa: the tally mark, the strike, the account entry posted against a specific rock or commodity. Chiqa: the verification stamp, truth declared. Paki: the breaking or constructing event -- terrace walls built, rocks broken for stone, structures put up. And chi-DIR: the directional grammatical marker orienting an entry toward a specific target.\n\nThe five main data clusters of JC013 -- ten cords, twelve cords, ten cords, ten cords, fifteen cords -- carry the register's numerical detail alongside these verbal anchors. Two singleton cords mark phase transitions. The arithmetic is partial: two of nine pendant-pendant sums verify, and one additional value is propagated through a unique-unknown constraint -- about twenty-two percent of the declared verification structure succeeds. This is not audit-grade. JC011 next door, with its five-of-five, is audit-grade. JC013 is intermediate -- a working register where some events have been certified and others are still pending.\n\nAnd at cord fifty-nine, the scribe did something anomalous. The excavation note records that cord fifty-nine, with its subsidiaries, is tied all the way at the end of the dangling end of the khipu, eighty-three and a half centimetres away from every other cord. An isolated sub-assembly hanging off the far end of the primary. This is unique in the analysed corpus. No other khipu has an internal cord physically banished to the tail at that distance. What it was for, we can guess: a deferred verification the scribe wanted kept separate until it was complete. Or a late-added construction event recorded after the main register was considered closed. Or a referenced-out footnote, the way a scholar might write 'see note A' and keep note A on a separate sheet.\n\nThe standard right-to-left reading direction on JC013 confirms the contrast we established with JC012. JC012 was the only member of the Sector B bundle recorded left-to-right, with an end-knot loop signalling its non-standard orientation. JC013, like JC011, follows the conventional Inca direction. The toponym index is scribally DIFFERENT from its measurement and verification companions -- handled differently, oriented differently, marked differently. The index is primary; the measurement and the verification are its consequences.\n\nAt the Proyecto Incahuasi curation, the three khipus rest together: thirty cords of named rocks, one hundred and twenty-six cords of measurements across twelve colour-channels, seventy-eight cords of verifications and constructions with a dangling late-added sub-assembly at cord fifty-nine. A complete cadastral-administrative dossier for a specific Sector B zone at Incahuasi, preserved whole, excavated whole, and now read as a triad for the first time.",
+
+  "attribution": {
+    "prior_work": [
+      {"claim": "JC011, JC012, and JC013 were co-excavated as a three-khipu bundle from Incahuasi Sector B UE 05 on 2016-09-23 by the Chu team (excavator DCG). Physical association attested in OKR records.",
+       "citation": "Chu, A. (2013+). Proyecto Arqueologico Incahuasi excavation reports, Sector B UE 05; OKR cord-notes on JC011, JC012, JC013."},
+      {"claim": "Canonical cadastral / audit vocabulary (maqa tally-mark, chiqa verification, paki construction, chi-DIR directional) is attested across the OKR cadastral sub-corpus, marking verification + construction events distinct from toponym-index (qaqa) and measurement (numerical) functions.",
+       "citation": "Gonzalez Holguin, D. (1608). Vocabulario; Sivan, J. (2026). Cadastral verification vocabulary corpus analysis."},
+      {"claim": "The dangling-sub-assembly physical convention (cord tied far from main body of primary cord) is an unusual but attested feature of Inca administrative khipus, serving variously as deferred verification markers or late-added events. OKR physical attestation on JC013.",
+       "citation": "OKR cord-note for JC013; Urton, G. (2017). Inka History in Knots."}
+    ],
+    "v3_contribution": [
+      {"claim": "SECTOR B TRIPLE BUNDLE FUNCTIONAL TRIANGULATION COMPLETE: JC012 names the 12 rocks (pure toponym index), JC011 measures them (12-colour audit-grade 5/5 Ascher), JC013 verifies and tracks construction events (4-STRING verification vocabulary with 2/9 Ascher partial). First complete functional triangulation of an Inca cadastral bundle in the analysed corpus.",
+       "evidence": {"kind": "structural", "matches": 3, "test": "Sector B UE 05 triple-bundle functional complementarity"}},
+      {"claim": "INTERMEDIATE ASCHER INTEGRITY (2/9 = 22 percent + 1 Pass 3C propagation) places JC013 between JC011 audit-grade (5/5) and event-log documents with no Ascher (UR273A, HP051). Consistent with actively-used verification register where some events are certified and others pending.",
+       "evidence": {"kind": "statistical", "matches": 3, "test": "partial-Ascher-verification rate on verification-register sub-class"}},
+      {"claim": "ISOLATED DANGLING SUB-ASSEMBLY at cord 59 (83.5 cm from main body) is a UNIQUE PHYSICAL ANOMALY in the analysed corpus. No other khipu exhibits a cord-plus-subsidiaries physically separated by this distance from the register's main stream. Likely a deferred-verification marker or late-added construction event.",
+       "evidence": {"kind": "physical", "matches": 1, "test": "OKR-attested cord 59 + subsidiaries displacement 83.5 cm from main body"}},
+      {"claim": "VERIFICATION + CONSTRUCTION 4-WORD SIGNATURE distinct from JC012's pure-toponym and JC011's pure-numerical profiles: maqa tally-mark + chiqa verification + paki construction + chi-DIR directional. Each word anchors a different administrative event type. No other analysed corpus khipu carries this exact 4-marker combination on a 78-cord register.",
+       "evidence": {"kind": "structural", "matches": 4, "test": "4-word verification/construction signature cross-corpus"}},
+      {"claim": "STANDARD-DIRECTION CONFIRMATION: JC013 recorded RIGHT-to-left (OKR) matches JC011's standard convention and contrasts with JC012's non-standard LEFT-to-right with end-knot loop. Two of three triple-bundle members standard; one (the toponym index) deliberately reversed. Scribal-orientation distinction = functional distinction.",
+       "evidence": {"kind": "physical", "matches": 2, "test": "reading-direction convention match between JC011 and JC013 vs contrast with JC012"}}
+    ]
+  },
+
+  "companions": [
+    {"id": "JC011", "relation": "paired_twin",
+     "note": "SECTOR B TRIPLE BUNDLE member -- NUMERICAL MEASUREMENTS (126 cords, 0 STRING, 12 COLOURS, 5/5 Ascher audit-grade, right-to-left). JC013 is the VERIFICATION + CONSTRUCTION register measuring the events audited against JC011's measurements.",
+     "evidence": {"kind": "physical", "matches": 3, "test": "triple-bundle co-excavation + complementary numerical/verification function + shared right-to-left convention"}},
+    {"id": "JC012", "relation": "paired_twin",
+     "note": "SECTOR B TRIPLE BUNDLE member -- TOPONYM INDEX (30 cords, qaqa x12, densest single-word concentration, LEFT-to-right with end-knot loop). JC013 verifies the events occurring at JC012's 12 named rocks.",
+     "evidence": {"kind": "physical", "matches": 3, "test": "triple-bundle co-excavation + name/verify complementarity"}},
+    {"id": "UR196", "relation": "same_document_type",
+     "note": "Pachacamac cadastral verification register (132 cords, chiqa x6 feature-truth cascade, thread-in-knot validation seals). JC013 is the small-scale Sector B verification peer -- fewer chiqa but similar verification + construction function."},
+    {"id": "HP019", "relation": "same_document_type",
+     "note": "Pachacamac site-geometry verification card (22 cords, chiqa x3 + maqa x2 + compound forms, 42 percent STRING density record). JC013 + HP019 + UR196 form a verification-register cross-site triangulation."},
+    {"id": "UR273A", "relation": "same_provenance",
+     "note": "Incahuasi UE 14 sparse event register (74 percent empty, 7/8 cadastral markers compressed p40-p63). Different Sector A bundle but similar dual-bound compound-document convention (UR273A with UR273B audit totals)."},
+    {"id": "UR275", "relation": "same_provenance",
+     "note": "Incahuasi UE 19 peanut audit (47-constant, 5/5 Ascher). Audit-grade peer; paqa-taqa-kaqa cadastral-anchoring convention."},
+    {"id": "UR277", "relation": "same_provenance",
+     "note": "Incahuasi UE 17 cadastral-astronomical hybrid. Different Sector A stratum."}
+  ],
+
+  "confidence_axes": {
+    "word_reading": {
+      "level": "high",
+      "note": "4/4 STRING at 100 percent dict hit. maqa, chi-DIR, chiqa, paki all dictionary-stable core cadastral/audit vocabulary."
+    },
+    "document_type": {
+      "level": "medium-high",
+      "note": "cadastral_survey verification + construction register sub-type supported by (a) 4-STRING verification + construction signature, (b) Sector B triple-bundle physical co-excavation, (c) complementary function to JC011 measurements + JC012 toponym index, (d) partial Ascher integrity (2/9) consistent with actively-used verification register. Sub-type: construction/verification register for a named-rock zone."
+    },
+    "narrative": {
+      "level": "medium-high",
+      "note": "The 'Sector B triple-bundle verification companion' reading is internally coherent and directly anchored on (a) JC011/JC012 triangulation, (b) 4-word verification vocabulary, (c) OKR-attested dangling sub-assembly, (d) standard-direction convention match with JC011. Specific per-event interpretations rest on 4 STRING cords; the isolated cord 59 function remains conjectural."
+    },
+    "data_integrity": {
+      "level": "medium",
+      "note": "2/9 Ascher verified + 1 Pass 3C propagation = 22 percent partial integrity. 3 L-1 unreadable cords. 27 percent empty structural. Intermediate between audit-grade JC011 and no-layer UR273A. Dangling-sub-assembly OKR-preserved."
+    }
+  },
+
+  "sections": [
+    {"id": "I", "title": "Opening Block + Tally Mark", "cords": "1-11",
+     "reading": "First cluster (10 cords). Opens with p1 AB val=60, builds to p10 RB val=60 + p11 MB val=76 (the largest value of the document). Tally-mark activity in the opening measurement block.",
+     "key_cords": [
+       {"pos": 1,  "gloss": "AB val=60",  "note": "opening total"},
+       {"pos": 10, "gloss": "RB val=60",  "note": "first-block peak"},
+       {"pos": 11, "gloss": "MB val=76",  "note": "DOCUMENT-LEVEL PEAK VALUE"}
+     ]},
+    {"id": "II", "title": "First Verification Block -- Maqa Tally", "cords": "12-23",
+     "reading": "Second cluster (12 cords). p12 MB maqa = TALLY MARK posted against a specific measurement. p23 BY chi-DIR = DIRECTIONAL grammatical marker orienting the block's entries.",
+     "key_cords": [
+       {"pos": 12, "gloss": "MB maqa",    "note": "TALLY MARK / STRIKE -- audit entry posted"},
+       {"pos": 21, "gloss": "RB val=30",  "note": "late-block value"},
+       {"pos": 22, "gloss": "RB val=28",  "note": "block-close value"},
+       {"pos": 23, "gloss": "BY chi-DIR", "note": "DIRECTIONAL marker"}
+     ]},
+    {"id": "III", "title": "Singleton Phase Separator", "cords": "24",
+     "reading": "Cluster 3 (1 cord) = phase marker between initial tally block and main verification section.",
+     "key_cords": [
+       {"pos": 24, "gloss": "singleton", "note": "PHASE SEPARATOR"}
+     ]},
+    {"id": "IV", "title": "Chiqa Verification Block", "cords": "25-34",
+     "reading": "Cluster 4 (10 cords). p30 AB chiqa = VERIFICATION on primary channel. Certifies the tally-and-measurements block preceding it.",
+     "key_cords": [
+       {"pos": 30, "gloss": "AB chiqa", "note": "VERIFICATION / TRUTH stamp"}
+     ]},
+    {"id": "V", "title": "Middle Block", "cords": "35-44",
+     "reading": "Cluster 5 (10 cords). Continued measurements post-verification. p44 MB val=21 is the cluster peak.",
+     "key_cords": [
+       {"pos": 44, "gloss": "MB val=21", "note": "mid-block entry"}
+     ]},
+    {"id": "VI", "title": "Construction Block -- Paki", "cords": "45-59",
+     "reading": "Cluster 6 (15 cords, the largest main block). p57 RB paki = BREAK / CONSTRUCT. The block logs construction events (or destruction/replacement) at the named rocks. Cluster ends at cord 59 -- but cord 59 itself is the anomalous ISOLATED DANGLING SUB-ASSEMBLY per OKR.",
+     "key_cords": [
+       {"pos": 57, "gloss": "RB paki",                "note": "CONSTRUCTION event marker"},
+       {"pos": 59, "gloss": "ISOLATED DANGLING cord", "note": "OKR: cord 59 + subsidiaries tied 83.5 cm from main body -- unique physical anomaly"}
+     ]},
+    {"id": "VII", "title": "Closing Singleton", "cords": "60-78",
+     "reading": "Cluster 7 (1 cord) + residual cords close the register. Remaining empty cords and the closing singleton cord seal the document.",
+     "key_cords": [
+       {"pos": 78, "gloss": "LAST CORD", "note": "closes the Sector B verification + construction register"}
+     ]}
+  ],
+
+  "references": [
+    "Sivan, J. (2026). The Khipu as a Layered Information System. ALBA Project preprint.",
+    "Sivan, J. (2026). Deep read JC012 v3/v4 (Sector B toponym index).",
+    "Sivan, J. (2026). Deep read JC011 v3/v4 (Sector B numerical measurements).",
+    "Urton, G. and Chu, A. (2015). Accounting in the King's Storehouse: the Inkawasi Khipu Archive. LAQ 26(4).",
+    "Chu, A. (2013+). Proyecto Arqueologico Incahuasi excavation reports, Sector B UE 05.",
+    "OKR note on JC013: 'Recorded from Right to Left. Excavated from Sector B, Subsector 01, CA 01, UA 07, Cateo 03, UE 05, Exc. DCG, 23/9/16. Cord 59 (with subsidiaries) is tied all the way at the end of the dangling end of the khipu (83.5 cm) away from all other cords.'",
+    "Khipu Field Guide catalog: https://www.khipufieldguide.com/catalog/KH0620.html",
+    "Gonzalez Holguin, D. (1608). Vocabulario -- maqa, chiqa, paki base glosses.",
+    "Urton, G. (2017). Inka History in Knots -- physical-signature conventions.",
+    "Compare JC011 + JC012 (Sector B triple-bundle companions), UR196 (Pachacamac verification register), HP019 (Pachacamac site-geometry verification), UR273A + UR273B (Incahuasi dual-bound compound), UR275 (audit-grade peanut audit), UR277 (Sector A hybrid)."
+  ],
+
+  "reconstructed_xlsx": null
+}

@@ -1,0 +1,84 @@
+{
+  "khipu": "AS200",
+  "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
+  "date": "2026-04-15",
+  "status": "proposed",
+
+  "document_type_override": "administrative_accounting",
+  "reader_version": "v3 (merged OKR*KFG + Ascher layer)",
+  "confidence": "medium",
+
+  "summary": "AS200 is a FULLY-FILLED MEDIUM-SCALE ADMINISTRATIVE REGISTER from 'Central Coast Late Period' provenance at the American Museum of Natural History, New York. KFG twin KH0218. 64 CORDS, 1-PAIRE architecture depth L2, 17 CLUSTERS. 64 INT + 0 STRING + 0 EMPTY = 100 PERCENT FILLED REGISTER. 3 COLORS: AB(35 55%) + W(28 44%) + B(1) = near-binary AB/W palette with a single B specialty cord. TOTAL SUM = 3,063 across 64 cords = AVERAGE 48 PER CORD (medium-high scale, within compound audit range). ASCHER: 1 pendant-pendant sum declared, 1/1 VERIFIED = 100 PERCENT minimal Ascher layer (single-sum integrity proof). Max cascade depth 1 (flat). Provenance 'Central Coast Late Period' connects to broader Lima-Chillon-Canete area of late Inca occupation, potentially the same cultural zone as UR176 Chuquitanta, UR190 Huaca Perez, UR182 compact huaca-wall register. 17 clusters on 64 cords = avg 3.8 cords per cluster = fine-grained structural segmentation. The combination FULLY-FILLED + NEAR-BINARY PALETTE + MEDIUM-HIGH PER-CORD SCALE + SINGLE VERIFIED SUM = structured daily-accounting register where every cluster represents a transaction block and the single Ascher sum anchors the register's grand-total integrity.",
+
+  "interpretation": "IDENTIFICATION\n  64 cords. 64 INT (sum=3063), 0 STRING, 0 EMPTY (FULLY FILLED 100%).\n  Architecture: 1-PAIRE, schema RELATIONAL depth L2.\n  17 CLUSTERS (avg 3.8 cords each = fine-grained segmentation).\n  Colors: AB(35, 55%), W(28, 44%), B(1, 1%). Near-binary AB/W palette.\n  Provenance: Central Coast Late Period.\n  Museum: American Museum of Natural History, NY.\n  KFG twin KH0218.\n\nDATA QUALITY (v3)\n  0 STRING cords (ALBA syllabary does not contribute).\n  All 64 INT dict-stable. Fully-filled register.\n  Sum=3063 across 64 cords = avg 48 per cord (medium-high scale).\n\nASCHER LAYER\n  1 pendant-pendant sum declared, 1/1 VERIFIED = 100 percent at single-sum scale.\n  Max cascade depth: 1 (flat).\n  Minimal Ascher layer -- the single sum anchors the register's grand total with cryptographic\n  integrity but does not cross-verify multiple levels.\n\nSTRUCTURAL SIGNATURE -- FINE-GRAINED 17-CLUSTER FULL-FILL\n  17 clusters on 64 cords = avg 3.8 cords per cluster.\n  Fine-grained segmentation consistent with TRANSACTION-BLOCK register where each cluster\n  represents one administrative event or entry.\n  Contrast:\n    UR192 Huaca Perez: 7 clusters / 70 cords (avg 10 per cluster, 54 percent empty = pre-formatted).\n    AS050: 17 clusters / 370 cords (avg 22 per cluster, 57 percent empty = sparse large-scale).\n    AS200 (this): 17 clusters / 64 cords (avg 3.8 per cluster, 0 percent empty = dense fine-grained).\n  AS200's small-cluster full-fill distinguishes it from sparse pre-formatted conventions.\n\nNEAR-BINARY AB/W PALETTE\n  AB 55% + W 44% + B 1% = near-binary two-colour register with a single B specialty cord.\n  The AB/W split may encode BINARY CATEGORIES (e.g. deposit-withdrawal, origin-destination,\n  domestic-foreign, quota-actual). Single B cord = specialty marker within the binary frame.\n  Compare: UR037 census uses 5-color palette with joint value+colour encoding; UR182 huaca-wall\n  has 7 colors on 30 cords; AS200 minimises palette for binary encoding.\n\nHYPOTHESIS\n  AS200 is a FINE-GRAINED BINARY-PALETTE TRANSACTION REGISTER from the Central Coast Late Period\n  (Lima-Chillon-Canete region). 17 small clusters = 17 transaction blocks. Near-binary AB/W encoding\n  = 2-category administrative distinction per cord pair. 100-percent full-fill = complete registration\n  without pre-formatted placeholders. Single Ascher sum = minimal arithmetic integrity proof at\n  grand-total scale.\n  Possible specific functions: a compact daily/weekly accounting register for a specific central-coast\n  tambo or administrative centre, with AB = primary transactions + W = cross-referenced entries\n  (or similar 2-category split). The single B specialty cord at 1 percent may flag an exceptional\n  entry within the otherwise regular binary register.\n  Medium-high per-cord scale (avg 48) places it above UR192 / HP018 (tambo-admin scale) and below\n  UR273B / UR183 / UR262 (audit-tier scale). Compound-audit tier intermediate.",
+
+  "narrative": "Sixty-four cords. Every one of them carries a knot. Zero empty, zero STRING, no pre-formatted template slots. This is a FULLY USED administrative register at medium-high scale (average forty-eight units per cord, total three thousand and sixty-three) organised into seventeen fine-grained clusters with an average of three-point-eight cords per cluster.\n\nThe palette is near-binary. Thirty-five cords on alpaca-brown (fifty-five percent), twenty-eight cords on white (forty-four percent), and ONE cord on colour B (one percent). Two main channels with a single specialty marker. The binary split suggests AB and W each encode ONE CATEGORY of administrative content -- the scribe distinguishing between, say, deposit and withdrawal, or primary transaction and cross-reference, or domestic and external, or quota-expected and quota-actual. The single B cord then flags one exceptional entry within the otherwise regular binary frame.\n\nOne pendant-pendant sum is declared, and it verifies. One hundred percent at the single-sum scale. The arithmetic integrity is minimal but present: the document carries one grand-total verification cord whose arithmetic ties the sum across the register, certifying that the sixty-four filled positions add up to their declared aggregate. This is LIGHT AUDIT -- not the eighteen-of-eighteen cascade-depth-five of AS092, not the forty-two-of-forty-eight cascade-depth-six of AS050 (corpus record), not even the six-of-six of JC001 at cascade depth two -- but a single cryptographic anchor suffices to proof the grand total.\n\nThe provenance is recorded as 'Central Coast Late Period'. The label places AS200 in the archaeological zone between Lima, the Chillon valley, and the Canete area, in the late-Inca occupation period. That makes it a potential peer of:\n  UR176 Chuquitanta murder dossier (Chillon valley, 154 cords, dated Feb 1519).\n  UR190 + UR191 + UR192 Huaca Perez tambo trio (Chillon valley, peanut day-book at 47-constant).\n  UR182 compact huaca-wall register (2 huacas + 1 wall, audit-tier totals).\n  UR120 Huacho formal cadastre (Huaura valley, reduplicated-formal-register style).\n  UR165 Puruchuco astronomical calendar (Lima region, ceque-anchored).\n\nAS200 at the AMNH in New York comes from this same broad cultural zone, though the specific site is not narrowed further than 'Central Coast Late Period'. The American Museum of Natural History catalogued AS200 with KFG twin KH0218 in the pre-digital era; subsequent OKR field work assigned the AS-prefix number.\n\nAt the level of specific content, AS200 does not give us more than its structure. Sixty-four transaction counts averaging forty-eight units each, split across seventeen fine-grained event clusters, on two main colour channels with one specialty marker. The single Ascher sum verifies. The rest is numbers.\n\nBut the structural signature is distinctive. Fully-filled dense registers at this scale are not common in the analysed corpus: most large-enough documents have at least twenty-thirty percent empty (pre-formatted templates). AS200's zero-empty status places it with JC014 (60-cord 0-empty 6x10 matrix) and JC001 (36-cord 0-empty 5-colour balanced audit) as FULLY-USED COMPACT REGISTERS. Different structural principles -- AS200's near-binary palette versus JC014's six-colour bands versus JC001's five-colour balance -- but shared fully-filled convention distinguishes this class of registers from the pre-formatted template class (AS050 at 57 percent empty, UR273A at 74, UR192 at 54).",
+
+  "attribution": {
+    "prior_work": [
+      {"claim": "The Central Coast Late Period (Lima-Chillon-Canete region, ~1470-1532 CE) produced numerous Inca administrative khipus catalogued at the AMNH, AMGK, Musee du Quai Branly, and Museum of World Culture Goteborg; UR176 (Chuquitanta) + UR190-192 (Huaca Perez) + UR182 + UR120 represent the region's khipu archive.",
+       "citation": "Rostworowski, M. (1978). Senorios indigenas de Lima y Canta; Dillehay, T. (1976). Competition and Cooperation in a Prehispanic Multi-ethnic System."},
+      {"claim": "Fully-filled dense registers with binary or near-binary colour palettes are documented in the corpus (JC001 5-colour balance, JC014 6-colour bands, AS094 2-colour micro-matrix). Pre-formatted sparse registers are the opposite convention (AS050, UR273A, UR192).",
+       "citation": "Sivan, J. (2026). Full-fill vs pre-formatted register conventions -- corpus analysis."},
+      {"claim": "Minimal Ascher integrity (1/1 verified at cascade depth 1) provides grand-total arithmetic anchor without hierarchical cross-verification; distinct from audit-grade multi-level cascades (AS092 depth 5, AS050 depth 6).",
+       "citation": "Sivan, J. (2026). Ascher Sums as Erasure Codes. ALBA Project preprint."}
+    ],
+    "v3_contribution": [
+      {"claim": "FULLY-FILLED FINE-GRAINED REGISTER: 17 clusters on 64 cords = avg 3.8 per cluster, 0 percent empty. Distinct from sparse pre-formatted conventions (AS050 57 percent empty) and from coarse-cluster conventions (UR192 avg 10). AS200 sits at fine-grained full-fill intersection.",
+       "evidence": {"kind": "statistical", "matches": 2, "test": "cluster-size + empty-fraction combined signature"}},
+      {"claim": "NEAR-BINARY AB/W PALETTE (55% + 44% + 1%): two-colour administrative encoding with a single B specialty cord. Binary-category distinction (e.g. deposit-withdrawal) possible; contrasts with dimensional multi-colour encoding (UR198 3D, UR113 21-colour).",
+       "evidence": {"kind": "statistical", "matches": 3, "test": "near-binary 55/44/1 palette distribution"}},
+      {"claim": "MEDIUM-HIGH PER-CORD SCALE (sum 3063 / 64 = 48 per cord average): between tambo-admin tier (HP018 avg 18, UR192 avg 6) and audit-tier (UR273B 977, UR183 818, UR262 236). Compact compound-audit intermediate.",
+       "evidence": {"kind": "statistical", "matches": 1, "test": "per-cord-average scale positioning"}},
+      {"claim": "MINIMAL ASCHER INTEGRITY: 1/1 verified at cascade depth 1 = single grand-total cryptographic anchor. Distinct from no-layer (UR273A) + full-cascade (AS092 cascade 5, AS050 cascade 6). AS200 occupies a specific mid-tier integrity profile.",
+       "evidence": {"kind": "statistical", "matches": 1, "test": "single-sum Ascher integrity profile"}}
+    ]
+  },
+
+  "companions": [
+    {"id": "UR176", "relation": "same_provenance",
+     "note": "Chuquitanta murder dossier (154 cords, Feb 1519 CE). Central Coast Late Period peer at Chillon valley. UR176 is juridical; AS200 is administrative -- complementary functions."},
+    {"id": "UR190", "relation": "same_provenance",
+     "note": "Huaca Perez tambo peanut day-book (417 cords, 47-constant). Central Coast Late Period peer, Chillon valley tambo."},
+    {"id": "UR192", "relation": "same_provenance",
+     "note": "Huaca Perez tambo general admin (70 cords, log-linear ascending R-squared 0.981). Central Coast Late Period peer at similar scale."},
+    {"id": "UR182", "relation": "same_provenance",
+     "note": "Huaca-wall compact register (30 cords, waqa x2 + kaqa, audit-tier totals). Central Coast peer at compact scale."},
+    {"id": "JC001", "relation": "same_document_type",
+     "note": "Chu Incahuasi JC-series first document (36 cords, 6/6 Ascher = 100 percent, 5-colour balanced). Fully-filled compact audit-grade peer."},
+    {"id": "JC014", "relation": "same_document_type",
+     "note": "Sector B UE 03 checklist matrix (60 cords, 6x10 colour bands, 0 empty). Fully-filled compact register peer at similar scale."},
+    {"id": "HP018", "relation": "same_document_type",
+     "note": "Pachacamac New Year 1526 audit (35 cords, 7/7 Ascher). Compact audit register peer at similar scale but with explicit dating."},
+    {"id": "UR120", "relation": "same_provenance",
+     "note": "Huacho formal cadastre (77 cords, reduplicated formal register). Central Coast peer from Huaura valley (slightly north of Chillon)."}
+  ],
+
+  "confidence_axes": {
+    "word_reading": {"level": "not-applicable", "note": "0 STRING cords. ALBA syllabary does not contribute. Classification rests on structural + near-binary palette + single Ascher verification."},
+    "document_type": {"level": "medium", "note": "administrative_accounting fine-grained-transaction sub-type supported by (a) 17-cluster full-fill structure, (b) near-binary AB/W palette (binary category encoding hypothesis), (c) medium-high per-cord scale consistent with transaction register, (d) single-sum Ascher cryptographic anchor. Specific binary-category content not determinable from 0-STRING data alone."},
+    "narrative": {"level": "medium", "note": "The 'fine-grained binary-palette transaction register from Central Coast Late Period' reading is internally coherent and structurally anchored. Specific site + binary-category content undetermined."},
+    "data_integrity": {"level": "medium", "note": "1/1 Ascher verified at cascade depth 1. Fully-filled 0 empty. KH0218 catalogued. Central Coast Late Period provenance is broad but archaeologically bounded. Single-sum arithmetic integrity is minimal but clean."}
+  },
+
+  "sections": [
+    {"id": "I", "title": "Fine-Grained Binary Transaction Register", "cords": "1-64",
+     "reading": "64 cords across 17 small clusters (avg 3.8 per cluster). Near-binary AB/W palette (55 + 44 percent) with single B specialty cord. Sum 3063 (avg 48 per cord = medium-high scale). 1/1 Ascher sum verified at cascade depth 1 = single grand-total cryptographic anchor.",
+     "key_cords": [
+       {"pos": 0, "gloss": "B specialty", "note": "single B colour cord (1 percent palette) = exceptional entry within binary frame"},
+       {"pos": 64, "gloss": "LAST CORD", "note": "closes the 64-cord fine-grained binary transaction register"}
+     ]}
+  ],
+
+  "references": [
+    "Sivan, J. (2026). The Khipu as a Layered Information System. ALBA Project preprint.",
+    "Sivan, J. (2026). Ascher Sums as Erasure Codes. ALBA Project preprint.",
+    "Rostworowski, M. (1978). Senorios indigenas de Lima y Canta.",
+    "Dillehay, T. (1976). Competition and Cooperation in a Prehispanic Multi-ethnic System. World Archaeology 8:313-328.",
+    "American Museum of Natural History, New York -- AS200 catalogue record.",
+    "Khipu Field Guide catalog: https://www.khipufieldguide.com/catalog/KH0218.html",
+    "Compare UR176 + UR190-192 + UR182 + UR120 (Central Coast Late Period peers), JC001 + JC014 + HP018 (fully-filled compact audit peers)."
+  ],
+
+  "reconstructed_xlsx": null
+}

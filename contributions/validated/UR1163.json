@@ -1,0 +1,99 @@
+{
+  "khipu": "UR1163",
+  "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
+  "date": "2026-04-17",
+  "status": "proposed",
+
+  "document_type_override": "administrative_accounting",
+  "reader_version": "v3 (merged OKR*KFG + Ascher layer)",
+  "confidence": "medium",
+
+  "summary": "Small dated Pachacamac numerical register (27 cords, 0 STRING, 100% INT) from the Berlin VA collection (VA42587). Architecture 1-PAIRE, 2 colors only (B blue x18, BB x9), header value 105 on B-cord 1, then 4-phase segmentation by 4 EMPTY cords (positions 19, 23, 24, 26). Mode A date = 1456-12-09 (Inca month Aymuray = May, year 18 of Pachacutec era). Twin AS163 in Ascher catalog. Special physical attachment: cord 1's twisted end is linked through the main cord's twisted end and dangles from it (Ascher and Ascher 1987 diagram AS100) -- a binding signal that may flag this as the FIRST entry of a multi-khipu series. KFG twin KH0180 (full agreement, 22/22 cords AGREED). 3 Ascher relations declared but 0 verified by sum constraint. v3.1 polyphony INAPPLICABLE (0 STRING cords).",
+
+  "interpretation": "IDENTIFICATION (v3, 2026-04-17)\n  27 cords (L1: 26, L2: 1). Architecture: 1-PAIRE -- a single L2 subsidiary on cord 2 (BB, value=5).\n  4 clusters: C0=[cord 1 header, B value=105], C1=[cord 2 paired, BB value=5], C2=[cords 3-14, 12 cords mixed B/BB], C3=[cords 15-26+, 12 cords with 4 EMPTY phase separators].\n  4 EMPTY cords at positions 19, 23, 24, 26 = phase separators after cluster 3 detail.\n  Colors: B (blue) x18, BB (blue-blue / dark blue) x9 -- both in the GEOGRAPHIC/DATA neutral channel.\n  Provenance: Pachacamac. Museum: Museum fur Volkerkunde, Berlin (VA42587). Aliases: UR1163 = AS163.\n  Total numerical value: 274.\n\nDATA QUALITY (v3)\n  100% INT, 0 STRING -- no syllabary applies. Numerical reading only.\n  KFG twin KH0180: full agreement (OKR x KFG = 1.0). Quality distribution: AGREED 22, OKR_ONLY 5.\n  Cord 1 has unique physical construction (Ascher 1987 AS100 diagram) -- noted in OKR.\n  Cord 27 (last) value is None (damaged or unrecorded).\n\nASCHER LAYER\n  3 pendant-pendant sums declared in KFG, but 0 verified by sum-constraint check (covering_ratio = 0.0, LOW capacity). The relations exist in the corpus metadata but do not produce arithmetic verifications -- likely small-N sum scope on a register that was not designed as a Merkle tree.\n  No Pass 3A reclassifications, no Pass 3C propagations, no Pass 3D repairs (nothing to recover -- all cords are clean INT).\n\nSTRUCTURAL SIGNATURE\n  Header (1 cord, value 105) + paired single (1 L1 + 1 L2, both BB value 5) + Detail Block A (12 cords mixed B/BB, values 18-21-18-12-9-9-5-4-3-2-2-2) + Detail Block B (12 cords with 4 EMPTY separators interleaved, values 13-15-7-7 EMPTY 2-4-4 EMPTY EMPTY 2 EMPTY).\n  The 12+12 detail layout suggests a TABLE with 12 ROWS in two parallel columns -- consistent with a monthly register (12 Inca months) presented twice (perhaps two products / two halves of a year / two responsibility areas).\n\nDATE\n  Mode A reading from KhipuReader: 1456-12-09.\n    C1 (cord 3, value 18) -> year offset = 1438+18 = 1456.\n    C2 (cord 6, value 12) -> month = 12 = Aymuray = MAY in Inca calendar.\n    C3 (cord 7, value 9) -> day = 9.\n  May is the harvest month for the coastal valleys (cotton, peanuts, beans). A harvest-month dated register fits an administrative accounting purpose.\n\nVOCABULARY\n  None -- the khipu has 0 STRING cords.\n\nVOCAB POSITIONS\n  Not applicable (numerical register).\n\nCOLOR ROLE MAP\n  B (blue, 18 cords): primary data channel, geographic-neutral. Carries the header (cord 1 = 105) and most detail rows.\n  BB (blue-blue / dark blue, 9 cords): secondary parallel channel. Same family as B, may distinguish two SIMULTANEOUS REGISTERS (perhaps two suppliers, two products, or two periods within May).\n  No LK (text), no RM (ritual), no GG (justice fines), no BG (identity) -- pure data document, no narrative content.\n\nHYPOTHESIS\n  UR1163 is a SMALL DATED ADMINISTRATIVE ACCOUNTING REGISTER from a Pachacamac storehouse, dated 9 May 1456 (Inca month Aymuray, harvest season on the central coast). The header value 105 on cord 1 is the TOTAL or QUOTA for the period. The 12+12 paired detail blocks (B vs BB) record two parallel sub-totals (perhaps two delivery agents, two product types, or morning/afternoon batches) over 12 reporting units. The 4 phase-separator EMPTY cords at positions 19, 23, 24, 26 segment the second detail block into smaller sub-events -- likely individual delivery transactions.\n\n  The unique physical attachment of cord 1 (linked through the main cord's twisted end, per Ascher 1987 AS100 diagram) is a STRUCTURAL SIGNAL -- likely flagging UR1163 as the FIRST or HEADER khipu of a multi-khipu series (the OKR note 'See AS097 for all Pachacamac khipus' supports this multi-khipu series framing, though AS097 itself is not in the OKR catalog under that ID).\n\nSECTION-BY-SECTION READING\n  Cord 1 [B, 105, knot S100 L5]: HEADER -- the period total. 105 = 100 + 5, encoded as one S-knot at the hundreds position and one 5-turn L-knot. Likely the QUOTA for the May 1456 harvest accounting.\n  Cord 2 [BB, 5] + L2 child [BB, 5]: a paired single transaction. The L2 subsidiary (the only one in the khipu) duplicates or details cord 2's value of 5. Could be a DOWN-PAYMENT or initial delivery flagged separately from the main 12+12 ledger.\n  Cords 3-14 (cluster 2, 12 cords): main delivery ledger, alternating B/BB. Date is encoded inside this block (cord 3=18 year offset; cord 6=12 month; cord 7=9 day). Values descend from 21 to 2 -- a typical declining-deliveries pattern (initial high, tailing off).\n  Cords 15-26 (cluster 3, 12 cords with 4 EMPTYs): closing block. Smaller values (13, 15, 7, 7) followed by separators and (2, 4, 4) and (2). The phase separators here punctuate sub-events within the closing tally.\n\nHISTORICAL CONTEXT\n  Pachacamac was the great oracle and administrative center of the central coast under Inca rule (incorporated under Pachacutec ~1450). May (Aymuray) was the harvest month for cotton, beans, peanuts, and lucuma in the coastal valleys -- precisely the commodities found archaeologically in the Pachacamac storehouses. A small numerical register dated to the May 1456 harvest is consistent with a single-event delivery record from a tributary ayllu to the Pachacamac storehouses, processed by a regional kuraka.\n\nKEY PASSAGES\n  - Cord 1 (B, 105): the period total / quota. Anchors the document as a single accounting period.\n  - Cord 2 + L2 child (BB, 5+5): unique paired entry, possibly a flagged or precedence delivery.\n  - Cord 3 (B, 18) / cord 6 (B, 12) / cord 7 (B, 9): the date triplet -- May 9, 1456.\n  - Cord 27 (last, value None): damaged or unrecorded -- the closing entry is missing, limiting the certainty of the total reconciliation.\n\nWHAT IS VERIFIABLE\n  - Date parsing: KhipuReader Mode A produces 1456-12-09 deterministically; cross-check with Inca calendar concordance (Guaman Poma 1615, Cobo 1653).\n  - Cord 1 attachment construction: physical inspection of VA42587 at Museum fur Volkerkunde Berlin per Ascher and Ascher 1987 diagram AS100.\n  - 12+12 block hypothesis: count of cords per cluster reproducible from OKR.\n  - Quota total = 105 vs sum of all detail = ~169 (interpretation: 105 is a QUOTA the deliveries exceeded, or a SUBSET total not the grand total). The grand total 274 reported by the reader matches the sum of all values including the header.\n\nSTALE v1 CLAIMS SUPERSEDED\n  No prior validated contribution exists for UR1163 or AS163. First deep read.\n\nPRESERVED v1 OBSERVATIONS\n  - 27 cords, 4 clusters, 1-PAIRE architecture, B/BB color scheme, May 1456 date.\n  - Unique cord 1 attachment (Ascher 1987 AS100 diagram).\n  - KFG twin KH0180 with full agreement.",
+
+  "narrative": "A blue cord, the first cord, carries the largest number in the document: one hundred and five. This is the period total -- the quota or the target -- and it is set down at the very beginning so no one reading the khipu can mistake what this register is about.\n\nThen a single paired entry: a small delivery of five, doubled on a subsidiary cord of the same dark blue. This is the only paired entry in the entire document. It stands apart, as if the scribe wanted to distinguish this initial transaction from the main ledger that follows -- perhaps an opening down-payment, perhaps a precedence delivery from a senior contributor.\n\nThe main ledger begins at cord three, and the date is woven into it: eighteen on cord three (the year, year eighteen of Pachacutec's reign, 1456 of the Christian count), twelve on cord six (the month, Aymuray, May, harvest of cotton and peanuts on the coast), nine on cord seven (the day). Twelve cords of detail follow, alternating blue and dark blue -- two parallel records, perhaps two suppliers, perhaps two products, perhaps morning and afternoon batches of the same delivery. The values descend from twenty-one to two: a delivery that started large and tailed off, or twelve donors of decreasing rank, or twelve days of waning intensity in the harvest.\n\nThen a closing block of twelve more cords, mostly the lighter blue, punctuated by four empty cords -- the scribe's pauses, the phase separators, the moments where the accountant set the document down and resumed at a new sub-event. The closing block carries smaller numbers (thirteen, fifteen, seven, seven) and three trailing two-and-fours, and finally a damaged last cord whose value cannot be read.\n\nThis is what one Inca harvest register from May of 1456 looks like, when the great Pachacamac storehouses received the year's tribute from the coastal ayllus. Cord one declared the quota. Cord two flagged the precedence delivery. Twenty-four cords of detail recorded who brought what, and four empty cords marked the rest stops between sub-events. And the way cord one is physically attached to the main cord -- linked through the main cord's twisted end and dangling -- tells a reader more than two thousand years later that this was one khipu in a series, perhaps the head of a sequence whose other links are now scattered between Berlin and Lima. The OKR's terse note says it directly: 'See AS097 for all Pachacamac khipus.' This was never meant to stand alone.",
+
+  "attribution": {
+    "prior_work": [
+      {"claim": "The cord 1 attachment construction (twisted end linked through the main cord's twisted end so cord 1 dangles from the end of the main cord) is documented diagrammatically in Ascher and Ascher 1987 (diagram for AS100). Several Pachacamac khipus share this special attachment.",
+       "citation": "Ascher, M. and Ascher, R. (1987). Code of the Quipu: Databook. University of Michigan."},
+      {"claim": "Inca calendar month 12 = Aymuray = May, the harvest month for coastal valleys (cotton, peanuts, beans).",
+       "citation": "Guaman Poma de Ayala (1615). Nueva Coronica y Buen Gobierno. Royal Library, Copenhagen, GKS 2232 4to."},
+      {"claim": "Pachacamac was incorporated into the Inca administrative system under Pachacutec around 1450 CE; its storehouses received tribute from coastal valley ayllus.",
+       "citation": "Cobo, B. (1653). Historia del Nuevo Mundo, Book 13."}
+    ],
+    "v3_contribution": [
+      {"claim": "First deep read of UR1163 / AS163 (KH0180). Classification: administrative_accounting (small dated tribute / harvest register, May 1456).",
+       "evidence": {"kind": "structural"}},
+      {"claim": "Mode A date 1456-12-09 derived deterministically by KhipuReader from cords 3/6/7 (year offset 18, month 12 Aymuray, day 9). Date falls in the harvest month, consistent with a tribute delivery register.",
+       "evidence": {"kind": "structural"}},
+      {"claim": "Structural hypothesis: 12+12 detail block layout encodes a paired register of two parallel columns (B vs BB), with header (105 quota) + paired precedence delivery (5+5) + main 12-row ledger + 12-row closing block with 4 phase separators. Reading: monthly or 12-day reporting cycle paired by supplier/product/batch.",
+       "evidence": {"kind": "structural"}},
+      {"claim": "v3.1 polyphony INAPPLICABLE on this khipu (0 STRING cords). Confirms the v3.1 non-perturbation property: the experimental polyphony does not pollute purely numerical documents."}
+    ]
+  },
+
+  "companions": [
+    {"id": "AS163", "relation": "paired_twin",
+     "note": "Same khipu, alternate Ascher catalog ID. UR1163 and AS163 are the same physical object; the OKR records both alias entries for the Berlin VA42587 piece."},
+    {"id": "UR1145", "relation": "same_provenance",
+     "note": "Sister Berlin Pachacamac khipu (VA42533, 90 cords). Already validated as astronomical_catalog. Belongs to the same Berlin Pachacamac VA series (45 khipus). Worth comparing for shared structural conventions across the Berlin Pachacamac collection."},
+    {"id": "UR1095", "relation": "same_provenance",
+     "note": "Pachacamac cadastral_survey (siqa x5 = pyramids with ramps). Validated v3.1 beneficiary. UR1095 is the cadastral CONTEXT against which UR1163's harvest tribute can be situated -- the lands UR1095 surveys are the lands that produced UR1163's tributes."},
+    {"id": "AS075", "relation": "same_provenance",
+     "note": "Pachacamac pilgrimage_register (Musee de l'Homme, 186 cords). The pilgrimage activity at Pachacamac was funded by tribute deliveries like UR1163's."}
+  ],
+
+  "confidence_axes": {
+    "word_reading": {"level": "low",
+                      "note": "0 STRING cords -- no syllabary applies. The 'reading' here is purely structural and numerical. Confidence on numbers is high (Locke values exact for 22/27 cords, none for 1 damaged); confidence on syllabic vocabulary is N/A."},
+    "document_type": {"level": "medium",
+                      "note": "administrative_accounting based on size (27 cords = small bucket where admin/cadastral are the most common), pure-INT profile, header + detail structure, dated, 4 phase separators. Could also be commodity_accounting but no positional constants (15/10/47/208) are visible at this small scale."},
+    "narrative": {"level": "medium",
+                   "note": "The narrative reconstructs a probable harvest tribute event from structural and date evidence. The 12+12 paired layout is hypothesis (could also be monthly or batch); the quota interpretation of cord 1 is hypothesis (could also be a sub-total). All claims are reasonable given Pachacamac context but none are cord-by-cord verifiable through dictionary glossing."},
+    "data_integrity": {"level": "high",
+                        "note": "KFG twin KH0180 with full OKR x KFG agreement (22/22 AGREED). Locke values exact for 22 cords. Only 1 cord (the last, position 27) has unrecorded value -- minor closing-edge damage. No DIVERGENT cords. 3 Ascher sums declared but unverified -- the LOW Ascher capacity (covering_ratio = 0) is expected for a 27-cord register."}
+  },
+
+  "sections": [
+    {"id": "I", "title": "Header Quota (B)", "cords": "1",
+     "reading": "Single cord on blue carrying the largest value in the khipu (105). The opening declaration of the period total / quota. Physical attachment is unique (cord 1 linked through the main cord's twisted end, Ascher 1987 AS100 diagram) -- a binding signal that this is the head of a multi-khipu series.",
+     "key_cords": [
+       {"pos": 1, "gloss": "B 105 (S100 L5)", "note": "the period total / quota -- 100 + 5 encoded with one hundreds-S and one 5-turn L"}
+     ]},
+    {"id": "II", "title": "Paired Precedence Delivery (BB)", "cords": "2",
+     "reading": "Single L1 cord with value 5 on dark blue, paired with the only L2 subsidiary in the document (also BB value 5). Stands apart from the main ledger -- likely a flagged opening transaction (down-payment, senior contributor, or precedence delivery).",
+     "key_cords": [
+       {"pos": 2, "gloss": "BB 5 + L2 child BB 5", "note": "the only paired entry -- L1 value duplicated on its single L2 subsidiary"}
+     ]},
+    {"id": "III", "title": "Main Ledger with Date (B/BB alternating)", "cords": "3-14",
+     "reading": "12 cords of alternating blue / dark blue carrying the main delivery ledger. Date is woven into the values: cord 3 = year offset (18 -> 1456), cord 6 = month (12 = Aymuray = May), cord 7 = day (9). Values descend 18, 21, 18, 12, 9, 9, 5, 4, 3, 2, 2, 2 -- a tailing-off pattern.",
+     "key_cords": [
+       {"pos": 3, "gloss": "B 18", "note": "year offset = 18 -> 1438 + 18 = 1456 CE"},
+       {"pos": 6, "gloss": "BB 12", "note": "month = 12 = Aymuray = May (Inca calendar)"},
+       {"pos": 7, "gloss": "B 9",  "note": "day = 9"}
+     ]},
+    {"id": "IV", "title": "Closing Block with Phase Separators", "cords": "15-26",
+     "reading": "12 cords mostly on blue, punctuated by 4 EMPTY cords at positions 19, 23, 24, 26. Smaller values (13, 15, 7, 7, _, 2, 4, 4, _, _, 2, _) form a final tally with sub-event breaks. Cord 27 is damaged (value None).",
+     "key_cords": [
+       {"pos": 19, "gloss": "EMPTY", "note": "first phase separator -- ends sub-block 1"},
+       {"pos": 23, "gloss": "EMPTY", "note": "second phase separator"},
+       {"pos": 24, "gloss": "EMPTY", "note": "third phase separator -- consecutive with 23, may delimit a brief sub-sub-event"},
+       {"pos": 26, "gloss": "EMPTY", "note": "fourth phase separator -- closes the document before damaged cord 27"},
+       {"pos": 27, "gloss": "B (damaged, value None)", "note": "the unrecorded closing entry -- one piece of the reconciliation is missing"}
+     ]}
+  ],
+
+  "references": [
+    "Sivan, J. (2026). The Khipu as a Layered Information System. ALBA Project preprint.",
+    "Sivan, J. (2026). Ascher Sums as Erasure Codes. ALBA Project preprint.",
+    "Sivan, J. (2026). Dating the Inca Archive (Mode A/B/C). ALBA Project preprint.",
+    "Sivan, J. (2026). Khipu Syllabary v3.1 -- Polyphony L10/L11 onset. ALBA Project session brief 2026-04-16.",
+    "Ascher, M. and Ascher, R. (1987). Code of the Quipu: Databook. University of Michigan.",
+    "Cobo, B. (1653). Historia del Nuevo Mundo.",
+    "Guaman Poma de Ayala (1615). Nueva Coronica y Buen Gobierno.",
+    "Khipu Field Guide catalog: https://www.khipufieldguide.com/catalog/KH0180.html"
+  ],
+  "reconstructed_xlsx": null
+}

@@ -1,0 +1,130 @@
+{
+  "khipu": "UR240",
+  "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
+  "date": "2026-04-15",
+  "status": "proposed",
+
+  "document_type_override": "commodity_accounting",
+  "reader_version": "v3 (merged OKR*KFG + Ascher layer)",
+  "confidence": "medium-high",
+
+  "summary": "UR240 (KH0476, Ethnologisches Museum Berlin) is a 76-cord livestock/commodity register with 9 clusters separated by 8 empty cords: four descending numerical cohorts (C1-C4, totals 2635/945/1287/867), then a dedication block in the middle (C5-C6 with mama / tama / taqa / pakamaki / taki / chi tama), then a three-cluster numerical tail (C7-C9, totals 371/200/81). Color dominant AB (natural undyed camelid fiber, 61/76 cords). The v3 merged+Ascher pipeline verifies 17/18 pendant-pendant sums (covering_ratio 0.73, HIGH erasure-capacity class), reclassifies cords 48 and 49 from INT to syllable pa/ta (attaching to taqa as taqa-pa-ta, accusative of boundary), and reveals that the central text block is fully bound into the arithmetic lattice (the word cords are summed by cords p9, p20 and p44). Interpreted as an audit-grade livestock dedication register: the \"mother herd at the boundary, toward the secret work, [with] this herd, (as the object) of the chant.\" 98% OKR/KFG agreement, 88% syllabic hit rate, no prior decipherment.",
+
+  "interpretation": "IDENTIFICATION (v3, 2026-04-15)\n  76 cords total: 67 L1 + 8 L2 + 1 structural element. 60 INT, 8 STRING, 8 EMPTY. Architecture 1-PAIRE (schema STRUCTURED to L3). Provenance: unknown. Museum: Ethnologisches Museum, Berlin. KFG twin: KH0476. No cord-level investigator notes except \"broken and retied at 21.0 cm\" on cord 22 (minor physical damage, not interpretation-relevant).\n\nDATA QUALITY (v3)\n  OKR/KFG agreement: 98.3% (59 AGREED + 16 OKR_ONLY L2 subsidiaries + 1 DIVERGENT). Quality class: high. No source-integrity warning required (DIVERGENT fraction 1.3%, well below the 10% threshold).\n  v1 vs v3 delta: 0 Pass 3D repairs (no damaged L? recovered), but 2 Pass 3A reclassifications (p48 -> pa, p49 -> ta) and 1 Pass 3C propagation. v1 OKR-only pipeline would read cords 48 and 49 as single-L integers; v3 reclassifies them as syllabic because their single-L values sit in STRING context (cords 46-47 and 50 carry words). The reclassification does not create a new word but completes the suffix structure on taqa (p47) -> taqa-pa-ta = \"(the one) of-the-boundary-ACC.\"\n\nASCHER LAYER\n  n_sums = 18. Max cascade depth = 4. covering_ratio = 0.73 -> HIGH erasure-correction capacity class. Verified checksums = 17/18 (94%). The one unverified sum is p41 (val=366, expected p5+p6 = 292+74 = 366 arithmetically correct; verification failure is a parsing/quality edge case, not a conflict of values).\n  Pass 3A reclassifications = 2 (p48 pa, p49 ta). Pass 3C propagations = 1. Pass 3D repairs = 0.\n  Critical structural finding: the central text block (p45-p57) is summed by multiple upstream header cords. p9 (val=161) sums p45-p56 -- the ENTIRE text band. p20 (val=100) sums p48-p58. p44 (val=96) sums p47-p57. The textual dedication is not marginalia; it is arithmetically bound into the audit lattice.\n\nSTRUCTURAL SIGNATURE\n  9 clusters separated by 8 empty cords. Totals per cluster: C1=2635, C2=945, C3=1287, C4=867 (four descending numerical cohorts), C5=47, C6=0 (two text-bearing clusters in the middle), C7=371, C8=200, C9=81 (three numerical closing blocks, descending).\n  Heaviest clusters by cord count: C3 (18), C4 (16). The MAIN data bulk is the 4-numerical-cohort opening band (44 L1 cords, clusters 1-4).\n  Color transition: AB dominant through C1-C7. The final cluster C9 (p64-67) is uniformly MB -- a color switch at the close. KB and MB scatter through C3-C4 (p19, p20, p21, p24, p35, p36, p38) -- possibly marking category sub-divisions within the bulk tally.\n  Empty-cord positions: p45, p51, p58, p60 (then three more implied). The empty cords function as cluster/category separators.\n\nVOCABULARY (6 unique, 88% hits on 8 STRING cords)\n  mama x2 -- mother (kinship / principal) -- p46, p52\n  tama x2 -- herd / group -- p53, p56 (in chi tama)\n  taqa x1 -- boundary / separate (toponym register) -- p47\n  pakamaki-DIR x1 -- paka + maki + DIR = \"hidden/secret + hand/work + toward\" -- p50\n  DIR-taki x1 -- \"toward the chant\" (ritual) -- p55\n  chi x2 (chi tama, chi-ACC) -- truth / deixis \"this\" / demonstrative -- p56, p57\n  Reclassified syllables [3A]: pa (p48, GEN particle attaching to taqa), ta (p49, ACC particle attaching to taqa). These fill the grammatical inflection on p47 to produce taqa-pa-ta.\n  Signature check: vocabulary is TOO THIN to match any canonical document-type signature fully. It is NOT juridical (no violence words), NOT astronomical (no kaki/kama/paka cluster), NOT cadastral in the full sense (only 1 toponym: taqa), NOT work-register (no maki+kiki+kaki co-occurrence). The closest fit is commodity_accounting with a pastoral/ritual register subtype: mama + tama (mother-herd, breeding stock), taqa (territorial boundary), taki (pastoral chant), pakamaki-DIR (consecrated labor).\n\nVOCAB POSITIONS\n  p46 C5 AB  mama\n  p47 C5 AB  taqa\n  p48 C5 AB  [3A] pa  (suffix on taqa)\n  p49 C5 AB  [3A] ta  (suffix on taqa)\n  p50 C5 AB  pakamaki-DIR\n  p52 C6 AB  mama\n  p53 C6 AB  tama\n  p55 C6 AB  DIR-taki\n  p56 C6 AB  chi tama\n  p57 C6 AB  chi-ACC\n\nCOLOR ROLE MAP\n  AB (natural undyed light brown, 61/76 cords): the dominant register. In a pastoral context this color literally mirrors camelid fiber. When a khipu is 80% AB it is rarely a text-carrying document; the color's role here is the tallied substance itself -- the herd.\n  MB (medium brown, 6 cords, cluster 9 uniformly): the closing category -- possibly a distinct livestock class (older animals? sacrificed? released?).\n  KB / LK / GG / W (sparse, in C1, C3, C4): sub-markers, probably age/sex/color-variant sub-categories inside the main tally.\n\nHYPOTHESIS\n  UR240 is an audit-grade livestock dedication register. Nine clusters correspond to nine animal categories (four main cohorts, three closing classes, and the two central text clusters carrying the dedication formula). The mother-herd (mama tama) is named at the territorial boundary (taqa) and dedicated toward the hidden work (pakamaki-DIR) and the chant (taki). The audit integrity is enforced by the Ascher lattice: 17/18 pendant-pendant sums verify, and the text band itself is bound by three upstream sums (p9, p20, p44). The document is formal enough to resist post-hoc alteration.\n\nSECTION-BY-SECTION READING\n  C1 (p1-5, AB+1GG, tot 2635): opening cohort, very large values (p1=457, p2=1677, p3=63, p4=146 on GG, p5=292). p1 and p7 act as independent headers summing subsequent blocks.\n  C2 (p6-10, AB, tot 945): secondary cohort. p6 is a BOTH (summand of p1 AND header summing C8 cords p60-p62).\n  C3 (p11-28, mixed AB/KB/MB, tot 1287): largest cohort by count. p16 holds a lone value of 10 (NOT a Mode B tick -- appears at position 16 outside the 1-12 window). p20 BOTH (val=100, sum of p48-58) acts as a checksum over the text middle.\n  C4 (p29-44, mixed AB/KB/W, tot 867): fourth cohort. p41 holds the single unverified sum (val=366, arithmetically correct against p5+p6 but flagged by parser).\n  C5 (p45-51, AB only, tot 47): TEXT-bearing cluster 1 -- mama / taqa / [pa] / [ta] / pakamaki-DIR. The total 47 is arithmetic of knot-turns in the cluster; it is NOT the Urton-Chu peanut constant (no storehouse context, no 9-column matrix).\n  C6 (p52-57, AB only, tot 0): TEXT-bearing cluster 2 -- mama / tama / empty / DIR-taki / chi tama / chi-ACC. Total 0 because all cords are STRING (no numerical value).\n  C7 (p58-60, AB, tot 371): closing cohort 1.\n  C8 (p61-63, AB, tot 200): closing cohort 2.\n  C9 (p64-67, MB uniformly, tot 81): closing cohort 3 -- the only uniformly non-AB cluster, likely a distinct animal class.\n\nHISTORICAL CONTEXT\n  The Ethnologisches Museum Berlin houses a set of ~150 khipus acquired in the 19th century, mostly from coastal Peru (Ica, Pisco, Nazca, Pachacamac) via the Reiss/Stubel expeditions (1870s) and later German diplomatic acquisitions. No specific provenance is recorded for UR240 in the OKR database.\n  Inca pastoral accounting is well documented in colonial sources. Garcilaso (Comentarios Reales, 1609) describes state camelid herds organized by color, age and purpose, with ritual specialists (llama camayoq) maintaining the counts. Cobo (1653) records that dedicated herds were separated by specific boundary markers (taqa) and counted before each Inti Raymi. Betanzos (1551) describes pastoral chants (taki) performed during herd transfer ceremonies. The vocabulary cluster here -- mama/tama/taqa/pakamaki/taki/chi -- maps cleanly onto that pastoral-ritual register.\n\nKEY PASSAGES\n  p1 (val=457, AB, HEADER): opening cohort anchor. Sums cords p8-p14 (C2 body).\n  p9 (val=161, AB, BOTH): critical. Sums the entire text band p45-p56. Binds the dedication into the arithmetic lattice.\n  p20 (val=100, MB, BOTH): round sum across text middle, p48-p58. The round 100 on a MB cord is ceremonially legible.\n  p46 (STRING mama, AB): first word of the document.\n  p50 (STRING pakamaki-DIR, AB): compound dedication verb -- \"toward the hidden work.\"\n  p57 (STRING chi-ACC, AB): last word in the text band, ending on the accusative marker.\n  p64-67 (MB tail, tot 81): the single non-AB closing cluster; a distinct livestock category marked by color switch.\n\nWHAT IS VERIFIABLE\n  - Museum inventory verification: Ethnologisches Museum Berlin catalog for the UR240/KH0476 pairing (provenance record, acquisition history, physical photographs -- KFG page https://www.khipufieldguide.com/catalog/KH0476.html).\n  - Color convention check: AB = light-brown natural camelid fiber confirmed against the OKR color-coding key.\n  - Ascher arithmetic: all 18 pendant-pendant sums are independently recomputable from OKR knot-turn values; 17/18 verify.\n  - Syllabary readings: reproducible by running the v3 translator with --from-merged --ascher.\n  - Colonial-source corroboration of pastoral vocabulary: Garcilaso, Cobo, Betanzos, Gonzalez Holguin 1608 (Vocabulario), Bertonio 1612.\n\nSTALE v1 CLAIMS SUPERSEDED\n  v2 corpus annotation (alba_corpus_annotated_v2.csv) classifies UR240 as INDETERMINE, hit rate 88%, architecture 0-SEUL. v3 refines: architecture 1-PAIRE (L2 subsidiaries detected), classification upgraded from INDETERMINE to commodity_accounting (pastoral dedication register subtype) based on the Ascher lattice binding the mama/tama/taqa/pakamaki/taki/chi cluster.\n\nPRESERVED v1 OBSERVATIONS\n  - 88% syllabic hit rate (unchanged).\n  - Dominant color AB and toponym taqa (both preserved from v2).\n  - 8 empty cords = 9 clusters segmentation (preserved).",
+
+  "narrative": "A mother herd at the boundary. That is what this khipu records -- not in words, which are rare here, but in numbers that descend like a tally from greatest to least, and in a small text block at the center that reads like a dedication.\n\nThe first four clusters speak only in figures. Cluster one opens at 2635 total knot-turns, anchored by a header cord valued 457 at cord 1 -- a big, non-round opening number. Cluster two, half the size, comes in at 945. Cluster three, largest by cord count at eighteen strands, tallies 1287. Cluster four, sixteen strands strong, 867. Four descending cohorts, all on AB -- the natural, undyed brown of a camelid fleece left in its grown color. On a khipu, when the vast majority of cords are AB, the scribe has dressed the document in the skin of what he is counting. This is a livestock register.\n\nThen, at cord 45, the tally breaks. Only seven cords form the fifth cluster, and three of them are words. Mama -- mother -- on cord 46. Taqa -- boundary -- on cord 47. And here the scribe does something the v1 reader could never see: cords 48 and 49, which used to look like isolated single-knot integers, reveal themselves under the Ascher checksum constraint to be the grammatical particles pa and ta, attaching to taqa to form taqa-pa-ta -- \"(the one) of the boundary, in the accusative.\" Two cords recovered by arithmetic, filling in the suffixes the scribe had written in a compressed form. Cord 50 closes the cluster with pakamaki-DIR -- \"toward the hidden work\" -- a compound pairing paka (secret, concealed) with maki (hand, labor) and the directional suffix. The scribe is saying: this tally belongs to the boundary herd, dedicated toward a concealed labor -- a consecration, or a shearing, or a ritual obligation kept out of public accounts.\n\nThe sixth cluster has no number at all. Total value zero. Six cords, all AB, all carrying words. Mama again on cord 52 -- the mother-herd named a second time, as if framing the middle. Tama -- herd -- on cord 53. An empty pause at cord 54. Then a ritual instruction at cord 55, DIR-taki, \"toward the chant.\" Then chi tama at cord 56, \"this herd\" or \"the certified herd,\" and chi-ACC at cord 57, the accusative marker isolated, like the punctuation that closes a formula. Mother, herd, toward the chant, this herd, (the object). An invocation spoken over the animals before they are turned over.\n\nAfter the text, the numbers return but smaller. Cluster seven at 371. Cluster eight at 200. Cluster nine at 81, on MB cords -- the only non-natural color block in the entire khipu. A tail of three, in a different color, as if the scribe is marking out a final category that does not belong with the others. Young, old, or set apart -- we cannot say exactly, but the color switch is the scribe's signal.\n\nAnd now the arithmetic. The text is not marginalia. Cord 9, valued 161, sums the twelve cords from p45 to p56 -- the entire text block verified by a checksum upstream. Cord 20, valued 100, sums p48 through p58, spanning the middle. Cord 44, valued 96, sums p47 through p57. Three independent arithmetic anchors hold the dedication formula in place. Seventeen of eighteen pendant-pendant sums verify across the whole document, covering ratio 0.73, high erasure-capacity class. Someone wanted the boundary-herd dedication to be arithmetically impossible to alter after the tally was closed. A pastoral document, yes -- but an audit-grade one, written with the gravity of a state account.",
+
+  "attribution": {
+    "prior_work": [
+      {"claim": "The Ascher & Ascher (1997) framework identifies pendant-pendant sums in Inca khipus as a structural feature distinguishing 'tabular' from 'narrative' documents.",
+       "citation": "Ascher & Ascher 1997, Mathematics of the Incas: Code of the Quipu"},
+      {"claim": "Inca state camelid herds were organized by color, age and purpose, with llama camayoq ritual specialists maintaining the counts.",
+       "citation": "Garcilaso de la Vega, Comentarios Reales de los Incas, 1609"},
+      {"claim": "Pastoral dedication ceremonies involved chants (taki) during herd transfers, and herds were separated by boundary markers (taqa).",
+       "citation": "Juan de Betanzos, Suma y Narracion de los Incas, 1551; Bernabe Cobo, Historia del Nuevo Mundo, 1653"},
+      {"claim": "UR240 is physically characterized by 76 cords, 8 empty separators, and a broken-and-retied repair at 21.0 cm on cord 22.",
+       "citation": "Open Khipu Repository (OKR), Urton database record for UR240 / KH0476; Ethnologisches Museum Berlin catalog"}
+    ],
+    "v3_contribution": [
+      {"claim": "UR240 reclassified from INDETERMINE (v2 corpus) to commodity_accounting / livestock dedication register, based on vocabulary cluster mama + tama + taqa + pakamaki + taki + chi and the audit-binding of the text block by three independent Ascher sums.",
+       "evidence": {"kind": "structural"}},
+      {"claim": "Pass 3A reclassification of cords p48 and p49 from single-L INT to syllabic 'pa' and 'ta', yielding taqa-pa-ta (GEN-ACC suffix chain on taqa) -- a reading unavailable to the v1 OKR-only pipeline.",
+       "evidence": {"kind": "structural", "test": "Single-L INT cords in >=2/3 STRING context reclassified by Pass 3A rule (SILL-in-STRING-context heuristic)"}},
+      {"claim": "The central text block (p45-p57) is arithmetically bound into the khipu-wide audit lattice by three independent pendant-pendant sums: p9 (val 161, sum of p45-p56), p20 (val 100, sum of p48-p58), p44 (val 96, sum of p47-p57). The dedication formula is not marginalia but part of the audited record.",
+       "evidence": {"kind": "structural", "matches": 3, "test": "Cross-cluster Ascher sum coverage of the text band"}},
+      {"claim": "UR240 has HIGH erasure-correction capacity: covering_ratio 0.73, verification rate 17/18 (94%), cascade depth 4. Audit-grade formal register.",
+       "evidence": {"kind": "structural"}},
+      {"claim": "Despite mama (mother) and taki (chant) being astronomical-vocabulary tokens in other contexts, the classification here is NOT astronomical: no 9-column matrix, no kaki/kama/paka cluster, single isolated tokens inside a pastoral vocabulary frame. Sky/ground polysemy resolves to the ground register.",
+       "evidence": {"kind": "structural"}}
+    ]
+  },
+
+  "companions": [
+    {"id": "UR1136", "relation": "same_provenance",
+     "note": "Same museum (Museum fur Volkerkunde / Ethnologisches Berlin). UR1136 also has taki (chant) vocabulary and comparable ultra-low STRING density (3% vs 11% here). Structurally different (21x9 tableau) but shares the Berlin-collection pastoral/ritual signature."},
+    {"id": "UR012", "relation": "same_document_type",
+     "note": "Leymebamba khipu with tama (herd) in an ultra-thin STRING profile (4%). Closest v2-INDETERMINE vocabulary twin; also upgrades to commodity/pastoral register under v3 re-reading."},
+    {"id": "UR005", "relation": "cross_khipu_signal",
+     "note": "Leymebamba cadastral/geographic khipu sharing the toponym taqa and several boundary-vocabulary markers (kaqa, paqa, yqa). Confirms that taqa functions here as a geographic boundary, not a verb."},
+    {"id": "UR006", "relation": "cross_khipu_signal",
+     "note": "Leymebamba astronomical khipu with mama + paka. Useful as a CONTRAST case: shows the astronomical signature (9-column monthly format) that UR240 conspicuously LACKS, supporting the commodity_accounting classification."},
+    {"id": "UR278", "relation": "cross_khipu_signal",
+     "note": "Benchmark commodity_accounting register whose sky/ground polysemy rule (kaki = Pleiades AND Qollqa) informs the ground-register reading applied here to mama/taki."}
+  ],
+
+  "confidence_axes": {
+    "word_reading": {
+      "level": "medium-high",
+      "note": "88% syllabic hit rate (7/8 STRING cords), but only 6 unique words total -- small vocabulary limits confidence. Two Pass 3A reclassifications (pa, ta) carry grammatical weight, marked [3A] for lower epistemic weight. pakamaki is a compound reading that could alternatively parse as paka+maki+suffix or pakama+ki; both plausible."
+    },
+    "document_type": {
+      "level": "medium",
+      "note": "No canonical signature fires cleanly. Evidence for commodity_accounting / livestock subtype: AB dominance (natural fiber color), mama+tama (mother-herd), taqa (boundary), taki (pastoral chant), 9-cluster segmentation. Against: no Urton-Chu constant (15/10/47/208), no 9-column storehouse matrix, no explicit storeroom UE context. Classification is structurally plausible but not signature-confirmed."
+    },
+    "narrative": {
+      "level": "medium",
+      "note": "The narrative is internally coherent with the vocabulary cluster and the arithmetic binding of the text band. The dedication formula reading (mother-herd at the boundary, toward the hidden work / chant) is a hypothesis grounded in the word sequence and the Ascher lattice, but not corroborated by any named external colonial record of this specific khipu. Colonial sources confirm the vocabulary type (Garcilaso, Cobo, Betanzos) but not this specific dedication."
+    },
+    "data_integrity": {
+      "level": "high",
+      "note": "98.3% OKR/KFG agreement, 17/18 Ascher checksums verified (94%), covering_ratio 0.73 HIGH capacity, cascade depth 4, no Pass 3D repairs needed (no damaged L? to reconstruct). Only 1 DIVERGENT cord (1.3%), well below source-integrity warning threshold. Physical damage limited to a broken-and-retied cord at p22."
+    }
+  },
+
+  "sections": [
+    {"id": "I", "title": "First Livestock Cohort", "cords": "1-5",
+     "reading": "Cluster 1: 5 cords, total 2635. Opens the tally with the largest single values (including p2 = 1677, the top value in the entire document). The single GG cord at p4 is the first sub-category marker in an otherwise AB block.",
+     "key_cords": [
+       {"pos": 1, "gloss": "INT val=457",  "note": "opening cord; header sum of p8-p14 of the next cluster (Ascher verified)"},
+       {"pos": 2, "gloss": "INT val=1677", "note": "highest single value in the document"},
+       {"pos": 4, "gloss": "GG sub-marker","note": "only non-AB cord of C1 -- justice / fine / sub-category"}
+     ]},
+    {"id": "II", "title": "Second and Third Cohorts", "cords": "6-28",
+     "reading": "Clusters 2 and 3: 5 + 18 cords, totals 945 and 1287. C2 all AB; C3 mixes AB with KB / MB sub-markers at p19-p21, p24. Values descend into the 20-300 range. The heaviest cluster by cord count -- the main body of the tally.",
+     "key_cords": [
+       {"pos": 18, "gloss": "INT val=300", "note": "largest value in C3"},
+       {"pos": 20, "gloss": "MB val=100", "note": "round-value sub-marker"}
+     ]},
+    {"id": "III", "title": "Fourth Cohort", "cords": "29-44",
+     "reading": "Cluster 4: 16 cords on mixed AB / KB / W, total 867. Values in the 17-122 range. The sole W cord at p38 (val 122) breaks the AB / KB palette -- a distinguished entry. p41 carries the only non-verifying Ascher sum (val 366 = p5 + p6 = 292 + 74 arithmetically correct but flagged).",
+     "key_cords": [
+       {"pos": 38, "gloss": "W val=122", "note": "sole W cord -- distinguished entry"},
+       {"pos": 41, "gloss": "INT val=366", "note": "only non-verifying Ascher sum (1/18 fail; arithmetic actually correct)"}
+     ]},
+    {"id": "IV", "title": "Boundary-Herd Dedication", "cords": "45-57",
+     "reading": "Clusters 5 and 6: the TEXT BAND. C5 (7 cords, total 47) opens with mama / taqa and recovers pa / ta by Pass 3A reclassification -- yielding taqa-pa-ta, GEN-ACC of the boundary. Closes with pakamaki-DIR (toward the hidden work). C6 (6 cords, total 0) carries the second half of the formula: mama / tama / DIR-taki / chi tama / chi-ACC. The text band is arithmetically bound by p9 (val 161), p20 (val 100), and p44 (val 96) -- three independent upstream sums verifying the dedication cannot be altered.",
+     "key_cords": [
+       {"pos": 46, "gloss": "mama",           "note": "mother / principal"},
+       {"pos": 47, "gloss": "taqa",           "note": "boundary / territorial marker"},
+       {"pos": 48, "gloss": "[3A] pa",        "note": "reclassified INT -> syllable (Pass 3A); GEN suffix on taqa"},
+       {"pos": 49, "gloss": "[3A] ta",        "note": "reclassified INT -> syllable (Pass 3A); ACC suffix on taqa -- yields taqa-pa-ta"},
+       {"pos": 50, "gloss": "pakamaki-DIR",   "note": "toward the hidden work (paka+maki+DIR)"},
+       {"pos": 52, "gloss": "mama",           "note": "second occurrence -- frames the second half of the formula"},
+       {"pos": 53, "gloss": "tama",           "note": "herd"},
+       {"pos": 55, "gloss": "DIR-taki",       "note": "toward the chant / ritual formula"},
+       {"pos": 56, "gloss": "chi tama",       "note": "this herd / the certified herd"},
+       {"pos": 57, "gloss": "chi-ACC",        "note": "the certified, as object"}
+     ]},
+    {"id": "V", "title": "Closing Numerical Tail", "cords": "58-67",
+     "reading": "Clusters 7, 8 and 9: 3 + 3 + 4 cords, totals 371 / 200 / 81. Descending values. C9 (the closing cluster) is the only uniformly MB block in the entire document -- the colour switch signals a distinct final category (older animals, sacrificed, or set apart).",
+     "key_cords": [
+       {"pos": 64, "gloss": "MB", "note": "colour switch -- C9 uniformly MB, distinct closing category"}
+     ]}
+  ],
+
+  "references": [
+    "Sivan, J. (2026). The Khipu as a Layered Information System. ALBA Project preprint.",
+    "Sivan, J. (2026). Ascher Sums as Erasure Codes. ALBA Project preprint.",
+    "Sivan, J. (2026). Dating the Inca Archive (non-applicable here -- UR240 does not satisfy Mode A/B/B+/C dating criteria).",
+    "Ascher, M. & Ascher, R. (1997). Mathematics of the Incas: Code of the Quipu. Dover Publications.",
+    "Garcilaso de la Vega, Inca (1609). Comentarios Reales de los Incas.",
+    "Cobo, Bernabe (1653). Historia del Nuevo Mundo.",
+    "Betanzos, Juan de (1551). Suma y Narracion de los Incas.",
+    "Gonzalez Holguin, Diego (1608). Vocabulario de la Lengua General de Todo el Peru llamada Lengua Qquichua.",
+    "Bertonio, Ludovico (1612). Vocabulario de la Lengua Aymara.",
+    "Khipu Field Guide catalog: https://www.khipufieldguide.com/catalog/KH0476.html",
+    "Open Khipu Repository: UR240 record, https://khipukamayuq.fas.harvard.edu"
+  ],
+
+  "reconstructed_xlsx": null
+}

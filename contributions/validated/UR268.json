@@ -111,5 +111,37 @@
       "note": "OKR x KFG AGREED=31. No Ascher sums to verify (0/0), but this is a diagnostic feature of tier-3 summaries (integrity is positional, not arithmetic). Benford 0.83 HIGH confirms real aggregated counts."
     }
   },
+  "sections": [
+    {"id": "I", "title": "Presentation Binding + Opening Anchor", "cords": "1",
+     "reading": "UR268 opens with a needlework bundle and red tassel (presentation tier, matches UR266). The first data cord at p1 carries 13,328 -- the largest opening value in the analyzed Incahuasi set. White cotton, district-summary scale.",
+     "key_cords": [
+       {"pos": 1, "gloss": "INT val=13328", "note": "OPENING ANCHOR -- largest opening value across the Incahuasi set; tier-3 district-scale total"}
+     ]},
+    {"id": "II", "title": "4-Cord Block Phase", "cords": "1-92",
+     "reading": "Urton's OKR cord-note predicted a 4-cord block pattern across p1-p92: {Big number, 208, near-1000, next Big number}. The 208 positional constant (Urton-Chu peanut signature) appears at regular intervals. This is the opening register of peanut tribute at district level, each block covering one supplier / period.",
+     "key_cords": [
+       {"pos": 8,  "gloss": "INT val=208", "note": "first 208 occurrence -- peanut positional constant"},
+       {"pos": 14, "gloss": "INT val=208", "note": "208 occurrence 2"},
+       {"pos": 18, "gloss": "INT val=208", "note": "208 occurrence 3 -- 4-cord cadence established"},
+       {"pos": 22, "gloss": "INT val=208", "note": "208 occurrence 4"},
+       {"pos": 26, "gloss": "INT val=208", "note": "208 occurrence 5"},
+       {"pos": 30, "gloss": "INT val=208", "note": "208 occurrence 6 -- regular 4-cord cadence"}
+     ]},
+    {"id": "III", "title": "The Phase Transition", "cords": "93-105",
+     "reading": "Urton's published hypothesis (2013 field-note, 2017 pp.162-164): at cord 93 the 4-cord block compresses to a 3-cord block {Big number, 208, Big number minus 208}. v3 VERIFIES at knot level: p101 carries 10,700, p103 carries 10,492, p105 carries exactly 208. The equation 10,700 - 208 = 10,492 holds. The tax formula is visible in the cotton.",
+     "key_cords": [
+       {"pos": 101, "gloss": "INT val=10700", "note": "pre-deduction total"},
+       {"pos": 103, "gloss": "INT val=10492", "note": "post-deduction total (= 10,700 - 208, VERIFIED)"},
+       {"pos": 105, "gloss": "INT val=208",   "note": "explicit tax constant -- the 208 deduction posted in the clear"}
+     ]},
+    {"id": "IV", "title": "3-Cord Block Body", "cords": "106-150",
+     "reading": "The compressed phase continues: the 208 recurs at regular 3-cord intervals. Total 208-occurrences across the document: 19 cords, each tied in identical three-knot form.",
+     "key_cords": []},
+    {"id": "V", "title": "Cadastral Vocabulary Closing", "cords": "151-169",
+     "reading": "The 21 STRING cords cluster toward the closing: kaqa x4 (natural wall, highest kaqa density in the analyzed Incahuasi set), taqa x4 (boundary), qaqa x3 (rock-landmark). Seven of eight canonical cadastral markers fire (all except siqa -- no pyramids at Incahuasi). The terminal cord on beige-slate unique-color carries kaqa one final time -- the document closes on a wall.",
+     "key_cords": [
+       {"pos": 169, "gloss": "kaqa (beige-slate)", "note": "TERMINAL CORD -- unique color, final kaqa; document closes on a wall"}
+     ]}
+  ],
   "narrative": "The khipu opens with a needlework bundle and a red tassel. That is the first thing you see if you hold UR268 — before the cords, before the knots, a finished binding at the head that says: this document is complete, this document is meant to be seen.\n\nThen the first data cord: thirteen thousand three hundred and twenty-eight. The largest opening value in the analyzed Incahuasi set. On white cotton, a register of production at a scale no day-book could hold. UR268 is the tier-three district summary of the peanut pipeline at Incahuasi, the terminal document of a three-part accounting machine: UR270 as the warehouse day-book (UE 13), UR269 as the regional aggregator (UE 11), and UR268 here as the district summary (UE 18) — received upward, not audited sideways.\n\nEvery few cords the value 208 returns. Twenty-eight times across the document, always tied in the same three knots. Urton, reading this khipu in his own field notes before his 2015 publication, wrote that cords 1 through 92 follow a four-cord block pattern — {big number, 208, near-1000, next big number} — and that after position 93 the pattern compresses to three cords: {big number, 208, big number minus 208}. He predicted, in handwriting, a phase transition at cord 93 in a document he had not yet formally published. Our v3 reader, five centuries after the Inca scribe and ten years after Urton's note, verifies the prediction at knot level: cord 101 carries 10,700, cord 103 carries 10,492, cord 105 carries exactly 208. The equation 10,700 − 208 = 10,492 holds. The tax formula is visible in the cotton.\n\nThe 208 is what Urton called the Inkawasi formula: a fixed deduction per peanut deposit at district level. Not a unit of measurement but a unit of taxation — what the empire takes off the top of every harvest before the remainder enters the Qollqa. Twenty-eight times across UR268 the scribe posts the 208, and twenty-seven times pairs it with the pre- and post-deduction totals. The ledger is visible, the tax is visible, the arithmetic still closes.\n\nThere are no pendant-pendant sums on UR268. Zero Ascher relations. This is a feature, not a gap: tier-three summaries are received, not audited. The integrity lives elsewhere — in the positional constant (208 recurring), in the phase transition (predicted and verified), in the external physical binding that says 'this is the final artifact, do not modify'. The arithmetic in UR268 is not CHECKED by the khipu itself, it is CARRIED by the khipu to higher administration.\n\nThe vocabulary is cadastral and minimal. Kaqa appears four times — natural wall, the Aymara loanword used in Inca cadastre for the stone boundaries of fields. More kaqa than any other Incahuasi khipu we have analyzed: the document anchors its tax collection to the physical walls of specific peanut-producing terraces. Seven of the eight canonical cadastral markers appear at least once: qaqa, kaqa, taqa, paqa, chaqa, waqa, piqa, chiqa — all except siqa (no pyramids at Incahuasi). The final cord on beige-slate carries kaqa again, unique color, closing the document with one last wall.\n\nUrton's published section on UR268 (2017 pp.162-164) said this was the most complex peanut khipu at Incahuasi. Our v3 reading adds: it is also the most FINISHED. The red-tassel binding, the invariant tax constant, the verified phase transition, the cadastral anchoring on natural walls — this is what a completed tier-three document looked like in the Inca accounting world. Handed upward, tied shut, the arithmetic locked."
 }

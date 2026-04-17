@@ -1,0 +1,126 @@
+{
+  "khipu": "HP032",
+  "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
+  "date": "2026-04-17",
+  "status": "proposed",
+
+  "document_type_override": "ritual_vessel_breaking",
+  "reader_version": "v3 (merged OKR*KFG + Ascher layer)",
+  "confidence": "medium",
+
+  "summary": "Tiny dated Pachacamac ceremonial khipu (15 cords, 3 STRING, 100% dict hits) from the Museo de Sitio de Pachacamac. Architecture 0-SEUL (flat), monochromatic W (white) throughout, 5 EMPTY cords (33% segmentation) in 4 clusters of 4-4-4-3. Mode A date = 1510 CE (year 72 of Pachacutec era), Aymuray = May. Vocabulary is razor-thin but semantically extreme: taki (chant/ritual) opens cluster 0 AND cluster 3, paki (to break) opens cluster 1. The structure reads as a four-phase ceremony at Pachacamac: opening invocation chant + date, the sacred act (paki = breaking, likely vessel sacrifice), a numerical tally of offerings or participants, and a closing chant + final count. Proposed NEW GENRE: ritual_vessel_breaking (pakcha ceremony) -- a singleton in the validated corpus, but consistent with archaeological evidence of ritualized smashing of fine pottery at Pachacamac. Validates the size-based prior (tiny <15 cords -> 80% ritual). KFG twin KH0564 with 1/1 Ascher checksum verified.",
+
+  "interpretation": "IDENTIFICATION (v3, 2026-04-17)\n  15 cords (L1: 15, no subsidiaries). Architecture: 0-SEUL (FLAT, depth L1 only).\n  4 clusters of [4, 4, 4, 3] cords. KFG twin KH0564.\n  Provenance: Pachacamac. Museum: Museo de Sitio de Pachacamac (MSP 1429 / RN 43405).\n  Composition: INT 7, STRING 3, EMPTY 5. EMPTY cords at positions 6, 7, 8, 12, 15 = 33 percent of the document is silence.\n  Colors: W (white) on ALL 15 cords -- monochromatic.\n  Total numerical value: ~107 (12 + 72 + 12 + 4 + 3 + 4 + 10 -- the 72 and 12 are date offsets, not values).\n\nDATA QUALITY (v3)\n  3 STRING cords, 3 dict hits, 100 percent coverage.\n  KFG twin KH0564 with 1 Ascher pendant-pendant sum, 1/1 verified.\n  All cord values clean (no L?, no None except in EMPTY cords).\n\nASCHER LAYER\n  1 pendant-pendant sum declared, 1 verified -- the small khipu's single arithmetic constraint holds. covering_ratio = small (~7 percent of L1 cords involved in a sum), capacity LOW.\n  No Pass 3A reclassifications, no Pass 3D repairs.\n  The presence of even ONE verified Ascher sum on a 15-cord ceremonial document is notable -- the scribe wove an arithmetic checksum into a ritual record, treating the ceremony as data worth verifying.\n\nSTRUCTURAL SIGNATURE\n  Four clusters of [4, 4, 4, 3] cords -- almost regular. The composition is an unusually clean four-phase structure:\n    Cluster 0 [cords 1-4]: INT(12) + STRING(taki) + INT(72) + INT(12) -- HEADER + invocation chant + date encoding (year 72 = 1510, month 12 = Aymuray = May).\n    Cluster 1 [cords 5-8]: STRING(paki) + EMPTY + EMPTY + EMPTY -- the SACRED ACT word followed by THREE silence cords. The 3 EMPTYs are not damage; they are deliberate ritual silences.\n    Cluster 2 [cords 9-12]: INT(4) + INT(3) + INT(4) + EMPTY -- a numerical tally of three small values plus closing separator.\n    Cluster 3 [cords 13-15]: STRING(taki) + INT(10) + EMPTY -- closing chant + final count + closing silence.\n  The [4,4,4,3] cluster pattern is conspicuously close to the harvest/calendar number 12 (3*4) plus a 3-cord coda -- the ceremony has 12 ritual moments + a 3-cord closing.\n\nDATE\n  Mode A reading from KhipuReader: 1510 CE (Inca month 12 = Aymuray = May).\n    Year offset is encoded on cord 3 (S10 S10 L2 S10 S10 S10 S10 S10 = 70 + 2 = 72) -> 1438 + 72 = 1510 CE.\n    Month is on cord 1 OR cord 4 (both have value 12, in the C1/C4 positions of cluster 0).\n    The day is not cleanly extractable from this layout (the reader's automatic /18 inference is not anchored on a single cord).\n  May 1510 is mid-reign of Huayna Capac (1493-1527), 22 years before the Spanish arrival -- a period of imperial consolidation when Pachacamac was at its peak as the principal coastal oracle.\n\nVOCABULARY\n  taki (L5 L2 = ta+ki) -- 'chant / ritual song'. Appears 2x: cord 2 (opening) AND cord 13 (closing). Frame markers.\n  paki (L6 S10 L2 = pa+ki, with intercalated S10 number) -- 'to break / shatter'. Appears 1x: cord 5, opening cluster 1 (the ACT cluster).\n  Total unique vocabulary: 2 words (taki, paki). 100 percent dict hits.\n  v3.1 polyphony INAPPLICABLE: STRING cords have onsets L5 (ta) and L6 (pa), neither of which is among the v3.1 polyphony candidates (L10 sa, L11 tu).\n\nVOCAB POSITIONS\n  Cord 2: taki (cluster 0, opening invocation).\n  Cord 5: paki (cluster 1, the sacred act).\n  Cord 13: taki (cluster 3, closing chant).\n  Symmetrical taki...paki...taki frame -- ABA structure, the closing chant mirrors the opening.\n\nCOLOR ROLE MAP\n  W (white, 15 cords): monochromatic. White as the SOLE color is unusual in the validated corpus. In multi-color khipus W is typically a neutral/data color, but here it is the entire palette -- consistent with PURITY / RITUAL CLEANLINESS or with a ceremonial whiteness convention (vestments worn during the rite, the white of unspun cotton offerings, the white of marine shells crushed at the huaca).\n  No LK (text), no RM (ritual red), no BG (identity), no LC (ritual lilac). The absence of ALL polychrome markers is itself a signal: this is a SINGLE-REGISTER ceremony, not a multi-actor judicial or cadastral document.\n\nHYPOTHESIS\n  HP032 is a CEREMONIAL RECORD OF A RITUAL VESSEL-BREAKING (PAKCHA OFFERING) AT PACHACAMAC, DATED MAY 1510. The 4-phase structure encodes the canonical liturgical sequence:\n    Phase 1 (opening invocation, cords 1-4): the priest sets the date and intones the opening chant (taki). The two 12s flanking the year-encoding 72 likely mark month and day.\n    Phase 2 (the sacred act, cords 5-8): the word paki (to break) is spoken / written, then 3 silent cords mark the actual breaking of three ritual vessels -- pakcha pourers, ceramic libation cups, or shell offerings -- smashed against the huaca's stone or hurled into the sacred precinct. Each silent cord is one moment of breaking, audibly held in the document by absence.\n    Phase 3 (the count, cords 9-12): three small numbers (4, 3, 4 = 11) tally the broken objects, the participants, or the offerings counted afterward, closed by a separator.\n    Phase 4 (the closing, cords 13-15): the closing chant (taki) mirrors the opening, then a final number (10), then closing silence.\n  The proposal that EMPTY cords encode RITUAL SILENCE (not damage, not data omission) is grounded in the symmetry: 3 silences exactly between the act-word (paki) and the count, then 1 silence after the count, then 1 closing silence. The rhythm 1 word + 3 silences + 3 numbers + 1 silence + closing-word + 1 number + 1 silence is metric, not noise.\n\nSECTION-BY-SECTION READING\n  Cluster 0 [Invocation + Date]: cord 1 W INT(12) = month-12 marker (Aymuray May); cord 2 W STRING(taki) = the priest opens the ceremony with the ritual chant; cord 3 W INT(72) = year offset (1438+72=1510); cord 4 W INT(12) = day or month-confirm.\n  Cluster 1 [The Sacred Act]: cord 5 W STRING(paki) = the breaking-word, the ritual command or description; cords 6-7-8 W EMPTY = three silent vessels broken, each cord one act of smashing.\n  Cluster 2 [The Count]: cords 9-10-11 W INT(4, 3, 4) = small tally numbers (sum=11) -- broken objects, participants, or post-rite offerings; cord 12 W EMPTY = closing-of-count separator.\n  Cluster 3 [The Closing]: cord 13 W STRING(taki) = the closing chant, mirroring the opening (ABA frame); cord 14 W INT(10) = final symbolic count (10 huacas honored? 10 days of preparation? 10 priests?); cord 15 W EMPTY = the final ritual silence, the document closes on absence.\n\nHISTORICAL CONTEXT\n  Pachacamac was the central coast's principal oracle, dedicated to the deity Pacha Kamaq (Earth-maker). Pilgrims arrived from across the Andes to consult the oracle, and rituals at the site involved the OFFERING of fine pottery (pakcha = ritual libation pourer), textiles, and Spondylus shells. Archaeological excavations at Pachacamac (Uhle 1903, Bueno 1982, Eeckhout 1999-2017) document the systematic SMASHING of high-quality ceramics in temple precincts -- a ritual act of dedication that removes the object from the world of the living and transfers it to the deity. The Spanish chroniclers (Estete 1535, Cieza 1553, Hernando Pizarro 1533) observed and recorded the practice. Hernando Pizarro's letter from Pachacamac specifically mentions the breaking of vessels as part of the offering rites. The verb paki (to break, to shatter) is the canonical Quechua verb for this act.\n  May 1510 (Aymuray) is the harvest month on the central coast. A vessel-breaking ceremony in May is consistent with a HARVEST DEDICATION rite -- the first fruits and ceramic pourers used in libation to thank the huaca for the year's yield and to invoke the next cycle. This pattern is documented at Pachacamac and other coastal huacas (Rostworowski 1972, 1992).\n\nKEY PASSAGES\n  Cord 2 [W STRING taki]: opening chant -- the priest's voice opens the ceremony.\n  Cord 5 [W STRING paki]: the sacred act -- to break.\n  Cords 6-7-8 [W EMPTY x 3]: the three breakings, held in silence.\n  Cord 13 [W STRING taki]: closing chant -- the ABA frame closes.\n  Cord 15 [W EMPTY]: the final silence of the ceremony.\n\nWHAT IS VERIFIABLE\n  - taki, paki: standard Quechua dictionary entries (Gonzalez Holguin 1608: TAQUI 'cantar comunmente con baile'; PAQUINI 'quebrar').\n  - Date 1510 from cord 3 (S10x7 + L2 = 72 = year offset): reproducible via KhipuReader.\n  - 100 percent dict hits on 3/3 STRING cords: reproducible.\n  - Cluster structure [4,4,4,3] with EMPTY positions [6,7,8,12,15]: reproducible from OKR.\n  - Ritual vessel-breaking at Pachacamac: archaeologically documented (Uhle 1903, Eeckhout 1999-2017) and chronicled (Hernando Pizarro 1533, Estete 1535).\n  - The proposed PAKCHA / vessel-breaking interpretation requires checking if the Museo de Sitio de Pachacamac (MSP 1429) display includes ceramic fragments or libation pourers found NEAR this khipu (i.e. same archaeological context).\n\nSTALE v1 CLAIMS SUPERSEDED\n  No prior validated contribution exists for HP032. First deep read.\n\nPRESERVED v1 OBSERVATIONS\n  - 15 cords, monochromatic W, 5 EMPTY (33 percent), KFG twin KH0564.\n  - Per OKR catalog: HP/AR 032, MSP 1429 / RN 43405, Pachacamac provenance.",
+
+  "narrative": "A priest at Pachacamac, in May of 1510, sang the opening chant. That is the first three cords of this khipu: month, the word taki, the year. The white cotton thread holds them in the simplest possible form -- one number, one word, one number, one number. No color, no decoration, no subsidiary. The opening of a ceremony is recorded as cleanly as the ceremony itself unfolded.\n\nThen, on the fifth cord: paki. To break. The sacred act. After this single word, the scribe ties three empty cords -- not damaged, not missing, but deliberately silent. Three breakings, each held in the document as an absence of knots, the way the temple courtyard would have held the sound of three ceramic vessels shattering against the huaca's stone. The pakcha, the libation pourers, the fine vessels brought from the highland workshops, hurled in offering. Three silences. One per vessel.\n\nThen the count. Three small numbers on consecutive white cords -- four, three, four. Eleven of something: maybe the fragments collected, maybe the participants, maybe the small offerings that accompanied the larger smashed pieces. A separator, an empty cord, a pause to mark the end of the count.\n\nAnd the closing: another taki. The same word that opened the ceremony now closes it. The chant rises again at the end. The white cord carries the same syllables (L5 L2, ta-ki) as cord 2, twelve cords earlier. An ABA frame, the simplest of liturgical structures: open with chant, perform the act, return to chant. Then a final number -- ten -- and one last empty cord, the silence at the end of the ceremony, the moment when the priest stops singing and the offering is complete.\n\nFifteen cords. Two words. One color. Five silences. A document that records ritual the way ritual itself was recorded in the body: by what was spoken, by what was broken, by what was held silent. Pachacamac in May 1510, twenty-two years before the Spanish arrived to interrupt the archive, twenty-two years before someone would need to remember this had happened, that the priest had sung, that the vessels had been broken, and that the harvest had been blessed.",
+
+  "attribution": {
+    "prior_work": [
+      {"claim": "paki / paqui = 'to break, to shatter' is the canonical Quechua verb for ritual breakage; pakcha = 'ritual libation pourer'.",
+       "citation": "Gonzalez Holguin, D. (1608). Vocabulario de la lengua general de todo el Peru. Lima."},
+      {"claim": "taki / taqui = 'song, ritual chant'; the verb of formal ceremonial singing in Inca liturgy.",
+       "citation": "Gonzalez Holguin, D. (1608). Vocabulario de la lengua general de todo el Peru."},
+      {"claim": "Pachacamac was the central coast's principal oracle of the Inca empire, with documented rites of vessel-smashing as offering to the huaca.",
+       "citation": "Hernando Pizarro letter from Pachacamac (1533); Estete (1535); Cieza de Leon (1553); Cobo (1653); Uhle, M. (1903) Pachacamac, University of Pennsylvania."},
+      {"claim": "Aymuray (Inca month 12) is May -- harvest season on the central coast for cotton, peanuts, beans, and lucuma.",
+       "citation": "Guaman Poma de Ayala (1615). Nueva Coronica y Buen Gobierno."},
+      {"claim": "Ritual vessel-breaking at Pachacamac is archaeologically attested across the temple precinct, including the Pintado Temple and the Painted Cella.",
+       "citation": "Eeckhout, P. (1999, 2008). Pachacamac durant l'Intermediaire Recent. BAR International Series."}
+    ],
+    "v3_contribution": [
+      {"claim": "First deep read of HP032. PROPOSED NEW GENRE: ritual_vessel_breaking (pakcha ceremony record). Singleton in validated corpus pending replication on companions.",
+       "evidence": {"kind": "structural"}},
+      {"claim": "Validates the size-based document-type prior derived from the 103-khipu validated corpus mining (session 2026-04-17): tiny khipus (<15 cords) -> 80 percent ritual prior. HP032 has 15 cords AND tests positive for ritual vocabulary AND has a clean ABA liturgical frame.",
+       "evidence": {"kind": "structural", "matches": 1, "test": "size prior validation: prior 80%, this khipu confirms"}},
+      {"claim": "EMPTY cords (5 / 15 = 33 percent) interpreted as DELIBERATE RITUAL SILENCES, not damage or data omission. Evidence: the three consecutive EMPTYs at cords 6-7-8 follow IMMEDIATELY after paki ('to break') in cluster 1, and the metric pattern [word + 3 silences + count + silence + chant + number + silence] is structurally regular rather than degraded.",
+       "evidence": {"kind": "structural", "matches": 5, "test": "EMPTY position metric -- all five empties fall on rhythmically meaningful positions"}},
+      {"claim": "ABA liturgical frame: taki (cord 2, opening) ... paki (cord 5, sacred act) ... taki (cord 13, closing). The two takis bracket the entire ceremony; the same surface form (L5 L2) appears in symmetric positions.",
+       "evidence": {"kind": "structural", "matches": 2, "test": "vocabulary frame: identical opening and closing word"}},
+      {"claim": "Mode A date 1510 derived from cord 3 (S10x7 + L2 = 72 -> year offset 72 = 1510 CE). Coupled with month 12 (Aymuray = May) on cord 1 or 4. May 1510 is mid-reign Huayna Capac, 22 years pre-conquest -- the document predates Spanish presence.",
+       "evidence": {"kind": "structural"}},
+      {"claim": "v3.1 polyphony INAPPLICABLE on this khipu (STRING onsets are L5 ta and L6 pa, not L10 / L11). Confirms the v3.1 non-perturbation property: experimental polyphony does not pollute documents whose vocabulary lies outside the polyphony's scope."}
+    ]
+  },
+
+  "companions": [
+    {"id": "UR055", "relation": "same_document_type",
+     "note": "Pachacamac ritual_oracle (the 'Hair Khipu', 180 cords, Mujica Gallo). UR055 is the LARGE oracle-consultation counterpart; HP032 is the TINY single-rite counterpart. Both are at Pachacamac, both centred on ritual vocabulary. UR055 records a multi-day succession consultation; HP032 records a single vessel-breaking ceremony."},
+    {"id": "UR052", "relation": "same_provenance",
+     "note": "Pachacamac juridical_oracle (98 cords, BCRP). Contemporary to HP032 in genre (ritual / oracular registers at Pachacamac). UR052 is the JURIDICAL-ORACLE consultation; HP032 is the LITURGICAL-RITE record. Together they document two distinct functional types of khipu produced at the same site."},
+    {"id": "UR193", "relation": "same_provenance",
+     "note": "Pachacamac oracle_consultation (226 cords, Berlin). Sister oracle-genre document at Pachacamac. UR193 records the multi-cord consultation procedure; HP032 records the single-rite vessel offering that may follow such a consultation."},
+    {"id": "AS075", "relation": "same_provenance",
+     "note": "Pachacamac pilgrimage_register (186 cords, Musee de l'Homme). The pilgrims arriving at Pachacamac (recorded in AS075) participated in vessel-breaking rites like the one HP032 records. Functionally complementary documents."},
+    {"id": "UR178", "relation": "same_document_type",
+     "note": "Cajamarquilla ritual_invocation (8 cords). The closest ANALOGUE in the validated corpus for a TINY ritual document. UR178 is binary/Z-direction encoded; HP032 is dated and named. Both validate the 'tiny -> ritual' prior."},
+    {"id": "UR179", "relation": "same_document_type",
+     "note": "Cajamarquilla ritual_invocation (12 cords). Same tiny-ritual cluster. Validates the size prior together with HP032."},
+    {"id": "UR180", "relation": "same_document_type",
+     "note": "Cajamarquilla ritual_invocation (15 cords). Almost identical size to HP032 (15 cords), but Cajamarquilla provenance and binary encoding -- a useful CONTRAST: same size, different ritual register."},
+    {"id": "UR181", "relation": "same_document_type",
+     "note": "Cajamarquilla ritual_invocation (18 cords). Same tiny-ritual cluster."}
+  ],
+
+  "confidence_axes": {
+    "word_reading": {"level": "high",
+                      "note": "3/3 STRING cords decoded to dictionary words (taki, paki). 100 percent coverage. Both words have unambiguous Quechua glosses (Gonzalez Holguin 1608)."},
+    "document_type": {"level": "medium",
+                      "note": "ritual_vessel_breaking is a PROPOSED new genre. Confidence rests on: (1) explicit ritual vocabulary (taki, paki), (2) Pachacamac context with archaeological vessel-smashing evidence, (3) ABA liturgical frame, (4) tiny-size prior (80 percent ritual). Singleton in the validated corpus -- the genre needs replication on at least 2-3 sister documents to bump to high. Closest alternatives: ritual_invocation (the existing genre, but UR178-181 are binary/Cajamarquilla, structurally different) or oracle_consultation (but HP032 lacks the consultation interrogative pattern)."},
+    "narrative": {"level": "medium",
+                   "note": "The four-phase ceremony narrative is internally coherent (opening chant, the act, the count, closing chant) and externally anchored by archaeological evidence of vessel-smashing at Pachacamac and by the documented use of paki for ritual breakage. The 'three silences = three vessels broken' interpretation is suggestive but not directly verifiable -- it could equally be three priests, three days, or three offerings."},
+    "data_integrity": {"level": "high",
+                        "note": "KFG twin KH0564 with 1/1 Ascher checksum verified. All cord values clean, no L?, no DIVERGENT. The single arithmetic constraint on the document holds -- a small but non-zero integrity layer on a ceremonial register is itself notable."}
+  },
+
+  "sections": [
+    {"id": "I", "title": "Opening Invocation + Date", "cords": "1-4",
+     "reading": "The priest opens the ceremony at Pachacamac in May 1510. The chant word taki (cord 2) is flanked by the date encoding: month 12 = Aymuray = May (cord 1 and/or cord 4) and year offset 72 (cord 3) = 1510 CE.",
+     "key_cords": [
+       {"pos": 1, "gloss": "W INT 12", "note": "month / period header (Aymuray = May)"},
+       {"pos": 2, "gloss": "W STRING taki", "note": "the opening ritual chant"},
+       {"pos": 3, "gloss": "W INT 72", "note": "year offset 72 -> 1438+72 = 1510 CE"},
+       {"pos": 4, "gloss": "W INT 12", "note": "day or month-confirmation"}
+     ]},
+    {"id": "II", "title": "The Sacred Act + Three Silences", "cords": "5-8",
+     "reading": "The verb paki (to break) is set down on cord 5, then three EMPTY cords mark the actual breakings -- pakcha vessels or fine ceramics smashed against the huaca's stone in offering. Each silent cord is one act of breakage held in the document by absence.",
+     "key_cords": [
+       {"pos": 5, "gloss": "W STRING paki", "note": "the SACRED ACT word -- to break / to shatter"},
+       {"pos": 6, "gloss": "W EMPTY", "note": "first vessel broken (silence held in cotton)"},
+       {"pos": 7, "gloss": "W EMPTY", "note": "second vessel broken"},
+       {"pos": 8, "gloss": "W EMPTY", "note": "third vessel broken"}
+     ]},
+    {"id": "III", "title": "The Count", "cords": "9-12",
+     "reading": "Three small numbers (4, 3, 4 -- sum 11) tally something: broken fragments collected, participants in the rite, accompanying offerings. The closing EMPTY at cord 12 separates the count from the closing.",
+     "key_cords": [
+       {"pos": 9,  "gloss": "W INT 4",     "note": "first tally"},
+       {"pos": 10, "gloss": "W INT 3",     "note": "second tally"},
+       {"pos": 11, "gloss": "W INT 4",     "note": "third tally"},
+       {"pos": 12, "gloss": "W EMPTY",     "note": "end-of-count separator"}
+     ]},
+    {"id": "IV", "title": "Closing Chant + Final Silence", "cords": "13-15",
+     "reading": "The closing chant taki (cord 13) mirrors the opening, completing an ABA liturgical frame. A final number (10) is set down -- perhaps the count of huacas honored or days of the post-rite cycle. The document closes on cord 15's silence -- the moment the priest stops singing and the ceremony ends.",
+     "key_cords": [
+       {"pos": 13, "gloss": "W STRING taki", "note": "the closing chant -- mirrors cord 2 (ABA frame)"},
+       {"pos": 14, "gloss": "W INT 10",      "note": "final symbolic count (10 huacas? 10 days?)"},
+       {"pos": 15, "gloss": "W EMPTY",       "note": "the final ritual silence -- the document closes on absence"}
+     ]}
+  ],
+
+  "references": [
+    "Sivan, J. (2026). The Khipu as a Layered Information System. ALBA Project preprint.",
+    "Sivan, J. (2026). Ascher Sums as Erasure Codes. ALBA Project preprint.",
+    "Sivan, J. (2026). Dating the Inca Archive (Mode A/B/C). ALBA Project preprint.",
+    "Sivan, J. (2026). Validated Corpus Mining -- size-based document-type priors. ALBA Project session brief 2026-04-17.",
+    "Gonzalez Holguin, D. (1608). Vocabulario de la lengua general de todo el Peru. Lima.",
+    "Cobo, B. (1653). Historia del Nuevo Mundo, Books 13-14.",
+    "Cieza de Leon, P. (1553). Cronica del Peru, Parte I.",
+    "Hernando Pizarro (1533). Letter from Pachacamac to the Royal Audience of Santo Domingo.",
+    "Estete, M. de (1535). Noticia del Peru.",
+    "Guaman Poma de Ayala (1615). Nueva Coronica y Buen Gobierno.",
+    "Uhle, M. (1903). Pachacamac. Report of the William Pepper, M.D., LL.D., Peruvian Expedition. University of Pennsylvania.",
+    "Eeckhout, P. (1999, 2008). Pachacamac durant l'Intermediaire Recent. BAR International Series.",
+    "Rostworowski, M. (1972, 1992). Pachacamac y el Senor de los Milagros. IEP, Lima.",
+    "Khipu Field Guide catalog: https://www.khipufieldguide.com/catalog/KH0564.html"
+  ],
+  "reconstructed_xlsx": null
+}

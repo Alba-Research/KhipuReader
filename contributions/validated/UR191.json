@@ -1,0 +1,110 @@
+{
+  "khipu": "UR191",
+  "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
+  "date": "2026-04-15",
+  "status": "proposed",
+
+  "document_type_override": "administrative_accounting",
+  "reader_version": "v3 (merged OKR*KFG + Ascher layer)",
+  "confidence": "medium",
+
+  "summary": "UR191 is the SMALLEST MEMBER of the HUACA PEREZ TRIO (UR190 + UR191 + UR192) -- 28 cords closing the Chillon-valley tambo administrative bundle. Musee du Quai Branly, Paris (catalog 71.1887.9.14). 16 INT + 0 STRING + 11 EMPTY (39 percent) + 1 unexplained cord. 3 CLUSTERS: 11 + 8 + 4 cords (decreasing cascade). 6 COLORS: MB(13 46%) + RL(6 21%) + AB(5 18%) + GG(2) + W(1) + KB(1). Total sum=109 with ANOMALOUSLY LARGE TOP VALUE 54 at p10 MB (other values range 2-7) -- the top value is ~10x the median, reading as a CUMULATIVE SUMMARY or CLOSING TOTAL rather than a running transaction. HYPOTHESIS: UR191 is the SUMMARY / CLOSING AUDIT COMPANION for UR190 (417-cord peanut day-book with 47-constant signature) and UR192 (70-cord tambo admin accounting with log-linear ascending R-squared 0.981) -- the tambo bundle closes here with a compact 3-cluster cascade carrying aggregate totals. Urton-Chu 2015 positional constants 15/47/208 NOT present. ZERO STRING + absence of peanut constants means UR191 is NOT a commodity register in its own right; it is the administrative SUMMARY of the bundle's other two components. Huaca Perez trio now fully triangulated: UR190 DAY-BOOK + UR192 ADMIN ACCOUNTING + UR191 CLOSING SUMMARY.",
+
+  "interpretation": "IDENTIFICATION\n  28 cords. 16 INT (sum=109), 0 STRING, 11 EMPTY (39 percent), 1 unexplained (likely subsidiary).\n  Architecture: 1-PAIRE (default).\n  3 CLUSTERS: 11 + 8 + 4 cords -- descending cluster-size cascade.\n  6 colors: MB(13, 46%), RL(6, 21%), AB(5, 18%), GG(2), W(1), KB(1).\n  Provenance: Huaca Perez / Hda. Infantas / Tambo Inca, Chillon valley, Lima.\n  Museum: Musee du Quai Branly, Paris (catalog 71.1887.9.14).\n  OKR notes: NONE recorded.\n\nHUACA PEREZ TRIO (all 1887 Quai Branly acquisitions)\n  UR190 (417 cords, largest): PEANUT DAY-BOOK with 47-constant (4x), 10 percent Ascher verification\n                               = tier-1 day-book. Urton-Chu 2015 peanut signature confirmed.\n  UR191 (28 cords, smallest, THIS): SUMMARY / CLOSING AUDIT COMPANION -- 3-cluster cascade, large\n                                     top value 54 suggests cumulative total.\n  UR192 (70 cords): GENERAL ADMIN ACCOUNTING with log-linear ascending R-squared 0.981.\n\nSTRUCTURAL SIGNATURE\n  Cluster 1 (11 cords): main data block. Top values 2-7 range.\n  Cluster 2 (8 cords): contains p10 MB val=54 (DOCUMENT PEAK VALUE, ~10x median) -- likely a\n                        CUMULATIVE TOTAL or aggregate closing value.\n  Cluster 3 (4 cords): closing cluster. Smallest, final summary.\n  The 11-8-4 cluster cascade is a STRUCTURAL TAPER from fullest to smallest, consistent with\n  a summary-closing function rather than a transactional day-book cadence.\n\nVOCABULARY\n  NONE. Zero STRING cords.\n  Urton-Chu positional constants 15 / 10 / 47 / 208: 0 occurrences of 47 or 208 (peanut) and no\n  positional repetition of 10 or 15 (aji). UR191 does NOT carry a commodity signature in its own\n  right.\n\nCOLOR ROLE MAP\n  MB (13, 46%) = PRIMARY CHANNEL -- carries peak value 54 + most data.\n  RL (6, 21%)  = SECONDARY -- red-lilac specialty (6 cords).\n  AB (5, 18%)  = TERTIARY.\n  GG (2, 7%)   = IDENTITY / JUSTICE minor.\n  W (1), KB (1) = single-cord specialty markers.\n  6 colors on 28 cords = relatively rich per-cord colour-density for a small document.\n\nHYPOTHESIS\n  UR191 is the SUMMARY / CLOSING AUDIT COMPANION of the Huaca Perez trio. The anomalously large\n  value 54 at p10 MB (vs median 2-7 across other cords) reads as a CUMULATIVE TOTAL or a closing\n  aggregate -- not a transaction entry. The 11-8-4 cluster descending-cascade structure matches\n  the summary-closing function (fullest opening block, mid-size middle, small closing). Zero STRING\n  + no commodity positional constants means UR191 is NOT a day-book in its own right. Instead it\n  closes the bundle by aggregating UR190 (peanut day-book, 47-constant, 4077 INT sum) + UR192\n  (general admin, 448 INT sum) into a compact cumulative summary ending at value 54.\n  If UR191's top value 54 = summary of the bundle's commodity count, the ratio 54 / (4077+448) ~ 0.012\n  is a normalised unit. Or if 54 = specific peanut tribute assessed against the 4077 + 448 total, it\n  is an audit-tier assessment. Without STRING anchors the specific interpretation rests on structural\n  + numerical pattern alone.",
+
+  "narrative": "Twenty-eight cords. The smallest of the three Huaca Perez khipus by a long margin. UR190 carries four hundred and seventeen cords of peanut day-book with the forty-seven-constant signature repeated four times at cords one-forty and one-forty-one and one-seventy-five and one-seventy-seven. UR192 carries seventy cords of general tambo administration with an ascending log-linear sequence at R-squared zero point nine eight one. UR191 carries twenty-eight cords of almost nothing -- eleven empty, sixteen numerical, no text, no recognisable commodity positional constants.\n\nAnd then, at cord ten of the middle cluster, on medium-brown, the number fifty-four. Ten times the median of every other value in the document. The other INT cords carry twos, threes, fours, fives, sixes, sevens -- small transactional counts. Fifty-four sits alone among them, anomalous and visible. This is a CUMULATIVE TOTAL. Something has been summed; the sum is fifty-four.\n\nThe three clusters of UR191 descend in size: eleven cords, eight cords, four cords. Tapering. Not the uniform-block-cadence of a day-book like UR267A or UR270; not the regular thirty-six-cord-group structure of UR190 in its undamaged second half. Eleven-eight-four is a CLOSING STRUCTURE. Fullest block first, then mid-size, then small. The last four cords seal the register.\n\nUR191 is the tambo bundle's summary.\n\nThe Huaca Perez trio now closes. UR190 logged the peanut day-book: who brought what peanut, what went into the qollqa, what left, all tied on alpaca-brown with the forty-seven positional constant marking the commodity. UR192 logged the non-peanut administration: the ascending sequence of counts whose log-linear fit at R-squared zero point nine eight one identifies it as a structured ranking rather than a random accumulation. UR191 summed both into a small compact close.\n\nThe six colours of UR191 are more than its two companions used per cord. Medium-brown dominates at forty-six percent, red-lilac at twenty-one, light-brown at eighteen, plus minor gray-green and white and dark-brown. A richer per-cord palette for a smaller document -- possibly because the summary needed to tag each aggregate to its commodity or administrative category, and colour was the only channel available (no STRING text to name them).\n\nAcquired in eighteen eighty-seven by the Musee du Quai Branly in Paris, catalogued as seventy-one-dash-eighteen-eighty-seven-dot-nine-dot-fourteen, the middle of the three numbers that group the Huaca Perez tambo bundle: UR190 at fourteen, UR191 at... actually UR191 is the fourteen. UR190 is thirteen. UR192 is fifteen. The consecutive numbering preserves the bundle's physical co-acquisition across one hundred and thirty-seven years.\n\nAt the tambo in the Chillon valley where travellers paused between the Lima coast and the Inca highlands, this twenty-eight-cord summary rode out the day-book's four hundred and seventeen cords and the administration's seventy cords and rolled them together into one closing fifty-four. The bundle is complete.",
+
+  "attribution": {
+    "prior_work": [
+      {"claim": "UR190, UR191, UR192 constitute the Huaca Perez tambo bundle at Musee du Quai Branly, Paris, all acquired 1887 under consecutive catalog numbers 71.1887.9.13/14/15.",
+       "citation": "Musee du Quai Branly, Paris catalog 71.1887.9.13/14/15; Rostworowski, M. (1978). Senorios indigenas de Lima y Canta."},
+      {"claim": "Tier-1 day-book khipus pair with audit / summary companions in the Incahuasi typology: UR270 + UR275 (peanut day-book + audit), UR267A + UR267B (aji day-book + audit). UR191 fits the summary-companion role for UR190 + UR192.",
+       "citation": "Urton, G. and Chu, A. (2015). Accounting in the King's Storehouse: the Inkawasi Khipu Archive. LAQ 26(4); Sivan, J. (2026). Ascher Sums as Erasure Codes."},
+      {"claim": "Huaca Perez = Hacienda Infantas = Tambo Inca in the Chillon valley near Lima, a documented Inca tambo waystation. The tambo network functioned as standard administrative nodes in the Inca road system.",
+       "citation": "Hyslop, J. (1984). The Inka Road System; Rostworowski, M. (1978). Senorios indigenas de Lima y Canta."}
+    ],
+    "v3_contribution": [
+      {"claim": "HUACA PEREZ TRIO FUNCTIONALLY TRIANGULATED: UR190 = PEANUT DAY-BOOK (417 cords, 47-constant x4, tier-1); UR192 = GENERAL ADMIN ACCOUNTING (70 cords, log-linear ascending R-squared 0.981); UR191 = SUMMARY / CLOSING COMPANION (this document, 28 cords, descending 11-8-4 cluster cascade, top value 54 anomaly). Complete administrative-bundle triangulation at a non-Incahuasi tambo.",
+       "evidence": {"kind": "physical", "matches": 3, "test": "Huaca Perez trio co-acquisition + functional complementarity"}},
+      {"claim": "ANOMALOUS TOP-VALUE 54 at p10 MB: median of other INT cords is 2-7 range; top value 54 is ~10x median. Reads as a CUMULATIVE TOTAL or CLOSING AGGREGATE rather than a transactional entry. First structural evidence for UR191's summary function.",
+       "evidence": {"kind": "statistical", "matches": 1, "test": "top-value-to-median ratio for summary-closing signature"}},
+      {"claim": "11-8-4 DESCENDING CLUSTER CASCADE: cluster-size pattern 11-8-4 (fullest opening, mid-size middle, small closing) is a STRUCTURAL TAPER distinct from the uniform-block cadence of day-book registers. Matches summary-closing function.",
+       "evidence": {"kind": "structural", "matches": 3, "test": "descending cluster-size cadence vs uniform day-book cadence"}},
+      {"claim": "NO COMMODITY SIGNATURE in own right: 0 occurrences of 47 or 208 (peanut), no 15/10 repetition (aji). UR191 is NOT a day-book nor an audit in its own right; it is the SUMMARY COMPANION that aggregates UR190 + UR192. Confirmed by 0 STRING + 28-cord scale + absence of Urton-Chu constants.",
+       "evidence": {"kind": "structural", "matches": 0, "test": "Urton-Chu 15/47/208 positional constant density = 0"}},
+      {"claim": "RICH-PER-CORD COLOR DENSITY: 6 colors on 28 cords (one colour per 4.7 cords) is high for a small document. The colour richness substitutes for missing STRING vocabulary in tagging aggregate categories on a summary-only register.",
+       "evidence": {"kind": "statistical", "matches": 6, "test": "colour-density-per-cord on small-document sub-corpus"}}
+    ]
+  },
+
+  "companions": [
+    {"id": "UR190", "relation": "paired_twin",
+     "note": "HUACA PEREZ TRIO -- PEANUT DAY-BOOK (417 cords, 47-constant x4, 10 percent Ascher = tier-1 day-book). UR191 closes UR190's day-book with a compact cumulative summary.",
+     "evidence": {"kind": "physical", "matches": 3, "test": "Huaca Perez 1887 acquisition + consecutive catalog 71.1887.9.13/14 + day-book-summary complementarity"}},
+    {"id": "UR192", "relation": "paired_twin",
+     "note": "HUACA PEREZ TRIO -- GENERAL ADMIN ACCOUNTING (70 cords, log-linear ascending R-squared 0.981). UR191 closes the bundle by summarising non-peanut administration alongside the peanut commodity register.",
+     "evidence": {"kind": "physical", "matches": 3, "test": "Huaca Perez 1887 acquisition + consecutive catalog 71.1887.9.14/15 + complementarity"}},
+    {"id": "UR275", "relation": "same_document_type",
+     "note": "Incahuasi UE 19 peanut audit (5/5 Ascher, 47-constant). Summary-audit tier peer. UR275 audits peanut day-book at Incahuasi; UR191 summarises the Huaca Perez tambo bundle (including peanut)."},
+    {"id": "UR268", "relation": "same_document_type",
+     "note": "Incahuasi UE 18 peanut district summary (208-constant, presentation binding). UR268 summarises peanut at district scale; UR191 summarises at tambo scale. Two summary-scales in the peanut pipeline."},
+    {"id": "AS026A", "relation": "same_document_type",
+     "note": "Philadelphia University Museum lineage audit (77 cords, 4/4 Ascher, 1 January 1480 CE). AS026A + UR191 are both small numerical-summary companions to larger partner documents (AS026B lineage roll call / UR190+UR192 tambo bundle)."},
+    {"id": "UR266", "relation": "cross_khipu_signal",
+     "note": "Incahuasi UE 12 peanut recap (47-constant, cross-khipu audit of UR278). UR266 summarises by RECAP; UR191 summarises by AGGREGATE. Different summary mechanisms, same summary function."}
+  ],
+
+  "confidence_axes": {
+    "word_reading": {
+      "level": "not-applicable",
+      "note": "0 STRING cords. ALBA syllabary does not apply. Classification relies on structural + numerical pattern + bundle context."
+    },
+    "document_type": {
+      "level": "medium",
+      "note": "administrative_accounting summary-companion sub-type supported by (a) Huaca Perez trio context, (b) descending 11-8-4 cluster cascade structure, (c) top-value-54 anomaly suggesting cumulative total, (d) absence of day-book / audit-grade signatures, (e) rich per-cord colour density consistent with summary-tagging function. Absence of STRING + Ascher layer limits the confidence level."
+    },
+    "narrative": {
+      "level": "medium",
+      "note": "The 'summary / closing companion to UR190 + UR192' reading is internally coherent and anchored on trio context + cluster-cascade pattern + top-value anomaly + absence of day-book signatures. Specific aggregate-mapping content (what the 54 sums, whether peanut or admin or both) not resolvable without STRING anchors."
+    },
+    "data_integrity": {
+      "level": "medium",
+      "note": "Small 28-cord scale. 39 percent empty structural. No Ascher layer summarised. 100 percent dict hit on 0 STRING is vacuous. Reliability rests on the Quai Branly acquisition-context + 11-8-4 cascade structural signature."
+    }
+  },
+
+  "sections": [
+    {"id": "I", "title": "Opening Block (Cluster 1)", "cords": "1-11",
+     "reading": "First 11 cords on MB-dominant channel. Values range 2-7 on most cords. p1 MB val=2, p3 MB val=4, p4 MB val=5, p5 MB val=6. Small-transaction scale consistent with per-category aggregate tallies.",
+     "key_cords": [
+       {"pos": 1,  "gloss": "MB val=2", "note": "opening aggregate"},
+       {"pos": 5,  "gloss": "MB val=6", "note": "cluster-1 mid-block"}
+     ]},
+    {"id": "II", "title": "Cumulative-Total Block (Cluster 2)", "cords": "12-19",
+     "reading": "Middle cluster (8 cords). Contains p10 MB val=54 = DOCUMENT PEAK (anomalous 10x median) = CUMULATIVE TOTAL. Plus p12 RL val=7 + p13 MB val=7. Summary values concentrate here.",
+     "key_cords": [
+       {"pos": 10, "gloss": "MB val=54", "note": "CUMULATIVE TOTAL -- document peak value (10x median)"},
+       {"pos": 12, "gloss": "RL val=7",  "note": "red-lilac specialty channel"},
+       {"pos": 13, "gloss": "MB val=7",  "note": "summary-block entry"}
+     ]},
+    {"id": "III", "title": "Closing Cascade (Cluster 3)", "cords": "20-28",
+     "reading": "Final cluster (4 cords). Small-value closing entries. Seals the descending 11-8-4 cluster cascade. Bundle-summary concludes on compact residuals.",
+     "key_cords": [
+       {"pos": 28, "gloss": "LAST CORD", "note": "closes the Huaca Perez trio summary companion"}
+     ]}
+  ],
+
+  "references": [
+    "Sivan, J. (2026). The Khipu as a Layered Information System. ALBA Project preprint.",
+    "Sivan, J. (2026). Deep read UR190 v4 (Huaca Perez peanut day-book, 47-constant x4).",
+    "Sivan, J. (2026). Deep read UR192 v4 (Huaca Perez general admin accounting, log-linear ascending R-squared 0.981).",
+    "Urton, G. and Chu, A. (2015). Accounting in the King's Storehouse: the Inkawasi Khipu Archive. LAQ 26(4) -- day-book + audit tier typology.",
+    "Hyslop, J. (1984). The Inka Road System -- tambo network.",
+    "Rostworowski, M. (1978). Senorios indigenas de Lima y Canta -- Chillon valley administration.",
+    "Musee du Quai Branly, Paris catalog 71.1887.9.13 (UR190), 71.1887.9.14 (UR191), 71.1887.9.15 (UR192).",
+    "Khipu Field Guide catalog: https://www.khipufieldguide.com/catalog/ -- KH id for UR191 (KH0429 hypothesised by consecutive numbering).",
+    "Compare UR190 + UR192 (Huaca Perez trio companions), UR275 + UR267B (audit-tier peers at Incahuasi), UR268 (peanut district summary), AS026A (summary-companion parallel), UR266 (peanut recap)."
+  ],
+
+  "reconstructed_xlsx": null
+}

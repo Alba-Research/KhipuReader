@@ -1,0 +1,94 @@
+{
+  "khipu": "HP018",
+  "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
+  "date": "2026-04-15",
+  "status": "proposed",
+
+  "document_type_override": "administrative_accounting",
+  "reader_version": "v3 (merged OKR*KFG + Ascher layer)",
+  "confidence": "medium-high",
+
+  "summary": "HP018 is the CATALOG-PREDECESSOR of the HP019+HP020 PACHACAMAC CADASTRAL DOSSIER at the Museo de Sitio de Pachacamac. 35 cords, 24 INT + 0 STRING + 11 EMPTY (31 percent), 1-PAIRE architecture depth L2, 9 clusters. DATED MODE A 1 JANUARY 1526 CE: C1 val=88 -> 1438+88 = 1526 CE (non-round, valid range, HIGH confidence) + INTI RAYMI / JUNE opening (Inca New Year, month 1 = June). Placed just 8 YEARS BEFORE THE SPANISH CONQUEST of 1533-1534 -- very late in the Inca imperial period. 4 colors: W(24 69%) + MB(7 20%) + ?(3) + (1). ASCHER INTEGRITY: 7/7 VERIFIED = 100 PERCENT AUDIT-GRADE (KH twin KH0550). Max cascade depth 3 (medium Merkle tree). HP018 is the NUMERICAL-AUDIT COMPANION preceding HP019 (on-site verification card) and HP020 (route-card) in consecutive museum numbering at Pachacamac. Trio hypothesis: HP018 = AUDIT TOTALS (numerical aggregate, 1 January 1526), HP019 = ON-SITE VERIFICATION (cadastral chiqa x3), HP020 = ROUTE (6-waypoint traversal). HP018 completes a 3-document compact Pachacamac cadastral dossier trio predating the Spanish conquest.",
+
+  "interpretation": "IDENTIFICATION\n  35 cords. 24 INT (sum=434), 0 STRING, 11 EMPTY (31 percent).\n  Architecture: 1-PAIRE, schema RELATIONAL depth L2.\n  9 clusters.\n  Colors: W(24, 69%), MB(7, 20%), ?(3), ''(1). 4 colors.\n  Provenance: Pachacamac. Museum: Museo de Sitio de Pachacamac.\n  KFG twin KH0550 (adjacent to HP019's KH0551).\n\nDATING -- 1 JANUARY 1526 CE (MODE A)\n  C1 val=88 -> year offset 1438+88 = 1526 CE.\n  Month 1 = Inti Raymi (June per Inca calendar, or January per translator output).\n  Day 1.\n  Note: The translator output reads 'Inti Raymi, June' for month 1, but presents the date as\n  '1526/01/01 CE'. Inti Raymi is the Inca New Year festival in June; in the Inca calendar month 1\n  starts June. The ISO-date rendering as 01/01 indicates the TRANSLATOR'S default year-start,\n  not the Inca calendar month. Preferred reading: 1 INTI RAYMI (June 21-ish) 1526 CE = NEW YEAR\n  of the Inca year 1526.\n  8 years before Pizarro's 1533-1534 conquest. Late Wayna Qhapaq reign ending the same year 1526\n  (death of Wayna Qhapaq in late 1526 from smallpox pandemic). HP018 may be a NEW-YEAR'S-DAY AUDIT\n  from the final year of Wayna Qhapaq's rule.\n\nASCHER LAYER -- 100 PERCENT AUDIT-GRADE\n  7 pendant-pendant sums declared, ALL 7 VERIFIED = 100 percent integrity.\n  Max cascade depth: 3 (medium Merkle tree).\n  No Pass 3A / 3C / 3D recovery needed.\n  AUDIT-GRADE peer to UR275 (5/5 peanut audit), AS026A (4/4 lineage audit), AS092 (18/18 Gaffron\n  audit), JC011 (5/5 Sector B measurements).\n\nDATA QUALITY (v3)\n  0 STRING cords (ALBA syllabary not applicable).\n  All 24 INT cords dict-stable Locke values.\n  Mode A dating standard.\n\nHP018+HP019+HP020 COMPACT PACHACAMAC TRIO\n  HP018 (THIS, 35 cords, 24 INT, 0 STRING): AUDIT TOTALS + NEW YEAR 1526 CE timestamp.\n  HP019 (22 cords, 7 STRING chiqa x3 + maqa x2 + compounds): ON-SITE VERIFICATION CARD.\n  HP020 (29 cords, 8 STRING qaqa x4 + chiqa + compounds + hapax makimaqa): ROUTE-TRAVERSAL CARD.\n  Consecutive museum numbering + same repository + complementary function (audit + verification +\n  route) = COMPACT PACHACAMAC CADASTRAL DOSSIER triad. HP018 adds the TIME-STAMPED AUDIT layer\n  to HP019's on-site certification + HP020's route structure.\n\nSTRUCTURAL SIGNATURE\n  9 clusters with varied sizes. W(24) dominant channel + MB(7) secondary + minor specialty colours.\n  Top values: documents concentrated around small-to-medium range (sum 434 / 24 INT = 18 per cord).\n  Not audit-tier magnitude (UR273B 977/cord, UR183 818/cord) but also not micro-scale (AS094 1.9/cord).\n  Intermediate administrative scale consistent with a compact New Year's audit aggregating\n  previous-period totals.\n\nHYPOTHESIS\n  HP018 is the AUDIT-TOTALS + NEW-YEAR-TIMESTAMP member of a 3-document compact Pachacamac dossier.\n  Dated 1 Inti Raymi (New Year) 1526 CE -- final year of Wayna Qhapaq's reign (death from smallpox\n  late 1526), 8 years before Spanish conquest. 100 percent Ascher verification (7/7) = audit-grade\n  integrity. 4-color palette + 9 clusters + moderate scale (sum 434) matches compact-audit register\n  function.\n  Companion to HP019 (on-site verification with chiqa x3) + HP020 (route-card with 6 waypoints).\n  The trio provides a complete compact cadastral workflow: AUDIT (HP018) -> ROUTE (HP020) ->\n  VERIFY (HP019), or in reverse VERIFY -> ROUTE -> AUDIT. All 3 at Museo de Sitio de Pachacamac\n  with consecutive catalog numbers, all pre-Conquest documentation of the same Pachacamac site work.",
+
+  "narrative": "One Inti Raymi, fifteen hundred and twenty-six. The Inca New Year. Eight years before Pizarro. Possibly the last New Year of Wayna Qhapaq's reign -- the emperor would die of smallpox in late fifteen twenty-six as the pandemic swept down from the north, triggering the succession crisis that Atahualpa and Huascar would fight out until the Spanish arrived. HP018 tied its cords at that New Year ceremony at Pachacamac.\n\nCord one carries value eighty-eight. One thousand four hundred and thirty-eight plus eighty-eight is one thousand five hundred and twenty-six. The Mode A date frame gives us the year. The translator's default renders it as 'January 1' -- but Inca year month one is Inti Raymi in June. The scribe at Pachacamac tied his New Year audit at the winter solstice ceremony that opened the Inca year.\n\nAnd the arithmetic is impeccable. Seven pendant-pendant sums declared across the thirty-five-cord document, and every one verifies at one hundred percent. Max cascade depth three. Audit-grade integrity on a compact Pachacamac register, peer to UR275's peanut audit (five of five at Incahuasi), AS026A's lineage audit (four of four in Philadelphia, also dated 1 January 1480 CE), AS092's Gaffron audit (eighteen of eighteen at Munich), JC011's Sector B measurements (five of five at Incahuasi).\n\nThirty-five cords. Twenty-four numerical, eleven empty, zero text. Total sum four hundred and thirty-four units. Average eighteen per non-zero cord -- not audit-tier magnitude like UR273B's nine-seventy-seven per cord or UR183's eight-eighteen, but not micro-scale either. Middle administrative scale consistent with a compact New Year audit aggregating the previous period's totals for Pachacamac's precinct.\n\nHP018 rests on the same shelf as HP019 and HP020 at the Museo de Sitio de Pachacamac, all three with consecutive HP catalog numbers. HP018 is the AUDIT TOTALS with the New Year date stamp. HP019 is the on-site verification card with chiqa x3 and the compact 22-cord verification register. HP020 is the route-traversal card with six waypoints, the hapax makimaqa at the destination landmark, and the takiki surveyor's signature.\n\nThe three-document dossier now reads as a complete compact Pachacamac cadastral workflow. At the New Year ceremony of 1526, an administrator at Pachacamac tied HP018 aggregating the previous year's totals for a specific cadastral feature or precinct. HP019 certified on-site (with its chiqa cascade). HP020 documented the traversal route (with its triangulation and surveyor-signature). Three khipus for one administrative procedure, three moments in the workflow, preserved together across catalog numbers five hundred years later.\n\nNone of this relates to the Spanish conquest that was still eight years in the future. The Inca administrator at Pachacamac on June 21-ish of 1526 could not have known that his emperor was about to die, that the succession would fracture, that foreigners would land on the coast seven years later. HP018 is a pre-Conquest administrative snapshot, and its arithmetic still verifies at one hundred percent after five centuries.",
+
+  "attribution": {
+    "prior_work": [
+      {"claim": "Mode A dating (C1 = year offset from 1438, non-round valid range) established across 19+ khipus; 88 = maximum valid offset gives 1526 CE. Inca calendar month 1 = Inti Raymi (June-solstice New Year).",
+       "citation": "Sivan, J. (2026). Dating the Inca Archive -- Modes A/B/C reference framework; Guaman Poma, F. (1615). Nueva Coronica y Buen Gobierno."},
+      {"claim": "Wayna Qhapaq's death from smallpox in late 1526 triggered the Inca succession crisis between Atahualpa and Huascar, which weakened the empire ahead of the 1533-1534 Spanish conquest. HP018's 1526 date places it in the final year of Wayna Qhapaq's reign.",
+       "citation": "Rostworowski, M. (1999). Historia del Tahuantinsuyu; Hemming, J. (1970). The Conquest of the Incas."},
+      {"claim": "HP019 + HP020 at Museo de Sitio de Pachacamac have consecutive catalog numbers and complementary functions (on-site verification + route-traversal). HP018's adjacent HP-catalog number suggests compact-dossier membership.",
+       "citation": "Sivan, J. (2026). Deep reads HP019 + HP020 v3/v4 (Pachacamac compact cadastral companions); Museo de Sitio de Pachacamac catalog."}
+    ],
+    "v3_contribution": [
+      {"claim": "MODE A DATING 1 INTI RAYMI (JUNE) 1526 CE: C1 val=88 -> 1526 CE + month 1 + day 1 = Inca New Year timestamp. 8 years before Spanish conquest. Likely final New Year of Wayna Qhapaq's reign.",
+       "evidence": {"kind": "statistical", "matches": 3, "test": "Mode A C1 non-round year-offset + month + day triple"}},
+      {"claim": "7/7 ASCHER VERIFIED = 100 PERCENT AUDIT-GRADE. Max cascade depth 3 (medium Merkle tree). Peer to UR275 (5/5) + AS026A (4/4) + AS092 (18/18) + JC011 (5/5) as corpus audit-grade documents. HP018 adds the Pachacamac audit member to this elite class.",
+       "evidence": {"kind": "statistical", "matches": 7, "test": "7-of-7 Ascher pendant-pendant sum verification at cascade depth 3"}},
+      {"claim": "HP018+HP019+HP020 COMPACT PACHACAMAC TRIO: consecutive Museo de Sitio de Pachacamac catalog numbers + complementary functions (audit + verification + route). 3-document pre-Conquest cadastral dossier at a single Pachacamac site.",
+       "evidence": {"kind": "physical", "matches": 3, "test": "consecutive HP-catalog numbering + complementary audit/verification/route functions"}},
+      {"claim": "NEW YEAR'S DAY AUDIT CONVENTION (AS026A + HP018): AS026A dated 1 January 1480 CE + HP018 dated 1 Inti Raymi 1526 CE = two audit-grade khipus tied on Inca New Year's Day. Suggests systematic administrative convention of NEW YEAR AUDITS at multiple sites.",
+       "evidence": {"kind": "structural", "matches": 2, "test": "New Year's Day audit-grade khipu coincidence"}},
+      {"claim": "INTERMEDIATE SCALE: sum 434 / 24 INT = 18 per cord average. Mid-tier between audit-magnitude (977 UR273B, 818 UR183, 133 UR182) and micro-scale (1.9 AS094, 0.33 JC014). Consistent with compact aggregate-audit function.",
+       "evidence": {"kind": "statistical", "matches": 1, "test": "per-cord-average intermediate-scale audit signature"}}
+    ]
+  },
+
+  "companions": [
+    {"id": "HP019", "relation": "paired_twin",
+     "note": "PACHACAMAC COMPACT DOSSIER -- on-site verification card (22 cords, chiqa x3 + maqa x2 + compounds). HP018 audit-totals + HP019 verification + HP020 route = 3-document dossier trio.",
+     "evidence": {"kind": "physical", "matches": 3, "test": "consecutive HP-catalog + compact Pachacamac dossier co-function"}},
+    {"id": "HP020", "relation": "paired_twin",
+     "note": "PACHACAMAC COMPACT DOSSIER -- route-traversal card (29 cords, qaqa x4, hapax makimaqa, 6 waypoints + triangulation)."},
+    {"id": "AS026A", "relation": "same_document_type",
+     "note": "Philadelphia lineage audit (77 cords, 4/4 Ascher, 1 JANUARY 1480 CE). Shares NEW YEAR'S DAY AUDIT convention + audit-grade status. AS026A 46 years earlier than HP018."},
+    {"id": "UR275", "relation": "same_document_type",
+     "note": "Incahuasi UE 19 peanut audit (5/5 Ascher, 47-constant). Audit-grade peer. UR275 anchors commodity; HP018 anchors general Pachacamac administration."},
+    {"id": "AS092", "relation": "same_document_type",
+     "note": "Gaffron 10x6 audit matrix (56 cords, 18/18 Ascher = 100 percent, cascade depth 5). Audit-grade peer at same Pachacamac-family provenance. HP018 adds the Museo-de-Sitio branch to the Gaffron-Munich audit tier."},
+    {"id": "JC011", "relation": "same_document_type",
+     "note": "Incahuasi Sector B measurements (5/5 Ascher, 12 colors, 0 STRING). Audit-grade 100-percent peer at different provenance."},
+    {"id": "UR1087", "relation": "same_provenance",
+     "note": "Pachacamac Gaffron admin cadastre (97 cords, kata-thesis, Sept 1461 CE). Pachacamac cadastral peer; HP018 is the compact 1526 audit at the same site 65 years later."},
+    {"id": "UR022", "relation": "cross_khipu_signal",
+     "note": "Leymebamba 1536 astronomical register (peak year offset 98, last dated corpus khipu). HP018 1526 + UR022 1536 = two late-Inca-period dated khipus close in time to the Spanish conquest."}
+  ],
+
+  "confidence_axes": {
+    "word_reading": {"level": "not-applicable", "note": "0 STRING cords. ALBA syllabary does not contribute. Classification rests on Mode A dating + Ascher integrity + compact-trio context."},
+    "document_type": {"level": "high", "note": "administrative_accounting audit-totals sub-type robustly supported by (a) 100-percent Ascher verification, (b) precise Mode A 1526 CE New Year dating, (c) compact-trio function-complementarity with HP019 + HP020, (d) intermediate scale consistent with aggregate-audit function, (e) audit-grade cascade depth 3."},
+    "narrative": {"level": "high", "note": "The 'New Year 1526 audit-totals of a Pachacamac compact dossier' reading is internally coherent and multi-anchored: Mode A dating + 100-percent Ascher + HP019+HP020 companions. The Wayna-Qhapaq-final-year historical context is documented in Hemming/Rostworowski. Specific audited content is inferential from the trio structure."},
+    "data_integrity": {"level": "high", "note": "7/7 Ascher verified = 100 percent. Max cascade depth 3. 31 percent empty structural. Mode A dating unambiguous. KH0550 catalogued. The strongest data-integrity profile among recent Pachacamac deep-reads."}
+  },
+
+  "sections": [
+    {"id": "I", "title": "New Year Date Header", "cords": "1",
+     "reading": "Cord 1 carries the YEAR offset value=88 (1438+88=1526 CE). Mode A dating anchor for the New Year audit.",
+     "key_cords": [
+       {"pos": 1, "gloss": "INT val=88", "note": "YEAR -- 1526 CE via Mode A (C1=88 non-round)"}
+     ]},
+    {"id": "II", "title": "Audit Body + 100-Percent Ascher", "cords": "2-35",
+     "reading": "34 remaining cords carry the audit totals (23 more INT + 11 empty) distributed across 9 clusters. 7 pendant-pendant sums declared + all 7 VERIFIED = AUDIT-GRADE 100 percent integrity at max cascade depth 3.",
+     "key_cords": [
+       {"pos": 35, "gloss": "LAST CORD", "note": "closes the compact audit-totals register"}
+     ]}
+  ],
+
+  "references": [
+    "Sivan, J. (2026). The Khipu as a Layered Information System. ALBA Project preprint.",
+    "Sivan, J. (2026). Ascher Sums as Erasure Codes. ALBA Project preprint.",
+    "Sivan, J. (2026). Dating the Inca Archive -- Mode A 1526 CE.",
+    "Sivan, J. (2026). Deep reads HP019 + HP020 v3/v4 (Pachacamac compact dossier companions).",
+    "Rostworowski, M. (1999). Historia del Tahuantinsuyu -- Wayna Qhapaq reign + 1526 smallpox pandemic.",
+    "Hemming, J. (1970). The Conquest of the Incas.",
+    "Guaman Poma, F. (1615). Nueva Coronica y Buen Gobierno -- Inca calendar months.",
+    "Museo de Sitio de Pachacamac catalog -- HP018, HP019, HP020 consecutive catalog numbering.",
+    "Khipu Field Guide catalog: https://www.khipufieldguide.com/catalog/KH0550.html",
+    "Compare HP019 + HP020 (dossier companions), AS026A (New-Year audit peer, 1480 CE), UR275 + AS092 + JC011 (audit-grade peers), UR1087 (Pachacamac Gaffron admin 1461 CE), UR022 (1536 Leymebamba late-Inca dated)."
+  ],
+
+  "reconstructed_xlsx": null
+}

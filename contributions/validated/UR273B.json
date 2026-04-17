@@ -1,0 +1,127 @@
+{
+  "khipu": "UR273B",
+  "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
+  "date": "2026-04-15",
+  "status": "proposed",
+
+  "document_type_override": "audit_totals",
+  "reader_version": "v3 (merged OKR*KFG + Ascher layer)",
+  "confidence": "medium-high",
+
+  "summary": "UR273B is the AUDIT-TOTALS HALF of the UR273A/B INSEPARABLE COMPOUND DOCUMENT at Incahuasi Sector A Subsector 1 UA 4 Unidad 20N UE 14. 124 cords, 1-PAIRE architecture (schema CALCULATOR), 32 clusters (avg 3.6 cords). CRITICAL FINDING: the INT cords carry HUGE VALUES (top: 3991, 2300, 2142, 1662, 1575, 1370 x2, 1361, 1334, 1332) summing to 29,317 -- radically larger than UR273A's scattered small values (30-891). This confirms the v4-UR273A hypothesis: UR273A holds the sparse EVENT LOG (7/8 cadastral markers compressed p40-p63, scattered small numbers); UR273B holds the AUDIT TOTALS for events logged against UR273A's cadastral identity. KFG twin KH0511 catalogued but PENDANT-PENDANT SUMS PAGE 404 (same as UR273A) -- no Ascher layer. Quality: AGREED=15 + KFG_RESOLVED=17 + OKR_ONLY=92; OKR/KFG agreement 46.9 percent. 3 STRING at 100 percent dict hit: qaqa (p14 W rock landmark) + chiqa (p91 W verification) + taqa (p103 W boundary) = 3 of 8 canonical cadastral markers, DISTRIBUTED ACROSS THE DOCUMENT rather than compressed (UR273A compresses 7/8 into 23 cord-positions; UR273B spreads 3/8 across 103 cord-positions). Mode B checkbox dating: month 2 (July, Chahua Huarquiz). 73 percent empty cords (91/124). 5 colors: W(53 43%) + NB(34 27%) + AB(17 14%) + KB(8) + other minor. Same OKR physical note as UR273A: 'Two khipus tied to each other by cords on both primary cords' -- STRONGEST DUAL-BINDING in the Incahuasi set, cord 1 = SINGLE COMPOUND CORD shared with UR273A.",
+
+  "interpretation": "IDENTIFICATION\n  124 cords. 30 INT, 3 STRING (100 percent dict), 91 EMPTY (73 percent).\n  Architecture: 1-PAIRE, schema CALCULATOR (depth L2 available but 114 L1 + 0 L2 in practice).\n  32 clusters, avg 3.6 cords, range 1-7.\n  Colors: W(53, 43%), NB(34, 27%), AB(17, 14%), KB(8), 0G(3), 0B(2), MB(2), ?(5).\n  Provenance: Sector A Subsector 1 UA 4 Unidad 20N UE 14 -- SAME UE as UR273A.\n  Museum: Proyecto Incahuasi.\n  OKR note: 'See notes on UR273A' = physically joined to UR273A.\n  Date: MODE B checkbox -- month 2 tick = July (Chahua Huarquiz, Inca calendar month 1 = June).\n\nDATA QUALITY (v3)\n  KFG twin KH0511 catalogued; pendant-pendant sums page returns 404 (NO ASCHER LAYER -- same as UR273A).\n  Quality distribution: AGREED=15 + KFG_RESOLVED=17 + OKR_ONLY=92 = 124 total.\n  OKR/KFG agreement 46.9 percent.\n  v1 -> v3: 17 L? cords resolved via KFG.\n\nASCHER LAYER\n  NOT APPLICABLE. KFG pendant-pendant sum page 404 for KH0511.\n  0 Ascher sums. No Pass 3A/3C/3D possible.\n  Consistent with the audit-totals function: the totals THEMSELVES are the verification; they do\n  not require additional pendant-pendant checksum structure.\n\nVOCABULARY (3 STRING, 100 percent dict hit)\n  qaqa  x1 (p14 W)  -- ROCK / LANDMARK\n  chiqa x1 (p91 W)  -- TRUTH / VERIFICATION\n  taqa  x1 (p103 W) -- BOUNDARY\n  3 of 8 canonical cadastral markers, DISTRIBUTED ACROSS the document (p14 opening, p91 middle,\n  p103 late) rather than COMPRESSED into a single block (as UR273A does at p40-p63).\n  Opening -> middle -> late cadastral anchors = scaffolding for the audit totals.\n\nINT VALUES -- HUGE AUDIT TOTALS\n  Top 10 INT (all W): 3991, 2300, 2142, 1662, 1575, 1370 x2, 1361, 1334, 1332.\n  Total sum across 30 INT: 29,317.\n  MEAN per filled cord: 29,317 / 30 = 977.\n  Order of magnitude: 100-1000x UR273A's scattered values (30-891).\n  Signature: AUDIT-SCALE TOTALS -- the quantitative complement to UR273A's small-event register.\n\nDUAL-BINDING\n  UR273A and UR273B are tied at BOTH PRIMARY CORDS by KB + NB-W double-wrap with shared subsidiary\n  (OKR). Cord 1 of each khipu IS a single compound cord.\n  This is the STRONGEST physical binding in the Incahuasi set -- stronger than UR267A/B (beginning\n  only) or UR255/256.\n\nHYPOTHESIS\n  UR273B is the AUDIT TOTALS counterpart to UR273A's sparse event log. The v4-UR273A deep-read\n  proposed: 'UR273A holds the sparse event log; UR273B likely carries the audit totals for events\n  logged against the cadastral identity established at p40-p63.' This hypothesis is CONFIRMED by the\n  UR273B structural signature: 30 INT cords with values 100-1000x larger than UR273A's small\n  scattered numbers, summing to 29,317 across a 73 percent empty register. The 3 cadastral markers\n  (qaqa + chiqa + taqa) distributed across the document provide scaffolding anchors tying the\n  audit totals to UR273A's compressed cadastral identity block.\n  UR273A is the transaction-level detail; UR273B is the summary. Together they form the Incahuasi\n  UE 14 COMPOUND LEDGER for July of an unspecified Inca year.\n\nCOLOR ROLE MAP\n  W (53, 43%)  = PRIMARY AUDIT CHANNEL -- carries ALL 3 STRING cords + ALL largest INT totals.\n  NB (34, 27%) = STRUCTURAL CHANNEL (complementary to UR273A's NB-dominant structural signature).\n  AB (17, 14%) = SECONDARY DATA.\n  KB (8),  0G (3), 0B (2), MB (2) = minor.\n\nKEY PASSAGES\n  p1: SHARED COMPOUND CORD with UR273A (KB + NB-W double-wrap).\n  p2: W INT=3991 = HIGHEST AUDIT TOTAL in the document.\n  p14: W qaqa = first cadastral anchor (rock landmark).\n  p91: W chiqa = mid-document verification anchor.\n  p103: W taqa = late-document boundary anchor.\n  Mode B month-2 tick cord: July (Chahua Huarquiz).",
+
+  "narrative": "Three thousand nine hundred and ninety-one. That is the first non-zero number in UR273B, at cord two, on white. The largest total in the document. In the compound khipu UR273A-plus-UR273B, where cord one is a single shared compound cord physically binding both documents at both ends, UR273B opens with its loudest number.\n\nThirty numerical cords carry the audit. Three thousand nine hundred and ninety-one, two thousand three hundred, two thousand one hundred and forty-two, one thousand six hundred and sixty-two, one thousand five hundred and seventy-five, one thousand three hundred and seventy twice, one thousand three hundred and sixty-one, one thousand three hundred and thirty-four, one thousand three hundred and thirty-two. Each total on white thread, each at an order of magnitude that UR273A never approached. UR273A's scattered values topped out at eight hundred and ninety-one; UR273B's smallest top-ten total is one thousand three hundred and thirty-two. The same kind of register would not produce this gap. UR273B is a different KIND of document.\n\nUR273A compressed the complete parcel-naming formula into twenty-three cord positions at its centre -- waqa, qaqa, chaqa, kaqa, chiqa, taqa, paqa -- seven of the eight canonical cadastral markers stacked at three-cord cadence. UR273B does something different. Three cadastral markers only -- qaqa at cord fourteen, chiqa at cord ninety-one, taqa at cord one hundred and three. SPREAD across the whole document. Opening, middle, late. Scaffolding anchors rather than a compressed identity block. The document is not naming the parcel; it is counting what the parcel produced.\n\nAnd the Mode B tick -- a single cord at position two of the first twelve L1 positions carrying value ten -- dates the audit to month two of the Inca calendar. Inca month one is June. Month two is July. Chahua Huarquiz. The July audit.\n\nSeventy-three percent of UR273B is empty. Ninety-one cords of one hundred and twenty-four carry no knots. This is a PRE-FORMATTED audit sheet with thirty filled totals, three lexical anchors, and ninety-one prepared-but-unused positions. Like UR192 at Huaca Perez, like UR273A at fifty-four and seventy-four percent respectively. A register that accepted some entries and left the rest blank until the next reporting cycle.\n\nThe KFG catalog did not publish a pendant-pendant sums page for KH0511. Same silence as for UR273A. The two khipus together reach the limit of the Ascher framework; their arithmetic verification, if it ever existed, did not survive into the digital indexes. What remains is the compound physical object: two khipus tied at both primary cords by a KB cord and a NB-W cord wrapping both primaries with a shared subsidiary. Cord one of UR273A is cord one of UR273B. They cannot be separated without cutting the binding.\n\nAnd what UR273B says to UR273A, cord by cord, is this: you named the parcel -- I counted the delivery. You wrote waqa and qaqa and chaqa and kaqa and chiqa and taqa and paqa into your twenty-three-cord central block; I wrote three thousand nine hundred and ninety-one into my second cord. The parcel was. The tribute came. July. The Incahuasi UE 14 compound ledger for one named Inca year, paired and bound and half-used, preserved together in the storeroom at Sector A Subsector 1 for five centuries until the excavation notebook entry marked 2014.",
+
+  "attribution": {
+    "prior_work": [
+      {"claim": "UR273A + UR273B constitute a dual-bound inseparable compound khipu at Incahuasi Sector A UE 14, tied at BOTH primary cords by KB + NB-W wraps with shared subsidiary -- strongest dual binding in the Incahuasi excavation.",
+       "citation": "Urton, G. and Chu, A. (2015). Accounting in the King's Storehouse: the Inkawasi Khipu Archive. LAQ 26(4); OKR cord-note for UR273A."},
+      {"claim": "Chu excavation records place UR273A + UR273B in Sector A Subsector 1 UA 4 Unidad 20N UE 14 -- the main Incahuasi archive block, adjacent to UR266, UR270, UR278, UR268, UR272, UR275, UR277 at the same storeroom complex.",
+       "citation": "Chu, A. (2013+). Proyecto Arqueologico Incahuasi excavation reports."},
+      {"claim": "Canonical Andean cadastral vocabulary (waqa, qaqa, chaqa, kaqa, chiqa, taqa, paqa, siqa) marks parcel-naming registers across the OKR cadastral sub-corpus; UR273A compresses 7/8 markers at p40-p63.",
+       "citation": "Sivan, J. (2026). Cadastral vocabulary corpus analysis; Gonzalez Holguin, D. (1608). Vocabulario."}
+    ],
+    "v3_contribution": [
+      {"claim": "UR273A/B PAIRED-DOCUMENT HYPOTHESIS CONFIRMED: the v4-UR273A deep-read predicted that UR273B would carry 'the audit totals for events logged against the cadastral identity established at p40-p63.' UR273B's 30 INT cords summing to 29,317 with top values 3991 / 2300 / 2142 / 1662 -- 100-1000x UR273A's small scattered values -- confirm the audit-totals function.",
+       "evidence": {"kind": "statistical", "matches": 10, "test": "top-10 INT value comparison UR273A vs UR273B (factor 100-1000x)"}},
+      {"claim": "DISTRIBUTED-vs-COMPRESSED CADASTRAL SCAFFOLDING: UR273A compresses 7/8 cadastral markers into 23 cord-positions (p40-p63, 3-cord cadence); UR273B spreads 3/8 markers across 103 cord-positions (qaqa p14, chiqa p91, taqa p103). Opening-middle-late scaffolding anchors tying the audit totals to UR273A's compressed identity block.",
+       "evidence": {"kind": "structural", "matches": 3, "test": "cadastral-marker positional distribution UR273A vs UR273B"}},
+      {"claim": "MODE B MONTH 2 DATING: single tick cord at position 2 of first 12 L1 cords = July (Chahua Huarquiz, Inca calendar month 1 = June). The July audit of an unspecified Inca year.",
+       "evidence": {"kind": "statistical", "matches": 1, "test": "Mode B checkbox month-2 tick"}},
+      {"claim": "AUDIT-TOTALS SUB-TYPE IDENTIFIED: 3-STRING cadastral-anchor + 30 huge-INT totals + 73 percent empty = AUDIT TOTALS document class. Distinct from day-book (UR270, UR267A), audit-integrity (UR267B, UR256, UR275), and district-summary (UR268) sub-types of commodity_accounting. UR273B is the first documented audit-TOTALS exemplar in the analysed Incahuasi corpus.",
+       "evidence": {"kind": "structural", "matches": 4, "test": "audit-totals signature vs other commodity sub-types"}},
+      {"claim": "NO ASCHER LAYER on KH0511 (pendant-pendant sums page 404) parallels UR273A's missing Ascher layer. The compound-document pair sits outside the KFG arithmetic-catalog framework despite both documents being KFG-catalogued at knot-level. Joint silence = structural feature of the event-log + audit-totals pair.",
+       "evidence": {"kind": "physical", "matches": 2, "test": "KFG pendant-pendant sums 404 on both KH0510 and KH0511"}}
+    ]
+  },
+
+  "companions": [
+    {"id": "UR273A", "relation": "paired_twin",
+     "note": "PHYSICALLY INSEPARABLE COMPOUND DOCUMENT. UR273A (87 cords, 74 percent empty, 7/8 cadastral markers compressed p40-p63, scattered small INT) + UR273B (this document, 124 cords, 73 percent empty, 3/8 markers distributed, 30 huge INT audit totals sum=29,317). Cord 1 of each IS a single shared compound cord. UR273A = event log; UR273B = audit totals.",
+     "evidence": {"kind": "physical", "matches": 2, "test": "OKR both-ends KB + NB-W double-wrap binding"}},
+    {"id": "UR266", "relation": "same_document_type",
+     "note": "UE 12 cross-khipu audit of UR278 (peanut recap, 40-cord row-totals null p<1e-5). UR266 and UR273B are both AUDIT-tier documents but at different scopes: UR266 recaps another whole khipu; UR273B totals its compound partner's events."},
+    {"id": "UR267B", "relation": "same_document_type",
+     "note": "UE 16 aji tier-2 AUDIT (8/10 Ascher verified, chiqa-chiqa doubled seal, 10-constant). Both audit-function but UR267B has arithmetic-verification-grade Ascher layer while UR273B lacks it (KFG 404)."},
+    {"id": "UR275", "relation": "same_document_type",
+     "note": "UE 19 peanut audit (47-constant, 5/5 Ascher verified). Cadastral-anchored audit parallel. UR275 uses paqa-taqa-kaqa anchoring similar to UR273B's qaqa-chiqa-taqa but with Ascher verification."},
+    {"id": "UR270", "relation": "same_provenance",
+     "note": "UE 1 'Quipu del Mani' peanut tier-1 day-book. Same site + adjacent UE. Day-book counterpart to UR273A/B's event-log + audit-totals pair."},
+    {"id": "UR268", "relation": "same_provenance",
+     "note": "UE 18 peanut tier-3 district summary (presentation binding + red tassel). Different tier; same archival complex."},
+    {"id": "UR278", "relation": "same_provenance",
+     "note": "UE 16 commodity production register (26x9 matrix)."},
+    {"id": "UR192", "relation": "cross_khipu_signal",
+     "note": "Huaca Perez tambo accounting (70 cords, 54 percent empty, 0 STRING). UR273B's 73 percent empty + 3 STRING = higher-empty-rate + low-lexical-density variant of the pre-formatted administrative-register convention."}
+  ],
+
+  "confidence_axes": {
+    "word_reading": {
+      "level": "high",
+      "note": "3/3 STRING at 100 percent dict hit. qaqa, chiqa, taqa all dictionary-stable core cadastral markers."
+    },
+    "document_type": {
+      "level": "medium-high",
+      "note": "audit_totals sub-type supported by (a) huge INT values 100-1000x UR273A's scattered numbers, (b) 3-cadastral-marker scaffolding distributed across the document, (c) Mode B July dating anchor, (d) physical dual-binding with UR273A establishing complement-function. New sub-type; not cross-validated against another audit-totals-only exemplar."
+    },
+    "narrative": {
+      "level": "medium-high",
+      "note": "The 'July audit totals for UR273A's event log' reading is internally coherent and directly anchored on (a) huge-INT signature vs UR273A's small-INT signature, (b) distributed cadastral scaffolding as audit anchors vs UR273A's compressed cadastral identity block, (c) physical dual-binding establishing the pair as a single ledger. Confirms v4-UR273A hypothesis."
+    },
+    "data_integrity": {
+      "level": "medium",
+      "note": "NO ASCHER LAYER (KH0511 pendant-pendant sums page 404). OKR/KFG agreement 46.9 percent -- moderate but not DIVERGENT-flagged. 17 L? cords resolved via KFG merge. The arithmetic verification that an audit document normally carries is not available; the totals themselves must be trusted on the basis of the paired-document context."
+    }
+  },
+
+  "sections": [
+    {"id": "I", "title": "Opening -- Shared Cord + First Audit Total", "cords": "1-13",
+     "reading": "Cord 1 = SHARED COMPOUND CORD with UR273A (KB + NB-W double-wrap binding at both primary cords). Cord 2 W INT=3991 = HIGHEST AUDIT TOTAL of the document. Opening establishes the dual-binding + first large total.",
+     "key_cords": [
+       {"pos": 1, "gloss": "shared compound cord", "note": "DUAL-BINDING with UR273A via KB + NB-W double-wrap"},
+       {"pos": 2, "gloss": "W INT=3991",           "note": "HIGHEST AUDIT TOTAL in the document (first non-zero entry)"}
+     ]},
+    {"id": "II", "title": "First Cadastral Anchor", "cords": "14",
+     "reading": "p14 W qaqa = ROCK LANDMARK -- first of 3 distributed cadastral scaffolding anchors. Ties the audit totals to UR273A's compressed parcel-identity block (which opens on waqa at p40).",
+     "key_cords": [
+       {"pos": 14, "gloss": "W qaqa", "note": "FIRST CADASTRAL ANCHOR -- rock landmark"}
+     ]},
+    {"id": "III", "title": "Main Audit-Totals Block", "cords": "15-90",
+     "reading": "Body of the audit. 28 remaining INT cords on W carry the July totals. Top values 2300, 2142, 1662, 1575, 1370 x2, 1361, 1334, 1332 distributed across the block. Bulk of the 29,317 document-total sum lies here.",
+     "key_cords": [
+       {"pos": 8,   "gloss": "W INT=2300",  "note": "2nd largest total"},
+       {"pos": 20,  "gloss": "W INT=2142",  "note": "3rd largest total"},
+       {"pos": 52,  "gloss": "W INT=1334",  "note": "mid-block audit entry"},
+       {"pos": 82,  "gloss": "W INT=1575",  "note": "late-block audit entry"}
+     ]},
+    {"id": "IV", "title": "Mid-Document Verification Anchor", "cords": "91",
+     "reading": "p91 W chiqa = VERIFICATION / TRUTH. Second of 3 cadastral scaffolding anchors. Certifies the audit at the 75 percent point of the document.",
+     "key_cords": [
+       {"pos": 91, "gloss": "W chiqa", "note": "MID-DOCUMENT VERIFICATION anchor"}
+     ]},
+    {"id": "V", "title": "Late Boundary Anchor + Closing", "cords": "92-124",
+     "reading": "p101 W INT=1662 is the largest late-block total. p103 W taqa = BOUNDARY (3rd and final cadastral anchor). Remaining cords tail off into the 73 percent empty prepared-but-unused positions.",
+     "key_cords": [
+       {"pos": 101, "gloss": "W INT=1662", "note": "largest late-block total"},
+       {"pos": 103, "gloss": "W taqa",     "note": "CLOSING CADASTRAL ANCHOR -- boundary"},
+       {"pos": 124, "gloss": "LAST CORD",  "note": "closes the compound ledger's audit half"}
+     ]}
+  ],
+
+  "references": [
+    "Sivan, J. (2026). The Khipu as a Layered Information System. ALBA Project preprint.",
+    "Sivan, J. (2026). Deep read UR273A v3 (event-log half of the UR273A/B compound document).",
+    "Sivan, J. (2026). Dating the Inca Archive -- Mode B checkbox convention.",
+    "Urton, G. and Chu, A. (2015). Accounting in the King's Storehouse: the Inkawasi Khipu Archive. LAQ 26(4).",
+    "Chu, A. (2013+). Proyecto Arqueologico Incahuasi excavation reports, Sector A UE 14.",
+    "OKR notes on UR273B: 'Sector A, Subsector 1, CA ___, UA 4, Unidad 20N, UE 14. See notes on UR273A.'",
+    "OKR notes on UR273A (inherited): 'Two Khipus tied to each other by cords on both primary cords. Both Beginnings tied by KB cord + NB-W cord across both PCs.'",
+    "Khipu Field Guide catalog: https://www.khipufieldguide.com/catalog/KH0511.html (pendant-pendant sums page 404).",
+    "Gonzalez Holguin, D. (1608). Vocabulario -- qaqa, chiqa, taqa base glosses.",
+    "Compare UR273A (paired event-log half), UR266 (UE 12 cross-khipu peanut audit), UR267B + UR275 (Incahuasi audit-tier with Ascher), UR270 + UR268 (day-book + district-summary tiers), UR278 (UE 16 commodity matrix), UR192 (pre-formatted register convention)."
+  ],
+
+  "reconstructed_xlsx": null
+}

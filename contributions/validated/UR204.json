@@ -1,16 +1,108 @@
 {
   "khipu": "UR204",
   "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
-  "date": "2026-04-01",
+  "date": "2026-04-15",
   "status": "proposed",
+
+  "document_type_override": "census_register",
+  "reader_version": "v3 (merged OKR*KFG + Ascher layer)",
   "confidence": "medium",
-  "summary": "Census register from an unknown site — a cadastral census counting individuals by geographic zone. 79 cords, 9 STRING (11%, 89% hits), 56 INT, 14 EMPTY. Architecture 2+-ARBRE, depth L3, 16 clusters. 5+ colors: W(17), AB(15), MB(12), KB(10), G0(8). Vocabulary (onset-corrected): kiki x2-3 (self, from chiki/chi), chiqa x1 (truth), qaqa x1 + qaqaqa x1 (rock + rock-TOPIC), taqa x1 (boundary), kaqa x1 (wall-AY), mama x1 (mother/Moon). kiki (self) dominant + qaqa + kaqa + taqa + chiqa = cadastral census like UR037. mama x1 in cadastral context = mother (lineage). qaqaqa = qaqa+qa (rock-TOPIC) = compound form like UR120's doubled forms.",
-  "interpretation": "IDENTIFICATION\n  79 cords. 9 STRING (11%, 89% hits), 56 INT, 14 EMPTY.\n  Architecture: 2+-ARBRE, depth L3. 16 clusters.\n  Colors: W(17), AB(15), MB(12), KB(10), G0(8) — 5+ colors.\n  Provenance: Unknown. Museum: Ethnologisches Museum, Berlin.\n\nVOCABULARY (onset-corrected)\n  kiki x2-3 (self/individual, from chiki/chi → kiki) — the counted person, DOMINANT\n  chiqa x1 (truth) — verification\n  qaqa x1 (rock/mountain) — geographic\n  qaqaqa x1 (rock-TOPIC = qaqa+qa compound) — geographic, topicalized\n  taqa x1 (boundary) — geographic\n  kaqa x1 (wall, Aymara) — geographic\n  mama x1 (mother/lineage) — kinship, not astronomical in this context\n\nCLASSIFICATION\n  kiki (self) dominant + qaqa + kaqa + taqa + chiqa = pure CADASTRAL CENSUS — the same signature as UR037 (Museo Amano). mama x1 in cadastral context = mother/lineage (not Moon). The tree architecture (2+-ARBRE, L3) distinguishes this from UR037's flat paired structure.\n\nMORPHOLOGY\n  qaqaqa = qaqa + qa (rock + TOPIC marker) — a compound form. Similar doubled/extended forms appear in UR120. The topic marker signals that the rock formation is the subject of administrative discussion.\n\nCROSS-CORPUS\n  UR204 vs UR037 (Museo Amano): Same vocabulary (kiki, qaqa, taqa, kaqa, chiqa). UR037 has 171 cords and flat structure; UR204 has 79 cords and tree structure (L3). Both count individuals by geographic zone. UR204 is smaller but deeper.\n  UR204 vs UR120: Both contain extended/doubled forms (qaqaqa in UR204, doubled vocabulary in UR120).\n\nNARRATIVE\n  Self. That is the dominant word — *kiki*, the individual counted for the census, appearing two or three times in nine words of text. The rest is pure cadastral: rocks (*qaqa*), walls (*kaqa*), boundaries (*taqa*), truth (*chiqa*). A census register from an unknown site, held in Berlin, counting individuals by geographic zone — the same format as UR037 from the Museo Amano in Lima, but smaller and with a tree structure three levels deep.\n\n  One word stands apart from the standard cadastral set: *mama* — mother, lineage. In an astronomical khipu this would mean the Moon. Here, surrounded by rocks and walls and boundaries, it means the maternal line — the kinship axis along which the census is organized. And one compound: *qaqaqa*, rock topicalized, the mountain that is the subject of administrative record. Not just a rock. The rock that matters.",
-  "references": [
-    "Sivan 2026, ALBA Project — Census register analysis, onset correction chiki→kiki",
-    "Ethnologisches Museum, Berlin",
-    "Cross-corpus: UR037 (cadastral census, Museo Amano, kiki x11), UR120 (doubled forms)"
+
+  "summary": "UR204 is a DEEP-TREE CADASTRAL CENSUS -- a smaller tree-structured companion to UR037's flat large-scale census. 79 cords, 2+-ARBRE architecture depth L3 (more subsidiary levels than UR037's L1 flat structure), 16 clusters, 5+ colors W(17 22%) + AB(15 19%) + MB(12 15%) + KB(10 13%) + G0(8 10%). 9 STRING at 89 percent dict hit AFTER chi->ki onset correction. VOCABULARY: kiki x2-3 (SELF / individual worker, from chiki / chi base) = dominant census-identity marker, chiqa x1 (VERIFICATION), qaqa x1 + qaqaqa x1 (ROCK + ROCK-TOPIC compound) = geographic landmarks, taqa x1 (BOUNDARY), kaqa x1 (WALL Aymara), mama x1 (MOTHER / lineage in cadastral context, NOT astronomical). Same CENSUS SIGNATURE as UR037 (Museo Amano): kiki-dominant + qaqa + kaqa + taqa + chiqa. DIFFERENTIATING FEATURES: (1) TREE ARCHITECTURE 2+-ARBRE depth L3 vs UR037's flat 1-PAIRE; (2) COMPOUND FORM qaqaqa (rock-TOPIC) similar to UR120's reduplicated convention and UR181's Wari-period ritual escalation; (3) 89 percent vs 100 percent dict hit -- the compound forms lower the raw rate. Ethnologisches Museum, Berlin. Provenance UNKNOWN but same museum as UR198 (Santa Clara Nazca census 3-color reference model) and UR196 (Pachacamac verification).",
+
+  "interpretation": "IDENTIFICATION\n  79 cords. 9 STRING (11 percent, 89 percent dict hit post-correction), 56 INT, 14 EMPTY.\n  Architecture: 2+-ARBRE, depth L3. 16 clusters.\n  Colors: W(17, 22%), AB(15, 19%), MB(12, 15%), KB(10, 13%), G0(8, 10%). 5+ colors.\n  Provenance: UNKNOWN. Museum: Ethnologisches Museum, Berlin.\n\nCHI->KI ONSET CORRECTION\n  Translator shows chiki x2-3 + chi. Applying the onset rule: base kiki ('self') IS dictionary.\n  Therefore chiki x2-3 = kiki (self / individual worker). chi = ki (possessive / abbreviated).\n  Post-correction dict hit rises from ~78 percent to 89 percent.\n\nVOCABULARY (9 STRING, 89 percent dict hit post-correction)\n  kiki   x2-3 -- SELF / INDIVIDUAL WORKER (census identity marker)\n  chiqa  x1   -- TRUTH / VERIFICATION\n  qaqa   x1   -- ROCK / mountain (geographic)\n  qaqaqa x1   -- ROCK-TOPIC (qaqa + qa topicaliser, compound form)\n  taqa   x1   -- BOUNDARY\n  kaqa   x1   -- WALL (Aymara)\n  mama   x1   -- MOTHER / LINEAGE (cadastral context, NOT astronomical Moon)\n\nCENSUS SIGNATURE + DIFFERENTIATION FROM UR037\n  SAME CENSUS SIGNATURE: kiki-dominant + qaqa + kaqa + taqa + chiqa (canonical census vocabulary).\n  DIFFERENTIATING FEATURES:\n    1. TREE ARCHITECTURE 2+-ARBRE L3 (vs UR037 flat 1-PAIRE L1).\n    2. COMPOUND qaqaqa (rock-TOPIC) similar to UR120 reduplication and UR181 ritual escalation.\n    3. 79 cords (smaller than UR037's 171).\n    4. 89 percent dict hit (vs UR037 100 percent) -- lower rate due to compound forms.\n  UR204 = TREE-STRUCTURED CADASTRAL CENSUS. UR037 = FLAT LARGE-SCALE CADASTRAL CENSUS.\n\nMAMA-IN-CADASTRAL-CONTEXT POLYSEMY\n  mama x1 in UR204 = MOTHER / LINEAGE (the maternal line by which census-membership flows), NOT\n  astronomical Moon. The sky/ground polysemy suppression rule applies cleanly: the surrounding\n  vocabulary (qaqa, kaqa, taqa, chiqa) is all cadastral; no supporting astronomical markers fire;\n  mama defaults to the GROUND (maternal-lineage) register.\n\nQAQAQA COMPOUND FORM\n  qaqaqa = qaqa + qa (rock + TOPIC marker) = 'THE ROCK' (topicalised). The same compound appears\n  on AS090 (Gaffron paradigmatic legal register) and cognates appear in UR120 (Huacho reduplicated\n  formal register) and UR181 (Cajamarquilla Wari-period ritual escalation). UR204 sits in the\n  reduplication-aware sub-class of administrative khipus.",
+
+  "narrative": "Self. That is the dominant word -- kiki, the individual counted for the census, appearing two or three times in nine words of text. After the chi-to-ki onset correction is applied -- the standard ALBA convention where base kiki sits in the dictionary -- the surface chiki forms resolve to the census-identity marker that UR037 and UR177 also deploy.\n\nThe rest is pure cadastral. Rocks: qaqa. Walls: kaqa, the Aymara word. Boundaries: taqa. Truth: chiqa. A census register from an unknown site, held in Berlin, counting individuals by geographic zone -- the same format as UR037 from the Museo Amano in Lima, but smaller and with a tree structure three levels deep.\n\nOne word stands apart from the standard cadastral set: mama. Mother. In an astronomical khipu this would mean the Moon. Here, surrounded by rocks and walls and boundaries, with no kaki or kama or maqa or any other astronomical marker to support a sky reading, mama defaults to the GROUND register. The maternal line. The kinship axis along which the census is organised -- your mother's ayllu determines your labour obligation, as UR177 at Chuquitanta makes explicit with its mama-value-ten lineage cord.\n\nAnd one compound form: qaqaqa. Rock topicalised, the mountain that is the subject of administrative record. Not just a rock. THE rock that matters. The same compound appears on AS090 at the Gaffron legal register, on UR120 at Huacho with its systematic doubling, and as a root at UR181 Cajamarquilla where the rock-chant escalates five syllables deep. UR204 sits in this reduplication-aware sub-class.\n\nThe tree descends three levels. Sixteen clusters organise the counted selves. Fifty-six numerical cords carry the quantities. Fourteen empty cords segment the zones. At the Ethnologisches Museum in Berlin, UR204 rests on the same institutional shelf as UR198 -- the Santa Clara Nazca 3-color census reference model -- and UR196, the Pachacamac verification register. Three census or cadastral documents at one Berlin institution, each using a different structural strategy: UR198 with 3 colours as 3 dimensions, UR196 with chiqa verification cascade, UR204 with tree depth + topicalised compounds. Same administrative function, three different scribal solutions.",
+
+  "attribution": {
+    "prior_work": [
+      {"claim": "UR037 (Museo Amano Lima, 171 cords, kiki x11 + paradigmatic 3-case header) is the canonical flat-structure census-register exemplar in the analysed corpus; it establishes the kiki-dominant + cadastral-vocabulary signature against which UR204 can be compared.",
+       "citation": "Sivan, J. (2026). Deep read UR037 -- cadastral census canonical exemplar."},
+      {"claim": "Rostworowski 1999 documents the Inca ayllu system's maternal-filiation rule: census membership and labor obligation flow through the mother's line; mama in administrative context refers to this lineage axis.",
+       "citation": "Rostworowski, M. (1999). Historia del Tahuantinsuyu; Zuidema, R. T. (1977). The Inca kinship system."},
+      {"claim": "The chi->ki onset correction is an ALBA syllabary convention for interpreting chi-initial surface forms whose ki-initial base form is in the dictionary; the correction is applied corpus-wide.",
+       "citation": "Sivan, J. (2026). ALBA syllabary v3 onset conventions."}
+    ],
+    "v3_contribution": [
+      {"claim": "TREE-STRUCTURED CADASTRAL CENSUS: UR204 exhibits the canonical kiki + qaqa + kaqa + taqa + chiqa census signature but in 2+-ARBRE depth L3 architecture vs UR037's flat 1-PAIRE L1. Distinct sub-type within the census-register document class.",
+       "evidence": {"kind": "structural", "matches": 5, "test": "census-signature preservation + tree-depth differentiation from UR037"}},
+      {"claim": "MAMA-IN-CADASTRAL-CONTEXT POLYSEMY: mama x1 without astronomical supporting markers reads as MATERNAL LINEAGE, not Moon. The sky/ground suppression rule fires cleanly in an administrative context. Parallels UR177's mama-lineage cord at Chuquitanta.",
+       "evidence": {"kind": "structural", "matches": 1, "test": "mama sky/ground polysemy suppression in cadastral context"}},
+      {"claim": "QAQAQA TOPICALISED COMPOUND: rock + TOPIC marker placing the mountain as subject of administrative discourse. Same compound attested on AS090 + cognates on UR120 + root-escalation on UR181. UR204 participates in the reduplication-aware sub-class of administrative khipus.",
+       "evidence": {"kind": "structural", "matches": 1, "test": "qaqaqa compound form cross-khipu cognate trace"}},
+      {"claim": "CHI->KI ONSET CORRECTION raises dict hit from 78 percent to 89 percent. The correction resolves chiki x2-3 as kiki (census-identity). Principled and reproducible; paralleled across UR037 + UR177 + HP051 + UR198.",
+       "evidence": {"kind": "structural", "matches": 3, "test": "chi->ki correction applied to chiki readings"}},
+      {"claim": "BERLIN CENSUS-CADASTRAL TRIO IDENTIFIED: UR196 (Pachacamac verification) + UR198 (Santa Clara Nazca census reference model) + UR204 (tree-structured census) all at Ethnologisches Museum Berlin. Three different structural strategies for administrative documentation at one institution.",
+       "evidence": {"kind": "physical", "matches": 3, "test": "Berlin museum 3-document census-cadastral cluster"}}
+    ]
+  },
+
+  "companions": [
+    {"id": "UR037", "relation": "same_document_type",
+     "note": "CANONICAL CENSUS EXEMPLAR -- Museo Amano Lima (171 cords, flat 1-PAIRE, kiki x11, colour-as-value encoding). UR204 is the TREE-STRUCTURED sibling to UR037's FLAT large-scale census. Same signature, different architecture.",
+     "evidence": {"kind": "structural", "matches": 5, "test": "kiki + qaqa + kaqa + taqa + chiqa signature match"}},
+    {"id": "UR120", "relation": "cross_khipu_signal",
+     "note": "Huacho reduplicated formal register. UR204's qaqaqa topicalised compound is a smaller cousin of UR120's systematic doubling. Both participate in the reduplication-aware administrative sub-class."},
+    {"id": "UR181", "relation": "cross_khipu_signal",
+     "note": "Cajamarquilla Wari-period ritual escalation (qaqa -> qaqaqaqaqa 5-fold stack). UR204's qaqaqa is the Inca-period compact form of the same root-escalation convention; UR181 is the pre-Inca extreme."},
+    {"id": "AS090", "relation": "cross_khipu_signal",
+     "note": "Gaffron paradigmatic legal register (qaqa+qa cognates). UR204's qaqaqa + AS090's qaqa-qa compounds participate in the same topicalised-compound convention."},
+    {"id": "UR177", "relation": "cross_khipu_signal",
+     "note": "Chuquitanta workshop register (maki + kiki + kaki + mama-lineage cord). UR177's mama-value-10 lineage cord validates UR204's mama-in-cadastral-context = maternal-lineage reading."},
+    {"id": "UR198", "relation": "same_provenance",
+     "note": "BERLIN MUSEUM CENSUS: Santa Clara Nazca 3-color census (369 cords, reference model for multi-color encoding). UR198 + UR204 = two different Berlin-museum census architectures (3-color flat vs tree-structured)."},
+    {"id": "UR196", "relation": "same_provenance",
+     "note": "BERLIN MUSEUM VERIFICATION: Pachacamac cadastral verification register (chiqa x6 corpus record). Shared museum. UR204 + UR196 + UR198 = Berlin museum census-cadastral trio."},
+    {"id": "AS026B", "relation": "same_document_type",
+     "note": "Lineage register (14 kaka uncles + binary checklist). Different lineage-axis convention (paternal-uncle vs maternal-mother). UR204 mama + AS026B kaka = two census-kinship-axis conventions."}
   ],
-  "reconstructed_xlsx": null,
-  "document_type_override": "census_register"
+
+  "confidence_axes": {
+    "word_reading": {
+      "level": "medium-high",
+      "note": "9 STRING at 89 percent dict hit post chi->ki correction. kiki, chiqa, qaqa, qaqaqa, taqa, kaqa, mama all dictionary-stable under principled decomposition. The remaining 11 percent non-dict readings reflect compound forms rather than genuine gloss gaps."
+    },
+    "document_type": {
+      "level": "medium",
+      "note": "census_register supported by canonical kiki + cadastral + chiqa signature + tree-architecture differentiation from UR037. The tree-structured sub-type is plausible but no second tree-structured census exemplar exists for cross-validation. Provenance unknown limits external anchoring."
+    },
+    "narrative": {
+      "level": "medium",
+      "note": "The 'tree-structured cadastral census with maternal-lineage anchor' reading is internally coherent and supported by (a) UR037 flat-structure parallel, (b) UR177 mama-lineage precedent, (c) qaqaqa reduplication-family cognates, (d) chi->ki onset correction convention. The interpretation of mama as lineage (not Moon) is directly supported by the sky/ground polysemy suppression rule."
+    },
+    "data_integrity": {
+      "level": "medium",
+      "note": "89 percent dict hit. 18 percent empty cords = structural zone separators. Tree depth L3 verified. No Ascher layer summarised. The census-signature vocabulary is robust but small sample size (9 STRING cords) limits statistical confidence."
+    }
+  },
+
+  "sections": [
+    {"id": "I", "title": "Census Body -- 16 Zone Clusters", "cords": "1-c.70",
+     "reading": "79 cords organised into 16 clusters. 56 INT + 14 EMPTY carry the quantitative census data. 9 STRING cords distributed across the clusters carry the vocabulary: kiki x2-3 (individual selves) + qaqa + qaqaqa (rocks, one topicalised) + kaqa (wall) + taqa (boundary) + chiqa (verification) + mama (lineage). 2+-ARBRE depth L3 organises each cluster as a zone with tree-structured sub-entries.",
+     "key_cords": [
+       {"pos": 0, "gloss": "kiki x2-3",  "note": "SELF (dominant census-identity marker, chi->ki corrected)"},
+       {"pos": 0, "gloss": "qaqa",       "note": "ROCK (geographic landmark)"},
+       {"pos": 0, "gloss": "qaqaqa",     "note": "ROCK-TOPICALISED (compound -- reduplication-family cognate)"},
+       {"pos": 0, "gloss": "kaqa",       "note": "WALL (Aymara)"},
+       {"pos": 0, "gloss": "taqa",       "note": "BOUNDARY"},
+       {"pos": 0, "gloss": "chiqa",      "note": "VERIFICATION"},
+       {"pos": 0, "gloss": "mama",       "note": "MATERNAL LINEAGE (ground-register, suppression rule fires clean)"}
+     ]},
+    {"id": "II", "title": "Tree-Depth Sub-Entries (L2 + L3)", "cords": "subsidiaries",
+     "reading": "L2 + L3 subsidiaries extend each cluster's detail. Unlike UR037's flat 1-PAIRE, UR204's tree architecture allows deeper sub-categorisation within each census zone.",
+     "key_cords": [
+       {"pos": 0, "gloss": "L2-L3 detail", "note": "tree-structured sub-entries differentiating UR204 from UR037"}
+     ]}
+  ],
+
+  "references": [
+    "Sivan, J. (2026). The Khipu as a Layered Information System. ALBA Project preprint.",
+    "Sivan, J. (2026). Cadastral census analysis -- chi->ki onset correction + mama polysemy suppression.",
+    "Rostworowski, M. (1999). Historia del Tahuantinsuyu -- maternal-filiation census rule.",
+    "Zuidema, R. T. (1977). The Inca kinship system: a new theoretical view.",
+    "Ethnologisches Museum, Berlin -- UR204 catalogue record.",
+    "Compare UR037 (canonical flat-structure census, Museo Amano), UR120 (Huacho reduplication), UR181 (Cajamarquilla Wari ritual escalation), AS090 (Gaffron paradigmatic qaqa+qa compound), UR177 (Chuquitanta mama-lineage precedent), UR198 (Berlin Santa Clara census 3-color), UR196 (Berlin Pachacamac verification), AS026B (lineage register with paternal kaka axis)."
+  ],
+
+  "reconstructed_xlsx": null
 }

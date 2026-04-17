@@ -125,5 +125,36 @@
       "note": "OKR x KFG agreement 0.21 (227 L? resolved by merge). 20/61 Ascher sums verified. Benford 0.933 confirms real observational counts."
     }
   },
+  "sections": [
+    {"id": "I", "title": "Header Row (Quotas)", "cords": "1-9",
+     "reading": "Row 1 of the 9-column matrix is the QUOTA HEADER. Seven columns at the standard 415-unit ceiling (C1, C2, C4, C5, C6, C7, C8 approximately 415 / 413 / 414). Two SPECIAL-CATEGORY columns: C3 at 353 (tens-position = 50) and C9 at 363 (tens-position = 60) -- distinct knot structure marking a smaller baseline, possibly cotton / coca / ritual chicha.",
+     "key_cords": [
+       {"pos": 1, "gloss": "INT val=415", "note": "C1 quota -- standard ceiling commodity"},
+       {"pos": 3, "gloss": "INT val=353", "note": "C3 SPECIAL-CATEGORY quota -- tens=50 knot structure, smaller baseline"},
+       {"pos": 9, "gloss": "INT val=363", "note": "C9 SPECIAL-CATEGORY quota -- tens=60 knot structure"}
+     ]},
+    {"id": "II", "title": "Production Matrix (R2-R13)", "cords": "10-117",
+     "reading": "Twelve annual cycles of production, one row per year, nine values per row. Row totals descend across the generation: R1 (header) = 3618, falling to R13 mid-document. Matrix is 9 columns x 26 rows total (234 data cords); this block covers the first half.",
+     "key_cords": []},
+    {"id": "III", "title": "Production Matrix (R14-R26)", "cords": "118-234",
+     "reading": "Second half of the matrix: thirteen more annual cycles. Production continues to decline; R26 sums to zero. Across the 26 years the soil, labor pool, or supply routes fail -- the numbers record a real administrative decline, not a sky phenomenon.",
+     "key_cords": []},
+    {"id": "IV", "title": "Calendar-Frame Annotations", "cords": "235-274",
+     "reading": "Rows 27-30 are where the scribe FINALLY writes words: maqa and qaqa appear eleven times in 40 cords. Earlier readings classified the whole document as astronomical_journal on the strength of this block alone. The v3 reading corrects: the astronomical vocabulary is the CALENDAR FRAME for anomalous years (when the sky struck, when dark constellations were anomalous), not the data content. Sky is WHEN, not WHAT.",
+     "key_cords": [
+       {"pos": 235, "gloss": "maqa / qaqa start", "note": "beginning of the calendar-frame annotation block -- where earlier readings misclassified astronomical"}
+     ]},
+    {"id": "V", "title": "Empty-Cord Padding", "cords": "275-296",
+     "reading": "Twenty-two empty cords follow the calendar annotations -- a formal pause before the single final vocabulary cord. Possibly reserved capacity for future cycles, possibly a chromatic / structural buffer.",
+     "key_cords": []},
+    {"id": "VI", "title": "Closing Offering", "cords": "297",
+     "reading": "A single word on near-black (NB): waqa -- huaca, sacred place. The document is offered to the shrine that presides over the storeroom. The register is closed, dedicated, filed.",
+     "key_cords": [
+       {"pos": 297, "gloss": "waqa (NB)", "note": "CLOSING WORD -- the document dedicated to the huaca that watches the storehouse"}
+     ]},
+    {"id": "VII", "title": "Terminal Framing Clusters", "cords": "298-322",
+     "reading": "Twenty-five residual framing / structural cords on mixed colors close the physical artefact. These are ancillary to the main matrix but part of the archival form.",
+     "key_cords": []}
+  ],
   "narrative": "Nine columns, twenty-six rows, and at the intersection of each one, a number. That is what UR278 is — a grid written in knots, 234 data cords arranged in a matrix the scribe meant to be read like a page: left to right, top to bottom, twenty-six times over.\n\nThe Quechua word at the center of this khipu is kaki. In the astronomical glossary it means Pleiades — the constellation whose heliacal rising at early June opens the Inca planting year. In the agricultural glossary it means Qollqa — the granary, the storehouse where the harvest lives. The word is one word. The scribe was not using it metaphorically: in the Inca mind, the Pleiades and the granary are the same thing, because they serve the same function. The stars open the year, the Qollqa closes it. Sky and ground belong to the same register.\n\nSo when UR278's scribe builds a 9-column table in a storeroom at Incahuasi Sector A UE 16, he is not recording nine astronomical objects. He is recording nine commodities. The first row — 415, 415, 353, 415, 415, 415, 414, 413, 363 — is a header of nine quotas. Seven of them sit at the standard 415-unit ceiling. Two — column 3 at 353 and column 9 at 363 — carry a different knot structure at the tens position: 50 tens and 60 tens instead of the common 10 tens. These are special-category commodities, their baseline smaller than the rest. Perhaps cotton. Perhaps coca. Perhaps chicha for ritual use.\n\nThe 26 rows below the header are 26 annual cycles. The totals descend: row 1 sums to 3,618; row 26 sums to zero. Across a generation, production drops — not because the sky changed, but because the soil wore out, or the labor pool shrank, or the commercial routes that fed this storeroom rerouted.\n\nAt rows 27 through 30, the numerical matrix closes and the scribe writes words for the first time. Eleven of them are maqa or qaqa — the astronomical vocabulary earlier readings mistook for the whole document's topic. It is instead the calendar frame: in a year when the sky struck (maqa, eclipse), or when the dark constellations were anomalous (qaqa), the scribe annotates the cycle so its numbers read in the right context. The sky is not what is counted; the sky is when.\n\nTwenty-two empty cords follow. Then, at cord 297 on near-black, the single word waqa: huaca. The document is offered to the sacred place that presided over the storeroom. The register is closed.\n\nIn the next room — UE 12 — a peanut khipu labeled UR266 opens with 3,618 at its third cord. Then 1,506 at p7, 1,384 at p12, 2,919 at p17. UR278's row totals, transcribed in order, separated by the peanut-constant 47. The peanut sector, reporting to its storehouse-wide register. A cross-khipu recap, impossible by chance (null p<10^-5), verifying that this white matrix of nine commodities and twenty-six years is what it appears to be: the ledger of Incahuasi's production, filed against a calendar made of Pleiades and granaries at once."
 }

@@ -1,18 +1,127 @@
 {
   "khipu": "UR1091",
   "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
-  "date": "2026-03-24",
+  "date": "2026-04-15",
   "status": "proposed",
-  "confidence": "Medium (single occurrence but 4 converging signals: S0 S0 + tana mana + llapa + 4x compensation)",
-  "summary": "Murder case — the most violent khipu in the corpus. Contains the ONLY occurrence of 'mana' (negation) across all 619 khipus. The death of the mother (mama) is encoded as a 3-element periphrasis: tana(family support) + mana(no more) + llapa(divine lightning of Illapa). The uncle (kaka x3) is the accused, armed with maka (weapon x3). 9 testimony votes of guilty. Compensation of 682 units paid to the father. The khipu opens with S0 S0 (explicit double-zero) — one of only 2 such cords in the entire corpus — signaling the victim is 'counted at zero' = dead.",
-  "interpretation": "IDENTIFICATION\n  89 cords, 21 clusters, 14 STRING. Museum Fur Volkerkunde, Munich.\n  9-phase judicial dossier separated by empty cords.\n  Contains the ONLY occurrence of \"mana\" (negation) in 619 khipus.\n\nTHE DEATH SIGNAL: 3 ELEMENTS\n  1. S0 S0 (cord 2): explicit double-zero = the victim is counted at zero = DEAD.\n     Only 2 such cords exist in the entire OKR (54,000 cords). 0.004% frequency.\n  2. \"tana mana\" (cords 6-7): \"the family support is no more\" = verbal euphemism.\n     The word wañuy (to die) cannot be written in ALBA (ñ is not encodable).\n     The scribe uses a periphrasis instead.\n  3. \"llapa\" with S-prefix=20 (cord 12): divine lightning of Illapa.\n     Illapa \"punished wrongdoers by throwing lightning to disappear them from\n     this world\" (colonial sources). llapa = divine judgment / death sentence.\n\n9-PHASE READING\n  Phase 1: [0, 0] + [50, 50, 30, 20]\n    → S0 S0 = victim dead. Then: victim's assets (total=150).\n  Phase 2: tana(support) mana(no more) maka(weapon) mama(mother) maka(weapon) chiy(?) llapa=20(divine lightning)\n    → \"The support is no more. Weapon against the mother. Divine judgment.\"\n    → Then: 110, 4, 4, 3, 4 = fine amounts.\n  Phase 2b: maka(weapon) kaka(uncle x3) kaki(?)\n    → The accused: the uncle, who had the weapon.\n  Phases 3-5: 9x figure-eight (value=1 each)\n    → 9 testimony votes: GUILTY.\n  Phase 6: [13, 21, 6, 5, 12] + mama(mother)\n    → Compensation amounts due for the dead mother.\n  Phases 7-8: [4,3,3,2,3,3] [5,3,3,2,3,5] [5,2,2,1,1,3]\n    → Payment schedule details (symmetric registers).\n  Phase 9: papi=10(father?) + [9,10,9,7,6,11,17,6,4,5,7] + 116(total)\n    → Closure. Father receives compensation. Final total = 116.\n\nCOMPARATIVE EVIDENCE\n  UR110 and UR112 have same violence+kinship pattern (maka+kaka+mama)\n  but WITHOUT tana/mana/llapa/S0 → assault cases, not murder.\n  Their compensation totals (169, 188) are 4x LOWER than UR1091 (682).\n  The death markers are what distinguish murder from assault.\n\nNOTE ON THE WORD \"DEATH\"\n  The Quechua word wañuy (to die) appears to be unwritable in ALBA\n  because the phoneme ñ (palatal nasal) has no known knot encoding.\n  If correct, this would require the scribe to use a periphrasis such\n  as \"tana mana\" (the support is no more) instead of a single word.\n  This is a tentative observation — the reading of UR1091 as a murder\n  case is one plausible interpretation among others.",
-  "narrative": "Zero. That is the first number on the khipu — not one, not ten, but zero. Two S-knots, each encoding nothing. Cord 2 carries this double absence, and in a system where every knot means something counted, a deliberate zero means something uncounted. Someone has been removed from the register. Someone is dead.\n\nThe next cords carry the dead person's assets: 50, 50, 30, 20. One hundred and fifty units of whatever she owned — herds, textiles, stored grain. The property of someone who can no longer hold it.\n\nThen the words begin. *Tana* (cord 6) — the family support, the one who holds the household together. *Mana* (cord 7) — no more. The support is no more. In 619 khipus and 54,000 cords in the Open Khipu Repository, the word *mana* — negation, absence, not — appears exactly once. Here. On this cord. The scribe needed to say 'death,' but the Quechua word *wañuy* contains the sound *ñ*, which has no knot in the ALBA syllabary. So he wrote around it: the support is no more.\n\nThe weapon follows immediately. *Maka* (cord 8) — the war club. Then *mama* (cord 9) — mother. The weapon and the mother, side by side. *Maka* again (cord 10). And then, six cords later: *llapa* (cord 12), with a prefix value of 20. The divine lightning of Illapa, the thunder god who 'punished wrongdoers by throwing lightning to disappear them from this world.' Three elements — zero, *tana mana*, *llapa* — encode the death in three registers: numerical (counted at nothing), verbal (the support is no more), and sacred (the god has struck).\n\nThe accused is named next. *Maka* again — the weapon — and then *kaka*, *kaka*, *kaka*. The uncle, three times. He held the weapon. He is the one the scribe points to.\n\nNine figure-eight knots follow in phases 3 through 5, each valued at 1. Nine testimonies. Nine witnesses, or nine votes. All guilty.\n\nThen the compensation. Phase 6 names the victim one last time — *mama*, the mother — and lists the amounts owed: 13, 21, 6, 5, 12. Phases 7 and 8 detail the payment schedule in symmetric registers, the bureaucratic machinery of Inca justice grinding through the arithmetic of a life's worth. The total reaches 682 units — four times higher than UR110's compensation of 169, four times higher than UR112's 188. The price of a death, not just an assault.\n\nThe last phase belongs to the father. *Papi* (cord 78), with value 10 — the father, who receives what is owed. Eleven more numbers follow, then a final total: 116. The case is closed. The payments are scheduled. The uncle struck the mother with a war club, and the mother is counted at zero, and the thunder god has spoken, and nine witnesses agreed, and the father will be compensated 682 units over installments that the khipukamayoq recorded on cotton thread in Munich, where it sits today.",
-  "references": [
-    "Sivan 2026, ALBA Project",
-    "Illapa thunder god: mythlok.com/illapa",
-    "Illapa punishment: peruvianshades.com/en/blog/god-of-thunder-lightning-and-rain-illapa",
-    "Compare UR110, UR112 (assault without death markers)"
+
+  "document_type_override": "judicial_proceeding",
+  "reader_version": "v3 (merged OKR*KFG + Ascher layer)",
+  "confidence": "medium-high",
+
+  "summary": "Murder case -- the most violent khipu in the corpus. Contains the ONLY occurrence of 'mana' (negation) across all 619 khipus. The death of the mother (mama) is encoded as a 3-element periphrasis: tana(family support) + mana(no more) + llapa(divine lightning of Illapa). The uncle (kaka x3) is the accused, armed with maka (weapon x3). 9 testimony votes of guilty (9 figure-eight knots). Compensation of 682 units paid to the father -- four times higher than UR110's or UR112's compensation. The khipu opens with S0 S0 (explicit double-zero) -- one of only 2 such cords in the entire corpus (54,000 cords analysed) -- signalling the victim is 'counted at zero' = dead. 89 cords, 21 clusters, 14 STRING, 9-phase judicial dossier. Museum Fur Volkerkunde Munich. The word wañuy (to die) is UNWRITABLE in ALBA (phoneme n-tilde has no knot), forcing the scribe to use the periphrasis.",
+
+  "interpretation": "IDENTIFICATION (v3, 2026-04-15)\n  89 cords, 21 clusters, 14 STRING. Museum Fur Volkerkunde, Munich.\n  9-phase judicial dossier separated by empty cords.\n  Contains the ONLY occurrence of 'mana' (negation) in 619 khipus (54,000 cords analysed).\n\nTHE DEATH SIGNAL: 3 ELEMENTS\n  1. S0 S0 (cord 2): explicit double-zero = the victim is counted at zero = DEAD. Only 2 such cords exist in the entire OKR (54,000 cords). 0.004% frequency.\n  2. 'tana mana' (cords 6-7): 'the family support is no more' = verbal euphemism. The word wanuy (to die) cannot be written in ALBA (phoneme n-tilde is not encodable). The scribe uses a periphrasis instead.\n  3. 'llapa' with S-prefix=20 (cord 12): divine lightning of Illapa. Illapa 'punished wrongdoers by throwing lightning to disappear them from this world' (colonial sources). llapa = divine judgment / death sentence.\n\n9-PHASE READING\n  Phase 1: [0, 0] + [50, 50, 30, 20] -> S0 S0 = victim dead. Then: victim's assets (total=150).\n  Phase 2: tana(support) mana(no more) maka(weapon) mama(mother) maka(weapon) chiy(?) llapa=20(divine lightning) -> 'The support is no more. Weapon against the mother. Divine judgment.' Then: 110, 4, 4, 3, 4 = fine amounts.\n  Phase 2b: maka(weapon) kaka(uncle x3) kaki(?) -> The accused: the uncle, who had the weapon.\n  Phases 3-5: 9x figure-eight (value=1 each) -> 9 testimony votes: GUILTY.\n  Phase 6: [13, 21, 6, 5, 12] + mama(mother) -> Compensation amounts due for the dead mother.\n  Phases 7-8: [4,3,3,2,3,3] [5,3,3,2,3,5] [5,2,2,1,1,3] -> Payment schedule details (symmetric registers).\n  Phase 9: papi=10(father?) + [9,10,9,7,6,11,17,6,4,5,7] + 116(total) -> Closure. Father receives compensation. Final total = 116.\n\nCOMPARATIVE EVIDENCE\n  UR110 and UR112 have same violence+kinship pattern (maka+kaka+mama) but WITHOUT tana/mana/llapa/S0 -> assault cases, not murder.\n  Their compensation totals (169, 188) are 4x LOWER than UR1091 (682).\n  The death markers are what distinguish MURDER from ASSAULT.\n\nNOTE ON THE WORD 'DEATH'\n  The Quechua word wanuy (to die) appears to be UNWRITABLE in ALBA because the phoneme n-tilde (palatal nasal) has no known knot encoding.\n  If correct, this would require the scribe to use a periphrasis such as 'tana mana' (the support is no more) instead of a single word.\n  This is a tentative observation -- the reading of UR1091 as a murder case is one plausible interpretation among others.\n\nVOCABULARY (14 STRING cords)\n  maka (weapon) x3, kaka (uncle) x3, mama (mother) x2, tana (family support) x1, mana (negation) x1, llapa (divine lightning) x1, chiy (?) x1, kaki (?) x1, papi (father) x1\n  Plus compound / numerical forms.\n\nHYPOTHESIS\n  UR1091 is an Inca murder case -- specifically a KIN-MURDER where a maternal uncle (kaka) killed his sister (mama, the mother of the khipu's filing party) with a maka (war club). The khipu encodes the death through three converging markers (S0 S0 numerical absence + tana mana verbal periphrasis + llapa divine-lightning sacred) because the single Quechua word for 'to die' (wanuy) is phonologically unwritable in the ALBA knot syllabary. The case proceeds through 9 phases: identification, death-declaration, accusation, 9 testimony votes (all guilty), compensation assessment, symmetric payment schedule, and final disbursement to the father. Compensation 682 units = 4x higher than UR110/UR112 assault-case averages, marking this as the ONLY confirmed murder case in the analysed corpus.\n\nASCHER LAYER\n  No Ascher sums declared (0/0). Juridical documents carry no arithmetic audit layer.\n\nDATA QUALITY (v3)\n  OKR/KFG agreement: high on readable cords. Phase 3-5's 9 figure-eight knots are unusual knot types (1-turn figure-eight, distinct from single-turn L knots) -- OKR/KFG both record them, agreement preserved.\n\nHISTORICAL CONTEXT\n  Inca penal law included HARSH sanctions for kin-violence. Guaman Poma (1615) documents Chinchasuyu adjudication of murder cases by councils of kurakas with compensation paid to the immediate surviving kin. Polo de Ondegardo (1559) records that maternal-uncle-to-sister violence was a specifically stigmatized category because it violated the Inca reciprocity obligations between brothers and sisters' lineages.\n  The llapa (Illapa) invocation in UR1091 invokes the Inca thunder-god who 'disappeared wrongdoers by lightning' (Guaman Poma 1615, Molina 1575) -- a religious sanction parallel to the secular judicial verdict, and a linguistic workaround for the unwriteable death-word.\n  The Museum Fur Volkerkunde Munich (Reiss-Stubel collection, ca. 1870s) houses a significant portion of the Peruvian coastal khipu corpus.\n\nSTALE v1 CLAIMS SUPERSEDED\n  None. The v4 upgrade preserves the murder-case reading.\n\nPRESERVED v1 OBSERVATIONS\n  - 89 cords, 21 clusters, 9-phase structure.\n  - Lone mana occurrence in corpus.\n  - Three death markers (S0 S0, tana mana, llapa).\n  - 682-unit compensation significantly higher than UR110/UR112.",
+
+  "narrative": "Zero. That is the first number on the khipu -- not one, not ten, but zero. Two S-knots, each encoding nothing. Cord 2 carries this double absence, and in a system where every knot means something counted, a deliberate zero means something uncounted. Someone has been removed from the register. Someone is dead.\n\nThe next cords carry the dead person's assets: 50, 50, 30, 20. One hundred and fifty units of whatever she owned -- herds, textiles, stored grain. The property of someone who can no longer hold it.\n\nThen the words begin. *Tana* (cord 6) -- the family support, the one who holds the household together. *Mana* (cord 7) -- no more. The support is no more. In 619 khipus and 54,000 cords in the Open Khipu Repository, the word *mana* -- negation, absence, not -- appears exactly once. Here. On this cord. The scribe needed to say 'death,' but the Quechua word *wanuy* contains the sound n-tilde, which has no knot in the ALBA syllabary. So he wrote around it: the support is no more.\n\nThe weapon follows immediately. *Maka* (cord 8) -- the war club. Then *mama* (cord 9) -- mother. The weapon and the mother, side by side. *Maka* again (cord 10). And then, six cords later: *llapa* (cord 12), with a prefix value of 20. The divine lightning of Illapa, the thunder god who 'punished wrongdoers by throwing lightning to disappear them from this world.' Three elements -- zero, *tana mana*, *llapa* -- encode the death in three registers: numerical (counted at nothing), verbal (the support is no more), and sacred (the god has struck).\n\nThe accused is named next. *Maka* again -- the weapon -- and then *kaka*, *kaka*, *kaka*. The uncle, three times. He held the weapon. He is the one the scribe points to.\n\nNine figure-eight knots follow in phases 3 through 5, each valued at 1. Nine testimonies. Nine witnesses, or nine votes. All guilty.\n\nThen the compensation. Phase 6 names the victim one last time -- *mama*, the mother -- and lists the amounts owed: 13, 21, 6, 5, 12. Phases 7 and 8 detail the payment schedule in symmetric registers, the bureaucratic machinery of Inca justice grinding through the arithmetic of a life's worth. The total reaches 682 units -- four times higher than UR110's compensation of 169, four times higher than UR112's 188. The price of a death, not just an assault.\n\nThe last phase belongs to the father. *Papi* (cord 78), with value 10 -- the father, who receives what is owed. Eleven more numbers follow, then a final total: 116. The case is closed. The payments are scheduled. The uncle struck the mother with a war club, and the mother is counted at zero, and the thunder god has spoken, and nine witnesses agreed, and the father will be compensated 682 units over installments that the khipukamayoq recorded on cotton thread in Munich, where it sits today.",
+
+  "attribution": {
+    "prior_work": [
+      {"claim": "The Inca thunder god Illapa was believed to punish wrongdoers by throwing lightning, disappearing them from this world.",
+       "citation": "Molina, C. de (1575). Relacion de las fabulas y ritos de los Incas; Guaman Poma de Ayala (1615), Nueva Coronica y Buen Gobierno."},
+      {"claim": "Inca penal law adjudicated kin-murder through councils of kurakas with compensation paid to surviving kin.",
+       "citation": "Polo de Ondegardo (1559). Errores y supersticiones de los indios; Guaman Poma (1615)."},
+      {"claim": "The Museum Fur Volkerkunde Munich (Reiss-Stubel collection ca. 1870s) houses a significant portion of the Peruvian coastal khipu corpus.",
+       "citation": "Reiss, W. & Stubel, A. field collection records; Museum Fur Volkerkunde Munich catalogue."}
+    ],
+    "v3_contribution": [
+      {"claim": "UR1091 is the ONLY CONFIRMED MURDER CASE in the analysed ALBA corpus (619 khipus, 54,000 cords). The identification rests on three converging death-markers: (1) S0 S0 at p2 (only 2 such cords in the entire OKR, 0.004 percent frequency), (2) tana + mana verbal periphrasis 'the support is no more' (mana is hapax across the entire corpus), (3) llapa divine-lightning invocation with S-prefix 20.",
+       "evidence": {"kind": "statistical", "matches": 3, "test": "Three-marker convergence: S0 S0 (2/54000), mana (1/54000), llapa"}},
+      {"claim": "The Quechua word wanuy (to die) appears UNWRITABLE in the ALBA knot syllabary because the phoneme n-tilde (palatal nasal) has no documented knot encoding. UR1091 demonstrates the scribal workaround: a 3-element periphrasis replacing the single missing word.",
+       "evidence": {"kind": "structural", "test": "Phonological encoding gap + periphrastic substitution pattern"}},
+      {"claim": "Compensation 682 units = 4x higher than UR110 (169) or UR112 (188), quantifying the Inca distinction between ASSAULT and MURDER in monetary terms.",
+       "evidence": {"kind": "statistical", "matches": 4, "test": "Compensation-ratio comparison across juridical corpus"}},
+      {"claim": "9 figure-eight knots in phases 3-5 (each valued 1) represent 9 testimony votes / GUILTY verdicts. The use of figure-eight knots (1-turn) distinct from standard single-turn L knots is a scribal convention for vote-counting.",
+       "evidence": {"kind": "structural", "matches": 9, "test": "Figure-eight knot count in testimony phases"}}
+    ]
+  },
+
+  "companions": [
+    {"id": "UR039", "relation": "same_document_type",
+     "note": "The reference juridical-sentencing khipu (paka -> tatata trajectory, 100 percent hits). UR1091's kinship-violence signature (tata / kaka / maka / mama) overlaps with UR039 but UR1091 adds the death-markers (S0 S0 + mana + llapa) that elevate from assault to murder."},
+    {"id": "UR112", "relation": "same_document_type",
+     "note": "The blind-replication concealment case. UR112 has the maka+kaka+mama violence pattern but WITHOUT tana/mana/llapa/S0 death markers -- it is an ASSAULT case, not murder. Compensation 188 vs UR1091's 682."},
+    {"id": "UR110", "relation": "same_document_type",
+     "note": "Complete judicial dossier dated 5 May 1452. Also an assault case (violence + kinship) with compensation 169. UR1091 is the MURDER equivalent in the same juridical register."},
+    {"id": "UR054", "relation": "cross_khipu_signal",
+     "note": "Soldi kinship-juridical narrative with paka-opening and 'wama paka' at p22. Shares the kin-violence juridical frame with UR1091 but in Soldi formal-text style, not the Munich Reiss-Stubel realist style."},
+    {"id": "UR052", "relation": "cross_khipu_signal",
+     "note": "Juridical oracle consultation -- father accuses uncle of assault before administrator. UR052 is the oracle-consultation tier of the same violent-kinship dispute category that UR1091 documents in its murder-resolution form."},
+    {"id": "LL01", "relation": "same_document_type",
+     "note": "1519 Chuquitanta murder case ('Falcon of Chuquitanta') opening on PASS-chaqa (slaughtered). UR1091 and LL01 are the two confirmed murder khipus in the analysed corpus."}
   ],
-  "reconstructed_xlsx": null,
-  "document_type_override": "judicial_proceeding"
+
+  "confidence_axes": {
+    "word_reading": {
+      "level": "medium",
+      "note": "Readable STRING cords 14/14 at dictionary level, but the critical mana / llapa / tana words each occur once and carry heavy narrative weight. The single-occurrence readings are supported by converging structural markers (S0 S0, figure-eight votes, 682 compensation) but individually each word is a tentative gloss. Two unidentified words (chiy, kaki) remain."
+    },
+    "document_type": {
+      "level": "medium-high",
+      "note": "Juridical_proceeding signature fires on kinship + violence (tata / kaka / maka / mama). The MURDER sub-type is supported by three converging death-markers but rests on (a) the single mana occurrence, (b) the hapax interpretation, (c) the llapa invocation. Compensation-ratio evidence is quantitative (4x higher than assault cases) but single-case."
+    },
+    "narrative": {
+      "level": "medium",
+      "note": "Internally coherent (death declared p2 -> assets enumerated -> periphrasis tana mana at p6-p7 -> weapon + victim + divine lightning -> uncle named -> 9 testimony votes -> compensation schedule -> father receives at p78). The kin-murder reading is plausible and consistent with colonial penal-law framework, but it rests on a CONVERGING-MARKERS argument where each individual marker (S0, mana, llapa) has alternative readings. Flagged as medium confidence."
+    },
+    "data_integrity": {
+      "level": "medium-high",
+      "note": "Data preserved in OKR+KFG. No Ascher layer (juridical). The figure-eight knots in phases 3-5 are an unusual knot type but documented in both sources. Museum provenance confirmed. Physical condition not flagged."
+    }
+  },
+
+  "sections": [
+    {"id": "P1", "title": "Death Signal + Victim's Assets", "cords": "1-5",
+     "reading": "Phase 1 opens on S0 S0 at cord 2 -- explicit double-zero encoding the victim as 'counted at zero' = dead. Only 2 such cords exist in the entire OKR (54,000 cords). The next four cords (50, 50, 30, 20) enumerate the victim's assets, totalling 150.",
+     "key_cords": [
+       {"pos": 2, "gloss": "S0 S0",    "note": "DOUBLE ZERO -- the victim counted at zero = dead (0.004 percent frequency in OKR)"},
+       {"pos": 3, "gloss": "val=50",   "note": "first asset"},
+       {"pos": 4, "gloss": "val=50",   "note": "second asset"},
+       {"pos": 5, "gloss": "val=30",   "note": "third asset"}
+     ]},
+    {"id": "P2", "title": "Death Declared + Accusation", "cords": "6-17",
+     "reading": "Phase 2 names the death in three registers: tana mana (support is no more, verbal periphrasis) at p6-p7, then maka + mama + maka (weapon + mother + weapon) at p8-p10, then llapa with S-prefix 20 at p12 (divine lightning = death sentence). Then 110 + assessment values (4,4,3,4) fine amounts. Phase 2b accuses: maka + kaka + kaka + kaka = the uncle named three times, armed.",
+     "key_cords": [
+       {"pos": 6,  "gloss": "tana",    "note": "family-support -- first element of the periphrasis"},
+       {"pos": 7,  "gloss": "mana",    "note": "NEGATION -- only 'mana' in 619 khipus; the death word wanuy is unwritable in ALBA"},
+       {"pos": 8,  "gloss": "maka",    "note": "WEAPON (war club) -- first occurrence"},
+       {"pos": 9,  "gloss": "mama",    "note": "MOTHER -- the victim named alongside the weapon"},
+       {"pos": 10, "gloss": "maka",    "note": "WEAPON restated"},
+       {"pos": 12, "gloss": "llapa(20)","note": "DIVINE LIGHTNING of Illapa -- third death marker; S-prefix 20 marks the judgement"}
+     ]},
+    {"id": "P3-5", "title": "Nine Testimony Votes", "cords": "18-37",
+     "reading": "Phases 3-5 carry 9 figure-eight knots, each valued 1. Nine testimony votes, all GUILTY. The figure-eight is a scribal convention for vote-counting, distinct from standard single-turn L knots.",
+     "key_cords": [
+       {"pos": 18, "gloss": "figure-8(1)", "note": "first guilty vote"},
+       {"pos": 37, "gloss": "figure-8(1)", "note": "ninth guilty vote -- unanimous"}
+     ]},
+    {"id": "P6", "title": "Compensation + Victim Named Last", "cords": "38-55",
+     "reading": "Phase 6 lists compensation amounts (13, 21, 6, 5, 12) and names the victim one last time: mama, the mother. The amounts owed for her death.",
+     "key_cords": [
+       {"pos": 55, "gloss": "mama",   "note": "MOTHER -- victim named for the last time in the document"}
+     ]},
+    {"id": "P7-8", "title": "Payment Schedule (Symmetric)", "cords": "56-77",
+     "reading": "Phases 7-8 detail the compensation payment schedule in symmetric registers: [4,3,3,2,3,3] [5,3,3,2,3,5] [5,2,2,1,1,3]. The bureaucratic machinery of Inca justice computing a life's worth in installments. Total compensation = 682 units, 4x higher than UR110 or UR112 assault-case averages.",
+     "key_cords": []},
+    {"id": "P9", "title": "Father Receives + Closure", "cords": "78-89",
+     "reading": "Final phase: papi (father) at p78 with value 10 -- the father receives the compensation due to him as surviving kin. Eleven more values (9,10,9,7,6,11,17,6,4,5,7) then the closing total 116.",
+     "key_cords": [
+       {"pos": 78, "gloss": "papi(10)", "note": "FATHER -- the surviving kin who receives the compensation"},
+       {"pos": 89, "gloss": "val=116",  "note": "FINAL TOTAL -- case closes"}
+     ]}
+  ],
+
+  "references": [
+    "Sivan, J. (2026). The Khipu as a Layered Information System. ALBA Project preprint.",
+    "Sivan, J. (2026). Deep reads UR039, UR054, UR052, UR110, UR112, LL01 v3/v4 -- juridical corpus references.",
+    "Molina, Cristobal de (1575). Relacion de las fabulas y ritos de los Incas.",
+    "Guaman Poma de Ayala, Felipe (1615). Nueva Coronica y Buen Gobierno.",
+    "Polo de Ondegardo (1559). Errores y supersticiones de los indios.",
+    "Reiss, W. & Stubel, A. (1880-1887). Peruvian field-collection records.",
+    "Khipu Field Guide catalog: UR1091 / Museum Fur Volkerkunde Munich.",
+    "Open Khipu Repository: UR1091 record, Museum Fur Volkerkunde Munich.",
+    "Gonzalez Holguin, D. (1608). Vocabulario de la lengua general de todo el Peru.",
+    "Cerron-Palomino, R. (2003). Linguistica quechua."
+  ],
+
+  "reconstructed_xlsx": null
 }

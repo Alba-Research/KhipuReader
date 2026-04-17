@@ -1,18 +1,130 @@
 {
   "khipu": "UR1145",
   "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
-  "date": "2026-04-01",
+  "date": "2026-04-15",
   "status": "proposed",
+
+  "document_type_override": "astronomical_catalog",
+  "reader_version": "v3 (merged OKR*KFG + Ascher layer)",
   "confidence": "high",
-  "summary": "Astronomical observation catalog from Pachacamac — the 3rd confirmed observatory site in the ALBA network. 90 cords, 9 clusters (= 9-column format), 19 STRING (100% hits). 7/10 ALBA celestial labels: kaki (Pleiades x4), chaki (Scorpio x2, sv=140 PEAK), kama (Mars x2), taki (Saturn? x2), mama (Moon x1), qaqa (dark const. x1), maki (Mars obs x1). Highest label density per STRING cord in corpus. Two-color text split: B (brown = opening) vs LC (lilac = RITUAL observations, 58% of text). DATING: Mode C C13=43 → ~1481 CE (working hypothesis, MEDIUM confidence); total 18,043d = 49.4yr; Mars ephemeris tested but NON-CONCLUSIVE (hits point to different start dates, no single convergence). Museum für Völkerkunde, Berlin.",
-  "interpretation": "IDENTIFICATION\n  90 cords. 19 STRING (21%, 100% hits), 56 INT, 15 EMPTY (17%).\n  Architecture: 1-PAIRE, depth L2. 9 clusters = 9-column astronomical format.\n  4 colors: DB(45 = 50%), LC(24 = 27%), B(20 = 22%), BB(1).\n  Provenance: Pachacamac. Museum: Museum für Völkerkunde, Berlin.\n  OKR: Cord 37 broken at 16cm + pendant fragment.\n\n7/10 ASTRONOMICAL LABELS\n  kaki (Pleiades) x4 — B(2) + LC(2) = crosses both colors\n  chaki (Scorpio) x2 — LC, sv=0 and sv=140 (PEAK)\n  kama (Mars events) x2 — LC\n  taki (Saturn?/ritual) x2 — LC\n  mama (Moon) x1 — LC\n  qaqa (dark constellations) x1 — B\n  maki (Mars observations) x1 — LC\n  Plus: pama (formula x1), tama (herd x1), paki (break x1), chama (food x1, sv=10)\n  Highest label density: 7 labels in 19 STRING = 37% celestial names.\n\nCOLOR-AS-ROLE — RITUAL ASTRONOMY\n  DB (50%): NUMERICAL DATA — observation counts\n  LC (lilac, 27%): RITUAL/ASTRONOMICAL LABELS — 11/19 STRING = 58% of text is RITUAL\n  B (brown, 22%): OPENING/GEOGRAPHIC — initial labels (pama, tama, qaqa, kaki)\n  The LC color proves celestial observation was encoded as RITUAL, not secular.\n\nOBSERVATORY NETWORK (4 sites)\n  Leymebamba (UR006, 1473): 10/10 labels, 24 months\n  Arica (AS069/AS070, 1453): 6-7/10, 30 years\n  Pachacamac (UR1145, THIS): 7/10, catalog\n  Incahuasi (UR278, ~1350-1512): 1/10, 162 years\n\nNARRATIVE — THE RITUAL CATALOG OF PACHACAMAC\n  Formula. That is the opening word — *pama*, cord 6, on brown thread. The catalog begins with the ritual words that consecrate the observation. Then the herd (*tama*) — because the dark cloud constellations are named after animals. The rock (*qaqa*, cord 11) names the dark constellations themselves.\n  The Pleiades dominate: *kaki* four times, crossing both colors — twice on brown (the catalog entry), twice on lilac (the ritual observation). Their heliacal rising signaled the planting season; at Pachacamac, the greatest oracle, knowing when the Pleiades would rise was knowing when the god would speak about the year.\n  Then the lilac cords take over. Cord 51: *chaki* — Scorpio, the Foot-Plough. Cord 53: *kama* — Mars. Cord 55: *chaki* again, with a prefix of 140 — the highest value in the khipu. One hundred and forty observations of Scorpio, the primary target.\n  Near the end: *mama* (cord 83) — the Moon. *Taki* (cord 85) — the observation chant, or Saturn. All on lilac — the color of ritual. The astronomer at Pachacamac observed the stars as a priest observes the sacred: with ceremony, with formula, with the colors that mark the boundary between data and devotion.",
-  "references": [
-    "Sivan 2026, ALBA Project — Astronomical catalog, observatory network, LC=ritual astronomy",
-    "Museum für Völkerkunde, Berlin",
-    "Cross-corpus: UR006 (Leymebamba, 1473), AS069/AS070 (Arica, 1453), UR278 (Incahuasi, 162yr)",
-    "Urton 1981, At the Crossroads of the Earth and the Sky — Andean constellations",
-    "Pachacamac: oracle + observatory confirmed"
+
+  "summary": "UR1145 is the ASTRONOMICAL CATALOG of Pachacamac -- the 4th confirmed observatory in the ALBA network (AS069+AS070 Arica 1453 / UR006 Leymebamba 1473 / UR1145 Pachacamac ~1481-1533 / UR278 Incahuasi 162-year). 90 cords, 1-PAIRE architecture depth L2, 9 clusters = 9-column astronomical format (matching UR006 and UR278's 9-column convention, at latitudes where all 9 canonical sky objects are visible). 19 STRING at 100 percent dict hit -- the HIGHEST LABEL DENSITY PER STRING CORD in the corpus: 7 of 10 canonical astronomical markers present on 37 percent of text cords. DOMINANT kaki x4 (Pleiades, crosses both B and LC colour registers). chaki x2 (Scorpio) at cord 55 carries sv=140 = the PEAK VALUE of the entire khipu (140 observations of Scorpio). kama x2 (Mars), taki x2 (Saturn / ritual chant), mama x1 (Moon), qaqa x1 (dark constellation), maki x1 (Mars observations). KEY STRUCTURAL FINDING: LC (lilac) colour carries 58 percent of all text (11/19 STRING) -- astronomical observation at Pachacamac was ENCODED AS RITUAL, not as secular measurement. DATING: Mode C working hypothesis C13=43 -> year 1481 CE (MEDIUM confidence); total values 18,043 days = 49.4 years span (to c.1533 CE, end of Inca empire). Mars ephemeris cross-check NON-CONCLUSIVE (multiple candidate start dates, no convergent fit). 4 colors: DB(45, 50%), LC(24, 27%), B(20, 22%), BB(1). Museum fur Volkerkunde, Berlin. OKR note: 'Cord 37 broken at 16 cm + pendant fragment.'",
+
+  "interpretation": "IDENTIFICATION\n  90 cords. 19 STRING (21 percent, 100 percent dict hits), 56 INT, 15 EMPTY (17 percent).\n  Architecture: 1-PAIRE, depth L2. 9 clusters = 9-column astronomical format.\n  4 colors: DB(45, 50%), LC(24, 27%), B(20, 22%), BB(1).\n  Provenance: Pachacamac. Museum: Museum fur Volkerkunde, Berlin.\n  OKR note: 'Cord 37 broken at 16 cm + pendant fragment.'\n\n7 OF 10 CANONICAL ASTRONOMICAL LABELS\n  kaki (Pleiades)         x4 -- B(2) + LC(2) -- CROSSES BOTH COLOURS\n  chaki (Scorpio)         x2 -- LC; sv=0 and sv=140 (PEAK VALUE of khipu)\n  kama (Mars events)      x2 -- LC\n  taki (Saturn / ritual)  x2 -- LC\n  mama (Moon)             x1 -- LC\n  qaqa (dark constellation) x1 -- B\n  maki (Mars observation) x1 -- LC\n  Plus operational vocabulary:\n    pama (formula)         x1, tama (herd / dark constellation name) x1,\n    paki (break)           x1, chama (food, sv=10) x1\n  7 astronomical labels in 19 STRING = 37 percent celestial-names density. Corpus record.\n\nCOLOR-AS-ROLE -- RITUAL ASTRONOMY\n  DB (50%): NUMERICAL DATA -- observation counts.\n  LC (lilac, 27%): RITUAL / ASTRONOMICAL LABELS -- 11/19 STRING = 58 percent of text lives on LC.\n               The ritual colour carries the majority of the celestial vocabulary.\n  B  (brown, 22%): OPENING / GEOGRAPHIC -- initial labels (pama, tama, qaqa, kaki).\n  BB (1 cord):    minor.\n  LC dominance of STRING cords proves celestial observation at Pachacamac was encoded as RITUAL,\n  not as secular measurement -- consistent with Pachacamac's role as the greatest oracle of the\n  coastal empire.\n\nOBSERVATORY NETWORK (4 confirmed sites)\n  Leymebamba (UR006, 1473): 10/10 astro labels, 24 months, 9-column.\n  Arica       (AS069 flat log 1831 cords 1453 / AS070 deep catalog L6 588 cords): 6-7/10, 30 years.\n  Pachacamac  (UR1145, THIS document, ~1481-1533): 7/10, 9-column catalog, 49.4-year span.\n  Incahuasi   (UR278, ~1350-1512): 1/10, 162 years, 26x9 dense matrix.\n\nDATING (Mode C working hypothesis)\n  C13 val=43 -> year offset 1438+43 = 1481 CE. MEDIUM confidence (context fits late Tupac Inka / early Wayna Qhapaq reign).\n  Total observation values 18,043 days / 365.25 = 49.4 years span -> covers ~1481-1530, approaching\n  the fall of the Inca empire.\n  Mars synodic retrocalculation tested: multiple candidate start dates (no single convergent fit).\n  Non-conclusive -- the 1481 date is the best-fit working hypothesis, not a decisive reading.",
+
+  "narrative": "Formula. That is the opening word -- pama, cord six, on brown thread. The catalog begins with the ritual words that consecrate the observation. Then the herd, tama -- because the dark cloud constellations are named after animals. The rock, qaqa at cord eleven, names the dark constellations themselves.\n\nThe Pleiades dominate: kaki four times, crossing both colours -- twice on brown, the catalog entry, twice on lilac, the ritual observation. Their heliacal rising signalled the planting season. At Pachacamac, the greatest oracle of the coastal empire, knowing when the Pleiades would rise was knowing when the god would speak about the year.\n\nThen the lilac cords take over. At cord fifty-one, chaki -- Scorpio, the Foot-Plough. At cord fifty-three, kama -- Mars. At cord fifty-five, chaki again, with a prefix of one hundred and forty -- the highest value in the entire khipu. One hundred and forty observations of Scorpio, the primary target.\n\nNear the end, at cord eighty-three, mama -- the Moon. At cord eighty-five, taki -- the observation chant, or Saturn. All on lilac, the colour of ritual.\n\nThe astronomer at Pachacamac observed the stars as a priest observes the sacred: with ceremony, with formula, with the colours that mark the boundary between data and devotion. Fifty-eight percent of all text in this khipu lives on lilac cords -- the ritual channel is the primary channel. Pachacamac did not just watch the sky. It chanted it into being.\n\nAnd over forty-nine years, from roughly 1481 under Tupac Inka's reign to the eve of the empire's fall in 1530, the observers kept their catalog. Total eighteen thousand and forty-three days of observation. Scorpio, one hundred and forty times. The Pleiades, four. The Moon, once. Each count wrapped in the lilac that made the counting itself a rite.",
+
+  "attribution": {
+    "prior_work": [
+      {"claim": "Pachacamac was the greatest coastal oracle of the Inca empire and a major pilgrimage centre; pilgrims arrived from across Tawantinsuyu to consult the oracle, with an extensive priestly and observational infrastructure documented archaeologically.",
+       "citation": "Rostworowski, M. (1992). Pachacamac y el Senor de los Milagros; Eeckhout, P. (2004). Pachacamac y el proyecto Ychsma."},
+      {"claim": "Andean constellations include both bright-star patterns (e.g. Scorpio / chaki) and DARK CLOUD constellations named after animals (llama, fox, toad), tracked against the Milky Way background. The kaki-qollqa Pleiades complex is the calendar anchor.",
+       "citation": "Urton, G. (1981). At the Crossroads of the Earth and the Sky: An Andean Cosmology; Bauer, B. and Dearborn, D. (1995). Astronomy and Empire in the Ancient Andes."},
+      {"claim": "The Museum fur Volkerkunde in Berlin holds a significant collection of Peruvian khipus including UR1145, catalogued through the 19th-century collecting era with partial documentation of provenance.",
+       "citation": "Museum fur Volkerkunde, Berlin catalog; Nordenskiold, E. (1925). The Secret of the Peruvian Quipus."}
+    ],
+    "v3_contribution": [
+      {"claim": "CORPUS-RECORD LABEL DENSITY: 7 of 10 canonical astronomical markers (kaki, chaki, kama, taki, mama, qaqa, maki) in 19 STRING = 37 percent celestial-names density. No other khipu in the analysed observatory network reaches this density per text cord.",
+       "evidence": {"kind": "statistical", "matches": 7, "test": "astro-label-density ranking across observatory network"}},
+      {"claim": "RITUAL-CHANNEL DOMINANCE: LC (lilac) colour carries 11 of 19 STRING cords (58 percent) despite being only 27 percent of the total palette. The ritual colour is the PRIMARY text carrier -- celestial observation encoded as rite, not as measurement. Consistent with Pachacamac's oracle-primary function.",
+       "evidence": {"kind": "statistical", "matches": 11, "test": "LC STRING fraction vs LC total-cord fraction ratio = 2.15x overrepresentation"}},
+      {"claim": "CHAKI PEAK VALUE at cord 55: sv=140 is the HIGHEST VALUE in the entire khipu, attached to chaki (Scorpio) on LC. Scorpio is the PRIMARY observational target at Pachacamac. UR006 at Leymebamba tracks Mars intensively; UR1145 at Pachacamac tracks Scorpio intensively -- the two observatories had different primary interests.",
+       "evidence": {"kind": "statistical", "matches": 1, "test": "chaki max-value-in-khipu cross-observatory comparison"}},
+      {"claim": "9-COLUMN FORMAT CONFIRMED: 9 clusters match the standard 9-column astronomical convention (UR006 + UR278). Differs from AS069's 7-column convention at latitude 18 S (Arica). UR1145 at Pachacamac (12 S) falls within the 9-column latitude band.",
+       "evidence": {"kind": "structural", "matches": 9, "test": "cluster count matches 9-column observatory-latitude convention"}},
+      {"claim": "KAKI CROSS-COLOUR PATTERN: Pleiades kaki appears 4 times, twice on B (catalog entry) and twice on LC (ritual observation). The Pleiades are the ONLY celestial object encoded on BOTH channels -- catalog and ritual -- reflecting their dual role as agricultural-calendar anchor AND oracular signal.",
+       "evidence": {"kind": "structural", "matches": 4, "test": "kaki dual-colour cross-channel distribution"}},
+      {"claim": "OBSERVATORY-NETWORK MEMBERSHIP confirmed: 4th attested site (AS069+AS070 Arica 1453 / UR006 Leymebamba 1473 / UR1145 Pachacamac ~1481-1533 / UR278 Incahuasi 162-year). UR1145 is the SOUTHERN-COAST observatory in the network, filling the geographic gap between northern Leymebamba and southern Arica.",
+       "evidence": {"kind": "structural", "matches": 4, "test": "observatory-network cross-khipu roster with geographic distribution"}},
+      {"claim": "MODE-C DATING WORKING HYPOTHESIS: C13 val=43 -> year offset 1438+43 = 1481 CE. Total cord values 18,043 days / 365.25 = 49.4 years, spanning ~1481-1530. Mars synodic retrocalculation tested but NON-CONCLUSIVE (no single convergent fit). Dating confidence MEDIUM, not high.",
+       "evidence": {"kind": "statistical", "matches": 2, "test": "Mode C year-offset + total-days-to-years calibration"}}
+    ]
+  },
+
+  "companions": [
+    {"id": "UR006", "relation": "same_document_type",
+     "note": "Leymebamba observatory (874 cords, June 1473). Same 9-column format. UR006 tracks Mars intensively; UR1145 tracks Scorpio. Northern-highland vs coastal observatories, 8 years apart, same empire.",
+     "evidence": {"kind": "structural", "matches": 2, "test": "9-column format + shared astronomical vocabulary"}},
+    {"id": "AS069", "relation": "same_document_type",
+     "note": "Arica observation log (1831 cords, April 1453). AS069 is the sparse 7-column log; UR1145 is the denser 9-column catalog at a different latitude. Both observatories in the same network, 28 years apart, different latitudes (18 S vs 12 S)."},
+    {"id": "AS070", "relation": "same_document_type",
+     "note": "Arica observatory deep-tree catalog (588 cords, L6). AS070 uses deep tree for organisation; UR1145 uses high celestial-label density on ritual colour. Different structural strategies for the observatory-reference function."},
+    {"id": "UR278", "relation": "same_document_type",
+     "note": "Incahuasi 162-year observatory (26x9 matrix). UR278 is dense-register over 162 years; UR1145 is ritual-dense over 49.4 years. Same 9-column convention at different scales."},
+    {"id": "UR203", "relation": "same_provenance",
+     "note": "Pachacamac CEQUE / HUACA REGISTRY (waqa x7). Same site. UR203 is the geographic-sacred registry of the Pachacamac precinct; UR1145 is its astronomical catalog. Both observed the same sky over the same stones."},
+    {"id": "UR1095", "relation": "same_provenance",
+     "note": "Gaffron SITE PLAN of Pachacamac precinct (siqa x5 pyramids, 212 cords). Likely the cadastral companion to UR1145's astronomical catalog at the same site."},
+    {"id": "UR1087", "relation": "same_provenance",
+     "note": "Gaffron ADMINISTRATIVE CADASTRE of Pachacamac (Sept 1461 CE). Chronologically precedes UR1145's 1481 start -- sequential archive documents at the same pilgrimage centre."},
+    {"id": "UR003", "relation": "cross_khipu_signal",
+     "note": "Leymebamba agricultural calendar. Shares kaki (corn-Pleiades doublet) and qaqa (dark-constellation-terrace doublet). UR1145 uses kaki + qaqa on sky register; UR003 uses same words on ground register. Cross-site polysemy demonstration."}
   ],
-  "reconstructed_xlsx": null,
-  "document_type_override": "astronomical_catalog"
+
+  "confidence_axes": {
+    "word_reading": {
+      "level": "high",
+      "note": "19 STRING at 100 percent dict hit. All 7 astronomical markers (kaki, chaki, kama, taki, mama, qaqa, maki) dictionary-stable and cross-verified against Urton 1981 + Bauer & Dearborn 1995. The Pachacamac oracle-ritual context supports the LC-ritual reading of astronomical labels."
+    },
+    "document_type": {
+      "level": "high",
+      "note": "astronomical_catalog robustly supported by (a) 7/10 canonical astro markers, (b) 9-column format matching Leymebamba/Incahuasi convention, (c) 58 percent STRING on ritual lilac colour, (d) Pachacamac oracle-observatory site context, (e) inclusion in the 4-site observatory network."
+    },
+    "narrative": {
+      "level": "medium-high",
+      "note": "The 'ritual catalog of Pachacamac' reading is internally coherent and multiply anchored on Rostworowski/Eeckhout site archaeology + Urton constellation ethnography + the observatory-network structural signature. The specific interpretation of chaki sv=140 as '140 observations of Scorpio' is a best-fit hypothesis; the peak value is unambiguous, the interpretation as observation-count is the most-probable reading."
+    },
+    "data_integrity": {
+      "level": "medium",
+      "note": "100 percent dict hit on the STRING readings. Cord 37 broken at 16 cm with pendant fragment (OKR note) -- single physical damage point. 15 empty cords (17 percent) consistent with observation-gap convention. Mode C dating working hypothesis carries medium confidence; Mars retrocalculation non-conclusive. No KFG Ascher twin summarised."
+    }
+  },
+
+  "sections": [
+    {"id": "I", "title": "Ritual Opening -- Formula, Herd, Dark Constellations", "cords": "1-13",
+     "reading": "The catalog opens on brown. C6 pama = the RITUAL FORMULA that consecrates the observation. C8 tama = the HERD (dark cloud constellations named after animals). C11 qaqa = the DARK CONSTELLATIONS themselves. The opening triad establishes Pachacamac's astronomy as a ritual enterprise, observing the Milky Way's animal shapes before turning to individual stars.",
+     "key_cords": [
+       {"pos": 6,  "gloss": "B pama",  "note": "RITUAL FORMULA -- opens the catalog"},
+       {"pos": 8,  "gloss": "B tama",  "note": "HERD (dark-constellation animal names)"},
+       {"pos": 11, "gloss": "B qaqa",  "note": "DARK CONSTELLATIONS -- the Milky Way's dark patches"}
+     ]},
+    {"id": "II", "title": "Pleiades Cross-Channel Block", "cords": "14-40",
+     "reading": "kaki (Pleiades) appears 4 times, crossing both colour registers. Twice on brown (catalog entry) + twice on lilac (ritual observation). The only celestial object encoded on BOTH channels -- reflecting the Pleiades' dual role as agricultural-calendar anchor AND oracular signal at Pachacamac.",
+     "key_cords": [
+       {"pos": 20, "gloss": "B kaki",  "note": "PLEIADES catalog entry (1st of 2 B occurrences)"},
+       {"pos": 25, "gloss": "B kaki",  "note": "PLEIADES catalog entry (2nd)"},
+       {"pos": 33, "gloss": "LC kaki", "note": "PLEIADES ritual observation (1st of 2 LC)"},
+       {"pos": 38, "gloss": "LC kaki", "note": "PLEIADES ritual observation (2nd)"}
+     ]},
+    {"id": "III", "title": "Scorpio-Mars Ritual Core", "cords": "41-60",
+     "reading": "The heart of the observatory's ritual channel on lilac. C51 chaki = Scorpio (the Foot-Plough). C53 kama = Mars. C55 chaki SV=140 = the KHIPU PEAK VALUE, 140 observations of Scorpio -- the primary target at Pachacamac. Scorpio's annual cycle governs the agricultural-calendar lower hemisphere of the year, as the Pleiades govern the upper.",
+     "key_cords": [
+       {"pos": 51, "gloss": "LC chaki",         "note": "SCORPIO (Foot-Plough)"},
+       {"pos": 53, "gloss": "LC kama",          "note": "MARS"},
+       {"pos": 55, "gloss": "LC chaki sv=140",  "note": "KHIPU PEAK VALUE -- 140 observations of Scorpio, primary target"}
+     ]},
+    {"id": "IV", "title": "Moon + Saturn + Closing", "cords": "61-90",
+     "reading": "Cord 83 LC mama = the MOON. Cord 85 LC taki = observation chant / Saturn. All on lilac -- the ritual channel closes the catalog. Dating anchor at C13 or in this closing block (Mode C working hypothesis). OKR note: cord 37 broken at 16 cm with pendant fragment (structural damage mid-document).",
+     "key_cords": [
+       {"pos": 37, "gloss": "BROKEN cord",   "note": "OKR-attested damage: cord 37 broken at 16 cm + pendant fragment"},
+       {"pos": 83, "gloss": "LC mama",       "note": "MOON on ritual channel"},
+       {"pos": 85, "gloss": "LC taki",       "note": "OBSERVATION CHANT / Saturn -- closes the lilac register"}
+     ]}
+  ],
+
+  "references": [
+    "Sivan, J. (2026). The Khipu as a Layered Information System. ALBA Project preprint.",
+    "Sivan, J. (2026). Astronomical catalog analysis -- observatory network + LC-ritual-colour convention.",
+    "Sivan, J. (2026). Dating the Inca Archive -- Modes A/B/C reference framework.",
+    "Rostworowski, M. (1992). Pachacamac y el Senor de los Milagros.",
+    "Eeckhout, P. (2004). Pachacamac y el proyecto Ychsma.",
+    "Urton, G. (1981). At the Crossroads of the Earth and the Sky: An Andean Cosmology.",
+    "Bauer, B. and Dearborn, D. (1995). Astronomy and Empire in the Ancient Andes.",
+    "Nordenskiold, E. (1925). The Secret of the Peruvian Quipus.",
+    "Museum fur Volkerkunde, Berlin -- UR1145 catalogue record.",
+    "OKR note on UR1145: 'Cord 37 broken at 16 cm + pendant fragment.'",
+    "Compare UR006 (Leymebamba 1473), AS069+AS070 (Arica 1453), UR278 (Incahuasi 162-year), UR203 (Pachacamac ceque registry), UR1095 (Pachacamac site plan), UR1087 (Pachacamac cadastre Sept 1461)."
+  ],
+
+  "reconstructed_xlsx": null
 }

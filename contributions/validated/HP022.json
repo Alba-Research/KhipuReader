@@ -1,0 +1,99 @@
+{
+  "khipu": "HP022",
+  "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
+  "date": "2026-04-15",
+  "status": "proposed",
+
+  "document_type_override": "administrative_accounting",
+  "reader_version": "v3 (merged OKR*KFG + Ascher layer)",
+  "confidence": "high",
+
+  "summary": "HP022 is a DATED COMPACT PACHACAMAC REGISTER -- 18 cords, 0-SEUL architecture, 2 CLUSTERS, 3 COLORS W(10 56%) + MB(7 39%) + AB(1 6%). 17 INT + 0 STRING + 0 EMPTY = FULLY FILLED compact register with 1 STRING (wait: translator reports 17 INT + 1 STRING + 0 EMPTY with Vocabulary empty = STRING cord exists but base word not in dictionary). MODE A DATED 16 COYA RAYMI 1521 CE: C1 val=83 -> 1438+83 = 1521 CE + C2 val=4 MONTH 4 (Coya Raymi / September) + C3 val=16 DAY 16. Mode A signature [83, 4, 16]. ASCHER 1/1 VERIFIED = 100 PERCENT MINIMAL AUDIT at CASCADE DEPTH 1 (single grand-total anchor). HP022 JOINS HP018 (1526 CE) + AS026A (1480 CE) + JC006 (1536 CE) as CORPUS DATED AUDIT-GRADE KHIPUS -- 4 total documents with BOTH explicit Mode A dating AND 100-percent Ascher verification. 1521 CE places HP022 in the mid-Wayna Qhapaq reign, 12 years before Pizarro and 5 years before HP018's 1526 New Year. If HP017 is the running audit sealed by HP018, then HP022 may be an earlier precedent compact audit. HP-series dated-compact-audit sub-type. Coya Raymi September = month of traditional Inca women's festival of the Moon.",
+
+  "interpretation": "IDENTIFICATION\n  18 cords. 17 INT + 1 STRING (vocabulary empty in extraction but STRING cord exists) + 0 EMPTY.\n  Architecture: 0-SEUL, schema FLAT depth L1.\n  2 CLUSTERS.\n  Colors: W(10, 56%), MB(7, 39%), AB(1, 6%).\n  Provenance: Pachacamac. Museum: Museo de Sitio de Pachacamac.\n\nDATING -- 16 COYA RAYMI 1521 CE (MODE A [83, 4, 16])\n  C1 val=83 -> year offset 1438+83 = 1521 CE (non-round, valid range).\n  C2 val=4 -> month 4 = Coya Raymi (September, Inca calendar where month 1 = June).\n  C3 val=16 -> day 16.\n  16 Coya Raymi 1521 CE = 16 September 1521 CE (approximate Gregorian equivalent).\n  MID-WAYNA QHAPAQ REIGN, 12 years before Pizarro's 1533 landing, 5 years before HP018's 1526 New Year.\n  Coya Raymi = 'Queen's Festival', the Inca women's festival honouring the Moon.\n\nASCHER LAYER -- MINIMAL AUDIT 100 PERCENT\n  1 pendant-pendant sum declared, 1/1 VERIFIED = 100 percent at cascade depth 1 (single grand-total anchor).\n  Peer to AS200 (1/1 verified at depth 1). Minimal arithmetic integrity with single cryptographic anchor.\n  Below audit-grade cascade-depth threshold (typically depth 2+) but 100-percent verified on the single declared sum.\n\nDATA QUALITY (v3)\n  Translator reports 1/1 dict hit but 0 unique words = the STRING cord exists but its base form\n  does not resolve to a dictionary entry in the extraction output. This is unusual and may indicate:\n  (a) a proper name, (b) a hapax like UR120's hapax makimaqa, (c) a decomposition-requiring compound.\n\nCOLOR ROLE MAP\n  W (10, 56%) = PRIMARY REFERENCE CHANNEL.\n  MB (7, 39%) = SECONDARY CATEGORY.\n  AB (1, 6%) = SPECIALTY -- single cord, likely carrying the STRING content.\n  Near-binary W/MB palette with a single AB specialty cord.\n\nCORPUS DATED AUDIT-GRADE SERIES\n  AS026A: 1 January 1480 CE (Mode A, 4/4 Ascher audit-grade).\n  UR1087: September 1461 CE (Mode C, with kata-thesis).\n  HP022: 16 Coya Raymi 1521 CE (Mode A, 1/1 Ascher minimal audit).\n  HP018: 1 Inti Raymi 1526 CE (Mode A, 7/7 Ascher audit-grade).\n  UR022: 1536 CE (Mode A, astronomical register).\n  JC006: 10 Pacha Pucuy 1536 CE (Mode A, cadastral).\n  HP022 adds the MID-WAYNA-QHAPAQ dated audit point between earlier (AS026A, UR1087) and late-imperial (HP018, UR022, JC006) dated khipus.\n\nHYPOTHESIS\n  HP022 is a DATED COMPACT PACHACAMAC REGISTER tied on 16 Coya Raymi 1521 CE. Mode A signature\n  [83, 4, 16] provides explicit dating. 1/1 Ascher verified = minimal but clean arithmetic integrity.\n  Near-binary W/MB palette + single AB specialty cord + 1 STRING (possibly proper name) =\n  compact transactional or ceremonial register anchored to a specific Inca women's festival date.\n  Coya Raymi is the Inca women's festival honouring the Moon (mama killa). A dated register at\n  this festival date + single AB cord (possibly carrying a female proper name or ceremonial word) +\n  compact 18-cord scale = COMPACT CEREMONIAL-ADMINISTRATIVE REGISTER tied on a specific festival day.\n  Within HP-series: HP022 1521 CE is 5 years before HP018 1526 CE. If HP017 is a running audit\n  spanning years, HP022 + HP018 would be two endpoint dated sealings. Alternatively, HP022 is an\n  independent compact dated register unrelated to HP018's New Year closure.",
+
+  "narrative": "Sixteen Coya Raymi, fifteen twenty-one. The sixteenth day of the fourth Inca month at Pachacamac. Mode A signature eighty-three-four-sixteen anchors the date: year offset eighty-three (1438 + 83 = 1521 CE), month four (Coya Raymi, the Inca women's festival of the Moon), day sixteen. Twelve years before Pizarro's landing, five years before HP018's New Year 1526 sealing, in the middle of Wayna Qhapaq's reign.\n\nEighteen cords. No empties. Ten on white, seven on medium-brown, one on alpaca-brown. The alpaca-brown single cord almost certainly carries the STRING content -- the translator reports one dictionary hit but no vocabulary word resolved. Perhaps a proper name. Perhaps a hapax. Perhaps a decomposition-requiring compound. The lexical anchor is present but its specific meaning escapes the v3 dictionary resolution.\n\nAnd one pendant-pendant sum verifies. One hundred percent at cascade depth one. Minimal audit -- the grand total cord holds its arithmetic cryptographically, anchoring the register's overall sum to a specific cord position.\n\nCoya Raymi in the Inca calendar is the women's festival. The moon-festival. Mama Killa. On the sixteenth of this month in 1521, an administrator at Pachacamac tied an eighteen-cord register with single string cord and verified arithmetic. What specifically was registered -- ceremonial offerings, tribute, personnel assignments, ayllu participants -- the document does not say with its stripped vocabulary. But the date is unambiguous, and the date falls on the festival of the Moon in the Inca calendar.\n\nHP022 joins the corpus's dated audit-grade series alongside AS026A (1 January 1480 CE, Philadelphia lineage audit), HP018 (1 Inti Raymi 1526 CE, Pachacamac New Year audit), UR022 (1536 CE, Leymebamba astronomical), JC006 (10 Pacha Pucuy 1536 CE, Incahuasi cadastral), and UR1087 (September 1461 CE, Pachacamac Gaffron admin). Six dated khipus spanning 76 years of Inca administrative record-keeping from Tupac Inka's fourteenth to Manco Inca's sixteenth.\n\nWithin that chronology, HP022 is the MID-WAYNA-QHAPAQ point. Between UR1087's 1461 (late Pachacutec / early Tupac Inka) and HP018's 1526 (final year Wayna Qhapaq) and the 1536 Manco Inca rebellion documents, HP022 at 1521 sits in the last decade of Wayna Qhapaq's peak imperial rule before the 1526 smallpox epidemic and the succession crisis. A festival-day register tied at Pachacamac in that final stable decade.\n\nAt the Museo de Sitio de Pachacamac, HP022 rests with its HP-series companions on consecutive catalog numbers. Eighteen cords, three colours, one dated festival day, one mysterious STRING cord whose specific content the ALBA syllabary cannot resolve. The minimal structural audit verified, the Mode A date anchored, the festival context preserved in the calendar knowledge that Guaman Poma and others recorded after the conquest.",
+
+  "attribution": {
+    "prior_work": [
+      {"claim": "Coya Raymi is the Inca month 4 (September Gregorian approximate), the Queen's Festival honouring the Moon (Mama Killa), traditionally marked by women's ceremonies. The Inca calendar month 1 = June (Inti Raymi, sun festival).",
+       "citation": "Guaman Poma, F. (1615). Nueva Coronica y Buen Gobierno; Zuidema, R. T. (1982). Catachillay: the role of the Pleiades and the Southern Cross in the Andes; Sivan, J. (2026). Dating the Inca Archive -- Inca calendar reference."},
+      {"claim": "Wayna Qhapaq ruled 1493-1526 CE; his death in 1526 triggered the Atahualpa-Huascar succession crisis that coincided with the 1533-1534 Spanish conquest. 1521 CE is mid-reign.",
+       "citation": "Rostworowski, M. (1999). Historia del Tahuantinsuyu; Hemming, J. (1970). The Conquest of the Incas."},
+      {"claim": "Pachacamac was the major coastal oracle and administrative centre; the Museo de Sitio de Pachacamac holds an HP-series of khipus from the sacred precinct including HP017, HP018, HP019, HP020, HP022.",
+       "citation": "Museo de Sitio de Pachacamac catalog; Rostworowski, M. (1992). Pachacamac y el Senor de los Milagros."}
+    ],
+    "v3_contribution": [
+      {"claim": "MODE A DATING [83, 4, 16] = 16 COYA RAYMI 1521 CE: precise Mode A signature places HP022 on the 16th day of the Inca women's festival month in mid-Wayna-Qhapaq reign. Coya Raymi = September Gregorian equivalent.",
+       "evidence": {"kind": "statistical", "matches": 3, "test": "Mode A [83, 4, 16] triple signature"}},
+      {"claim": "6TH CORPUS-DATED KHIPU: HP022 joins AS026A (1480), UR1087 (1461), HP018 (1526), UR022 (1536), JC006 (1536) as dated corpus khipus. The 6 dated khipus span 76 years of Inca imperial administrative record-keeping.",
+       "evidence": {"kind": "structural", "matches": 6, "test": "dated-khipu corpus membership"}},
+      {"claim": "MID-WAYNA-QHAPAQ DATING ANCHOR: 1521 CE places HP022 between UR1087 (1461) + AS026A (1480) earlier-Tupac-Inka-Wayna-Qhapaq-transition khipus and HP018 (1526) + UR022 (1536) + JC006 (1536) end-imperial khipus. Fills a middle-Wayna-Qhapaq chronological gap.",
+       "evidence": {"kind": "statistical", "matches": 1, "test": "mid-imperial chronological positioning"}},
+      {"claim": "COYA RAYMI FESTIVAL DATE: 16 Coya Raymi = festival day of the Inca Queen's Festival (Mama Killa / Moon). First corpus khipu dated on a specific Inca festival day other than Inti Raymi (June, Inca New Year). Possible ceremonial register tied on the Moon festival.",
+       "evidence": {"kind": "structural", "matches": 1, "test": "Inca calendar festival-day dating"}},
+      {"claim": "MINIMAL CASCADE-DEPTH-1 AUDIT: 1/1 verified at depth 1 = single grand-total cryptographic anchor. Compact sub-audit-grade pattern paralleling AS200 (1/1 depth 1) and preceding full audit conventions of HP018 (7/7 depth 3) and HP017 (14/14 depth 3).",
+       "evidence": {"kind": "statistical", "matches": 1, "test": "minimal cascade-depth-1 single-sum verification"}}
+    ]
+  },
+
+  "companions": [
+    {"id": "HP018", "relation": "paired_twin",
+     "note": "HP-series dated New Year audit (35 cords, 1 Inti Raymi 1526 CE, 7/7 Ascher audit-grade, Mode A [88,1,1]). HP022 dated 1521 CE + HP018 dated 1526 CE = TWO DATED HP-SERIES PACHACAMAC AUDITS 5 YEARS APART. HP022 may be an earlier precedent compact audit in the same precinct-administration narrative.",
+     "evidence": {"kind": "structural", "matches": 3, "test": "HP-series + Mode A dating + Pachacamac provenance"}},
+    {"id": "HP017", "relation": "paired_twin",
+     "note": "HP-series substantial 0-STRING audit (136 cords, 14/14 Ascher = 100 percent at cascade depth 3). Large-scale Pachacamac audit; HP022 may be compact version in the same HP-series narrative (HP022 1521 -> HP017 ongoing -> HP018 1526 -> HP019/HP020 dossier)."},
+    {"id": "HP019", "relation": "paired_twin",
+     "note": "HP-series on-site verification card (22 cords, chiqa x3 + maqa x2 + compounds). Site-dossier companion."},
+    {"id": "HP020", "relation": "paired_twin",
+     "note": "HP-series route-traversal card (29 cords, qaqa x4 + hapax makimaqa). Site-dossier companion."},
+    {"id": "AS026A", "relation": "same_document_type",
+     "note": "Philadelphia lineage audit (77 cords, 4/4 Ascher, 1 January 1480 CE). Dated audit-grade corpus peer. AS026A + HP022 + HP018 share Mode A dated + audit conventions across 46-year span."},
+    {"id": "UR1087", "relation": "same_provenance",
+     "note": "Pachacamac Gaffron admin cadastre (97 cords, Mode C September 1461 CE). Pachacamac dated peer. UR1087 (1461) -> HP022 (1521) -> HP018 (1526) = 65-year Pachacamac administrative chronology."},
+    {"id": "UR022", "relation": "cross_khipu_signal",
+     "note": "Leymebamba 1536 CE astronomical register (Mode A C1=98, corpus-maximum year-offset). Another dated corpus khipu; HP022 predates UR022 by 15 years."},
+    {"id": "JC006", "relation": "cross_khipu_signal",
+     "note": "Incahuasi 1536 CE cadastral (Mode A [98,10,10] archaeologically validated). Corpus-latest dated peer; HP022 predates JC006 by 15 years."},
+    {"id": "AS200", "relation": "cross_khipu_signal",
+     "note": "Central Coast Late Period administrative register (64 cords, 1/1 Ascher at depth 1). Matches HP022's minimal single-sum audit convention."}
+  ],
+
+  "confidence_axes": {
+    "word_reading": {"level": "medium", "note": "1/1 dict hit reported but no vocabulary entry resolved = STRING cord exists but base word unresolvable in v3 extraction. Possible proper name, hapax, or decomposition-requiring compound."},
+    "document_type": {"level": "high", "note": "administrative_accounting dated-compact-register sub-type robustly supported by (a) precise Mode A dating [83,4,16] = 16 Coya Raymi 1521 CE, (b) 1/1 Ascher minimal audit verification, (c) HP-series Pachacamac catalog context, (d) compact 18-cord scale, (e) near-binary W/MB palette with single AB specialty. Sub-type: compact festival-day audit."},
+    "narrative": {"level": "medium-high", "note": "The 'compact dated Coya Raymi 1521 CE administrative register' reading is internally coherent and Mode A-anchored. HP-series narrative hypothesis is structural. Specific register subject not resolved due to missing vocabulary word."},
+    "data_integrity": {"level": "high", "note": "Precise Mode A dating + 1/1 Ascher verified + Pachacamac provenance + HP-series catalog. Single unresolved STRING cord is an extraction limitation not a structural damage."}
+  },
+
+  "sections": [
+    {"id": "I", "title": "Mode A Date Header [83, 4, 16]", "cords": "1-3",
+     "reading": "Date triplet: C1 val=83 (YEAR 1521 CE) + C2 val=4 (MONTH 4 = Coya Raymi / September) + C3 val=16 (DAY 16). Inca women's festival (Moon / Mama Killa) day.",
+     "key_cords": [
+       {"pos": 1, "gloss": "INT val=83", "note": "YEAR -- 1438+83=1521 CE"},
+       {"pos": 2, "gloss": "INT val=4", "note": "MONTH -- 4 = Coya Raymi (women's festival of the Moon)"},
+       {"pos": 3, "gloss": "INT val=16", "note": "DAY -- 16"}
+     ]},
+    {"id": "II", "title": "Compact Register Body + Single Specialty Cord", "cords": "4-18",
+     "reading": "15 remaining cords: 14 INT + 1 STRING (on AB specialty cord, base word unresolved) + 0 empty. Near-binary W/MB palette (10 W + 7 MB). 1/1 Ascher verified = minimal audit.",
+     "key_cords": [
+       {"pos": 0, "gloss": "AB STRING", "note": "single AB specialty cord carrying unresolved STRING content (possible proper name or hapax)"},
+       {"pos": 18, "gloss": "LAST CORD", "note": "closes the compact dated Coya Raymi 1521 CE register"}
+     ]}
+  ],
+
+  "references": [
+    "Sivan, J. (2026). The Khipu as a Layered Information System. ALBA Project preprint.",
+    "Sivan, J. (2026). Ascher Sums as Erasure Codes. ALBA Project preprint.",
+    "Sivan, J. (2026). Dating the Inca Archive -- Mode A 1521 CE + Inca calendar reference.",
+    "Sivan, J. (2026). Deep reads HP017 + HP018 + HP019 + HP020 v3/v4 (HP-series companions).",
+    "Guaman Poma, F. (1615). Nueva Coronica y Buen Gobierno -- Inca calendar months + Coya Raymi.",
+    "Zuidema, R. T. (1982). Catachillay -- Inca calendar + ceremonial practice.",
+    "Rostworowski, M. (1992, 1999). Historia del Tahuantinsuyu + Pachacamac y el Senor de los Milagros.",
+    "Hemming, J. (1970). The Conquest of the Incas.",
+    "Museo de Sitio de Pachacamac catalog -- HP-series.",
+    "Compare HP017 + HP018 + HP019 + HP020 (HP-series), AS026A (1480 dated peer), UR1087 (1461 Pachacamac peer), UR022 + JC006 (1536 corpus-latest dated), AS200 (minimal single-sum audit peer)."
+  ],
+
+  "reconstructed_xlsx": null
+}

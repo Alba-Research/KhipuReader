@@ -1,0 +1,68 @@
+{
+  "khipu": "UR186",
+  "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
+  "date": "2026-04-15",
+  "status": "proposed",
+
+  "document_type_override": "administrative_accounting",
+  "reader_version": "v3 (merged OKR*KFG + Ascher layer)",
+  "confidence": "medium",
+
+  "summary": "UR186 is a TEXT-RICH ADMINISTRATIVE REGISTER with MIXED CADASTRAL + GOVERNANCE + JURIDICAL-ADJACENT VOCABULARY. 63 cords, 42 INT, 7 STRING (6 distinct words) + 14 EMPTY (22 percent). KH twin KH0424. VOCABULARY: chiqa x2 (verification / truth) + taqa x1 (boundary) + wapa x1 (administrator / economist) + waki x1 (communal labor / orphan) + chaqa x1 (slaughter / delivery / bridge) + taka x1 (to strike). Semantic diversity is unusual: the 6 roots span cadastral (taqa), governance (wapa), labor (waki), administrative-commodity (chaqa, chiqa) AND potentially juridical (taka) domains. This is NOT a pure cadastre (only 1 cadastral marker taqa), NOT a juridical proceeding (only 1 violence word taka, violence-suppression threshold 3+ not met), NOT a pure commodity register. Most parsimonious reading: MIXED ADMINISTRATIVE AUDIT register aggregating events across multiple administrative categories. Ascher layer: 6 pendant-pendant sums declared but 0/6 verified = arithmetic BROKEN (mirrors UR262 + UR263 Kallanka pattern). Provenance unknown. Classification relies on 7 STRING vocabulary + structural signature + 0-Ascher-integrity. ",
+
+  "interpretation": "IDENTIFICATION\n  63 cords. 42 INT, 7 STRING (6 unique: chiqa x2 + taqa + wapa + waki + chaqa + taka), 14 EMPTY (22 percent).\n  Architecture: default.\n  Provenance: UNKNOWN. KFG twin KH0424.\n\nVOCABULARY (7 STRING, 6 unique, 100 percent dict hit)\n  chiqa x2 -- TRUTH / VERIFICATION (cadastral-audit marker)\n  taqa x1 -- BOUNDARY (cadastral)\n  wapa x1 -- ADMINISTRATOR / ECONOMIST (governance)\n  waki x1 -- COMMUNAL LABOR / ORPHAN (labor)\n  chaqa x1 -- SLAUGHTER (juridical) / DELIVERY or BRIDGE (cadastral-admin)\n  taka x1 -- TO STRIKE (juridical) / tally-mark (admin)\n  6 distinct domains (cadastre, governance, labor, admin-commodity, potentially juridical).\n\nMULTI-DOMAIN VOCABULARY PROFILE\n  Cadastral: taqa + chiqa x2 = 3 cords (boundary + verification).\n  Governance: wapa = 1 cord.\n  Labor: waki = 1 cord.\n  Commodity/delivery: chaqa = 1 cord (alternative reading: juridical 'slaughter').\n  Potentially juridical: taka = 1 cord (single strike word, below violence-suppression threshold 3+).\n  No strong single-class signature fires: cadastral at 3/8 (below full), juridical at 1-2/3+ violence\n  words (below threshold), governance at 1 marker only.\n\nASCHER LAYER -- BROKEN\n  6 pendant-pendant sums declared.\n  Verified: 0/6 = 0 PERCENT. Arithmetic layer fully broken.\n  Max cascade depth: 2 (shallow).\n  Pass 3C: 0 propagations.\n  Matches UR262 + UR263 Kallanka broken-arithmetic pattern at smaller scale.\n\nHYPOTHESIS\n  UR186 is a MIXED ADMINISTRATIVE REGISTER aggregating events across multiple administrative domains\n  at an unknown Inca site. The 6-domain vocabulary signature is distinctive: not pure cadastral\n  (1 taqa + 2 chiqa), not pure juridical (1 taka + 1 chaqa = below violence threshold), not pure\n  governance (1 wapa), not pure labor (1 waki). Most parsimonious reading: the document audits\n  events across ALL administrative categories at aggregate level, with one-STRING-per-category\n  anchoring distinguishing the audit's scope.\n  Without provenance or Ascher integrity, specific classification remains tentative. The 0/6 Ascher\n  pattern parallels UR262 + UR263 Kallanka master-register + day-book pair; UR186 may be a similar\n  compound-document component with audited counterpart unidentified.",
+
+  "narrative": "Seven string cords across sixty-three total. Six unique words, each from a different Inca administrative domain. Chiqa twice: verification, truth. Taqa once: boundary, cadastral anchor. Wapa once: the administrator, the governance actor. Waki once: communal labor or reciprocity. Chaqa once: in commodity context a delivery across a boundary, in juridical context slaughter. Taka once: to strike, the charge verb in juridical registers.\n\nThis vocabulary is not a pure cadastre. UR1095 at Pachacamac has 5 cadastral markers at full signature; UR186 has only 3. Not a pure juridical dossier. UR176 at Chuquitanta has 3+ violence words meeting the threshold; UR186 has only 1 taka + 1 ambiguous chaqa. Not a pure governance register. UR144 at Pisco has kama x15; UR186 has 1 wapa. Not a pure labor register. UR177 at Chuquitanta has maki x15; UR186 has 1 waki.\n\nWhat UR186 has is ONE WORD FROM EACH DOMAIN. The scribe registered something that touched every administrative category without specialising in any.\n\nThe arithmetic is broken. Six pendant-pendant sums declared, zero verified. Zero-of-six matches UR262 at Incahuasi Kallanka (the wrapped master register with 0/12 Ascher) and UR263 (the fragmented day-book with 0/8 Ascher). UR186 may belong to the same class of administrative registers whose arithmetic failed in the merge or whose verification was never structurally present.\n\nCompact register — sixty-three cords, twenty-two percent empty, seven text anchors spread across the document. Each STRING cord names a category; the forty-two INT cords then quantify across those named categories. UR186 is an AGGREGATE AUDIT across multiple Inca administrative domains — without knowing where it was tied or whom it audited.\n\nTwo chiqa cords means verification mattered to the scribe even when the final Ascher-sum layer did not confirm it. The document says 'truth' twice. Two certifications. And between them, the boundary, the administrator, the labor, the delivery, the strike. All six bureaucratic actions of the Inca administrative apparatus packed into sixty-three cords.\n\nKh0424 in the Khipu Field Guide. UR186 in the Open Khipu Repository. Both catalog numbers preserve the object; neither preserves its purpose.",
+
+  "attribution": {
+    "prior_work": [
+      {"claim": "Multi-domain administrative vocabulary (cadastre + governance + labor + audit) is attested across Inca khipus; each domain has its canonical word set (cadastre: qaqa/kaqa/taqa/paqa; governance: kama/wapa; labor: maki/kiki/waki).",
+       "citation": "Gonzalez Holguin, D. (1608). Vocabulario; Bertonio, L. (1612); Sivan, J. (2026). Cross-domain khipu vocabulary analysis."},
+      {"claim": "Broken-arithmetic Ascher profiles (0/N verified) appear on damaged compound-document halves (UR262 0/12, UR263 0/8) at Incahuasi Kallanka. The pattern is consistent with cumulative arithmetic damage.",
+       "citation": "Sivan, J. (2026). Ascher Sums as Erasure Codes. ALBA Project preprint."}
+    ],
+    "v3_contribution": [
+      {"claim": "MULTI-DOMAIN VOCABULARY SIGNATURE: 6 distinct roots from 5 administrative domains (cadastre / governance / labor / commodity / juridical-adjacent) on a compact 63-cord register. First documented corpus instance of this exact 6-domain-marker spread.",
+       "evidence": {"kind": "structural", "matches": 6, "test": "6-domain vocabulary spread on single compact register"}},
+      {"claim": "0/6 ASCHER BROKEN ARITHMETIC: 100 percent audit-verification failure. Matches UR262 + UR263 Kallanka pattern. Suggests UR186 may belong to a compound-document pair whose other half carries the arithmetic counterpart.",
+       "evidence": {"kind": "statistical", "matches": 6, "test": "0-of-6 Ascher verification rate"}},
+      {"claim": "NO SINGLE-DOMAIN CLASSIFICATION FIRES: cadastral 3/8 markers (below full), juridical 1-2/3+ violence words (below threshold), governance 1/5 (below mid), labor 1/3 (below low). UR186 is a MIXED AUDIT sub-type distinct from the standard document-type signatures.",
+       "evidence": {"kind": "structural", "matches": 5, "test": "5-class classification-test non-firing on a single document"}}
+    ]
+  },
+
+  "companions": [
+    {"id": "UR262", "relation": "same_document_type",
+     "note": "Incahuasi Kallanka wrapped master register (490 cords, 0/12 Ascher). UR186's 0/6 Ascher pattern matches UR262's broken-arithmetic profile -- possibly a compound-document component at different scale."},
+    {"id": "UR263", "relation": "same_document_type",
+     "note": "Incahuasi Kallanka 'Khipu Urton' day-book (237 cords, 0/8 Ascher). Similar broken-arithmetic profile as UR186."},
+    {"id": "UR196", "relation": "cross_khipu_signal",
+     "note": "Pachacamac cadastral verification register (132 cords, chiqa x6). UR186 has chiqa x2 + thread-in-knot convention not catalogued. Miniature verification-signature."},
+    {"id": "UR182", "relation": "cross_khipu_signal",
+     "note": "Compact huaca-wall register (30 cords, 3 STRING waqa x2 + kaqa). UR186 is similar compact scale but with 6-domain spread rather than 2-huaca focused."}
+  ],
+
+  "confidence_axes": {
+    "word_reading": {"level": "high", "note": "7/7 STRING at 100 percent dict hit. 6 canonical administrative-vocabulary roots unambiguous."},
+    "document_type": {"level": "medium", "note": "administrative_accounting mixed-audit sub-type supported by 6-domain vocabulary spread + compact register scale. No single-class signature fires at full strength."},
+    "narrative": {"level": "medium", "note": "The 'aggregate audit across multiple administrative domains' reading is internally coherent. Specific subject / provenance undetermined."},
+    "data_integrity": {"level": "medium", "note": "0/6 Ascher verified (arithmetic broken). 22 percent empty structural. No OKR notes. Unknown provenance limits external anchoring."}
+  },
+
+  "sections": [
+    {"id": "I", "title": "Mixed Multi-Domain Administrative Register", "cords": "1-63",
+     "reading": "63 cords with 6 unique administrative-domain markers distributed across the register: chiqa (verification) x2, taqa (boundary), wapa (administrator), waki (labor), chaqa (delivery/slaughter), taka (strike). 42 INT cords quantify across these named domains. 14 empty cords phase-segment the register. 0/6 Ascher verified = broken arithmetic.",
+     "key_cords": [
+       {"pos": 0, "gloss": "STRING x7", "note": "6-domain multi-word administrative vocabulary"},
+       {"pos": 63, "gloss": "LAST CORD", "note": "closes the 63-cord multi-domain register"}
+     ]}
+  ],
+
+  "references": [
+    "Sivan, J. (2026). The Khipu as a Layered Information System. ALBA Project preprint.",
+    "Gonzalez Holguin, D. (1608). Vocabulario -- multi-domain vocabulary base glosses.",
+    "Compare UR262 + UR263 (Kallanka broken-arithmetic pair), UR196 (chiqa-dense verification), UR182 (huaca-wall compact register), UR186 KFG twin KH0424."
+  ],
+
+  "reconstructed_xlsx": null
+}

@@ -1,18 +1,126 @@
 {
   "khipu": "AS026B",
   "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
-  "date": "2026-03-27",
+  "date": "2026-04-15",
   "status": "proposed",
+
+  "document_type_override": "lineage_land_registry",
+  "reader_version": "v3 (merged OKR*KFG + Ascher layer)",
   "confidence": "medium-high",
-  "summary": "Lineage register listing 14 ayllu lineages identified by their maternal uncle (kaka x14 = 67% of all text). 260 cords in paired format (1-PAIRE), 5 colors. Binary subsidiary data (103/150 subsidiaries carry value 1) = checklist/roll call format. Organized into 11 groups + 2 singles. Originally physically joined to AS026A (compound document). Aymara terms: kaki (corn rations), kaqa (terrace wall). University Museum, U. Penn. 21 STRING, 95% coverage.",
-  "interpretation": "IDENTIFICATION\n  260 cords (L1: 105, L2: 139, L3: 16). Architecture: 1-PAIRE (L2/L1 = 1.32).\n  5 colors: B(136), W(79), GG(20), KB(19), FB(6).\n  13 sections: 11 groups + 2 individuals.\n  Provenance: Unknown. Museum: University Museum, University of Pennsylvania.\n  Linked to AS026A — originally joined, separated for study.\n  21 STRING (95% hits — 20/21), 208 INT, 31 EMPTY.\n  OKR: 'Quipus AS026A and AS026B were joined.' = compound khipu.\n  OKR: 'Most of the subsidiaries (103 of 150) have one knot... interpreted as value 1.' = BINARY checklist format.\n\nFIRST WORD / LAST WORD\n  First word (C30, B): kaka = 'maternal uncle' — the thesis. Document is ABOUT uncles.\n  Last word (C97, W): kaqa = 'wall (AY)' — closing on infrastructure, not a person.\n\nHYPOTHESIS\n  AS026B is a LINEAGE REGISTER — a list of 14 ayllu lineages identified by their maternal uncle (kaka). Each kaka entry on a B (brown) cord functions as a CATEGORY HEADER, with 1-2 L2 subsidiaries carrying binary (0/1) check marks — possibly census counts, attendance records, or tribute confirmations. The 14 uncles represent 14 lineage divisions.\n\nKEY VOCABULARY\n  kaka (maternal uncle x14, all B) = LINEAGE HEAD, 14 ayllu uncles\n  kaki (corn x2, B) = tribute in kind (AY)\n  kaqa (terrace wall x2, W) = agricultural infrastructure (AY)\n  chiqa (verification x1, W) = the register has been checked\n  kiki (self x1, B) = individual mit'a worker\n  taka (strike x1, B) = single violence reference\n  Violence = 1 (just taka x1), Kinship = 14 (kaka x14) -> cross-suppression rule: violence < 2 -> NOT juridical. Pure LINEAGE.\n\nCOLOR-AS-ROLE\n  B (brown, 136 cords, 18 STRING): LINEAGE DATA — the uncles and their attributes.\n  W (white, 79 cords, 3 STRING): GEOGRAPHIC/VERIFICATION — infrastructure and truth.\n  GG (gray, 20 cords, 0 STRING): JUSTICE/IDENTITY — numerical data (counts/fines?).\n  KB (dark brown, 19 cords, 0 STRING): OBJECTS — secondary numerical data.\n  FB (light brown, 6 cords, 0 STRING): ACTION — minimal.\n  ALL 14 uncle entries are on B cords. W cords carry geographic context.\n\nSTRUCTURE\n  14 empties at positions 1-2 (header prepared but never filled). Then 11 groups + 2 singles = 13 sections, each centered on a kaka (uncle) entry.\n  Paired format: L1 [B] = kaka (uncle = lineage head), L2 = value 1 (check mark = presence/counted).\n  This is a ROLL CALL — a list of lineages where each uncle's presence or compliance is marked with a knot.\n\nCROSS-CORPUS\n  AS026B vs UR039 (Huari, juridical): Both uncle-centered but opposite functions.\n    AS026B: kaka x14 (67%), taka x1, violence=1 = LINEAGE (roll call)\n    UR039: kaka x10 (16%), taka x14, violence=14 = JURIDICAL (trial)\n  Same protagonist, different stories: AS026B = who is present, UR039 = who struck whom.\n  AS026A (missing companion): physically joined to AS026B, likely carries different data about the same 14 lineages.\n\nNARRATIVE — THE FOURTEEN UNCLES\n  Fourteen uncles stand before the administrator. That is what this khipu says — fourteen times, the word kaka, the maternal uncle, the head of the ayllu. Cord after cord, in brown thread, the same word: uncle, uncle, uncle. Each one a lineage, a family, a group of workers who owe labor to the state.\n  The administrator marks each one. Below each uncle's cord, a subsidiary carries a single knot — value 1. Present. Counted. Accounted for. One hundred and three of the one hundred and fifty subsidiaries carry this solitary knot: the simplest possible record. Were you here? Yes. Did you bring your tribute? A knot that says one.\n  Two cords of corn (kaki) — dried corn, the Aymara word, because this is the coast or the borderland where both languages meet. Two cords of wall (kaqa) — terrace walls, in Aymara again. The agricultural infrastructure that the uncles maintain. One cord of truth (chiqa) — verification. The administrator checked. The record is true.\n  One cord of strike (taka) — a single violent word in a peaceful register. Was one uncle struck? Was one lineage punished? Or is this the word for a specific type of agricultural labor — taka as 'to cut' rather than 'to strike'?\n  The last word is kaqa — a wall. The register ends not on a person but on infrastructure. The uncles have been counted, their corn noted, their walls recorded. The khipu closes on what they built.",
-  "references": [
-    "Sivan 2026, ALBA Project — Lineage register analysis, binary subsidiary pattern",
-    "OKR: AS026A+B originally joined, binary subsidiaries documented",
-    "Inca ayllu system: maternal uncle = lineage head — Rostworowski 1999, Historia del Tahuantinsuyu",
-    "University Museum, University of Pennsylvania",
-    "Cross-corpus: UR039 (uncle-dominated judicial), UR110 (juridical dossier)"
+
+  "summary": "AS026B is a LINEAGE REGISTER listing 14 ayllu lineages identified by their MATERNAL UNCLE (kaka x14 = 67 percent of all text). 260 cords in 1-PAIRE paired architecture (L2/L1 = 1.32) organised into 13 sections (11 groups + 2 singleton lineages). Provenance unknown. Held at the University Museum, University of Pennsylvania. KEY PHYSICAL FEATURE: AS026B was originally PHYSICALLY JOINED to AS026A (a compound khipu separated during study). OKR note: 'Quipus AS026A and AS026B were joined.' + 'Most of the subsidiaries (103 of 150) have one knot ... interpreted as value 1.' 103 of 150 subsidiaries carry VALUE 1 = BINARY CHECKLIST / ROLL CALL format. Each L1 kaka cord on B (brown) functions as a CATEGORY HEADER (= one of the 14 ayllu lineage heads); each L2 subsidiary = a check mark for presence / attendance / tribute compliance. Aymara vocabulary (kaki = corn, kaqa = terrace wall) confirms coastal Aymara zone. 21 STRING at 95 percent dict hit. 5 colors: B(136), W(79), GG(20), KB(19), FB(6). VIOLENCE SUPPRESSION CHECK: taka x1 (single strike word) + kaka x14 = violence<2 threshold -> NOT juridical. Pure LINEAGE REGISTER, not a trial.",
+
+  "interpretation": "IDENTIFICATION\n  260 cords (L1: 105, L2: 139, L3: 16). Architecture: 1-PAIRE (L2/L1 = 1.32).\n  5 colors: B(136), W(79), GG(20), KB(19), FB(6).\n  13 sections: 11 groups + 2 individuals.\n  Provenance: Unknown. Museum: University Museum, University of Pennsylvania.\n  Linked to AS026A -- originally physically joined, separated for study.\n  21 STRING (95 percent dict hits, 20/21), 208 INT, 31 EMPTY.\n  OKR: 'Quipus AS026A and AS026B were joined.' = COMPOUND KHIPU.\n  OKR: 'Most of the subsidiaries (103 of 150) have one knot... interpreted as value 1.' = BINARY\n  CHECKLIST FORMAT.\n\nFIRST / LAST WORDS\n  First word (C30, B): kaka = 'maternal uncle' -- THE THESIS. The document is ABOUT uncles.\n  Last word (C97, W): kaqa = 'wall' (Aymara) -- closes on AGRICULTURAL INFRASTRUCTURE, not on a person.\n\nVIOLENCE SUPPRESSION CHECK\n  Violence words: taka x1 (single occurrence).\n  Kinship words: kaka x14 (maternal uncle).\n  Ratio 1:14 = violence LOW. Cross-suppression rule: violence < 2 -> NOT juridical.\n  AS026B is pure LINEAGE, not a trial. Contrast with UR039 (Huari juridical) where kaka x10 co-occurs\n  with taka x14 (violence HIGH).\n\nKEY VOCABULARY (21 STRING, 95 percent dict hit)\n  kaka x14 (maternal uncle, all on B brown) -- DOMINANT, 67 percent of all STRING. LINEAGE HEADS.\n  kaki  x2 (dried corn, B, Aymara) -- TRIBUTE IN KIND.\n  kaqa  x2 (terrace wall, W, Aymara) -- AGRICULTURAL INFRASTRUCTURE.\n  chiqa x1 (verification, W) -- the register has been checked.\n  kiki  x1 (self, B) -- individual mit'a worker.\n  taka  x1 (strike, B) -- single violence reference (not a sentence, see above).\n\nCOLOR-AS-ROLE\n  B  (136, 18 STRING) = LINEAGE DATA -- the uncles and their attributes. ALL 14 kaka on B.\n  W  (79,  3 STRING)  = GEOGRAPHIC / VERIFICATION -- infrastructure (kaqa) and truth (chiqa).\n  GG (20,  0 STRING)  = JUSTICE / IDENTITY -- numerical data (counts / fines?).\n  KB (19,  0 STRING)  = OBJECTS -- secondary numerical data.\n  FB (6,   0 STRING)  = ACTION -- minimal.\n  All 14 kaka entries are on B. W cords carry geographic and verification context. GG carries pure numbers.\n\nSTRUCTURE\n  14 EMPTIES at positions 1-2 (header prepared but never filled).\n  Then 11 GROUPS + 2 SINGLES = 13 sections, each centred on a kaka (uncle) entry.\n  Paired format:\n    L1 [B] = kaka (uncle = lineage head)\n    L2 = value 1 (check mark = PRESENT / COUNTED)\n  103 of 150 subsidiaries are value 1 = SIMPLE YES / PRESENT record.\n  This is a ROLL CALL: a list of lineages where each uncle's presence / compliance is marked with a knot.",
+
+  "narrative": "Fourteen uncles stand before the administrator. That is what this khipu says -- fourteen times, the word kaka, the maternal uncle, the head of the ayllu. Cord after cord, in brown thread, the same word: uncle, uncle, uncle. Each one a lineage, a family, a group of workers who owe labour to the state.\n\nThe administrator marks each one. Below each uncle's cord, a subsidiary carries a single knot -- value one. Present. Counted. Accounted for. One hundred and three of the one hundred and fifty subsidiaries carry this solitary knot: the simplest possible record. Were you here? Yes. Did you bring your tribute? A knot that says one.\n\nTwo cords of corn -- kaki, the Aymara word, because this is the coast or the borderland where both languages meet. Two cords of wall -- kaqa, in Aymara again. The agricultural infrastructure that the uncles maintain. One cord of truth -- chiqa -- verification. The administrator checked. The record is true.\n\nOne cord of strike, taka. A single violent word in an otherwise peaceful register. Was one uncle struck? Was one lineage punished? Or is this the word for a specific type of agricultural labour -- taka as 'to cut' rather than 'to strike'? The violence-suppression rule speaks for itself: a single taka against fourteen kaka is not a trial. This is an administrative check, not a juridical dossier.\n\nThe last word is kaqa -- a wall. The register ends not on a person but on infrastructure. The uncles have been counted, their corn noted, their walls recorded. The khipu closes on what they built.\n\nAnd somewhere in a University of Pennsylvania drawer, the separated companion AS026A still waits. The two khipus were originally tied together. They were one document in two pieces. AS026B holds the lineage-by-lineage roll call; AS026A -- still unread in deep-read form -- likely holds whatever counterpart data the administrator wanted kept physically attached to it. Census across fields. Labour across lineages. Or the detail of the single strike.",
+
+  "attribution": {
+    "prior_work": [
+      {"claim": "The Inca ayllu system organised kin groups around the maternal uncle (kaka) as lineage head; the uncle's authority structured both labor assignments and ritual obligations.",
+       "citation": "Rostworowski, M. (1999). Historia del Tahuantinsuyu; Zuidema, R. T. (1977). The Inca kinship system: a new theoretical view."},
+      {"claim": "Ascher and Ascher catalogued AS026A and AS026B as a compound document in the Code of the Quipu; the physical joining was documented at the time of acquisition.",
+       "citation": "Ascher, M. and Ascher, R. (1978). Code of the Quipu: Databook; University Museum, University of Pennsylvania acquisition records."},
+      {"claim": "Binary subsidiary records (subsidiaries carrying value 1) are attested across the corpus as checklist / presence markers; the convention is distinct from quantitative subsidiaries that carry numerical sub-totals.",
+       "citation": "Urton, G. (2003). Signs of the Inka Khipu: Binary Coding in the Andean Knotted-String Records. University of Texas Press."}
+    ],
+    "v3_contribution": [
+      {"claim": "LINEAGE REGISTER identification: 14 kaka (maternal uncle) entries organise the document as an ayllu roll call. 67 percent of STRING on a single kinship term -- densest kinship-centred vocabulary in the analysed corpus.",
+       "evidence": {"kind": "statistical", "matches": 14, "test": "kaka-fraction-of-STRING ranking + 14 independent roll-call sections"}},
+      {"claim": "VIOLENCE SUPPRESSION RULE CONFIRMED: taka x1 + kaka x14 = violence / kinship ratio 1:14, well below the juridical threshold (violence >= 2). The single taka is NOT a sentence; AS026B is classified lineage-registry, not juridical. Contrast with UR039 (taka x14 + kaka x10, violence-high -> juridical).",
+       "evidence": {"kind": "structural", "matches": 2, "test": "violence/kinship ratio across kaka-heavy khipus"}},
+      {"claim": "BINARY CHECKLIST FORMAT: 103 of 150 subsidiaries carry value 1 (67 percent). Each L1 kaka is a lineage header; each L2=1 is a check mark for presence / attendance / tribute compliance. The convention is a ROLL CALL -- simplest possible record.",
+       "evidence": {"kind": "statistical", "matches": 103, "test": "subsidiary-value-1 count (OKR attestation)"}},
+      {"claim": "KAKA-EXCLUSIVE B-CHANNEL: all 14 kaka entries are on B (brown). W carries geographic context (kaqa) + verification (chiqa). GG + KB + FB carry pure numbers. The colour-role split IS the role split between lineage-header channel and context channels.",
+       "evidence": {"kind": "structural", "matches": 14, "test": "kaka-on-B exclusive colour distribution"}},
+      {"claim": "COMPOUND-DOCUMENT PHYSICAL ANCHOR: OKR-attested physical joining with AS026A. The pair is an inseparable archival unit -- AS026B holds the roll call; AS026A (not yet deep-read in v4) likely carries the counterpart data.",
+       "evidence": {"kind": "physical", "matches": 1, "test": "OKR note 'Quipus AS026A and AS026B were joined'"}},
+      {"claim": "AYMARA SUBSTRATE: kaki (corn) and kaqa (wall) read as Aymara glosses, confirming coastal or borderland provenance. Consistent with documented Aymara presence in the southern and coastal Inca provinces where the Ascher catalog khipus were collected.",
+       "evidence": {"kind": "structural", "matches": 2, "test": "Aymara-vs-Quechua lexical attestation of kaki + kaqa"}},
+      {"claim": "LAST-WORD INFRASTRUCTURE CLOSE: C97 W kaqa = wall. A juridical register ends on a verdict; a lineage register ends on what the lineages built. The closing word is a structural signature of the lineage-registry document class.",
+       "evidence": {"kind": "structural", "matches": 1, "test": "last-L1-STRING gloss-class closing convention"}}
+    ]
+  },
+
+  "companions": [
+    {"id": "AS026A", "relation": "paired_twin",
+     "note": "PHYSICALLY JOINED COMPANION (OKR-attested). AS026A and AS026B were originally a compound khipu, separated during museum study. AS026A's content is likely the counterpart data for the 14 kaka lineages in AS026B -- possibly labor assignments, tribute counts, or field allocations. Should be deep-read to complete the pair.",
+     "evidence": {"kind": "physical", "matches": 1, "test": "OKR note 'Quipus AS026A and AS026B were joined'"}},
+    {"id": "UR039", "relation": "same_document_type",
+     "note": "Huari uncle-centred JURIDICAL register (kaka x10, taka x14). Mirror-image of AS026B: same protagonist (the uncle) but opposite story -- AS026B = lineage roll call (violence-low); UR039 = juridical trial (violence-high). The two documents together demonstrate the violence-suppression classification rule."},
+    {"id": "UR110", "relation": "cross_khipu_signal",
+     "note": "C1=4-flag juridical dossier. Context comparison for kinship+admin vocabulary; UR110 uses kaka in juridical context, AS026B uses kaka in pure lineage context."},
+    {"id": "UR051", "relation": "cross_khipu_signal",
+     "note": "Chiastic corvee formulary with kaka x3. AS026B is the roll-call counterpart of UR051's ritual convocation -- UR051 says HOW the uncles are summoned; AS026B says WHO showed up."},
+    {"id": "UR087", "relation": "cross_khipu_signal",
+     "note": "Work register with kinship vocabulary. Provides labor-register context for how lineage heads (kaka) feature in Inca administration."},
+    {"id": "AS014", "relation": "cross_khipu_signal",
+     "note": "British Museum nomination ceremony (3 named candidates, BG colour). Identity-register parallel to AS026B's lineage-register; AS014 names individuals, AS026B names lineages."}
   ],
-  "reconstructed_xlsx": null,
-  "document_type_override": "lineage_land_registry"
+
+  "confidence_axes": {
+    "word_reading": {
+      "level": "high",
+      "note": "95 percent dict hit (20/21 STRING). kaka x14 + kaki + kaqa + chiqa + kiki + taka all dictionary-stable. No L? cords of note."
+    },
+    "document_type": {
+      "level": "high",
+      "note": "lineage_land_registry robustly supported: 14 kaka on B channel + 103/150 value-1 subsidiaries + kaqa-infrastructure close + violence-suppression check fires clean + ayllu-maternal-uncle ethnography (Rostworowski / Zuidema). Sub-type: ayllu roll-call / compliance register."
+    },
+    "narrative": {
+      "level": "medium-high",
+      "note": "The 14-uncle roll call reading is internally coherent and multiply supported. The single taka cord introduces narrative uncertainty (was one lineage disciplined, or is it agricultural 'cut'?) but the suppression rule forecloses a juridical reading. The AS026A companion, once deep-read, will sharpen the narrative."
+    },
+    "data_integrity": {
+      "level": "medium",
+      "note": "Knot-level data stable via OKR. 103/150 value-1 subsidiaries as documented by investigator. No Ascher layer summarised in the deep-read. 31 empty cords (12 percent) are consistent with prepared-but-unused header positions at cords 1-2 and minor structural gaps."
+    }
+  },
+
+  "sections": [
+    {"id": "HEADER", "title": "Empty Header Positions", "cords": "1-29",
+     "reading": "14 empty cords at positions 1-2 and scattered empties through position 29 = header prepared but never filled. The document's opening frame. The main text begins at C30.",
+     "key_cords": [
+       {"pos": 1, "gloss": "EMPTY", "note": "header-position empty (prepared but unfilled)"}
+     ]},
+    {"id": "I", "title": "First Uncle -- Thesis", "cords": "30-c.35",
+     "reading": "C30 B kaka = FIRST WORD = maternal uncle. The document's thesis: this is a lineage register about uncles. The paired L2 cords below carry value 1 = present / counted.",
+     "key_cords": [
+       {"pos": 30, "gloss": "B kaka", "note": "FIRST WORD = MATERNAL UNCLE (thesis of document)"}
+     ]},
+    {"id": "II-XII", "title": "Eleven Uncle Groups -- Roll Call", "cords": "c.36-c.95",
+     "reading": "Eleven sections, each centred on a kaka cord on B. Each group carries its L2 subsidiaries at value 1 (presence / tribute / compliance check). Eleven lineages reporting in sequence. Interspersed: kaki x2 on B (corn tribute), chiqa x1 on W (verification), kiki x1 on B (individual worker).",
+     "key_cords": [
+       {"pos": 50, "gloss": "B kaka",  "note": "lineage head (mid-roll)"},
+       {"pos": 60, "gloss": "B kaki",  "note": "CORN tribute (Aymara)"},
+       {"pos": 75, "gloss": "W chiqa", "note": "VERIFICATION on white channel"},
+       {"pos": 85, "gloss": "B kaka",  "note": "lineage head (late-roll)"}
+     ]},
+    {"id": "XIII", "title": "Single Taka Reference + Kaqa Close", "cords": "c.96-97",
+     "reading": "C96 area carries the single taka cord on B -- ambiguous (strike? cut?). Suppression rule rules out juridical reading. C97 W kaqa = WALL (Aymara) -- agricultural infrastructure, the document's closing theme.",
+     "key_cords": [
+       {"pos": 96, "gloss": "B taka", "note": "SINGLE TAKA -- violence-suppression threshold not met"},
+       {"pos": 97, "gloss": "W kaqa", "note": "LAST WORD = WALL (Aymara) -- infrastructure close"}
+     ]},
+    {"id": "CLOSING", "title": "Remaining Sections + 2 Singletons", "cords": "98-105 + subsidiaries",
+     "reading": "The 2 remaining singleton lineages close the 13-section structure. 208 INT cords total across the register + 139 L2 subsidiaries = the binary checklist data layer. 16 L3 cords for the finer tribute / census detail.",
+     "key_cords": [
+       {"pos": 105, "gloss": "L1 close", "note": "last L1 cord of the 105 main-level positions"}
+     ]}
+  ],
+
+  "references": [
+    "Sivan, J. (2026). The Khipu as a Layered Information System. ALBA Project preprint.",
+    "Sivan, J. (2026). Violence-suppression classification rule (violence/kinship ratio).",
+    "Ascher, M. and Ascher, R. (1978). Code of the Quipu: Databook. University of Michigan Press.",
+    "OKR note on AS026: 'Quipus AS026A and AS026B were joined. Most of the subsidiaries (103 of 150) have one knot... interpreted as value 1.'",
+    "Rostworowski, M. (1999). Historia del Tahuantinsuyu -- maternal-uncle lineage authority.",
+    "Zuidema, R. T. (1977). The Inca kinship system: a new theoretical view.",
+    "Urton, G. (2003). Signs of the Inka Khipu -- binary subsidiary conventions.",
+    "Gonzalez Holguin, D. (1608). Vocabulario -- kaka = maternal uncle; chiqa = truth.",
+    "Bertonio, L. (1612). Vocabulario de la lengua Aymara -- kaki (corn), kaqa (wall).",
+    "University Museum, University of Pennsylvania -- AS026A/B catalogue records.",
+    "Compare AS026A (paired companion, to be deep-read), UR039 (uncle-centred juridical), UR051 (kaka in corvee)."
+  ],
+
+  "reconstructed_xlsx": null
 }

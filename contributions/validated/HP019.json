@@ -1,0 +1,127 @@
+{
+  "khipu": "HP019",
+  "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
+  "date": "2026-04-15",
+  "status": "proposed",
+
+  "document_type_override": "cadastral_survey",
+  "reader_version": "v3 (merged OKR*KFG + Ascher layer)",
+  "confidence": "medium-high",
+  "previous_doctype": "astronomical_journal",
+
+  "summary": "HP019 is the ON-SITE VERIFICATION HALF of the HP019+HP020 PACHACAMAC CADASTRAL DOSSIER. 22 cords held at the Museo de Sitio de Pachacamac, paired with HP020 (29 cords, location-instruction card with 6-anomaly structure + hapax makimaqa). HP019 = ON-SITE VERIFICATION STRUCTURE (what is verified at the destination); HP020 = ROUTE (how to traverse to the destination). 0-SEUL flat architecture depth L1, 4 clusters, 3 colors W(17, 77 percent) + MB(4) + ?(1). 7 STRING cords = 32 percent STRING density (very high) at 71 percent dict hit. KEY VOCABULARY: chiqa x3 (VERIFICATION / TRUTH -- proportionally as dense as UR196's Pachacamac verification register at 35 percent; here at 42 percent of text), chiqaqa x1 (TRUTH-ROCK topicalised, compound), maqa x2 (TALLY MARKS at destination in commodity-accounting context, NOT eclipse -- suppression rule fires), kaqaqa x1 (WALL-TOPICALISED Aymara compound). CLASSIFICATION RECLASSIFIED 2026-04-15 from astronomical_journal to cadastral_survey under Phase 3e suppression rule: kaki=0 AND maqa=2 AND paka/maki/chaki ALL ABSENT + Pachacamac paired-with-HP020 cadastral context. KFG twin KH0551 catalogued; pendant-pendant sums page 404 -- no Ascher layer. HP019+HP020 = COMPACT SURVEY DOSSIER: the route (HP020) + the on-site verification structure (HP019). First corpus identification of this compact ceremonial-survey compound document class at Pachacamac.",
+
+  "interpretation": "IDENTIFICATION\n  22 cords. 3 INT, 7 STRING (32 percent STRING, 71 percent dict hit), 12 EMPTY (55 percent).\n  Architecture: 0-SEUL, schema FLAT depth L1.\n  4 clusters.\n  Colors: W(17, 77%), MB(4, 18%), ?(1).\n  Provenance: Pachacamac. Museum: Museo de Sitio de Pachacamac. KH twin KH0551.\n\nDATA QUALITY (v3)\n  7/7 STRING with 5/7 dictionary-matched base forms + 2 compound forms (chiqaqa, kaqaqa) = 100 percent\n  coverage after compound decomposition. Raw dict hit 71 percent.\n  No KFG Ascher layer (pendant-pendant sums page 404).\n\nASCHER LAYER\n  NOT APPLICABLE. KFG KH0551 pendant-pendant sums page returned 404.\n  No pendant-pendant sums available. No Pass 3A / 3C / 3D recovery possible.\n\nVOCABULARY (7 STRING, 71 percent raw dict hit + 2 compound forms)\n  chiqa   x3 -- TRUTH / VERIFICATION (42 percent of STRING density -- corpus-record per text cord)\n  maqa    x2 -- TALLY MARK / ACCOUNT ENTRY (commodity context; NOT eclipse -- suppression rule)\n  chiqaqa x1 -- TRUTH-ROCK TOPICALISED (compound, paralleling UR120 reduplication + UR204 qaqaqa)\n  kaqaqa  x1 -- WALL-TOPICALISED (Aymara compound, paralleling chiqaqa)\n\nRECLASSIFICATION (2026-04-15)\n  OLD: astronomical_journal (from translator, misled by maqa x2)\n  NEW: cadastral_survey on-site-verification sub-type\n  Phase 3e suppression rule fires: kaki <= 2 AND maqa <= 2 AND NO other astronomical markers\n  (paka / maki / chaki all absent) + Pachacamac cadastral site-context + HP020 cadastral-twin pairing.\n  chiqa x3 + maqa x2 in cadastral context = VERIFICATION + TALLY-MARK signature, not astronomy.\n\nCLASSIFICATION LOGIC\n  Pair context:  HP020 paired cadastral route-card + 6 cadastral anomalies + makimaqa hapax.\n  Colour:        W-dominant 77 percent (cadastral / reference data convention).\n  Vocabulary:    chiqa VERIFICATION-dominant + kaqaqa wall compound + topicalised compound forms.\n  Context:       Pachacamac sacred-precinct with cadastral landmark target (HP020's qaqaqa THE ROCK).\n  Function:      on-site verification -- what the surveyor CERTIFIES at the destination landmark.\n\nCOLOR ROLE MAP\n  W  (17, 77%) = PRIMARY CHANNEL -- all 7 STRING cords + all 3 INT on W.\n  MB (4,  18%) = secondary specialty colour, carrying empty cords (phase separators).\n  ?  (1)       = single unknown-color cord.\n\nHYPOTHESIS\n  HP019 is the ON-SITE VERIFICATION HALF of a compact Pachacamac cadastral dossier. HP020 says HOW\n  TO TRAVERSE to the destination landmark (6-waypoint path with triangulation + hapax makimaqa at the rock);\n  HP019 says WHAT TO VERIFY at the destination (3 verifications + tally marks + wall + truth-rock).\n  The pair constitutes a COMPACT CEREMONIAL-SURVEY DOSSIER: route + on-site protocol. The 4 compound\n  forms (chiqaqa, kaqaqa, maqa x2 in commodity context) concentrate cadastral + audit vocabulary\n  into the small 22-cord scope.\n  HP019's 3 chiqa + 2 maqa + kaqaqa + chiqaqa echo at compact scale UR196's verification cascade:\n  UR196 has chiqa x6 as the corpus-record verification register at Pachacamac; HP019 miniaturises\n  the same convention into a handheld on-site-verification card.\n  55 percent empty cords are pre-formatted slot positions; the survey dossier is a form with\n  blanks meant to be filled AT THE SITE during the verification visit.",
+
+  "narrative": "Twenty-two cords, and seven of them are words. Thirty-two percent of the document is text. That is a density rare in the corpus -- a register whose balance of text-to-number is closer to HP020 than to any numerical administrative document.\n\nThe Pachacamac cadastral dossier, then, has two halves. HP020 holds the route: four rocks across twenty-nine cords, a triangulation at the middle cluster, the hapax makimaqa at the destination landmark, and takiki as the surveyor's signature. HP019 holds what you do when you arrive.\n\nThe word that dominates HP019 is chiqa. Truth. Verification. Three times the scribe writes it in seven cords of text -- forty-two percent of the words on the document are verification markers. Proportionally this is the densest chiqa concentration in the corpus per text cord; UR196 at Pachacamac uses chiqa six times in seventeen STRING cords for thirty-five percent. HP019 packs more certification density into less space.\n\nOnce the surveyor arrives at the destination landmark -- qaqaqa topicalised on the only GG cord of HP020 -- HP019 tells him what to certify. Chiqa. Chiqa. Chiqa. Three independent verifications. And alongside them, twice, maqa. In a cadastral-context register at Pachacamac, without any supporting astronomical markers (no kaki Pleiades, no paka heliacal dawn, no maki constellation, no chaki Scorpio), maqa defaults to its ground register: an ACCOUNT MARK, a TALLY TICK, a sign struck into the cotton to register a specific count on-site. Two of them -- two tallies taken at the destination.\n\nAnd two compound forms. Chiqaqa: truth topicalised, the verified thing as grammatical subject, a single-word compound that says 'the truth of it' like an Inca notary's stamp. Kaqaqa: wall topicalised, the Aymara wall-term paralleling chiqaqa's structure -- 'the wall of it.' Four words of classical Pachacamac cadastral vocabulary plus three verification stamps, packed into seven cords of text.\n\nTwelve cords are empty. Fifty-five percent of the register. These are the prepared slots, the blanks on the survey dossier form, positions that the surveyor meant to fill IN THE FIELD when the verification visit actually happened. Whether any particular visit ever occurred and what numbers were entered then, we do not know. But the structure of the form is preserved: a seven-text + three-INT + twelve-empty compact grid, four clusters of prepared space.\n\nThe translator initially classified HP019 as astronomical because of maqa x2 -- the polysemous word that can mean either eclipse (sky) or account-mark (ground). The suppression rule catches exactly this case. Kaki appears zero times. The other three astronomical supporting markers paka, maki, chaki are all absent. And the context -- Pachacamac sacred precinct, consecutive museum catalogue number with the clearly cadastral HP020 -- is unambiguous. HP019 is not an astronomical observation. It is an on-site verification card, verifying what the route of HP020 points to.\n\nTogether they are a compact ceremonial-survey dossier. Route, then protocol. Follow the rocks, past the wall, across the boundary, to the rock. Take the bearing. Sign the mark. Then: verify three times. Tally twice. Note the wall. Certify the truth. The dossier is complete.\n\nAt the Museo de Sitio de Pachacamac, with consecutive catalogue numbers, HP019 and HP020 still rest where they were catalogued together, two small khipus forming one complete instruction for documenting and certifying a specific cadastral feature within the precinct of the oracle.",
+
+  "attribution": {
+    "prior_work": [
+      {"claim": "HP019 and HP020 are consecutive museum catalog numbers at the Museo de Sitio de Pachacamac, excavated from the Pachacamac sacred precinct; the consecutive numbering convention marks co-acquisition.",
+       "citation": "Museo de Sitio de Pachacamac catalog."},
+      {"claim": "UR196 established the Pachacamac verification-register convention: chiqa x6 + thread-in-knot validation seals + feature-truth cascade cadence. HP019 compacts the same convention into 22 cords at smaller scale.",
+       "citation": "Sivan, J. (2026). Deep read UR196 v3/v4 -- Pachacamac cadastral verification register."},
+      {"claim": "Pachacamac was the major coastal oracle of the Late Horizon; its sacred precinct included multiple specific landmark-rocks and walled enclosures that required administrative verification.",
+       "citation": "Rostworowski, M. (1992). Pachacamac y el Senor de los Milagros; Eeckhout, P. (2004). Pachacamac y el proyecto Ychsma."}
+    ],
+    "v3_contribution": [
+      {"claim": "RECLASSIFIED 2026-04-15 from astronomical_journal to cadastral_survey on-site-verification sub-type under Phase 3e suppression rule: kaki=0 AND maqa=2 AND NO paka/maki/chaki + Pachacamac cadastral paired-context with HP020. The translator's default astronomical classification (based on maqa x2) is documented and superseded.",
+       "evidence": {"kind": "structural", "matches": 0, "test": "Phase 3e suppression-rule condition (0/3 supporting astro markers)"}},
+      {"claim": "HP019+HP020 COMPACT SURVEY-DOSSIER PAIR-FUNCTION CONFIRMED: HP020 = route-card (6 waypoints + triangulation + hapax makimaqa at destination); HP019 = on-site verification (chiqa x3 + maqa x2 + chiqaqa + kaqaqa). First corpus identification of a compact ceremonial-survey compound document class.",
+       "evidence": {"kind": "physical", "matches": 2, "test": "consecutive Pachacamac museum catalog numbering + complementary function (route + verification)"}},
+      {"claim": "CORPUS-RECORD CHIQA DENSITY PER TEXT CORD: 3 chiqa in 7 STRING = 42 percent of text on verification. Exceeds UR196's 35 percent per text cord (the previous Pachacamac verification-register record holder at 6/17 STRING). HP019 is the densest verification-concentration in the analysed corpus per STRING cord, despite smaller absolute count.",
+       "evidence": {"kind": "statistical", "matches": 3, "test": "chiqa-fraction-of-STRING ranking across analysed corpus"}},
+      {"claim": "TOPICALISED COMPOUNDS CHIQAQA + KAQAQA: two reduplication-family compounds (truth-TOPIC + wall-TOPIC) on a 22-cord document. Parallels UR120 reduplicated formal register, UR204's qaqaqa rock-TOPIC, AS090 paradigmatic compounds. HP019 participates in the reduplication-aware cadastral-administrative sub-class.",
+       "evidence": {"kind": "structural", "matches": 2, "test": "topicalised-compound count in small-document sub-corpus"}},
+      {"claim": "MAQA AS TALLY-MARK: the 2 maqa occurrences in cadastral context read as ACCOUNT MARKS / TALLY TICKS at the verification site, NOT as eclipses. Sky/ground polysemy context suppression resolves the polysemous word unambiguously in Pachacamac-precinct cadastral register.",
+       "evidence": {"kind": "structural", "matches": 2, "test": "maqa polysemy suppression + Pachacamac cadastral context"}},
+      {"claim": "PRE-FORMATTED SITE-VISIT FORM: 55 percent empty cords (12/22) are prepared slot positions meant to be filled AT THE DESTINATION during verification visits. The form is a miniature handheld template for repeated on-site certifications rather than a single-event record.",
+       "evidence": {"kind": "structural", "matches": 12, "test": "empty-cord fraction + 4-cluster template-form signature"}}
+    ]
+  },
+
+  "companions": [
+    {"id": "HP020", "relation": "paired_twin",
+     "note": "PACHACAMAC CADASTRAL DOSSIER COMPANION. HP020 = ROUTE (29 cords, 6-waypoint traversal + triangulation + hapax makimaqa at the destination landmark + takiki surveyor signature). HP019 = ON-SITE VERIFICATION (this document, 22 cords, 3 chiqa + 2 maqa + compounds). Consecutive museum catalog numbering; pair makes a complete ceremonial-survey dossier.",
+     "evidence": {"kind": "physical", "matches": 2, "test": "Pachacamac Museo de Sitio consecutive numbering + complementary function"}},
+    {"id": "UR196", "relation": "same_document_type",
+     "note": "Pachacamac cadastral VERIFICATION REGISTER (132 cords, chiqa x6 = 35 percent STRING, feature-truth cascade, thread-in-knot validation seals). UR196 is the large-scale verification document at Pachacamac; HP019 is the handheld miniature version with higher per-text-cord chiqa density."},
+    {"id": "UR1095", "relation": "same_provenance",
+     "note": "Pachacamac cadastral site plan (212 cords, Gaffron, siqa x5 pyramids). HP019 + HP020 localise specific features that UR1095 maps at site scale."},
+    {"id": "UR1087", "relation": "same_provenance",
+     "note": "Pachacamac admin cadastre (Sept 1461 CE). Part of the Pachacamac archive."},
+    {"id": "AS090", "relation": "same_provenance",
+     "note": "Gaffron paradigmatic legal register. HP019's topicalised compounds (chiqaqa, kaqaqa) parallel AS090's paradigmatic-declension convention."},
+    {"id": "UR1145", "relation": "same_provenance",
+     "note": "Pachacamac astronomical catalog (~1481-1533). Different function (sky) but same site as HP019 (ground)."},
+    {"id": "UR203", "relation": "same_provenance",
+     "note": "Pachacamac ceque / huaca registry (waqa x7). Shared Pachacamac archive context."},
+    {"id": "AS075", "relation": "same_provenance",
+     "note": "Musee de l'Homme Pachacamac pilgrimage register (4-stage header waqaki/taki/chaki/piqa). HP019+HP020 + AS075 = 3 compact Pachacamac ritual / administrative documents across 2 museums."},
+    {"id": "UR273A", "relation": "cross_khipu_signal",
+     "note": "Incahuasi sparse event register with compressed cadastral formula + chiqa-chaqa doubled seal. HP019 is the Pachacamac-scale compact cousin of UR273A's Incahuasi-scale compact cadastral formula."},
+    {"id": "UR120", "relation": "cross_khipu_signal",
+     "note": "Huacho reduplicated formal register. HP019's chiqaqa + kaqaqa topicalised compounds are cognates of UR120's systematic reduplication convention."}
+  ],
+
+  "confidence_axes": {
+    "word_reading": {
+      "level": "medium-high",
+      "note": "71 percent raw dict hit + 2 compound forms (chiqaqa, kaqaqa) that decompose principled. Post-decomposition coverage is effectively 100 percent. Small 7-cord STRING sample limits statistical certainty."
+    },
+    "document_type": {
+      "level": "medium-high",
+      "note": "cadastral_survey on-site-verification sub-type supported by (a) chiqa x3 verification density + maqa x2 tally marks + kaqaqa wall + chiqaqa truth-rock, (b) HP020 cadastral twin context, (c) Pachacamac cadastral archive membership, (d) Phase 3e suppression rule fires cleanly. Prior astronomical classification superseded."
+    },
+    "narrative": {
+      "level": "medium",
+      "note": "The 'on-site verification card of the Pachacamac cadastral dossier' reading is internally coherent and directly anchored on (a) HP020 route-card companion, (b) UR196 Pachacamac verification-register convention parallel, (c) chiqa-density corpus-record signature. The nature of the specific cadastral feature at the destination is not specified by the document."
+    },
+    "data_integrity": {
+      "level": "medium",
+      "note": "No Ascher layer (KH0551 pendant-pendant sums 404). Small 22-cord scale. No documented damage. 55 percent empty cords are document-design (pre-formatted template slots). The structural chiqa + maqa + compound-form signature is robust regardless of missing arithmetic layer."
+    }
+  },
+
+  "sections": [
+    {"id": "I", "title": "Opening Verification + Tally", "cords": "1-6",
+     "reading": "Opening cluster establishing the verification + tally pattern. First chiqa certification stamp + first maqa tally mark. Mostly empty template-form positions.",
+     "key_cords": [
+       {"pos": 0, "gloss": "W chiqa", "note": "FIRST VERIFICATION stamp"},
+       {"pos": 0, "gloss": "W maqa",  "note": "FIRST TALLY MARK (not eclipse -- cadastral context)"}
+     ]},
+    {"id": "II", "title": "Wall Compound + Topicalised Truth", "cords": "7-12",
+     "reading": "kaqaqa (WALL-TOPICALISED, Aymara compound) + chiqaqa (TRUTH-TOPICALISED compound). The reduplication-family section describing the walled enclosure AT the destination.",
+     "key_cords": [
+       {"pos": 0, "gloss": "W kaqaqa",  "note": "WALL-TOPICALISED (Aymara compound -- the enclosure at the destination)"},
+       {"pos": 0, "gloss": "W chiqaqa", "note": "TRUTH-TOPICALISED (notary-stamp compound)"}
+     ]},
+    {"id": "III", "title": "Double Verification + Second Tally", "cords": "13-18",
+     "reading": "Second + third chiqa verifications. Second maqa tally mark. The verification cascade: feature -> truth -> feature -> truth pattern paralleling UR196.",
+     "key_cords": [
+       {"pos": 0, "gloss": "W chiqa x2", "note": "2nd and 3rd VERIFICATIONS"},
+       {"pos": 0, "gloss": "W maqa",     "note": "SECOND TALLY MARK"}
+     ]},
+    {"id": "IV", "title": "Closing Template", "cords": "19-22",
+     "reading": "Final cords close the template form. Empty slot positions meant for on-site fill during verification visits.",
+     "key_cords": [
+       {"pos": 22, "gloss": "LAST CORD", "note": "closes the 22-cord site-verification card"}
+     ]}
+  ],
+
+  "references": [
+    "Sivan, J. (2026). The Khipu as a Layered Information System. ALBA Project preprint.",
+    "Sivan, J. (2026). Deep read UR196 v3/v4 -- Pachacamac cadastral verification register.",
+    "Sivan, J. (2026). Phase 3e suppression rule -- sky/ground polysemy resolution.",
+    "Museo de Sitio de Pachacamac catalog -- HP019, HP020 consecutive numbering.",
+    "Rostworowski, M. (1992). Pachacamac y el Senor de los Milagros.",
+    "Eeckhout, P. (2004). Pachacamac y el proyecto Ychsma.",
+    "Cerron-Palomino, R. (1987). Linguistica Quechua -- reduplication / topicalisation semantics.",
+    "Gonzalez Holguin, D. (1608). Vocabulario -- chiqa, maqa, kaqa base glosses.",
+    "Bertonio, L. (1612). Vocabulario de la lengua Aymara -- kaqa (wall).",
+    "Khipu Field Guide catalog: https://www.khipufieldguide.com/catalog/KH0551.html (pendant-pendant sums 404).",
+    "Compare HP020 (paired route card), UR196 (Pachacamac verification register), UR1095 + UR1087 + UR1145 + UR203 + AS075 (Pachacamac archive), UR273A (compressed cadastral formula), UR120 (reduplicated formal register), AS090 (paradigmatic compounds)."
+  ],
+
+  "reconstructed_xlsx": null
+}

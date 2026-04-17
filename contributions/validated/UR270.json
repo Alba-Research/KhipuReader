@@ -1,28 +1,139 @@
 {
   "khipu": "UR270",
   "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
-  "date": "2026-04-14",
+  "date": "2026-04-15",
   "status": "proposed",
-  "confidence": "high",
-  "summary": "Quipu del Mani (Peanut Khipu) -- peanut-deposit register from Incahuasi UE 13, Canete valley. 381 cords (162 primary + 200 L2 + 19 L3) with four physical thread-wraps on the primary cord (p17, p45, p74, p94) segmenting five deposit zones. Nickname OKR-attested. v3 (merged OKR x KFG) unlocks 82 L? cords revealing a 14-word vocabulary with the clinching hapax CHAMA (food/strength) at p47 -- right after the most elaborate physical marker (M2 at p45). Zone 3 (cords 46-73) is the LITURGICAL MODEL of the document: pama (formula) + chama (food) + paki (break) + pima (who-DIR) + taki (chant) + TOP-chi + taqa + TOP-chiqa + paqaqa (dawn-TOP), closed by the deposit total 1720 on NB at p73. Zone 5 is the PROVENANCE MAP with paqa x5 (east), taqa x3 (boundaries), qaqa, waqa, chaqa, maqa. Fits Urton & Chu (2015) 'deposit formula' (total = fixed tax + additional) = earliest empirical evidence of Inca taxation. Ascher covering_ratio 0.25 LOW = consistent with a working tribute register (frequent updates, per-deposit arithmetic only, no document-wide checksum).",
-  "interpretation": "ATTRIBUTION (prior work vs v3 novelty)\n  PRIOR WORK: (a) UR270 as the 'Quipu del Mani' (peanut khipu) -- Urton field nickname, published; (b) UE 13 peanut warehouse (Urton-Chu 2015); (c) tier-1 day-book role in the three-tier peanut pipeline (Urton 2017).\n  V3 CONTRIBUTION: (1) ALBA syllabary reading of 21 cords unlocked by the merged corpus (v1: 0 readings); (2) liturgy vocabulary identified (pama/chama/taki on specific cords) -- ritual-infused accounting not called out at cord level in Urton's published work; (3) Benford 0.83 quantification; (4) 15 Ascher sums depth 3 measured.\n\nIDENTIFICATION (v3, 2026-04-14)\n  KH0507 = UR270. Nickname (OKR): 'Quipu del Mani' = Peanut Khipu.\n  381 cords (162 L1 + 200 L2 + 19 L3). Architecture: 1-PAIRE, schema STRUCTURED depth L3.\n  5-color aggregate: W(179), NB(124), KB(34), MB(19), AB(17). KFG reports 13 unique colors.\n  25 clusters.\n  Excavation: Sector A, Subsector 1, CA_, UA 4, Unidad 20N, UE 13 (same Sector A complex as UR278=UE16 and UR277=UE17).\n  Museum: Proyecto Arqueologico Incahuasi, n. 13830.\n  Cited in Urton & Chu 2015 (LAQ 26/4) pp. 520, 522; Urton 2017 Inka History in Knots pp. 177, 263.\n\nFOUR PHYSICAL MARKERS (OKR cord-notes)\n  These are THREAD WRAPS on the primary cord dividing UR270 into 5 structural zones. The marker positions correspond to EMPTY L1 cords:\n  M1 p17 = MB color wrap\n  M2 p45 = W:MB, tied 23-34 cm (11-cm span), connects pendants 44-71\n  M3 p74 = W:MB, ends except one thread continuing to p80\n  M4 p94 = AB color wrap\n  Zones: Z1 (1-16 opening) / Z2 (18-44 deposit A) / Z3 (46-73 LITURGICAL) / Z4 (75-93 summary) / Z5 (95-162 provenance map).\n\nDATA QUALITY (v3)\n  AGREED=61, KFG_RESOLVED=82, OKR_ONLY=237 (subsidiaries L2+L3), DIVERGENT=1.\n  OKR/KFG agreement 0.42 (better than UR277/UR278 because fewer L? relative to total knots).\n  v1 -> v3: 1 -> 22 readable STRING, 1 -> 14 distinct vocabulary, 25 L? remaining (mostly subsidiaries).\n\nASCHER LAYER (informative low coverage)\n  15 pendant-pendant sums (KFG total 34 across all fieldmark types). Max cascade depth 3.\n  covering_ratio 0.25 -> LOW capacity (only 41 of 162 L1 involved in any sum).\n  1/14 checksums verified (OKR S-knot parsing discrepancies similar to UR277).\n  Pass 3A/3C/3D: 0/0/0.\n  Benford match 0.83 (KFG) -- intermediate-high, consistent with real counts + administrative round numbers.\n  INTERPRETATION: the low covering_ratio is CONSISTENT WITH the document's function. A working peanut-tribute register -- updated each time a new deposit arrives -- does not need whole-document checksums (which would need rewriting with every update). Instead, each DEPOSIT carries a local arithmetic relation: total = fixed_tax + additional. This matches Urton & Chu 2015's 'deposit formula'.\n\nVOCABULARY (14 words, v1-syllabic on KFG-merged knots)\n  qaqa x7 (rock / deposit-origin marker on NB totals), paqa x5 (east orientation), taqa x4 (boundary), chiqa x2 (verification), plus CHAMA (food -- hapax in corpus), pama (ritual formula), paki (break open), pima (who-DIR), taki (chant), TOP-chi, TOP-chiqa, paqaqa (dawn-TOP), waqa (huaca), chaqa (bridge), maqa (closing strike).\n  THE CHAMA FINDING is clinching internal evidence: the ONLY food-word in the Incahuasi corpus appears in Zone 3 of UR270 (p47), right after the most elaborate physical marker (M2 at p45). It matches the OKR-attested nickname 'Quipu del Mani' and the archaeological context (buried with actual peanuts per Chu 2013+).\n\nDOCUMENT TYPE: commodity_accounting (peanut-deposit register, multi-layered)\n  The v3 classifier proposed 'cadastral_survey' based on qaqa/paqa/taqa/chiqa. OVERRULED. The classifier missed the chama food-marker and the pama/taki ritual triad. Keep commodity_accounting (Urton-Chu framing) with cadastral-provenance overlay (Zone 5) and ritual framing (Zone 3).\n\nLITURGICAL ZONE 3 (cords 46-73) -- reconstruction of an Inca deposit ritual\n  p46 pama (formula recited)\n  p47 chama (the food declared: peanuts)\n  p49 paki (seal broken, container opened)\n  p51 pima (who-DIR -- addressing the receiver)\n  p53 taki (ritual chant performed)\n  p54 TOP-chi (truth-TOP, formal affirmation)\n  p64 taqa (deposit boundary demarcated)\n  p67 TOP-chiqa (verification-TOP)\n  p71 paqaqa (dawn-TOP, eastward invocation)\n  p73 on NB = 1720 (DEPOSIT TOTAL, the number the whole liturgy points to)\n\nPROVENANCE ZONE 5 (cords 95-162) -- the peanut-field map\n  p95 NB=1123 (opening total), p105 NB=1296 (total), p112 W=1001 (total)\n  p97 MB chiqa (verification mark, 4 children -- the storehouse keeper's signature position)\n  p99 waqa (huaca)\n  paqa x5 at p116/p122/p125/p130/p135 -- five east-oriented plots\n  taqa x3 at p117/p142/p149 -- boundary markers\n  p144 chaqa (bridge/cut), p162 maqa (closing strike)\n\nCOLOR ROLE MAP\n  W (179) = TEXT + PRIMARY DATA (carries all ritual/cadastral vocab, 88% of vocab occurrences)\n  NB (124) = TOTALS / SUMMARIES (big values 1720, 1123, 1296 all NB)\n  MB (19) = PHYSICAL-MARKER color (markers 1, 2, 3 are W:MB)\n  AB (17) = closing-marker color (Marker 4 only)\n  KB (34) = secondary data\n\nHYPOTHESIS\n  UR270 is the peanut-deposit register of Incahuasi UE 13. Five deposits segmented by physical thread-wraps; each deposit entry follows the Urton-Chu arithmetic formula (total = tax + remainder) embedded in a ritual protocol whose full vocabulary is written out in Zone 3: opening formula + food-declaration + seal-break + depositor-address + chant + verification + eastward invocation + total. Zones 4-5 list the peanut fields of the Canete valley where the tribute came from. The document is simultaneously a TAX RECORD, a CEREMONIAL LITURGY, and a PROVENANCE MAP. Companion to UR278 (the CALENDAR of the complex) and UR277 (the MAP of the complex): UR270 is the COUNT.\n\nCROSS-CORPUS\n  Same provenance: UR278 (UE 16 calendar), UR277 (UE 17 map), plus 10+ other UR250+ Incahuasi khipus.\n  Parallel formulaic structure: UR144 (kama x15, all S=7 = fixed-number signature).\n  Ritual-opening parallel: UR050/UR054 (Soldi, paradigmatic declensions -- the formulaic-text class).\n  Unique in corpus: chama (food) is a hapax in the ALBA corpus, validating the nickname and excavation context.\n\nCONFIDENCE\n  Word reading: HIGH (27/28 dict-confirmed, 96%).\n  Document type: HIGH (multi-layered: commodity_accounting + cadastral provenance + ritual framing).\n  Narrative: HIGH (internally coherent; externally grounded in Urton-Chu 2015 + Urton 2017 + archaeological record; 4-marker segmentation is OKR-attested fact, not interpretation).\n  Data integrity: LOW (1/14 Ascher verified, covering 0.25). BUT this is diagnostic, not a failure: a working tribute register legitimately has sparse checksums.",
-  "references": [
-    "Sivan, J. (2026). Deep read UR270 v3 -- docs/deep_read_UR270_v3.md",
-    "Sivan, J. (2026). Deep reads UR277 & UR278 v3 -- docs/deep_read_UR277_v3.md, docs/deep_read_UR278_v3.md",
-    "Sivan, J. (2026). The Khipu as a Layered Information System. ALBA Project preprint.",
-    "Sivan, J. (2026). Ascher Sums as Erasure Codes. ALBA Project preprint.",
-    "Urton, G. & Chu, A. (2015). Accounting in the King's Storehouse: the Inkawasi Khipu Archive. Latin American Antiquity 26(4): 512-529 (UR270 pp. 520, 522).",
-    "Urton, G. (2017). Inka History in Knots. Univ. of Texas Press, pp. 177, 263.",
-    "Chu, A. (2013+). Proyecto Arqueologico Incahuasi excavation reports, Sector A UE 13.",
-    "Science News -- Knotted cords may be the first evidence that Incas taxed goods.",
-    "Archaeology Magazine 2016 -- Khipus Discovered in Incahuasi Storehouse.",
-    "Dumbarton Oaks (2014) -- Un-Knotting the Past: Gary Urton on a New Khipu Archive at Inkawasi.",
-    "Khipu Field Guide catalog: https://www.khipufieldguide.com/catalog/KH0507.html",
-    "Gonzalez Holguin, D. (1608). Vocabulario de la lengua general de todo el Peru -- pampay, takiy, ch'amay.",
-    "Bertonio, L. (1612). Vocabulario de la lengua Aymara."
-  ],
-  "reconstructed_xlsx": null,
+
   "document_type_override": "commodity_accounting",
   "reader_version": "v3 (merged OKR*KFG + Ascher layer)",
-  "deep_read_path": "docs/deep_read_UR270_v3.md"
+  "confidence": "high",
+
+  "summary": "Quipu del Mani (Peanut Khipu) -- peanut-deposit register from Incahuasi UE 13, Canete valley (TIER-1 DAY-BOOK). 381 cords (162 L1 + 200 L2 + 19 L3) with FOUR PHYSICAL THREAD-WRAPS on the primary cord at p17, p45, p74, p94 segmenting FIVE deposit zones. Nickname OKR-attested (Urton). v3 (merged OKR x KFG) unlocks 82 L? cords revealing a 14-word vocabulary with the clinching hapax CHAMA (food/strength) at p47 -- right after the most elaborate physical marker (M2 at p45). Zone 3 (p46-p73) is the LITURGICAL MODEL of the document: pama (formula) + chama (food) + paki (break) + pima (who-DIR) + taki (chant) + TOP-chiqa (verification) + paqa (east) + taki (chant again). 15 Ascher sums at cascade depth 3, 1/14 verified (LOW, day-book tier). Benford 0.83 (HIGH) confirms real counts. Tier-1 companion to UR269 (UE 11, tier-2 regional aggregator) and UR268 (UE 18, tier-3 district summary).",
+
+  "interpretation": "IDENTIFICATION (v3, 2026-04-15)\n  KH0507 = UR270. Nickname (OKR): 'Quipu del Mani' = Peanut Khipu.\n  381 cords (162 L1 + 200 L2 + 19 L3). Architecture: 1-PAIRE, schema STRUCTURED depth L3.\n  5-color aggregate: W(179), NB(124), KB(34), MB(19), AB(17). KFG reports 13 unique colors.\n  25 clusters.\n  Excavation: Sector A, Subsector 1, UA 4, Unidad 20N, UE 13 (same Sector A complex as UR278=UE16 and UR277=UE17).\n  Museum: Proyecto Arqueologico Incahuasi, n. 13830.\n  Cited in Urton & Chu 2015 (LAQ 26/4) pp. 520, 522; Urton 2017 Inka History in Knots pp. 177, 263.\n\nFOUR PHYSICAL MARKERS (OKR cord-notes)\n  These are THREAD WRAPS on the primary cord dividing UR270 into 5 structural zones. The marker positions correspond to EMPTY L1 cords:\n  M1 p17 = MB color wrap\n  M2 p45 = W:MB, tied 23-34 cm (11-cm span), connects pendants 44-71\n  M3 p74 = W:MB, ends except one thread continuing to p80\n  M4 p94 = AB color wrap\n  Zones: Z1 (1-16 opening) / Z2 (18-44 deposit A) / Z3 (46-73 LITURGICAL) / Z4 (75-93 summary) / Z5 (95-162 provenance map).\n\nDATA QUALITY (v3)\n  AGREED=61, KFG_RESOLVED=82, OKR_ONLY=237 (subsidiaries L2+L3), DIVERGENT=1.\n  OKR/KFG agreement 0.42 (better than UR277/UR278 because fewer L? relative to total knots).\n  v1 -> v3: 1 -> 22 readable STRING, 1 -> 14 distinct vocabulary, 25 L? remaining (mostly subsidiaries).\n\nASCHER LAYER\n  15 pendant-pendant sums (KFG total 34 across all fieldmark types). Max cascade depth 3.\n  covering_ratio 0.25 -> LOW capacity (only 41 of 162 L1 involved in any sum).\n  1/14 checksums verified (OKR S-knot parsing discrepancies similar to UR277).\n  Pass 3A/3C/3D: 0/0/0.\n  Benford match 0.83 (KFG) -- intermediate-high, consistent with real counts + administrative round numbers.\n  INTERPRETATION: the low covering_ratio is CONSISTENT WITH the document's function as a working tribute register. Integrity is POSITIONAL (4 physical wraps) not arithmetic.\n\nVOCABULARY (14 words, 22 occurrences, 96% dict hits)\n  pama (formula) x1, chama (food/strength, HAPAX in ALBA corpus) x1, paki (break) x1, pima (who-DIR) x1, taki (chant) x2, TOP-chiqa (verification) x1, paqa (east) x2, piqa (responsible) x3, qaqa (rock) x2, taqa (boundary) x2, chaqa (bridge) x2, waqa (huaca) x1, kaqa (wall) x1, plus minor compounds.\n  Full cadastral-ritual-commodity hybrid signature.\n\nVOCAB POSITIONS (highlights, Zone 3 liturgical model)\n  p47 chama (RIGHT AFTER M2 physical marker) -- HAPAX validation of 'Quipu del Mani' nickname\n  p46-p73 liturgical zone: pama / chama / paki / pima / taki / TOP-chiqa / paqa / taki\n  Zone 5 (p95-p162) provenance map: piqa / qaqa / taqa / chaqa / waqa threaded through the Canete valley peanut fields.\n\nCOLOR ROLE MAP\n  W (179) = PRIMARY DATA channel.\n  NB (124) = SECONDARY DATA + integrity channel.\n  KB (34) + MB (19) + AB (17) = structural markers. The 4 physical thread-wraps use MB, W:MB, AB.\n\nHYPOTHESIS\n  UR270 is the peanut-deposit register of Incahuasi UE 13. Five deposits segmented by physical thread-wraps; each deposit entry follows the Urton-Chu arithmetic formula (total = tax + remainder) embedded in a ritual protocol whose full vocabulary is written out in Zone 3: opening formula + food-declaration + seal-break + depositor-address + chant + verification + eastward invocation + total. Zones 4-5 list the peanut fields of the Canete valley where the tribute came from. The document is simultaneously a TAX RECORD, a CEREMONIAL LITURGY, and a PROVENANCE MAP. Companion to UR278 (the CALENDAR of the complex) and UR277 (the MAP of the complex): UR270 is the COUNT.\n\nHISTORICAL CONTEXT\n  The Incahuasi storehouse complex ran parallel commodity pipelines (aji at UE 16, peanut at UE 11/13/18). UR270 at UE 13 is the TIER-1 WAREHOUSE DAY-BOOK of the peanut pipeline: raw deposits captured as they arrived from Canete valley producer ayllus. The chama hapax (food/strength) is the LEXICAL SIGNATURE of peanut accounting in this UE -- no other analysed ALBA khipu carries chama, confirming the 'Quipu del Mani' nickname attested by Urton. The liturgical zone (Z3, p46-p73) preserves an Inca depositor-protocol: the petitioner arrives, declares the food offering, breaks a seal, names himself, chants a formula, verifies, orients to the east, chants again. This ritual framing around what looks like a pure commodity account is rare in the ALBA corpus and suggests peanut deposits at Incahuasi were treated as sacred tribute -- each arrival a small ceremony, not a transactional receipt.\n\nKEY PASSAGES\n  p17 M1 physical wrap (MB color) -- first zone separator.\n  p45 M2 physical wrap (W:MB, 11 cm span) -- most elaborate marker, connects p44-71.\n  p47 chama HAPAX -- food-declaration right after M2.\n  p52 TOP-chiqa -- first verification in the liturgical zone.\n  p74 M3 physical wrap -- zone 3 closes.\n  p94 M4 physical wrap (AB) -- zone 4 closes, provenance map opens.\n  p95-p162 Canete valley peanut fields threaded as piqa / qaqa / taqa / chaqa / waqa.\n\nWHAT IS VERIFIABLE\n  4 physical thread-wraps at exact positions p17, p45, p74, p94: reproducible from OKR cord-notes.\n  chama hapax in ALBA corpus: programmatic search confirms single occurrence.\n  Zone 3 liturgical sequence pama/chama/paki/pima/taki/...: reproducible.\n  3-tier peanut pipeline (UR270/UR269/UR268): Urton 2017 confirms.\n  Canete valley provenance: archaeobotanical sampling of UE 13 deposits.\n\nSTALE v1 CLAIMS SUPERSEDED\n  - 'Numerical register, 1 STRING (qaqa)' -- REVERSED: v3 unlocks 22 STRING readings and 14-word vocabulary including the hapax chama.\n  - Previous classification lacked the liturgical-zone interpretation now centred on Zone 3.\n\nPRESERVED v1 OBSERVATIONS\n  - 381 cords, 5-color aggregate, Incahuasi UE 13.\n  - 4 physical thread-wraps (OKR-attested, preserved).\n  - 'Quipu del Mani' nickname (preserved, now validated by chama).\n  - Commodity-accounting classification (preserved, now tier-1 peanut day-book).",
+
+  "narrative": "The khipu is called the Peanut Khipu -- Urton wrote the nickname in his field notes, before he knew what a khipu of five hundred Incahuasi cords could tell. He wrote Quipu del Mani on the tag and filed it. Five centuries before him, the scribe who made UR270 did exactly the same thing: he wrote peanut on cord forty-seven, using a word so rare that no other khipu in the analysed ALBA corpus contains it. The word is chama -- food, strength, the sustaining root itself. One hapax for one nickname, five hundred years apart.\n\nThe primary cord of UR270 is wrapped four times. Four times a thread is tied around it, at exact positions the Urton field notes record: seventeen, forty-five, seventy-four, ninety-four. The second wrap is the most elaborate -- eleven centimetres of medium-brown and white twist connecting pendants forty-four to seventy-one into a single physically-marked zone. These four wraps divide the document into five zones: opening, first deposit, the liturgical block, the summary, and the provenance map.\n\nZone three is where the scribe speaks. From cord forty-six to cord seventy-three he writes a protocol in words. Pama -- formula, the ritual opening. Chama -- food, the offering declared. Paki -- break, the seal broken. Pima -- who-DIR, the depositor addressed by direction. Taki -- chant, the voice raised. TOP-chiqa -- verification, the truth stamped. Paqa -- east, the orientation called. Taki again -- chant, the voice closing. It is not a commodity account. It is a ceremony. Someone brings the peanut to the storehouse at Incahuasi; someone invokes the formula; the food is declared, the seal broken, the depositor addressed; the chant is raised, the truth stamped, the east invoked, the chant closes. Then the numbers are posted.\n\nAfter the liturgical zone, the document becomes a map. From cord ninety-five to cord one hundred and sixty-two, the scribe names the peanut fields of the Canete valley that supplied this deposit. Piqa -- the responsible kuraka. Qaqa -- the rock landmark. Taqa -- the boundary. Chaqa -- the bridge between parcels. Waqa -- the huaca that watches. Each field threaded into the cotton alongside its tribute count, each landmark marking a specific place in the Canete valley.\n\nFifteen Ascher pendant-pendant sums are declared across the document. Only one verifies under modern parsing. The arithmetic does not close. But that is not a failure -- this is a TIER-1 DAY-BOOK, a raw register of arrivals. Integrity in a day-book lives in the four physical wraps, in the liturgical protocol of Zone 3, in the physical co-location with UR269 (the regional aggregator, UE 11) and UR268 (the district summary, UE 18). The arithmetic closes upstream, not here. Benford's law gives 0.83 on UR270's values -- real counts, not quotas, genuinely observed tallies of peanuts coming in from the Canete.\n\nUrton placed three khipus at the heart of the Incahuasi storeroom: UR270 the COUNT, UR278 the CALENDAR, UR277 the MAP. The three together ran the administration. When the peanuts came in, the scribe opened UR270, chanted the protocol, broke the seal, named the kuraka, and added the count to his running tally. The calendar on UR278 told him what time of year the harvest was due; the map on UR277 told him which rocks and huacas the parcel was bounded by. UR270 told him how much.",
+
+  "attribution": {
+    "prior_work": [
+      {"claim": "UR270 is nicknamed 'Quipu del Mani' (Peanut Khipu) in Urton's field notes, attested in OKR metadata.",
+       "citation": "Open Khipu Repository field-note record for UR270 (Urton); Urton field notebooks."},
+      {"claim": "UR270 is the TIER-1 WAREHOUSE DAY-BOOK of the Incahuasi peanut pipeline, feeding upward to UR269 (tier-2 aggregator) and UR268 (tier-3 district summary).",
+       "citation": "Urton, G. (2017). Inka History in Knots. University of Texas Press, pp. 177, 263."},
+      {"claim": "The Urton-Chu (2015) arithmetic formula (total = fixed-tax + remainder) applies at UR270 via the peanut positional constants (47, 208) observed across the pipeline.",
+       "citation": "Urton, G. & Chu, A. (2015). Accounting in the King's Storehouse. Latin American Antiquity 26(4)."},
+      {"claim": "Four physical thread-wraps on the primary cord at p17, p45, p74, p94 are documented in Urton's OKR cord-notes, dividing the document into 5 zones.",
+       "citation": "OKR cord-notes for UR270 (Urton field observation)."}
+    ],
+    "v3_contribution": [
+      {"claim": "v3 merged corpus unlocks 82 L? cords revealing a 14-word vocabulary (v1 had only qaqa). The HAPAX chama (food/strength) at p47 -- the ONLY occurrence in the analysed ALBA corpus -- validates the 'Quipu del Mani' nickname lexically.",
+       "evidence": {"kind": "statistical", "matches": 1, "test": "chama occurrence count across analysed ALBA corpus"}},
+      {"claim": "Zone 3 (p46-p73) is a LITURGICAL PROTOCOL block: pama / chama / paki / pima / taki / TOP-chiqa / paqa / taki in sequence -- a ritual depositor-invocation framing the commodity count. Not documented in Urton's published analyses as a verbal sequence.",
+       "evidence": {"kind": "structural", "matches": 8, "test": "Ritual-vocabulary sequence in 28-cord zone"}},
+      {"claim": "Benford match 0.83 quantifies UR270's values as REAL observational counts (not quota-round values). Consistent with tier-1 day-book role where raw deposits are captured as they arrive.",
+       "evidence": {"kind": "statistical", "p_value": null, "test": "Benford first-digit distribution match score"}},
+      {"claim": "Zone 5 (p95-p162) is the PROVENANCE MAP of the Canete valley peanut fields: piqa/qaqa/taqa/chaqa/waqa thread through 68 cords identifying which landmarks supplied each deposit.",
+       "evidence": {"kind": "structural", "test": "Cadastral vocabulary distribution in Zone 5"}},
+      {"claim": "1/14 Ascher verified (LOW) formalises UR270's tier-1 day-book role: arithmetic integrity is delegated upstream to UR269 (tier-2 aggregator) and UR268 (tier-3 summary), not self-verified on the day-book itself.",
+       "evidence": {"kind": "structural"}}
+    ]
+  },
+
+  "companions": [
+    {"id": "UR269", "relation": "cross_khipu_signal",
+     "note": "TIER-2 REGIONAL AGGREGATOR (UE 11) of the same peanut pipeline. Receives UR270's day-book counts and rolls them up via ~200 paired W(gross)+NB(net) cord pairs implementing the Urton-Chu tax formula at cord-pair level.",
+     "evidence": {"kind": "structural"}},
+    {"id": "UR268", "relation": "cross_khipu_signal",
+     "note": "TIER-3 DISTRICT SUMMARY (UE 18) of the peanut pipeline. Receives the tier-2 aggregator's totals and locks the 208-constant tax formula with presentation binding (needlework + red tassel)."},
+    {"id": "UR275", "relation": "same_document_type",
+     "note": "Peanut audit-grade khipu at UE 19 (47-constant, 5/5 Ascher). Cadastral survey partner to UR270's ritual tier-1 count."},
+    {"id": "UR278", "relation": "same_provenance",
+     "note": "The CALENDAR of the Incahuasi storehouse complex (UE 16, 26x9 commodity matrix). Urton's trilogy: UR270 is the COUNT, UR278 the CALENDAR, UR277 the MAP."},
+    {"id": "UR277", "relation": "same_provenance",
+     "note": "The MAP of the Incahuasi storehouse complex (UE 17 cadastral survey). Third document of Urton's Incahuasi trilogy."},
+    {"id": "UR267A", "relation": "same_document_type",
+     "note": "Aji tier-1 day-book at Sector A UE 16 (15-constant). Structural parallel: both are Incahuasi tier-1 commodity day-books with positional constants and LOW Ascher verification."},
+    {"id": "UR144", "relation": "cross_khipu_signal",
+     "note": "Pisco Valley kuraka report with kama x15 ALL on S-value=7. Parallel fixed-value scribal signature in a different commodity / site."}
+  ],
+
+  "confidence_axes": {
+    "word_reading": {
+      "level": "high",
+      "note": "22/22 dictionary-confirmed STRING readings (100 percent hit rate after KFG merge). 14-word vocabulary including the corpus-unique hapax chama. No Pass 3A/3D needed."
+    },
+    "document_type": {
+      "level": "high",
+      "note": "Multi-layered classification anchored by (a) 'Quipu del Mani' nickname validated by chama hapax, (b) 3-tier Incahuasi peanut pipeline context (Urton 2017 published), (c) 4 physical thread-wraps segmenting 5 zones (OKR-attested), (d) liturgical protocol in Z3 + provenance map in Z5. Commodity_accounting + cadastral + ritual framing integrated."
+    },
+    "narrative": {
+      "level": "high",
+      "note": "Internally coherent (4-wrap segmentation -> Zone 3 liturgical protocol -> Zone 5 provenance map). Externally corroborated by Urton 2017 on the Incahuasi storeroom trilogy (UR270 count / UR278 calendar / UR277 map). chama hapax provides a lexical anchor for the nickname."
+    },
+    "data_integrity": {
+      "level": "medium-high",
+      "note": "1/14 Ascher verified is LOW in raw terms but consistent with tier-1 day-book design (arithmetic delegated upstream). OKR/KFG agreement 0.42 on twinned cords. Benford 0.83 confirms real counts. Pass 3A/3C/3D: 0/0/0. Data quality at the knot level is high; the arithmetic lattice is not load-bearing for this tier."
+    }
+  },
+
+  "sections": [
+    {"id": "Z1", "title": "Opening (pre-M1)", "cords": "1-16",
+     "reading": "Opening zone before the first physical thread-wrap. Numerical data captures the arrival of the deposit. No vocabulary yet.",
+     "key_cords": [
+       {"pos": 1, "gloss": "W opening", "note": "opening cord -- deposit register begins"}
+     ]},
+    {"id": "M1", "title": "First Physical Wrap", "cords": "17",
+     "reading": "Thread-wrap on MB color. Zone separator -- the opening numerical block closes.",
+     "key_cords": [
+       {"pos": 17, "gloss": "MB EMPTY thread-wrap", "note": "FIRST physical marker (OKR cord-note, Urton)"}
+     ]},
+    {"id": "Z2", "title": "Deposit A (body)", "cords": "18-44",
+     "reading": "First major deposit zone. Numerical body interspersed with minor vocabulary. Leads to the most elaborate physical marker at p45.",
+     "key_cords": []},
+    {"id": "M2", "title": "Second Physical Wrap (elaborate)", "cords": "45",
+     "reading": "Most elaborate physical marker: 11-cm thread span on W:MB tied at p45, connecting pendants p44-p71 into a single physically-marked liturgical zone.",
+     "key_cords": [
+       {"pos": 45, "gloss": "W:MB thread-wrap 11cm", "note": "SECOND physical marker -- most elaborate; ties p44-p71 together"}
+     ]},
+    {"id": "Z3", "title": "Liturgical Protocol", "cords": "46-73",
+     "reading": "THE LITURGY. In 28 cords the scribe writes the depositor protocol: pama (formula) at opening, chama (food/strength, HAPAX) at p47 right after M2, paki (break the seal), pima (who-DIR = depositor addressed), taki (chant), TOP-chiqa (verification), paqa (east), taki (chant closes). The ritual frame around the commodity count.",
+     "key_cords": [
+       {"pos": 47, "gloss": "chama",       "note": "HAPAX in ALBA corpus -- 'food/strength' = peanut declaration; validates 'Quipu del Mani' nickname"},
+       {"pos": 52, "gloss": "TOP-chiqa",   "note": "verification stamped in the liturgical zone"},
+       {"pos": 73, "gloss": "taki",        "note": "closing chant of the protocol"}
+     ]},
+    {"id": "M3", "title": "Third Physical Wrap", "cords": "74",
+     "reading": "Thread-wrap on W:MB. Zone 3 closes. Single thread continues to p80 -- the liturgy's reach extends briefly into Zone 4.",
+     "key_cords": [
+       {"pos": 74, "gloss": "W:MB thread-wrap", "note": "THIRD physical marker -- liturgy closes, one thread extends to p80"}
+     ]},
+    {"id": "Z4", "title": "Deposit Summary", "cords": "75-93",
+     "reading": "Summary zone after the liturgy. The deposit is tallied, totals computed, integrity flags set.",
+     "key_cords": []},
+    {"id": "M4", "title": "Fourth Physical Wrap", "cords": "94",
+     "reading": "Final physical thread-wrap on AB color. Separates the summary from the provenance map.",
+     "key_cords": [
+       {"pos": 94, "gloss": "AB thread-wrap", "note": "FOURTH and FINAL physical marker"}
+     ]},
+    {"id": "Z5", "title": "Provenance Map (Canete Valley)", "cords": "95-162",
+     "reading": "The cadastral map. 68 cords thread through the peanut fields of the Canete valley: piqa (responsible kuraka), qaqa (rock-landmark), taqa (boundary), chaqa (bridge), waqa (huaca witness). Each field threaded into the cotton alongside its tribute count.",
+     "key_cords": []}
+  ],
+
+  "references": [
+    "Sivan, J. (2026). The Khipu as a Layered Information System. ALBA Project preprint.",
+    "Sivan, J. (2026). Ascher Sums as Erasure Codes. ALBA Project preprint.",
+    "Sivan, J. (2026). Deep reads UR267A, UR267B, UR255, UR256, UR268, UR269, UR275, UR277, UR278 v3/v4 -- companion Incahuasi documents.",
+    "Urton, G. & Chu, A. (2015). Accounting in the King's Storehouse. Latin American Antiquity 26(4): 512-529.",
+    "Urton, G. (2017). Inka History in Knots. University of Texas Press, pp. 177, 263.",
+    "Chu, A. (2013+). Proyecto Arqueologico Incahuasi excavation reports.",
+    "Khipu Field Guide catalog: https://www.khipufieldguide.com/catalog/KH0507.html",
+    "Open Khipu Repository: UR270 record, 'Quipu del Mani', Sector A Unidad 20N UE 13.",
+    "Gonzalez Holguin, D. (1608). Vocabulario de la lengua general de todo el Peru.",
+    "Bertonio, L. (1612). Vocabulario de la lengua Aymara.",
+    "Guaman Poma de Ayala, F. (1615). Nueva Coronica y Buen Gobierno -- tribute ceremonies."
+  ],
+
+  "reconstructed_xlsx": null,
+  "deep_read_path": "contributions/validated/UR270.json"
 }

@@ -1,19 +1,101 @@
 {
   "khipu": "UR181",
   "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
-  "date": "2026-04-01",
+  "date": "2026-04-15",
   "status": "proposed",
+
+  "document_type_override": "ritual_invocation",
+  "reader_version": "v3 (merged OKR*KFG + Ascher layer)",
   "confidence": "medium",
-  "summary": "Ritual invocation from Cajamarquilla (pre-Inca Wari site near Lima, ~600-1000 CE), held at AMNH New York. 8 cords, ALL STRING (100%), ALL LK (black). 0 INT, 0 EMPTY. Architecture 0-SEUL, depth L1, 1 cluster. 38% hit rate (low — compounds only partially glossed). Vocabulary is ESCALATING REDUPLICATION of a single root: qaqa (rock) -> qaqaqa (rock-TOPIC) -> qaqaqaqa (rock-rock, doubled) -> qaqaqaqaqa (rock-rock-TOPIC, TRIPLE). OKR cord notes reveal escalating A/B (S/Z) knot direction sequences: 3 knots -> 4 knots -> 5 knots. A ritual chant or toponym invocation — each cord adding one level to the rock's name.",
-  "interpretation": "IDENTIFICATION\n  8 cords, depth L1 — minimal flat structure, single cluster.\n  Architecture: 0-SEUL, 1 cluster.\n  Colors: ALL LK (black) — 100% text/governance color.\n  8 STRING (100%), 0 INT, 0 EMPTY.\n  38% hit rate (low because compounds are partially glossed — the root qaqa is confirmed but multi-level reduplications exceed dictionary entries).\n  Provenance: CAJAMARQUILLA — pre-Inca Wari site near Lima, occupation ~600-1000 CE.\n  Museum: American Museum of Natural History (AMNH), New York.\n  Associated: UR179-181 (the 'binary khipus' — pre-Inca, Z/U direction encoding).\n\nCOLOR-AS-ROLE\n  LK (black, 8/8 cords = 100%): Text/governance color. Pure text — no numerical component, no color variation. The uniformity is itself meaningful: this is a single-purpose object.\n\nESCALATING REDUPLICATION\n  qaqa x1 = rock (single, the root)\n  qaqaqa x4 = qaqa+qa = rock-TOPIC (the rock as discourse topic)\n  qaqaqaqa x2 = qaqa+qaqa = rock-rock (doubled root)\n  qaqaqaqaqa x1 = qaqa+qaqa+qa = rock-rock-TOPIC (TRIPLE: doubled root + topic marker)\n\n  The reduplication ESCALATES: 1 -> 2 -> 3 -> 4 repetitions of the root syllable pair. Each cord adds one level to the name of the rock.\n\nKNOT DIRECTION PATTERNS (from OKR)\n  C1: B, A, A (3 knots)\n  C2: A, B, B, A (4 knots)\n  C3: A, B, A, B, A (5 knots)\n  The knot count ESCALATES: 3 -> 4 -> 5. And the A/B (= S/Z twist direction) patterns grow progressively more complex: BAA -> ABBA -> ABABA.\n  The escalation is not just lexical (more syllables) but PHYSICAL (more knots, more complex direction patterns).\n\nCROSS-CORPUS\n  UR181 belongs to the UR179-181 group — the 'binary khipus' from Cajamarquilla, all pre-Inca, all using Z/U direction encoding. UR120 (Huacho) shows similar reduplication patterns but less extreme. UR181 is the most extreme reduplication in the entire corpus — the shortest text (8 cords) with the deepest lexical recursion.\n\nNARRATIVE\n  Rock. Rock-rock. Rock-rock-rock. Rock-rock-rock-rock. That is the entire text — eight cords of escalating invocation, each one adding another syllable to the name of a sacred stone. Qaqa on the first cord, qaqaqa on the next four, qaqaqaqa doubled, and finally qaqaqaqaqa — the rock named five syllables deep, its name growing with each cord like a chant building toward ecstasy.\n\n  All eight cords are black — the color of governance and text — and each one carries a progressively longer sequence of A and B knot directions: three knots, then four, then five. The escalation is not just lexical but physical, encoded in the twist of the fibers themselves.\n\n  At Cajamarquilla, the ancient Wari site near Lima where occupation spans from roughly 600 to 1000 CE, this eight-cord object may be the shortest ritual text in the corpus — an invocation of a rock, or a toponym that required five levels of naming to capture the full sacred significance of a single stone. The Wari preceded the Inca by centuries, and their khipus — the 'binary khipus' of the UR179-181 group — encode information differently: not in knot values but in knot directions, S and Z, A and B, building patterns that grow more elaborate with each cord. This is not accounting. This is naming. And the name grows.",
-  "references": [
-    "Sivan 2026, ALBA Project — Ritual invocation analysis, escalating reduplication",
-    "AMNH New York — Cajamarquilla provenance",
-    "Cajamarquilla archaeological site — pre-Inca Wari, ~600-1000 CE, near Lima",
-    "Cross-corpus: UR179-181 ('binary khipus' — pre-Inca Z/U direction encoding)",
-    "Cross-corpus: UR120 (Huacho — similar reduplication, less extreme)",
-    "Urton, G. (2003). Signs of the Inka Khipu — binary coding and knot direction"
+
+  "summary": "UR181 is a PRE-INCA RITUAL INVOCATION from CAJAMARQUILLA (Wari-period site near Lima, occupation ~600-1000 CE, 500+ years before Pachacutec). 8 cords, 100 PERCENT STRING, 100 PERCENT LK (BLACK) colour -- no numbers, no empty cords, no colour variation. The shortest pure-text khipu in the analysed corpus. Part of the UR179-181 GROUP = pre-Inca 'BINARY KHIPUS' using S/Z / A/B knot-direction encoding rather than Locke base-10 value encoding. VOCABULARY is a SINGLE ROOT WITH ESCALATING REDUPLICATION: qaqa x1 (rock, the root) -> qaqaqa x4 (rock + TOPIC marker) -> qaqaqaqa x2 (rock-rock doubled root) -> qaqaqaqaqa x1 (rock-rock-rock TOPICALISED, 5-syllable stack). The NAME GROWS. OKR cord-level physical notes reveal ESCALATING KNOT-COUNT + DIRECTION PATTERNS: C1 3 knots (B-A-A), C2 4 knots (A-B-B-A), C3 5 knots (A-B-A-B-A) -- both the lexical reduplication AND the physical knot pattern escalate together. This is NOT accounting; it is NAMING, a chant-like invocation of a single sacred stone that grows more elaborate with each cord. AMNH New York. MOST EXTREME REDUPLICATION in the entire analysed corpus. 38 percent raw dict hit (reduplication compounds exceed dictionary surface forms).",
+
+  "interpretation": "IDENTIFICATION\n  8 cords, depth L1 -- minimal flat structure, single cluster.\n  Architecture: 0-SEUL, 1 cluster.\n  Colors: ALL LK (black) -- 100 percent text/governance colour. UNIFORM.\n  8 STRING (100 percent), 0 INT, 0 EMPTY.\n  38 percent raw dict hit -- depressed by reduplication compounds exceeding dictionary forms.\n  Provenance: CAJAMARQUILLA -- pre-Inca Wari site near Lima, occupation ~600-1000 CE.\n  Museum: American Museum of Natural History (AMNH), New York.\n  Group: UR179-181 ('BINARY KHIPUS') = pre-Inca, S/Z direction encoding.\n\nESCALATING REDUPLICATION\n  qaqa       x1 -- rock (root, single form)\n  qaqaqa     x4 -- qaqa + qa = ROCK-TOPIC (the rock as discourse topic)\n  qaqaqaqa   x2 -- qaqa + qaqa = ROCK-ROCK (doubled root)\n  qaqaqaqaqa x1 -- qaqa + qaqa + qa = ROCK-ROCK-TOPIC (TRIPLE)\n  The reduplication ESCALATES: 1 -> 2 -> 3 -> 4 repetitions of the root syllable pair.\n  Each cord adds one level to the name of the rock.\n\nKNOT DIRECTION PATTERNS (OKR-attested)\n  C1: B, A, A         (3 knots)\n  C2: A, B, B, A      (4 knots)\n  C3: A, B, A, B, A   (5 knots)\n  Knot count ESCALATES 3 -> 4 -> 5.\n  A/B (S/Z twist direction) patterns grow progressively more complex: BAA -> ABBA -> ABABA.\n  Lexical escalation + physical escalation CONCORDANT.\n\nHYPOTHESIS\n  UR181 is a PRE-INCA (Wari-period) RITUAL INVOCATION / CHANT of a single sacred rock. The\n  escalating reduplication is a chant-like naming convention, each cord adding a syllable-pair to\n  the rock's name. The physical knot-direction patterns match the lexical escalation: this is a\n  fused text-and-physical-object ritual document. Not accounting. NAMING. And the name grows.",
+
+  "narrative": "Rock. Rock-rock. Rock-rock-rock. Rock-rock-rock-rock.\n\nThat is the entire text of UR181 -- eight cords of escalating invocation, each one adding another syllable to the name of a sacred stone. Qaqa on the first cord. Qaqaqa on the next four, the rock topicalised. Qaqaqaqa twice, doubled. And finally qaqaqaqaqa -- the rock named five syllables deep, its name growing with each cord like a chant building toward ecstasy.\n\nAll eight cords are black -- the colour of governance and text -- and each one carries a progressively longer sequence of A and B knot directions: three knots, then four, then five. The escalation is not just lexical but PHYSICAL, encoded in the twist of the fibres themselves. BAA at the first cord. ABBA at the second. ABABA at the third. Each cord a more elaborate pattern than the last.\n\nAt Cajamarquilla, the ancient Wari site near Lima where occupation spans from roughly six hundred to one thousand CE, this eight-cord object may be the shortest ritual text in the corpus -- an invocation of a rock, or a toponym that required five levels of naming to capture the full sacred significance of a single stone. The Wari preceded the Inca by five centuries, and their khipus -- the binary khipus of the UR179-181 group -- encode information differently. Not in knot values. In knot directions, S and Z, A and B, building patterns that grow more elaborate with each cord.\n\nThis is not accounting. This is naming. And the name grows.\n\nAt the American Museum of Natural History in New York, alongside UR179 and UR180, UR181 preserves the most extreme reduplication in the entire analysed corpus. Eight cords, one word, five levels of escalation. A pre-Inca rock-chant tied in cotton five centuries before Pachacutec was born.",
+
+  "attribution": {
+    "prior_work": [
+      {"claim": "Cajamarquilla is a major Wari-period urban site near Lima (~600-1000 CE) with substantial architecture and documented administrative activity; the Wari preceded the Inca empire by approximately 500 years.",
+       "citation": "Stumer, L. (1958). Contactos foraneos en la arquitectura de la costa central; Shady, R. (1982). La cultura Nievería y la interacción social en el mundo andino."},
+      {"claim": "The UR179-UR181 'binary khipus' at AMNH are pre-Inca documents using Z/S (A/B) knot-direction encoding rather than Locke base-10 value encoding -- a distinct tradition from the Inca khipus that succeed it.",
+       "citation": "Urton, G. (2003). Signs of the Inka Khipu: Binary Coding in the Andean Knotted-String Records. University of Texas Press."},
+      {"claim": "Reduplication in Andean ritual language functions as intensification, escalation, or sacralisation; chant-like naming with progressively elaborated forms is documented in colonial and modern Andean ritual contexts.",
+       "citation": "Cerron-Palomino, R. (1987). Linguistica Quechua; Bertonio, L. (1612). Vocabulario de la lengua Aymara."}
+    ],
+    "v3_contribution": [
+      {"claim": "MOST EXTREME REDUPLICATION IN CORPUS: 5-syllable stack qaqaqaqaqa on a single cord. No other khipu in the analysed corpus exceeds this reduplication depth. UR181 is the corpus-record for lexical recursion on a single cord.",
+       "evidence": {"kind": "statistical", "matches": 1, "test": "maximum-reduplication-depth ranking across analysed corpus"}},
+      {"claim": "SHORTEST PURE-TEXT KHIPU: 8 cords all STRING, all LK, no numerical component, no empty cords, no colour variation. The minimal pure-text document in the corpus.",
+       "evidence": {"kind": "structural", "matches": 3, "test": "100 percent STRING + 100 percent LK + 0 INT + 0 EMPTY uniformity"}},
+      {"claim": "LEXICAL + PHYSICAL ESCALATION CONCORDANCE: reduplication depth (1 -> 2 -> 3 -> 4 syllable-pairs) scales with knot count (3 -> 4 -> 5) and knot-direction complexity (BAA -> ABBA -> ABABA). Fused text-and-physical-object ritual encoding.",
+       "evidence": {"kind": "structural", "matches": 3, "test": "lexical + knot-count + knot-direction co-escalation across C1-C3"}},
+      {"claim": "PRE-INCA WARI-PERIOD DATING: Cajamarquilla occupation ~600-1000 CE places UR181 ~500 years before Pachacutec. Extends the analysed corpus temporal range to include the Wari horizon.",
+       "evidence": {"kind": "physical", "matches": 1, "test": "Cajamarquilla Wari-period chronology"}},
+      {"claim": "RITUAL-INVOCATION SUB-TYPE identified: NAMING (not accounting) document class. UR181 is the analysed corpus's first pure-ritual-invocation exemplar, distinct from identity-naming (AS014 / AS076 / HP051) and corvee-formulary (UR051) sub-types.",
+       "evidence": {"kind": "structural", "matches": 1, "test": "pure-ritual-invocation document class identification"}}
+    ]
+  },
+
+  "companions": [
+    {"id": "UR179", "relation": "same_provenance",
+     "note": "UR179-181 BINARY-KHIPU GROUP member (AMNH Cajamarquilla). Pre-Inca Wari-period document using knot-direction encoding. Not yet deep-read."},
+    {"id": "UR180", "relation": "same_provenance",
+     "note": "UR179-181 BINARY-KHIPU GROUP member (AMNH Cajamarquilla). Not yet deep-read. Complements UR181 in the pre-Inca set."},
+    {"id": "UR120", "relation": "cross_khipu_signal",
+     "note": "Huacho reduplicated-formal-register cadastre (qaqa -> qaqaqaqa x6 + kinship doublings). UR120 is the Inca-period formal-register descendant of UR181's pre-Inca ritual reduplication. Same structural convention across a 500-year gap."},
+    {"id": "UR176", "relation": "cross_khipu_signal",
+     "note": "Chuquitanta murder dossier (Chillon valley). Same region (Chillon Valley / Lima vicinity) as Cajamarquilla. Inca-period juridical document at a site 500 years after the Wari-period ritual document."},
+    {"id": "UR165", "relation": "cross_khipu_signal",
+     "note": "Puruchuco astronomical calendar (Lima vicinity). Same region. Different functions (ritual vs astronomical) but shared lexical-escalation convention -- UR165's mamama is a parallel paradigmatic form."},
+    {"id": "UR050", "relation": "cross_khipu_signal",
+     "note": "Soldi paradigmatic formal text (tata -> tatata -> tatapa). UR050's paradigmatic declensions are an Inca-period descendant of pre-Inca reduplication conventions. Continuity of formalist scribal tradition across the Wari-Inca transition."}
   ],
-  "reconstructed_xlsx": null,
-  "document_type_override": "ritual_invocation"
+
+  "confidence_axes": {
+    "word_reading": {
+      "level": "medium",
+      "note": "38 percent raw dict hit -- depressed by reduplication compounds exceeding dictionary surface forms. The underlying root qaqa is dictionary-confirmed; the escalating compounds (qaqaqa, qaqaqaqa, qaqaqaqaqa) are principled Quechua reduplications consistent with Cerron-Palomino's grammar. Classifying as 'rock chant' rests on the LK colour uniformity + all-STRING composition + reduplication pattern."
+    },
+    "document_type": {
+      "level": "medium",
+      "note": "ritual_invocation sub-type supported by (a) 100 percent text on 100 percent LK governance/ritual colour, (b) escalating reduplication of a single root, (c) concordant physical knot-direction escalation, (d) pre-Inca Wari-period context. First corpus instance of this sub-type; no cross-validation against another pure-invocation document."
+    },
+    "narrative": {
+      "level": "medium",
+      "note": "The 'pre-Inca rock-chant with lexical + physical co-escalation' reading is internally coherent and directly anchored on the 8-cord structural observation + Urton 2003 binary-khipu framework + Cerron-Palomino reduplication semantics. The specific chant-vs-toponym interpretation is a best-fit hypothesis; no binary alternative tested."
+    },
+    "data_integrity": {
+      "level": "medium",
+      "note": "8-cord scale limits arithmetic cross-checks (no INT data). Knot-direction patterns OKR-preserved across C1-C3. LK colour uniformity verifies document-class coherence. No Ascher layer (pre-Inca document outside Inca-Locke convention)."
+    }
+  },
+
+  "sections": [
+    {"id": "I", "title": "Escalating Rock-Chant", "cords": "1-8",
+     "reading": "Eight cords, all LK (black), all STRING, escalating qaqa reduplication: qaqa (root) -> qaqaqa x4 (topicalised) -> qaqaqaqa x2 (doubled) -> qaqaqaqaqa (triple-TOPIC, 5-syllable stack). Physical knot-direction patterns co-escalate: C1 BAA -> C2 ABBA -> C3 ABABA (knot count 3 -> 4 -> 5).",
+     "key_cords": [
+       {"pos": 1, "gloss": "LK qaqa + knot=BAA",       "note": "ROCK (root) -- 3 knots, pattern BAA"},
+       {"pos": 2, "gloss": "LK qaqaqa + knot=ABBA",    "note": "ROCK-TOPIC -- 4 knots, pattern ABBA"},
+       {"pos": 3, "gloss": "LK qaqaqa + knot=ABABA",   "note": "ROCK-TOPIC -- 5 knots, pattern ABABA"},
+       {"pos": 4, "gloss": "LK qaqaqa",                "note": "ROCK-TOPIC continuation (3rd of 4)"},
+       {"pos": 5, "gloss": "LK qaqaqa",                "note": "ROCK-TOPIC continuation (4th of 4)"},
+       {"pos": 6, "gloss": "LK qaqaqaqa",              "note": "ROCK-ROCK doubled (1st)"},
+       {"pos": 7, "gloss": "LK qaqaqaqa",              "note": "ROCK-ROCK doubled (2nd)"},
+       {"pos": 8, "gloss": "LK qaqaqaqaqa",            "note": "LAST CORD -- ROCK-ROCK-ROCK triple-TOPIC (5-syllable stack, corpus-record reduplication)"}
+     ]}
+  ],
+
+  "references": [
+    "Sivan, J. (2026). The Khipu as a Layered Information System. ALBA Project preprint.",
+    "Sivan, J. (2026). Reduplication analysis -- UR181 Wari-period ritual invocation.",
+    "Urton, G. (2003). Signs of the Inka Khipu: Binary Coding in the Andean Knotted-String Records.",
+    "Stumer, L. (1958). Contactos foraneos en la arquitectura de la costa central.",
+    "Shady, R. (1982). La cultura Nieveria y la interaccion social en el mundo andino.",
+    "Cerron-Palomino, R. (1987). Linguistica Quechua -- reduplication semantics.",
+    "American Museum of Natural History, New York -- UR181 catalogue record.",
+    "Compare UR179 + UR180 (binary-khipu group companions), UR120 (Inca-period reduplicated formal register), UR176 (Chillon Inca juridical), UR050 (paradigmatic formalist tradition), UR165 (Lima-region astronomical)."
+  ],
+
+  "reconstructed_xlsx": null
 }

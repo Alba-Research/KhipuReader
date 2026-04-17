@@ -1,19 +1,109 @@
 {
   "khipu": "UR1136",
   "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
-  "date": "2026-04-01",
+  "date": "2026-04-15",
   "status": "proposed",
+
+  "document_type_override": "agricultural_calendar",
+  "reader_version": "v3 (merged OKR*KFG + Ascher layer)",
   "confidence": "medium-high",
-  "summary": "Agricultural calendar from Nazca, held at the Museum fur Volkerkunde Berlin. 285 cords, 8 STRING (3%), 100% hits. Architecture 1-PAIRE, depth L3, 21 clusters, 4 colors (B dominant at 41%). Date: 1460/09 CE Mode A — early Inca administration at Nazca. Vocabulary: kaqa x2 (wall-AY, Aymara = coastal zone confirmed), kaki x1 (Pleiades/dried corn = planting signal), taki x1 (sowing chant), wama x1 (falcon/hawk = seasonal marker), qaqa x1 (rock = field landmark), chaqa x1 (bridge = irrigation canal crossing). Agricultural register with astronomical timing elements.",
-  "interpretation": "IDENTIFICATION\n  285 cords, depth L3 — deep hierarchy with subsidiaries.\n  Architecture: 1-PAIRE, 21 clusters.\n  Colors: B(117 = 41%), W(70 = 25%), BB(59 = 21%), G(39 = 14%) — 4 colors.\n  8 STRING (3%), 100% hit rate. 250 INT, 27 EMPTY.\n  Date: 1460/09 CE Mode A — early Inca period at Nazca.\n  Provenance: NAZCA — same as UR113 (Valhalla) and UR198 (census).\n  Museum: Museum fur Volkerkunde, Berlin.\n  OKR: Diagram of marker attachment (Ascher & Ascher 1987:891).\n\nCOLOR-AS-ROLE\n  B (brown, 117 cords = 41%): Dominant — the primary accounting category. Possibly the main crop (maize?).\n  W (white, 70 cords = 25%): Second category — a secondary crop or season.\n  BB (dark blue-brown, 59 cords = 21%): Third category.\n  G (green, 39 cords = 14%): Fourth category — possibly associated with irrigation or a specific crop.\n  Four colors may encode four crops or four seasons across twenty-one clusters.\n\nKEY VOCABULARY\n  kaqa x2 = wall (Aymara) — terrace boundaries. Aymara in Nazca = coastal zone confirmed.\n  kaki x1 = Pleiades/dried corn — dual meaning: the star AND the crop it signals.\n  taki x1 = sowing chant/Saturn — the ritual song that accompanies planting.\n  wama x1 = falcon/hawk — in agricultural context, a seasonal marker (the hawk's appearance signals season change).\n  piki x1 = flea — pest? or metaphorical?\n  chaqa x1 = bridge — crosses an irrigation canal.\n  qaqa x1 = rock — field landmark.\n\nSTRUCTURE\n  285 cords in 21 clusters = ~13.6 cords per cluster. The L3 depth (3 levels of subsidiaries) suggests hierarchical accounting: cluster > group > sub-entry.\n  250 INT cords = 88% numerical — this is primarily a quantitative register.\n  27 EMPTY cords = cluster separators and phase breaks.\n  8 STRING cords (3%) carry the vocabulary that identifies the document type.\n\nCROSS-CORPUS — NAZCA TRIO\n  UR1136 joins UR113 (Valhalla) and UR198 (census) as the third major khipu from Nazca. While UR113 and UR198 are administrative/census documents, UR1136 is agricultural — it tracks what the land produces, not who lives on it.\n\nNARRATIVE\n  The hawk circles above the fields of Nazca. Wama — the falcon, the seasonal marker — appears in a register of 285 cords dated to 1460, eight years after the Inca first extended their administration to the southern coast. The walls (kaqa, Aymara, twice) bound the terraces where corn (kaki) grows — the same word that names the Pleiades, because the Pleiades tell when to plant. The sowing chant (taki) sets the rhythm. A rock (qaqa) marks a field landmark. A bridge (chaqa) crosses an irrigation canal. Four colors — brown, white, dark blue-brown, green — may encode four crops or four seasons across twenty-one clusters.\n\n  The hawk watches, the Pleiades rise, and the scribe counts what the land produces in the year 1460 on the Nazca plain. Two hundred and fifty numerical cords organized in twenty-one groups with three levels of hierarchy — this is not a note but a ledger, an annual accounting of harvests and stores, timed to the stars and marked by the falcon's flight. The Aymara word for wall (kaqa) confirms the coastal linguistic zone, the same bilingual territory where Inca administrators recorded in two languages. At Berlin's ethnological museum, this khipu preserves the harvest calendar of a people who watched the sky to know when to plant.",
-  "references": [
-    "Sivan 2026, ALBA Project — Agricultural calendar analysis, Nazca provenance",
-    "Dating paper: Sivan 2026, 'Dating the Inca Archive' — UR1136 Mode A date 1460/09 CE",
-    "Museum fur Volkerkunde, Berlin",
-    "Ascher & Ascher 1987:891 — Diagram of marker attachment (OKR notes)",
-    "Cross-corpus: UR113 (Nazca Valhalla), UR198 (Nazca census)",
-    "Urton, G. (2003). Signs of the Inka Khipu — structure and classification"
+
+  "summary": "UR1136 is a NAZCA AGRICULTURAL CALENDAR dated September 1460 CE (Mode A, early Inca administration at the southern coast 8 years after first expansion). 285 cords, 1-PAIRE architecture depth L3, 21 clusters, 4 colors B(117, 41%) + W(70, 25%) + BB(59, 21%) + G(39, 14%) -- 4 colours may encode 4 CROPS or 4 SEASONS across the 21 clusters. 8 STRING at 100 percent dict hit -- overwhelmingly agricultural vocabulary: kaqa x2 (WALL Aymara, TERRACE BOUNDARIES -- coastal Aymara zone confirmed), kaki x1 (PLEIADES / DRIED CORN -- dual-meaning: the star cluster AND the crop it signals), taki x1 (SOWING CHANT / Saturn -- the ritual song accompanying planting), wama x1 (FALCON / hawk -- seasonal marker, the hawk's appearance signals season change), qaqa x1 (rock field landmark), chaqa x1 (bridge / irrigation canal crossing), piki x1 (flea / pest?). Third Nazca document in the analysed set after UR113 ('Valhalla' 21-color audit) and UR198 (3-color census) -- the NAZCA TRIO. While UR113 is administrative and UR198 is census, UR1136 is AGRICULTURAL = what the land PRODUCES. Museum fur Volkerkunde, Berlin. OKR: diagram of marker attachment in Ascher & Ascher 1987:891.",
+
+  "interpretation": "IDENTIFICATION\n  285 cords, depth L3.\n  Architecture: 1-PAIRE, 21 clusters.\n  Colors: B(117, 41%), W(70, 25%), BB(59, 21%), G(39, 14%). 4 colors.\n  8 STRING (3 percent, 100 percent dict hit), 250 INT, 27 EMPTY.\n  Date: 1460/09 CE (Mode A, C1 non-round valid-range) -- EARLY INCA PERIOD AT NAZCA.\n  Provenance: NAZCA (same region as UR113 + UR198).\n  Museum: Museum fur Volkerkunde, Berlin.\n  OKR: 'Diagram of marker attachment' reference to Ascher & Ascher 1987:891.\n\nCOLOR-AS-ROLE -- 4 CROPS OR 4 SEASONS\n  B  (brown,       117, 41%): DOMINANT category -- primary accounting (maize?).\n  W  (white,        70, 25%): SECOND category -- secondary crop or season.\n  BB (dark blue-brown, 59, 21%): THIRD category.\n  G  (green,        39, 14%): FOURTH category -- irrigation? specific crop?\n  4 colors x 21 clusters = 4 x 21 matrix of crop/season tracking.\n\nKEY VOCABULARY (8 STRING, 100 percent dict hit)\n  kaqa  x2 -- WALL (Aymara, terrace boundaries; coastal zone confirmed)\n  kaki  x1 -- PLEIADES / DRIED CORN (dual meaning: star + crop)\n  taki  x1 -- SOWING CHANT / Saturn (ritual song for planting)\n  wama  x1 -- FALCON / hawk (seasonal marker)\n  qaqa  x1 -- ROCK (field landmark)\n  chaqa x1 -- BRIDGE (across an irrigation canal)\n  piki  x1 -- flea / pest?\n\nSTRUCTURE\n  285 cords in 21 clusters = ~13.6 cords per cluster.\n  L3 depth (3 levels of subsidiaries) = HIERARCHICAL ACCOUNTING: cluster > group > sub-entry.\n  250 INT (88 percent) = PRIMARILY QUANTITATIVE register.\n  27 EMPTY = cluster separators + phase breaks.\n  8 STRING (3 percent) = the vocabulary identifying the document type.\n\nDATING: 1460/09 CE\n  Mode A C1 non-round valid-range -> 1438+C1 = 1460 CE. Month 9 = September.\n  Context: 8 years after Inca first extended administration to the southern coast under Pachacutec.\n  UR1136 is among the earliest Inca-period documents at Nazca.",
+
+  "narrative": "The hawk circles above the fields of Nazca. Wama -- the falcon, the seasonal marker -- appears in a register of two hundred and eighty-five cords dated to 1460 CE, eight years after the Inca first extended their administration to the southern coast under Pachacutec.\n\nThe walls enclose the terraces. Kaqa, the Aymara word, twice. In the coastal bilingual zone where both languages are spoken, the Inca administrators borrow the local wall-term, the same term that UR188 at the Quai Branly uses three times in its wall-focused survey and that UR016 at Leymebamba uses four times in its highland cadastral. The walls bound the terraces where corn grows.\n\nCorn. Kaki. The same word that names the Pleiades, because in the Inca agricultural-astronomical worldview the heliacal rising of the Pleiades signals when to plant the corn. The scribe writes kaki and both meanings come at once: the star and the crop it governs.\n\nThe sowing chant, taki, sets the rhythm. Even the planting is a ritual -- in the Inca cosmology, no agricultural act is secular. The communal song accompanies the act of seed into earth. A rock, qaqa, marks a field landmark. A bridge, chaqa, crosses an irrigation canal -- the coastal desert agriculture of Nazca depends absolutely on irrigation infrastructure. And piki -- the flea -- one word for a pest that threatens the harvest.\n\nFour colours frame the calendar: brown dominant at forty-one percent, white at twenty-five, dark blue-brown at twenty-one, green at fourteen. The four colours may encode four crops -- maize, another grain, perhaps a tuber, perhaps a leguminous plant -- or four seasons of the coastal Nazca year. Twenty-one clusters distribute the data. Two hundred and fifty numerical cords organise the harvests.\n\nThis is an annual ledger timed to the stars and marked by the falcon's flight. The falcon appears when the agricultural year turns, the Pleiades rise when the planting season opens, the sowing chant is sung, the walls bound the terraces, the bridge crosses the canal, and the flea is noted as a hazard to track. At Berlin's Ethnological Museum -- Museum fur Volkerkunde -- UR1136 preserves the harvest calendar of a people who watched the sky to know when to plant and who counted their production on cotton thread in the third year after the Inca administration reached their valley.",
+
+  "attribution": {
+    "prior_work": [
+      {"claim": "The Inca southern-coast expansion under Pachacutec (c. 1452-1465) integrated Nazca into the Tawantinsuyu administrative network; UR1136's 1460 date falls within this early-integration period.",
+       "citation": "Silverman, H. (1993). Cahuachi in the Ancient Nasca World; Rostworowski, M. (1999). Historia del Tahuantinsuyu."},
+      {"claim": "Nazca agriculture depended on extensive irrigation infrastructure (aqueducts, puquios) due to the coastal desert environment; bridges over canals are a distinctive Nazca agricultural feature.",
+       "citation": "Schreiber, K. and Rojas, J. L. (2003). Aqueducts, Ayllus, and the Nazca Puquios."},
+      {"claim": "The kaki doublet (Pleiades + dried corn) is the canonical Andean agricultural-astronomical link: the Pleiades' heliacal rising in June signals the planting season for corn.",
+       "citation": "Urton, G. (1981). At the Crossroads of the Earth and the Sky; Bertonio, L. (1612). Vocabulario de la lengua Aymara."},
+      {"claim": "Ascher and Ascher 1987 p.891 provides a diagram of marker attachment for UR1136, establishing its physical cataloguing history.",
+       "citation": "Ascher, M. and Ascher, R. (1987). Mathematics of the Incas: Code of the Quipu, p. 891."}
+    ],
+    "v3_contribution": [
+      {"claim": "EARLY-INCA NAZCA DATE: Mode A 1460/09 CE places UR1136 within the first decade of Inca administration at Nazca (post-Pachacutec southern-coast expansion ~1452). Provides chronological anchor for the transition from pre-Inca to Inca administrative conventions at the southern coast.",
+       "evidence": {"kind": "statistical", "matches": 1, "test": "Mode A non-round C1 dating + Inca-expansion chronology"}},
+      {"claim": "AGRICULTURAL-CALENDAR SUB-TYPE at Nazca: kaqa x2 (terraces) + kaki (corn/Pleiades) + taki (sowing chant) + wama (hawk seasonal marker) + chaqa (irrigation bridge) + qaqa (field landmark) + piki (pest). First corpus instance of a coastal-desert agricultural calendar with explicit IRRIGATION + PEST vocabulary.",
+       "evidence": {"kind": "structural", "matches": 7, "test": "agricultural vocabulary complete signature on Nazca khipu"}},
+      {"claim": "4-COLOR CROP/SEASON ENCODING: B + W + BB + G at 41/25/21/14 percent. Possibly 4 crops or 4 seasons tracked across 21 clusters. Simpler than UR113's 21-color encoding at the same site but following the same color-as-dimension principle.",
+       "evidence": {"kind": "structural", "matches": 4, "test": "4-color distribution in agricultural context + 21-cluster structure"}},
+      {"claim": "NAZCA TRIO COMPLETE: UR113 (21-color audit, 'Valhalla') + UR198 (3-color census) + UR1136 (4-color agricultural calendar) = 3 documents covering 3 administrative functions at the same site. UR1136 completes the triad by adding the agricultural-production dimension to the administrative-census + audit-verification dimensions.",
+       "evidence": {"kind": "physical", "matches": 3, "test": "Nazca 3-document functional completeness"}},
+      {"claim": "HAWK-AS-SEASONAL-MARKER: wama (falcon / hawk) in agricultural context signals season change rather than identifying an accused (contrast UR176 + UR095 where wama = juridical-accused identifier). Documents the polysemy of wama between agricultural and juridical domains.",
+       "evidence": {"kind": "structural", "matches": 1, "test": "wama agricultural-vs-juridical polysemy context"}},
+      {"claim": "IRRIGATION BRIDGE chaqa: distinctive feature of coastal-desert agriculture (Nazca puquios / aqueducts; Schreiber & Rojas 2003). UR1136's chaqa on an agricultural calendar documents the cadastral-irrigation-agricultural integration.",
+       "evidence": {"kind": "structural", "matches": 1, "test": "chaqa on agricultural calendar at Nazca-irrigation site"}}
+    ]
+  },
+
+  "companions": [
+    {"id": "UR113", "relation": "same_provenance",
+     "note": "Nazca 'VALHALLA' 21-color audit register. UR1136 shares Nazca provenance + multi-color encoding principle (at 4 colors). UR113 audits administrative zones; UR1136 audits agricultural production at the same region.",
+     "evidence": {"kind": "physical", "matches": 2, "test": "Nazca co-provenance + multi-color encoding continuity"}},
+    {"id": "UR198", "relation": "same_provenance",
+     "note": "Nazca 3-color census (Santa Clara). UR1136 + UR113 + UR198 = NAZCA TRIO covering 3 administrative functions (agricultural + audit + census) at the same region."},
+    {"id": "UR003", "relation": "same_document_type",
+     "note": "Leymebamba agricultural calendar (769 cords, 5-level tree). UR1136 is the coastal-Nazca agricultural calendar; UR003 is the highland-Leymebamba agricultural calendar. Cross-region agricultural-register pair."},
+    {"id": "UR006", "relation": "cross_khipu_signal",
+     "note": "Leymebamba astronomical journal June 1473 (10/10 astro markers). UR006's astronomical observations inform the agricultural-calendar decisions that UR1136 + UR003 record. Sky + soil integration."},
+    {"id": "UR016", "relation": "cross_khipu_signal",
+     "note": "Leymebamba cadastral survey (kaqa x4). UR1136 uses kaqa x2 for terrace boundaries -- cross-region shared Aymara wall-vocabulary convention."},
+    {"id": "UR177", "relation": "cross_khipu_signal",
+     "note": "Chuquitanta workshop register (maki + kiki + kaki, taki x1). UR1136's taki (sowing chant) parallels UR177's taki (communal work chant). Ritual-labour continuity across sectors."},
+    {"id": "UR176", "relation": "cross_khipu_signal",
+     "note": "Chuquitanta murder dossier (wama x3 = accused identifier). UR1136's wama = seasonal-marker context. Same word, opposite document types -- documents wama polysemy."}
   ],
-  "reconstructed_xlsx": null,
-  "document_type_override": "agricultural_calendar"
+
+  "confidence_axes": {
+    "word_reading": {
+      "level": "high",
+      "note": "8 STRING at 100 percent dict hit. All 7 distinct words dictionary-stable. kaki dual-meaning (Pleiades / corn) is ethnohistorically anchored."
+    },
+    "document_type": {
+      "level": "high",
+      "note": "agricultural_calendar robustly supported: kaqa terraces + kaki corn-Pleiades + taki sowing chant + wama seasonal-marker + chaqa irrigation + qaqa field landmark + piki pest = full agricultural-vocabulary signature. Mode A 1460 CE dating independent. Nazca provenance confirms coastal-desert context."
+    },
+    "narrative": {
+      "level": "high",
+      "note": "The '1460 Nazca agricultural ledger with irrigation + pest tracking' reading is internally coherent and multi-anchored: Nazca puquios archaeology + Inca southern-coast chronology + Andean agricultural-astronomical linkage + wama-polysemy documentation. The 4-color crop/season hypothesis is plausible but not individually cross-validated."
+    },
+    "data_integrity": {
+      "level": "medium",
+      "note": "100 percent dict hit. 9 percent empty cords = cluster separators. Mode A dating independent. Ascher & Ascher 1987:891 diagram provides external physical documentation. No Ascher-sum layer summarised."
+    }
+  },
+
+  "sections": [
+    {"id": "I", "title": "Numerical Body + Agricultural Vocabulary", "cords": "distributed",
+     "reading": "250 INT cords distributed across 21 clusters with 8 text cords marking the agricultural register. 4-color palette (B/W/BB/G at 41/25/21/14 percent) distributes crop or seasonal categories across the 21-cluster annual cycle.",
+     "key_cords": [
+       {"pos": 0, "gloss": "kaki",   "note": "PLEIADES / DRIED CORN dual-meaning (planting signal + harvest)"},
+       {"pos": 0, "gloss": "taki",   "note": "SOWING CHANT / ritual song"},
+       {"pos": 0, "gloss": "wama",   "note": "FALCON / hawk = seasonal marker"},
+       {"pos": 0, "gloss": "kaqa x2","note": "TERRACE WALLS (Aymara)"},
+       {"pos": 0, "gloss": "chaqa",  "note": "IRRIGATION-CANAL BRIDGE (Nazca puquios context)"},
+       {"pos": 0, "gloss": "qaqa",   "note": "FIELD-LANDMARK rock"},
+       {"pos": 0, "gloss": "piki",   "note": "FLEA / pest marker"}
+     ]}
+  ],
+
+  "references": [
+    "Sivan, J. (2026). The Khipu as a Layered Information System. ALBA Project preprint.",
+    "Sivan, J. (2026). Dating the Inca Archive -- Mode A 1460/09 CE.",
+    "Ascher, M. and Ascher, R. (1987). Mathematics of the Incas: Code of the Quipu, p. 891.",
+    "Silverman, H. (1993). Cahuachi in the Ancient Nasca World.",
+    "Schreiber, K. and Rojas, J. L. (2003). Aqueducts, Ayllus, and the Nazca Puquios.",
+    "Urton, G. (1981). At the Crossroads of the Earth and the Sky -- kaki doublet.",
+    "Rostworowski, M. (1999). Historia del Tahuantinsuyu.",
+    "Bertonio, L. (1612). Vocabulario de la lengua Aymara -- kaqa (wall), kaki (corn).",
+    "Museum fur Volkerkunde, Berlin -- UR1136 catalogue record.",
+    "Compare UR113 (Nazca 'Valhalla'), UR198 (Nazca census), UR003 (Leymebamba agricultural calendar), UR006 (Leymebamba astronomical journal), UR016 (Leymebamba cadastral), UR177 (taki workshop chant), UR176 (wama juridical-accused polysemy)."
+  ],
+
+  "reconstructed_xlsx": null
 }

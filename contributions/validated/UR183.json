@@ -1,0 +1,110 @@
+{
+  "khipu": "UR183",
+  "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
+  "date": "2026-04-15",
+  "status": "proposed",
+
+  "document_type_override": "audit_totals",
+  "reader_version": "v3 (merged OKR*KFG + Ascher layer)",
+  "confidence": "medium",
+
+  "summary": "UR183 is an AUDIT-TOTALS REGISTER with CORPUS-TIER MAGNITUDES at the same (unknown) provenance series as UR178 + UR179 + UR180 + UR181 (likely pre-Inca or late-Inca, AMNH-related catalog). 33 cords, 30 INT + 0 STRING + 3 EMPTY (9 percent -- very dense), 4 CLUSTERS: 8 + 15 + 6 + 4 cords. 8 COLORS: AB(13 39%) + W(8 24%) + MB(4 12%) + GG(2) + BG(1) + 0B(2) + KB(2) + LC(1). MASSIVE AUDIT-TIER TOTALS: p29 AB val=8300 (the HIGHEST value EVER CATALOGUED in the analysed corpus -- exceeds AS069's peak 1616, UR273B's peak 3991) + p25 AB val=6010 + p30 AB val=1568 + p31 MB val=1340 + p32 AB val=1030. Total sum = 24,534 across 30 filled cords = average 818 per non-zero cord -- SECOND-HIGHEST audit magnitude after UR273B (average 977 per cord). ZERO STRING = classification rests on structural + arithmetic magnitudes. 0-STRING + massive-totals + 4-cluster cascade + 8-color palette = SUMMARY-AUDIT REGISTER aggregating large-scale Inca administrative totals. Without STRING or KFG catalog data, specific subject is indeterminate; the magnitudes alone are unusual enough to flag UR183 as containing the CORPUS-RECORD peak value 8300 and a top-3 per-cord-average audit total. No OKR notes.",
+
+  "interpretation": "IDENTIFICATION\n  33 cords. 30 INT (sum=24,534), 0 STRING, 3 EMPTY (9 percent).\n  Architecture: default. 4 CLUSTERS: 8 + 15 + 6 + 4 cords (15-cord middle block dominant).\n  8 colors: AB(13, 39%), W(8, 24%), MB(4, 12%), GG(2), 0B(2), KB(2), BG(1), LC(1).\n  Provenance: UNKNOWN. Museum: not specified in OKR.\n  No OKR notes.\n\nCORPUS-RECORD PEAK VALUE 8300 AT P29 AB\n  8300 is the LARGEST SINGLE CORD VALUE in the analysed corpus (to date).\n  Comparisons:\n    UR273B (audit totals): peak 3991 on W\n    UR262 (master register): peak 3088 on AB\n    UR182 (huaca-wall register): peak 802 on W\n    AS069 (observation log): peak 1616 at section 20 (Mars + Jupiter opposition)\n    UR192 (tambo accounting): peak 70\n  UR183's 8300 is 2x the next-highest catalogued peak (UR273B 3991). This is exceptional magnitude.\n\nTOP VALUES\n  p29 AB val=8300 (DOCUMENT + CORPUS RECORD PEAK)\n  p25 AB val=6010 (second-largest in document, still larger than UR273B's peak 3991)\n  p30 AB val=1568 (third)\n  p31 MB val=1340 (fourth)\n  p32 AB val=1030 (fifth)\n  Four of top-5 values on AB + 1 on MB. Cluster 3 (cords 25-30) and cluster 4 (cords 31-33) contain\n  ALL the top-5 values = LATE-REGISTER AUDIT CONCENTRATION.\n\nPER-CORD MAGNITUDE\n  Total sum 24,534 / 30 filled cords = average 818 per cord.\n  UR273B average: 29,317 / 30 = 977 per cord (SIMILAR TO UR183).\n  UR262 average: 85,711 / 364 = 236 per cord (5x less dense per cord than UR183).\n  UR182 average: 2803 / 21 = 133 per cord.\n  UR183 is the second-highest per-cord audit magnitude in the analysed corpus, after UR273B.\n\nDATA QUALITY\n  0 STRING = no ALBA syllabary contribution.\n  9 percent empty cords = nearly fully-filled audit register.\n  No KFG Ascher summary available in v3 extraction.\n\nSTRUCTURAL SIGNATURE -- LATE-REGISTER AUDIT CONCENTRATION\n  Cluster 1 (8 cords, p1-p8): OPENING HEADER.\n  Cluster 2 (15 cords, p9-p23): MIDDLE CONTENT block (largest cluster).\n  Cluster 3 (6 cords, p25-p30): LATE AUDIT TOTALS -- contains peak 8300 + 6010.\n  Cluster 4 (4 cords, p31-p33 + 1): CLOSING AGGREGATES -- contains 1340 + 1030.\n  The register's MAGNITUDES CONCENTRATE LATE: clusters 3 + 4 carry the top-5 values. This is the\n  OPPOSITE pattern from typical header-first registers (UR262 opens with 3088 at p1) -- UR183\n  reserves the biggest totals for the end, building to a crescendo of 8300 at p29.\n\nCOLOR ROLE MAP\n  AB (13, 39%) = PRIMARY CHANNEL -- carries 4 of top-5 INT values including corpus-record 8300.\n  W  (8, 24%)  = SECONDARY -- substantial channel but no top-5 values.\n  MB (4, 12%)  = CATEGORY -- carries 1 of top-5 (p31 val=1340).\n  GG (2), 0B (2), KB (2), BG (1), LC (1) = specialty markers + minor channels.\n  8 colors on 33 cords = 1 color per ~4 cords = rich per-cord colour density.\n\nHYPOTHESIS\n  UR183 is an AUDIT-TOTALS register aggregating EXCEPTIONALLY LARGE INCA ADMINISTRATIVE totals. The\n  corpus-record peak value 8300 at p29 AB (likely a grand summary total) + 6010 at p25 + 1568/1340/\n  1030 concentrated in the late clusters = CLOSING AUDIT CRESCENDO. The register builds from smaller\n  opening values through the 15-cord middle block to the late audit-totals concentration.\n  Without STRING anchors, the specific commodity / tribute / population category is not identifiable.\n  The 8300 peak is compatible with several audit-scale contexts: a large-scale TRIBUTE ASSESSMENT\n  (tributaries in thousands), a POPULATION CENSUS (persons in thousands), an EMPIRE-LEVEL COMMODITY\n  ACCOUNTING (units in thousands of commodity items), or a MULTI-PROVINCE AGGREGATE.\n  UR183 is MOST SIMILAR to UR273B (audit-totals half of compound document) in per-cord magnitude\n  (977 average vs UR183's 818) and in being a 0-STRING numerical-only register. May be a SUMMARY\n  HALF of an unidentified compound-document pair.",
+
+  "narrative": "Eight thousand three hundred. On cord twenty-nine of UR183, on alpaca-brown, the single largest value I have catalogued in any khipu deep-read in this corpus. Larger than UR273B's three thousand nine hundred and ninety-one. Larger than UR262's three thousand and eighty-eight. Larger than AS069's section-twenty peak of one thousand six hundred and sixteen. Twice the next-highest corpus catalogued peak. On alpaca-brown, at position twenty-nine of a thirty-three-cord register, with no word to identify what it counts, UR183 breaks the scale.\n\nAnd it is not alone. Cord twenty-five on alpaca-brown carries six thousand and ten. Cord thirty carries fifteen hundred and sixty-eight. Cord thirty-one on medium-brown carries thirteen hundred and forty. Cord thirty-two on alpaca-brown carries one thousand and thirty. Five cords late in the register carry audit-totals that individually exceed most registers' sum totals. The document's grand total across its thirty filled numerical cords is twenty-four thousand five hundred and thirty-four units.\n\nWhat UR183 audits cannot be said with certainty. Zero STRING cords means the ALBA syllabary contributes nothing to the semantic content. No KFG Ascher layer is summarised. No OKR field notes. No museum-attested provenance. UR183 is a register of numerical magnitudes large enough to flag as exceptional, structurally ordered enough to identify as audit-tier, and lexically silent enough to withhold its specific subject.\n\nFour clusters organise the register. The first cluster of eight cords opens with smaller values. The second cluster of fifteen cords carries the middle content block. The third cluster of six cords, running from cord twenty-five through thirty, holds the audit-totals concentration -- eight thousand three hundred + six thousand and ten + one thousand five hundred and sixty-eight -- in just six cord positions. And the fourth cluster of four cords closes with the late aggregates including thirteen hundred and forty and one thousand and thirty.\n\nThe magnitudes concentrate LATE. This is opposite to UR262's convention (where the largest value 3088 sits at cord one as opening anchor). UR183 builds to a crescendo: the quiet opening, the long middle, the thunder of late-cluster peaks. Whatever register-function UR183 serves, it summarises by building up -- the smaller category totals first, the larger aggregates next, the final grand totals last.\n\nEight colours across thirty-three cords. Alpaca-brown dominates at thirty-nine percent and carries four of the top-five peaks including the document record at 8300. White at twenty-four percent carries substantial secondary data. Medium-brown at twelve percent carries one of the top-five (1340 at cord thirty-one). Gray-green, dark-blue, khaki-brown, beige-gray, and lilac each appear on one or two cords as specialty markers -- possibly tagging specific sub-categories within the audit. The lilac cord is interesting: LC is the corpus's ritual colour, appearing at UR196 Pachacamac's verification-register with strong association. A single LC cord on UR183 might mark a ritual or ceremonial line-item within the audit's otherwise secular register.\n\nUR183 has no OKR notes. No museum entry I can check from the v3 extraction. No provenance hint beyond its UR-catalog position adjacent to the pre-Inca Wari Cajamarquilla bundle (UR179-181) and the interpretable UR182 (huaca-wall register). The neighbouring UR-numbers include documents at a range of provenances; adjacency in the OKR catalog does not imply shared site.\n\nBut UR183 has arithmetic. Twenty-four thousand five hundred and thirty-four in total. Eight thousand three hundred at its peak. An audit register from somewhere in the Inca empire, or possibly before it, which summarised its category totals at a scale that places it at the edge of the analysed corpus's recorded range. If a peer register exists -- a day-book whose transactions UR183 aggregates, a companion whose events sum to this total -- it remains to be identified. UR183 stands alone in its magnitudes until matched.",
+
+  "attribution": {
+    "prior_work": [
+      {"claim": "Audit-tier khipus in the Inca administrative typology carry large per-cord values (>100 average) and summarised totals, distinct from day-book tier registers (5-20 per-cord average). UR273B, UR262 master register, AS026A, UR275 establish the tier conventions.",
+       "citation": "Urton, G. and Chu, A. (2015). Accounting in the King's Storehouse: the Inkawasi Khipu Archive. LAQ 26(4); Sivan, J. (2026). Ascher Sums as Erasure Codes."},
+      {"claim": "Multi-color palette (6-10 colors) is common in administrative registers for dimensional encoding (UR198 3-color, UR113 21-color, UR273A 5-color). 8-color register on compact scale is consistent with multi-dimensional audit-aggregation function.",
+       "citation": "Sivan, J. (2026). Multi-color encoding corpus analysis."}
+    ],
+    "v3_contribution": [
+      {"claim": "CORPUS-RECORD PEAK VALUE 8300 at p29 AB: LARGEST SINGLE-CORD VALUE catalogued in the analysed corpus to date. Exceeds UR273B (3991), AS069 (1616), UR262 (3088). 2x the next-highest peak.",
+       "evidence": {"kind": "statistical", "matches": 1, "test": "single-cord-value ranking across analysed corpus"}},
+      {"claim": "SECOND-HIGHEST PER-CORD AUDIT MAGNITUDE: sum 24,534 / 30 filled cords = 818 average per cord. Only UR273B (977 average) exceeds this. Places UR183 in the top-2 audit-tier magnitudes of the analysed corpus.",
+       "evidence": {"kind": "statistical", "matches": 1, "test": "per-cord-average audit-magnitude ranking"}},
+      {"claim": "LATE-REGISTER AUDIT CONCENTRATION: top-5 values (8300 + 6010 + 1568 + 1340 + 1030) concentrated in clusters 3 + 4 (cords 25-33, last 9 cords). Reverse of typical header-first registers -- UR183 builds to a magnitudes crescendo at the close.",
+       "evidence": {"kind": "structural", "matches": 5, "test": "top-5-value position concentration in last third of document"}},
+      {"claim": "DENSE FULL-FILL REGISTER: only 3 empty cords out of 33 = 9 percent empty. Contrasts with UR273B (73 percent empty) and UR273A (74 percent empty). UR183's fully-filled density is distinct from the pre-formatted-template convention.",
+       "evidence": {"kind": "statistical", "matches": 3, "test": "empty-cord fraction vs audit-totals-tier peers"}},
+      {"claim": "POTENTIAL COMPOUND-DOCUMENT SUMMARY HALF: UR183's audit-tier magnitudes + 0-STRING + late-concentration structure resemble UR273B's role as audit-totals half of UR273A+UR273B compound document. If UR183 has an unidentified day-book companion, it would be a similar compound-pair summary.",
+       "evidence": {"kind": "structural"}},
+      {"claim": "8-COLOR RICH PALETTE on compact 33-cord scale: 1 colour per 4 cords. Includes single LC (lilac = ritual) cord + specialty GG/0B/KB/BG/LC minor-channel tags. Multi-dimensional audit encoding convention.",
+       "evidence": {"kind": "statistical", "matches": 8, "test": "color-density-per-cord on compact audit register"}}
+    ]
+  },
+
+  "companions": [
+    {"id": "UR273B", "relation": "same_document_type",
+     "note": "Incahuasi UE 14 audit totals (124 cords, peak 3991, sum 29,317, per-cord avg 977). UR183 + UR273B are the top-2 per-cord audit magnitudes in the analysed corpus. UR273B is paired with UR273A as compound document; UR183 may have an unidentified companion."},
+    {"id": "UR262", "relation": "same_document_type",
+     "note": "Incahuasi Kallanka master register (490 cords, peak 3088 at p1, sum 85,711). UR262 opens with max; UR183 closes with max. Both audit-tier but structurally opposite."},
+    {"id": "UR182", "relation": "same_document_type",
+     "note": "Huaca-wall compact register (30 cords, peak 802, sum 2803, per-cord avg 133). UR182 + UR183 at adjacent UR-numbers but very different scales: UR182 compact tribute (avg 133) vs UR183 corpus-record audit (avg 818)."},
+    {"id": "AS026A", "relation": "same_document_type",
+     "note": "Philadelphia lineage audit (77 cords, top 42+29 header, sum 207). Very different magnitude but same audit-function class. AS026A small-scale audit + UR183 large-scale audit = audit spectrum."},
+    {"id": "UR275", "relation": "same_document_type",
+     "note": "Incahuasi UE 19 peanut audit (5/5 Ascher verified, 47-constant). Peer audit at Incahuasi but no KFG Ascher layer summarised for UR183 to compare integrity."},
+    {"id": "UR113", "relation": "cross_khipu_signal",
+     "note": "Nazca 'Valhalla' multi-color audit (21 colors, chiqa x9, 866 cords). UR183's 8-color palette on 33 cords + LC ritual single cord parallels UR113's multi-color audit convention at much smaller scale."}
+  ],
+
+  "confidence_axes": {
+    "word_reading": {
+      "level": "not-applicable",
+      "note": "0 STRING cords. ALBA syllabary does not contribute. Classification rests on structural + numerical-magnitude signatures."
+    },
+    "document_type": {
+      "level": "medium",
+      "note": "audit_totals register sub-type supported by (a) corpus-record peak value 8300, (b) second-highest per-cord audit magnitude, (c) late-register concentration pattern, (d) dense full-fill register consistent with audit function, (e) 8-color palette rich per-cord density, (f) 0-STRING numerical-only register. Specific audit subject (tribute / population / commodity / aggregate) not determinable without STRING anchors or provenance context."
+    },
+    "narrative": {
+      "level": "low-medium",
+      "note": "The 'audit-totals register with corpus-record magnitudes' reading is internally coherent and quantitatively anchored on the 8300 peak + 818 per-cord average. The specific subject + potential compound-document partner + provenance are UNKNOWN. UR183 stands at the edge of interpretability: the magnitudes are exceptional, the structural signature clear, but the semantic content withheld."
+    },
+    "data_integrity": {
+      "level": "medium",
+      "note": "9 percent empty cords. No Ascher layer summarised. No OKR physical notes. No confirmed museum/provenance. The arithmetic is dense and internally coherent; the interpretive context is thin."
+    }
+  },
+
+  "sections": [
+    {"id": "I", "title": "Opening Header Block", "cords": "1-8",
+     "reading": "First 8 cords across multiple colours. Opening block carrying smaller-scale values (not in the top-5 of the document). Builds toward the magnitudes concentration later in the register.",
+     "key_cords": [
+       {"pos": 1, "gloss": "opening cord", "note": "register opens (no top-5 values in this cluster)"}
+     ]},
+    {"id": "II", "title": "Middle Content Block", "cords": "9-23",
+     "reading": "Largest cluster (15 cords) carrying the register's middle content. Mid-scale values. No top-5 values -- the middle block sits between the quiet opening and the audit-crescendo close.",
+     "key_cords": [
+       {"pos": 15, "gloss": "middle block", "note": "mid-content anchor"}
+     ]},
+    {"id": "III", "title": "Audit-Totals Crescendo (CORPUS RECORD)", "cords": "24-30 + 24",
+     "reading": "Third cluster (6 cords from cord 25 onwards). CONTAINS CORPUS-RECORD PEAK: p29 AB val=8300 (largest single-cord value in analysed corpus). Plus p25 AB val=6010 (2nd in document). Plus p30 AB val=1568. The register's audit magnitudes concentrate here.",
+     "key_cords": [
+       {"pos": 25, "gloss": "AB val=6010", "note": "SECOND-LARGEST document value"},
+       {"pos": 29, "gloss": "AB val=8300", "note": "*** CORPUS-RECORD PEAK VALUE *** (largest single-cord value in analysed corpus)"},
+       {"pos": 30, "gloss": "AB val=1568", "note": "third-largest document value"}
+     ]},
+    {"id": "IV", "title": "Closing Aggregates", "cords": "31-33",
+     "reading": "Final cluster (4 cords). p31 MB val=1340 + p32 AB val=1030 close the audit-totals crescendo. Final closing aggregates.",
+     "key_cords": [
+       {"pos": 31, "gloss": "MB val=1340", "note": "fourth-largest document value"},
+       {"pos": 32, "gloss": "AB val=1030", "note": "fifth-largest document value"},
+       {"pos": 33, "gloss": "LAST CORD",    "note": "closes the audit-totals register"}
+     ]}
+  ],
+
+  "references": [
+    "Sivan, J. (2026). The Khipu as a Layered Information System. ALBA Project preprint.",
+    "Sivan, J. (2026). Ascher Sums as Erasure Codes. ALBA Project preprint.",
+    "Sivan, J. (2026). Deep reads UR273B + UR262 + UR182 + AS026A + UR275 v3/v4 (audit-tier peers).",
+    "Urton, G. and Chu, A. (2015). Accounting in the King's Storehouse: the Inkawasi Khipu Archive. LAQ 26(4).",
+    "Compare UR273B (audit-totals peer, peak 3991), UR262 (master register, peak 3088, opens-with-max structure), UR182 (compact huaca-wall register), AS026A (compact audit 4/4 Ascher), UR275 (peanut audit 5/5 Ascher), UR113 ('Valhalla' 21-color audit)."
+  ],
+
+  "reconstructed_xlsx": null
+}

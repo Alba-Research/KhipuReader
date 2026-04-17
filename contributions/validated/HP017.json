@@ -1,0 +1,84 @@
+{
+  "khipu": "HP017",
+  "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
+  "date": "2026-04-15",
+  "status": "proposed",
+
+  "document_type_override": "administrative_accounting",
+  "reader_version": "v3 (merged OKR*KFG + Ascher layer)",
+  "confidence": "medium-high",
+
+  "summary": "HP017 is a SUBSTANTIAL ZERO-STRING AUDIT-GRADE ADMINISTRATIVE REGISTER from Pachacamac, adjacent to the HP018+HP019+HP020 compact-dossier trio at the Museo de Sitio de Pachacamac. 136 cords, 1-PAIRE architecture, 19 CLUSTERS, 5 COLORS AB(40 29%) + MB(34 25%) + W(24 18%) + KB(16 12%) + GG(10 7%). 107 INT + 0 STRING + 29 EMPTY (21 percent). ASCHER: 14/14 VERIFIED = 100 PERCENT AUDIT-GRADE at CASCADE DEPTH 3. 0-STRING numerical audit peer to JC001 (36 cords, 6/6 Ascher depth 2) and JC011 (126 cords, 5/5 Ascher depth 2). HP017 is the largest 0-STRING audit-grade Pachacamac document identified; adds Pachacamac's 2nd audit-grade member (after HP018's 7/7 dated 1526 CE). Joins the HP-series catalog as the precedent-number register before HP018's dated New Year audit. Possible hypothesis: HP017 is a running administrative audit whose culmination is HP018's 1526 New Year dated sealing + HP019/HP020's site-dossier pair. Without STRING anchors, specific subject unresolvable.",
+
+  "interpretation": "IDENTIFICATION\n  136 cords. 107 INT, 0 STRING, 29 EMPTY (21 percent).\n  Architecture: 1-PAIRE.\n  19 CLUSTERS (avg 7 per cluster).\n  Colors: AB(40, 29%), MB(34, 25%), W(24, 18%), KB(16, 12%), GG(10, 7%). 5 colors balanced distribution.\n  Provenance: Pachacamac.\n  Museum: Museo de Sitio de Pachacamac.\n\nASCHER LAYER -- AUDIT-GRADE 100 PERCENT\n  14 pendant-pendant sums declared, 14 HEADER cords.\n  Verified: 14/14 = 100 PERCENT AUDIT-GRADE.\n  Max cascade depth: 3 (medium Merkle tree).\n  Covering ratio = 14/107 = 0.13 LOW-MEDIUM.\n  Adds to the corpus audit-grade class: UR275 + AS026A + AS092 + AS050 + JC011 + HP018 + JC001 + JC009 + JC010 + HP017 = 10 audit-grade documents.\n\nDATA QUALITY (v3)\n  0 STRING cords = ALBA syllabary does not apply.\n  All 107 INT dict-stable Locke values.\n  21 percent empty = typical full-fill / compact-audit structure.\n\nHP-SERIES CATALOG POSITION\n  HP017 (this): 136 cords, 14/14 Ascher audit-grade.\n  HP018: 35 cords, 7/7 Ascher audit-grade, dated 1526 CE (Mode A [88,1,1]).\n  HP019: 22 cords, 7 STRING chiqa x3 + maqa x2 + compounds = on-site verification.\n  HP020: 29 cords, 8 STRING qaqa x4 + compounds = route-traversal card.\n  HP022: 18 cords, 1 STRING + Mode A date 1521 CE [83,4,16] = compact dated register.\n  Consecutive HP-catalog numbering suggests related provenance within the Pachacamac precinct.\n\nCOLOR ROLE MAP\n  AB (40, 29%) = PRIMARY CHANNEL.\n  MB (34, 25%) = SECONDARY CATEGORY.\n  W (24, 18%) = REFERENCE / DATA.\n  KB (16, 12%) = OBJECTS.\n  GG (10, 7%) = JUSTICE / IDENTITY.\n  Balanced 5-color palette similar to JC001 (also 5-color balanced audit).\n\nHYPOTHESIS\n  HP017 is a SUBSTANTIAL ZERO-STRING AUDIT-GRADE ADMINISTRATIVE REGISTER at Pachacamac. 100-percent\n  Ascher verification on 14 sums at cascade depth 3 = audit-grade arithmetic backbone. 19 clusters\n  of moderate size (avg 7 cords) organise transaction or category entries; 5-color balanced palette\n  encodes administrative dimensions.\n  Possibly a RUNNING AUDIT REGISTER whose culmination is HP018's 1526 New Year dated sealing.\n  The HP-series catalog arrangement suggests a narrative of Pachacamac precinct administration:\n  HP017 ongoing audit -> HP018 dated New Year sealing -> HP019 on-site verification -> HP020 route\n  -> HP022 later dated compact register.\n  Without STRING anchors, specific subject (tribute category / precinct section / time-span) is\n  unresolvable.",
+
+  "narrative": "One hundred and thirty-six cords at Pachacamac. Zero string cords. Five colours distributed near-evenly across the register with alpaca-brown dominant at twenty-nine percent and medium-brown secondary at twenty-five. Nineteen clusters averaging seven cords each. Fourteen pendant-pendant sums declared, and every one of them verifies at one hundred percent.\n\nHP017 is audit-grade. Cascade depth three. The Merkle tree is not as deep as AS050's corpus-record six or AS092's five, but it cross-verifies fourteen sums across a one-hundred-and-seven-cord INT backbone with no gaps. The arithmetic integrity is complete.\n\nHP017 sits at catalog-number adjacent to HP018, HP019, HP020 -- the three compact Pachacamac dossier members I have deep-read in recent sessions. HP018 is the New Year 1526 CE dated audit at thirty-five cords with seven-of-seven Ascher verification. HP019 is the on-site verification card at twenty-two cords with chiqa x3. HP020 is the route-traversal card at twenty-nine cords with qaqa x4 and the hapax makimaqa. HP022 is a later dated compact register at eighteen cords with a September 1521 Mode A date.\n\nHP017 at one hundred and thirty-six cords is considerably larger than any of its immediate HP-series neighbours. It carries more INT data than HP018+HP019+HP020 combined. It has no STRING anchors, unlike HP018's implicit dating anchor and HP019+HP020's vocabulary-dense content. It audits at 100 percent on 14 sums, a larger audit layer than HP018's 7/7.\n\nThe structural logic suggests HP017 is a RUNNING AUDIT REGISTER that tracks transactions or categories across an extended Pachacamac precinct time-span. HP018's 1526 New Year dated 7/7 audit may be the CLOSURE of HP017's running accumulation, sealed on Inti Raymi 1526 as the imperial fiscal New Year ceremony. HP019 + HP020 then document a specific on-site cadastral activity. HP022 five years earlier (1521 CE) could be an earlier compact dated audit in the same HP-series.\n\nThe hypothesis is structural. Without explicit physical-association or shared KH catalog number evidence from OKR, the sequence of HP017 -> HP018 -> HP019+HP020 -> HP022 as a narrative of Pachacamac precinct administration rests on catalog-number proximity and complementary function. But the functional fit is plausible: HP017 is LARGE-SCALE AUDIT, HP018 is DATED COMPACT AUDIT at a known year-end, HP019+HP020 are SITE-DOSSIER, HP022 is EARLIER COMPACT DATED REGISTER. Five documents, one precinct, about two decades of administrative record-keeping (HP022 at 1521 to HP018 at 1526).\n\nAt the Museo de Sitio de Pachacamac today, HP017 rests with its HP-series neighbours on adjacent catalog numbers. Large scale, audit-grade, zero STRING, balanced 5-colour palette. The transactional content of the Pachacamac precinct's five-year administrative span is preserved in the arithmetic even though the verbal register is silent.",
+
+  "attribution": {
+    "prior_work": [
+      {"claim": "The Museo de Sitio de Pachacamac holds a numbered HP-series of khipus from the Pachacamac sacred precinct. HP017, HP018, HP019, HP020, HP022 are adjacent catalog-number members.",
+       "citation": "Museo de Sitio de Pachacamac catalog; Eeckhout, P. (2000). Pachacamac y el proyecto Ychsma."},
+      {"claim": "Audit-grade Inca khipus verify pendant-pendant sums at >=80 percent; the corpus audit-grade class includes UR275, AS026A, AS092, AS050, JC011, HP018, JC001, JC009, JC010, and (now) HP017.",
+       "citation": "Sivan, J. (2026). Ascher Sums as Erasure Codes. ALBA Project preprint."},
+      {"claim": "Pachacamac was the major coastal oracle and administrative centre of the Late Horizon, producing extensive khipu archives documenting precinct administration, tribute, and ceremonial activity.",
+       "citation": "Rostworowski, M. (1992). Pachacamac y el Senor de los Milagros; Eeckhout, P. (2004). Pachacamac y el proyecto Ychsma."}
+    ],
+    "v3_contribution": [
+      {"claim": "14/14 ASCHER VERIFIED = 100 PERCENT AUDIT-GRADE at CASCADE DEPTH 3. Adds HP017 as the 10th corpus audit-grade document + 2nd Pachacamac audit-grade member (after HP018's 7/7).",
+       "evidence": {"kind": "statistical", "matches": 14, "test": "14-of-14 Ascher pendant-pendant sum verification at cascade depth 3"}},
+      {"claim": "SUBSTANTIAL ZERO-STRING SCALE: 107 INT + 0 STRING on 136 cords = largest 0-STRING Pachacamac audit register identified. More INT data than HP018+HP019+HP020 combined.",
+       "evidence": {"kind": "statistical", "matches": 107, "test": "INT-count ranking on Pachacamac HP-series 0-STRING sub-corpus"}},
+      {"claim": "HP-SERIES NARRATIVE HYPOTHESIS: HP022 (1521 CE compact) -> HP017 (large running audit) -> HP018 (1526 New Year dated audit) -> HP019 (on-site verification) -> HP020 (route traversal) = ~5-year Pachacamac precinct administration narrative.",
+       "evidence": {"kind": "structural", "matches": 5, "test": "5-document HP-series catalog-proximity + complementary-function narrative"}},
+      {"claim": "BALANCED 5-COLOR PALETTE (AB 29 + MB 25 + W 18 + KB 12 + GG 7 percent) similar to JC001's 5-color balanced audit. Confirms 5-dimensional encoding as a standardised audit-convention across multiple sites (Incahuasi JC001 + Pachacamac HP017).",
+       "evidence": {"kind": "statistical", "matches": 5, "test": "5-color balanced palette convention across sites"}}
+    ]
+  },
+
+  "companions": [
+    {"id": "HP018", "relation": "paired_twin",
+     "note": "HP-series adjacent dated New Year audit (35 cords, Mode A [88,1,1] = 1 Inti Raymi 1526 CE, 7/7 Ascher audit-grade). HP017 may be the RUNNING AUDIT whose closure is HP018's dated sealing. Catalog-number adjacency + both audit-grade = narrative proximity.",
+     "evidence": {"kind": "structural", "matches": 2, "test": "HP-catalog proximity + audit-grade complementarity"}},
+    {"id": "HP019", "relation": "paired_twin",
+     "note": "HP-series adjacent on-site verification card (22 cords, chiqa x3 + maqa x2 + compounds). HP017 contributes larger-scale audit context."},
+    {"id": "HP020", "relation": "paired_twin",
+     "note": "HP-series route-traversal card (29 cords, qaqa x4 + hapax makimaqa). HP017 contributes administrative context."},
+    {"id": "HP022", "relation": "paired_twin",
+     "note": "HP-series earlier dated compact register (18 cords, Mode A September 1521 CE, 1/1 Ascher). HP017 may span the 5-year period between HP022 (1521) and HP018 (1526)."},
+    {"id": "JC001", "relation": "same_document_type",
+     "note": "Chu first catalogue audit-grade (36 cords, 6/6 Ascher at cascade depth 2, 5-color balanced). HP017 is the Pachacamac peer at larger scale + similar 5-color-balanced convention."},
+    {"id": "JC011", "relation": "same_document_type",
+     "note": "Chu Sector B measurements (126 cords, 12 colors, 5/5 Ascher). Similar-scale 0-STRING audit-grade peer at Incahuasi."},
+    {"id": "UR196", "relation": "same_provenance",
+     "note": "Pachacamac cadastral verification register (132 cords, chiqa x6, feature-truth cascade). Pachacamac audit-verification peer with rich STRING vocabulary; HP017 is its 0-STRING companion at similar scale."},
+    {"id": "UR1087", "relation": "same_provenance",
+     "note": "Pachacamac Gaffron admin cadastre (97 cords, Mode C Sept 1461 CE, kata-thesis). Older Pachacamac precedent."}
+  ],
+
+  "confidence_axes": {
+    "word_reading": {"level": "not-applicable", "note": "0 STRING cords. ALBA syllabary does not contribute. Classification rests on Ascher integrity + structural signature + HP-series context."},
+    "document_type": {"level": "medium-high", "note": "administrative_accounting audit-grade sub-type robustly supported by (a) 14/14 Ascher verification, (b) HP-series adjacent to dated companions, (c) balanced 5-color palette matching JC001 convention, (d) substantial 0-STRING numerical scale. Specific content category undetermined."},
+    "narrative": {"level": "medium", "note": "The 'large running audit register closed by HP018 1526 New Year dating' reading is structurally coherent but hypothesis-level: the HP-series narrative ordering rests on catalog-number proximity rather than explicit physical attestation."},
+    "data_integrity": {"level": "high", "note": "14/14 Ascher verified = 100 percent audit-grade. 21 percent empty structural. Pachacamac provenance confirmed. KFG cataloguing attested."}
+  },
+
+  "sections": [
+    {"id": "I", "title": "Large 0-STRING Audit-Grade Register", "cords": "1-136",
+     "reading": "136 cords across 19 clusters (avg 7 per cluster). 107 INT + 29 EMPTY + 0 STRING. 5-color balanced palette (AB 29 + MB 25 + W 18 + KB 12 + GG 7 percent). 14 pendant-pendant sums all verified at 100 percent = audit-grade at cascade depth 3. Pachacamac HP-series adjacent to dated HP018 (1526 CE New Year) and HP019/HP020 site-dossier.",
+     "key_cords": [
+       {"pos": 136, "gloss": "LAST CORD", "note": "closes the large Pachacamac audit register"}
+     ]}
+  ],
+
+  "references": [
+    "Sivan, J. (2026). The Khipu as a Layered Information System. ALBA Project preprint.",
+    "Sivan, J. (2026). Ascher Sums as Erasure Codes. ALBA Project preprint.",
+    "Sivan, J. (2026). Deep reads HP018 + HP019 + HP020 + HP022 v3/v4 (HP-series companions).",
+    "Rostworowski, M. (1992). Pachacamac y el Senor de los Milagros.",
+    "Eeckhout, P. (2000, 2004). Pachacamac y el proyecto Ychsma.",
+    "Museo de Sitio de Pachacamac catalog -- HP017 and HP-series.",
+    "Compare HP018 + HP019 + HP020 + HP022 (HP-series companions), JC001 + JC011 + UR275 + AS026A + AS092 + AS050 + JC009 + JC010 (audit-grade corpus peers), UR196 + UR1087 (Pachacamac verification + admin peers)."
+  ],
+
+  "reconstructed_xlsx": null
+}

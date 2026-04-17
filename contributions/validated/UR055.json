@@ -104,5 +104,50 @@
       "level": "high",
       "note": "No Ascher layer needed (oracle); structural integrity is the 87+6+87 pivot symmetry, which is verifiable from the cord listing. OKR+KFG agreement on knots is direct (no L? to resolve)."
     }
-  }
+  },
+  "sections": [
+    {"id": "I", "title": "Opening Invocation", "cords": "1-20",
+     "reading": "pama formula opens the oracle on black cord one. wapa / chapa / way / chay / wata establish the actors and the temporal frame in the first twenty cords.",
+     "key_cords": [
+       {"pos": 1, "gloss": "pama papapa", "note": "FIRST WORD -- formula / ritual invocation opens the document"}
+     ]},
+    {"id": "II", "title": "Question Block", "cords": "21-67",
+     "reading": "Dense -wa / 1OBJ first-person address. pi / piy interrogatives surface throughout. The consultant speaks the question, bound to the oracle in first person across 41 cords corpus-wide-unique density.",
+     "key_cords": [
+       {"pos": 35, "gloss": "chapa",         "note": "guardian named"},
+       {"pos": 41, "gloss": "ACC-wapa chapa","note": "economist + guardian co-occurring -- the consulted parties"}
+     ]},
+    {"id": "III", "title": "Sub-Pivot", "cords": "68",
+     "reading": "A single empty cord marks a breath within the first half -- the end of the opening question block, the start of the setup toward the main pivot.",
+     "key_cords": [
+       {"pos": 68, "gloss": "EMPTY", "note": "sub-pivot: end of opening question"}
+     ]},
+    {"id": "IV", "title": "Setup Block", "cords": "69-87",
+     "reading": "Name expansions (wapa + suffix variants, chapa, papa). The vocabulary tightens toward the central pivot. The 87th cord closes the first half.",
+     "key_cords": [
+       {"pos": 87, "gloss": "LK last", "note": "closing cord of the first 87-cord half"}
+     ]},
+    {"id": "V", "title": "The Main Pivot", "cords": "88-94",
+     "reading": "The structural and symbolic center of the consultation. Empty cord, LK transition (chayy + wapapapa), then COLOR SHIFT to HB for three consecutive empty cords (the oracular threshold), and a single numerical tick (INT = 10) -- possibly the vote count, the consultation day, or the casting of the oracular die. LK -> HB -> LK chromatic pivot reproduces the colonial CHALLA (chicha offering) gesture at the oracle's midpoint.",
+     "key_cords": [
+       {"pos": 88, "gloss": "EMPTY",      "note": "pivot opens"},
+       {"pos": 89, "gloss": "chayy",      "note": "transition: 'this'"},
+       {"pos": 90, "gloss": "wapapapa",   "note": "transition: 4-syllable ceremonial title-form of wapa"},
+       {"pos": 91, "gloss": "HB EMPTY",   "note": "color shift to HB -- pivot center cord 1 of 3"},
+       {"pos": 92, "gloss": "HB EMPTY",   "note": "pivot center cord 2 of 3"},
+       {"pos": 93, "gloss": "HB EMPTY",   "note": "pivot center cord 3 of 3"},
+       {"pos": 94, "gloss": "INT val=10", "note": "SINGLE NUMBER -- only INT in the LK zone; vote / tick / offering count"}
+     ]},
+    {"id": "VI", "title": "Response Block", "cords": "95-179",
+     "reading": "Inverted echo of the opening. chay re-emerges as answer rather than question. way variants invoke the chosen path. pi interrogative declines into piy / pipa -- the oracle is no longer asking 'who?' but 'who-of / who-toward'. The second 85 cords answer the first 87.",
+     "key_cords": [
+       {"pos": 115, "gloss": "chay", "note": "pointing word reappears -- answer side"},
+       {"pos": 124, "gloss": "chay", "note": "second post-pivot pointing"}
+     ]},
+    {"id": "VII", "title": "The Verdict", "cords": "180",
+     "reading": "The last cord of the document is a single unmodified word: wapa. The economist, the title-holder, the chosen. The oracle's verdict is not a sentence, not a tribute, not a transaction -- it is a name, stamped bare at the end of the consultation.",
+     "key_cords": [
+       {"pos": 180, "gloss": "wapa", "note": "LAST WORD -- bare title-stamp, the oracle's selection"}
+     ]}
+  ]
 }

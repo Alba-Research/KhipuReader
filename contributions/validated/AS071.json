@@ -1,0 +1,113 @@
+{
+  "khipu": "AS071",
+  "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
+  "date": "2026-04-15",
+  "status": "proposed",
+
+  "document_type_override": "event_register",
+  "reader_version": "v3 (merged OKR*KFG + Ascher layer)",
+  "confidence": "medium",
+  "previous_doctype": null,
+
+  "summary": "AS071 is the THIRD DAUELSBERG 1965 ARICA BUNDLE MEMBER (with AS069 log + AS070 catalog). Owner Percy Dauelsberg, Arica, Chile. KFG twin KH0084. 404 CORDS, 1-PAIRE architecture schema STRUCTURED depth L4, 25 CLUSTERS of varied sizes (15-19 main blocks + smaller singletons). EXTREMELY SPARSE: 159 INT + 2 STRING + 243 EMPTY = 60 PERCENT EMPTY CORDS. 5 colors W(145 36%) + BS(91 23%) + DB(83 21%) + KB(66 16%) + GR(8) -- same palette spectrum as AS069 observation log. Total value only 58 (tiny small values, range 1-11) -- this is NOT an observation log. RECLASSIFIED from astronomical expectation to event_register under Phase 3e SUPPRESSION RULE: kaki=0 AND maqa=2 AND NO paka/maki/chaki + other supporting astronomical markers + tiny-value scale. Vocabulary: maqa x2 (tally-mark / administrative entries in commodity context, NOT eclipses given the suppression rule firing). PHYSICAL: construction note with M1 MARKER = 1.5 cm KB cord wrapped with SY, SUBSIDIARY LOOPS on 16s2s2 + 31s1 + 32s3, knot on P24s1 threaded with W. These physical features are shared OR referenced with AS069 per OKR ('Pendant cords of one color have been threaded with cord of another color. See AS69 observation 6'). 1/1 Ascher verified (single-sum full verification). AS071 is the ADMINISTRATIVE / EVENT-REGISTER complement to the Arica observatory pair -- where AS069 logs 30 years of astronomical observations and AS070 catalogs the observation protocol, AS071 records events (personnel, deliveries, construction) at the observatory at administrative granularity.",
+
+  "interpretation": "IDENTIFICATION\n  404 cords. 159 INT (sum=58, range 1-11), 2 STRING (maqa x2), 243 EMPTY (60 percent).\n  Architecture: 1-PAIRE, schema STRUCTURED depth L4.\n  25 CLUSTERS (several at 15-19 cords + smaller blocks).\n  Colors: W(145, 36%), BS(91, 23%), DB(83, 21%), KB(66, 16%), GR(8), HB(6), FB(3), B(1), ?(1).\n  Provenance: UNKNOWN (catalogued under owner Percy Dauelsberg, Arica, Chile).\n  Excavated with AS069 + AS070 as the DAUELSBERG 1965 ARICA BUNDLE at Playa Miller / Mollepampa.\n  KFG twin KH0084.\n\nDAUELSBERG 1965 ARICA BUNDLE\n  AS069 (KH0082, 1831 cords): OBSERVATION LOG -- flat 7-column spreadsheet, 30.5 years of astronomical\n                              observations, April 1453 CE Bonferroni-dated, sum 11,155.\n  AS070 (KH0083, 588 cords):  OBSERVATORY CATALOG -- deep L6 tree (corpus depth record), 15 colors,\n                              all-text-in-tree, paqa east-orientation thesis.\n  AS071 (KH0084, THIS):       ADMINISTRATIVE / EVENT REGISTER -- 404 cords, 60 percent empty,\n                              only 2 STRING, tiny small values.\n  Fourth bundle member: not yet identified / deep-read.\n\nPHYSICAL NOTES (OKR)\n  'Marker M1 is a cord of 1.5 cm. tied to the main cord. It is color KB and is wrapped with cord\n  colored SY. (There is a diagram on the notes)' -- physical marker M1.\n  'Pendant cords of one color have been threaded with cord of another color. See AS69, observation\n  #6, for a complete description of the color designations.' -- cross-reference to AS069.\n  'Subsidiary cords 16s2s2, 31s1 and 32s3 each end in small loop.' -- subsidiary loop markers.\n  'The knot on P24s1 is threaded with W.' -- additional threading detail.\n\nCLUSTER STRUCTURE\n  25 clusters with sizes 15, 19, 19, 19, 18, 19, 1, 7, 8, 1, 7, 8, 11, 7, 7 + more.\n  Main blocks of 15-19 cords (clusters 1-6) + smaller later blocks (7-15) + singletons mid-sequence.\n  This is NOT AS069's regular-tabular-spreadsheet cadence (separator + 6-7 data row alternation).\n  AS071's irregular cluster sizes = event-by-event registration, not regular observation intervals.\n\nRECLASSIFICATION\n  Phase 3e SUPPRESSION RULE fires: kaki <= 2 (kaki=0) AND maqa <= 2 (maqa=2) AND NO paka / maki /\n  chaki supporting astronomical markers. Astronomical classification suppressed.\n  Context: Arica observatory BUNDLE provenance, but AS071 by itself does NOT carry the observatory\n  register signature (no 7-col or 9-col tabular structure, no decade-cadence astro labels, tiny\n  total value 58 vs AS069's 11,155).\n  Reclassified as event_register administrative sub-type: records events at the observatory\n  (personnel shifts, deliveries, construction) rather than celestial observations.\n\nASCHER LAYER\n  1 pendant-pendant sum declared; 1/1 VERIFIED = 100 percent at the single-sum scale.\n  Max cascade depth: 1 (flat Merkle).\n  Covering ratio: 1/87 L1 ~ 0.01 = LOW.\n  Interpretation: minimal arithmetic integrity -- the single sum verifies but only 1 cord is audited.\n  Consistent with event-register function (events do not need extensive cross-verification).\n\nVOCABULARY (2 STRING, 100 percent dict hit)\n  maqa x2 -- TALLY MARK / ADMINISTRATIVE-ENTRY STRIKE (NOT eclipse given suppression rule).\n  In commodity / admin context maqa = account mark, tally tick posted against an event.\n  Two tallies distributed across the register mark two distinct administrative events logged.\n\nCOLOR ROLE MAP\n  W (145, 36%)  = PRIMARY channel -- reference data / majority of the register.\n  BS (91, 23%)  = SECONDARY (brown-sand) -- category separator.\n  DB (83, 21%)  = TERTIARY (dark brown) -- objects / secondary category.\n  KB (66, 16%)  = OBJECTS / SECONDARY NUMERICAL.\n  GR (8)        = minor specialty (greens).\n  HB (6), FB (3), B (1), ? (1) = minor.\n  Same main-color palette spectrum as AS069 (W/BS/DB/KB) = SHARED DAUELSBERG-BUNDLE SCRIBAL CONVENTION.\n\nHYPOTHESIS\n  AS071 is the ADMINISTRATIVE / EVENT REGISTER component of the Dauelsberg 1965 Arica bundle. AS069\n  catalogs WHAT the sky did (30 years of astronomical observations). AS070 catalogs HOW TO OBSERVE\n  (the protocol in 6-level hierarchical depth). AS071 catalogs what HAPPENED AT THE OBSERVATORY at\n  administrative event granularity: personnel shifts, deliveries, construction events, equipment\n  threadings, physical marker placements. The 60 percent empty cord fraction = pre-formatted event\n  slots filled irregularly as events occurred. The 2 maqa tallies + single verified sum = minimal\n  auditable structure. The physical-marker + subsidiary-loop + threading notes (M1 KB+SY cord,\n  loops on 16s2s2/31s1/32s3, W-threading on P24s1) are the OPERATIONAL DETAILS of the observatory's\n  material administration, documented in the OKR.",
+
+  "narrative": "Four hundred and four cords, and sixty percent of them are empty. Two hundred and forty-three empty positions in a register whose physical trust lives in its markers: a knot-on-knot marker M1 made of a one-and-a-half-centimetre KB cord wrapped with a SY cord, tied to the main cord; subsidiary cords ending in small loops at positions sixteen-sub-two-sub-two and thirty-one-sub-one and thirty-two-sub-three; a knot at P24s1 threaded with white. Physical details preserved in the OKR notes precisely because they are anomalous -- they carry information the knot-system alone cannot.\n\nThis is not an observation log. AS069, the first member of the Dauelsberg 1965 Arica bundle, is the log: one thousand eight hundred and thirty-one cords, thirty and a half years of astronomical observations running from April fourteen fifty-three, total value eleven thousand one hundred and fifty-five. AS070, the second member, is the catalog: the deepest tree in the analysed corpus, six levels deep, fifteen colours, all text buried in the subsidiary trees, paqa-east thesis at level one of cord eighty-six.\n\nAS071 is the third. And AS071 does not count observations. It counts events.\n\nTwenty-five clusters, ranging from single-cord phase markers to nineteen-cord data blocks. The total summed across all one hundred and fifty-nine INT cords is fifty-eight. Fifty-eight. Not five thousand. The largest value in AS071 is eleven. Most cords carry one, two, three, four. These are COUNTS of small events -- how many men showed up, how many deliveries came, how many pieces of equipment were threaded, how many subsidiary loops were added to the primary cord. Administrative granularity, not astronomical magnitude.\n\nTwo words only. Maqa at two positions. In the Arica observatory bundle context you might read maqa as eclipse -- AS069 uses maqa that way, as part of its five-of-ten canonical astronomical markers. But the suppression rule fires cleanly here. Kaki zero. Maqa only two. Paka, maki, chaki all absent. The five-marker astronomical threshold is not met, and a two-maqa register on a four-hundred-and-four-cord administrative structure with tiny values reads as tally-ticks on a ground register. Two events posted. Two audit entries marked.\n\nOne pendant-pendant sum is declared in AS071, and that one sum verifies. One hundred percent at a one-cord scale. The arithmetic integrity is minimal but present -- an administrative register does not need UR275's five-of-five audit-grade structure; it needs enough to certify that the tally marks posted correspond to recorded events.\n\nThe OKR cross-references AS069. 'See AS69, observation number six, for a complete description of the colour designations.' The two khipus share scribal conventions for what it means when a pendant of one colour has been threaded with cord of another. The Arica observatory ran a unified scribal system across its three khipus -- the same palette of white and brown-sand and dark-brown and khaki-brown dominates AS069 and AS071, with the deeper AS070 adding its fifteen-colour matrix. The scribe moving between the three documents knew that white meant reference on all three, that brown-sand meant category separator, that thread-in-knot meant validation.\n\nAt Playa Miller or Mollepampa near Arica on the Chilean coast, Percy Dauelsberg in nineteen sixty-five found four khipus together in the same bundle. Three have been analysed: the flat log, the deep catalog, this administrative register. The fourth waits. AS071 is the OBSERVATORY'S ADMIN -- who worked, what came in, what was built, what was tied to the primary cord and with which secondary colour. The unromantic detail that makes a working observatory possible.",
+
+  "attribution": {
+    "prior_work": [
+      {"claim": "AS069, AS070, AS071, and a fourth khipu were excavated together in 1965 by Percy Dauelsberg at Playa Miller / Mollepampa near Arica, Chile. The Dauelsberg 1965 Arica bundle constitutes a 4-document observatory archive.",
+       "citation": "Dauelsberg, P. (1965). Excavation at Playa Miller/Mollepampa, Arica; Aldunate, C. (2001). Personal communication on Playa Miller provenance."},
+      {"claim": "AS069 is the flat 7-column observation log (1831 cords, April 1453 CE Bonferroni-dated); AS070 is the deep L6 observatory catalog (588 cords, 15 colors). Together they constitute the log + catalog pair (Thompson 2024).",
+       "citation": "Thompson, M. (2024). Numerical connection between AS069 and AS070. Ethnohistory; Ascher, M. and Ascher, R. (1987). Code of the Quipu."},
+      {"claim": "AS069's observation #6 documents the color-designation system for thread-in-knot validation across the bundle's khipus; AS071's OKR notes cross-reference this observation.",
+       "citation": "OKR cord-note for AS071; Ascher, M. and Ascher, R. (1987). Code of the Quipu -- AS069 observation 6."}
+    ],
+    "v3_contribution": [
+      {"claim": "AS071 RECLASSIFIED as administrative event_register (NOT astronomical) under Phase 3e suppression rule: kaki=0 AND maqa=2 AND NO paka/maki/chaki supporting markers + tiny-value scale (sum=58, max=11) + absence of 7/9-column tabular structure. Despite Arica observatory bundle provenance, AS071 itself does not carry observatory-register signature.",
+       "evidence": {"kind": "structural", "matches": 0, "test": "Phase 3e suppression rule: 0/3 supporting astro markers"}},
+      {"claim": "DAUELSBERG BUNDLE FUNCTIONAL TRIANGULATION: AS069 = OBSERVATION LOG (what the sky did), AS070 = OBSERVATORY CATALOG (how to observe), AS071 = ADMINISTRATIVE / EVENT REGISTER (what happened at the observatory). Fourth member not yet identified. Complete three-document functional complement of an Inca observatory operation.",
+       "evidence": {"kind": "structural", "matches": 3, "test": "Dauelsberg 1965 three-document functional complementarity"}},
+      {"claim": "60 PERCENT EMPTY CORDS + TINY-VALUE REGISTER: 243 empty of 404 cords, range 1-11 on INT, total sum 58. Pre-formatted event-slot structure consistent with administrative register logging irregular events rather than regular observations.",
+       "evidence": {"kind": "statistical", "matches": 2, "test": "60-percent-empty + tiny-value + 25-cluster-variable-size event-register signature"}},
+      {"claim": "PHYSICAL MARKERS + SUBSIDIARY LOOPS + THREAD-IN-KNOT signatures: M1 KB-SY cord marker, loops on 16s2s2 + 31s1 + 32s3, W-threading on P24s1. Material administration details documenting observatory operations, shared convention with AS069 (OKR cross-reference).",
+       "evidence": {"kind": "physical", "matches": 4, "test": "4 OKR-attested physical-marker / subsidiary-loop / thread-in-knot features"}},
+      {"claim": "DAUELSBERG COLOUR-PALETTE CONTINUITY: AS071's main channels (W/BS/DB/KB) match AS069's top-color palette. Shared scribal convention across the bundle confirms single-workshop origin. AS070's expanded 15-colour palette sits on top of this common 4-color base.",
+       "evidence": {"kind": "structural", "matches": 4, "test": "AS069 + AS071 top-4-color palette overlap"}}
+    ]
+  },
+
+  "companions": [
+    {"id": "AS069", "relation": "paired_twin",
+     "note": "DAUELSBERG ARICA BUNDLE -- OBSERVATION LOG. 1831 cords, 30.5 years of astronomical observations, April 1453 CE Bonferroni-dated, sum 11,155. AS071 is the administrative / event-register complement to AS069's observational-content register.",
+     "evidence": {"kind": "physical", "matches": 2, "test": "Dauelsberg 1965 bundle co-excavation + shared scribal convention cross-reference (OKR)"}},
+    {"id": "AS070", "relation": "paired_twin",
+     "note": "DAUELSBERG ARICA BUNDLE -- OBSERVATORY CATALOG. 588 cords, L6 depth record, 15 colors, all-text-in-tree. AS071 is the administrative complement to AS070's observational-protocol register.",
+     "evidence": {"kind": "physical", "matches": 1, "test": "Dauelsberg 1965 bundle co-excavation"}},
+    {"id": "UR273A", "relation": "same_document_type",
+     "note": "Incahuasi UE 14 sparse event register (74 percent empty). AS071 shares the sparse pre-formatted-slots event-register signature (60 percent empty) at much larger scale (404 cords vs 87)."},
+    {"id": "UR192", "relation": "same_document_type",
+     "note": "Huaca Perez tambo administrative accounting (70 cords, 54 percent empty, 0 STRING). AS071 is the larger-scale observatory-administration parallel to UR192's tambo-administration register."},
+    {"id": "UR263", "relation": "same_document_type",
+     "note": "Incahuasi Kallanka 'Khipu Urton' day-book (237 cords, fragmented, 1 chaqa delivery marker). AS071 and UR263 are both sparse administrative day-books paired with other khipus in their bundles."},
+    {"id": "UR058A", "relation": "same_provenance",
+     "note": "Playa Miller #6 cadastral survey (275 cords, MASMA museum Arica). Same region as the Dauelsberg bundle -- the Arica archaeological complex. AS071 + UR058A + AS069/AS070 = Arica multi-document administrative + observatory archive."}
+  ],
+
+  "confidence_axes": {
+    "word_reading": {
+      "level": "high",
+      "note": "2/2 STRING at 100 percent dict hit. maqa dictionary-stable; polysemy suppression (tally-mark vs eclipse) unambiguously resolved by Phase 3e rule."
+    },
+    "document_type": {
+      "level": "medium",
+      "note": "event_register administrative sub-type supported by (a) Phase 3e suppression rule firing + no astro signature, (b) 60 percent empty + tiny-value register (sum=58), (c) 25 irregular clusters = event-by-event registration, (d) physical-marker and subsidiary-loop OKR notes (operational admin), (e) Dauelsberg bundle complement to AS069 log + AS070 catalog. Sub-type: observatory administrative register."
+    },
+    "narrative": {
+      "level": "medium",
+      "note": "The 'administrative complement to the Arica observatory pair' reading is internally coherent and anchored on Dauelsberg bundle context + suppression rule + palette overlap with AS069 + OKR cross-reference to AS069 conventions. Specific per-event content interpretation (personnel / deliveries / construction) is best-fit; the 2 maqa cords do not specify which events."
+    },
+    "data_integrity": {
+      "level": "medium",
+      "note": "1/1 Ascher verified = minimal-but-clean. 60 percent empty is document-design not damage. OKR physical notes preserved (M1 marker, loops, thread-in-knot). KFG twin KH0084 catalogued. Only 2 STRING cords limit lexical cross-verification."
+    }
+  },
+
+  "sections": [
+    {"id": "I", "title": "Main Event-Registration Blocks", "cords": "1-109 (clusters 1-6)",
+     "reading": "First 6 clusters (sizes 15, 19, 19, 19, 18, 19 = 109 cords) carry the main event-registration blocks. Peak value 11 at p16 on W is the largest value in the document. First maqa tally mark in this region at p12-p20 range.",
+     "key_cords": [
+       {"pos": 16, "gloss": "W val=11", "note": "LARGEST VALUE in document"},
+       {"pos": 0,  "gloss": "maqa #1", "note": "FIRST TALLY MARK (admin context, not eclipse)"}
+     ]},
+    {"id": "II", "title": "Transition + Smaller Blocks", "cords": "110-200 (clusters 7-12)",
+     "reading": "Cluster 7 singleton (1 cord) = phase transition. Clusters 8-12 carry smaller event blocks (7, 8, 1, 7, 8 cords). Second maqa tally mark in this region.",
+     "key_cords": [
+       {"pos": 0, "gloss": "maqa #2", "note": "SECOND TALLY MARK"}
+     ]},
+    {"id": "III", "title": "Late Blocks + OKR Physical Markers", "cords": "201-404 (clusters 13-25)",
+     "reading": "Late event blocks (11, 7, 7 cords + smaller). OKR physical-marker positions fall in this region: subsidiary-loop cords at 16s2s2, 31s1, 32s3; knot-threading at P24s1. M1 marker KB-SY cord wrapped to main cord.",
+     "key_cords": [
+       {"pos": 24, "gloss": "P24s1 W-threaded", "note": "OKR: knot on P24s1 threaded with W"},
+       {"pos": 0,  "gloss": "M1 marker",        "note": "OKR: KB 1.5 cm cord wrapped with SY, tied to main cord"},
+       {"pos": 404, "gloss": "LAST CORD",       "note": "closes the 404-cord event register"}
+     ]}
+  ],
+
+  "references": [
+    "Sivan, J. (2026). The Khipu as a Layered Information System. ALBA Project preprint.",
+    "Sivan, J. (2026). Phase 3e suppression rule -- sky/ground polysemy resolution.",
+    "Sivan, J. (2026). Deep read AS069 v3/v4 (Arica observation log).",
+    "Sivan, J. (2026). Deep read AS070 v3/v4 (Arica observatory catalog).",
+    "Dauelsberg, P. (1965). Excavation at Playa Miller / Mollepampa, Arica.",
+    "Aldunate, C. (2001). Personal communication on Playa Miller provenance.",
+    "Thompson, M. (2024). Numerical connection between AS069 and AS070. Ethnohistory.",
+    "Ascher, M. and Ascher, R. (1987). Mathematics of the Incas: Code of the Quipu -- Dauelsberg bundle documentation.",
+    "OKR cord-notes on AS071: M1 KB+SY marker cord; 'Pendant cords of one color have been threaded with cord of another color. See AS69, observation #6.' Subsidiary loops on 16s2s2, 31s1, 32s3. Knot on P24s1 threaded with W.",
+    "Khipu Field Guide catalog: https://www.khipufieldguide.com/catalog/KH0084.html",
+    "Compare AS069 + AS070 (Dauelsberg bundle companions), UR273A (sparse event register), UR192 (tambo admin accounting), UR263 (Kallanka day-book fragment), UR058A (Playa Miller cadastral)."
+  ],
+
+  "reconstructed_xlsx": null
+}

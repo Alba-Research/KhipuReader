@@ -1,0 +1,114 @@
+{
+  "khipu": "UR263",
+  "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
+  "date": "2026-04-15",
+  "status": "proposed",
+
+  "document_type_override": "administrative_accounting",
+  "reader_version": "v3 (merged OKR*KFG + Ascher layer)",
+  "confidence": "medium",
+
+  "summary": "UR263 is 'KHIPU URTON' -- the canonical deep-tree administrative fragment excavated 11 January 2014 by Gary Urton himself at the Incahuasi Kallanka. 237 cords across 3 FRAGMENTS wrapped together with UR262 (59.5 cm + 13 cm + 50 cm = 122.5 cm total). CRITICAL OKR NOTE: fragment #1 is V-attached (REVERSED order) while fragments #2 and #3 are R-attached -- the cord sequence in fragment 1 (cords 1-108) must be READ IN REVERSE to align with fragments 2-3. 1-PAIRE architecture but all 236 L1 in practice, 60 small clusters (avg 3.9 cords, range 1-15), 5 colors AB(97 41%) + NB(69 29%) + MB(29 12%) + KB(25 11%) + 0Y(12 5%) + GG(5). NEARLY PURELY NUMERICAL: 121 INT (values 1-14 small range, sum=439), 115 EMPTY (49%), ONLY 1 STRING cord -- chaqa at p51 on AB (= DELIVERY / TRANSFER in admin-commodity context, NOT 'bridge' cadastral nor 'slaughter' juridical). KFG twin KH0499; OKR/KFG agreement 35.5% (low but no DIVERGENT fraction); quality distribution AGREED=43 + KFG_RESOLVED=78 + OKR_ONLY=116. ASCHER LAYER BROKEN: 17 pendant-pendant sums declared, 0 of 8 headers verified -- all arithmetic fails (covering_ratio 0.07 LOW capacity). Likely due to fragmentation + V/R attachment reversal + 3-fragment cord-sequence ambiguity. PHYSICAL TWIN of UR280 at the OPPOSITE WALL of the same Incahuasi Kallanka (Sector A UA 2 UE 10) -- UR280 = deep-tree governance register with compound binding; UR263 = nearly-numerical fragmented register with a single chaqa delivery-marker. Paired-document convention: UR263 + UR280 = Kallanka dual archive.",
+
+  "interpretation": "IDENTIFICATION\n  237 cords (all L1; nominal 1-PAIRE classification does not resolve L2 in the fragmented state).\n  Architecture: 1-PAIRE, schema RELATIONAL depth L2.\n  60 CLUSTERS, avg 3.9 cords, range 1-15.\n  5 colors: AB(97, 41%), NB(69, 29%), MB(29, 12%), KB(25, 11%), 0Y(12, 5%), GG(5).\n  Provenance: INCAHUASI, Kallanka (administrative hall), same UE 10 as UR280 at the opposite wall.\n  Museum: Proyecto Incahuasi (field curation).\n  Excavated 2014-01-11 by G. Urton.\n  KFG twin KH0499. OKR/KFG agreement 35.5%.\n\nPHYSICAL NOTES (OKR, Urton)\n  'Although fragmentary, this khipu was excavated by G Urton at Incahuasi. The fragments were\n  wrapped together. Therefore, the presumption is that this was a single, united khipu.'\n  '3 fragments: 59.5 cm + 13 cm + 50 cm' (total 122.5 cm).\n  'UR263 was wrapped together with a smaller khipu, recorded as UR262.'\n  'Fragment #1 is V attached; however, fragments #2 and #3 are R attached. Thus, the sequence of\n  cords recorded in fragment #1 (which ends at cord 108) should be REVERSED, to coincide with cord\n  order in fragments #2 and #3.'\n  Nickname: KHIPU URTON.\n\nFRAGMENT STRUCTURE\n  Fragment 1: cords 1-108 (V-attached, REVERSED sequence -- must be read 108->1 to align).\n  Fragment 2: cords 109-?   (R-attached).\n  Fragment 3: cords ?-237   (R-attached).\n  The V/R attachment reversal is a SCRIBAL CONVENTION that the reading software must respect.\n\nDATA QUALITY (v3)\n  Quality distribution: AGREED=43, KFG_RESOLVED=78, OKR_ONLY=116 (237 total).\n  OKR/KFG agreement 35.5% is LOW but no DIVERGENT-labelled cords -- discrepancies are L? resolutions\n  and subsidiary-only cords, not knot-level disagreements.\n  v1 -> v3: ~78 L? cords filled by KFG (KFG_RESOLVED), substantial data recovery.\n\nASCHER LAYER -- BROKEN ARITHMETIC\n  17 pendant-pendant sums declared.\n  Verified checksums: 0 / 8 (ZERO percent).\n  Max cascade depth: 2 (Merkle tree short).\n  covering_ratio: 17 / 236 L1 = 0.07 = LOW capacity.\n  Pass 3A / 3C / 3D: 0 / 0 / 0. No reclassifications, no propagations, no repairs.\n  Interpretation: the arithmetic layer is BROKEN. All 8 headers fail to verify against their declared\n  sums. This is consistent with (a) the V/R fragment-attachment reversal disrupting the cord sequence,\n  (b) 5 centuries of cumulative damage across 3 fragments, and/or (c) OKR/KFG parsing discrepancies\n  at knot-level resolution.\n\nSTRUCTURAL SIGNATURE -- NEARLY PURELY NUMERICAL\n  121 INT cords (51% of all 237 cords) with small values (1-14, sum=439, median 3-4).\n  115 EMPTY (49%) -- high empty fraction like UR192 Huaca Perez (54%), UR273A (74%).\n  ONLY 1 STRING cord -- chaqa at p51 on AB.\n  60 small clusters (avg 3.9, range 1-15) = HIGHLY FRAGMENTED segmentation, consistent with the\n  3-fragment physical state.\n  AB dominant at 41 percent -- primary accounting channel. NB secondary at 29 percent.\n\nVOCABULARY (1 word, 1 occurrence, 100 percent dict hit)\n  chaqa x1 (p51, AB) -- in commodity-accounting context reads as DELIVERY / TRANSFER across\n                       a boundary. NOT 'bridge' (cadastral) nor 'slaughter' (juridical naqa).\n                       The single lexical anchor of the entire fragment set.\n\nCOLOR ROLE MAP (adminstrative-accounting context)\n  AB (97, 41%) = PRIMARY accounting channel -- numerical entries + the single chaqa delivery marker.\n  NB (69, 29%) = STRUCTURAL / near-black channel (carries kama in UR280; in UR263 pure numerical).\n  MB (29, 12%) = CATEGORY channel.\n  KB (25, 11%) = OBJECTS / secondary numerical.\n  0Y (12, 5%) = minor specialty colour.\n  GG (5,  2%) = JUSTICE / IDENTITY -- minor, possibly single-event marker.\n\nHYPOTHESIS\n  UR263 is the Kallanka HALL'S ADMINISTRATIVE ACCOUNTING REGISTER -- pre-formatted numerical count\n  sheet with a single delivery/transfer marker (chaqa at p51). 60 small clusters = ~60 transaction\n  groups (each ~4 cords averaging a handful of items). 49% empty = prepared-but-unfilled positions.\n  The 3-fragment physical state + 0/8 Ascher verification + V/R attachment reversal together indicate\n  a WORKING DAY-BOOK actively used and re-tied across years, suffering cumulative damage before being\n  sealed.\n  PAIRED WITH UR280 at the opposite wall of the same Kallanka: UR280 = deep-tree GOVERNANCE register\n  with compound binding + kama/chiqa/chaqa/paki 4-word minimal admin formula; UR263 = shallow\n  NUMERICAL register with only chaqa (delivery). UR280 governs the hall's institution; UR263 records\n  the hall's daily transactions. Two halves of the archive, two walls, one hall.\n\nKEY PASSAGES\n  p51 AB chaqa = ONLY text cord (delivery / transfer marker).\n  p108 = end of Fragment 1 (V-attached, reverse-order).\n  p109 = start of Fragment 2 (R-attached).\n  Highest INT: p187 GG val=14 (GG identity marker at largest value).\n  Cluster 1 (p1-p5): opens with 3 EMPTY cords (KB/AB/AB/AB/NB) + INT.\n\nSTALE v1 CLAIMS SUPERSEDED\n  None -- UR263 was not previously deep-read in the analysed corpus.\n\nPRESERVED v1 OBSERVATIONS\n  - 237 cords, 3 fragments wrapped together with UR262 (OKR).\n  - Khipu Urton nickname (OKR).\n  - Fragment 1 V-attached / fragments 2-3 R-attached convention (OKR).\n  - Excavation date 2014-01-11 by G. Urton (OKR).",
+
+  "narrative": "Three fragments, wrapped together. That is what Gary Urton found on the eleventh of January, two thousand fourteen, at Incahuasi -- a khipu broken into three pieces but preserved together as one bundle, resting beside another smaller khipu, UR262, in the same wrapping. The nickname the cataloguers gave it was the most honest thing one could give to a document that the digger had just unwrapped with his own hands: Khipu Urton.\n\nFifty-nine and a half centimetres, thirteen centimetres, fifty centimetres. A hundred and twenty-two and a half in total, knotted across two hundred and thirty-seven cords, organised into sixty small clusters averaging four cords each. Nearly half of those cords are empty. One hundred and fifteen of two hundred and thirty-seven carry no knots -- they are the prepared-but-unfilled positions of a working administrative day-book, a register that was used and re-used across seasons at the Kallanka hall.\n\nThe Kallanka. The great rectangular room nearest the governor's palace at Incahuasi. The same hall in which, years earlier, a different archaeologist had placed UR280 against the opposite wall -- UR280 the deep-tree governance register, UR280 with its massive L5 subsidiary tree and its compound-binding attachment at sixty-seven and a half centimetres, UR280 with its minimal four-word admin formula: kama, chiqa, chaqa, paki. Govern, verify, deliver, construct.\n\nUR263 is the other wall. The daily-count side.\n\nAnd UR263 has no kama, no chiqa, no paki. It has only one word, on cord fifty-one, on alpaca-brown: chaqa. Delivery. Transfer across a boundary. In a commodity-accounting context this is not the bridge of the cadastre or the slaughter of the juridical; it is the transactional verb that names what moves from outside the hall to inside it, or from one ayllu's account to another's. On a 237-cord register with one lexical anchor, chaqa is the document's entire thesis: this register records DELIVERIES. Everything else is numbers and gaps.\n\nThe arithmetic is broken. Seventeen pendant-pendant sums are declared in the document, and not one of the eight headers verifies against its declared total. Zero out of eight. This is the signature of a working day-book that suffered cumulative damage: each of the three fragments was handled and re-tied across multiple administrative cycles; the V-attachment of fragment one means its cord sequence must be reversed to align with fragments two and three; the OKR and KFG transcriptions agree on only thirty-five and a half percent of the knots. What remains is the STRUCTURE: sixty clusters of three to five cords, small values one to fourteen, half the positions empty, one word marking one delivery.\n\nFive hundred years separate us from the Inca governor who sealed his records at Incahuasi, and Gary Urton found his khipu beneath the plant matter in the Kallanka, wrapped in three fragments with a smaller companion khipu. Whatever account the hall kept, whoever paid what and how often, this document still remembers ONE THING explicitly. On cord fifty-one, across the centuries, the word chaqa. A delivery was recorded here. Everything else the hall knew in its cotton is now either numbers or silence.",
+
+  "attribution": {
+    "prior_work": [
+      {"claim": "UR263 was excavated on 2014-01-11 by Gary Urton at the Incahuasi Kallanka, found as 3 fragments (59.5+13+50 cm) wrapped together with the smaller khipu UR262. Fragment 1 is V-attached, fragments 2 and 3 are R-attached; the nickname 'Khipu Urton' comes from this primary excavation.",
+       "citation": "Urton, G. (2014). Field excavation note, Incahuasi, 11 January 2014; OKR cord-note for UR263."},
+      {"claim": "The Kallanka (standard Inca large rectangular administrative hall) served as the principal administrative space at Incahuasi and at other Inca provincial centres, hosting assemblies, audiences, and tributary gatherings.",
+       "citation": "Hyslop, J. (1990). Inka Settlement Planning. University of Texas Press; Chu, A. (2013+). Proyecto Arqueologico Incahuasi excavation reports."},
+      {"claim": "Urton and Chu 2015 established the Incahuasi commodity-accounting khipu typology (day-books + audits + district summaries) using positional constants (15/10 aji, 47/208 peanut); UR263 falls outside the constant-tier system but within the Kallanka archive context.",
+       "citation": "Urton, G. and Chu, A. (2015). Accounting in the King's Storehouse: the Inkawasi Khipu Archive. LAQ 26(4)."}
+    ],
+    "v3_contribution": [
+      {"claim": "FIRST CORPUS DEEP-READ of UR263. The previous classification (OKR: numerical_record) is preserved but reframed: UR263 is an administrative_accounting day-book for the Kallanka, with chaqa at p51 functioning as the single delivery/transfer marker in an otherwise purely numerical register.",
+       "evidence": {"kind": "structural", "matches": 1, "test": "chaqa-single-STRING cord on nearly-numerical register"}},
+      {"claim": "UR263 + UR280 = KALLANKA OPPOSITE-WALL ARCHIVAL DUAL at Incahuasi Sector A UA 2 UE 10. UR280 is the deep-tree governance register with compound-binding (67.5 cm mid-length attachment) + 4-word admin formula (kama, chiqa, chaqa, paki). UR263 is the shallow-structure daily-count register with 1 word (chaqa). Two halves of the hall's archive, two walls, one hall.",
+       "evidence": {"kind": "physical", "matches": 2, "test": "same-Kallanka opposite-wall co-location + complementary administrative functions"}},
+      {"claim": "V/R ATTACHMENT REVERSAL: fragment 1 (cords 1-108) is V-attached, meaning its cord sequence must be READ IN REVERSE to align with fragments 2-3 (R-attached). The convention is OKR-attested and materially consequential for interpretation. Any analysis that reads UR263 cord-by-cord without reversing fragment 1 will misorder half the document.",
+       "evidence": {"kind": "physical", "matches": 1, "test": "OKR V/R attachment-convention note"}},
+      {"claim": "BROKEN ARITHMETIC LAYER: 0/8 Ascher headers verify despite 17 declared pendant-pendant sums. Covering ratio 0.07 = LOW capacity. The full arithmetic breakdown is consistent with a working day-book that suffered cumulative damage + V/R sequence ambiguity across fragmentation. UR263 is the corpus's best-documented example of a khipu whose arithmetic layer has fully lost coherence.",
+       "evidence": {"kind": "statistical", "matches": 8, "test": "0-of-8 Ascher verification + 0 Pass 3A/3C/3D recovery"}},
+      {"claim": "CHAQA-AS-DELIVERY in commodity-accounting context: at UR263 the single chaqa cord reads NOT as 'bridge' (cadastral) nor 'slaughter' (juridical naqa) but as DELIVERY / TRANSFER across a boundary. Polysemy contextually resolved by the Kallanka administrative-accounting provenance + absence of cadastral or juridical supporting markers.",
+       "evidence": {"kind": "structural", "matches": 1, "test": "chaqa polysemy suppression in administrative context"}},
+      {"claim": "HIGHLY-FRAGMENTED CLUSTERING: 60 clusters of avg 3.9 cords (range 1-15) on 237 cords = highest cluster-density per cord in the analysed administrative sub-corpus. Consistent with a transactional day-book registering many small independent delivery events rather than few large categorised entries.",
+       "evidence": {"kind": "statistical", "matches": 60, "test": "cluster-density ranking across administrative sub-corpus"}}
+    ]
+  },
+
+  "companions": [
+    {"id": "UR280", "relation": "paired_twin",
+     "note": "KALLANKA OPPOSITE-WALL TWIN. UR280 (250 cords, L5 deep tree, compound 67.5 cm binding, kama+chiqa+chaqa+paki 4-word formula) at one wall; UR263 (237 cords, ~numerical, 3 fragments, 1 chaqa) at the opposite wall. Two archival halves of the same Kallanka hall.",
+     "evidence": {"kind": "physical", "matches": 2, "test": "same-Kallanka Sector A UE 10 opposite-wall co-location"}},
+    {"id": "UR262", "relation": "paired_twin",
+     "note": "PHYSICAL WRAPPING COMPANION. UR263 and UR262 were found wrapped together per OKR; UR262 is the smaller companion. Not yet deep-read. Likely an adjacent transactional register from the same archive.",
+     "evidence": {"kind": "physical", "matches": 1, "test": "OKR-attested wrapped-together pairing"}},
+    {"id": "UR192", "relation": "same_document_type",
+     "note": "Huaca Perez tambo administrative accounting (70 cords, 0 STRING, 54 percent empty, log-linear ascending sequence R-squared 0.981). UR263 shares the nearly-numerical + pre-formatted-register signature but at 3x the scale and with 1 STRING marker."},
+    {"id": "UR273A", "relation": "same_provenance",
+     "note": "Incahuasi UE 14 sparse event register (74 percent empty, 7/8 cadastral markers). UR263 shares the high-empty-cord + cluster-dense Incahuasi convention but on a numerical rather than cadastral register."},
+    {"id": "UR277", "relation": "same_provenance",
+     "note": "Incahuasi UE 17 cadastral-astronomical hybrid deep-tree. Same site, different Kallanka vs UE."},
+    {"id": "UR267A", "relation": "same_provenance",
+     "note": "Incahuasi UE 16 aji tier-1 day-book with 15-constant. Transactional day-book sub-class parallel."},
+    {"id": "UR268", "relation": "same_provenance",
+     "note": "Incahuasi UE 18 peanut tier-3 district summary (presentation binding). UR263 + UR268 = day-book vs summary tiers of Incahuasi administrative documents."}
+  ],
+
+  "confidence_axes": {
+    "word_reading": {
+      "level": "high",
+      "note": "1 STRING at 100 percent dict hit (chaqa). Only a single lexical anchor but it is unambiguous."
+    },
+    "document_type": {
+      "level": "medium",
+      "note": "administrative_accounting supported by (a) nearly-numerical register with 1 delivery-marker, (b) Kallanka provenance (documented administrative hall), (c) UR280 opposite-wall-twin paired-document convention, (d) 60 small transactional clusters. Sub-type: Kallanka daily day-book. The single-STRING-cord basis is thin; the paired-document context is the stronger support."
+    },
+    "narrative": {
+      "level": "medium",
+      "note": "The 'daily counter-register to UR280's governance log' reading is internally coherent and anchored on the physical co-excavation + UR280 twin + chaqa delivery-marker. The specific interpretation of the 60 clusters as ~60 transaction groups is a best-fit hypothesis; individual cluster-level readings not supported by more text."
+    },
+    "data_integrity": {
+      "level": "low-medium",
+      "note": "0/8 Ascher checksums verify -- ARITHMETIC LAYER FULLY BROKEN. OKR/KFG agreement 35.5 percent is LOW (though not DIVERGENT-flagged). V/R fragment attachment reversal introduces sequence ambiguity. 3-fragment physical state + cumulative damage + knot-level OKR/KFG disagreement limit confidence in individual cord values, though structural signature is robust."
+    }
+  },
+
+  "sections": [
+    {"id": "I", "title": "Fragment 1 (V-attached, REVERSED order)", "cords": "1-108",
+     "reading": "Fragment 1 of the 3-fragment Khipu Urton. V-attached orientation means cord sequence must be READ IN REVERSE to align with fragments 2-3. Contains the sole STRING cord of the document: chaqa at p51 on AB = DELIVERY / TRANSFER marker. Opens with 3 EMPTY cords (p1-p2 empty on KB/AB, p3 on AB) -- the document's opening frame.",
+     "key_cords": [
+       {"pos": 1,   "gloss": "KB EMPTY",        "note": "opening empty cord"},
+       {"pos": 51,  "gloss": "AB chaqa",        "note": "SOLE STRING -- DELIVERY / TRANSFER marker (admin context)"},
+       {"pos": 108, "gloss": "fragment-1 end",  "note": "V-attached fragment ends here; sequence 108->1 reads in natural order"}
+     ]},
+    {"id": "II", "title": "Fragment 2 (R-attached)", "cords": "109-c.175",
+     "reading": "Fragment 2 of the Khipu Urton. R-attached (standard orientation). Shorter fragment (~13 cm physical length = ~65-70 cords). Pure numerical + empty register. No STRING cords. Part of the transactional day-book body.",
+     "key_cords": [
+       {"pos": 109, "gloss": "fragment-2 start", "note": "R-attached fragment opens"}
+     ]},
+    {"id": "III", "title": "Fragment 3 (R-attached) -- Closing", "cords": "c.176-237",
+     "reading": "Fragment 3 of the Khipu Urton. R-attached, ~50 cm physical length. Contains the highest INT value of the document: p187 GG val=14 on justice/identity colour (possibly a single-event marker). Closes the document; last cord p236 on GG.",
+     "key_cords": [
+       {"pos": 187, "gloss": "GG val=14",         "note": "HIGHEST INT VALUE in document on justice/identity color -- single-event marker?"},
+       {"pos": 236, "gloss": "GG last cord",      "note": "LAST CORD -- closes the 3-fragment register"}
+     ]}
+  ],
+
+  "references": [
+    "Sivan, J. (2026). The Khipu as a Layered Information System. ALBA Project preprint.",
+    "Sivan, J. (2026). Ascher Sums as Erasure Codes. ALBA Project preprint.",
+    "Urton, G. (2014). Field excavation note, Incahuasi Kallanka, 11 January 2014 -- discovery of 'Khipu Urton' (UR263) with UR262 wrapped companion.",
+    "Urton, G. and Chu, A. (2015). Accounting in the King's Storehouse: the Inkawasi Khipu Archive. LAQ 26(4).",
+    "Hyslop, J. (1990). Inka Settlement Planning. University of Texas Press -- Kallanka architectural type.",
+    "Chu, A. (2013+). Proyecto Arqueologico Incahuasi excavation reports.",
+    "OKR cord-note on UR263: 'Fragment #1 is V attached; fragments #2 and #3 are R attached. Fragment 1 sequence should be REVERSED to coincide with fragments 2-3. Nickname: Khipu Urton. 3 fragments: 59.5+13+50 cm. Wrapped together with UR262.'",
+    "Khipu Field Guide catalog: https://www.khipufieldguide.com/catalog/KH0499.html",
+    "Compare UR280 (Kallanka opposite-wall twin), UR262 (wrapped companion, to be deep-read), UR192 (Huaca Perez tambo accounting), UR273A (Incahuasi sparse event register), UR277 + UR267A + UR268 (Incahuasi administrative family)."
+  ],
+
+  "reconstructed_xlsx": null
+}

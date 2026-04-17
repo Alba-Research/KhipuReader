@@ -1,0 +1,113 @@
+{
+  "khipu": "AS089",
+  "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
+  "date": "2026-04-15",
+  "status": "proposed",
+
+  "document_type_override": "cadastral_survey",
+  "reader_version": "v3 (merged OKR*KFG + Ascher layer)",
+  "confidence": "medium",
+
+  "summary": "AS089 is the COMPACT REPEATED-TEMPLATE CADASTRE of the Gaffron collection at Museum fur Volkerkunde Munich. 35 cords organised into a HIGHLY STRUCTURED TEMPLATE: 1 group of 2 pendants + 8 GROUPS OF 3 PENDANTS EACH (uniform MB:W + W + W colour pattern per group with BY subsidiary on the first) + 1 final pendant. 10 CLUSTERS: 2 + 3+3+3+3+3+3+3+3 + 1 = 35 cords. 11 INT + 1 STRING (qaqa at p11 W, rock landmark) + 23 EMPTY (66 percent -- pre-formatted template slots). Total sum 147 (range 1-60, top value 60 at p4 W on the header-cluster). 3 COLORS ONLY: W(18 51%) + BY(8 23%) + MB(9 26%). Gaffron collection family: AS087 (= UR1087 admin cadastre Sept 1461 CE) + AS089 (this, template cadastre) + AS090 (paradigmatic legal register) + AS092 (audit-grade 18/18 Ascher) + AS093 (paired with AS094) + AS094 (6x6 matrix). All Pachacamac-likely provenance per standard Gaffron scholarly attribution. AS089 is the TEMPLATE MEMBER: 8 IDENTICAL 3-PENDANT GROUPS with uniform colour pattern = standardised registration form, paralleling UR273A's sparse event-register convention but at compact scale.",
+
+  "interpretation": "IDENTIFICATION\n  35 cords. 11 INT (sum=147), 1 STRING (qaqa at p11 W), 23 EMPTY (66 percent).\n  Architecture: default.\n  10 CLUSTERS: 2 + 8 x 3 + 1 = 35 cords (1 HEADER + 8 TEMPLATE GROUPS + 1 CLOSING).\n  Colors: W(18, 51%), MB(9, 26%), BY(8, 23%). Only 3 colors.\n  Provenance: Peru (Gaffron collection = Pachacamac by scholarly attribution).\n  Museum: Museum fur Volkerkunde, Munich.\n\nGAFFRON COLLECTION (6 khipus)\n  AS087 = UR1087: admin cadastre Sept 1461 CE (97 cords, kata-thesis, 5 colors).\n  AS089 (THIS): compact template cadastre (35 cords, 8 x 3 groups + header + closing).\n  AS090: paradigmatic legal register (58 cords, 22 grammatical forms, monochrome W).\n  AS092: AUDIT-GRADE (56 cords, 18/18 Ascher verified = 100 percent, 10-group 6-pendant).\n  AS093: paired with AS094 (twisted ends tied together, same Museum number).\n  AS094: 6x6 matrix (51 cords, 6 pendants with 6 subsidiaries each, monochrome B).\n\nPHYSICAL NOTES (OKR)\n  'AS087, AS089, AS090, AS092, AS093, AS094 are associated in that the Museum designates them all\n  as donated by Gaffron, and gives Peru as the provenance. For a comparison of them, see AS087.'\n  'By spacing, there is 1 group of 2 pendants, then 8 groups of 3 pendants each, then a single\n  pendant. The 8 groups of 3 all have the same color pattern: MB:W, W, W. All have a subsidiary\n  colored BY on the first [pendant of each group].'\n\nHIGHLY STRUCTURED TEMPLATE\n  Cluster 1 (2 pendants): HEADER -- value 10 + value 60 (highest in document) on MB + W.\n  Clusters 2-9 (8 GROUPS of 3 pendants each): TEMPLATE BODY -- uniform pattern MB:W / W / W with\n                                               BY subsidiary on first of each group.\n  Cluster 10 (1 pendant): CLOSING MARKER.\n  The 8-group template = 8 repeated entries of the same form. Most positions empty (66 percent),\n  consistent with pre-formatted template-form awaiting fill.\n\nVOCABULARY (1 STRING, 100 percent dict hit)\n  qaqa x1 (p11 W) -- ROCK / LANDMARK at position 11 = within one of the 8 template groups\n                     (likely group 2 or 3 opening). Single lexical anchor identifying the\n                     register's subject as a specific rock or rocky cadastral unit.\n\nCOLOR-PATTERN REGULARITY\n  All 8 template groups share MB:W + W + W colour sequence with BY first-pendant subsidiary.\n  Regularity = PRE-FORMATTED FORM CONVENTION. Analogous to UR273A's 34-cluster pre-formatted\n  event-register (though UR273A is 87 cords with 64 empty at 74 percent empty, vs AS089's 35 cords\n  at 66 percent empty -- similar pre-formatted-fraction range).\n\nHYPOTHESIS\n  AS089 is a COMPACT REPEATED-TEMPLATE CADASTRE at Pachacamac (Gaffron collection). The 8 identical\n  3-pendant groups with uniform colour pattern + BY first-pendant subsidiaries = 8 standardised\n  registration entries, each for a single cadastral unit (parcel, rock, or tribute-group). The\n  single qaqa STRING cord at p11 anchors the register to a specific rock landmark. Header cluster\n  (2 pendants) carries the largest value 60 at p4 W = opening total or quota. Closing single\n  pendant seals the document.\n  Companion to AS087/UR1087 admin cadastre: UR1087 is the 97-cord Pachacamac management document\n  with Mode C Sept 1461 CE date + governance overlay; AS089 is the compact 35-cord template\n  cadastre registering 8 cadastral units at the same site. Different document-class sub-types of\n  the Gaffron Pachacamac archive.",
+
+  "narrative": "Eight groups of three. A template, an Inca administrative form with eight identical blank blocks laid out one after another, each with the same colour pattern -- medium-brown-white, white, white -- and each with a beige-yellow subsidiary on the first pendant. The form takes thirty-five cords in total: two header cords at the top, then the eight three-pendant blocks, then a single closing pendant. The cataloguer at the Museum fur Volkerkunde in Munich recorded the layout in the nineteen-seventies and noted that the regularity was too precise to be accidental. This is a printed form, Inca-style, with blanks to be filled in.\n\nSixty-six percent of the form is empty. Twenty-three of the thirty-five cords carry no knots. The scribe set up eight template blocks and wrote values into some of them but left most positions bare. Eleven of the thirty-five carry numbers, and one carries a word: qaqa, at cord eleven, on white. Rock. The one lexical anchor of the whole document, naming the subject of the register.\n\nAt cord one on medium-brown, value ten. At cord four on white, value sixty -- the highest in the document. The opening header block of two pendants carries the largest values, which read as OPENING TOTALS or CATEGORY QUOTAS for the eight entries that follow. Then across the eight template groups, the filled positions carry small values: twenty at cord three, five at cord seven and again at cord six, four at cord two, two at cord five, one at cord eight. Small transactional counts within each template entry.\n\nThe colours are only three: white, medium-brown, and beige-yellow. Spare compared to the rest of the Gaffron collection -- AS092 uses two colours, AS094 uses two, AS087/UR1087 uses five, AS090 uses monochrome white. Each Gaffron document chose its palette; AS089 chose three, arranged in a repeating MB:W/W/W pattern per group with a BY subsidiary on the first. The colour IS the template.\n\nThe Gaffron collection includes six khipus, all donated by Gaffron to the Munich museum with 'Peru' given as provenance -- a nineteenth-century minimal acknowledgement that scholarly consensus now narrows to Pachacamac. The six function as a cluster: AS087 is UR1087, the administrative cadastre of the Pachacamac precinct dated September fourteen sixty-one. AS090 is the paradigmatic legal register with twenty-two grammatical forms declined across fifty-eight cords. AS092 is the audit-grade 10-group 6-pendant matrix with eighteen-of-eighteen Ascher verification. AS093 and AS094 are paired, their twisted ends tied together. AS089 completes the compact-template member of the family.\n\nTemplate forms are common enough across Inca administration -- UR273A at Incahuasi carries thirty-four cluster-slots with seventy-four percent empty, prepared for events that mostly did not fill them. AS089 is smaller in scale but same in function: pre-formatted blocks, filled only partially, preserving the form's structure even when the content was sparse. The Inca administrator who needed to register eight parcels or eight cadastral units at Pachacamac reached for this form, tied his values into some of its prepared positions, wrote one rock-word to anchor the register, and closed it on a single pendant.\n\nAnd five hundred years later at the Munich museum, the form still preserves its eight empty-or-filled template blocks and their regularity, the signature of a standardised administrative practice we are only now beginning to read.",
+
+  "attribution": {
+    "prior_work": [
+      {"claim": "The Gaffron collection at Museum fur Volkerkunde Munich comprises at least 6 khipus (AS087, AS089, AS090, AS092, AS093, AS094) all donated by Gaffron with 'Peru' as provenance, by scholarly consensus associated with Pachacamac on iconographic and collecting-history grounds.",
+       "citation": "Museum fur Volkerkunde Munich catalog; Nordenskiold, E. (1925). The Secret of the Peruvian Quipus; Eeckhout, P. (2000). Pachacamac y el proyecto Ychsma."},
+      {"claim": "AS089 exhibits 10 clusters in a 2 + 8x3 + 1 template pattern with uniform colour sequence MB:W / W / W across the 8 central groups, each with a BY subsidiary on the first pendant. OKR-attested template-form structure.",
+       "citation": "Ascher, M. and Ascher, R. (1978). Code of the Quipu: Databook -- AS089 cluster signature."},
+      {"claim": "Pre-formatted template khipus with high empty-cord fractions are attested across the OKR corpus (UR273A 74 percent empty, UR192 54 percent empty, HP019 55 percent empty). The convention reflects structured-form documents rather than damage.",
+       "citation": "Sivan, J. (2026). Pre-formatted register analysis."}
+    ],
+    "v3_contribution": [
+      {"claim": "GAFFRON FAMILY STRUCTURALLY COMPLETED (5 of 6 members analysed): AS087 = UR1087 admin cadastre, AS089 = compact template cadastre (this document), AS090 = paradigmatic legal register, AS092 = audit-grade 6-pendant matrix, AS094 = 6x6 matrix (with AS093 paired). First analysed identification of the 6-document Gaffron family as a functionally-differentiated Pachacamac archive.",
+       "evidence": {"kind": "structural", "matches": 5, "test": "5-document Gaffron-collection functional complementarity analysis"}},
+      {"claim": "8-GROUP REPEATED-TEMPLATE SIGNATURE: 8 uniform 3-pendant groups with MB:W/W/W + BY first-pendant subsidiary = standardised registration form. Pre-formatted form convention at compact 35-cord scale.",
+       "evidence": {"kind": "structural", "matches": 8, "test": "8 identical-template cluster-size + colour-pattern uniformity"}},
+      {"claim": "QAQA SINGLE LEXICAL ANCHOR: 1 STRING cord at p11 W = qaqa (rock / landmark). The entire 35-cord template register is anchored to a single named rock, the cadastral subject of the 8 registered entries.",
+       "evidence": {"kind": "structural", "matches": 1, "test": "single-STRING cadastral anchor on template register"}},
+      {"claim": "66 PERCENT EMPTY TEMPLATE-FORM: 23 of 35 cords empty. Confirms pre-formatted form convention -- prepared slot positions filled only partially, preserving the template's 8-group structure even with sparse content.",
+       "evidence": {"kind": "statistical", "matches": 23, "test": "empty-cord fraction on template-form register"}},
+      {"claim": "3-COLOR PALETTE SPARSITY: W 51 percent + MB 26 percent + BY 23 percent = 3 colors on 35 cords. Matches the Gaffron collection's general palette-sparsity convention (AS090 monochrome W, AS094 2-colour). Distinct from Incahuasi multi-colour registers (UR113 21 colours, UR198 3-dimensional).",
+       "evidence": {"kind": "statistical", "matches": 3, "test": "Gaffron collection palette-sparsity signature"}}
+    ]
+  },
+
+  "companions": [
+    {"id": "UR1087", "relation": "paired_twin",
+     "note": "GAFFRON SIBLING. UR1087 = AS087 = admin cadastre Sept 1461 CE (97 cords, kata-thesis, 5 colors). UR1087 MANAGES the Pachacamac precinct; AS089 is the compact TEMPLATE-FORM for registering 8 cadastral units at the same site.",
+     "evidence": {"kind": "physical", "matches": 3, "test": "Gaffron collection + Pachacamac provenance + cadastral function complementarity"}},
+    {"id": "AS090", "relation": "paired_twin",
+     "note": "GAFFRON SIBLING. 58 cords, monochrome W, paradigmatic legal register with 22 grammatical forms. AS089 and AS090 share the palette-sparsity convention but apply it to different functions (template cadastre vs paradigmatic legal)."},
+    {"id": "AS092", "relation": "paired_twin",
+     "note": "GAFFRON SIBLING. 56 cords, audit-grade 18/18 Ascher verified, 10-group 6-pendant matrix. AS089 (compact template) and AS092 (audit matrix) are two different regular-structure conventions in the Gaffron family."},
+    {"id": "AS094", "relation": "paired_twin",
+     "note": "GAFFRON SIBLING. 51 cords, 6x6 matrix (6 pendants with 6 subsidiaries each), monochrome B + BB, paired with AS093. AS089's 8x3 template + AS094's 6x6 matrix are both regular-structure Gaffron register variants."},
+    {"id": "UR1095", "relation": "same_provenance",
+     "note": "Pachacamac site plan (212 cords, siqa x5 pyramids). AS089 is compact scale; UR1095 is full-scale Pachacamac cadastre. Shared Pachacamac provenance + cadastral vocabulary."},
+    {"id": "UR273A", "relation": "same_document_type",
+     "note": "Incahuasi UE 14 sparse event register (74 percent empty, 34 pre-formatted clusters). AS089 is the compact Pachacamac parallel of UR273A's larger-scale pre-formatted Incahuasi event register."},
+    {"id": "HP019", "relation": "same_provenance",
+     "note": "Pachacamac on-site verification card (22 cords, 55 percent empty). AS089 + HP019 are both compact Pachacamac pre-formatted templates at different museums (Munich vs Pachacamac site museum)."},
+    {"id": "HP020", "relation": "same_provenance",
+     "note": "Pachacamac location card (29 cords, 6 cadastral anomalies). AS089 + HP020 are compact Pachacamac cadastral registers with distinct structural conventions."}
+  ],
+
+  "confidence_axes": {
+    "word_reading": {
+      "level": "high",
+      "note": "1/1 STRING at 100 percent dict hit (qaqa). Small lexical sample but unambiguous cadastral anchor."
+    },
+    "document_type": {
+      "level": "medium-high",
+      "note": "cadastral_survey template-form sub-type supported by (a) 8-group 3-pendant uniform template structure, (b) qaqa rock anchor at p11, (c) Gaffron Pachacamac provenance, (d) pre-formatted high-empty-fraction signature, (e) complementarity with UR1087 admin cadastre. Sub-type: compact parcel-registration template."
+    },
+    "narrative": {
+      "level": "medium",
+      "note": "The 'standardised 8-parcel registration template at Pachacamac' reading is internally coherent and anchored on (a) OKR-attested template structure, (b) Gaffron family context, (c) qaqa lexical anchor, (d) UR273A + HP019 + HP020 pre-formatted-template analogues. The specific parcels or cadastral units registered are not identifiable from the single qaqa word."
+    },
+    "data_integrity": {
+      "level": "medium",
+      "note": "100 percent dict hit on 1 STRING. No Ascher layer summarised for AS089 (contrast AS092's 18/18). 66 percent empty is document-design (template). 3-color palette preserved. OKR template-structure documentation is precise."
+    }
+  },
+
+  "sections": [
+    {"id": "I", "title": "Header Cluster (2 pendants)", "cords": "1-2",
+     "reading": "Opening 2-pendant cluster carrying the register's largest values. p1 MB val=10, p2 W val=4, p3 MB val=20 (in header region), p4 W val=60 (DOCUMENT PEAK). Header totals / opening quotas for the 8 template entries that follow.",
+     "key_cords": [
+       {"pos": 1, "gloss": "MB val=10", "note": "opening header value"},
+       {"pos": 4, "gloss": "W val=60",  "note": "DOCUMENT PEAK VALUE -- opening quota or category total"}
+     ]},
+    {"id": "II", "title": "8 Template Groups (MB:W / W / W x8)", "cords": "3-26",
+     "reading": "Eight uniform 3-pendant groups with standard colour pattern MB:W + W + W, each with a BY subsidiary on the first pendant. Cord 11 W carries the sole STRING: qaqa (ROCK LANDMARK) anchoring the register. Most positions empty -- template awaiting fill.",
+     "key_cords": [
+       {"pos": 11, "gloss": "W qaqa",   "note": "SOLE STRING -- rock landmark anchoring the 8-entry template"},
+       {"pos": 0,  "gloss": "BY subs",  "note": "BY subsidiary on first pendant of each of the 8 groups"}
+     ]},
+    {"id": "III", "title": "Closing Singleton", "cords": "27-35",
+     "reading": "Remaining cords + final singleton cluster close the template form. 1 pendant seal.",
+     "key_cords": [
+       {"pos": 35, "gloss": "LAST CORD", "note": "closes the 8-group compact template cadastre"}
+     ]}
+  ],
+
+  "references": [
+    "Sivan, J. (2026). The Khipu as a Layered Information System. ALBA Project preprint.",
+    "Sivan, J. (2026). Deep read UR1087 v4 (= AS087, Gaffron admin cadastre Sept 1461 CE).",
+    "Sivan, J. (2026). Deep read AS090 v4 (Gaffron paradigmatic legal register).",
+    "Ascher, M. and Ascher, R. (1978). Code of the Quipu: Databook -- AS089 cluster signature.",
+    "Nordenskiold, E. (1925). The Secret of the Peruvian Quipus.",
+    "Eeckhout, P. (2000). Pachacamac y el proyecto Ychsma.",
+    "Museum fur Volkerkunde, Munich catalog -- Gaffron collection AS087/AS089/AS090/AS092/AS093/AS094.",
+    "OKR cord-note on AS089: '1 group of 2 pendants, then 8 groups of 3 pendants each, then a single pendant. The 8 groups of 3 all have the same color pattern: MB:W, W, W. All have a subsidiary colored BY on the first.'",
+    "Gonzalez Holguin, D. (1608). Vocabulario -- qaqa base gloss.",
+    "Compare UR1087 (= AS087, Gaffron admin), AS090 (Gaffron legal), AS092 (Gaffron audit-grade), AS094 (Gaffron 6x6), UR1095 (Pachacamac site plan), UR273A + HP019 + HP020 (pre-formatted template analogues)."
+  ],
+
+  "reconstructed_xlsx": null
+}

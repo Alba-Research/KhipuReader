@@ -123,5 +123,27 @@
       "level": "high",
       "note": "Cross-khipu signal p<10^-5, 5000-trial null model. 11 OKR×KFG cords AGREED, 1 L? remaining. The statistical signal is the strongest in the Incahuasi corpus."
     }
-  }
+  },
+  "sections": [
+    {"id": "I", "title": "Presentation Binding", "cords": "—",
+     "reading": "Not a cord section but the physical artefact: UR266 opens with a needlework bundle + red tassel, the same finished-and-filed presentation binding as the peanut district-summary UR268. This is a completed document, meant to be seen, meant to be kept -- the tier-3 peanut annual report for the Incahuasi storehouse.",
+     "key_cords": []},
+    {"id": "II", "title": "UR278 Row-Total Transcription", "cords": "3-40",
+     "reading": "First 40 cords transcribe UR278's 26x9 matrix row totals R1-R8 in order, each separated by the peanut-constant 47 (Urton-Chu 2015). Seven exact matches (p3=3618=R1, p7=1506=R2, p12=1384=R3, p17=2919=R4, p28=2089=R6, p35=1842=R7, p40=1876=R8), plus two near-matches within +/-2. Null-permutation test on 5000 trials: p < 10^-5. The statistical signal is the strongest cross-khipu correspondence in the Incahuasi corpus.",
+     "key_cords": [
+       {"pos": 3,  "gloss": "INT val=3618", "note": "UR278 row 1 total (EXACT MATCH)"},
+       {"pos": 7,  "gloss": "INT val=1506", "note": "UR278 row 2 total (EXACT MATCH)"},
+       {"pos": 12, "gloss": "INT val=1384", "note": "UR278 row 3 total (EXACT MATCH)"},
+       {"pos": 17, "gloss": "INT val=2919", "note": "UR278 row 4 total (EXACT MATCH)"},
+       {"pos": 28, "gloss": "INT val=2089", "note": "UR278 row 6 total (EXACT MATCH)"},
+       {"pos": 35, "gloss": "INT val=1842", "note": "UR278 row 7 total (EXACT MATCH)"},
+       {"pos": 40, "gloss": "INT val=1876", "note": "UR278 row 8 total (EXACT MATCH)"}
+     ]},
+    {"id": "III", "title": "Peanut-Specific Detail Block", "cords": "41-132",
+     "reading": "After the row-total recap, 92 cords carry peanut-specific transaction detail. The 47-constant (Urton-Chu peanut signature) recurs as positional separator. Colors diversify to YB-dominant (31%), W, HB, MB, AB -- richer palette than the austere UR278 matrix, consistent with the annual-report / presentation tier.",
+     "key_cords": []},
+    {"id": "IV", "title": "Vocabulary Recap", "cords": "133-174",
+     "reading": "The 10 STRING cords carrying paqa / waqa / piqa / chaqa / taqa / kaqa close the document. Cadastral-commodity markers anchor the peanut transactions to producing parcels. No internal Ascher sums (0/4) -- consistent with the presentation tier where integrity is external (binding + row-total match against UR278), not internal.",
+     "key_cords": []}
+  ]
 }

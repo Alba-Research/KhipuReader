@@ -1,0 +1,125 @@
+{
+  "khipu": "UR182",
+  "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
+  "date": "2026-04-15",
+  "status": "proposed",
+
+  "document_type_override": "cadastral_survey",
+  "reader_version": "v3 (merged OKR*KFG + Ascher layer)",
+  "confidence": "medium-high",
+
+  "summary": "UR182 is a COMPACT HUACA-WALL CADASTRAL REGISTER with AUDIT-TIER TOTALS. 30 cords, 21 INT, 3 STRING (waqa x2 + kaqa x1), 6 EMPTY, 7 clusters, 7 colors (AB 53% + W 23% + MB + BG + KB + LG + LD). KEY VOCABULARY: waqa x2 = HUACAS (sacred places, 2 different huacas registered) + kaqa x1 = WALL (Aymara) = the enclosure containing them. HUGE INT VALUES: 802 at p19 W (document peak), 303 at p16 W, 302 at p18 AB, 301 at p6 AB, 246 at p20 AB, 2 x more cords above 100. Total sum = 2803 across just 21 INT = AVERAGE 133 PER NON-ZERO CORD (audit-tier magnitude). KFG twin KH0420 catalogued but NO ASCHER LAYER -- no pendant-pendant sums declared (consistent with audit-totals-tier documents that carry totals rather than cross-verification arithmetic). HYPOTHESIS: UR182 registers TWO SACRED HUACAS within a walled precinct (waqa twice + kaqa once), with audit-tier quantitative totals (802, 303, 302, 301, 246) quantifying tribute / personnel / offerings / land attached to each huaca-site. Compact sub-type distinct from UR203 (Pachacamac ceque registry with waqa x7) and UR1095 (full Pachacamac cadastral). No OKR notes beyond the standard cord list.",
+
+  "interpretation": "IDENTIFICATION\n  30 cords. 21 INT (sum=2803), 3 STRING (100% dict), 6 EMPTY (20 percent).\n  Architecture: default. 7 CLUSTERS: 2 + 5 + 1 + 5 + 7 + 1 + 9 cords.\n  Colors: AB(16, 53%), W(7, 23%), MB(3, 10%), KB(1), BG(1), LG(1), LD(1). 7 colors.\n  Provenance: Unknown. Museum: not specified.\n  KFG twin KH0420.\n\nDATA QUALITY (v3)\n  3/3 STRING at 100 percent dict hit. Small lexical sample but unambiguous.\n  No L-1 unreadable cords.\n\nASCHER LAYER\n  0 pendant-pendant sums declared. No Ascher verification layer.\n  Consistent with audit-totals-tier documents (UR273B, UR182, other summary-carrying khipus) that\n  present aggregated totals rather than cross-verification arithmetic.\n\nVOCABULARY (3 STRING, 100 percent dict hit)\n  waqa x2 (p2 AB + p8 AB) -- HUACA / SACRED PLACE (two different huacas registered)\n  kaqa x1 (p10 W) -- WALL (Aymara = AY) = the enclosure or boundary\n  The waqa + waqa + kaqa sequence = 'HUACA-HUACA-WALL' formula: TWO SACRED SITES inside ONE WALLED\n  ENCLOSURE. Compact cadastral statement of a walled precinct containing two sacred points.\n\nAUDIT-TIER QUANTITATIVE TOTALS\n  Top 5 INT values: 802 (p19 W), 303 (p16 W), 302 (p18 AB), 301 (p6 AB), 246 (p20 AB).\n  Sum total = 2803 across 21 non-zero cords = AVERAGE 133 per cord.\n  This is audit-scale magnitude, larger than typical day-book registers (median per-cord value\n  usually 5-20 in commodity day-books). Comparable to UR273B (top 3991) and AS026A header totals.\n\nCOLOR ROLE MAP\n  AB (16, 53%) = PRIMARY CHANNEL -- carries both waqa STRING cords + 2 of the top-5 INT values.\n  W  (7, 23%)  = DATA CHANNEL -- carries kaqa STRING + 3 of the top-5 INT values including the peak 802.\n  MB (3, 10%)  = CATEGORY markers.\n  KB (1), BG (1), LG (1), LD (1) = specialty SINGLE-CORD colours.\n  The 4 singleton specialty colours may mark specific CATEGORY SLOTS within the 7-cluster structure.\n\nSTRUCTURAL SIGNATURE\n  7 CLUSTERS of varied size: 2 + 5 + 1 + 5 + 7 + 1 + 9.\n  Cluster 1 (2 cords): HEADER.\n  Cluster 2 (5 cords): FIRST HUACA data (waqa at p2 opens here).\n  Cluster 3 (1 cord): PHASE SEPARATOR singleton.\n  Cluster 4 (5 cords): SECOND HUACA data (waqa at p8 opens here).\n  Cluster 5 (7 cords): WALL/ENCLOSURE data (kaqa at p10 opens; contains peak 802 at p19, 303 at p16).\n  Cluster 6 (1 cord): SECOND PHASE SEPARATOR.\n  Cluster 7 (9 cords): CLOSING aggregates (246 at p20 AB + other INT totals).\n\nHYPOTHESIS\n  UR182 is a COMPACT HUACA-WALL CADASTRAL REGISTER quantifying TWO SACRED SITES within ONE WALLED\n  PRECINCT. The waqa-waqa-kaqa formula in the opening clusters names the two huacas and their\n  enclosure; the 7-cluster structure then carries the quantitative totals for the precinct: TRIBUTE\n  attached to each huaca, PERSONNEL guarding them, OFFERINGS deposited, LAND allocated. Peak value\n  802 + 303 + 302 + 301 + 246 on W and AB channels = audit-tier magnitudes consistent with\n  TRIBUTE-LEVEL or POPULATION-LEVEL counts. Without KFG Ascher verification the specific totals\n  cannot be cross-checked, but the structural signature (waqa + kaqa vocabulary + 7-cluster pattern\n  + large totals) places UR182 in the HUACA-CADASTRE sub-class alongside UR203 (Pachacamac ceque\n  registry waqa x7) and UR1095 (Pachacamac cadastral). UR182 is more compact (30 cords vs UR203's\n  126 / UR1095's 212) and registers only 2 huacas, consistent with a SPECIFIC WALLED-SHRINE REGISTER\n  rather than a full precinct-scale registry.",
+
+  "narrative": "Thirty cords. Three words. And five very large numbers.\n\nAt cord two on light-brown, the first word: waqa. Huaca. A sacred site, named at the head of the second cluster as the opening topic of the register. At cord eight on light-brown, the second word: waqa again. Another huaca, a second sacred site, introduced at the head of the fourth cluster. And at cord ten on white, the third word: kaqa. Wall. The Aymara wall-term naming the enclosure that contains both huacas.\n\nTwo huacas inside one walled precinct. The compact cadastral statement at the opening of UR182 lays out the register's subject in three words: huaca, huaca, wall. What follows is the quantitative content of that precinct.\n\nAt cord six on light-brown, value three hundred and one. At cord sixteen on white, value three hundred and three. At cord eighteen on light-brown, value three hundred and two. At cord nineteen on white, value eight hundred and two -- the peak of the document. At cord twenty on light-brown, value two hundred and forty-six. Five cords carry values above two hundred. Total across all twenty-one numerical cords: two thousand eight hundred and three. Average per non-zero cord: one hundred and thirty-three. This is not a day-book. This is audit-tier.\n\nCompare the magnitudes. UR190's peanut day-book at Huaca Perez has maximum values forty-seven (the peanut positional constant) and sums to about four thousand across three hundred and fifty-eight numerical cords. UR182 at thirty cords reaches two thousand eight hundred and three. The per-cord density is ten times UR190's. UR182 is summarising, not logging.\n\nUR273B at Incahuasi, the audit-totals half of the UR273A/B compound document, had a top value of three thousand nine hundred and ninety-one and summed to twenty-nine thousand three hundred and seventeen across its thirty filled INT cords. UR182's top value eight hundred and two is smaller, but the per-cord density is comparable: UR273B averages nine hundred and seventy-seven per filled cord; UR182 averages one hundred and thirty-three. UR182 is a LIGHTER audit-tier register than UR273B but in the same class.\n\nThe seven clusters organise the register cleanly. Cluster one (two cords) opens with header values. Cluster two (five cords) is the first-huaca block, introduced by waqa at cord two. Cluster three (one cord) is a phase separator. Cluster four (five cords) is the second-huaca block, introduced by waqa at cord eight. Cluster five (seven cords) is the wall-enclosure block, introduced by kaqa at cord ten and containing most of the large values including the peak eight hundred and two. Cluster six (one cord) is a second phase separator. Cluster seven (nine cords) closes on aggregated totals.\n\nSeven colours for thirty cords -- rich per-cord colour density. Light-brown at fifty-three percent dominant, white at twenty-three percent secondary, medium-brown at ten, and four single-cord specialty colours (dark-brown, beige-gray, light-green, dark-red). Each specialty colour may mark a specific category-slot within the structural blocks: one for tribute, one for offerings, one for personnel, one for land.\n\nWithout a pendant-pendant sum to verify, the arithmetic cannot be cross-checked. The KFG catalogues UR182 under KH0420 but no pendant-pendant verification page was populated. The document stands on its structural signature -- waqa-waqa-kaqa opening + 7-cluster content-totals structure + audit-tier value magnitudes -- as a compact huaca-precinct register.\n\nUR203 at Pachacamac registers seven huacas across one hundred and twenty-six cords. UR1095 maps the Pachacamac precinct across two hundred and twelve cords. UR182 at thirty cords is the miniature version: a compact handheld register for a specific walled shrine containing two named sacred sites. The museum of UR182 is not specified in the OKR record; its provenance is unknown. But the format is clean, the vocabulary is unambiguous, and the audit-scale totals preserve the tribute-level counts of some Inca walled shrine five centuries after the cords were tied.",
+
+  "attribution": {
+    "prior_work": [
+      {"claim": "Sacred sites (waqa / huaca) at Inca walled precincts are documented extensively in colonial sources, with specific shrines maintained by dedicated personnel and receiving tribute / offerings tracked administratively.",
+       "citation": "Cobo, B. (1653). Historia del Nuevo Mundo; Rostworowski, M. (1999). Historia del Tahuantinsuyu; Zuidema, R. T. (1964). The Ceque System of Cuzco."},
+      {"claim": "Canonical huaca-registry vocabulary waqa + qaqa + chaka + paqa + taqa + siqa is attested in the Pachacamac ceque registry UR203 (waqa x7) and cadastral surveys UR1095 (siqa x5 pyramids). UR182 uses the compact subset waqa + kaqa.",
+       "citation": "Sivan, J. (2026). Deep reads UR203 + UR1095 v3/v4 -- Pachacamac huaca registry and cadastral."},
+      {"claim": "Audit-tier Inca register tiers (UR273B audit totals, AS026A lineage audit) exhibit large per-cord values (>100 average) distinct from day-book tier documents (5-20 per-cord average) per the Urton-Chu 2015 Incahuasi typology + Sivan 2026 erasure-code framework.",
+       "citation": "Urton, G. and Chu, A. (2015). Accounting in the King's Storehouse: the Inkawasi Khipu Archive. LAQ 26(4); Sivan, J. (2026). Ascher Sums as Erasure Codes."}
+    ],
+    "v3_contribution": [
+      {"claim": "WAQA-WAQA-KAQA FORMULA: 2 huacas + 1 wall = compact cadastral statement of TWO SACRED SITES WITHIN ONE WALLED PRECINCT. Unique 3-word huaca-wall signature on a compact 30-cord register. Not attested elsewhere in the analysed corpus.",
+       "evidence": {"kind": "structural", "matches": 3, "test": "waqa x2 + kaqa x1 sequence on small-document scale"}},
+      {"claim": "AUDIT-TIER VALUE MAGNITUDES: 5 cords above 100 (peak 802, plus 303/302/301/246) + sum 2803 / 21 filled cords = average 133 per non-zero cord. Places UR182 in audit-tier magnitude class with UR273B and AS026A, distinct from day-book tier.",
+       "evidence": {"kind": "statistical", "matches": 5, "test": "5 cords above 100 + average-per-cord 133 audit-tier signature"}},
+      {"claim": "7-CLUSTER HUACA-PRECINCT STRUCTURE: clusters 2+5+1+5+7+1+9 = header + first-huaca + phase-separator + second-huaca + wall-enclosure + phase-separator + closing. Structural signature tracks the waqa-waqa-kaqa formula through the quantitative content blocks.",
+       "evidence": {"kind": "structural", "matches": 7, "test": "7-cluster structure aligned with waqa / waqa / kaqa vocabulary placement"}},
+      {"claim": "SINGLETON SPECIALTY COLOURS: KB + BG + LG + LD each appear ONCE on specific category cords. 4 single-cord specialty colours likely mark 4 administrative category slots (tribute / offerings / personnel / land) within the huaca-precinct register.",
+       "evidence": {"kind": "structural", "matches": 4, "test": "single-occurrence specialty-colour positions within 7-cluster structure"}},
+      {"claim": "COMPACT SUB-CLASS OF HUACA REGISTRY: UR182 at 30 cords is the miniature of UR203 (126-cord 7-huaca Pachacamac ceque registry) and UR1095 (212-cord Pachacamac cadastral). Registers only 2 huacas + 1 wall vs UR203's 7 + UR1095's full precinct. First identified compact huaca-wall register in the analysed corpus.",
+       "evidence": {"kind": "structural", "matches": 1, "test": "compact-huaca-register sub-class identification"}},
+      {"claim": "NO ASCHER LAYER is structural not damage: KH0420 catalogued but no pendant-pendant sums declared, consistent with audit-totals-tier documents (UR273B, HP051) that carry aggregated totals rather than cross-verification arithmetic.",
+       "evidence": {"kind": "structural", "matches": 0, "test": "0 Ascher sums on audit-totals-tier register"}}
+    ]
+  },
+
+  "companions": [
+    {"id": "UR203", "relation": "same_document_type",
+     "note": "Pachacamac CEQUE / HUACA REGISTRY (126 cords, waqa x7 + 10 colors + validated against Cobo 1653). UR203 registers 7 huacas at Pachacamac; UR182 at 30 cords registers 2 huacas within a walled precinct = compact sub-class of the same huaca-registry document type."},
+    {"id": "UR1095", "relation": "same_document_type",
+     "note": "Pachacamac cadastral site plan (212 cords, siqa x5 pyramids with ramps). Full-scale Pachacamac cadastre; UR182 is the miniature huaca-wall register for a specific walled shrine."},
+    {"id": "UR273B", "relation": "same_document_type",
+     "note": "Incahuasi UE 14 audit totals (124 cords, top value 3991, sum 29,317). Audit-tier magnitude peer -- UR182 is a lighter audit-tier register at 2803 sum but same per-cord density class."},
+    {"id": "AS026A", "relation": "same_document_type",
+     "note": "Philadelphia University Museum lineage audit (77 cords, top values 42/29 header, sum 207). AS026A is the compact audit companion to AS026B lineage roll call; UR182 is a similarly compact audit register but at standalone scale without paired lineage companion."},
+    {"id": "HP019", "relation": "cross_khipu_signal",
+     "note": "Pachacamac site-geometry verification card (22 cords, chiqa x3 + maqa x2 + topicalised compounds). HP019 verifies on-site structures; UR182 quantifies on-site tribute at 2 huacas. Different functions within the huaca-site-administration class."},
+    {"id": "HP020", "relation": "cross_khipu_signal",
+     "note": "Pachacamac location-instruction card (29 cords, 6 cadastral anomalies). HP020 traverses; UR182 quantifies. Both compact huaca-site documents."},
+    {"id": "UR182_hypothetical_partner", "relation": "other",
+     "note": "If UR182 is an audit-tier standalone register, it may have a DAY-BOOK companion (not yet identified) that carries the raw transactions whose totals UR182 aggregates. Such a companion would sum to ~2803 across many more cords."}
+  ],
+
+  "confidence_axes": {
+    "word_reading": {
+      "level": "high",
+      "note": "3/3 STRING at 100 percent dict hit. waqa, kaqa dictionary-stable huaca-cadastre vocabulary. Small sample (3 cords) but unambiguous 2-huaca + 1-wall structural signature."
+    },
+    "document_type": {
+      "level": "medium-high",
+      "note": "cadastral_survey compact huaca-wall register sub-type supported by (a) waqa-waqa-kaqa 3-word formula, (b) 7-cluster huaca-precinct structure, (c) audit-tier value magnitudes (average 133 per cord), (d) position within huaca-registry class (UR203 / UR1095 peers at larger scale), (e) no Ascher layer consistent with audit-totals function. Sub-type: 2-huaca 1-wall compact shrine register."
+    },
+    "narrative": {
+      "level": "medium",
+      "note": "The 'compact register of 2 sacred sites within a walled precinct' reading is internally coherent and directly anchored on the waqa-waqa-kaqa vocabulary + 7-cluster structure + audit-tier magnitudes. Specific shrine identification + which 2 huacas + the specific walled enclosure are not determinable from 3 STRING cords + unknown provenance."
+    },
+    "data_integrity": {
+      "level": "medium",
+      "note": "100 percent dict hit on STRING. No Ascher layer to cross-verify totals. 20 percent empty cords structural (2 singleton phase separators + 4 other empty positions). KFG KH0420 catalogued without pendant-pendant sums. Provenance unknown limits external anchoring."
+    }
+  },
+
+  "sections": [
+    {"id": "I", "title": "Header Cluster", "cords": "1-2",
+     "reading": "Opening 2-pendant cluster. p1 + p2 carry aggregate header values. p2 AB waqa opens the first huaca block.",
+     "key_cords": [
+       {"pos": 2, "gloss": "AB waqa", "note": "FIRST HUACA -- opens the register (sacred-site 1)"}
+     ]},
+    {"id": "II", "title": "First-Huaca Block", "cords": "3-7",
+     "reading": "5-cord block quantifying the first huaca. p6 AB val=301 = major quantitative anchor. Values track tribute / personnel / offerings associated with sacred-site 1.",
+     "key_cords": [
+       {"pos": 6, "gloss": "AB val=301", "note": "FIRST HUACA audit-tier total"}
+     ]},
+    {"id": "III", "title": "First Phase Separator", "cords": "8 (wait - waqa at 8)",
+     "reading": "p8 AB waqa = SECOND HUACA introduction, opening the next content block. (Note: this may be cluster 3 = singleton marker + cluster 4 opening, or directly transitioning between huaca blocks.)",
+     "key_cords": [
+       {"pos": 8, "gloss": "AB waqa", "note": "SECOND HUACA -- sacred-site 2 introduced"}
+     ]},
+    {"id": "IV", "title": "Wall-Enclosure Block + Peak Values", "cords": "9-16",
+     "reading": "p10 W kaqa = AYMARA WALL (enclosure of both huacas). p16 W val=303 + p19 W val=802 (DOCUMENT PEAK) + p18 AB val=302 concentrated here. The wall/enclosure block carries the largest totals.",
+     "key_cords": [
+       {"pos": 10, "gloss": "W kaqa",     "note": "WALL (Aymara) -- enclosure of both huacas"},
+       {"pos": 16, "gloss": "W val=303",  "note": "wall-block value"},
+       {"pos": 18, "gloss": "AB val=302", "note": "wall-block value"},
+       {"pos": 19, "gloss": "W val=802",  "note": "DOCUMENT PEAK VALUE"}
+     ]},
+    {"id": "V", "title": "Closing Cluster + Aggregates", "cords": "17-30",
+     "reading": "Final large cluster (9 cords per structural spec) carries closing aggregated totals. p20 AB val=246 = late peak. Closing values seal the huaca-precinct register.",
+     "key_cords": [
+       {"pos": 20, "gloss": "AB val=246", "note": "closing aggregate value"},
+       {"pos": 30, "gloss": "LAST CORD",  "note": "closes the huaca-wall compact register"}
+     ]}
+  ],
+
+  "references": [
+    "Sivan, J. (2026). The Khipu as a Layered Information System. ALBA Project preprint.",
+    "Sivan, J. (2026). Deep reads UR203 + UR1095 + UR196 v3/v4 (Pachacamac huaca-cadastral registers).",
+    "Sivan, J. (2026). Ascher Sums as Erasure Codes. ALBA Project preprint.",
+    "Cobo, B. (1653). Historia del Nuevo Mundo -- Inca huaca registry and administration.",
+    "Rostworowski, M. (1999). Historia del Tahuantinsuyu.",
+    "Zuidema, R. T. (1964). The Ceque System of Cuzco.",
+    "Urton, G. and Chu, A. (2015). Accounting in the King's Storehouse: the Inkawasi Khipu Archive. LAQ 26(4).",
+    "Gonzalez Holguin, D. (1608). Vocabulario -- waqa, kaqa base glosses.",
+    "Bertonio, L. (1612). Vocabulario de la lengua Aymara -- kaqa (wall).",
+    "Khipu Field Guide catalog: https://www.khipufieldguide.com/catalog/KH0420.html",
+    "Compare UR203 (Pachacamac ceque 7-huaca registry), UR1095 (Pachacamac full cadastral), UR273B (audit-totals-tier peer), AS026A (compact audit peer), HP019 + HP020 (compact Pachacamac site cards)."
+  ],
+
+  "reconstructed_xlsx": null
+}

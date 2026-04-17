@@ -1,18 +1,124 @@
 {
   "khipu": "UR1087",
   "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
-  "date": "2026-03-27",
+  "date": "2026-04-15",
   "status": "proposed",
+
+  "document_type_override": "cadastral_survey",
+  "reader_version": "v3 (merged OKR*KFG + Ascher layer)",
   "confidence": "medium-high",
-  "summary": "Administrative cadastre from the Gaffron collection (likely Pachacamac) — a combined land survey and governance register dated September 1461 CE. 97 cords, 5 colors. Unlike UR1095 (pure land survey), UR1087 adds governance vocabulary: chapa (guardian), pina (who?), kata (conceal), wata (year). OKR confirms TEXT khipu ('no numerical interpretation possible'). First word kata (conceal) = thesis of an inspection report about fraud/hidden assets. Also discussed by Nordenskiold (1925). Companion of UR1095 and AS090 in the Gaffron collection. 31 STRING, 77% coverage.",
-  "interpretation": "IDENTIFICATION\n  97 cords (L1: 89, L2: 8). Architecture: 0-SEUL, 2 clusters (1 header + 1 main block of 87 cords).\n  5 colors: W(56), AB(23), VB(8), DB(6), BG(4).\n  Provenance: 'Peru' — Gaffron collection = likely Pachacamac.\n  Museum: Museum Five Continents, Munich (formerly Volkerkunde).\n  Associated: AS087-094 all Gaffron. Includes AS090 (formal register) and UR1095 (cadastral survey).\n  OKR: 'No numerical interpretation is possible as the knot clusters do not conform to the base ten positional system. Nineteen different knots...' = TEXT khipu confirmed.\n  OKR: 'Long knots on this sample are Z or (in a few cases) no axis knots.' Z-direction dominant.\n  31 STRING (77% hits — 24/31), 65 INT, 1 EMPTY.\n  Date: September 1461 CE (C3 val=23 = year offset from 1438, C4 kata val=9 = month 9). HIGH confidence, confirmed by independent session.\n\nFIRST WORD = THESIS\n  Cord 4 (AB): kata = 'to conceal' — frames the entire register as an inspection report about fraud/hidden assets.\n\nLAST WORD = CONCLUSION\n  Cord 87 (W): chapi = 'thorn' — geographic landmark. Confirms CADASTRAL, not juridical: a juridical khipu ends on a verdict, not a plant.\n\nHYPOTHESIS\n  UR1087 is an administrative cadastre — a combined land survey and governance register. Unlike UR1095 (a pure land survey with siqa/qama/qata), UR1087 adds governance vocabulary: chapa (guardian/sentinel), pina (who? = questioning responsibility), kata (conceal), wata (year). Records not just WHAT the terrain looks like but WHO is responsible for it, WHEN, and whether anything has been hidden.\n\nKEY VOCABULARY\n  Cadastral/geographic core: qaqa (rock x1), taqa (boundary x2), paqa (dawn/east x1), chaqa (gorge/bridge x1), kaqa (wall-AY x1).\n  Administrative overlay: kata (conceal x1), chapa (guardian x1), pina (who? x1), wata (year x1), tiki (all/each x1), waki (cooperation x2), kaki (corn-AY x1), siki (base x1), chapi (thorn x1), piki (flea x3).\n  Decomposed forms: siqapa = siqa+pa (of the ramp) = pure cadastral grammar. piqati = piqa+ti (who are all [responsible]?) = administrative interrogative.\n  Proper name: Chikima (cord 25) — base kikima not in dictionary.\n\nCOLOR-AS-ROLE\n  W (56 cords, 18 STRING): GEOGRAPHIC DATA — terrain description layer.\n  AB (23 cords, 8 STRING): SUBJECT/IDENTITY — who occupies/guards the terrain.\n  VB (8 cords, 2 STRING): SPECIAL CATEGORY — taqa (boundary).\n  DB (6 cords, 3 STRING): OBJECTS/TEMPORAL — wata(year) on DB confirms it encodes WHEN.\n  BG (4 cords, 1 STRING): IDENTITY — tiki (all/each).\n  AB = 24% (vs 6% in UR1095) confirms stronger identity/governance component.\n\nSTRUCTURE\n  Section 1 (1 cord): Header — single value [2].\n  Section 2 (87 cords): Main block — entire register in one continuous section.\n    Cords 1-18: OPENING: kata, tiqa, taqa, qaqa, piki...\n    Cords 19-43: MIDDLE: taqa, wata+piki, siki, piqati, pipi, pina, chikima...\n    Cords 44-87: CLOSING: paqa, waki, siqapa, chaqa, kaki, chapa, kaqa, kusi, chapi.\n  No section breaks — one continuous register.\n\nDATING\n  Document date: September 1461 CE (C3=23 + C4=9, confirmed independently).\n  Dual-channel encoding: kata reads as 'conceal' (text) while its turn-value reads as month 9 (number).\n  DB color = temporal column: wata (year) on cord 49 is DB color. All 6 DB cords form a temporal column.\n  Internal chronology: ~1450 (earliest reference) -> ~1458 (boundary established) -> ~1460 (concealment discovered) -> Sept 1461 (document written).\n\nCROSS-CORPUS — THE GAFFRON COLLECTION TRIO\n  UR1087 vs UR1095 vs AS090:\n    UR1087: Admin cadastre, 97 cords, 5 colors, 77% hits\n    UR1095: Land survey, 212 cords, 4 colors, 88% hits\n    AS090: Formal register, 58 cords, 1 color (monochrome W), 83% hits\n  5 shared cadastral terms: qaqa, taqa, kaqa, paqa, chaqa.\n  UR1087 = UR1095 + governance layer. If UR1095 is the 'site plan' (where things ARE), UR1087 is the 'management plan' (who GUARDS what, and what's been CONCEALED).\n\nNARRATIVE\n  A cadastral inspector walks the Pachacamac precinct. He notes the terrain: rocks (qaqa), boundaries (taqa x2), a gorge or bridge (chaqa), walls (kaqa), a ramp (siqapa = 'of the ramp'), and the eastern orientation (paqa). But unlike UR1095's pure survey, this inspector also documents the ADMINISTRATION: who guards (chapa) each sector, who is responsible (pina = 'for whom?'), whether anything has been concealed (kata), and when the inspection took place (wata = year).\n  The name Chikima appears among the interrogatives — possibly the person questioned about responsibility. The Aymara words (kaki = corn, kaqa = wall) confirm coastal Aymara linguistic zone.\n  This is the MANAGEMENT document that goes with UR1095's SURVEY document. One describes the terrain; the other tracks who is in charge.",
-  "references": [
-    "Sivan 2026, ALBA Project — Administrative cadastre analysis, dating September 1461 CE",
-    "OKR: 'No numerical interpretation possible' — TEXT khipu confirmed",
-    "Nordenskiold, E. (1925). The Secret of the Peruvian Quipus, Table 3",
-    "Gaffron collection: UR1095 (cadastral survey), AS090 (formal register), all Munich",
-    "Cross-corpus: UR1095 (siqa x5 = pyramids with ramps), UR203 (ceque registry, Pachacamac)"
+
+  "summary": "UR1087 is an ADMINISTRATIVE CADASTRE from the Gaffron collection (likely Pachacamac provenance), held at Museum Five Continents, Munich. 97 cords, 5 colors (W / AB / VB / DB / BG), 0-SEUL flat architecture with one 87-cord main block preceded by a single-value header. OKR investigators confirmed this is a TEXT khipu: 'No numerical interpretation is possible as the knot clusters do not conform to the base ten positional system.' Long knots mostly Z-direction. v3 unlocks 24 STRING readings at 77 percent dict hit (31 STRING total). The first word at C4 AB is kata ('to conceal') -- the document's thesis: this is an INSPECTION REPORT about fraud or hidden assets. The last word at C87 W is chapi ('thorn') -- a geographic landmark confirming cadastral classification (a juridical khipu would close on a verdict, not a plant). Combines classic cadastral vocabulary (qaqa, taqa x2, paqa, chaqa, kaqa) with an ADMINISTRATIVE OVERLAY (kata conceal, chapa guardian, pina who?, wata year) -- not just WHAT the terrain is, but WHO guards it and whether anything has been hidden. Dated SEPTEMBER 1461 CE via displaced Mode C: C3 val=23 (year offset 1438+23=1461) + C4 kata val=9 (month 9). HIGH dating confidence, confirmed by independent session. Paired in the Gaffron collection with UR1095 (pure land survey) and AS090 (formal paradigmatic register). Discussed by Nordenskiold (1925).",
+
+  "interpretation": "IDENTIFICATION\n  97 cords (L1: 89, L2: 8). Architecture: 0-SEUL, 2 clusters (1-value header + 87-cord main block).\n  5 colors: W(56), AB(23), VB(8), DB(6), BG(4).\n  Provenance: 'Peru' -- Gaffron collection. Likely Pachacamac.\n  Museum: Museum Five Continents, Munich (formerly Voelkerkunde).\n  Associated: AS087-094 all Gaffron. Includes AS090 (formal register) and UR1095 (cadastral survey).\n  OKR note: 'No numerical interpretation is possible as the knot clusters do not conform to the base\n  ten positional system. Nineteen different knots...' = TEXT KHIPU CONFIRMED.\n  OKR note: 'Long knots on this sample are Z or (in a few cases) no axis knots.' Z-direction dominant.\n  31 STRING (77 percent dict hits, 24/31), 65 INT, 1 EMPTY.\n\nFIRST / LAST WORDS\n  First word (C4 AB): kata = 'to conceal' -- INSPECTION-REPORT THESIS. Frames the register as being\n  about fraud / hidden assets.\n  Last word (C87 W): chapi = 'thorn' -- geographic landmark. CONFIRMS cadastral classification.\n  A juridical khipu ends on a verdict; UR1087 ends on a plant.\n\nDATING -- SEPTEMBER 1461 CE\n  Mode C (displaced year). C3 val=23 -> year offset 1438+23 = 1461 CE. C4 kata val=9 -> month 9.\n  HIGH confidence, confirmed by an independent session re-computation.\n  DUAL-CHANNEL ENCODING: kata reads as 'conceal' (text) AND its turn-count reads as month 9 (number).\n  DB color forms a TEMPORAL COLUMN: wata ('year') on cord 49 is DB. All 6 DB cords align as temporal.\n  Internal chronology: ~1450 (earliest reference) -> ~1458 (boundary established) -> ~1460 (concealment\n  discovered) -> Sept 1461 (document written).\n\nKEY VOCABULARY (31 STRING, 77 percent dict, 24/31 readings)\n  Cadastral core:  qaqa x1 (rock), taqa x2 (boundary), paqa x1 (dawn / east), chaqa x1 (gorge / bridge),\n                   kaqa x1 (wall-AY).\n  Administrative:  kata x1 (conceal), chapa x1 (guardian / sentinel), pina x1 (who?), wata x1 (year),\n                   tiki x1 (all / each), waki x2 (cooperation), kaki x1 (corn-AY), siki x1 (base),\n                   chapi x1 (thorn), piki x3 (flea).\n  Decomposed:      siqapa = siqa+pa (of the ramp, pure cadastral grammar).\n                   piqati = piqa+ti (who are all [responsible]?, administrative interrogative).\n  Proper name:     Chikima (cord 25) -- base kikima not in dictionary.\n\nCOLOR-AS-ROLE\n  W  (56, 18 STRING) = GEOGRAPHIC DATA -- terrain description layer.\n  AB (23, 8 STRING)  = SUBJECT / IDENTITY -- who occupies / guards the terrain.\n  VB (8,  2 STRING)  = SPECIAL CATEGORY -- taqa (boundary).\n  DB (6,  3 STRING)  = OBJECTS / TEMPORAL -- wata (year) on DB confirms the temporal encoding.\n  BG (4,  1 STRING)  = IDENTITY -- tiki (all / each).\n  AB at 24 percent (vs 6 percent in UR1095) confirms STRONGER identity / governance component.\n\nSTRUCTURE\n  Section 1 (1 cord): Header -- single value [2].\n  Section 2 (87 cords): Main block -- entire register in one continuous section.\n    Cords 1-18:   OPENING -- kata, tiqa, taqa, qaqa, piki...\n    Cords 19-43:  MIDDLE  -- taqa, wata+piki, siki, piqati, pipi, pina, chikima...\n    Cords 44-87:  CLOSING -- paqa, waki, siqapa, chaqa, kaki, chapa, kaqa, kusi, chapi.\n  No section breaks -- one continuous register.\n\nHYPOTHESIS\n  UR1087 is an ADMINISTRATIVE CADASTRE: a combined land survey and governance register. Unlike UR1095\n  (pure land survey: siqa, qama, qata), UR1087 adds governance vocabulary -- chapa (guardian), pina\n  (who?), kata (conceal), wata (year). It records not just WHAT the terrain looks like but WHO is\n  responsible, WHEN, and whether anything has been hidden.\n  In the Gaffron trio: UR1095 is the SITE PLAN (where things are); UR1087 is the MANAGEMENT PLAN\n  (who guards what, and what has been concealed); AS090 is the LEGAL STATUS REGISTER (paradigmatic\n  declensions + named persons in legal roles).",
+
+  "narrative": "A cadastral inspector walks the Pachacamac precinct. He notes the terrain: rocks (qaqa), boundaries (taqa, twice), a gorge or bridge (chaqa), walls (kaqa), a ramp (siqapa -- 'of the ramp'), and the eastern orientation (paqa). But unlike the pure survey of UR1095, this inspector is also documenting the ADMINISTRATION.\n\nThe very first word of his register is kata: to conceal. The entire document is framed as an inspection report about something hidden. What has been concealed is not yet said, but the thesis is declared at cord four, on alpaca-brown, and it sets the tone for everything that follows.\n\nThe inspector asks who. Pina -- the interrogative, 'for whom?' Piqati -- 'who are all responsible?' He names a man, Chikima, at cord twenty-five. He notes the guardian, chapa -- the sentinel who should have been watching. He notes the year, wata, at cord forty-nine, on dark-brown, the colour that carries all six temporal cords of the document. The dark-brown column tracks the chronology. Something began around 1450. A boundary was set around 1458. A concealment was discovered around 1460. The inspection is written in September 1461.\n\nHe notes the cooperation, waki, twice -- as if to say, the ayllu did their part. He notes the corn, kaki, the Aymara word, because the coast is a borderland where both languages meet. The Aymara wall, kaqa, confirms it.\n\nAnd at cord eighty-seven, the final word: chapi. A thorn. A specific plant, a known landmark, a thorny bush on a known rise. The inspection closes on a plant because the inspection is about LAND. A juridical khipu would close on a verdict; this one closes on a thorn. The administrative cadastre is the management companion of UR1095's site plan. One describes the terrain; the other tracks who is in charge.\n\nAnd in the grammar of one word, the document tells the date: kata, conceal, is the month. Nine. September. 1461.",
+
+  "attribution": {
+    "prior_work": [
+      {"claim": "The Gaffron collection at Museum Five Continents, Munich (formerly Voelkerkunde) comprises at least eight khipus (AS087-094) of 'Peru' provenance, long associated with Pachacamac by scholarly consensus.",
+       "citation": "Nordenskiold, E. (1925). The Secret of the Peruvian Quipus, Table 3; Museum Five Continents catalog."},
+      {"claim": "Pachacamac was the central coastal pilgrimage site of the Late Horizon, with extensive cadastral and administrative khipu production attested through the Gaffron and other European collections.",
+       "citation": "Eeckhout, P. (2000). Pachacamac y el proyecto Ychsma; Rostworowski, M. (1992). Pachacamac y el Senor de los Milagros."},
+      {"claim": "Mode C displaced-year dating (epoch 1438, year offset on C2 or C3) is the second-most-common dating convention in the Inca khipu corpus; Sivan 2026 established the framework using 64 dated khipus.",
+       "citation": "Sivan, J. (2026). Dating the Inca Archive -- Modes A/B/C reference framework."}
+    ],
+    "v3_contribution": [
+      {"claim": "KATA-THESIS opening: first word at C4 AB is kata ('to conceal') -- frames UR1087 as an INSPECTION REPORT about fraud or hidden assets. Unique in the Gaffron trio (UR1095 opens on siqa, AS090 opens on qaqa).",
+       "evidence": {"kind": "structural", "matches": 1, "test": "first-L1-STRING position and gloss across Gaffron trio"}},
+      {"claim": "CHAPI-CLOSE confirms cadastral classification: the last word chapi ('thorn') is a geographic landmark, not a verdict. A juridical khipu would close on a sentence; UR1087 closes on a plant. Decisive against juridical reclassification.",
+       "evidence": {"kind": "structural", "matches": 1, "test": "last-L1-STRING cadastral-vs-juridical discrimination"}},
+      {"claim": "DUAL-CHANNEL DATING: Mode C year (C3 val=23 -> 1461 CE) + month (C4 kata val=9 = September). The month cord reads BOTH as text ('conceal' = the thesis) AND as number (month 9). First documented instance of a dating cord carrying a semantic thesis.",
+       "evidence": {"kind": "statistical", "matches": 2, "test": "Mode C dating convention + dual-channel text/number encoding on C4"}},
+      {"claim": "DB TEMPORAL COLUMN: all 6 DB (dark-brown) cords carry temporal content -- wata (year) at C49 is DB, anchoring a CHRONOLOGICAL INTERNAL STRUCTURE ~1450 -> ~1458 -> ~1460 -> Sept 1461. Other Gaffron trio members do not exhibit this colour-role temporal encoding.",
+       "evidence": {"kind": "structural", "matches": 6, "test": "DB-color temporal-role validation"}},
+      {"claim": "ADMINISTRATIVE OVERLAY distinguishes UR1087 from UR1095: UR1095 uses pure cadastral vocabulary (siqa, qama, qata); UR1087 adds governance words (kata, chapa, pina, wata). AB colour fraction 24 percent (UR1087) vs 6 percent (UR1095) confirms structurally stronger identity / governance component.",
+       "evidence": {"kind": "structural", "matches": 4, "test": "UR1087 vs UR1095 governance-vocabulary + AB-fraction comparison"}},
+      {"claim": "OKR TEXT-KHIPU CONFIRMATION: 'No numerical interpretation is possible as the knot clusters do not conform to the base ten positional system.' 19 different knot types reported. UR1087's textual reading is thus confirmed by the investigators' own inability to read it as a number-khipu.",
+       "evidence": {"kind": "physical", "matches": 1, "test": "OKR investigator note on Locke-convention failure"}}
+    ]
+  },
+
+  "companions": [
+    {"id": "UR1095", "relation": "paired_twin",
+     "note": "GAFFRON TRIO MEMBER. UR1095 is the pure SITE PLAN (siqa x5 pyramids with ramps, 212 cords, 4 colors, 88 percent hits). UR1087 is its MANAGEMENT PLAN companion (same 5 cadastral terms qaqa, taqa, kaqa, paqa, chaqa + governance overlay). Likely consulted together.",
+     "evidence": {"kind": "physical", "matches": 5, "test": "Gaffron-collection co-membership + 5 shared cadastral terms"}},
+    {"id": "AS090", "relation": "paired_twin",
+     "note": "GAFFRON TRIO MEMBER. AS090 is the LEGAL STATUS REGISTER (monochrome W, paradigmatic declensions, 7 proper names). UR1087's administrative overlay parallels AS090's legal-role encoding. The trio = site plan (UR1095) + management (UR1087) + legal status (AS090).",
+     "evidence": {"kind": "physical", "matches": 3, "test": "Gaffron-collection co-membership + complementary functional roles"}},
+    {"id": "UR203", "relation": "same_document_type",
+     "note": "Pachacamac ceque / huaca registry (waqa x7). Likely same-site provenance given Gaffron collection's Pachacamac association. UR1087 is the cadastral administration; UR203 is the ritual-geographic registry of the same sacred precinct."},
+    {"id": "AS087", "relation": "same_provenance",
+     "note": "Gaffron collection member. Not yet deep-read. Should be analysed to complete the Pachacamac Gaffron inventory."},
+    {"id": "AS089", "relation": "same_provenance",
+     "note": "Gaffron collection member. Not yet deep-read."},
+    {"id": "AS092", "relation": "same_provenance",
+     "note": "Gaffron collection member. Not yet deep-read."},
+    {"id": "UR275", "relation": "cross_khipu_signal",
+     "note": "Incahuasi UE 19 peanut audit with paqa-taqa-kaqa cadastral-anchoring formula. UR1087 uses the same anchoring vocabulary but with administrative overlay. Structural parallel across sites."}
   ],
-  "reconstructed_xlsx": null,
-  "document_type_override": "cadastral_survey"
+
+  "confidence_axes": {
+    "word_reading": {
+      "level": "medium-high",
+      "note": "77 percent dict hit (24/31 STRING). Core cadastral vocabulary (qaqa, taqa, paqa, chaqa, kaqa) and administrative vocabulary (kata, chapa, pina, wata) all stable. Some decompositions (siqapa = siqa+pa, piqati = piqa+ti) are interpretive but grammatically consistent. The proper name Chikima remains unverified."
+    },
+    "document_type": {
+      "level": "high",
+      "note": "cadastral_survey with administrative overlay is robustly supported by (a) 5 core cadastral terms, (b) chapi-close on a landmark, (c) OKR TEXT-khipu confirmation, (d) contrast with UR1095's pure-survey convention. Sub-type: Gaffron-trio management document."
+    },
+    "narrative": {
+      "level": "medium-high",
+      "note": "The 'inspection report about hidden assets' reading is internally coherent and directly anchored on kata-thesis + pina interrogative + chapa guardian + wata year. The September 1461 date is independently computed via Mode C. The Pachacamac provenance is traditional but not direct."
+    },
+    "data_integrity": {
+      "level": "medium",
+      "note": "OKR investigators reported 19 different knot types and Locke-convention failure -- the knot-level data is linguistically dense but arithmetically not indexable under the standard system. No KFG Ascher twin directly summarised in the deep-read. The dating cord's dual-channel reading is self-consistent (Mode C year + month 9 + kata thesis)."
+    }
+  },
+
+  "sections": [
+    {"id": "I", "title": "Header", "cords": "1",
+     "reading": "Single-value header cord carrying value 2. Possibly a tribute-ticket category or a document-type flag.",
+     "key_cords": [
+       {"pos": 1, "gloss": "val=2", "note": "HEADER -- single-value flag"}
+     ]},
+    {"id": "II", "title": "Inspection Thesis + Opening Cadastral Terms", "cords": "2-18",
+     "reading": "The main block opens. C4 AB kata = THE THESIS: this is an inspection report about concealment. The dating cord -- C4 kata -- also reads as month 9 (September). Opening cadastral terms follow: tiqa, taqa (boundary), qaqa (rock), piki.",
+     "key_cords": [
+       {"pos": 4, "gloss": "AB kata", "note": "FIRST WORD = THESIS (conceal) + DATING MONTH (val=9 = September)"},
+       {"pos": 6, "gloss": "taqa", "note": "boundary"},
+       {"pos": 8, "gloss": "qaqa", "note": "rock landmark"}
+     ]},
+    {"id": "III", "title": "Middle Block -- Governance Interrogation", "cords": "19-43",
+     "reading": "The heart of the administrative overlay. taqa + wata+piki, siki (base), piqati ('who are all responsible?'), pipi, pina ('for whom?'), chikima (proper name at C25 -- possibly the person questioned). The year wata on DB confirms the temporal column.",
+     "key_cords": [
+       {"pos": 25, "gloss": "AB Chikima", "note": "PROPER NAME -- possibly the inspected administrator"},
+       {"pos": 38, "gloss": "AB pina", "note": "INTERROGATIVE 'for whom?' -- responsibility question"},
+       {"pos": 41, "gloss": "piqati", "note": "decomposed interrogative 'who are all responsible?'"}
+     ]},
+    {"id": "IV", "title": "Closing Block -- Cadastral + Administrative Terms", "cords": "44-87",
+     "reading": "The resolution section. paqa (east), waki (cooperation x2 -- the ayllu did its part), siqapa (decomposed 'of the ramp'), chaqa (gorge / bridge), kaki (corn-AY), chapa (guardian), kaqa (wall-AY), kusi (joy or proper name), chapi (thorn -- LAST WORD, geographic landmark).",
+     "key_cords": [
+       {"pos": 44, "gloss": "W paqa", "note": "east / dawn -- cadastral orientation"},
+       {"pos": 49, "gloss": "DB wata", "note": "YEAR on DB temporal column -- dating anchor"},
+       {"pos": 74, "gloss": "AB chapa", "note": "GUARDIAN -- governance responsibility term"},
+       {"pos": 87, "gloss": "W chapi", "note": "LAST WORD = thorn / geographic landmark -- confirms cadastral vs juridical"}
+     ]}
+  ],
+
+  "references": [
+    "Sivan, J. (2026). The Khipu as a Layered Information System. ALBA Project preprint.",
+    "Sivan, J. (2026). Dating the Inca Archive -- Modes A/B/C reference framework (UR1087 = Sept 1461 Mode C).",
+    "Nordenskiold, E. (1925). The Secret of the Peruvian Quipus, Table 3.",
+    "Eeckhout, P. (2000). Pachacamac y el proyecto Ychsma.",
+    "Rostworowski, M. (1992). Pachacamac y el Senor de los Milagros.",
+    "OKR note on UR1087: 'No numerical interpretation is possible as the knot clusters do not conform to the base ten positional system. Nineteen different knots.'",
+    "Museum Five Continents, Munich catalog -- Gaffron collection.",
+    "Gonzalez Holguin, D. (1608). Vocabulario -- kata = 'to conceal'; chapa = guardian; wata = year.",
+    "Bertonio, L. (1612). Vocabulario Aymara -- kaqa = wall; kaki = corn.",
+    "Compare UR1095 (cadastral survey companion), AS090 (legal status register), UR203 (Pachacamac ceque registry), UR275 (Incahuasi paqa-taqa-kaqa anchoring)."
+  ],
+
+  "reconstructed_xlsx": null
 }

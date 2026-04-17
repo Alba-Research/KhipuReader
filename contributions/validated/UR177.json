@@ -1,17 +1,126 @@
 {
   "khipu": "UR177",
   "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
-  "date": "2026-03-27",
+  "date": "2026-04-15",
   "status": "proposed",
+
+  "document_type_override": "labor_tribute",
+  "reader_version": "v3 (merged OKR*KFG + Ascher layer)",
   "confidence": "high",
-  "summary": "Workshop production register tracking manual labor at Chuquitanta (Chillon Valley, Lima). maki (hand/work) x15 = 48% of all text — the purest WORK REGISTER in the corpus. kiki (self/individual worker) x7, kaki (corn rations) x3 = perfect work signature. Tree architecture (2+-ARBRE, L2/L1=1.68) creates task->subtask hierarchy. Two-phase color system: MB (medium brown) = work tasks (cords 1-15), AB (light brown) = worker identities (cords 16-30). 3 work periods. 90 cords, 7 colors. 31 STRING, 94-100% coverage with chi->ki correction.",
-  "interpretation": "IDENTIFICATION\n  90 cords (L1: 31, L2: 52, L3: 7). Architecture: 2+-ARBRE (tree structure, L2/L1 = 1.68).\n  7 colors: MB(38), AB(25), W(9), BG(7), DG(7), KB(3), 0K(1).\n  Provenance: Chuquitanta — Chillon Valley, near Lima.\n  Museum: American Museum of Natural History, New York.\n  31 STRING (94% hits — 29/31, ~100% with chi->ki correction), 53 INT, 6 EMPTY (phase separators).\n\nHYPOTHESIS\n  UR177 is a workshop production register tracking manual labor (maki x15) by individual workers (kiki x7) with corn rations (kaki x3). The purest WORK REGISTER in the corpus: 48% of all text is the word maki (work).\n  CRITICAL CORRECTION: Translator shows 'chiki' x7 — applying chi-/ki- rule, base form kiki ('self') IS in dictionary. Therefore chiki x7 = kiki (self/individual) x7.\n\nKEY VOCABULARY\n  maki (hand/work x15) — DOMINANT, 48% of STRING\n  kiki (self/individual x7, corrected from chiki) — worker ID\n  kaki (dried corn-AY x3) — rations\n  taki (chant/ritual x1) — communal work chant\n  paki (to break/construct x1) — construction work\n  pama (formula x1) — official recording\n  mama (mother x1) — lineage (determines work assignment)\n  kikiki (self-POSS x1, corrected from chikiki) — 'one's own'\n  Textbook work register profile: maki + kiki + kaki = work + worker ID + rations.\n\nCOLOR-AS-ROLE — TWO-PHASE REGISTER\n  MB (medium brown, 38 cords, cords 1-15): WORK CATEGORIES — task types and quantities.\n    maki(10), maki(30), kaki(10), kiki(20), maki(20), maki, maki(10), maki(10), taki(10), paki, maki...\n  AB (light brown, 25 cords, cords 16-30): WORKER IDENTITIES — who does what.\n    kaki, maki, maki, mama(10), kaki(10), pama(30), qaki, kiki(10)+maki(10)...\n  Phase 1 = tasks and quantities. Phase 2 = workers and assignments.\n  W (9), BG (7 = identity), DG (7 = special/material), KB (3 = objects).\n\nTREE ARCHITECTURE\n  L1 (31 cords): Main entries — task or worker per cord.\n  L2 (52 cords): Sub-entries — details, quantities, subtasks.\n  L3 (7 cords): Fine details — material specifications.\n  L2/L1 = 1.68 — deepest tree among work registers. Workshop record-keeping needs multiple dimensions per task.\n  6 empty cords = phase separators creating 3 work periods (seasonal or rotational mit'a assignments).\n\nKEY PASSAGES\n  1. Cord 1 [MB]: maki(10) — 'Work(10).' Register opens with labor and quantity.\n  2. Cord 4 [MB]: kiki(20) — 'Self(20).' Twenty individual workers.\n  3. Cord 9 [MB]: taki(10) — 'Chant(10).' Workshop labor includes ritual component.\n  4. Cord 18 [W]: maki->mama(10) — Mother's lineage produces 10 units. Lineage determines assignment.\n  5. Cord 20 [AB]: pama(30) — 'Formula(30).' Official entry, highest S-value.\n  6. Cord 22 [AB]: kiki(10)+maki(10) — Dual encoding: L1=identity, L2=output.\n\nNARRATIVE — THE WORKSHOP ON THE CHILLON\n  Work. That is what this khipu counts — the word *maki*, hand, labor, appears fifteen times in thirty-one cords of text. Nearly every other cord says *work*. No other khipu in the corpus is so single-minded.\n  The workshop sits at Chuquitanta, in the Chillon Valley near Lima, where the river descends from the highlands to the coast. The khipu is organized in two phases, each on a different color. Medium-brown cords (MB, cords 1-15) record WHAT work is done: *maki* with a value of 10, *maki* with 30, *kaki* (corn rations) with 10, then *kiki* — self, the individual mit'a worker — with a value of 20. Twenty workers, or twenty units of self-labor. The tasks continue: more *maki*, then *taki* (cord 9) — the chant. Even in a workshop, the communal song sets the rhythm. *Paki* (cord 11) — to break, to build. Construction is one of the tasks.\n  Then the color shifts to light-brown (AB, cords 16-30), and the register changes from WHAT to WHO. The corn rations appear again (*kaki*), then more work (*maki*), then the mother: *mama* with value 10 (cord 19). The mother's lineage produces ten units — because in the Inca mit'a system, your mother's ayllu determines your labor obligation. The official formula follows: *pama* with value 30 (cord 20) — the highest number in the register, the administrative stamp that makes the record official.\n  At cord 22, two words share one cord: *kiki* (self, value 10) and *maki* (work, value 10). The individual and the labor, identified together — L1 names the worker, L2 counts the output.\n  The tree descends three levels deep, the deepest of any work register. Each task breaks into subtasks, each subtask into material specifications. Six empty cords divide the register into three periods — three rotational shifts of mit'a labor, each ayllu taking its turn at the workshop where something was made that required fifteen mentions of the word for hand.\n\nCROSS-CORPUS\n  UR177 vs UR144: Both have 15x dominant word (maki vs kama). UR177 = labor from bottom (workers). UR144 = governance from top (administrator).\n  UR177 is the cleanest work register: maki(15)+kiki(7)+kaki(3) = all three signature words present.\n  Only work register with 2+-ARBRE architecture (multi-level workshop).",
-  "references": [
-    "Sivan 2026, ALBA Project — Work register signature: maki+kiki+kaki, validated on 15 khipus",
-    "Chuquitanta/El Paraiso — Chillon Valley archaeological site",
-    "American Museum of Natural History, New York",
-    "Cross-corpus: UR144 (Pisco, kuraka report), LL01 (Chuquitanta, judicial)"
+
+  "summary": "UR177 is the PUREST WORK REGISTER in the corpus: 15 of 31 STRING cords carry the word maki ('hand / work') -- 48 percent of all text on a single vocabulary item. Plus kiki x7 (self / individual worker) and kaki x3 (corn rations) = the textbook mit'a signature maki + kiki + kaki, all three canonical work-register words present. Provenance: Chuquitanta (Chillon Valley, near Lima), American Museum of Natural History, New York. 90 cords across three depth levels (L1: 31, L2: 52, L3: 7) with the DEEPEST TREE of any work register in the analysed corpus (L2/L1 = 1.68). 7 colors in a TWO-PHASE register: MB (medium brown, cords 1-15) = WORK CATEGORIES (task types and quantities); AB (light brown, cords 16-30) = WORKER IDENTITIES (who does what). 6 empty cords act as phase separators creating 3 work periods = 3 rotational mit'a shifts. 31 STRING at 94 percent dict hit (100 percent after chi->ki onset correction: translator shows chiki x7 but base kiki 'self' is in dictionary, so chiki = kiki).",
+
+  "interpretation": "IDENTIFICATION\n  90 cords (L1: 31, L2: 52, L3: 7). Architecture: 2+-ARBRE (tree, L2/L1 = 1.68).\n  7 colors: MB(38), AB(25), W(9), BG(7), DG(7), KB(3), 0K(1).\n  Provenance: Chuquitanta -- Chillon Valley, near Lima.\n  Museum: American Museum of Natural History, New York.\n  31 STRING (94 percent dict hits, 29/31; ~100 percent with chi->ki correction).\n  53 INT, 6 EMPTY (phase separators).\n\nCHI->KI CORRECTION\n  Translator shows 'chiki' x7. Applying the chi-/ki- onset rule: base form kiki ('self') IS in dictionary.\n  Therefore: chiki x7 = kiki (self / individual worker) x7. Same rule applies to chikiki (at cord 22) =\n  kikiki (self-POSS) = 'one's own.' Corrected readings lift dict hit rate to 100 percent.\n\nKEY VOCABULARY (31 STRING, 100 percent post-correction)\n  maki x15 -- hand / work. DOMINANT, 48 percent of STRING.\n  kiki x7  -- self / individual (corrected from chiki). WORKER ID.\n  kaki x3  -- dried corn (Aymara). RATIONS.\n  taki x1  -- chant / ritual. COMMUNAL WORK CHANT.\n  paki x1  -- to break / construct. CONSTRUCTION LABOR.\n  pama x1  -- formula. OFFICIAL RECORDING.\n  mama x1  -- mother. LINEAGE (determines mit'a assignment).\n  kikiki x1 -- self-POSS (corrected from chikiki). 'ONE'S OWN.'\n  Canonical mit'a signature: maki + kiki + kaki (work + worker + rations) -- ALL THREE present.\n\nCOLOR-AS-ROLE -- TWO-PHASE REGISTER\n  MB (medium brown, 38 cords, cords 1-15): WORK CATEGORIES -- task types and quantities.\n    maki(10), maki(30), kaki(10), kiki(20), maki(20), maki, maki(10), maki(10), taki(10), paki, maki...\n  AB (light brown, 25 cords, cords 16-30): WORKER IDENTITIES -- who does what.\n    kaki, maki, maki, mama(10), kaki(10), pama(30), qaki, kiki(10)+maki(10)...\n  Phase 1 = TASKS AND QUANTITIES. Phase 2 = WORKERS AND ASSIGNMENTS.\n  W  (9)  = REFERENCE.\n  BG (7)  = IDENTITY.\n  DG (7)  = SPECIAL / MATERIAL.\n  KB (3)  = OBJECTS.\n\nTREE ARCHITECTURE (L2/L1 = 1.68 -- DEEPEST WORK REGISTER)\n  L1 (31): MAIN ENTRIES -- task or worker per cord.\n  L2 (52): SUB-ENTRIES -- details, quantities, subtasks.\n  L3 (7):  FINE DETAILS -- material specifications.\n  Workshop record-keeping needs multiple dimensions per task -- more than any other work register analysed.\n  6 empty cords = phase separators creating 3 WORK PERIODS (seasonal or rotational mit'a shifts).\n\nKEY PASSAGES\n  1. Cord 1 [MB]: maki(10) -- 'Work(10).' Register opens with labor and quantity.\n  2. Cord 4 [MB]: kiki(20) -- 'Self(20).' Twenty individual workers.\n  3. Cord 9 [MB]: taki(10) -- 'Chant(10).' Workshop labor includes ritual component.\n  4. Cord 18 [W]: maki->mama(10) -- Mother's lineage produces 10 units. LINEAGE determines assignment.\n  5. Cord 20 [AB]: pama(30) -- 'Formula(30).' Official entry, highest S-value.\n  6. Cord 22 [AB]: kiki(10) + maki(10) -- Dual encoding: L1 = identity, L2 = output.",
+
+  "narrative": "Work. That is what this khipu counts -- the word maki, hand, labour, appears fifteen times in thirty-one cords of text. Nearly every other cord says work. No other khipu in the corpus is so single-minded.\n\nThe workshop sits at Chuquitanta, in the Chillon Valley near Lima, where the river descends from the highlands to the coast. The khipu is organised in two phases, each on a different colour.\n\nMedium-brown cords, one through fifteen, record WHAT work is done. Maki with a value of ten, maki with thirty, kaki (corn rations) with ten, then kiki -- self, the individual mit'a worker -- with a value of twenty. Twenty workers, or twenty units of self-labour. The tasks continue: more maki, then taki at cord nine -- the chant. Even in a workshop, the communal song sets the rhythm. Paki at cord eleven -- to break, to build. Construction is one of the tasks.\n\nThen the colour shifts to light-brown at cord sixteen, and the register changes from WHAT to WHO. The corn rations appear again, kaki. More work, maki. Then the mother: mama with value ten at cord nineteen. The mother's lineage produces ten units -- because in the Inca mit'a system, your mother's ayllu determines your labour obligation. The official formula follows: pama with value thirty at cord twenty -- the highest number in the register, the administrative stamp that makes the record official.\n\nAt cord twenty-two, two words share one cord: kiki (self, value ten) and maki (work, value ten). The individual and the labour, identified together -- level one names the worker, level two counts the output.\n\nThe tree descends three levels deep, the deepest of any work register in the corpus. Each task breaks into subtasks, each subtask into material specifications. Six empty cords divide the register into three periods -- three rotational shifts of mit'a labour, each ayllu taking its turn at the workshop where something was made that required fifteen mentions of the word for hand.",
+
+  "attribution": {
+    "prior_work": [
+      {"claim": "Chuquitanta (El Paraiso) is a major multi-period archaeological site in the Chillon Valley north of Lima, with continuous occupation from the Archaic period into the Inca horizon and administrative functions under the Inca empire.",
+       "citation": "Dillehay, T. (1976). Competition and Cooperation in a Prehispanic Multi-ethnic System. World Archaeology 8:313-328; Engel, F. (1966). Le complexe preceramique d'El Paraiso."},
+      {"claim": "The mit'a (rotational labor tax) system organised Inca labor through ayllu-based rotational shifts, with rations (typically corn) provided by the state; maternal filiation determined ayllu membership and therefore labor obligation.",
+       "citation": "Murra, J. V. (1980). The Economic Organization of the Inka State. JAI Press; Rostworowski, M. (1999). Historia del Tahuantinsuyu."},
+      {"claim": "Kaki in Aymara carries the dual meaning 'dried corn' and 'Pleiades' -- the corn and the star cluster whose heliacal rising opens the planting season. Context disambiguates which meaning is active.",
+       "citation": "Bertonio, L. (1612). Vocabulario de la lengua Aymara; Urton, G. (1981). At the Crossroads of the Earth and the Sky."}
+    ],
+    "v3_contribution": [
+      {"claim": "PUREST WORK REGISTER IN CORPUS: 15 of 31 STRING cords carry maki (48 percent of all text on a single vocabulary item). No other khipu in the analysed corpus concentrates this densely on a single work verb.",
+       "evidence": {"kind": "statistical", "matches": 15, "test": "single-word STRING-fraction ranking across analysed corpus"}},
+      {"claim": "CANONICAL MIT'A SIGNATURE maki + kiki + kaki all three present (work + worker + rations). This is the textbook labor-register vocabulary; UR177 is the reference exemplar.",
+       "evidence": {"kind": "structural", "matches": 25, "test": "maki x15 + kiki x7 + kaki x3 co-occurrence"}},
+      {"claim": "TWO-PHASE COLOR REGISTER: MB (cords 1-15) = WORK CATEGORIES (tasks + quantities); AB (cords 16-30) = WORKER IDENTITIES (who does what). The task-vs-person distinction is implemented as a colour shift mid-document.",
+       "evidence": {"kind": "structural", "matches": 2, "test": "MB-dominant opening vs AB-dominant closing segment analysis"}},
+      {"claim": "DEEPEST-TREE WORK REGISTER: L2/L1 = 1.68 with L3 detail cords, the deepest of any work-type khipu analysed. Workshop record-keeping required multi-dimensional entries per task (subtasks + material specifications).",
+       "evidence": {"kind": "statistical", "matches": 3, "test": "depth-ratio ranking among work-register-classified khipus"}},
+      {"claim": "CHI-KI ONSET CORRECTION raises dict hit rate to ~100 percent: translator shows chiki x7 but base kiki ('self') is dictionary-verified, so chiki x7 reads as kiki (individual mit'a worker). Same correction applied to chikiki -> kikiki (self-POSS). First application of the onset rule on a work register.",
+       "evidence": {"kind": "structural", "matches": 8, "test": "chi->ki onset-correction coverage on chiki + chikiki readings"}},
+      {"claim": "THREE MIT'A PERIODS via 6 empty-cord separators: UR177's register is organised into 3 rotational shifts, consistent with seasonal or ayllu-rotation work assignments. Empty-cord segmentation serves the same phase-boundary role as in UR055 (oracle phases) and UR050 (juridical phases).",
+       "evidence": {"kind": "structural", "matches": 3, "test": "empty-cord phase-separator count yielding 3 work periods"}},
+      {"claim": "MAMA-LINEAGE ENCODING at C18-C19: maki->mama(10) = mother's lineage produces 10 units. The mit'a assignment through maternal filiation (Rostworowski 1999) is explicitly encoded in the khipu -- the first attested cord-level instance of ayllu-via-mother in the analysed corpus.",
+       "evidence": {"kind": "structural", "matches": 1, "test": "mama cord at assignment section with value 10"}}
+    ]
+  },
+
+  "companions": [
+    {"id": "UR051", "relation": "same_document_type",
+     "note": "Chiastic CORVEE FORMULARY (98 cords, LK-AB-PR-PR-AB-LK mirror). UR051 is the ceremonial-ritual pole of labor documents; UR177 is the matter-of-fact workshop pole. Same genre, opposite registers."},
+    {"id": "UR087", "relation": "same_document_type",
+     "note": "Work register with kiki + kaki markers. UR087's workaday register is the closest sibling to UR177 but at different provenance and without the deep-tree architecture."},
+    {"id": "UR054", "relation": "same_document_type",
+     "note": "Labor tribute register. UR054 is the straightforward labor timesheet companion to UR177's workshop deep-tree format."},
+    {"id": "UR144", "relation": "cross_khipu_signal",
+     "note": "Pisco kuraka annual report with kama x15 governance code. UR144 and UR177 share the 15-count dominant-word signature but with opposite roles: UR144 kama = governance from the TOP; UR177 maki = labor from the BOTTOM. Mirror-image khipus."},
+    {"id": "UR176", "relation": "same_provenance",
+     "note": "Chuquitanta murder dossier (Feb 1519 CE, 154 cords). Same Chillon Valley provenance as UR177. Two sides of Chuquitanta administration: the workshop ledger (UR177) and the juridical dossier (UR176)."},
+    {"id": "UR280", "relation": "cross_khipu_signal",
+     "note": "Incahuasi Kallanka deep-tree admin register (250 cords, L5 depth). UR280 and UR177 share the kama / paki construction vocabulary axis -- UR280 uses it once on NB at the Kallanka scale; UR177 uses paki once at the workshop scale."},
+    {"id": "UR255", "relation": "cross_khipu_signal",
+     "note": "Incahuasi aji Sector C field book. UR177's kaki = Aymara corn (rations for workers); UR255's context involves different provenance but similar commodity-register conventions. Structural contrast of workshop (UR177) vs storehouse (UR255)."}
   ],
-  "reconstructed_xlsx": null,
-  "document_type_override": "labor_tribute"
+
+  "confidence_axes": {
+    "word_reading": {
+      "level": "high",
+      "note": "31 STRING at 94 percent raw / ~100 percent post-correction. maki + kiki + kaki + taki + paki + pama + mama + kikiki all dictionary-verified. The chi->ki onset correction is principled (base kiki is in dictionary) and reproducible."
+    },
+    "document_type": {
+      "level": "high",
+      "note": "labor_tribute robustly supported: maki dominance + kiki worker IDs + kaki rations is the textbook mit'a signature. Two-phase color register + deep tree + 3 work periods all fit. Sub-type: workshop register (Chuquitanta)."
+    },
+    "narrative": {
+      "level": "high",
+      "note": "Internally coherent and ethnographically anchored: Murra's mit'a economy + Rostworowski's maternal-ayllu rule directly match the mama-linked lineage cord at C18-C19 + kaki rations on colour-shifted channel. The workshop reading is the natural best-fit."
+    },
+    "data_integrity": {
+      "level": "medium-high",
+      "note": "94 percent raw dict hits; 100 percent after chi->ki correction. 6 empty phase separators are structural not damage. No KFG Ascher twin summarised in the deep-read but the knot-level readings are stable across OKR*KFG merge."
+    }
+  },
+
+  "sections": [
+    {"id": "I", "title": "MB Phase -- Work Categories (Tasks + Quantities)", "cords": "1-15",
+     "reading": "Medium-brown cords. The scribe enumerates WHAT work is done and HOW MUCH. maki at quantities 10, 30, 20, 10, 10; kaki(10) rations; kiki(20) = twenty workers; taki(10) = communal chant at cord 9; paki construction labour at cord 11. The workshop's task inventory.",
+     "key_cords": [
+       {"pos": 1,  "gloss": "MB maki val=10", "note": "FIRST WORD = WORK (thesis of the document)"},
+       {"pos": 4,  "gloss": "MB kiki val=20", "note": "twenty individual workers"},
+       {"pos": 6,  "gloss": "MB kaki val=10", "note": "corn rations (Aymara)"},
+       {"pos": 9,  "gloss": "MB taki val=10", "note": "COMMUNAL CHANT -- workshop ritual component"},
+       {"pos": 11, "gloss": "MB paki",        "note": "CONSTRUCTION LABOR"}
+     ]},
+    {"id": "II", "title": "AB Phase -- Worker Identities (Who Does What)", "cords": "16-30",
+     "reading": "Colour shifts to light-brown. The register changes from WHAT to WHO. C18-C19 maki->mama(10) = the mother's lineage produces 10 units (mit'a assignment by maternal filiation). C20 pama(30) = the OFFICIAL ADMINISTRATIVE FORMULA, highest S-value in the document. C22 carries kiki(10) + maki(10) as dual encoding: L1 names the worker, L2 counts the output.",
+     "key_cords": [
+       {"pos": 18, "gloss": "W maki->mama", "note": "LINEAGE CORD -- mother's ayllu assigned"},
+       {"pos": 19, "gloss": "AB mama val=10", "note": "mother produces 10 units (mit'a maternal assignment)"},
+       {"pos": 20, "gloss": "AB pama val=30", "note": "OFFICIAL FORMULA -- highest S-value, administrative stamp"},
+       {"pos": 22, "gloss": "AB kiki+maki",  "note": "DUAL-CORD encoding: worker identity + labor output"}
+     ]},
+    {"id": "III", "title": "Deep Subsidiary Tree -- Material Details", "cords": "L2/L3 subsidiaries",
+     "reading": "The 52 L2 cords and 7 L3 cords carry the sub-entry detail: subtasks under each task, material specifications under each subtask. L2/L1 = 1.68, the deepest work register ratio in the corpus. The subsidiary tree is where the workshop's operational precision lives.",
+     "key_cords": [
+       {"pos": 0, "gloss": "L2 subsidiaries", "note": "52 sub-entries -- task subdivision detail"},
+       {"pos": 0, "gloss": "L3 subsidiaries", "note": "7 material-spec entries"}
+     ]},
+    {"id": "IV", "title": "Phase Separators -- 3 Mit'a Shifts", "cords": "6 empty cords distributed",
+     "reading": "Six empty cords act as phase separators dividing the register into 3 WORK PERIODS. Consistent with seasonal or rotational mit'a shifts -- each ayllu takes its turn at the workshop. The same empty-cord segmentation convention as in UR055 (oracle phases) and UR050 (juridical phases).",
+     "key_cords": [
+       {"pos": 0, "gloss": "EMPTY x6 separators", "note": "3 MIT'A ROTATIONAL SHIFTS"}
+     ]}
+  ],
+
+  "references": [
+    "Sivan, J. (2026). The Khipu as a Layered Information System. ALBA Project preprint.",
+    "Sivan, J. (2026). Work register signature analysis -- maki + kiki + kaki validated on 15 khipus.",
+    "Murra, J. V. (1980). The Economic Organization of the Inka State.",
+    "Rostworowski, M. (1999). Historia del Tahuantinsuyu -- mit'a + maternal-ayllu assignment.",
+    "Dillehay, T. (1976). Competition and Cooperation in a Prehispanic Multi-ethnic System. World Archaeology 8:313-328.",
+    "Engel, F. (1966). Le complexe preceramique d'El Paraiso, Vallee de Chillon, Perou.",
+    "Urton, G. (1981). At the Crossroads of the Earth and the Sky.",
+    "Bertonio, L. (1612). Vocabulario de la lengua Aymara -- kaki = dried corn / Pleiades.",
+    "Gonzalez Holguin, D. (1608). Vocabulario -- maki = hand / labor; taki = chant.",
+    "American Museum of Natural History, New York -- UR177 catalogue record.",
+    "Compare UR051 (chiastic corvee formulary), UR087 (work register), UR054 (labor tribute), UR144 (kuraka annual report), UR176 (Chuquitanta juridical)."
+  ],
+
+  "reconstructed_xlsx": null
 }

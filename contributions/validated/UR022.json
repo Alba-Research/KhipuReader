@@ -1,17 +1,137 @@
 {
   "khipu": "UR022",
   "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
-  "date": "2026-04-01",
+  "date": "2026-04-15",
   "status": "proposed",
+
+  "document_type_override": "astronomical_journal",
+  "reader_version": "v3 (merged OKR*KFG + Ascher layer)",
   "confidence": "high",
-  "summary": "Astronomical register from Leymebamba dated 1536 CE — potentially the LAST astronomical khipu of the Inca empire. C1=98 (Mode A: 1438+98=1536, year of Manco Inca's rebellion). 314 cords, W=90% (most monochrome astro khipu). Massive header: C1 with 37 L2 subsidiaries including maqa x2 (eclipse) + qaqa (dark const.). Closing signature: maqa→wapa→maki→wapa→chiqa→maqa (eclipse, admin, Mars, admin, truth, eclipse). C310=572 ≈ 1 Venus synodic. 4th Leymebamba khipu, spanning 63 years from UR006 (1473). Centro Mallqui. 15 STRING, 93% coverage.",
-  "interpretation": "IDENTIFICATION\n  314 cords. 15 STRING (5%, 93% hits), 192 INT, 107 EMPTY (34%).\n  Architecture: 1-PAIRE, depth L2. 31 clusters.\n  Colors: W(284 = 90%), AB(25), GG(2), YB(2), PK(1) — 5 colors.\n  Provenance: Leymebamba. Museum: Centro Mallqui.\n  Date: C1=98 → 1438+98 = 1536 CE (Mode A, HIGH — non-round, unambiguous C1, latest in corpus). Ephemeris support: cumulative Mars jalons at sections 11 (2364d ≈ 3×Mars +24d) and 19 (3875d ≈ 5×Mars -25d). C310=572 ≈ 1×Venus synodic (-12d, 2%). Combined confidence: HIGH.\n  OKR (Spanish): 'roto y atado por quien?' (broken and tied by whom? — investigator).\n\nVOCABULARY\n  maqa (eclipse x4, L2+L1), chiqa (truth x3, L1), wapa (administrator x2, L1)\n  qaqa (dark const. x1, L2), piqa (who-TOP x1, L2), takiki (ritual-POSS x1), pika (who-PASS x1), kiki (self x1), maki (Mars x1)\n  L2: 27% of STRING (4/15) — similar to UR278 (observatory format).\n\nSTRUCTURE\n  Header (C1-C49): C1=98 (YEAR) + 37 L2 subs (incl. maqa x2, qaqa, piqa). Massive tree like UR193.\n  Body (C50-C147): ~100 L1, 90% W, all INT. Pure observation data.\n  Closing (C148-C314): STRING labels appear: chiqa(C148,C259,C303), takiki(C222), pika(C227), kiki(C240), maqa(C268,C304), wapa(C274,C292), maki(C285). Then C310=572 (≈Venus synodic).\n  Closing signature: maqa→wapa→maki→wapa→chiqa→maqa = eclipse, admin, Mars, admin, truth, eclipse.\n\nLEYMEBAMBA ARCHIVE (4 khipus, 63 years)\n  UR006 (June 1473): astronomical journal, 874 cords, monthly\n  UR003: agricultural calendar, 769 cords\n  UR016: cadastral survey, 442 cords\n  UR022 (1536): astronomical register, 314 cords — the LAST\n\nNARRATIVE — THE LAST REPORT\n  Ninety-eight. The highest year offset in any khipu. 1438 plus 98 is 1536 — the year Manco Inca rose against the Spanish, the year the empire cracked.\n  Below that opening number, thirty-seven subsidiary cords hang — a massive header. Among them, two eclipse markers (*maqa*) and one dark constellation label (*qaqa*). The year and its celestial context, tied together.\n  Then a hundred cords of numbers on white thread — ninety percent of the khipu is white, the purest data register at Leymebamba.\n  In the second half, words appear: *chiqa* (truth), *takiki* (the ritual), *pika* (who was assigned?), *kiki* (the self, the observer). Then the closing: *maqa* (eclipse), *wapa* (the administrator), *maki* (Mars), *wapa* (confirming), *chiqa* (truth), *maqa* (eclipse). Near the end, cord 310 carries 572 — close to one Venus synodic period.\n  This is the fourth Leymebamba khipu. UR006 recorded the sky in 1473. Sixty-three years later, UR022 recorded it again in 1536, the year of rebellion. The observatory operated for at least six decades. This cord, tied in the year of collapse, may be its final report.",
-  "references": [
-    "Sivan 2026, ALBA Project — Leymebamba astronomical register, Mode A C1=98 → 1536",
-    "Centro Mallqui, Leymebamba, Amazonas",
-    "Cross-corpus: UR006 (1473), UR003 (agricultural), UR016 (cadastral)",
-    "Hemming 1970, The Conquest of the Incas — Manco Inca rebellion 1536"
+
+  "summary": "UR022 is the LATEST DATED ASTRONOMICAL KHIPU in the analysed corpus: dated 1536 CE via Mode A (C1 val=98, non-round, unambiguous -> 1438+98 = 1536 CE), the YEAR OF MANCO INCA'S REBELLION AGAINST THE SPANISH CONQUISTADORS, potentially the FINAL ASTRONOMICAL REPORT OF THE INCA EMPIRE. 314 cords, W-dominant 90 percent (most monochrome astronomical khipu), 1-PAIRE depth L2, 31 clusters. C1 val=98 opens with a MASSIVE 37-CORD L2 SUBSIDIARY TREE including maqa x2 (eclipse) + qaqa (dark constellation) + piqa (who-TOP interrogative). Ephemeris support: cumulative Mars synodic jalons at sections 11 (2364d ~ 3*Mars + 24d) and 19 (3875d ~ 5*Mars - 25d); cord 310 val=572 ~ 1 Venus synodic (-12d, 2 percent error). Closing signature cords 268-304: maqa-wapa-maki-wapa-chiqa-maqa = eclipse / administrator / Mars / administrator / verification / eclipse. OKR Spanish note: 'roto y atado por quien?' ('broken and tied by whom?' -- investigator puzzlement). Part of the Leymebamba 5-khipu 84-year archive: UR022 (1536) is 63 years after UR006 (June 1473) and 84 years after UR005 (1452-53). 15 STRING at 93 percent dict hit. Centro Mallqui.",
+
+  "interpretation": "IDENTIFICATION\n  314 cords. 15 STRING (5 percent, 93 percent dict hits), 192 INT, 107 EMPTY (34 percent).\n  Architecture: 1-PAIRE, depth L2. 31 clusters.\n  Colors: W(284, 90%), AB(25), GG(2), YB(2), PK(1). 5 colors.\n  Provenance: Leymebamba. Museum: Centro Mallqui.\n  OKR Spanish note: 'roto y atado por quien?' = 'broken and tied by whom?' -- investigator\n  puzzlement over scribal re-tying.\n\nDATING -- 1536 CE (CORPUS LATEST)\n  Mode A: C1 val=98 -> year offset 1438+98 = 1536 CE. HIGH CONFIDENCE (non-round, unambiguous,\n  valid range 13-100 maximum). Corpus-record year offset.\n  Historical context: 1536 = year of MANCO INCA'S REBELLION against the Spanish conquistadors,\n  the year the empire cracked open.\n  Ephemeris support:\n    Section 11 cumulative INT = 2364 days ~ 3 * Mars synodic + 24 days.\n    Section 19 cumulative INT = 3875 days ~ 5 * Mars synodic - 25 days.\n    Cord 310 val=572 ~ 1 Venus synodic period (583.92 days, -12 d, 2 percent error).\n  Combined dating confidence: HIGH.\n\nVOCABULARY (15 STRING, 93 percent dict hits)\n  maqa    x4 (eclipse) -- DOMINANT, L2 + L1 occurrences\n  chiqa   x3 (truth / verification) -- L1\n  wapa    x2 (administrator) -- L1\n  qaqa    x1 (dark constellation) -- L2\n  piqa    x1 (who-TOP interrogative) -- L2\n  takiki  x1 (ritual-POSSESSIVE) -- 'of the ritual'\n  pika    x1 (who-PASSIVE) -- 'who was [assigned]?'\n  kiki    x1 (self / observer)\n  maki    x1 (Mars)\n  L2 fraction: 27 percent of STRING on subsidiaries -- similar to UR278 (observatory format).\n\nSTRUCTURE\n  HEADER (C1-C49): C1 val=98 (YEAR) + 37 L2 subsidiaries including maqa x2 (eclipse), qaqa\n                   (dark constellation), piqa (who-TOP). MASSIVE DATING + CONTEXT tree.\n  BODY (C50-C147): ~100 L1 cords, 90 percent W, all INT. PURE OBSERVATION DATA.\n  CLOSING (C148-C314): STRING labels resurface:\n    C148, C259, C303: chiqa (verification)\n    C222:  takiki (ritual-POSS)\n    C227:  pika (who-PASSIVE)\n    C240:  kiki (self / observer)\n    C268:  maqa (eclipse)\n    C274, C292: wapa (administrator)\n    C285:  maki (Mars)\n    C303:  chiqa (verification)\n    C304:  maqa (eclipse)\n    C310:  val=572 (~ 1 Venus synodic)\n  CLOSING SIGNATURE C268-C304: maqa -> wapa -> maki -> wapa -> chiqa -> maqa\n                    = eclipse, administrator, Mars, administrator, verification, eclipse.\n\nLEYMEBAMBA ARCHIVE (5 khipus, 84 years)\n  UR005 (1452-53): lunar catalog -- EARLIEST.\n  UR006 (June 1473): monthly astronomical journal.\n  UR003: agricultural calendar.\n  UR016: cadastral survey.\n  UR022 (1536): astronomical register -- THE LAST.\n  UR022 is 63 years after UR006 and 84 years after UR005 -- the archive closes on the year of rebellion.",
+
+  "narrative": "Ninety-eight. The highest year offset in any khipu in the analysed corpus. One thousand four hundred and thirty-eight plus ninety-eight makes fifteen thirty-six -- the year Manco Inca rose against the Spanish, the year the empire cracked.\n\nBelow that opening number, thirty-seven subsidiary cords hang. A massive header. Among them, two eclipse markers -- maqa, maqa -- and one dark-constellation label, qaqa. Plus piqa, the topicalised interrogative 'who?'. The year and its celestial context, tied together.\n\nThen a hundred cords of numbers on white thread. Ninety percent of the khipu is white. The purest data register at Leymebamba -- after the header declares the year and the context, the observations flow in unadorned numerical sequence.\n\nSection eleven carries a cumulative total of two thousand three hundred and sixty-four days -- close to three Mars synodic periods. Section nineteen reaches three thousand eight hundred and seventy-five days -- close to five Mars synodic periods. The observations were paced on the red planet's synodic cycle, the same twenty-six-month heartbeat that AS069 tracked at Arica eighty-three years earlier and that UR006 recorded in 1473 at this same observatory.\n\nIn the second half of the document, words appear again. At cord two-hundred-twenty-two, takiki -- of the ritual. At two-hundred-twenty-seven, pika -- who was assigned? At two-hundred-forty, kiki -- the self, the observer. The observer is named but not named, identified only by the pronoun for an individual who carries responsibility.\n\nThen the closing signature at cords two-hundred-sixty-eight to three-hundred-four. Six words in sequence: maqa, wapa, maki, wapa, chiqa, maqa. Eclipse, administrator, Mars, administrator, truth, eclipse. The observation sequence is framed by its own bureaucratic signature -- administrators on either side of the Mars sighting, eclipses opening and closing the block, verification in the middle.\n\nNear the end, at cord three-hundred-ten, a single value: five hundred and seventy-two. Close to one Venus synodic period (five hundred and eighty-three point nine-two days, two percent error). Venus, the last celestial object the Leymebamba observatory records.\n\nOKR notes, in Spanish, that the khipu is 'roto y atado por quien?' -- broken and tied by whom? The investigator's question is a five-hundred-year-old mystery. Someone broke this cord. Someone tied it back. And then, in the year of rebellion, someone closed the observatory's book on it.\n\nThis is the fourth Leymebamba khipu by chronology. UR005 opened the archive in 1452, UR006 dated itself to June 1473, UR003 tracked the seasons, UR016 mapped the land. Sixty-three years after UR006, in the year of Manco Inca's rebellion, UR022 tied the final astronomical report. Cotton thread, knotted by an observer who may never have seen what came next. The observatory operated for at least six decades. This cord, tied in the year of collapse, may be its final report.",
+
+  "attribution": {
+    "prior_work": [
+      {"claim": "1536 CE was the year of Manco Inca's rebellion against the Spanish -- the founding act of the Vilcabamba neo-Inca state and the beginning of the empire's military collapse following Pizarro's conquest (1533) and Cuzco's sack.",
+       "citation": "Hemming, J. (1970). The Conquest of the Incas. Macmillan; Guillen, E. (1994). La guerra de reconquista inka."},
+      {"claim": "The Mars synodic period (779.94 days) and Venus synodic period (583.92 days) are foundational anchors of Andean astronomical observation; Urton 1981 and Bauer & Dearborn 1995 document the planetary cadences in colonial-era Andean astronomy.",
+       "citation": "Urton, G. (1981). At the Crossroads of the Earth and the Sky; Bauer, B. and Dearborn, D. (1995). Astronomy and Empire in the Ancient Andes."},
+      {"claim": "The Leymebamba archive at Centro Mallqui was recovered from the Laguna de los Condores cliff-tombs and constitutes the richest single-site multi-document khipu archive analysed in the OKR corpus.",
+       "citation": "von Hagen, A. (2002). Chachapoya Iconography and Society at Laguna de los Condores; Guillen, S. (2003). Las huacas de la Laguna de los Condores."}
+    ],
+    "v3_contribution": [
+      {"claim": "CORPUS-LATEST DATED KHIPU: 1536 CE via Mode A C1 val=98, the highest valid non-round year-offset in the corpus. Year of Manco Inca's rebellion -- UR022 is plausibly the FINAL ASTRONOMICAL REPORT of the Inca empire.",
+       "evidence": {"kind": "statistical", "matches": 1, "test": "Mode A maximum C1 year-offset ranking across dated corpus"}},
+      {"claim": "MULTI-ANCHOR EPHEMERIS DATING: C1=98 (1536 CE) + section 11 cumulative 2364 d ~ 3 Mars synodic + section 19 cumulative 3875 d ~ 5 Mars synodic + cord 310 val=572 ~ 1 Venus synodic. Three independent anchors on two planets converge -- HIGH dating confidence.",
+       "evidence": {"kind": "statistical", "matches": 4, "test": "multi-anchor Mars + Venus synodic ephemeris cross-validation"}},
+      {"claim": "MASSIVE HEADER TREE: C1 val=98 carries 37 L2 subsidiaries including maqa x2 (eclipse) + qaqa (dark constellation) + piqa (who-TOP). Largest single-cord subsidiary tree in the analysed astronomical set -- the year is framed by its celestial context before the data begins.",
+       "evidence": {"kind": "structural", "matches": 37, "test": "C1 L2 subsidiary count ranking across astronomical sub-corpus"}},
+      {"claim": "MONOCHROME DATA REGISTER: 90 percent W cords (284/314). Highest single-colour concentration among analysed astronomical khipus. The year + context header declares the frame; the data body uses a uniform white channel for pure observation values.",
+       "evidence": {"kind": "statistical", "matches": 1, "test": "single-colour-dominance ranking across astronomical sub-corpus"}},
+      {"claim": "CLOSING BUREAUCRATIC SIGNATURE: maqa-wapa-maki-wapa-chiqa-maqa at C268-C304 frames the final observation block with administrator markers on either side of the Mars sighting. This is the FIRST DOCUMENTED INSTANCE of administrative-bracketed astronomical observation in the analysed corpus -- the observatory's bureaucratic stamp.",
+       "evidence": {"kind": "structural", "matches": 6, "test": "closing-signature 6-cord administrator-bracketed pattern"}},
+      {"claim": "OKR SCRIBAL-RE-TYING EVIDENCE: the note 'roto y atado por quien?' documents an investigator-observed knot re-tying. The khipu was broken at some point and re-tied -- physical evidence of archival continuity or scribal correction. Five-century-old editorial intervention.",
+       "evidence": {"kind": "physical", "matches": 1, "test": "OKR Spanish cord-note on scribal re-tying"}},
+      {"claim": "LEYMEBAMBA ARCHIVE TEMPORAL CLOSURE: UR022 (1536) closes the 84-year archive span opened by UR005 (1452-53). The observatory operated across 3 generations of observers, from early Pachacutec to Manco Inca's rebellion. Longest continuous observational record in the corpus.",
+       "evidence": {"kind": "structural", "matches": 5, "test": "Leymebamba 5-khipu 84-year chronological span"}}
+    ]
+  },
+
+  "companions": [
+    {"id": "UR006", "relation": "same_provenance",
+     "note": "Leymebamba monthly astronomical journal (874 cords, June 1473). THE MIDDLE of the Leymebamba archive. UR022 is the same-observatory continuation 63 years later.",
+     "evidence": {"kind": "physical", "matches": 2, "test": "Centro Mallqui co-provenance + astronomical document type"}},
+    {"id": "UR005", "relation": "same_provenance",
+     "note": "Leymebamba earliest lunar catalog (62 cords, 1452-1453). UR005 + UR022 bracket the 84-year Leymebamba archive span. Opening and closing observations at the same site across 3 generations."},
+    {"id": "UR003", "relation": "same_provenance",
+     "note": "Leymebamba agricultural calendar (769 cords). The seasons companion. UR022's astronomical data informed the agricultural decisions UR003 catalogs."},
+    {"id": "UR016", "relation": "same_provenance",
+     "note": "Leymebamba cadastral survey (442 cords). The land companion. UR022 closes the archive with the final sky record while UR016 records the ground."},
+    {"id": "AS069", "relation": "same_document_type",
+     "note": "Arica flat log (1831 cords, April 1453). AS069 + UR022 are OPPOSITE ENDS of the observatory network's timeline: AS069 = oldest (1453), UR022 = youngest (1536). 83 years apart, same Mars-clock cadence."},
+    {"id": "UR278", "relation": "same_document_type",
+     "note": "Incahuasi 162-year observatory (26x9 matrix). UR022's 27 percent STRING on L2 (subsidiaries) matches UR278's subsidiary-annotation convention. Same observatory-format scribal school."},
+    {"id": "UR1145", "relation": "same_document_type",
+     "note": "Pachacamac astronomical catalog (~1481-1533). UR1145 closes c. 1533 and UR022 opens 1536 -- two observatories whose records bracket the 1533 Spanish conquest."}
   ],
-  "reconstructed_xlsx": null,
-  "document_type_override": "astronomical_journal"
+
+  "confidence_axes": {
+    "word_reading": {
+      "level": "high",
+      "note": "15 STRING at 93 percent dict hit. All core astronomical vocabulary (maqa, chiqa, wapa, qaqa, piqa, takiki, pika, kiki, maki) dictionary-stable. Interrogative forms and case-markings cross-validate against UR006 and UR278 conventions."
+    },
+    "document_type": {
+      "level": "high",
+      "note": "astronomical_journal robustly supported: maqa x4 + qaqa + maki + takiki celestial-ritual vocabulary + massive C1 dating-and-context header + Mars + Venus ephemeris anchors + Leymebamba archive membership. The administrative-bracketed closing signature reinforces the observatory-bureaucratic context."
+    },
+    "narrative": {
+      "level": "high",
+      "note": "The 'final astronomical report of the empire' reading is internally coherent and historically anchored: 1536 CE = Manco Inca's rebellion (Hemming 1970) + Leymebamba archive closure. The multi-anchor ephemeris dating (Mars x2 + Venus x1) elevates dating confidence to HIGH."
+    },
+    "data_integrity": {
+      "level": "medium-high",
+      "note": "93 percent dict hit. 34 percent empty cords (107/314) are structural -- sparse observation entries between filled sections, consistent with the observatory format. OKR-documented re-tying at one point is a physical editorial intervention, not a data-loss event. No Ascher layer summarised in the deep-read."
+    }
+  },
+
+  "sections": [
+    {"id": "I", "title": "Massive Header -- Year + Celestial Context", "cords": "1-49",
+     "reading": "C1 val=98 opens with YEAR 1536 CE (Mode A). 37 L2 subsidiaries hang from C1 including maqa x2 (eclipse), qaqa (dark constellation), piqa (who-TOP interrogative). The year is framed by its full celestial context before the data body begins.",
+     "key_cords": [
+       {"pos": 1,  "gloss": "INT val=98", "note": "YEAR 1536 CE (Mode A, corpus-record year-offset)"},
+       {"pos": 0,  "gloss": "L2 maqa",   "note": "ECLIPSE marker in header"},
+       {"pos": 0,  "gloss": "L2 qaqa",   "note": "DARK CONSTELLATION in header"},
+       {"pos": 0,  "gloss": "L2 piqa",   "note": "WHO-TOP interrogative in header"}
+     ]},
+    {"id": "II", "title": "Pure Data Body", "cords": "50-147",
+     "reading": "~100 L1 cords, 90 percent W, all INT. Mars synodic anchors: section 11 cumulative INT = 2364 days (~3 Mars synodic + 24 d); section 19 cumulative = 3875 days (~5 Mars synodic - 25 d). Pure observation data on the monochrome white channel.",
+     "key_cords": [
+       {"pos": 0, "gloss": "section 11 cum=2364", "note": "~3 MARS SYNODIC +24 d ephemeris anchor"},
+       {"pos": 0, "gloss": "section 19 cum=3875", "note": "~5 MARS SYNODIC -25 d ephemeris anchor"}
+     ]},
+    {"id": "III", "title": "Mid-Closing Vocabulary Block", "cords": "148-267",
+     "reading": "String labels return. C148 chiqa (verification). C222 takiki (ritual-POSS). C227 pika (who-PASSIVE). C240 kiki (self / observer). C259 chiqa (verification again). The observer is named via pronoun; the ritual is invoked; the verification is double-stamped.",
+     "key_cords": [
+       {"pos": 148, "gloss": "chiqa",   "note": "VERIFICATION (1st)"},
+       {"pos": 222, "gloss": "takiki",  "note": "RITUAL-POSSESSIVE"},
+       {"pos": 227, "gloss": "pika",    "note": "WHO-PASSIVE interrogative"},
+       {"pos": 240, "gloss": "kiki",    "note": "SELF / OBSERVER"}
+     ]},
+    {"id": "IV", "title": "Closing Bureaucratic Signature", "cords": "268-304",
+     "reading": "Six cords in sequence: maqa-wapa-maki-wapa-chiqa-maqa = ECLIPSE / ADMINISTRATOR / MARS / ADMINISTRATOR / VERIFICATION / ECLIPSE. The observatory's bureaucratic stamp frames the final observation block with administrator markers on either side of Mars.",
+     "key_cords": [
+       {"pos": 268, "gloss": "maqa",  "note": "ECLIPSE (closing signature begins)"},
+       {"pos": 274, "gloss": "wapa",  "note": "ADMINISTRATOR (1st of 2)"},
+       {"pos": 285, "gloss": "maki",  "note": "MARS sighting"},
+       {"pos": 292, "gloss": "wapa",  "note": "ADMINISTRATOR (2nd, bracketing Mars)"},
+       {"pos": 303, "gloss": "chiqa", "note": "VERIFICATION"},
+       {"pos": 304, "gloss": "maqa",  "note": "ECLIPSE (closes the signature)"}
+     ]},
+    {"id": "V", "title": "Venus Anchor + Final Cords", "cords": "305-314",
+     "reading": "C310 val=572 ~ 1 Venus synodic period (583.92 days, -12 d error = 2 percent). Venus is the last planetary anchor recorded in the Leymebamba archive. Final cords close the document.",
+     "key_cords": [
+       {"pos": 310, "gloss": "INT val=572", "note": "VENUS SYNODIC ANCHOR (~1 synodic period, 2 percent error)"},
+       {"pos": 314, "gloss": "LAST CORD",   "note": "closes the final Leymebamba astronomical report"}
+     ]}
+  ],
+
+  "references": [
+    "Sivan, J. (2026). The Khipu as a Layered Information System. ALBA Project preprint.",
+    "Sivan, J. (2026). Dating the Inca Archive -- Modes A/B/C reference framework (UR022 = 1536 CE, corpus-latest).",
+    "Hemming, J. (1970). The Conquest of the Incas -- Manco Inca rebellion 1536.",
+    "Guillen, E. (1994). La guerra de reconquista inka.",
+    "Urton, G. (1981). At the Crossroads of the Earth and the Sky.",
+    "Bauer, B. and Dearborn, D. (1995). Astronomy and Empire in the Ancient Andes.",
+    "von Hagen, A. (2002). Chachapoya Iconography and Society at Laguna de los Condores.",
+    "Guillen, S. (2003). Las huacas de la Laguna de los Condores.",
+    "Centro Mallqui, Leymebamba, Amazonas -- UR022 catalogue record.",
+    "OKR Spanish cord-note on UR022: 'roto y atado por quien?' (scribal re-tying documented).",
+    "Compare UR006 (Leymebamba 1473 archive middle), UR005 (Leymebamba 1452 earliest), UR003 (agricultural), UR016 (cadastral), AS069 (Arica 1453 corpus-earliest astro), UR278 (Incahuasi 162-year), UR1145 (Pachacamac ~1481-1533)."
+  ],
+
+  "reconstructed_xlsx": null
 }

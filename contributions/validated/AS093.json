@@ -1,0 +1,124 @@
+{
+  "khipu": "AS093",
+  "contributor": "Julien Sivan <julien.sivan@alba-project.org>",
+  "date": "2026-04-15",
+  "status": "proposed",
+
+  "document_type_override": "administrative_accounting",
+  "reader_version": "v3 (merged OKR*KFG + Ascher layer)",
+  "confidence": "medium-high",
+
+  "summary": "AS093 COMPLETES THE GAFFRON FAMILY 6/6 at Museum fur Volkerkunde Munich. Physically PAIRED with AS094 (twisted ends loosely tied + SAME Museum catalog number) -- together AS093+AS094 are a COMPOUND DOCUMENT with KH0106+KH0105 adjacent catalog. 70 cords vs AS094's 51, larger component of the pair. 56 INT + 1 STRING (TOP-chiki = topicalised SELF/identity at p29 BB) + 13 EMPTY + 3 LOOSE FRAGMENTS stored separately (OKR: 'Three pendant fragments are stored with the quipu. They were color B; lengths 29.0 cm, 28.0 cm, 30.5 cm; and values 1, 2, 0 respectively. One of them might be the remainder of this pendant'). 10 CLUSTERS uniformly sized 7+7+7+8+7+7+7+7+7+6 cords = REGULAR 7-PENDANT STRUCTURE across 10 groups. NEAR-MONOCHROME palette: B(69 99%) + BB(1 1%, carrying the sole STRING). Total sum=270 with top values 15, 12, 11, 10, 9 (medium scale, larger than AS094's 4-max but smaller than AS092's 189). Ascher: 2/3 verified out of 5 declared sums -- PARTIAL integrity (intermediate between AS092's 18/18 audit-grade and AS094's no-summary). GAFFRON STACK COMPLETE: UR1087 (= AS087 admin cadastre Sept 1461 CE) + AS089 (template) + AS090 (legal register) + AS092 (100% audit-grade) + AS093 (THIS, content companion to AS094) + AS094 (6x6 matrix). AS093 is the IDENTITY-ANCHORED content half of its pair: TOP-chiki declares the register is 'about the self' (a named party or owner), while AS094's 6x6 numerical matrix carries the companion counts.",
+
+  "interpretation": "IDENTIFICATION\n  70 cords. 56 INT (sum=270), 1 STRING (TOP-chiki at p29 BB), 13 EMPTY (19 percent), + 3 LOOSE FRAGMENTS.\n  Architecture: default.\n  10 CLUSTERS: 7+7+7+8+7+7+7+7+7+6 = 70 cords. UNIFORM 7-PENDANT structure.\n  Colors: B(69, 99%), BB(1, 1%). NEAR-MONOCHROME B register.\n  Provenance: Peru (Gaffron collection = Pachacamac by scholarly attribution).\n  Museum: Museum fur Volkerkunde, Munich. KH twin KH0106 (shared/adjacent with AS094's KH0105).\n\nPHYSICAL NOTES (OKR)\n  'Three pendant fragments are stored with the quipu. They were color B; lengths 29.0 cm, 28.0 cm,\n  30.5 cm; and values 1, 2, 0 respectively. One of them might be the remainder of this pendant.'\n  'AS093 and AS094 are associated. The twisted ends of their main cords are loosely tied together.\n  Also both are designated by the same Museum number.' -- COMPOUND DOCUMENT pairing.\n\nGAFFRON FAMILY 6/6 COMPLETE\n  UR1087 = AS087: admin cadastre (97 cords, Sept 1461 CE, kata-thesis, 5 colors).\n  AS089: compact template cadastre (35 cords, 8x3 uniform template, 3 colors).\n  AS090: paradigmatic legal register (58 cords, monochrome W, 22 grammatical forms).\n  AS092: AUDIT-GRADE 10x6 matrix (56 cords, 18/18 Ascher verified = 100 percent).\n  AS093 (THIS): paired content companion to AS094 (70 cords, 10 x 7-pendant structure, TOP-chiki).\n  AS094: paired 6x6 subsidiary matrix (51 cords, monochrome B+BB, micro-scale counts).\n\nDATA QUALITY (v3)\n  1/1 STRING at 100 percent dict hit (TOP-chiki at p29 BB).\n  Near-monochrome B palette = palette-sparsity matching AS094.\n\nASCHER LAYER\n  5 pendant-pendant sums declared, 3 HEADER cords.\n  Verified: 2/3 = 67 percent. PARTIAL integrity.\n  Max cascade depth: 1 (flat).\n  Covering ratio = 5/~55 L1 = 0.09 LOW.\n  Intermediate between AS092 audit-grade (100 percent) and AS094 / HP051 / UR273B no-layer cases.\n\nSTRUCTURAL SIGNATURE -- UNIFORM 7-PENDANT GROUPS\n  10 clusters of 7 pendants each (+ one group of 8 + one group of 6). Regularity = STRUCTURED\n  REGISTER with ~70-position grid.\n  AS094 paired companion: 6-pendant primaries + 6-subsidiary-per-pendant = 6x6=36 slots.\n  AS093 (this): 10 x 7 = 70 slots in a 10-group / 7-cord structure.\n  The pair 10x7 + 6x6 may split content + counts: AS093 as the content-identity register with\n  TOP-chiki anchor; AS094 as the 6x6 numerical-checklist companion.\n\nVOCABULARY (1 STRING, 100 percent dict hit)\n  TOP-chiki x1 (p29 BB) = SELF-TOPICALISED (the sole occurrence of BB colour in the near-monochrome\n  document). Topicalised identity marker: 'concerning the self'. Possibly identifies the document's\n  subject (a named party, lineage head, or owner) whose sub-categories the 10 x 7 grid enumerates.\n\nCOLOR ROLE MAP\n  B (69, 99%)  = PRIMARY MONOCHROME CHANNEL -- all 56 INT cords + 13 EMPTY cords.\n  BB (1, 1%)   = UNIQUE IDENTITY MARKER -- carries the sole STRING (TOP-chiki).\n  Two-colour palette with BB serving as the SINGLE IDENTITY-TAG colour distinct from the B\n  data-channel. Matches AS094's 2-color palette (B + BB) but AS094 has no STRING anchor.\n\nHYPOTHESIS\n  AS093 is the IDENTITY-ANCHORED CONTENT HALF of the AS093+AS094 compound Gaffron pair. 10 clusters\n  of 7 pendants (mostly) organise 70 data positions; the single TOP-chiki cord at p29 BB identifies\n  the register's subject as 'concerning the self' -- a named party, owner, or lineage. AS094's 6x6\n  subsidiary matrix (36 slots) provides the companion-level counts. The two khipus together register\n  a specific party's cadastral or administrative content across the 10-group 7-pendant framework of\n  AS093 + the 6x6 numerical grid of AS094. 3 loose fragments (B colour, lengths 29 / 28 / 30.5 cm,\n  values 1 / 2 / 0) represent pendants separated during museum handling -- OKR speculates one may\n  belong to this document.\n  COMPLETES THE GAFFRON 6/6 ARCHIVE: UR1087 (manages) + AS089 (templates) + AS090 (legalises named\n  parties) + AS092 (audits arithmetic) + AS093+AS094 (compound identity-and-counts pair).",
+
+  "narrative": "Seventy cords, nearly all the same colour. Sixty-nine of them on colour B -- a dark-brown channel that runs unbroken across the document's ten clusters. Only one cord uses a different colour: BB, and that cord, at position twenty-nine, carries the one word of the whole register. TOP-chiki. Topicalised self. 'Concerning the self.' The document's subject, declared once, in ink that matters because it is the only ink.\n\nAS093 is the content companion of AS094. The two khipus were tied together at their twisted ends when Gaffron donated them in the nineteenth century, and the Museum fur Volkerkunde in Munich gave them the same catalogue number. They share a physical identity. AS094 is the six-by-six subsidiary matrix -- six pendants of colour B with six subsidiaries each, thirty-six numerical positions at micro-scale. AS093 is larger and structurally different: ten clusters of seven pendants each (mostly), seventy positions organised in a 10-row-by-7-column grid. One pair of documents, one compound administrative object.\n\nThe uniform 7-pendant cluster structure is deliberate. Cluster one: seven cords. Two: seven. Three: seven. Four: eight (one pendant extra). Five through nine: seven, seven, seven, seven, seven. Ten: six. The pattern is regular enough that the scribe chose it as the register's organising frame, with minor per-cluster adjustments. If AS094's 6x6 is the COUNTS, AS093's 10x7 is the CATEGORIES -- ten rows for ten content categories, seven columns for seven per-category attributes.\n\nThe values are medium scale. Fifteen at cord twenty-five on B, twelve at cord twenty-four, eleven at cord forty-two, ten at cord twenty-three, nine at cord sixty-one. Sum total two hundred and seventy across fifty-six numerical cords. Not the audit-scale of AS092 next door (sum eight hundred, peak one hundred and eighty-nine); not the micro-scale of AS094 (sum seventy-three, peak four). AS093 sits in the middle, at intermediate administrative counts.\n\nTwo of three declared pendant-pendant Ascher sums verify. Sixty-seven percent verification. Not audit-grade (AS092 at one hundred percent, UR275 at one hundred percent, AS026A at one hundred percent), not zero-integrity either (UR263 at zero, UR262 at zero). AS093 sits at intermediate arithmetic integrity -- some sums tied and verified, others untied or damaged, characteristic of an administrative register actively used and partially certified.\n\nThree loose fragments were stored with the document by the original Ascher cataloguers: three pieces of colour B, lengths twenty-nine centimetres, twenty-eight centimetres, thirty point five centimetres, carrying values one, two, zero respectively. The field-investigator note speculates one of them might be the remainder of a torn pendant from AS093. The separation is the Kind of loss that accrues across five centuries of handling -- individual cords breaking free from the primary, stored loose alongside the main khipu because the specific primary-cord position could no longer be determined.\n\nWith AS093's deep-read, the Gaffron family at Munich is complete. Six khipus, six administrative functions, one Pachacamac-associated archive donated by a single European collector in the nineteenth century and dispersed across catalogue numbers KH0105 through KH0106 at the Khipu Field Guide plus four earlier identifiers. UR1087 (equals AS087) manages the precinct. AS089 templates eight parcel registrations. AS090 legalises twenty-two grammatical forms on named parties. AS092 audits at one hundred percent Ascher verification. AS093 identifies the self. AS094 counts the 6x6 checklist. Each scribe's work preserved, each specific function identifiable, each physical pairing honoured.\n\nIn a drawer at the Museum fur Volkerkunde in Munich, AS093 rests beside AS094, tied together at the twisted ends, their three orphan fragments stored with them. One khipu cannot tell its full story without the other. The family is whole.",
+
+  "attribution": {
+    "prior_work": [
+      {"claim": "AS093 and AS094 are physically associated at Museum fur Volkerkunde Munich: twisted ends loosely tied + same Museum catalog number. OKR-attested compound-document pairing.",
+       "citation": "OKR cord-note on AS093; Ascher, M. and Ascher, R. (1978). Code of the Quipu: Databook."},
+      {"claim": "AS093 carries 3 loose pendant fragments stored separately (color B, lengths 29/28/30.5 cm, values 1/2/0). The OKR cataloguer speculates one may be the remainder of a torn pendant from the primary document.",
+       "citation": "Ascher, M. and Ascher, R. (1978). Code of the Quipu: Databook; OKR physical note on AS093."},
+      {"claim": "The Gaffron collection at Munich comprises 6 khipus (AS087, AS089, AS090, AS092, AS093, AS094) donated by Gaffron with 'Peru' provenance, by scholarly consensus associated with Pachacamac.",
+       "citation": "Nordenskiold, E. (1925). The Secret of the Peruvian Quipus; Eeckhout, P. (2000). Pachacamac y el proyecto Ychsma."}
+    ],
+    "v3_contribution": [
+      {"claim": "GAFFRON FAMILY 6/6 COMPLETE: AS093 is the last Gaffron member deep-read. Full archive now analysed: UR1087 (= AS087) admin cadastre + AS089 template + AS090 legal + AS092 audit-grade + AS093 identity-anchored content + AS094 6x6 matrix. First fully-analysed multi-document Gaffron Pachacamac archive family in the corpus.",
+       "evidence": {"kind": "structural", "matches": 6, "test": "6-of-6 Gaffron family deep-read completeness"}},
+      {"claim": "TOP-CHIKI IDENTITY ANCHOR: single STRING cord at p29 BB carries topicalised-self = 'concerning the self' (or named party / owner). The BB colour is unique in the near-monochrome B register = MARKER COLOUR for the identity declaration.",
+       "evidence": {"kind": "structural", "matches": 1, "test": "TOP-chiki on unique BB colour in near-monochrome document"}},
+      {"claim": "10 x 7 UNIFORM CLUSTER STRUCTURE: 10 clusters of 7 pendants (mostly) = 70-position register grid. Complements AS094's 6x6 = 36-position subsidiary grid. Pair structure: AS093 content-categories (10x7) + AS094 numerical-counts (6x6).",
+       "evidence": {"kind": "structural", "matches": 10, "test": "uniform 7-pendant cluster structure across 10 groups"}},
+      {"claim": "INTERMEDIATE ASCHER INTEGRITY: 2/3 verified = 67 percent. Between AS092 audit-grade (100 percent at 18/18) and AS094 / UR263 no-verification (0 percent). AS093 sits at middle-tier arithmetic integrity.",
+       "evidence": {"kind": "statistical", "matches": 2, "test": "2-of-3 Ascher verification rate"}},
+      {"claim": "AS093+AS094 COMPOUND-DOCUMENT FUNCTIONAL PAIRING: AS093 (70 cords, TOP-chiki identity anchor, 10x7 structure) = IDENTITY-ANCHORED CONTENT half; AS094 (51 cords, 6x6 subsidiary matrix, 0 STRING, micro-values) = NUMERICAL-COUNTS half. Similar convention to UR273A+UR273B (event-log + audit-totals) and UR262+UR263 (master + day-book).",
+       "evidence": {"kind": "physical", "matches": 2, "test": "twisted-end pairing + shared museum number + complementary identity/counts functions"}},
+      {"claim": "3 LOOSE FRAGMENTS DOCUMENTED: orphan pendants stored with AS093 (lengths 29/28/30.5 cm, values 1/2/0). Physical evidence of cord-loss across 5-century handling. First corpus-documented case of orphan-fragment preservation with a deep-read khipu.",
+       "evidence": {"kind": "physical", "matches": 3, "test": "OKR-attested 3 orphan pendant fragments stored with AS093"}}
+    ]
+  },
+
+  "companions": [
+    {"id": "AS094", "relation": "paired_twin",
+     "note": "COMPOUND DOCUMENT COMPANION via twisted-end loose-tie + shared Museum catalog number. AS093 (70 cords, identity-anchored 10x7 content register with TOP-chiki) + AS094 (51 cords, 6x6 subsidiary matrix with 0 STRING). Pair = content-identity + numerical-counts complement.",
+     "evidence": {"kind": "physical", "matches": 3, "test": "OKR twisted-end binding + shared museum number + functional complementarity"}},
+    {"id": "UR1087", "relation": "paired_twin",
+     "note": "GAFFRON SIBLING = AS087 admin cadastre (97 cords, Sept 1461 CE). Manages the Pachacamac precinct; AS093 identifies the register's subject within that administrative frame."},
+    {"id": "AS089", "relation": "paired_twin",
+     "note": "GAFFRON SIBLING = compact template cadastre (35 cords, 8x3 template)."},
+    {"id": "AS090", "relation": "paired_twin",
+     "note": "GAFFRON SIBLING = paradigmatic legal register (58 cords, monochrome W, 22 grammatical forms). AS093 + AS090 both use monochrome-dominant palettes + STRING identity anchors (TOP-chiki vs paradigmatic-declension)."},
+    {"id": "AS092", "relation": "paired_twin",
+     "note": "GAFFRON SIBLING = AUDIT-GRADE 10x6 matrix (56 cords, 18/18 Ascher = 100 percent). AS093 (this) has 2/3 Ascher = 67 percent intermediate integrity."},
+    {"id": "HP051", "relation": "cross_khipu_signal",
+     "note": "MNAAHP Lima identity register (chiki x6 + chiqa + tama). HP051's chiki-density-dominance parallels AS093's TOP-chiki identity-anchor convention at different scales."},
+    {"id": "UR273A", "relation": "same_document_type",
+     "note": "Incahuasi UE 14 sparse event register (paired with UR273B audit totals via both-primary-cord binding). AS093+AS094 compound-document pairing mirrors UR273A+UR273B convention at different scale and function."},
+    {"id": "UR262", "relation": "same_document_type",
+     "note": "Kallanka wrapped companion to UR263 (master register + day-book compound). AS093+AS094 is the Pachacamac-scale compound-document analogue of UR262+UR263."}
+  ],
+
+  "confidence_axes": {
+    "word_reading": {
+      "level": "high",
+      "note": "1/1 STRING at 100 percent dict hit (TOP-chiki). Single lexical anchor unambiguous; chiki base-form dictionary-stable across chi->ki onset convention."
+    },
+    "document_type": {
+      "level": "medium-high",
+      "note": "administrative_accounting identity-anchored content sub-type supported by (a) TOP-chiki identity marker, (b) physical pairing with AS094 numerical matrix, (c) uniform 10 x 7 cluster structure = 70-position content grid, (d) Gaffron family stack position (content companion to numerical counts), (e) intermediate 2/3 Ascher integrity. Specific content category (parcels / tribute / census / other) not determinable from single-STRING."
+    },
+    "narrative": {
+      "level": "medium",
+      "note": "The 'identity-anchored content companion to AS094' reading is internally coherent and directly anchored on OKR-attested pairing + TOP-chiki anchor + 10x7 structure + Gaffron family context. The specific subject-of-the-register interpretation (named party / lineage / owner) rests on 1 STRING cord."
+    },
+    "data_integrity": {
+      "level": "medium",
+      "note": "2/3 Ascher verified = 67 percent (intermediate). 3 loose fragments stored separately = partial cord loss documented. 19 percent empty cords moderate. KH0106 catalogued. The compound-document pairing with AS094 provides structural cross-validation."
+    }
+  },
+
+  "sections": [
+    {"id": "I", "title": "First 4 Clusters -- Opening Content", "cords": "1-29",
+     "reading": "Four 7-pendant clusters opening the content register. Values range 9-15 (medium scale). TOP-chiki identity anchor arrives at p29 BB -- the sole STRING cord, declaring the register 'concerning the self'.",
+     "key_cords": [
+       {"pos": 23, "gloss": "B val=10", "note": "cluster-3 value"},
+       {"pos": 24, "gloss": "B val=12", "note": "cluster-3 value"},
+       {"pos": 25, "gloss": "B val=15", "note": "DOCUMENT PEAK at cluster-3"},
+       {"pos": 29, "gloss": "BB TOP-chiki", "note": "SOLE STRING -- identity anchor on unique BB colour"}
+     ]},
+    {"id": "II", "title": "Middle Clusters -- Core Content Body", "cords": "30-56",
+     "reading": "Clusters 5, 6, 7 (7 pendants each). Continued content entries on B. Mid-scale values.",
+     "key_cords": [
+       {"pos": 42, "gloss": "B val=11", "note": "mid-body high value"}
+     ]},
+    {"id": "III", "title": "Final Clusters -- Closing Content", "cords": "57-70",
+     "reading": "Clusters 8, 9, 10 (7+7+6 cords). p61 B val=9. Register closes after the 10-group content enumeration.",
+     "key_cords": [
+       {"pos": 61, "gloss": "B val=9",  "note": "cluster-9 value"},
+       {"pos": 70, "gloss": "LAST CORD", "note": "closes the 10-group 7-pendant identity-anchored content register"}
+     ]},
+    {"id": "IV", "title": "Loose Fragments (Non-Positional)", "cords": "3 orphan fragments stored separately",
+     "reading": "3 orphan pendant fragments on colour B (OKR-attested): lengths 29.0 cm, 28.0 cm, 30.5 cm; values 1, 2, 0. Physical evidence of cord-loss. One may belong to AS093 but position cannot be determined.",
+     "key_cords": [
+       {"pos": 0, "gloss": "fragment 1 (29.0 cm, val=1)", "note": "orphan B pendant"},
+       {"pos": 0, "gloss": "fragment 2 (28.0 cm, val=2)", "note": "orphan B pendant"},
+       {"pos": 0, "gloss": "fragment 3 (30.5 cm, val=0)", "note": "orphan B pendant"}
+     ]}
+  ],
+
+  "references": [
+    "Sivan, J. (2026). The Khipu as a Layered Information System. ALBA Project preprint.",
+    "Sivan, J. (2026). Ascher Sums as Erasure Codes. ALBA Project preprint.",
+    "Sivan, J. (2026). Deep reads UR1087 + AS089 + AS090 + AS092 + AS094 v4 (Gaffron family members).",
+    "Ascher, M. and Ascher, R. (1978). Code of the Quipu: Databook -- AS093 cluster structure and orphan fragments.",
+    "Nordenskiold, E. (1925). The Secret of the Peruvian Quipus.",
+    "Eeckhout, P. (2000). Pachacamac y el proyecto Ychsma.",
+    "Museum fur Volkerkunde, Munich catalog -- Gaffron collection.",
+    "OKR note on AS093: '3 pendant fragments stored with the quipu: color B, lengths 29/28/30.5 cm, values 1/2/0. AS093 and AS094 associated: twisted ends loosely tied + same Museum number.'",
+    "Khipu Field Guide catalog: https://www.khipufieldguide.com/catalog/KH0106.html",
+    "Compare AS094 (paired companion), UR1087 + AS089 + AS090 + AS092 (Gaffron family), HP051 (chiki identity-density parallel), UR273A + UR262 (compound-document pairing convention)."
+  ],
+
+  "reconstructed_xlsx": null
+}
